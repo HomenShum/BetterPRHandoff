@@ -2,15 +2,90 @@
 
 A Claude Code skill that turns "made some changes, time to commit" into a deterministic, verifiable contribution protocol. Built so the next person reading your submission — your reviewer, your future self, the engineer you're handing the project to, the next AI agent picking up the branch — doesn't have to spelunk through 40 commit messages to understand what changed.
 
-## What it does
+## What it produces
 
-Two phases, applied to every commit / branch / PR:
+Three artifacts per commit, applied based on what the change touched:
+
+1. **Per-surface changelog entries** — append-only files under `CHANGELOG/<category>/<slug>.md`, one entry per touched surface, cross-linked.
+2. **Verified demo (UI changes only)** — Playwright recorder + Gemini video analysis, both must pass.
+3. **ASCII runtime diagram (multi-layer changes)** — visual map of what changed across frontend / backend / database / agent. Renders unchanged in commit bodies, PR descriptions, GitHub markdown, and terminal `git log`.
+
+### What a 4-layer diagram looks like
+
+This is the actual diagram from SitFlow's `care_rules` introduction (a single change touched all 4 layers). Drawn once, dropped into the commit body, the affected lane entries, and the PR description — every reviewer sees the same map:
+
+```
+┌──────────────────────── FRONTEND (Expo + React Native) ────────────────────────┐
+│                                                                                 │
+│  ~ app/(tabs)/index.tsx           ~ app/clients/[id].tsx                       │
+│      [Inbox]                          [Client Detail]                          │
+│         │                                  │                                    │
+│         │ uses CareCard(compact)          │ uses CareCard(full)                │
+│         │                                  │                                    │
+│         └──────────────┬───────────────────┘                                   │
+│                        ▼                                                       │
+│                 + components/CareCard.tsx (NEW)                                │
+│                     • 3 modes: compact / today / full                          │
+│                     • severity → color stripe (red / yellow / blue)            │
+│                     • category emoji icons                                     │
+│                     • legacy fallback to behaviorNotes                         │
+│                                                                                 │
+└────────────────────────────┬───────────────────────────────────────────────────┘
+                             │ tRPC (clients.getById)
+                             ▼
+┌──────────────────────── BACKEND (Express + tRPC) ─────────────────────────────┐
+│                                                                                 │
+│  ~ server/db.ts                                                                │
+│      ~ getClientById() now joins care_rules per pet                           │
+│      + listCareRulesForPet(petId) → CareRule[]                                │
+│                                                                                 │
+│  + server/m-and-g.ts (NEW, lands in da4bbff)                                   │
+│      extractCarePlanFromText(transcript) → ProposedCarePlan                    │
+│           │                                                                    │
+│           └─→ server/llm.ts (pi-ai chat with TypeBox schema enforcement)      │
+│                                                                                 │
+└──────────────┬─────────────────────────────────────────────┬───────────────────┘
+               │ Drizzle ORM                                 │ pi-ai (Anthropic Haiku)
+               ▼                                             ▼
+┌────────────── DATABASE (MySQL) ──────────────┐  ┌────────── AGENT ─────────────────┐
+│                                              │  │                                  │
+│  · pets table (existing)                     │  │  Prompt: "Extract care rules    │
+│    ┌──────────────────┐                      │  │   from this M&G transcript..."   │
+│    │ id               │←── FK ────────┐     │  │  Schema: ProposedCarePlan        │
+│    │ name             │               │     │  │   (TypeBox, strict)              │
+│    │ behaviorNotes    │ ← legacy KEPT │     │  │  Tools: none (pure extraction)   │
+│    └──────────────────┘               │     │  │                                  │
+│                                       │     │  │  Cost cap: $5/day USD enforced  │
+│  + care_rules table (NEW)             │     │  │   via ensureUnderCap() — 429    │
+│    ┌──────────────────────┐          │     │  │   if exceeded, never silent      │
+│    │ id                   │          │     │  │                                  │
+│    │ pet_id               │──────────┘     │  │  ~ $0.0014 per extract           │
+│    │ category (8 enums)   │                │  │  ~ 2-3s round trip               │
+│    │ severity (4 enums)   │                │  │                                  │
+│    │ rule TEXT            │                │  └──────────────────────────────────┘
+│    │ context TEXT NULL    │
+│    │ source ENUM          │
+│    │ created_at DATETIME  │
+│    └──────────────────────┘
+│
+│  Migration: drizzle/0001_care_rules.sql
+│
+└──────────────────────────────────────────────┘
+
+Legend:  + NEW   ~ MODIFIED   - REMOVED   · UNCHANGED (shown for context)
+```
+
+A reviewer who sees this knows in 10 seconds: a new component, two screens use it, a new server module fronts a new table, an agent prompt+schema with a cost cap fills it. Three more worked examples (1-layer, 2-layer, 3-layer) in [`templates/runtime-diagram.md`](templates/runtime-diagram.md).
+
+## What each phase actually does
 
 **Phase 1 — Per-surface changelog lanes (always).** Every page, component, server module, db table, integration, and script gets its own `CHANGELOG/<category>/<slug>.md` file. When you change a surface, you prepend a new dated entry. Multi-surface changes write entries to **each** affected lane, cross-linked via `**Touches**:`. Append-only — the audit trail is the whole point.
 
 **Phase 2 — Verified demo recording (when relevant).** For UI changes: a Playwright recorder asserts every claim via DOM grep, then a Gemini-2.5-Flash pass watches the recorded MP4 and confirms what's actually visible. Both layers must pass before you push. Catches the gap between "the string is in the DOM" and "the string is visibly on screen."
 
-**Plus a bonus rule** the skill enforces: never claim "deployed" / "shipped" / "live" on the basis of CLI exit codes. Always fetch the live URL and grep for a concrete content signal.
+**Phase 3 — Live-DOM verification before claiming done.** Never claim "deployed" / "shipped" / "live" on the basis of CLI exit codes or build logs. Always fetch the live URL (or authenticated API) and grep for a concrete content signal. Catches webhooks silently disconnected, Suspense traps, CDN-cached stale HTML.
+
+**Phase 4 — ASCII runtime diagram (when the change crosses 2+ layers).** Draw what changed across frontend / backend / database / agent so reviewers see the data flow at a glance. Don't draw for trivia; draw for any cross-cutting feature.
 
 ## Why per-surface beats repo-wide changelogs
 
