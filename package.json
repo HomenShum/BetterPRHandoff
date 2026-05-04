@@ -1,6 +1,6 @@
 {
   "name": "@homenshum/easier-to-read-submissions",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Make every commit easier to read for the next person — per-surface changelog lanes + verified demo + ASCII runtime diagram + QA packet schema (Gmail Magic Resend). Drop-in skill for Claude Code, Cursor, Cline, Aider, and any LLM agent.",
   "keywords": [
     "claude-code",
