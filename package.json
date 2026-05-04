@@ -1,0 +1,49 @@
+{
+  "name": "@homenshum/easier-to-read-submissions",
+  "version": "1.1.0",
+  "description": "Make every commit easier to read for the next person — per-surface changelog lanes + verified demo + ASCII runtime diagram. Drop-in skill for Claude Code, Cursor, Cline, Aider, and any LLM agent.",
+  "keywords": [
+    "claude-code",
+    "claude",
+    "ai-agent",
+    "agents",
+    "cursor",
+    "cline",
+    "aider",
+    "changelog",
+    "code-review",
+    "branch-handoff",
+    "ascii-diagram",
+    "playwright",
+    "gemini",
+    "verified-demo",
+    "skill"
+  ],
+  "homepage": "https://github.com/HomenShum/easier-to-read-submissions",
+  "bugs": "https://github.com/HomenShum/easier-to-read-submissions/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HomenShum/easier-to-read-submissions.git"
+  },
+  "license": "MIT",
+  "author": "Homen Shum <hshum2018@gmail.com>",
+  "type": "module",
+  "bin": {
+    "easier-to-read-submissions": "./bin/init.mjs",
+    "easier": "./bin/init.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "AGENTS.md",
+    "README.md",
+    "LICENSE",
+    "bin/",
+    "templates/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node bin/init.mjs --help"
+  }
+}

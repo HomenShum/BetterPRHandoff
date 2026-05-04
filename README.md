@@ -1,6 +1,52 @@
-# easier-to-read-submissions — a Claude Code skill
+# easier-to-read-submissions
 
-A Claude Code skill that turns "made some changes, time to commit" into a deterministic, verifiable contribution protocol. Built so the next person reading your submission — your reviewer, your future self, the engineer you're handing the project to, the next AI agent picking up the branch — doesn't have to spelunk through 40 commit messages to understand what changed.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![npm](https://img.shields.io/badge/npm-@homenshum%2Feasier--to--read--submissions-blue)](https://www.npmjs.com/package/@homenshum/easier-to-read-submissions) [![Works with](https://img.shields.io/badge/works%20with-Claude%20Code%20%7C%20Cursor%20%7C%20Cline%20%7C%20Aider%20%7C%20Codex%20%7C%20any%20LLM-purple)](#install-anywhere-pick-your-agent)
+
+A drop-in protocol for **any** LLM-driven coding agent that turns "made some changes, time to commit" into a deterministic, verifiable submission. Built so the next person reading your branch — your reviewer, your future self, the engineer you're handing the project to, the next AI agent — doesn't have to spelunk through 40 commit messages to understand what changed.
+
+Three artifacts the protocol produces per submission, automatically:
+
+- **Per-surface changelog entries** — append-only files under `CHANGELOG/<category>/<slug>.md`, one entry per touched surface, cross-linked.
+- **Verified demo recording** (UI changes only) — Playwright recorder + Gemini video analysis. Both must pass.
+- **ASCII runtime diagram** (multi-layer changes) — visual map of what changed across DEPLOY → FRONTEND → BACKEND → DATABASE → AGENT, including parallel-stack labels (`· LIVE` / `· DORMANT`).
+
+---
+
+## Install anywhere — pick your agent
+
+```bash
+# One-line install (Mac / Linux / Git Bash) — auto-detects your environment
+curl -fsSL https://raw.githubusercontent.com/HomenShum/easier-to-read-submissions/main/install.sh | bash
+
+# One-line install (Windows PowerShell)
+iwr https://raw.githubusercontent.com/HomenShum/easier-to-read-submissions/main/install.ps1 -useb | iex
+
+# OR via npm (works everywhere)
+npx @homenshum/easier-to-read-submissions install
+```
+
+That installs the skill to the right path for whichever agent you're using. Manual paths if you'd rather:
+
+| Your agent | Where to install | What to drop |
+|---|---|---|
+| **Claude Code** (per-user) | `~/.claude/skills/easier-to-read-submissions/` | full skill (SKILL.md + templates/) |
+| **Claude Code** (per-repo) | `<repo>/.claude/skills/easier-to-read-submissions/` | full skill |
+| **Cursor** | `<repo>/.cursor/rules/easier-to-read-submissions.md` | AGENTS.md |
+| **Cline** | `<repo>/.clinerules` | AGENTS.md |
+| **Aider** | `<repo>/AGENTS.md` (use with `aider --read AGENTS.md`) | AGENTS.md |
+| **Codex / Continue.dev / Devin / generic LLM** | `<repo>/AGENTS.md` (point your `systemMessage` at it) | AGENTS.md |
+| **No agent** (humans only) | wherever — read `SKILL.md` and apply by hand | full skill |
+
+After install, bootstrap your repo's CHANGELOG/:
+
+```bash
+npx easier init                    # scaffolds CHANGELOG/ + TEMPLATE.md
+npx easier add components Button   # add a new lane file
+```
+
+Then tell your agent: **"Follow `AGENTS.md` before every commit / push / PR."**
+
+---
 
 ## What it produces
 
