@@ -1,10 +1,10 @@
-# branch-contribution — a Claude Code skill
+# easier-to-read-submissions — a Claude Code skill
 
-A Claude Code skill that turns "made some changes, time to commit" into a deterministic, verifiable contribution protocol. Built for handing branches between humans and AI agents without the receiving end having to read 40 commit messages to understand what changed.
+A Claude Code skill that turns "made some changes, time to commit" into a deterministic, verifiable contribution protocol. Built so the next person reading your submission — your reviewer, your future self, the engineer you're handing the project to, the next AI agent picking up the branch — doesn't have to spelunk through 40 commit messages to understand what changed.
 
 ## What it does
 
-Two phases, applied to every branch contribution:
+Two phases, applied to every commit / branch / PR:
 
 **Phase 1 — Per-surface changelog lanes (always).** Every page, component, server module, db table, integration, and script gets its own `CHANGELOG/<category>/<slug>.md` file. When you change a surface, you prepend a new dated entry. Multi-surface changes write entries to **each** affected lane, cross-linked via `**Touches**:`. Append-only — the audit trail is the whole point.
 
@@ -35,7 +35,7 @@ Time cost: ~75 seconds to record, ~30 seconds for Gemini analysis. Worth it on e
 ### As a Claude Code skill (one user, one machine)
 
 ```bash
-git clone https://github.com/HomenShum/branch-contribution-skill ~/.claude/skills/branch-contribution
+git clone https://github.com/HomenShum/easier-to-read-submissions ~/.claude/skills/easier-to-read-submissions
 ```
 
 The skill auto-loads on next Claude Code session. Triggers on prompts like "commit", "push this", "open a PR", "I'm done", "wrap this up", "before we hand off."
@@ -43,10 +43,10 @@ The skill auto-loads on next Claude Code session. Triggers on prompts like "comm
 ### As a project-shipped skill (whole team gets it)
 
 ```bash
-git clone https://github.com/HomenShum/branch-contribution-skill <your-repo>/.claude/skills/branch-contribution
+git clone https://github.com/HomenShum/easier-to-read-submissions <your-repo>/.claude/skills/easier-to-read-submissions
 ```
 
-Commit `.claude/skills/branch-contribution/` to the repo. Anyone who clones the repo and opens it in Claude Code gets the skill automatically.
+Commit `.claude/skills/easier-to-read-submissions/` to the repo. Anyone who clones the repo and opens it in Claude Code gets the skill automatically.
 
 ### Manual fallback (no Claude Code)
 
@@ -74,7 +74,7 @@ Came out of the SitFlow → Jaynee handoff. SitFlow is a pet-sitter booking copi
 - A way to verify her own changes didn't break the demo
 - A way for her future Claude Code agent to keep the audit trail going
 
-Per-surface lanes solved 1 and 3. Playwright + Gemini solved 2. Codified into this skill so the next handoff is just `git clone <skill-url> ~/.claude/skills/branch-contribution`.
+Per-surface lanes solved 1 and 3. Playwright + Gemini solved 2. Codified into this skill so the next handoff is just `git clone <skill-url> ~/.claude/skills/easier-to-read-submissions`.
 
 ## License
 

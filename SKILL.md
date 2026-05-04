@@ -1,20 +1,22 @@
 ---
-name: branch-contribution
-description: When making a code change on any branch, follow the per-surface changelog protocol and (where relevant) the verified-demo recording protocol before claiming "done." Use this any time you commit, push, open a PR, or finish a task that touched user-facing code. Keeps repo history sharp per-surface (not just chronological), gives reviewers a verifiable proof that the change works, and stays append-friendly for the next AI agent picking up the branch.
-trigger: when user says "commit", "push", "PR", "open a pull request", "ship this", "I'm done with X", "wrap this up", "finalize the branch", "hand this off", "what changed", "changelog", "record a demo", "verify the demo", "before we hand off", "before jaynee pulls", "for the next agent"
+name: easier-to-read-submissions
+description: Make every code submission (commit, branch, PR) easier to read for the next person picking it up — human or AI. Forces per-surface changelog entries (one append-only file per page/component/server module/db table/integration/script, not one undifferentiated git log) and (when UI changed) a verified demo recording with both DOM checks and Gemini video analysis. Use any time you commit, push, open a PR, hand off a branch, or finish a task that touched user-facing code.
+trigger: when user says "commit", "push", "PR", "open a pull request", "ship this", "I'm done with X", "wrap this up", "finalize the branch", "hand this off", "what changed", "changelog", "record a demo", "verify the demo", "before we hand off", "before jaynee pulls", "for the next agent", "make this easier to read", "for the reviewer", "for the next person"
 version: 1.0.0
 ---
 
-# Branch contribution protocol
+# Easier-to-read submissions
 
-You are about to commit, push, open a PR, or hand off a branch. Before you call the change "done," you owe two artifacts:
+A code submission — a commit, a branch, a PR, a hand-off — that the next person can read without spelunking. The next person might be your reviewer, your future self three months from now, the engineer you're handing the project to, or the next AI agent picking up the branch. They all benefit from the same protocol.
+
+You are about to commit, push, open a PR, or hand off a branch. Before you call the change "done," you owe two artifacts that make the submission readable:
 
 1. **Per-surface changelog entries** — one entry in each lane file for every surface your diff touched. Append-only, dated, cross-linked.
 2. **(When the change touched a screen the demo asserts)** A re-recorded, verified demo MP4 + GIF + evidence JSON. Both DOM checks and a Gemini video pass must succeed before you push.
 
 Both halves exist because **a code diff alone is illegible** to the next person on the branch — human or AI. Without per-surface lanes, the next contributor has to read the whole `git log` to understand what one screen used to look like. Without a verified demo, your "this works" claim is unfalsifiable.
 
-This protocol came out of the SitFlow handoff to Jaynee — see [`https://github.com/HomenShum/branch-contribution-skill`](https://github.com/HomenShum/branch-contribution-skill) for the public skill repo and the original use case.
+This protocol came out of the SitFlow → Jaynee handoff — see [`https://github.com/HomenShum/easier-to-read-submissions`](https://github.com/HomenShum/easier-to-read-submissions) for the public skill repo and the original use case.
 
 ---
 
