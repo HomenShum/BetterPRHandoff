@@ -6,6 +6,7 @@
  *   init                    Scaffold CHANGELOG/ + TEMPLATE.md in current dir
  *   add <category> <slug>   Create a new lane file (category: pages|components|server|db|integrations|scripts)
  *   qa-init                 Scaffold qa.config.json from the example template
+ *   qa <feature-id>         Scaffold QA_DOGFOOD/<feature-id>/ packet files
  *   entry <lane-file>       Prepend a new entry to a lane (interactive)
  *   install [target]        Install the skill (target: user|project|cursor|cline|aider|generic)
  *   help
@@ -48,6 +49,7 @@ ${C.bold("Subcommands:")}
   ${C.cyan("add <category> <slug>")}         Create a new lane file
                                   (category: pages|components|server|db|integrations|scripts)
   ${C.cyan("qa-init")}                       Scaffold qa.config.json (Phase 5 / QA packet)
+  ${C.cyan("qa <feature-id>")}               Scaffold QA_DOGFOOD/<feature-id>/ packet files
   ${C.cyan("install [target]")}              Install the skill where your agent reads it
                                   (target: user|project|cursor|cline|aider|generic|auto)
   ${C.cyan("help")}                          This help
@@ -57,6 +59,7 @@ ${C.bold("Examples:")}
   npx easier add components Button
   npx easier add db users
   npx easier qa-init
+  npx easier qa nodebench-chat-declutter-v1
   npx easier install cursor
 
 ${C.bold("Docs:")}  https://github.com/HomenShum/easier-to-read-submissions
@@ -191,6 +194,53 @@ async function qaInit() {
   console.log(C.dim("  Generator integration:   See INTEGRATIONS.md in this skill"));
 }
 
+// ----------------------------- qa packet -----------------------------
+
+async function scaffoldQaPacket() {
+  const rawId = args[1] || "";
+  const featureId = rawId
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9._-]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  if (!featureId) {
+    console.error(C.red("✗ Usage: npx easier qa <feature-id>"));
+    console.error(C.dim("  Example: npx easier qa nodebench-chat-declutter-v1"));
+    process.exit(1);
+  }
+
+  const cwd = process.cwd();
+  const dir = join(cwd, "QA_DOGFOOD", featureId);
+  if (await pathExists(dir)) {
+    console.error(C.red(`✗ ${dir} already exists`));
+    process.exit(1);
+  }
+
+  await mkdir(dir, { recursive: true });
+  const replacements = {
+    "__FEATURE_ID__": featureId,
+    "__TITLE__": featureId.replace(/[-_.]+/g, " "),
+    "__DATE__": new Date().toISOString().slice(0, 10),
+  };
+
+  await writeTemplate("qa-dogfood-packet.md", join(dir, "README.md"), replacements);
+  await writeTemplate("qa-dogfood-manifest.json", join(dir, "manifest.json"), replacements);
+  await writeTemplate("gmail-magic-resend.html", join(dir, "gmail-magic-resend.html"), replacements);
+  await writeTemplate("remotion-storyboard.json", join(dir, "remotion-storyboard.json"), replacements);
+
+  console.log(C.green("✓"), `Created ${C.cyan(dir)}`);
+  console.log(C.dim("  Fill links/screenshots/GIF/MP4 after your Parity Studio run or browser QA pass."));
+}
+
+async function writeTemplate(templateName, dest, replacements) {
+  let body = await readFile(join(TPL_DIR, templateName), "utf8");
+  for (const [key, value] of Object.entries(replacements)) {
+    body = body.split(key).join(value);
+  }
+  await writeFile(dest, body);
+}
+
 // ───────────────────────────── install ─────────────────────────────
 
 async function install() {
@@ -258,6 +308,7 @@ async function install() {
     if (cmd === "init") await init();
     else if (cmd === "add") await addLane();
     else if (cmd === "qa-init") await qaInit();
+    else if (cmd === "qa") await scaffoldQaPacket();
     else if (cmd === "install") await install();
     else if (cmd === "--help" || cmd === "-h" || cmd === "help") help();
     else {

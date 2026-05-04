@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "videoId": "__FEATURE_ID__",
+  "title": "__TITLE__",
+  "durationSeconds": 45,
+  "scenes": [
+    {
+      "type": "intro",
+      "title": "What changed",
+      "caption": "State the end-user problem and the visible change."
+    },
+    {
+      "type": "screenshot-compare",
+      "title": "Before and after",
+      "before": "screenshots/before-full.png",
+      "after": "screenshots/after-full.png",
+      "callouts": [
+        "Primary visual change",
+        "Reduced confusion",
+        "Clearer next action"
+      ]
+    },
+    {
+      "type": "workflow-gif",
+      "title": "Primary workflow",
+      "gif": "gifs/primary-workflow.gif"
+    },
+    {
+      "type": "snippet-grid",
+      "title": "Component-level proof",
+      "snippets": [
+        "surface.primary"
+      ]
+    },
+    {
+      "type": "qa-status",
+      "title": "Ready for handoff",
+      "requiredProof": [
+        "browser QA passed",
+        "GIF exists",
+        "MP4 exists",
+        "manifest updated",
+        "CHANGELOG lanes updated"
+      ]
+    }
+  ]
+}

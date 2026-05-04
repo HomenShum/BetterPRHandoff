@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "kind": "easier.qa-dogfood-packet",
+  "featureId": "__FEATURE_ID__",
+  "title": "__TITLE__",
+  "createdAt": "__DATE__",
+  "links": {
+    "preview": "",
+    "parityRun": "",
+    "sideBySideReview": "",
+    "gif": "",
+    "mp4": "",
+    "remotionRender": "",
+    "gmailHtml": "gmail-magic-resend.html"
+  },
+  "workflowLanes": [
+    {
+      "id": "new-user",
+      "label": "New or empty user state",
+      "testUrl": "",
+      "status": "pending"
+    },
+    {
+      "id": "returning-user",
+      "label": "Returning user state",
+      "testUrl": "",
+      "status": "pending"
+    },
+    {
+      "id": "primary-workflow",
+      "label": "Main happy path",
+      "testUrl": "",
+      "status": "pending"
+    },
+    {
+      "id": "comment-edit-correction",
+      "label": "Comment/edit correction",
+      "testUrl": "",
+      "status": "pending"
+    },
+    {
+      "id": "mobile-state",
+      "label": "Mobile state",
+      "testUrl": "",
+      "status": "pending"
+    }
+  ],
+  "personaLanes": [
+    "first-time non-technical user",
+    "product/design reviewer",
+    "coding agent maintainer"
+  ],
+  "snapshotSnippets": [
+    {
+      "componentSlug": "surface.primary",
+      "before": "",
+      "after": "",
+      "diff": "",
+      "expectedChange": "",
+      "actualResult": "",
+      "verdict": "pending",
+      "correctionPrompt": ""
+    }
+  ],
+  "verification": {
+    "browserQa": "pending",
+    "consoleErrors": [],
+    "gifVerified": false,
+    "mp4Verified": false,
+    "geminiVideoAnalysis": "pending",
+    "reviewStatus": "pending"
+  }
+}

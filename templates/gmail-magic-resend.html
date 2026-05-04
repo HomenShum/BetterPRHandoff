@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>__TITLE__ QA packet</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        background: #fbf7ef;
+        color: #23160f;
+        font-family: Arial, sans-serif;
+      }
+      .card {
+        max-width: 760px;
+        margin: 0 auto;
+        background: #fffaf3;
+        border: 1px solid #e7d8ca;
+        border-radius: 18px;
+        padding: 24px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-family: Georgia, serif;
+        font-size: 30px;
+      }
+      a.button {
+        display: inline-block;
+        margin: 8px 8px 8px 0;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: #dc5f42;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 16px;
+      }
+      th,
+      td {
+        border-top: 1px solid #eaded2;
+        text-align: left;
+        padding: 10px;
+        vertical-align: top;
+        font-size: 13px;
+      }
+      code {
+        background: #f1e6dc;
+        border-radius: 6px;
+        padding: 2px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <p><code>__FEATURE_ID__</code></p>
+      <h1>__TITLE__ QA packet</h1>
+      <p>Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.</p>
+      <p>
+        <a class="button" href="#">Open test link</a>
+        <a class="button" href="#">Approve</a>
+        <a class="button" href="#">Needs fix</a>
+        <a class="button" href="#">Magic resend after fix</a>
+      </p>
+      <h2>What changed for end users</h2>
+      <p>Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.</p>
+      <h2>Workflow lanes</h2>
+      <ul>
+        <li>New or empty user state</li>
+        <li>Returning user state</li>
+        <li>Main happy path</li>
+        <li>Comment/edit correction</li>
+        <li>Mobile state</li>
+      </ul>
+      <h2>Snapshot snippets</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Proof</th>
+            <th>Correction prompt</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>surface.primary</code></td>
+            <td>before / after / diff pending</td>
+            <td>Attach a component-scoped fix prompt if the snippet fails.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

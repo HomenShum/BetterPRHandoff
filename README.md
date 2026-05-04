@@ -44,6 +44,7 @@ After install, bootstrap your repo's CHANGELOG/:
 npx easier init                    # scaffolds CHANGELOG/ + TEMPLATE.md
 npx easier add components Button   # add a new lane file
 npx easier qa-init                 # scaffolds qa.config.json (Phase 5 / QA packet)
+npx easier qa nodebench-chat-v1    # scaffolds QA_DOGFOOD/<feature-id>/ packet files
 ```
 
 Then tell your agent: **"Follow `AGENTS.md` before every commit / push / PR."**
