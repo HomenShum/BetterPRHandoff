@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}} — QA v{{version}}</title>
+</head>
+<body style="margin:0;padding:0;background:#0F0F1A;color:#FFFFFF;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.5">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#0F0F1A">
+<tr><td align="center">
+<table role="presentation" width="640" cellspacing="0" cellpadding="0" style="background:#1A1A2E;border-radius:12px;margin:24px 0;overflow:hidden;border:1px solid #2A2A40">
+
+<!-- HEADER ─────────────────────────────────────────────────────────── -->
+<tr><td style="padding:24px 32px;background:linear-gradient(135deg,#A78BFA,#7C3AED)">
+<div style="font-size:12px;letter-spacing:1px;text-transform:uppercase;opacity:0.85;font-weight:600">QA Packet · v{{version}} · {{qaStatus}}</div>
+<div style="font-size:24px;font-weight:700;margin-top:8px">{{title}}</div>
+<div style="font-size:14px;opacity:0.85;margin-top:4px">Branch: <code style="background:rgba(255,255,255,0.15);padding:2px 6px;border-radius:4px">{{branch}}</code>{{#commit}} · Commit: <code style="background:rgba(255,255,255,0.15);padding:2px 6px;border-radius:4px">{{commit}}</code>{{/commit}}</div>
+</td></tr>
+
+<!-- PRIMARY CTA ────────────────────────────────────────────────────── -->
+<tr><td style="padding:24px 32px;background:#1A1A2E">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" style="padding:8px"><a href="{{reviewUrl}}" style="display:block;background:#A78BFA;color:#0F0F1A;text-decoration:none;font-weight:700;padding:14px 24px;border-radius:8px;text-align:center">Open side-by-side review →</a></td>
+</tr>
+{{#previewUrl}}
+<tr><td align="center" style="padding:8px"><a href="{{previewUrl}}" style="display:block;background:transparent;color:#A78BFA;text-decoration:none;font-weight:600;padding:12px 24px;border-radius:8px;border:1px solid #A78BFA;text-align:center">Open live preview</a></td></tr>
+{{/previewUrl}}
+</table>
+</td></tr>
+
+<!-- SUMMARY ────────────────────────────────────────────────────────── -->
+<tr><td style="padding:24px 32px;border-top:1px solid #2A2A40">
+<div style="font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#A78BFA;font-weight:700;margin-bottom:8px">What changed</div>
+<div style="font-size:15px;color:#E5E7EB">{{summary.whatChanged}}</div>
+<div style="font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#A78BFA;font-weight:700;margin:16px 0 8px">Why it matters</div>
+<div style="font-size:15px;color:#E5E7EB">{{summary.whyItMatters}}</div>
+{{#summary.primaryComponents.length}}
+<div style="font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#A78BFA;font-weight:700;margin:16px 0 8px">Primary components</div>
+<div style="font-size:14px;color:#E5E7EB">{{#summary.primaryComponents}}<code style="background:#2A2A40;padding:3px 8px;border-radius:4px;margin-right:6px;font-size:12px">{{.}}</code>{{/summary.primaryComponents}}</div>
+{{/summary.primaryComponents.length}}
+</td></tr>
+
+<!-- REMOTION VIDEO (if present) ─────────────────────────────────────── -->
+{{#remotionVideo}}
+<tr><td style="padding:24px 32px;border-top:1px solid #2A2A40">
+<div style="font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#A78BFA;font-weight:700;margin-bottom:8px">End-to-end demo · {{durationSeconds}}s</div>
+<a href="{{mp4}}"><img src="{{gif}}" alt="Workflow demo" style="width:100%;max-width:576px;border-radius:8px;display:block"></a>
+</td></tr>
+{{/remotionVideo}}
+
+<!-- STATE LANES ────────────────────────────────────────────────────── -->
+<tr><td style="padding:24px 32px;border-top:1px solid #2A2A40">
+<div style="font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#A78BFA;font-weight:700;margin-bottom:16px">State lanes ({{states.length}})</div>
+{{#states}}
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="margin-bottom:24px;border:1px solid #2A2A40;border-radius:8px;overflow:hidden">
+<tr><td style="padding:12px 16px;background:#0F0F1A">
+<div style="font-size:14px;font-weight:600;color:#FFFFFF">{{id}}</div>
+<div style="font-size:12px;color:#8E8EA0;margin-top:2px">{{workflow}} · {{userState}}{{#persona}} · {{persona}}{{/persona}}</div>
+<div style="margin-top:6px">
+{{#qaVerdict_pass}}<span style="background:#34D399;color:#0F0F1A;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700">PASS</span>{{/qaVerdict_pass}}
+{{#qaVerdict_needs_fix}}<span style="background:#F59E0B;color:#0F0F1A;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700">NEEDS FIX</span>{{/qaVerdict_needs_fix}}
+{{#qaVerdict_blocked}}<span style="background:#EF4444;color:#FFFFFF;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700">BLOCKED</span>{{/qaVerdict_blocked}}
+{{#qaVerdict_in_review}}<span style="background:#2A2A40;color:#A78BFA;padding:2px 8px;border-radius:4px;font-size:11px;font-weight:700">IN REVIEW</span>{{/qaVerdict_in_review}}
+</div>
+</td></tr>
+<tr><td style="padding:0">
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+{{#screenshots.before}}<td width="50%" style="padding:8px"><div style="font-size:10px;color:#8E8EA0;text-align:center;margin-bottom:4px">BEFORE</div><img src="{{.}}" alt="before" style="width:100%;border-radius:4px;display:block"></td>{{/screenshots.before}}
+{{#screenshots.after}}<td width="50%" style="padding:8px"><div style="font-size:10px;color:#8E8EA0;text-align:center;margin-bottom:4px">AFTER</div><img src="{{.}}" alt="after" style="width:100%;border-radius:4px;display:block"></td>{{/screenshots.after}}
+</tr>
+</table>
+</td></tr>
+{{#qaNotes}}
+<tr><td style="padding:12px 16px;background:#0F0F1A;border-top:1px solid #2A2A40">
+<div style="font-size:12px;color:#E5E7EB;line-height:1.5">{{qaNotes}}</div>
+</td></tr>
+{{/qaNotes}}
+<tr><td style="padding:8px 16px;background:#0F0F1A;border-top:1px solid #2A2A40">
+<a href="{{testUrl}}" style="font-size:12px;color:#A78BFA;text-decoration:none">Open this state →</a>
+</td></tr>
+</table>
+{{/states}}
+</td></tr>
+
+<!-- ACTIONS ───────────────────────────────────────────────────────── -->
+{{#actions}}
+<tr><td style="padding:24px 32px;border-top:1px solid #2A2A40;background:#0F0F1A">
+<div style="font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#A78BFA;font-weight:700;margin-bottom:12px">Actions</div>
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+<tr>
+{{#approveUrl}}<td align="center" style="padding:6px"><a href="{{approveUrl}}" style="display:block;background:#34D399;color:#0F0F1A;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:6px;text-align:center;font-size:13px">Approve</a></td>{{/approveUrl}}
+{{#needsFixUrl}}<td align="center" style="padding:6px"><a href="{{needsFixUrl}}" style="display:block;background:#F59E0B;color:#0F0F1A;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:6px;text-align:center;font-size:13px">Needs fix</a></td>{{/needsFixUrl}}
+{{#regenerateUrl}}<td align="center" style="padding:6px"><a href="{{regenerateUrl}}" style="display:block;background:transparent;color:#A78BFA;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:6px;border:1px solid #A78BFA;text-align:center;font-size:13px">Regenerate (Magic Resend)</a></td>{{/regenerateUrl}}
+</tr>
+</table>
+</td></tr>
+{{/actions}}
+
+<!-- FOOTER ────────────────────────────────────────────────────────── -->
+<tr><td style="padding:16px 32px;background:#0F0F1A;border-top:1px solid #2A2A40;text-align:center">
+<div style="font-size:11px;color:#8E8EA0">QA packet generated <span>{{createdAt}}</span> · feature <code style="background:#2A2A40;padding:1px 5px;border-radius:3px;font-size:10px">{{featureId}}</code></div>
+<div style="font-size:11px;color:#8E8EA0;margin-top:4px">Schema: <a href="https://github.com/HomenShum/easier-to-read-submissions/blob/main/templates/qa-packet-schema.json" style="color:#A78BFA;text-decoration:none">easier-to-read-submissions v{{schemaVersion}}</a></div>
+</td></tr>
+
+</table>
+</td></tr>
+</table>
+</body>
+</html>

@@ -110,6 +110,33 @@ Three landmines this catches:
 
 If the content signal is not in the raw HTML/API response, the change is not shipped — regardless of what the build log said.
 
+### Step 5b — When the branch is ready for review by someone else, produce a QA packet
+
+A QA packet is a single artifact that a reviewer (human or AI) opens to evaluate the change without running the app. It carries the preview URL, per-state test URLs, before/after screenshots, component snippets, GIFs, an optional Remotion demo video, and a pre-rendered email — all conforming to a shared schema so any generator (Parity Studio, SitFlow scripts, your own tool) can produce it.
+
+When to do this:
+- Feature ready for review by PM / design / another engineer / another AI agent
+- UI change touches 2+ user states
+- Branch handoff is happening
+- You're about to say "shipped" and want a falsifiable record
+
+When **not** to:
+- Server-only changes (no UI affected)
+- Single-state changes already covered by Phase-2 verified demo
+- Trivia (typos, formatting)
+
+How (the protocol):
+
+1. Make sure `qa.config.json` exists at the repo root. If not: `npx @homenshum/easier-to-read-submissions qa-init` scaffolds it from the example.
+2. Run a generator that produces a QA packet conforming to [qa-packet-schema.json](templates/qa-packet-schema.json):
+   - **Parity Studio** (heavy, hosted): `npx parity-studio qa-packet --feature <id>` then `npx parity-studio qa-send --to <email>`
+   - **SitFlow scripts** (lightweight): `node scripts/record-*.mjs` + manual email
+   - **Your tool**: anything that writes packet.json conforming to the schema
+3. The email is "magic resend" — re-running the generator updates the same email thread (`version` field bumps).
+4. Reviewers click links in the email, leave per-state verdicts, hit "Needs fix" → you fix → regenerate → resend.
+
+The consumer side is just `qa.config.json` declaring states. The generator side does the heavy lifting. Don't fork the schema — point your generator at the version published in this repo.
+
 ### Step 6 — Commit message style
 
 Brief subject (60 chars, imperative). Body wrapped at 72 chars explaining **why**, not **what** (readers can `git diff` for what). End every commit with co-author attribution if an AI agent helped:

@@ -1,0 +1,160 @@
+{
+  "$comment": "Drop this at the root of your repo as `qa.config.json`. The QA packet generator (e.g. Parity Studio) reads this to know what to capture. Conforms to the consumer-side slice of qa-packet-schema.json.",
+
+  "schemaVersion": "1.0.0",
+
+  "feature": {
+    "id": "sitflow.care_rules.v1",
+    "title": "Structured care plan + AI extraction",
+    "primaryComponents": [
+      "components/CareCard.tsx",
+      "components/ExpressComposer.tsx",
+      "app/clients/[id].tsx",
+      "app/clients/new.tsx"
+    ]
+  },
+
+  "previewUrlTemplate": "http://localhost:8081{path}",
+  "$comment_previewUrl": "Generator substitutes {path} per state. For deployed previews, use https://feature-branch.vercel.app{path} or a per-PR Vercel preview URL.",
+
+  "baselineRef": "main",
+  "$comment_baseline": "Git ref to capture `before` screenshots from. Generator does git checkout, captures, then returns to current branch.",
+
+  "personas": {
+    "pet_sitter": {
+      "label": "Jaynee — pet sitter",
+      "description": "Returning user with 5 mock clients, mid-week morning routine.",
+      "seed": { "userId": "dev-owner", "ageOfData": "1week" }
+    },
+    "new_user": {
+      "label": "Day-1 sitter",
+      "description": "Fresh signup, no clients yet, just enabled push.",
+      "seed": { "userId": "fresh", "ageOfData": "0" }
+    }
+  },
+
+  "states": [
+    {
+      "id": "inbox-bella-red-callout",
+      "workflow": "inbox",
+      "userState": "returning_user",
+      "persona": "pet_sitter",
+      "appState": "5_clients_bella_critical",
+      "path": "/",
+      "viewport": { "width": 1280, "height": 800 },
+      "expectedChanges": [
+        "Bella's card shows compact CareCard with red 'No human food' + 'NEVER alone' chips",
+        "Other client cards show standard summary (no red stripe)",
+        "Filter chips visible: All / Needs reply / New client / Confirmed"
+      ],
+      "snippets": [
+        "inbox.bella-card",
+        "inbox.filter-chips",
+        "inbox.tom-harris-card"
+      ],
+      "interactions": [
+        { "step": "scroll", "y": 0 },
+        { "step": "wait", "ms": 1500 }
+      ]
+    },
+    {
+      "id": "calendar-today-stats",
+      "workflow": "calendar",
+      "userState": "returning_user",
+      "persona": "pet_sitter",
+      "appState": "5_clients_bella_critical",
+      "path": "/calendar",
+      "viewport": { "width": 1280, "height": 800 },
+      "expectedChanges": [
+        "Calendar header reads 'Today, May 4, 2026' (or current date)",
+        "4-stat strip visible: bookings / M&G / blocks / hours free",
+        "Bella's appointment shows full Care Card with 'No human food' and 'Walk after every nap'"
+      ],
+      "snippets": ["calendar.today-header", "calendar.4-stat-strip", "calendar.bella-care-card"],
+      "interactions": [
+        { "step": "smoothPan", "y": 700 },
+        { "step": "wait", "ms": 2000 }
+      ]
+    },
+    {
+      "id": "client-detail-care-plan",
+      "workflow": "client_detail",
+      "userState": "returning_user",
+      "persona": "pet_sitter",
+      "appState": "smith_family_bella",
+      "path": "/clients/c5",
+      "viewport": { "width": 1280, "height": 800 },
+      "expectedChanges": [
+        "8 categorized care rules visible: Diet, Medical, Behavior, Schedule, Potty, Solo, Items, Comms",
+        "AI permissions section with 3 toggles (READ / DRAFT / SEND)",
+        "Fail-closed by default footer at the bottom"
+      ],
+      "snippets": ["client.header", "client.care-plan", "client.ai-permissions", "client.fail-closed-footer"],
+      "interactions": [
+        { "step": "smoothPan", "y": 500 },
+        { "step": "wait", "ms": 1500 },
+        { "step": "smoothPan", "y": 1100 },
+        { "step": "wait", "ms": 1500 },
+        { "step": "smoothPan", "y": 1700 },
+        { "step": "wait", "ms": 1500 }
+      ]
+    },
+    {
+      "id": "express-composer-empty",
+      "workflow": "new_client",
+      "userState": "returning_user",
+      "persona": "pet_sitter",
+      "appState": "fresh_form",
+      "path": "/clients/new",
+      "viewport": { "width": 1280, "height": 800 },
+      "expectedChanges": [
+        "Express add panel pinned at top with FASTEST PATH badge",
+        "Paperclip + send arrow visible",
+        "Drag hint text visible",
+        "Care Rules editor section below"
+      ],
+      "snippets": ["composer.express-add", "composer.fastest-path-badge", "composer.care-rules-editor"]
+    },
+    {
+      "id": "live-ai-extraction",
+      "workflow": "new_client",
+      "userState": "returning_user",
+      "persona": "pet_sitter",
+      "appState": "fresh_form",
+      "path": "/clients/new",
+      "viewport": { "width": 1280, "height": 800 },
+      "expectedChanges": [
+        "After pasting Mochi paragraph + clicking send arrow, form auto-fills",
+        "Full Name = 'James Kim'",
+        "Phone = '(555) 555-1010'",
+        "Pet name = 'Mochi'",
+        "Age = '5'",
+        "3 care rules in the rules editor"
+      ],
+      "snippets": ["composer.filled-form", "composer.extracted-rules"],
+      "interactions": [
+        { "step": "type", "selector": "textarea", "text": "Mochi is a 5yo Shiba Inu. Owner James Kim (555) 555-1010. Apoquel 16mg with breakfast. NO other dogs. Shy at first — give 10 min to warm up." },
+        { "step": "click", "selector": "[aria-label='Send'], div:contains('↑')" },
+        { "step": "wait", "ms": 15000 }
+      ],
+      "evidence": {
+        "endpointHit": "POST /api/m_and_g/extract/text",
+        "expectedRoundTripMs": 3000
+      }
+    }
+  ],
+
+  "remotion": {
+    "enabled": true,
+    "compositionId": "qa-end-to-end-demo",
+    "fps": 30,
+    "perStateDurationFrames": 90,
+    "$comment": "Generator can render an end-to-end demo by stitching state captures + smooth-pan recordings. Disable if Remotion not installed in the consumer repo."
+  },
+
+  "email": {
+    "to": ["hshum2018@gmail.com"],
+    "from": "noreply@parity-studio.com",
+    "$comment": "Generator picks up SMTP / Resend / Mailgun creds from its own env. Consumer just declares recipients."
+  }
+}

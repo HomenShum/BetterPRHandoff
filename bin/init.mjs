@@ -5,6 +5,7 @@
  * Subcommands:
  *   init                    Scaffold CHANGELOG/ + TEMPLATE.md in current dir
  *   add <category> <slug>   Create a new lane file (category: pages|components|server|db|integrations|scripts)
+ *   qa-init                 Scaffold qa.config.json from the example template
  *   entry <lane-file>       Prepend a new entry to a lane (interactive)
  *   install [target]        Install the skill (target: user|project|cursor|cline|aider|generic)
  *   help
@@ -46,6 +47,7 @@ ${C.bold("Subcommands:")}
   ${C.cyan("init")}                          Scaffold CHANGELOG/ in the current repo
   ${C.cyan("add <category> <slug>")}         Create a new lane file
                                   (category: pages|components|server|db|integrations|scripts)
+  ${C.cyan("qa-init")}                       Scaffold qa.config.json (Phase 5 / QA packet)
   ${C.cyan("install [target]")}              Install the skill where your agent reads it
                                   (target: user|project|cursor|cline|aider|generic|auto)
   ${C.cyan("help")}                          This help
@@ -54,6 +56,7 @@ ${C.bold("Examples:")}
   npx easier init
   npx easier add components Button
   npx easier add db users
+  npx easier qa-init
   npx easier install cursor
 
 ${C.bold("Docs:")}  https://github.com/HomenShum/easier-to-read-submissions
@@ -158,6 +161,36 @@ async function addLane() {
   console.log(C.dim(`  Edit it now — the placeholder entry needs a real description.`));
 }
 
+// ───────────────────────────── qa-init ─────────────────────────────
+
+async function qaInit() {
+  const cwd = process.cwd();
+  const target = join(cwd, "qa.config.json");
+
+  if (await pathExists(target)) {
+    console.log(C.yellow(`! qa.config.json already exists at ${target}`));
+    console.log(C.dim("  Edit it directly, or delete and re-run."));
+    return;
+  }
+
+  await copyFile(join(TPL_DIR, "qa-states.example.json"), target);
+  console.log(C.green("✓"), `Created ${C.cyan("qa.config.json")} from the QA packet example`);
+  console.log("");
+  console.log(C.bold("Edit it now:"));
+  console.log(`  - Replace ${C.cyan("feature.id")} with your slug (e.g. ${C.dim("myapp.thing.v1")})`);
+  console.log(`  - Replace ${C.cyan("previewUrlTemplate")} with your dev URL or PR preview URL`);
+  console.log(`  - Replace ${C.cyan("states[]")} with your real test lanes`);
+  console.log(`  - Replace ${C.cyan("personas{}")} with your real personas (or remove)`);
+  console.log("");
+  console.log(C.bold("Then:"));
+  console.log(`  - Generate a packet with Parity Studio: ${C.cyan("npx parity-studio qa-packet --feature <id>")}`);
+  console.log(`  - Or roll your own generator that conforms to ${C.cyan("templates/qa-packet-schema.json")}`);
+  console.log(`  - Email-resend with: ${C.cyan("npx parity-studio qa-send --to you@example.com")}`);
+  console.log("");
+  console.log(C.dim("  Schema + protocol docs: https://github.com/HomenShum/easier-to-read-submissions"));
+  console.log(C.dim("  Generator integration:   See INTEGRATIONS.md in this skill"));
+}
+
 // ───────────────────────────── install ─────────────────────────────
 
 async function install() {
@@ -224,6 +257,7 @@ async function install() {
   try {
     if (cmd === "init") await init();
     else if (cmd === "add") await addLane();
+    else if (cmd === "qa-init") await qaInit();
     else if (cmd === "install") await install();
     else if (cmd === "--help" || cmd === "-h" || cmd === "help") help();
     else {

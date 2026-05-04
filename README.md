@@ -4,11 +4,12 @@
 
 A drop-in protocol for **any** LLM-driven coding agent that turns "made some changes, time to commit" into a deterministic, verifiable submission. Built so the next person reading your branch — your reviewer, your future self, the engineer you're handing the project to, the next AI agent — doesn't have to spelunk through 40 commit messages to understand what changed.
 
-Three artifacts the protocol produces per submission, automatically:
+Four artifacts the protocol produces per submission, automatically:
 
 - **Per-surface changelog entries** — append-only files under `CHANGELOG/<category>/<slug>.md`, one entry per touched surface, cross-linked.
 - **Verified demo recording** (UI changes only) — Playwright recorder + Gemini video analysis. Both must pass.
 - **ASCII runtime diagram** (multi-layer changes) — visual map of what changed across DEPLOY → FRONTEND → BACKEND → DATABASE → AGENT, including parallel-stack labels (`· LIVE` / `· DORMANT`).
+- **QA packet** (when handoff matters) — single email/page with preview link, per-state test URLs, before/after screenshots, component snippets, GIFs, optional Remotion demo, and per-state verdicts. Schema-shared so any generator (Parity Studio, your CI, custom tool) emits the same shape. Gmail Magic Resend updates the same email thread on regeneration.
 
 ---
 
@@ -42,9 +43,12 @@ After install, bootstrap your repo's CHANGELOG/:
 ```bash
 npx easier init                    # scaffolds CHANGELOG/ + TEMPLATE.md
 npx easier add components Button   # add a new lane file
+npx easier qa-init                 # scaffolds qa.config.json (Phase 5 / QA packet)
 ```
 
 Then tell your agent: **"Follow `AGENTS.md` before every commit / push / PR."**
+
+**Want the full QA packet** (preview link + before/after + GIFs + Remotion video + Gmail Magic Resend)? See [`INTEGRATIONS.md`](INTEGRATIONS.md) — this skill defines the schema, [Parity Studio](https://github.com/HomenShum/parity-studio) generates the artifacts. One contract, multiple generators.
 
 ---
 

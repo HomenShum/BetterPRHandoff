@@ -218,6 +218,61 @@ If the change is frontend↔backend with no DB / AGENT / DEPLOY touched, draw tw
 
 ---
 
+## Phase 5 — QA dogfood relay (when handoff matters)
+
+When a feature is ready for review by another human or AI agent — design partner, PM, the next agent picking up the branch, your own future self — produce a **QA packet**. The packet is the single artifact every reviewer opens; it carries every visual, every state, every link they need to evaluate the change without spinning up the app.
+
+A QA packet contains:
+- Preview deploy URL (live, clickable)
+- Per-state test URLs (deterministic seed via query params)
+- Before / after screenshots, full-page + per-component snippets
+- GIFs of key workflows
+- Optional Remotion end-to-end demo video
+- Pre-rendered email HTML (Gmail Magic Resend — same thread updates on regenerate)
+- Per-state QA verdicts and fix prompts
+
+### When to generate one
+
+- Feature branch ready for review
+- UI change spans 2+ user states
+- Cross-functional reviewer involved (PM / design / ops / QA)
+- Branch handoff (engineer → engineer, AI → human, agent → agent)
+- About to claim "shipped" — packet becomes the falsifiable record
+
+### How — split: protocol (this skill) vs. generator (separate tool)
+
+This skill ships only the **schema + email template + protocol doc**:
+- [`templates/qa-packet-schema.json`](templates/qa-packet-schema.json) — JSON schema every packet conforms to
+- [`templates/qa-email.html.mustache`](templates/qa-email.html.mustache) — Gmail Magic Resend template
+- [`templates/qa-states.example.json`](templates/qa-states.example.json) — consumer config example
+- [`templates/qa-packet.md`](templates/qa-packet.md) — full protocol doc (read this once)
+- [`INTEGRATIONS.md`](INTEGRATIONS.md) — which generators implement the contract
+
+Generation (Playwright capture, diff, GIF, Remotion video, Gmail send, hosted review page) lives in a separate generator like **Parity Studio** (`HomenShum/parity-studio`) or the lightweight **SitFlow scripts** (`scripts/record-jaynee-demo.mjs`). Pick the one that fits your scale.
+
+### Lifecycle
+
+```
+1. author finishes change on branch
+2. author writes (or already has) qa.config.json declaring states
+3. `npx easier qa-init` (one-time per repo) scaffolds qa.config.json from the example
+4. `parity-studio qa-packet --feature <id>`   # captures before+after, builds packet.json
+5. `parity-studio qa-send --to <email>`        # Gmail Magic Resend
+6. reviewers open email → click side-by-side review → leave verdicts
+7. author fixes → re-runs step 4 → version bumps → resend updates same thread
+8. qaStatus moves to approved → shipped
+```
+
+The generator and consumer never share product code — they share **the schema**. That's the whole point.
+
+### Skip the QA packet for
+
+- Server-only changes (no UI surface affected)
+- Single-state changes that the verified demo (Phase 2) already covers
+- Trivia / typos / formatting
+
+---
+
 ## Commit message style
 
 Brief subject (60 chars, imperative). Body is wrapped at 72 chars and explains the **why**, not the **what** — readers can `git diff` for what.

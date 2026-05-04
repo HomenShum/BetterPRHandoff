@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/HomenShum/easier-to-read-submissions/blob/main/templates/qa-packet-schema.json",
+  "title": "QA Packet",
+  "description": "Single shared schema for visual QA packets produced per feature/branch. Consumer repos (SitFlow, NodeBench, etc.) declare states + fixtures and call a generator (e.g. Parity Studio) which emits packet JSON conforming to this schema. The packet feeds the side-by-side review UI, the Remotion demo video, and the Gmail Magic Resend email — all from one source of truth.",
+  "type": "object",
+  "required": ["schemaVersion", "featureId", "title", "branch", "createdAt", "states", "summary"],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "featureId": {
+      "type": "string",
+      "description": "Stable slug, e.g. nodebench.chat.declutter.v1 or sitflow.care_rules.v1.",
+      "pattern": "^[a-z0-9]+(\\.[a-z0-9_-]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "description": "One-line human title for the email subject + review page header."
+    },
+    "branch": {
+      "type": "string",
+      "description": "Git branch the packet was generated from."
+    },
+    "commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{7,40}$"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "previewUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Live preview deploy URL where the change is reachable. The email's primary CTA points here."
+    },
+    "reviewUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Hosted side-by-side review page URL. Generator (Parity Studio) writes this; consumer reads it."
+    },
+    "summary": {
+      "type": "object",
+      "required": ["whatChanged", "whyItMatters"],
+      "properties": {
+        "whatChanged": { "type": "string", "description": "1-3 sentence factual summary of the diff" },
+        "whyItMatters": { "type": "string", "description": "1-2 sentence framing of user-visible effect" },
+        "primaryComponents": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Component slugs the change touches most (for snippet-level capture)"
+        }
+      }
+    },
+    "states": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Deterministic test lanes — each is one (workflow × user state × persona) tuple. Generator produces one row per state.",
+      "items": {
+        "type": "object",
+        "required": ["id", "workflow", "userState", "testUrl", "screenshots"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Slug like returning-user-event-pinned. Stable across runs so before/after diffs align."
+          },
+          "workflow": {
+            "type": "string",
+            "description": "Workflow lane: home / chat / report / batch / inbox / calendar / etc."
+          },
+          "userState": {
+            "type": "string",
+            "description": "User state lane: new_user / returning_user / power_user / empty / loading / error / paid_locked / etc."
+          },
+          "persona": {
+            "type": "string",
+            "description": "Optional persona: startup_banker / founder / pet_sitter / vc_associate / etc."
+          },
+          "appState": {
+            "type": "string",
+            "description": "Optional app state seed key, e.g. event_pinned_report_saved."
+          },
+          "testUrl": {
+            "type": "string",
+            "format": "uri",
+            "description": "Direct link that loads this exact state for manual testing. Should encode persona + userState + appState as query params."
+          },
+          "viewport": {
+            "type": "object",
+            "properties": {
+              "width": { "type": "integer" },
+              "height": { "type": "integer" }
+            }
+          },
+          "screenshots": {
+            "type": "object",
+            "required": ["after"],
+            "properties": {
+              "before": { "type": "string", "description": "Path to before screenshot (full page)" },
+              "after": { "type": "string", "description": "Path to after screenshot (full page)" },
+              "diff": { "type": "string", "description": "Path to pixel diff image" },
+              "snippets": {
+                "type": "array",
+                "description": "Component-level snippet captures",
+                "items": {
+                  "type": "object",
+                  "required": ["component", "after"],
+                  "properties": {
+                    "component": { "type": "string", "description": "Component slug, e.g. chat.thread-header" },
+                    "before": { "type": "string" },
+                    "after": { "type": "string" },
+                    "diff": { "type": "string" },
+                    "expectedChange": { "type": "string", "description": "Plain-language description of what should change" },
+                    "actualResult": { "type": "string", "description": "What the generator/reviewer observed" },
+                    "qaVerdict": {
+                      "enum": ["pass", "needs_fix", "blocked", "n/a"],
+                      "default": "n/a"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gif": {
+            "type": "string",
+            "description": "Path to GIF showing this state's interaction (loop-friendly, ~3-8s)"
+          },
+          "evidence": {
+            "type": "object",
+            "description": "Free-form per-state evidence (DOM checks, console logs, network calls)",
+            "additionalProperties": true
+          },
+          "qaVerdict": {
+            "enum": ["pass", "needs_fix", "blocked", "n/a", "in_review"],
+            "default": "in_review"
+          },
+          "qaNotes": {
+            "type": "string",
+            "description": "Reviewer's notes (markdown allowed)."
+          },
+          "fixPrompt": {
+            "type": "string",
+            "description": "Copy-pasteable prompt for the AI agent to fix this state's issues."
+          }
+        }
+      }
+    },
+    "remotionVideo": {
+      "type": "object",
+      "description": "End-to-end demo video covering all states. Generated post-capture.",
+      "properties": {
+        "mp4": { "type": "string" },
+        "gif": { "type": "string" },
+        "durationSeconds": { "type": "number" },
+        "scenesManifest": {
+          "type": "string",
+          "description": "Path to scenes.json — Remotion scene-by-scene breakdown for re-renders."
+        }
+      }
+    },
+    "email": {
+      "type": "object",
+      "description": "Pre-rendered HTML for Gmail Magic Resend. Generator fills this when --email flag set.",
+      "properties": {
+        "subject": { "type": "string" },
+        "html": { "type": "string", "description": "Path to rendered HTML email" },
+        "to": { "type": "array", "items": { "type": "string", "format": "email" } },
+        "lastSentAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "actions": {
+      "type": "object",
+      "description": "Tokenized action URLs the email surfaces (approve / needs-fix / regenerate). Implementation is generator-specific; the schema just declares the shape.",
+      "properties": {
+        "approveUrl": { "type": "string", "format": "uri" },
+        "needsFixUrl": { "type": "string", "format": "uri" },
+        "regenerateUrl": { "type": "string", "format": "uri" },
+        "copyFixPromptToken": { "type": "string", "description": "Click-through that copies the aggregate fix prompt to clipboard" }
+      }
+    },
+    "qaStatus": {
+      "enum": ["draft", "in_review", "needs_fix", "approved", "shipped"],
+      "default": "in_review"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Bumped each time the packet is regenerated for the same featureId. Magic Resend keeps history."
+    }
+  },
+  "additionalProperties": false
+}
