@@ -142,20 +142,42 @@ This rule supersedes optimistic deploy language. CLI exit codes lie, build logs 
 
 ## Phase 4 — Runtime change diagram (when the change crosses 2+ layers)
 
-When a change touches more than one of `frontend / backend / database / agent`, prose alone is illegible. A reviewer should not have to read three files in three directories to understand how data moves through your change. Draw an ASCII diagram.
+When a change touches more than one runtime layer, prose alone is illegible. A reviewer should not have to read three files in three directories to understand how data moves through your change. Draw an ASCII diagram.
+
+### The five layer categories
+
+1. **DEPLOY** — hosting / CDN / edge (Vercel, GitHub Pages, Cloudflare Pages, Netlify, Render, Fly.io, AWS Amplify). Sits at the very top. The user URL terminates here.
+2. **FRONTEND** — React / RN / Vue / Svelte components, screens, routes, client-side state.
+3. **BACKEND** — Express / tRPC / Next API routes / Hono / Fastify modules, endpoints, middleware.
+4. **DATABASE** — MySQL, Postgres, SQLite, MongoDB, Convex, DynamoDB. Show table boxes with FK lines inline.
+5. **AGENT** — LLM prompts, tool schemas, model choice, cost cap, multimodal inputs.
+
+Drop any layer that didn't change in your diff.
 
 ### When to draw one
 
 - Always for **new features that span layers** (e.g., "add care plan extraction" touches frontend + backend + db + agent — 4 layers).
 - Always for **migrations** that change data flow (e.g., "swap LLM provider", "move from REST to WebSocket").
-- Always when **introducing a new layer** (e.g., adding a Convex foundation alongside MySQL).
+- Always when **introducing a new layer** or **alternate stack** (e.g., adding a Convex foundation alongside MySQL — see "Parallel stacks" below).
+- Always when **changing the deploy target** (Vercel ↔ Render, GitHub Pages enabled, custom domain wired).
 - **Skip** for single-layer changes (CSS tweak, server-only refactor with no API change, db-only column rename).
+
+### Parallel stacks (live + dormant alternatives)
+
+If your repo has more than one stack for the same layer (e.g., MySQL today + Convex scaffolded for later, or Express today + Next API routes planned), show **both side-by-side** with one labeled `· LIVE` and the other `· DORMANT` or `· PARALLEL (ready to activate)`. This is more honest than hiding the dormant stack — readers see what tech debt / migration paths exist without having to grep `convex/` or `web/` to discover them.
 
 ### Format
 
-Four boxes max, top-to-bottom, with arrows showing **data flow direction** (not just imports):
+Top-to-bottom flow with arrows showing **data flow direction** (not just imports):
 
 ```
+┌────────────── DEPLOY ────────────────┐
+│  Vercel project + URL                │
+│  build command, output dir           │
+│  cache rules                         │
+└────────────────┬─────────────────────┘
+                 │ user fetches index.html, then JS bundle
+                 ▼
 ┌────────────── FRONTEND ──────────────┐
 │  files + components touched          │
 │  + NEW   ~ MODIFIED   - REMOVED      │
@@ -165,23 +187,23 @@ Four boxes max, top-to-bottom, with arrows showing **data flow direction** (not 
 ┌────────────── BACKEND ───────────────┐
 │  modules touched, endpoints added    │
 └────────────────┬─────────────────────┘
-                 │ <ORM / driver> (Drizzle / Prisma / raw SQL)
+                 │ <ORM / driver> (Drizzle / Prisma / Convex client / raw SQL)
                  ▼
-┌────────────── DATABASE ──────────────┐
-│  tables, columns, FKs                │
-│  show NEW table boxes inline         │
-└────────────────┬─────────────────────┘
-                 │ <triggers> (e.g., M&G transcript → extract)
-                 ▼
+┌────── DATABASE (LIVE) ────────┐  ┌────── DATABASE (PARALLEL) ──────┐
+│  MySQL via Drizzle            │  │  Convex (dormant — schema       │
+│  tables, columns, FKs         │  │   mirrored, awaiting activation)│
+└─────────────────┬─────────────┘  └─────────────────────────────────┘
+                  │ <triggers> (e.g., M&G transcript → extract)
+                  ▼
 ┌────────────── AGENT ─────────────────┐
 │  prompts, tools, schemas, model      │
 │  cost cap if applicable              │
 └──────────────────────────────────────┘
 
-Legend:  + NEW   ~ MODIFIED   - REMOVED   · UNCHANGED (shown for context)
+Legend:  + NEW   ~ MODIFIED   - REMOVED   · UNCHANGED   · LIVE   · DORMANT
 ```
 
-Drop any box where nothing changed. If the change is frontend↔backend with no DB or AGENT touched, draw two boxes.
+If the change is frontend↔backend with no DB / AGENT / DEPLOY touched, draw two boxes. The DEPLOY box specifically is mandatory whenever the change affects what gets shipped to production (env vars, build commands, output dirs, redirects, headers).
 
 ### Where the diagram lives
 

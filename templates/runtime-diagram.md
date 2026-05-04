@@ -8,16 +8,18 @@ This file: the format rules + 4 worked examples (1-layer, 2-layer, 3-layer, 4-la
 
 ## Format rules
 
-1. **Top-to-bottom flow.** Frontend at top, agent at bottom. Data flows down (request) or up (response) — show the dominant direction with arrows.
-2. **One box per layer.** Drop any layer that didn't change.
-3. **Labeled connectors.** Every arrow has a protocol/transport label (`tRPC`, `REST`, `WebSocket`, `Drizzle`, `pi-ai`).
-4. **Markers inside the box** — what changed and what's new:
+1. **Top-to-bottom flow.** DEPLOY at the top (where the user URL terminates), agent at the bottom. Data flows down (request) or up (response) — show the dominant direction with arrows.
+2. **Five layer categories**: DEPLOY → FRONTEND → BACKEND → DATABASE → AGENT. Drop any layer that didn't change.
+3. **Parallel stacks**: when the repo has more than one option for a layer (e.g., MySQL live + Convex dormant, or Vercel + GitHub Pages alternate deploys), draw both side-by-side with `· LIVE` / `· DORMANT` / `· PARALLEL` labels.
+4. **Labeled connectors.** Every arrow has a protocol/transport label (`tRPC`, `REST`, `WebSocket`, `Drizzle`, `pi-ai`, `Convex client`).
+5. **Markers inside the box** — what changed and what's new:
    - `+ NEW` — file/table/endpoint added
    - `~ MODIFIED` — existing file/table/endpoint changed
    - `- REMOVED` — deleted
    - `· UNCHANGED` — shown for context only (when needed to explain the new piece)
-5. **Width fits in 100 chars.** ASCII boxes look bad in narrow PR diff viewers if wider.
-6. **Footer legend.** Always include the marker legend so first-time readers know the symbols.
+   - `· LIVE` / `· DORMANT` / `· PARALLEL` — for parallel-stack labels
+6. **Width fits in 100 chars.** ASCII boxes look bad in narrow PR diff viewers if wider.
+7. **Footer legend.** Always include the marker legend so first-time readers know the symbols.
 
 ### Box-drawing characters cheat sheet
 
@@ -109,76 +111,93 @@ Legend:  + NEW   ~ MODIFIED   - REMOVED   · UNCHANGED
 
 ---
 
-## Example 4 — Four-layer (the full stack)
+## Example 4 — Full stack (DEPLOY + 4 layers + parallel database)
 
-The actual SitFlow `care_rules` introduction: structured per-pet rules driven by AI extraction from M&G transcripts. Touches frontend (3 components), backend (2 modules), database (1 new table + relation), and agent (new prompt + schema + cost cap).
+The actual SitFlow `care_rules` introduction PLUS the deploy story PLUS the parallel-stack reality. Touches every layer the project has, including the dormant Convex foundation that's scaffolded for the future migration. This is what a comprehensive multi-layer diagram looks like.
 
 ```
-┌──────────────────────── FRONTEND (Expo + React Native) ────────────────────────┐
-│                                                                                 │
-│  ~ app/(tabs)/index.tsx           ~ app/clients/[id].tsx                       │
-│      [Inbox]                          [Client Detail]                          │
-│         │                                  │                                    │
-│         │ uses CareCard(compact)          │ uses CareCard(full)                │
-│         │                                  │                                    │
-│         └──────────────┬───────────────────┘                                   │
-│                        ▼                                                       │
-│                 + components/CareCard.tsx (NEW)                                │
-│                     • 3 modes: compact / today / full                          │
-│                     • severity → color stripe (red / yellow / blue)            │
-│                     • category emoji icons                                     │
-│                     • legacy fallback to behaviorNotes                         │
-│                                                                                 │
-└────────────────────────────┬───────────────────────────────────────────────────┘
-                             │ tRPC (clients.getById)
-                             ▼
-┌──────────────────────── BACKEND (Express + tRPC) ─────────────────────────────┐
-│                                                                                 │
-│  ~ server/db.ts                                                                │
-│      ~ getClientById() now joins care_rules per pet                           │
-│      + listCareRulesForPet(petId) → CareRule[]                                │
-│                                                                                 │
-│  + server/m-and-g.ts (NEW)                                                     │
-│      extractCarePlanFromText(transcript) → ProposedCarePlan                    │
-│           │                                                                    │
-│           └─→ server/llm.ts (pi-ai chat with TypeBox schema enforcement)      │
-│                                                                                 │
-└──────────────┬─────────────────────────────────────────────┬───────────────────┘
+┌─────────────────────────── DEPLOY (Vercel — production web) ──────────────────────┐
+│                                                                                    │
+│  · jayneebui.vercel.app  (default URL — set custom domain later)                  │
+│  · vercel.json:                                                                   │
+│      buildCommand: "npx expo export --platform web"                               │
+│      outputDirectory: "dist"                                                      │
+│      rewrites: /(.*) → /index.html  (SPA fallback so refresh works on routes)     │
+│      cache: JS/CSS immutable for 1y, HTML no-cache                                │
+│  · Alternate path: GitHub Pages branch "pages-deploy" (also wired in repo)        │
+│                                                                                    │
+│  Server side runs separately on Render / Railway / Fly (server/_core/index.ts)    │
+│                                                                                    │
+└─────────────────────────────────────┬──────────────────────────────────────────────┘
+                                      │ user fetches /index.html, then /_expo/*.js bundle
+                                      ▼
+┌─────────────────────── FRONTEND (Expo Router 6 + React Native + NativeWind) ──────┐
+│                                                                                    │
+│  ~ app/(tabs)/index.tsx              ~ app/clients/[id].tsx                       │
+│      [Inbox]                              [Client Detail]                         │
+│         │                                      │                                  │
+│         │ uses CareCard(compact)              │ uses CareCard(full)               │
+│         │                                      │                                  │
+│         └──────────────────┬───────────────────┘                                  │
+│                            ▼                                                      │
+│                  + components/CareCard.tsx (NEW — 3 modes, severity stripes)      │
+│                                                                                    │
+│  Calls EXPO_PUBLIC_API_URL (env-baked at build time) for tRPC requests.           │
+│                                                                                    │
+└────────────────────────────────────┬───────────────────────────────────────────────┘
+                                     │ tRPC over HTTPS (clients.getById)
+                                     ▼
+┌──────────────────────── BACKEND (Express + tRPC v11 on Node 22) ──────────────────┐
+│                                                                                    │
+│  ~ server/db.ts                                                                   │
+│      ~ getClientById() now joins care_rules per pet                              │
+│      + listCareRulesForPet(petId) → CareRule[]                                   │
+│                                                                                    │
+│  + server/m-and-g.ts (NEW)   extractCarePlanFromText() → ProposedCarePlan         │
+│  + server/llm.ts (NEW)       pi-ai adapter, $5/day USD cap                       │
+│                                                                                    │
+│  Boot guard: NODE_ENV=production && !API_SECRET → process.exit(1)                │
+│                                                                                    │
+└──────────────┬─────────────────────────────────────────────┬───────────────────────┘
                │ Drizzle ORM                                 │ pi-ai (Anthropic Haiku)
                ▼                                             ▼
-┌────────────── DATABASE (MySQL) ──────────────┐  ┌────────── AGENT ─────────────────┐
-│                                              │  │                                  │
-│  · pets table (existing)                     │  │  Prompt: "Extract care rules    │
-│    ┌──────────────────┐                      │  │   from this M&G transcript..."   │
-│    │ id               │←── FK ────────┐     │  │  Schema: ProposedCarePlan        │
-│    │ name             │               │     │  │   (TypeBox, strict)             │
-│    │ behaviorNotes    │ ← legacy KEPT │     │  │  Tools: none (pure extraction)  │
-│    └──────────────────┘               │     │  │                                  │
-│                                       │     │  │  Cost cap: $5/day USD enforced  │
-│  + care_rules table (NEW)             │     │  │   via ensureUnderCap() — 429    │
-│    ┌──────────────────────┐          │     │  │   if exceeded, never silent      │
-│    │ id                   │          │     │  │                                  │
-│    │ pet_id               │──────────┘     │  │  ~ $0.0014 per extract           │
-│    │ category (8 enums)   │                │  │  ~ 2-3s round trip               │
-│    │ severity (4 enums)   │                │  │                                  │
-│    │ rule TEXT            │                │  └──────────────────────────────────┘
-│    │ context TEXT NULL    │                │
-│    │ source ENUM          │                │
-│    │ created_at DATETIME  │                │
-│    └──────────────────────┘                │
-│                                              │
-│  Migration: drizzle/0001_care_rules.sql      │
-│                                              │
-└──────────────────────────────────────────────┘
+┌──── DATABASE · LIVE (MySQL) ─────┐  ┌── DATABASE · DORMANT (Convex) ──┐  ┌── AGENT ────────┐
+│                                  │  │                                 │  │                 │
+│  · pets table (existing)         │  │  · convex/schema.ts (PARALLEL) │  │ Prompt: "Extract│
+│    ┌────────────────┐            │  │      mirrors every Drizzle      │  │  care rules..."│
+│    │ id             │←── FK ──┐  │  │      table 1:1 (clients, pets, │  │                 │
+│    │ name           │         │  │  │      careRules, consents, etc) │  │ Schema:         │
+│    │ behaviorNotes  │ legacy  │  │  │  · convex/{carePlan,clients,   │  │  ProposedCarePlan│
+│    └────────────────┘         │  │  │      consent}.ts (functions)   │  │  (TypeBox)      │
+│                               │  │  │  · CONVEX_URL set in .env but  │  │                 │
+│  + care_rules table (NEW)     │  │  │      no `npx convex dev` yet — │  │ Tools: none     │
+│    ┌──────────────────────┐  │  │  │      schema doesn't push        │  │                 │
+│    │ id                   │  │  │  │      until activated            │  │ Cost cap: $5/day│
+│    │ pet_id               │──┘  │  │  │                                 │  │   ensureUnderCap│
+│    │ category (8 enums)   │     │  │  │  Migration plan: when active,  │  │   429 if over   │
+│    │ severity (4 enums)   │     │  │  │   server/db.ts swaps to       │  │                 │
+│    │ rule TEXT            │     │  │  │   convex/_generated/api.ts    │  │ ~$0.0014/extract│
+│    │ context TEXT NULL    │     │  │  │   client; tRPC routes become  │  │ ~2-3s round-trip│
+│    │ source ENUM          │     │  │  │   thin pass-throughs.         │  │                 │
+│    │ created_at DATETIME  │     │  │  │                                 │  └─────────────────┘
+│    └──────────────────────┘     │  │  │                                 │
+│                                  │  │  │                                 │
+│  Migration:                      │  │  │                                 │
+│   drizzle/0001_care_rules.sql    │  │  │                                 │
+│                                  │  │  │                                 │
+└──────────────────────────────────┘  └─────────────────────────────────┘
 
-Legend:  + NEW   ~ MODIFIED   - REMOVED   · UNCHANGED (shown for context)
+Legend:  + NEW   ~ MODIFIED   - REMOVED   · UNCHANGED   · LIVE   · DORMANT (parallel, ready to activate)
 ```
 
-This is the level of detail to aim for on a 4-layer change. Notice:
-- Every box names actual files (not abstract "the frontend").
-- The DATABASE box draws the FK relationship inline.
+This is the level of detail to aim for on a full-stack change. Notice:
+- The DEPLOY box at the top names the actual hosting provider, the build command, the output dir, and any alternate deploy paths the repo supports.
+- Every layer box names actual files (not abstract "the frontend").
+- The DATABASE row shows BOTH the live MySQL stack AND the dormant Convex foundation, so a reader sees the migration path without having to grep `convex/`.
 - The AGENT box names the prompt category, schema, tools, model, cost.
 - The legend tells a first-time reader what the markers mean.
+
+If your repo doesn't have a parallel stack, drop the second DATABASE box. If your repo doesn't deploy through a CDN (e.g., it's an internal CLI tool), drop the DEPLOY box. The protocol is "show every layer that exists or changed" — not "always draw 5 boxes."
 
 ---
 
