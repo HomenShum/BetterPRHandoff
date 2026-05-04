@@ -176,13 +176,15 @@ Splitting:
 
 | Piece | Status |
 |---|---|
-| Schema + protocol docs | ✅ shipped this repo v1.2.0 |
-| `qa-email.html.mustache` template | ✅ shipped this repo v1.2.0 |
-| `qa-states.example.json` | ✅ shipped this repo v1.2.0 |
-| `npx easier qa-init` CLI | ✅ shipped this repo v1.2.0 |
-| Parity Studio `qa-packet` CLI | 🚧 spec filed as tracking issue, implementation pending |
-| Parity Studio review page | 🚧 spec filed |
-| Parity Studio Gmail send | 🚧 spec filed |
+| Schema + protocol docs | ✅ shipped this repo v1.2.0+ |
+| `qa-email.html.mustache` template | ✅ shipped this repo v1.2.0+ |
+| `qa-states.example.json` | ✅ shipped this repo v1.2.0+ |
+| `npx easier qa-init` CLI | ✅ shipped this repo v1.2.0+ |
+| `npx easier qa <feature-id>` (QA_DOGFOOD scaffold) | ✅ shipped this repo v1.2.1 |
+| **`@homenshum/easier-to-read-submissions` on npm** | ✅ live, latest `1.2.1` |
+| **Parity Studio `qa-packet` MCP tool** | ✅ shipped [`parity-studio-mcp@0.3.6`](https://www.npmjs.com/package/parity-studio-mcp) ([release notes](https://github.com/HomenShum/parity-studio/releases/tag/v0.3.6)) |
+| Parity Studio review page | 🚧 spec filed (post-v0.3.6 follow-up) |
+| Parity Studio Gmail send | 🚧 spec filed (post-v0.3.6 follow-up) |
 | SitFlow → packet adapter | 🚧 stub, build when needed |
 
 The protocol works **today** with the SitFlow-style scripts as your generator. Parity Studio integration is the upgrade path when you outgrow per-repo recorders.
