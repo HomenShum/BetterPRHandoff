@@ -140,6 +140,62 @@ This rule supersedes optimistic deploy language. CLI exit codes lie, build logs 
 
 ---
 
+## Phase 4 — Runtime change diagram (when the change crosses 2+ layers)
+
+When a change touches more than one of `frontend / backend / database / agent`, prose alone is illegible. A reviewer should not have to read three files in three directories to understand how data moves through your change. Draw an ASCII diagram.
+
+### When to draw one
+
+- Always for **new features that span layers** (e.g., "add care plan extraction" touches frontend + backend + db + agent — 4 layers).
+- Always for **migrations** that change data flow (e.g., "swap LLM provider", "move from REST to WebSocket").
+- Always when **introducing a new layer** (e.g., adding a Convex foundation alongside MySQL).
+- **Skip** for single-layer changes (CSS tweak, server-only refactor with no API change, db-only column rename).
+
+### Format
+
+Four boxes max, top-to-bottom, with arrows showing **data flow direction** (not just imports):
+
+```
+┌────────────── FRONTEND ──────────────┐
+│  files + components touched          │
+│  + NEW   ~ MODIFIED   - REMOVED      │
+└────────────────┬─────────────────────┘
+                 │ <protocol> (tRPC / REST / WebSocket / fetch)
+                 ▼
+┌────────────── BACKEND ───────────────┐
+│  modules touched, endpoints added    │
+└────────────────┬─────────────────────┘
+                 │ <ORM / driver> (Drizzle / Prisma / raw SQL)
+                 ▼
+┌────────────── DATABASE ──────────────┐
+│  tables, columns, FKs                │
+│  show NEW table boxes inline         │
+└────────────────┬─────────────────────┘
+                 │ <triggers> (e.g., M&G transcript → extract)
+                 ▼
+┌────────────── AGENT ─────────────────┐
+│  prompts, tools, schemas, model      │
+│  cost cap if applicable              │
+└──────────────────────────────────────┘
+
+Legend:  + NEW   ~ MODIFIED   - REMOVED   · UNCHANGED (shown for context)
+```
+
+Drop any box where nothing changed. If the change is frontend↔backend with no DB or AGENT touched, draw two boxes.
+
+### Where the diagram lives
+
+- **Inline in the commit body** for small/medium changes (most cases).
+- **In each affected CHANGELOG lane entry** when the diagram is small (collapse to the slice that lane cares about — frontend lane shows frontend + the immediate adjacent layer).
+- **In the PR description** as the headline — reviewers should see it before they see the diff.
+- **At the top of `docs/RUNTIME.md`** if the repo wants an always-current architecture diagram. Append a new "Last change" footer section per major change.
+
+### Use the template
+
+`templates/runtime-diagram.md` ships a copy-paste skeleton with three worked examples (single-layer, two-layer, four-layer). Read it before drawing your first diagram in any repo.
+
+---
+
 ## Commit message style
 
 Brief subject (60 chars, imperative). Body is wrapped at 72 chars and explains the **why**, not the **what** — readers can `git diff` for what.
@@ -187,6 +243,7 @@ You **never** skip the live-DOM verification on anything claiming a deploy.
 | Push | `git push origin <branch>` | Remote update |
 | Verify remote | `gh api repos/.../branches/<branch>` | Authenticated SHA confirmation |
 | Verify deploy | `fetch(liveURL)` + grep for content signal | Concrete proof, not log claim |
+| (Multi-layer change) Draw runtime diagram | ASCII boxes + flow arrows | Visual map of data flow across layers |
 
 ---
 
