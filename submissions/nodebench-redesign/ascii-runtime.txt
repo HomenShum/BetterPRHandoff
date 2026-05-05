@@ -1,0 +1,59 @@
+NodeBench /redesign route - runtime architecture (2026-05-05)
+
+DEPLOY ----------------------------------------------------------
+  git push main
+    + Vercel webhook         -> frontend deploy (~3-4 min)
+    + GHA convex-deploy.yml  -> backend deploy (~30-60s)
+
+FRONTEND - /redesign/* (parallel to live cockpit at /) ---------
+  src/features/redesign/RedesignShell.tsx
+    + tokens.css          [data-redesign] - token scope
+    + primitives.css      .rd-* utility classes
+    + Rail (left)         Home / Reports / Chat / Inbox / Me
+    + Surfaces (lazy)
+    |   + HomeSurface           Bloomberg cover + Pitchbook entity feed
+    |   + ReportsSurface        Crunchbase facet bar + sort dropdown
+    |   + ReportNotebookView    TipTap notebook + ?focus=zen
+    |   + ChatSurface           Avatar pattern + tool-call cards + actions
+    |   + InboxSurface          5 lanes + bulk Accept/Reject/Snooze
+    |   + MeSurface             Personal Context Notebook hero
+    |   + WorkspaceSurface      Existing workspace under shell
+    + MobileShell           Small viewport experience
+    + Cross-surface (mounted globally)
+        + CommandPalette       Cmd+K - Linear/Raycast spotlight
+        + ShortcutsOverlay     ? -> 5 groups - 23 shortcuts
+        + Toast                showToast({ tone, message, action })
+        + Skeleton             Block / Card / Row - reduced-motion safe
+
+BACKEND - convex/ ----------------------------------------------
+  Sprint S1-S4 (live, composing existing tables):
+    operations/batchAutopilot/queries.getRecentRuns
+      -> useReportsLive - useBatchLive - useHomePulseLive - useInboxLive
+    pipelines/pipelineRunsQueries.listRecentRuns
+      -> useInboxLive (union batchAutopilot)
+  Sprint S5 (new this PR):
+    domains/redesign/
+      + styleProfile.ts         getActive - list - upsert - setActive
+      + documentPatches.ts      listPending - propose - accept - reject
+      + universes.ts            list - upsert - setMonitoring
+      + inboxSnoozes.ts         snooze - unsnooze
+      + agentRunFeedback.ts     recordReaction - summary
+
+DATABASE - convex/schema.ts ------------------------------------
+  Sprint S5 new tables:
+    styleProfiles            (by_user_active, by_user_inferred)
+    redesignDocumentPatches  (by_document_status, by_user_status)
+    redesignUniverses        (by_user_monitoring)
+    inboxSnoozes             (by_user_until, by_user_item)
+    agentRunFeedback         (by_user_created, by_run)
+
+AGENT - scripts/qa/ --------------------------------------------
+  redesignAgentQa.ts - 7 personas x Gemini 3.1 Pro Preview judge
+  personas.ts        - banker/founder/researcher/teacher/operator/karpathy/obsidian
+  inferStyle.ts      - Gemini-powered style.skill.md inference
+
+QA evidence (13 passes, converged at avg 78-81):
+  Pass  1: avg 71  P0=0  P1=7   - baseline
+  Pass 10: avg 81  P0=0  P1=1   - best P1 count
+  Pass 13: avg 79  P0=0  P1=3   - converged
+  Per-persona all-time highs: banker 90, operator 88, obsidian 90, karpathy 82
