@@ -1,0 +1,132 @@
+{
+  "hydration-reaches-chat": {
+    "ok": true,
+    "detail": "empty",
+    "at": 1778135581568
+  },
+  "starter-answer-rendered": {
+    "ok": true,
+    "detail": "2 assistant turns",
+    "at": 1778135583107
+  },
+  "p1.5-cost-meta": {
+    "ok": true,
+    "detail": "Auto tier · 3 sources · 54ms · <$0.01",
+    "at": 1778135584616
+  },
+  "p0.2-working-notes-toggle": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135586516
+  },
+  "p0.2-working-notes-expanded": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135588557
+  },
+  "p2.11-tray-visible": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135588560
+  },
+  "p2.11-flash-attention": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135591433
+  },
+  "p0.1-inline-cite-anchor": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135591437
+  },
+  "p0.1-popover-quote": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135594078
+  },
+  "p2.9-freshness-pill": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135594084
+  },
+  "p0.3-probe-menu-open": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135595614
+  },
+  "p0.3-probe-banner-visible": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135598193
+  },
+  "p0.3-evidence-row-masked": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135598196
+  },
+  "p0.3-restore-removes-banner": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135599457
+  },
+  "p1.6-pinned-chip-visible": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135600765
+  },
+  "p1.6-pinned-chip-has-tier": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135600768
+  },
+  "p1.6-pinned-chip-removed": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135601856
+  },
+  "p2.7-modal-open": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135603947
+  },
+  "p2.7-variant-a-visible": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135603949
+  },
+  "p2.7-variant-b-visible": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135603952
+  },
+  "p2.7-modal-closes-on-pick": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135605515
+  },
+  "p2.13-clipboard-has-share-url": {
+    "ok": true,
+    "detail": "https://www.nodebenchai.com/redesign/chat/r/1ukpno11rsow",
+    "at": 1778135607423
+  },
+  "p2.13-hash-deterministic": {
+    "ok": true,
+    "detail": "1ukpno11rsow === 1ukpno11rsow",
+    "at": 1778135607977
+  },
+  "p1.4-correct-bubble-visible": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135609560
+  },
+  "p1.4-correct-dialog-open": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135611127
+  },
+  "p1.4-modal-closes-on-save": {
+    "ok": true,
+    "detail": "",
+    "at": 1778135612684
+  }
+}
