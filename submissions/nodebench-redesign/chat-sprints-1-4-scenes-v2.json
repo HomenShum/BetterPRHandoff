@@ -1,0 +1,98 @@
+[
+  {
+    "label": "scene-0: navigate /redesign/chat?fresh=1 (no live seed → starter chips)",
+    "at": 1778135579704
+  },
+  {
+    "label": "scene-0 hydration: empty",
+    "at": 1778135581567
+  },
+  {
+    "label": "scene-1: wait for SEED_TURNS / STARTER_ANSWER render",
+    "at": 1778135583073
+  },
+  {
+    "label": "AnswerPacket rendered",
+    "at": 1778135583107
+  },
+  {
+    "label": "scene-2: cost-per-turn header",
+    "at": 1778135584609
+  },
+  {
+    "label": "scene-3: expand Working Notes (P0.2)",
+    "at": 1778135586513
+  },
+  {
+    "label": "scene-4: Open Questions tray render (P2.11)",
+    "at": 1778135588557
+  },
+  {
+    "label": "scene-5: tray click jump-to-turn (P2.11)",
+    "at": 1778135589797
+  },
+  {
+    "label": "flash-attention pulse",
+    "at": 1778135589927
+  },
+  {
+    "label": "scene-6: hover inline [N] cite (P0.1 popover + P2.9 freshness)",
+    "at": 1778135591433
+  },
+  {
+    "label": "scene-7: right-click probe menu + apply mask (P0.3)",
+    "at": 1778135594084
+  },
+  {
+    "label": "probe banner + masked evidence",
+    "at": 1778135595682
+  },
+  {
+    "label": "scene-8: pin claim + verify chip + unpin (P1.6 closed-loop)",
+    "at": 1778135599457
+  },
+  {
+    "label": "pinned chip slides in",
+    "at": 1778135599549
+  },
+  {
+    "label": "scene-9: A/B compare → Pick A (P2.7 closed-loop)",
+    "at": 1778135601856
+  },
+  {
+    "label": "pick toast",
+    "at": 1778135603995
+  },
+  {
+    "label": "scene-10: share + clipboard verify (P2.13 closed-loop)",
+    "at": 1778135605515
+  },
+  {
+    "label": "share toast",
+    "at": 1778135605607
+  },
+  {
+    "label": "scene-11: inline correction full flow (P1.4 closed-loop)",
+    "at": 1778135607977
+  },
+  {
+    "label": "Correct this bubble",
+    "at": 1778135608049
+  },
+  {
+    "label": "correction modal opens",
+    "at": 1778135609617
+  },
+  {
+    "label": "queue-patch toast",
+    "at": 1778135611173
+  },
+  {
+    "label": "final hold",
+    "at": 1778135612684
+  },
+  {
+    "label": "done in 35244ms",
+    "at": 1778135614194
+  }
+]
