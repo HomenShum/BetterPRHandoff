@@ -1,0 +1,78 @@
+[
+  {
+    "label": "scene-0: navigate /redesign/chat",
+    "at": 1778126617386
+  },
+  {
+    "label": "scene-1: click starter 'Run diligence on a company'",
+    "at": 1778126624110
+  },
+  {
+    "label": "starter not found — skipping",
+    "at": 1778126624133
+  },
+  {
+    "label": "scene-2: highlight cost-per-turn meta",
+    "at": 1778126624133
+  },
+  {
+    "label": "scene-3: expand Working Notes",
+    "at": 1778126626043
+  },
+  {
+    "label": "scene-4: show OpenQuestionsTray",
+    "at": 1778126628275
+  },
+  {
+    "label": "scene-5: hover citation chip if inline cite present",
+    "at": 1778126630115
+  },
+  {
+    "label": "no inline cite in body — popover demo skipped (fixture-dependent)",
+    "at": 1778126630117
+  },
+  {
+    "label": "scene-6: click pin in MessageActions",
+    "at": 1778126630117
+  },
+  {
+    "label": "pinned chip slides in",
+    "at": 1778126630836
+  },
+  {
+    "label": "scene-7: right-click [N] cite for probe menu",
+    "at": 1778126632850
+  },
+  {
+    "label": "scene-8: click Compare A/B",
+    "at": 1778126632852
+  },
+  {
+    "label": "A/B modal shows Variant A and B",
+    "at": 1778126632916
+  },
+  {
+    "label": "scene-9: click Share for reproducibility URL",
+    "at": 1778126637447
+  },
+  {
+    "label": "reproducibility URL toast",
+    "at": 1778126637520
+  },
+  {
+    "label": "scene-10: triple-click an answer line for correction bubble",
+    "at": 1778126639934
+  },
+  {
+    "label": "Correct this bubble appears",
+    "at": 1778126639988
+  },
+  {
+    "label": "final hold",
+    "at": 1778126641999
+  },
+  {
+    "label": "done in 26767ms",
+    "at": 1778126643505
+  }
+]
