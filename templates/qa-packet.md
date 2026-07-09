@@ -9,7 +9,7 @@ This file is the **protocol**. Generation is implemented elsewhere (Parity Studi
 ## Roles — who does what
 
 ```
-┌────────────── easier-to-read-submissions (this repo) ──────────────┐
+┌────────────── BetterPRHandoff repo / easier-to-read-submissions package ──────────────┐
 │  · qa-packet-schema.json     the contract                          │
 │  · qa-packet.md (this file)  the protocol + lifecycle              │
 │  · qa-email.html.mustache    Gmail Magic Resend template           │

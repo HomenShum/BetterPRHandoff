@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# easier-to-read-submissions — universal installer (macOS / Linux / Git Bash on Windows)
+# BetterPRHandoff — universal installer (macOS / Linux / Git Bash on Windows)
 #
 # One-line install:
 #   curl -fsSL https://raw.githubusercontent.com/HomenShum/BetterPRHandoff/main/install.sh | bash
@@ -79,7 +79,7 @@ case "$MODE" in
     ;;
 esac
 
-echo "→ Installing easier-to-read-submissions to: $DEST"
+echo "→ Installing BetterPRHandoff to: $DEST"
 
 # Need git for full install (skill + templates), curl for fallback
 if command -v git >/dev/null 2>&1; then

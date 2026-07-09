@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * easier-to-read-submissions — repo bootstrap CLI
+ * BetterPRHandoff — repo bootstrap CLI for the easier-to-read-submissions package
  *
  * Subcommands:
  *   init                    Scaffold CHANGELOG/ + TEMPLATE.md in current dir
@@ -42,7 +42,7 @@ const C = {
 
 function help() {
   console.log(`
-${C.bold("easier-to-read-submissions")} — make every commit easier to read
+${C.bold("BetterPRHandoff")} — make every commit easier to read
 
 ${C.bold("Subcommands:")}
   ${C.cyan("init")}                          Scaffold CHANGELOG/ in the current repo

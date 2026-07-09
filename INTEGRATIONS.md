@@ -1,6 +1,6 @@
 # Integrations — who implements which half of the protocol
 
-`easier-to-read-submissions` is the **protocol**. It defines the shape of every artifact (changelog lanes, runtime diagrams, QA packets) and tells AI agents when to produce them. It does **not** ship product code that captures screenshots, runs Playwright, renders Remotion videos, or sends Gmail. Those are the **generators** — separate tools you can mix and match per project.
+BetterPRHandoff is the public repo for the `easier-to-read-submissions` protocol package. The protocol defines the shape of every artifact (changelog lanes, runtime diagrams, QA packets) and tells AI agents when to produce them. It does **not** ship product code that captures screenshots, runs Playwright, renders Remotion videos, or sends Gmail. Those are the **generators** — separate tools you can mix and match per project.
 
 This file documents the canonical generators and how to wire them. The goal is no duplication: one repo defines the contract, every other repo (consumer or generator) reads from this contract.
 
@@ -9,7 +9,7 @@ This file documents the canonical generators and how to wire them. The goal is n
 ## The contract
 
 ```
-┌─────── easier-to-read-submissions (THIS REPO) ──────────┐
+┌─────── BetterPRHandoff repo / easier-to-read-submissions package ───────┐
 │                                                          │
 │   PROTOCOL DOCS              SCHEMAS                     │
 │   · SKILL.md                 · qa-packet-schema.json     │
@@ -138,7 +138,7 @@ node scripts/sitflow-evidence-to-packet.mjs   # not built yet — open issue if 
 ## Consumer: how any repo joins
 
 ```bash
-# 1. Install the protocol (this repo)
+# 1. Install the BetterPRHandoff protocol package
 npx @homenshum/easier-to-read-submissions install
 
 # 2. Bootstrap CHANGELOG/ (lane files)
@@ -166,7 +166,7 @@ If protocol and generator lived in one repo:
 
 Splitting:
 
-- **Protocol stays tiny**: `easier-to-read-submissions` is markdown + a JSON schema + a mustache template. Anyone can read it in 10 minutes.
+- **Protocol stays tiny**: BetterPRHandoff's compatibility package is markdown + a JSON schema + a mustache template. Anyone can read it in 10 minutes.
 - **Generators compete**: someone writes a Vitest-native generator, a CI-native one, an Electron desktop one — all conform to the same schema.
 - **Consumers don't lock in**: switching from Parity Studio to a different generator is a config swap.
 

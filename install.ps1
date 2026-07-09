@@ -1,4 +1,4 @@
-# easier-to-read-submissions — Windows PowerShell installer
+# BetterPRHandoff — Windows PowerShell installer
 #
 # One-line install:
 #   iwr https://raw.githubusercontent.com/HomenShum/BetterPRHandoff/main/install.ps1 -useb | iex
@@ -47,7 +47,7 @@ $Dest = switch ($Mode) {
     default   { Write-Error "Bad mode: $Mode"; exit 1 }
 }
 
-Write-Host "-> Installing easier-to-read-submissions to: $Dest"
+Write-Host "-> Installing BetterPRHandoff to: $Dest"
 
 # Need git
 if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
