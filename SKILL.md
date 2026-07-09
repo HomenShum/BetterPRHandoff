@@ -16,7 +16,7 @@ You are about to commit, push, open a PR, or hand off a branch. Before you call 
 
 Both halves exist because **a code diff alone is illegible** to the next person on the branch — human or AI. Without per-surface lanes, the next contributor has to read the whole `git log` to understand what one screen used to look like. Without a verified demo, your "this works" claim is unfalsifiable.
 
-This protocol came out of the SitFlow → Jaynee handoff — see [`https://github.com/HomenShum/easier-to-read-submissions`](https://github.com/HomenShum/easier-to-read-submissions) for the public skill repo and the original use case.
+This protocol came out of the SitFlow → Jaynee handoff — see [`https://github.com/HomenShum/BetterPRHandoff`](https://github.com/HomenShum/BetterPRHandoff) for the public skill repo and the original use case.
 
 ---
 

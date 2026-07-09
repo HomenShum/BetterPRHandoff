@@ -218,4 +218,4 @@ In repos that have this skill installed at `.claude/skills/easier-to-read-submis
 | `templates/verifier.mjs` | Local DOM + Gemini Files API |
 | `templates/probe-routes.mjs` | Diagnostic for off-screen content |
 
-Source: https://github.com/HomenShum/easier-to-read-submissions
+Source: https://github.com/HomenShum/BetterPRHandoff

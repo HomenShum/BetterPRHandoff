@@ -62,7 +62,7 @@ ${C.bold("Examples:")}
   npx easier qa nodebench-chat-declutter-v1
   npx easier install cursor
 
-${C.bold("Docs:")}  https://github.com/HomenShum/easier-to-read-submissions
+${C.bold("Docs:")}  https://github.com/HomenShum/BetterPRHandoff
 `);
 }
 
@@ -190,7 +190,7 @@ async function qaInit() {
   console.log(`  - Or roll your own generator that conforms to ${C.cyan("templates/qa-packet-schema.json")}`);
   console.log(`  - Email-resend with: ${C.cyan("npx parity-studio qa-send --to you@example.com")}`);
   console.log("");
-  console.log(C.dim("  Schema + protocol docs: https://github.com/HomenShum/easier-to-read-submissions"));
+  console.log(C.dim("  Schema + protocol docs: https://github.com/HomenShum/BetterPRHandoff"));
   console.log(C.dim("  Generator integration:   See INTEGRATIONS.md in this skill"));
 }
 

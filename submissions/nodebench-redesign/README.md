@@ -2,10 +2,10 @@
 
 **Submitted by:** Homen Shum (with Claude Opus 4.7)
 **Date:** 2026-05-05
-**Repo:** [HomenShum/nodebench-ai](https://github.com/HomenShum/nodebench-ai)
-**Branch / PR:** `feat/redesign-showcase` → [PR #240](https://github.com/HomenShum/nodebench-ai/pull/240)
+**Repo:** [HomenShum/NodeBenchAI](https://github.com/HomenShum/NodeBenchAI)
+**Branch / PR:** `feat/redesign-showcase` → [PR #240](https://github.com/HomenShum/NodeBenchAI/pull/240)
 **Live URL:** [https://www.nodebenchai.com/redesign](https://www.nodebenchai.com/redesign) (after merge)
-**Companion doc:** [docs/architecture/REDESIGN_CHANGES.md](https://github.com/HomenShum/nodebench-ai/blob/main/docs/architecture/REDESIGN_CHANGES.md) in the source repo
+**Companion doc:** [docs/architecture/REDESIGN_CHANGES.md](https://github.com/HomenShum/NodeBenchAI/blob/main/docs/architecture/REDESIGN_CHANGES.md) in the source repo
 
 ---
 
@@ -13,7 +13,7 @@
 
 A parallel `/redesign/*` route in NodeBench that ships an entity-intelligence redesign — Notion + Roam + Obsidian + Karpathy + Pitchbook hybrid — alongside the live cockpit. Designed so production users don't see it until each surface is promoted via feature flag. Investors and operators see it via deep link.
 
-55 files, 16,773 insertions. Strictly additive — no live cockpit code paths modified except the route registration in [src/App.tsx](https://github.com/HomenShum/nodebench-ai/blob/main/src/App.tsx) which wraps the new shell in lazy import + ErrorBoundary.
+55 files, 16,773 insertions. Strictly additive — no live cockpit code paths modified except the route registration in [src/App.tsx](https://github.com/HomenShum/NodeBenchAI/blob/main/src/App.tsx) which wraps the new shell in lazy import + ErrorBoundary.
 
 ## Surfaces
 
@@ -102,7 +102,7 @@ After CI runs green, **auto-merge is already armed** — it will merge automatic
 
 ## Why this submission style
 
-Per the source repo's [CLAUDE.md](https://github.com/HomenShum/nodebench-ai/blob/main/CLAUDE.md):
+Per the source repo's [CLAUDE.md](https://github.com/HomenShum/NodeBenchAI/blob/main/CLAUDE.md):
 - **Completion traceability** — every change cites the original ask
 - **Live-DOM verification** — never claim "deployed" without fetching the live URL
 - **Self-direction** — when a task completes, immediately identify next highest-impact action

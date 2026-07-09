@@ -1,6 +1,6 @@
 # Demo — Chat Enhancements Sprints 1-4
 
-> 11 chat affordances landed across PRs [#246](https://github.com/HomenShum/nodebench-ai/pull/246), [#247](https://github.com/HomenShum/nodebench-ai/pull/247), [#248](https://github.com/HomenShum/nodebench-ai/pull/248), [#249](https://github.com/HomenShum/nodebench-ai/pull/249) per [REDESIGN_CHAT_ENHANCEMENTS.md](https://github.com/HomenShum/nodebench-ai/blob/main/docs/architecture/REDESIGN_CHAT_ENHANCEMENTS.md). This doc is the visual reference.
+> 11 chat affordances landed across PRs [#246](https://github.com/HomenShum/NodeBenchAI/pull/246), [#247](https://github.com/HomenShum/NodeBenchAI/pull/247), [#248](https://github.com/HomenShum/NodeBenchAI/pull/248), [#249](https://github.com/HomenShum/NodeBenchAI/pull/249) per [REDESIGN_CHAT_ENHANCEMENTS.md](https://github.com/HomenShum/NodeBenchAI/blob/main/docs/architecture/REDESIGN_CHAT_ENHANCEMENTS.md). This doc is the visual reference.
 
 ## Walkthrough
 
@@ -46,7 +46,7 @@ Then hover any `[N]` chip in the prose to see the popover with quote + source + 
 
 ## How the recording was generated
 
-[`scripts/ui/recordChatSprintsDemo.mjs`](https://github.com/HomenShum/nodebench-ai/blob/main/scripts/ui/recordChatSprintsDemo.mjs) drives Playwright (Chromium, 1440×900, dark) through 11 scenes paced for the eye, with explicit `bodyContains`-style locator probes. Output:
+[`scripts/ui/recordChatSprintsDemo.mjs`](https://github.com/HomenShum/NodeBenchAI/blob/main/scripts/ui/recordChatSprintsDemo.mjs) drives Playwright (Chromium, 1440×900, dark) through 11 scenes paced for the eye, with explicit `bodyContains`-style locator probes. Output:
 
 - `.tmp/chat-sprints-demo/chat-sprints-demo.webm` — Playwright native
 - `.tmp/chat-sprints-demo/chat-sprints-demo.mp4` — H.264 (`ffmpeg -c:v libx264`)
@@ -73,9 +73,9 @@ node scripts/ui/recordChatSprintsDemo.mjs --baseURL https://www.nodebenchai.com
 
 | Sprint | PR | Squash commit | Date | Features |
 |---|---|---|---|---|
-| 1 | [#246](https://github.com/HomenShum/nodebench-ai/pull/246) | `ee5b0341` | 2026-05-07 | Hover source preview · Cost-per-turn |
-| 2 | [#247](https://github.com/HomenShum/nodebench-ai/pull/247) | `b2254507` | 2026-05-07 | Streaming scratchpad · Counterfactual probe |
-| 3 | [#248](https://github.com/HomenShum/nodebench-ai/pull/248) | `17a9e761` | 2026-05-07 | Inline correction · Source freshness · Open-questions tray |
-| 4 | [#249](https://github.com/HomenShum/nodebench-ai/pull/249) | `54600a93` | 2026-05-07 | Pin/carry-forward · A/B compare · Reproducibility hash |
+| 1 | [#246](https://github.com/HomenShum/NodeBenchAI/pull/246) | `ee5b0341` | 2026-05-07 | Hover source preview · Cost-per-turn |
+| 2 | [#247](https://github.com/HomenShum/NodeBenchAI/pull/247) | `b2254507` | 2026-05-07 | Streaming scratchpad · Counterfactual probe |
+| 3 | [#248](https://github.com/HomenShum/NodeBenchAI/pull/248) | `17a9e761` | 2026-05-07 | Inline correction · Source freshness · Open-questions tray |
+| 4 | [#249](https://github.com/HomenShum/NodeBenchAI/pull/249) | `54600a93` | 2026-05-07 | Pin/carry-forward · A/B compare · Reproducibility hash |
 
 — Homen Shum + Claude Opus 4.7 (1M context)

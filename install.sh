@@ -2,7 +2,7 @@
 # easier-to-read-submissions — universal installer (macOS / Linux / Git Bash on Windows)
 #
 # One-line install:
-#   curl -fsSL https://raw.githubusercontent.com/HomenShum/easier-to-read-submissions/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/HomenShum/BetterPRHandoff/main/install.sh | bash
 #
 # Modes:
 #   --user           Install to ~/.claude/skills/ (default if $CLAUDE_CONFIG_DIR or ~/.claude exists)
@@ -16,8 +16,8 @@
 
 set -euo pipefail
 
-REPO_URL="https://github.com/HomenShum/easier-to-read-submissions"
-RAW_BASE="https://raw.githubusercontent.com/HomenShum/easier-to-read-submissions/main"
+REPO_URL="https://github.com/HomenShum/BetterPRHandoff"
+RAW_BASE="https://raw.githubusercontent.com/HomenShum/BetterPRHandoff/main"
 MODE="${EASIER_INSTALL_MODE:-auto}"
 
 # Parse flags

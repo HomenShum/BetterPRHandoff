@@ -1,7 +1,7 @@
 # easier-to-read-submissions — Windows PowerShell installer
 #
 # One-line install:
-#   iwr https://raw.githubusercontent.com/HomenShum/easier-to-read-submissions/main/install.ps1 -useb | iex
+#   iwr https://raw.githubusercontent.com/HomenShum/BetterPRHandoff/main/install.ps1 -useb | iex
 #
 # Modes:
 #   -Mode user      Install to $env:USERPROFILE\.claude\skills\
@@ -16,7 +16,7 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$RepoUrl = "https://github.com/HomenShum/easier-to-read-submissions"
+$RepoUrl = "https://github.com/HomenShum/BetterPRHandoff"
 
 # Auto-detect mode
 if ($Mode -eq "auto") {

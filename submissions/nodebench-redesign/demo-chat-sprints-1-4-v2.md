@@ -6,7 +6,7 @@
 
 ## What changed in the product
 
-[`PR #251`](https://github.com/HomenShum/nodebench-ai/pull/251) + [`#252`](https://github.com/HomenShum/nodebench-ai/pull/252) shipped two minimal product changes that make the demo deterministically reproducible:
+[`PR #251`](https://github.com/HomenShum/NodeBenchAI/pull/251) + [`#252`](https://github.com/HomenShum/NodeBenchAI/pull/252) shipped two minimal product changes that make the demo deterministically reproducible:
 
 1. **`STARTER_ANSWER` includes inline `[N]` cite markers** — `shortAnswer` and `whyItMatters` now contain `[1]`, `[2]`, `[3]` so `renderInlineWithCites` has anchors regardless of whether a live artifact is loaded.
 2. **`?fresh=1` URL param aliases `liveDetail` to null end-to-end** — every downstream branch (`buildSeedTurns`, `liveStarters`, `sendMessage`, `liveAnswer`, `liveTitle`, breadcrumb header) sees "no live artifact" and renders the hardcoded `STARTER_ANSWER` instead.
@@ -86,18 +86,18 @@ Outputs to `.tmp/chat-sprints-demo-v2/`:
 - `scenes.json` — scene-by-scene timeline
 - `assertions.json` — per-feature pass/fail (recorder exits 1 if any fail)
 
-The recorder unregisters service workers before first navigation and uses `Promise.race([rd-chat-empty, rd-chat-msg--assistant])` to handle headless-Chromium hydration timing — both fixes were in [#252](https://github.com/HomenShum/nodebench-ai/pull/252) along with the proper `?fresh=1` end-to-end aliasing.
+The recorder unregisters service workers before first navigation and uses `Promise.race([rd-chat-empty, rd-chat-msg--assistant])` to handle headless-Chromium hydration timing — both fixes were in [#252](https://github.com/HomenShum/NodeBenchAI/pull/252) along with the proper `?fresh=1` end-to-end aliasing.
 
 ## Per-PR commits
 
 | Sprint / Round | PR | Squash commit | Adds |
 |---|---|---|---|
-| 1 | [#246](https://github.com/HomenShum/nodebench-ai/pull/246) | `ee5b0341` | Hover popover · cost-per-turn |
-| 2 | [#247](https://github.com/HomenShum/nodebench-ai/pull/247) | `b2254507` | Streaming scratchpad · counterfactual probe |
-| 3 | [#248](https://github.com/HomenShum/nodebench-ai/pull/248) | `17a9e761` | Inline correction · source freshness · open-questions tray |
-| 4 | [#249](https://github.com/HomenShum/nodebench-ai/pull/249) | `54600a93` | Pin/carry-forward · A/B compare · reproducibility hash |
-| Recorder v1 | [#250](https://github.com/HomenShum/nodebench-ai/pull/250) | `9b18233e` | First Playwright walkthrough |
-| Demo gap closure | [#251](https://github.com/HomenShum/nodebench-ai/pull/251) | `d146a28c` | Inline cites in STARTER_ANSWER + ?fresh=1 + recorder v2 |
-| Hardening | [#252](https://github.com/HomenShum/nodebench-ai/pull/252) | `46e2a317` | End-to-end ?fresh=1 alias + SW unregister + Promise.race |
+| 1 | [#246](https://github.com/HomenShum/NodeBenchAI/pull/246) | `ee5b0341` | Hover popover · cost-per-turn |
+| 2 | [#247](https://github.com/HomenShum/NodeBenchAI/pull/247) | `b2254507` | Streaming scratchpad · counterfactual probe |
+| 3 | [#248](https://github.com/HomenShum/NodeBenchAI/pull/248) | `17a9e761` | Inline correction · source freshness · open-questions tray |
+| 4 | [#249](https://github.com/HomenShum/NodeBenchAI/pull/249) | `54600a93` | Pin/carry-forward · A/B compare · reproducibility hash |
+| Recorder v1 | [#250](https://github.com/HomenShum/NodeBenchAI/pull/250) | `9b18233e` | First Playwright walkthrough |
+| Demo gap closure | [#251](https://github.com/HomenShum/NodeBenchAI/pull/251) | `d146a28c` | Inline cites in STARTER_ANSWER + ?fresh=1 + recorder v2 |
+| Hardening | [#252](https://github.com/HomenShum/NodeBenchAI/pull/252) | `46e2a317` | End-to-end ?fresh=1 alias + SW unregister + Promise.race |
 
 — Homen Shum + Claude Opus 4.7 (1M context)

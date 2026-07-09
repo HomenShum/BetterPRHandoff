@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/HomenShum/easier-to-read-submissions/blob/main/templates/qa-packet-schema.json",
+  "$id": "https://github.com/HomenShum/BetterPRHandoff/blob/main/templates/qa-packet-schema.json",
   "title": "QA Packet",
   "description": "Single shared schema for visual QA packets produced per feature/branch. Consumer repos (SitFlow, NodeBench, etc.) declare states + fixtures and call a generator (e.g. Parity Studio) which emits packet JSON conforming to this schema. The packet feeds the side-by-side review UI, the Remotion demo video, and the Gmail Magic Resend email — all from one source of truth.",
   "type": "object",

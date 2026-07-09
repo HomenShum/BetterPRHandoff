@@ -1,4 +1,7 @@
-# easier-to-read-submissions
+# BetterPRHandoff
+
+BetterPRHandoff is the public repo for the `@homenshum/easier-to-read-submissions`
+protocol and CLI. The npm package name stays stable for existing installs.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![npm](https://img.shields.io/badge/npm-@homenshum%2Feasier--to--read--submissions-blue)](https://www.npmjs.com/package/@homenshum/easier-to-read-submissions) [![Works with](https://img.shields.io/badge/works%20with-Claude%20Code%20%7C%20Cursor%20%7C%20Cline%20%7C%20Aider%20%7C%20Codex%20%7C%20any%20LLM-purple)](#install-anywhere-pick-your-agent)
 
@@ -17,10 +20,10 @@ Four artifacts the protocol produces per submission, automatically:
 
 ```bash
 # One-line install (Mac / Linux / Git Bash) — auto-detects your environment
-curl -fsSL https://raw.githubusercontent.com/HomenShum/easier-to-read-submissions/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/HomenShum/BetterPRHandoff/main/install.sh | bash
 
 # One-line install (Windows PowerShell)
-iwr https://raw.githubusercontent.com/HomenShum/easier-to-read-submissions/main/install.ps1 -useb | iex
+iwr https://raw.githubusercontent.com/HomenShum/BetterPRHandoff/main/install.ps1 -useb | iex
 
 # OR via npm (works everywhere)
 npx @homenshum/easier-to-read-submissions install
@@ -177,7 +180,7 @@ Time cost: ~75 seconds to record, ~30 seconds for Gemini analysis. Worth it on e
 ### As a Claude Code skill (one user, one machine)
 
 ```bash
-git clone https://github.com/HomenShum/easier-to-read-submissions ~/.claude/skills/easier-to-read-submissions
+git clone https://github.com/HomenShum/BetterPRHandoff ~/.claude/skills/easier-to-read-submissions
 ```
 
 The skill auto-loads on next Claude Code session. Triggers on prompts like "commit", "push this", "open a PR", "I'm done", "wrap this up", "before we hand off."
@@ -185,7 +188,7 @@ The skill auto-loads on next Claude Code session. Triggers on prompts like "comm
 ### As a project-shipped skill (whole team gets it)
 
 ```bash
-git clone https://github.com/HomenShum/easier-to-read-submissions <your-repo>/.claude/skills/easier-to-read-submissions
+git clone https://github.com/HomenShum/BetterPRHandoff <your-repo>/.claude/skills/easier-to-read-submissions
 ```
 
 Commit `.claude/skills/easier-to-read-submissions/` to the repo. Anyone who clones the repo and opens it in Claude Code gets the skill automatically.

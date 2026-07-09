@@ -24,11 +24,11 @@
     "visual-qa",
     "skill"
   ],
-  "homepage": "https://github.com/HomenShum/easier-to-read-submissions",
-  "bugs": "https://github.com/HomenShum/easier-to-read-submissions/issues",
+  "homepage": "https://github.com/HomenShum/BetterPRHandoff",
+  "bugs": "https://github.com/HomenShum/BetterPRHandoff/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HomenShum/easier-to-read-submissions.git"
+    "url": "https://github.com/HomenShum/BetterPRHandoff.git"
   },
   "license": "MIT",
   "author": "Homen Shum <hshum2018@gmail.com>",
