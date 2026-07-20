@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "nodekit.evidence-index/v1",
+  "changeId": "nodebench-redesign-chat-sprints-1-4-v2",
+  "evidence": [
+    {
+      "id": "submission-readme",
+      "kind": "handoff-summary",
+      "status": "observed",
+      "location": "repo://submissions/nodebench-redesign/README.md",
+      "summary": "Original NodeBench redesign submission summary, affected surfaces, verification commands, and historical deployment blocker.",
+      "contentHash": "sha256:3efed5ed4e045ca37fc7de2a38279d4323f20d38627f6363baf73387fb91b818"
+    },
+    {
+      "id": "demo-narrative-v2",
+      "kind": "demo-narrative",
+      "status": "observed",
+      "location": "repo://submissions/nodebench-redesign/demo-chat-sprints-1-4-v2.md",
+      "summary": "Human-readable v1-to-v2 comparison, reproduction command, per-PR lineage, and closed-loop checklist.",
+      "contentHash": "sha256:01d9c4f121a1bc20b7769ce212b43115d3cf642d5fe851b7da543f91e6c4302f"
+    },
+    {
+      "id": "assertions-v2",
+      "kind": "test-run",
+      "status": "verified",
+      "location": "repo://submissions/nodebench-redesign/chat-sprints-1-4-assertions-v2.json",
+      "summary": "Machine-readable boolean assertion map captured by the v2 Playwright recorder.",
+      "contentHash": "sha256:8672d444d341e21fc4e84ec0f8fd3878b6db20abcdcdbc816b3dd6ffb70e0618",
+      "verification": {
+        "type": "boolean-map",
+        "passed": 26,
+        "total": 26
+      }
+    },
+    {
+      "id": "scene-log-v2",
+      "kind": "execution-trace",
+      "status": "observed",
+      "location": "repo://submissions/nodebench-redesign/chat-sprints-1-4-scenes-v2.json",
+      "summary": "Timestamped scene sequence for navigation, interactions, end states, and final hold.",
+      "contentHash": "sha256:f41f478e29a71dee1fb41ff7cd34883a4d7a7e74104c4c200c800efa1efb8242"
+    },
+    {
+      "id": "demo-v2",
+      "kind": "demo-video",
+      "status": "observed",
+      "location": "repo://submissions/nodebench-redesign/chat-sprints-1-4-demo-v2.mp4",
+      "summary": "Archived H.264 walkthrough of the v2 interaction sequence.",
+      "contentHash": "sha256:14c3b218f2b67b4cc34341d9d39b59bc1a8e382e9f68d06ed839493a9e5e196c"
+    },
+    {
+      "id": "demo-gif-v2",
+      "kind": "demo-gif",
+      "status": "observed",
+      "location": "repo://submissions/nodebench-redesign/chat-sprints-1-4-demo-v2.gif",
+      "summary": "Archived reviewer-friendly GIF derived from the v2 walkthrough.",
+      "contentHash": "sha256:eeab347e59d9c1a0b5e5915be117f1336105cd912969d3ec6388e1591a1ae274"
+    },
+    {
+      "id": "runtime-architecture",
+      "kind": "architecture-diagram",
+      "status": "observed",
+      "location": "repo://submissions/nodebench-redesign/ascii-runtime.txt",
+      "summary": "Historical deployment, frontend, backend, database, agent, and QA data-flow diagram.",
+      "contentHash": "sha256:1a7f8bc85d7bb0b798cb2288fbfafbc5440acbc86c2bd35735f73edea7c4c01f"
+    },
+    {
+      "id": "chat-changelog",
+      "kind": "change-log",
+      "status": "observed",
+      "location": "repo://submissions/nodebench-redesign/changelog/chat.md",
+      "summary": "Per-surface lineage for the four chat enhancement sprints and their source commits.",
+      "contentHash": "sha256:56fdc56a0bf8fe12f80269b23011b926bd473d813bd9bab4b4990326ce65c9a4"
+    }
+  ]
+}

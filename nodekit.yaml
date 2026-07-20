@@ -1,0 +1,43 @@
+schemaVersion: nodekit.repo/v1
+repository: HomenShum/BetterPRHandoff
+registryMode: ecosystem
+lifecycle: production
+support: active
+role: handoff-protocol
+commandProfile: protocol
+
+canonicalFor:
+  - betterprhandoff.handoff
+  - betterprhandoff.nodekit-present-receipt
+
+consumes:
+  - nodeplatform.repo-contract
+  - nodeplatform.change-story
+
+commands:
+  doctor:
+    script: doctor
+    mode: finite
+  check:
+    script: check
+    mode: finite
+  proof:
+    script: proof
+    mode: finite
+
+noKey:
+  status: certified
+  command: npm run proof
+  externalAccountsRequired: 0
+  disclosure: The protocol export is deterministic local file transformation and does not call a model or external service.
+
+environment:
+  contractVersion: nodeplatform.env/v1
+  status: not-applicable
+
+proof:
+  command: npm run proof
+  receiptSchema: betterprhandoff.nodekit-present-receipt/v1
+
+contractDeclarations: []
+architectureExceptions: []

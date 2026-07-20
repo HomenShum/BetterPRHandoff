@@ -49,6 +49,10 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "node bin/init.mjs --help"
+    "doctor": "node bin/init.mjs --help",
+    "check": "node --test",
+    "test": "node --test",
+    "proof": "npm run proof:nodekit-present",
+    "proof:nodekit-present": "node bin/init.mjs present submissions/nodebench-redesign/handoff.json --out changes/nodebench-redesign-chat-sprints-1-4-v2 --check"
   }
 }

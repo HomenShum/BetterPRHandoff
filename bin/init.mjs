@@ -7,6 +7,7 @@
  *   add <category> <slug>   Create a new lane file (category: pages|components|server|db|integrations|scripts)
  *   qa-init                 Scaffold qa.config.json from the example template
  *   qa <feature-id>         Scaffold QA_DOGFOOD/<feature-id>/ packet files
+ *   present <handoff.json>  Export a handoff into NodeKit Present Change Story artifacts
  *   entry <lane-file>       Prepend a new entry to a lane (interactive)
  *   install [target]        Install the skill (target: user|project|cursor|cline|aider|generic)
  *   help
@@ -23,6 +24,7 @@ import { existsSync, readdirSync } from "node:fs";
 import { dirname, join, resolve, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execSync } from "node:child_process";
+import { exportNodeKitPresent } from "./nodekit-present.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PKG_ROOT = resolve(__dirname, "..");
@@ -50,6 +52,8 @@ ${C.bold("Subcommands:")}
                                   (category: pages|components|server|db|integrations|scripts)
   ${C.cyan("qa-init")}                       Scaffold qa.config.json (Phase 5 / QA packet)
   ${C.cyan("qa <feature-id>")}               Scaffold QA_DOGFOOD/<feature-id>/ packet files
+  ${C.cyan("present <handoff.json>")}         Export NodeKit Change Story + Evidence Index
+                                  Options: --out <changes/dir> --check
   ${C.cyan("install [target]")}              Install the skill where your agent reads it
                                   (target: user|project|cursor|cline|aider|generic|auto)
   ${C.cyan("help")}                          This help
@@ -60,6 +64,7 @@ ${C.bold("Examples:")}
   npx easier add db users
   npx easier qa-init
   npx easier qa nodebench-chat-declutter-v1
+  npx easier present submissions/my-change/handoff.json
   npx easier install cursor
 
 ${C.bold("Docs:")}  https://github.com/HomenShum/BetterPRHandoff
@@ -241,6 +246,46 @@ async function writeTemplate(templateName, dest, replacements) {
   await writeFile(dest, body);
 }
 
+// ----------------------------- NodeKit Present -----------------------------
+
+async function present() {
+  const sourcePath = args[1];
+  if (!sourcePath || sourcePath.startsWith("--")) {
+    console.error(C.red("âœ— Usage: npx easier present <handoff.json> [--out <changes/dir>] [--check]"));
+    process.exit(1);
+  }
+
+  let outputDirectory;
+  let check = false;
+  for (let index = 2; index < args.length; index += 1) {
+    const option = args[index];
+    if (option === "--check") {
+      check = true;
+    } else if (option === "--out") {
+      const value = args[index + 1];
+      if (!value || value.startsWith("--")) {
+        console.error(C.red("âœ— --out requires a repository-relative directory"));
+        process.exit(1);
+      }
+      outputDirectory = value;
+      index += 1;
+    } else {
+      console.error(C.red(`âœ— Unknown present option: ${option}`));
+      process.exit(1);
+    }
+  }
+
+  const result = await exportNodeKitPresent({
+    repoRoot: process.cwd(),
+    sourcePath,
+    outputDirectory,
+    check,
+  });
+  const verb = result.mode === "checked" ? "Verified" : "Exported";
+  console.log(C.green("âœ“"), `${verb} ${C.cyan(result.outputRepoPath)}`);
+  console.log(C.dim(`  ${result.artifacts.size} deterministic artifacts; receipt schema ${result.receipt.schemaVersion}`));
+}
+
 // ───────────────────────────── install ─────────────────────────────
 
 async function install() {
@@ -309,6 +354,7 @@ async function install() {
     else if (cmd === "add") await addLane();
     else if (cmd === "qa-init") await qaInit();
     else if (cmd === "qa") await scaffoldQaPacket();
+    else if (cmd === "present") await present();
     else if (cmd === "install") await install();
     else if (cmd === "--help" || cmd === "-h" || cmd === "help") help();
     else {

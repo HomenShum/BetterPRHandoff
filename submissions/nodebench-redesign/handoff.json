@@ -1,0 +1,203 @@
+{
+  "$schema": "../../templates/handoff-schema.json",
+  "schemaVersion": "betterprhandoff.handoff/v1",
+  "id": "nodebench-redesign-chat-sprints-1-4-v2",
+  "title": "NodeBench redesign chat sprints 1-4 closed-loop handoff",
+  "changeType": "feature",
+  "audience": [
+    "technical-reviewer",
+    "next-maintainer"
+  ],
+  "presentationTier": 2,
+  "source": {
+    "repository": "HomenShum/NodeBenchAI",
+    "revision": "46e2a317",
+    "recordedAt": "2026-05-07",
+    "pullRequests": [
+      "https://github.com/HomenShum/NodeBenchAI/pull/246",
+      "https://github.com/HomenShum/NodeBenchAI/pull/247",
+      "https://github.com/HomenShum/NodeBenchAI/pull/248",
+      "https://github.com/HomenShum/NodeBenchAI/pull/249",
+      "https://github.com/HomenShum/NodeBenchAI/pull/250",
+      "https://github.com/HomenShum/NodeBenchAI/pull/251",
+      "https://github.com/HomenShum/NodeBenchAI/pull/252"
+    ]
+  },
+  "problem": {
+    "previousState": "The first recorded walkthrough rendered all 11 chat features but skipped three dependency-bound behaviors and left several end-state actions unasserted.",
+    "painOrRisk": "A reviewer could see controls in a video without evidence that hover, restore, unpin, modal selection, clipboard determinism, and correction completion actually closed their loops.",
+    "affectedUsers": [
+      "NodeBench redesign reviewers",
+      "maintainers replaying the chat demo",
+      "agents consuming the branch handoff"
+    ]
+  },
+  "decision": {
+    "selectedApproach": "Add a deterministic fresh-chat seed, close the missing interaction paths in the recorder, and bind every material demo claim to the archived assertion map, scene log, and media artifacts.",
+    "alternatives": [
+      "Keep the v1 video and describe the skipped paths in prose",
+      "Treat render-only checks as equivalent to completed interactions"
+    ],
+    "tradeoffs": [
+      "The fresh-chat seed is a deterministic demonstration path rather than evidence about every live data state",
+      "The archived run proves its recorded revision and date, not current production behavior"
+    ]
+  },
+  "implementation": {
+    "affectedSystems": [
+      "NodeBench redesign chat",
+      "Playwright demo recorder",
+      "BetterPRHandoff submission archive",
+      "NodeKit Present projection"
+    ],
+    "importantContracts": [
+      "betterprhandoff.handoff/v1",
+      "nodekit.change-story/v1",
+      "nodekit.evidence-index/v1"
+    ]
+  },
+  "proofRequirements": [
+    "Every archived boolean assertion is true",
+    "The scene timeline and video artifacts resolve to immutable content hashes",
+    "Material claims resolve to evidence IDs",
+    "Historical and current-production scope remain visibly separated"
+  ],
+  "approvalBoundaries": [
+    "No deployment is performed by the adapter",
+    "No package publication is performed by the adapter",
+    "A NodeSlide proposal or export requires a separate host-approved step"
+  ],
+  "claims": [
+    {
+      "id": "claim-closed-loop-assertions",
+      "text": "The archived v2 recorder result contains 26 of 26 passing boolean assertions across the 11 chat feature groups.",
+      "status": "verified",
+      "evidenceIds": [
+        "assertions-v2",
+        "scene-log-v2",
+        "demo-v2"
+      ],
+      "scope": {
+        "repository": "HomenShum/NodeBenchAI",
+        "revision": "46e2a317",
+        "recordedAt": "2026-05-07"
+      },
+      "limitations": [
+        "This is evidence for the archived run, not a fresh production replay."
+      ]
+    },
+    {
+      "id": "claim-deterministic-share-hash",
+      "text": "Two consecutive Share actions in the archived run produced the same reproducibility hash.",
+      "status": "verified",
+      "evidenceIds": [
+        "assertions-v2",
+        "demo-narrative-v2"
+      ],
+      "scope": {
+        "assertion": "p2.13-hash-deterministic"
+      },
+      "limitations": [
+        "The assertion covers the recorded AnswerPacket fixture, not all possible packet inputs."
+      ]
+    },
+    {
+      "id": "claim-v2-closes-v1-gaps",
+      "text": "The v2 handoff records completed hover, counterfactual probe, restore, unpin, modal-selection, clipboard, and correction end states that were skipped or render-only in v1.",
+      "status": "observed",
+      "evidenceIds": [
+        "demo-narrative-v2",
+        "chat-changelog",
+        "assertions-v2"
+      ],
+      "scope": {
+        "pullRequests": [251, 252]
+      },
+      "limitations": [
+        "The comparison is based on the archived v1 and v2 handoff artifacts."
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "submission-readme",
+      "kind": "handoff-summary",
+      "status": "observed",
+      "path": "submissions/nodebench-redesign/README.md",
+      "summary": "Original NodeBench redesign submission summary, affected surfaces, verification commands, and historical deployment blocker."
+    },
+    {
+      "id": "demo-narrative-v2",
+      "kind": "demo-narrative",
+      "status": "observed",
+      "path": "submissions/nodebench-redesign/demo-chat-sprints-1-4-v2.md",
+      "summary": "Human-readable v1-to-v2 comparison, reproduction command, per-PR lineage, and closed-loop checklist."
+    },
+    {
+      "id": "assertions-v2",
+      "kind": "test-run",
+      "status": "verified",
+      "path": "submissions/nodebench-redesign/chat-sprints-1-4-assertions-v2.json",
+      "summary": "Machine-readable boolean assertion map captured by the v2 Playwright recorder.",
+      "verify": {
+        "type": "boolean-map",
+        "expectedPassed": 26
+      }
+    },
+    {
+      "id": "scene-log-v2",
+      "kind": "execution-trace",
+      "status": "observed",
+      "path": "submissions/nodebench-redesign/chat-sprints-1-4-scenes-v2.json",
+      "summary": "Timestamped scene sequence for navigation, interactions, end states, and final hold."
+    },
+    {
+      "id": "demo-v2",
+      "kind": "demo-video",
+      "status": "observed",
+      "path": "submissions/nodebench-redesign/chat-sprints-1-4-demo-v2.mp4",
+      "summary": "Archived H.264 walkthrough of the v2 interaction sequence."
+    },
+    {
+      "id": "demo-gif-v2",
+      "kind": "demo-gif",
+      "status": "observed",
+      "path": "submissions/nodebench-redesign/chat-sprints-1-4-demo-v2.gif",
+      "summary": "Archived reviewer-friendly GIF derived from the v2 walkthrough."
+    },
+    {
+      "id": "runtime-architecture",
+      "kind": "architecture-diagram",
+      "status": "observed",
+      "path": "submissions/nodebench-redesign/ascii-runtime.txt",
+      "summary": "Historical deployment, frontend, backend, database, agent, and QA data-flow diagram."
+    },
+    {
+      "id": "chat-changelog",
+      "kind": "change-log",
+      "status": "observed",
+      "path": "submissions/nodebench-redesign/changelog/chat.md",
+      "summary": "Per-surface lineage for the four chat enhancement sprints and their source commits."
+    }
+  ],
+  "architecture": {
+    "before": [
+      "A v1 demo showed all feature groups but left dependency-bound interactions skipped or only mid-flow",
+      "Claims, evidence files, and limitations were linked through prose rather than a machine-readable evidence index",
+      "Presentation consumers had to rediscover the story from markdown and filenames"
+    ],
+    "after": [
+      "A deterministic handoff envelope binds scoped claims to assertion, trace, media, architecture, and changelog evidence",
+      "The local adapter verifies boolean assertions and hashes every repository artifact before export",
+      "NodeKit Present receives canonical Change Story, claims, Evidence Index, architecture diff, limitations, and a deterministic receipt",
+      "NodeSlide proposal, editing, and export remain separate governed transports"
+    ]
+  },
+  "limitations": [
+    "The evidence was recorded on 2026-05-07 and does not establish current production behavior.",
+    "The adapter verifies archived artifacts and boolean assertions but does not replay Playwright or invoke a visual judge.",
+    "No NodeSlide deck proposal, editable deck, PPTX export, or reopen verification is produced in this P1 slice.",
+    "No authentication, deployment, package publication, paid activation, or destructive action is in scope."
+  ],
+  "nextMilestone": "Let an installed NodeSlide transport consume this evidence-bound Change Story and propose a Tier 2 deck without changing the handoff source of truth."
+}

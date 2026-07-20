@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/HomenShum/BetterPRHandoff/blob/main/templates/handoff-schema.json",
+  "title": "BetterPRHandoff machine-readable handoff",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "title",
+    "changeType",
+    "audience",
+    "presentationTier",
+    "source",
+    "problem",
+    "decision",
+    "implementation",
+    "proofRequirements",
+    "approvalBoundaries",
+    "claims",
+    "evidence",
+    "architecture",
+    "limitations",
+    "nextMilestone"
+  ],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": "betterprhandoff.handoff/v1" },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:[a-z0-9._-]*[a-z0-9])?$"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "changeType": { "type": "string", "minLength": 1 },
+    "audience": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "presentationTier": { "type": "integer", "minimum": 0, "maximum": 4 },
+    "source": {
+      "type": "object",
+      "required": ["repository", "recordedAt"],
+      "properties": {
+        "repository": { "type": "string", "pattern": "^[^/]+/[^/]+$" },
+        "revision": { "type": "string", "minLength": 1 },
+        "recordedAt": { "type": "string", "minLength": 1 },
+        "pullRequests": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "additionalProperties": false
+    },
+    "problem": {
+      "type": "object",
+      "required": ["previousState", "painOrRisk", "affectedUsers"],
+      "properties": {
+        "previousState": { "type": "string", "minLength": 1 },
+        "painOrRisk": { "type": "string", "minLength": 1 },
+        "affectedUsers": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "additionalProperties": false
+    },
+    "decision": {
+      "type": "object",
+      "required": ["selectedApproach", "alternatives", "tradeoffs"],
+      "properties": {
+        "selectedApproach": { "type": "string", "minLength": 1 },
+        "alternatives": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "tradeoffs": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "additionalProperties": false
+    },
+    "implementation": {
+      "type": "object",
+      "required": ["affectedSystems", "importantContracts"],
+      "properties": {
+        "affectedSystems": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "importantContracts": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "additionalProperties": false
+    },
+    "proofRequirements": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "approvalBoundaries": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "text", "status", "evidenceIds", "limitations"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "text": { "type": "string", "minLength": 1 },
+          "status": {
+            "enum": ["verified", "measured", "observed", "user_asserted", "planned"]
+          },
+          "evidenceIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "scope": { "type": "object" },
+          "limitations": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "status", "summary"],
+        "oneOf": [
+          { "required": ["path"], "properties": { "path": {}, "location": false } },
+          { "required": ["location"], "properties": { "location": {}, "path": false } }
+        ],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "kind": { "type": "string", "minLength": 1 },
+          "status": {
+            "enum": ["verified", "measured", "observed", "user_asserted", "planned"]
+          },
+          "summary": { "type": "string", "minLength": 1 },
+          "path": { "type": "string", "minLength": 1 },
+          "location": { "type": "string", "minLength": 1 },
+          "verify": {
+            "type": "object",
+            "required": ["type"],
+            "properties": {
+              "type": { "const": "boolean-map" },
+              "expectedPassed": { "type": "integer", "minimum": 1 }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "architecture": {
+      "type": "object",
+      "required": ["before", "after"],
+      "properties": {
+        "before": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "after": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "additionalProperties": false
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "nextMilestone": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": false
+}

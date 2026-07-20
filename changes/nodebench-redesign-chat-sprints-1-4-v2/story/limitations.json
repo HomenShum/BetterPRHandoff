@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "nodekit.change-limitations/v1",
+  "changeId": "nodebench-redesign-chat-sprints-1-4-v2",
+  "limitations": [
+    "The evidence was recorded on 2026-05-07 and does not establish current production behavior.",
+    "The adapter verifies archived artifacts and boolean assertions but does not replay Playwright or invoke a visual judge.",
+    "No NodeSlide deck proposal, editable deck, PPTX export, or reopen verification is produced in this P1 slice.",
+    "No authentication, deployment, package publication, paid activation, or destructive action is in scope."
+  ]
+}

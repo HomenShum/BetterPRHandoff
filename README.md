@@ -48,11 +48,38 @@ npx easier init                    # scaffolds CHANGELOG/ + TEMPLATE.md
 npx easier add components Button   # add a new lane file
 npx easier qa-init                 # scaffolds qa.config.json (Phase 5 / QA packet)
 npx easier qa nodebench-chat-v1    # scaffolds QA_DOGFOOD/<feature-id>/ packet files
+npx easier present submissions/my-change/handoff.json  # export NodeKit Present inputs
 ```
 
 Then tell your agent: **"Follow `AGENTS.md` before every commit / push / PR."**
 
 **Want the full QA packet** (preview link + before/after + GIFs + Remotion video + Gmail Magic Resend)? See [`INTEGRATIONS.md`](INTEGRATIONS.md) — this skill defines the schema, [Parity Studio](https://github.com/HomenShum/parity-studio) generates the artifacts. One contract, multiple generators.
+
+### NodeKit Present transport
+
+For a handoff that should become an evidence-backed presentation, describe the
+existing artifacts with [`betterprhandoff.handoff/v1`](templates/handoff-schema.json)
+and run the local adapter:
+
+```bash
+npx easier present submissions/my-change/handoff.json
+
+# CI/proof mode: fail if committed output drifted from the source handoff
+npx easier present submissions/my-change/handoff.json \
+  --out changes/my-change \
+  --check
+```
+
+The adapter writes the NodeKit `changes/<change-id>/` Change Story, claims,
+Evidence Index, architecture diff, limitations, and a content-hashed receipt.
+It is a deterministic file projection: it does not call a model, invent an
+agent runtime, write to NodeSlide, authenticate, deploy, or publish. The
+contract names and directory shape are pinned to
+[`HomenShum/node-platform` commit `05b4e0e`](https://github.com/HomenShum/node-platform/commit/05b4e0e).
+The archived NodeBench handoff under
+[`submissions/nodebench-redesign`](submissions/nodebench-redesign) is the real
+worked example; its generated output is under
+[`changes/nodebench-redesign-chat-sprints-1-4-v2`](changes/nodebench-redesign-chat-sprints-1-4-v2).
 
 ---
 
