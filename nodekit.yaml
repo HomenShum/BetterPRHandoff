@@ -8,6 +8,7 @@ commandProfile: protocol
 
 canonicalFor:
   - betterprhandoff.handoff
+  - betterprhandoff.nodekit-present-receipt
 
 consumes:
   - nodeplatform.repo-contract
