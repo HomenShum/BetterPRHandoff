@@ -69,6 +69,40 @@ This file documents the canonical generators and how to wire them. The goal is n
 
 **Rule**: this repo never imports a generator. Generators never fork the schema. Consumers know about both but depend on neither's internals.
 
+## NodeKit Present: evidence-bound story export
+
+BetterPRHandoff owns the handoff source envelope; NodeKit Present owns the
+Change Story projection consumed by presentation transports. The seam is local
+and finite:
+
+```text
+betterprhandoff.handoff/v1
+  + repository-relative evidence paths
+  + explicit claims, scopes, limitations
+  + archived assertion maps and media
+          |
+          | npx easier present <handoff.json>
+          v
+changes/<change-id>/
+  + change.yaml                 nodekit.change-story/v1
+  + story/claims.json           nodekit.presentation-claims/v1
+  + story/evidence-index.json   nodekit.evidence-index/v1
+  + story/architecture-diff.json
+  + story/limitations.json
+  + evidence/tests/nodekit-present-receipt.json
+```
+
+The adapter resolves evidence inside the repository, verifies supported
+boolean assertion maps, hashes every local artifact, rejects missing or
+traversing paths, and binds claims only to declared evidence IDs. `--check`
+recomputes the full projection and fails on drift. It intentionally stops
+before NodeSlide proposal/apply/export governance.
+
+Contract source: NodeKit Present and Change Story at
+[`HomenShum/node-platform@05b4e0e`](https://github.com/HomenShum/node-platform/commit/05b4e0e).
+No NodeKit package import is required and no generator or agent runtime is
+vendored.
+
 ---
 
 ## Generator: Parity Studio
@@ -181,6 +215,8 @@ Splitting:
 | `qa-states.example.json` | ✅ shipped this repo v1.2.0+ |
 | `npx easier qa-init` CLI | ✅ shipped this repo v1.2.0+ |
 | `npx easier qa <feature-id>` (QA_DOGFOOD scaffold) | ✅ shipped this repo v1.2.1 |
+| `betterprhandoff.handoff/v1` + `npx easier present` | Repository implementation; npm publication is a separate gate |
+| NodeKit Change Story proof receipt | Deterministic sample from the archived NodeBench handoff |
 | **`@homenshum/easier-to-read-submissions` on npm** | ✅ live, latest `1.2.1` |
 | **Parity Studio `qa-packet` MCP tool** | ✅ shipped [`parity-studio-mcp@0.3.6`](https://www.npmjs.com/package/parity-studio-mcp) ([release notes](https://github.com/HomenShum/parity-studio/releases/tag/v0.3.6)) |
 | Parity Studio review page | 🚧 spec filed (post-v0.3.6 follow-up) |

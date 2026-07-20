@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "betterprhandoff.nodekit-present-receipt/v1",
+  "adapter": {
+    "implementation": {
+      "location": "package://bin/nodekit-present.mjs",
+      "contentHash": "sha256:478d35448775e66b0d65b8646d2f4c05d8500aecf24bf6502d282310394b5628"
+    },
+    "sourceSchema": {
+      "location": "package://templates/handoff-schema.json",
+      "schemaVersion": "betterprhandoff.handoff/v1",
+      "contentHash": "sha256:d74b1280269318686811dc0cd532ad734349649a83b24daf54f38b8c17ef0835"
+    },
+    "command": "node bin/init.mjs present submissions/nodebench-redesign/handoff.json --out changes/nodebench-redesign-chat-sprints-1-4-v2 --check",
+    "deterministic": true,
+    "nodeKitContractSource": {
+      "repository": "HomenShum/node-platform",
+      "commit": "05b4e0e",
+      "changeStoryContract": "plugins/nodekit/skills/nodekit-present/references/change-story-contract.md"
+    }
+  },
+  "source": {
+    "path": "submissions/nodebench-redesign/handoff.json",
+    "schemaVersion": "betterprhandoff.handoff/v1",
+    "repository": "HomenShum/NodeBenchAI",
+    "revision": "46e2a317",
+    "recordedAt": "2026-05-07",
+    "pullRequests": [
+      "https://github.com/HomenShum/NodeBenchAI/pull/246",
+      "https://github.com/HomenShum/NodeBenchAI/pull/247",
+      "https://github.com/HomenShum/NodeBenchAI/pull/248",
+      "https://github.com/HomenShum/NodeBenchAI/pull/249",
+      "https://github.com/HomenShum/NodeBenchAI/pull/250",
+      "https://github.com/HomenShum/NodeBenchAI/pull/251",
+      "https://github.com/HomenShum/NodeBenchAI/pull/252"
+    ],
+    "contentHash": "sha256:468667e4404f9a3897e66dd3a3e363e81583342da8673362711383ad532fe51b"
+  },
+  "result": {
+    "changeId": "nodebench-redesign-chat-sprints-1-4-v2",
+    "outputDirectory": "changes/nodebench-redesign-chat-sprints-1-4-v2",
+    "artifacts": [
+      {
+        "path": "change.yaml",
+        "schemaVersion": "nodekit.change-story/v1",
+        "contentHash": "sha256:537d44edcbe408b40d1282c85b86c4d24df34f7b0e78a30df1f4c311851a977b"
+      },
+      {
+        "path": "story/claims.json",
+        "schemaVersion": "nodekit.presentation-claims/v1",
+        "contentHash": "sha256:e7367cfa19b6426e1f1217cecd6b6f3c1249265a7104ef98e028722863677715"
+      },
+      {
+        "path": "story/evidence-index.json",
+        "schemaVersion": "nodekit.evidence-index/v1",
+        "contentHash": "sha256:f036b7b26667107553a8432d3ebe2c32d24e747687bb5f40c1dba05730fd16d7"
+      },
+      {
+        "path": "story/architecture-diff.json",
+        "schemaVersion": "nodekit.architecture-diff/v1",
+        "contentHash": "sha256:696669fe9350c41c32d8b6fcc0ca753ccb85b9e75fe6d23391ba33255b8f34dd"
+      },
+      {
+        "path": "story/limitations.json",
+        "schemaVersion": "nodekit.change-limitations/v1",
+        "contentHash": "sha256:650c50352eeea8afe2c7b2b8b8af8c32cc64c1789593c58778c5fbcafb9d3137"
+      }
+    ],
+    "evidenceFiles": [
+      {
+        "id": "submission-readme",
+        "path": "submissions/nodebench-redesign/README.md",
+        "contentHash": "sha256:3efed5ed4e045ca37fc7de2a38279d4323f20d38627f6363baf73387fb91b818"
+      },
+      {
+        "id": "runtime-architecture",
+        "path": "submissions/nodebench-redesign/ascii-runtime.txt",
+        "contentHash": "sha256:1a7f8bc85d7bb0b798cb2288fbfafbc5440acbc86c2bd35735f73edea7c4c01f"
+      },
+      {
+        "id": "chat-changelog",
+        "path": "submissions/nodebench-redesign/changelog/chat.md",
+        "contentHash": "sha256:56fdc56a0bf8fe12f80269b23011b926bd473d813bd9bab4b4990326ce65c9a4"
+      },
+      {
+        "id": "assertions-v2",
+        "path": "submissions/nodebench-redesign/chat-sprints-1-4-assertions-v2.json",
+        "contentHash": "sha256:8672d444d341e21fc4e84ec0f8fd3878b6db20abcdcdbc816b3dd6ffb70e0618"
+      },
+      {
+        "id": "demo-gif-v2",
+        "path": "submissions/nodebench-redesign/chat-sprints-1-4-demo-v2.gif",
+        "contentHash": "sha256:eeab347e59d9c1a0b5e5915be117f1336105cd912969d3ec6388e1591a1ae274"
+      },
+      {
+        "id": "demo-v2",
+        "path": "submissions/nodebench-redesign/chat-sprints-1-4-demo-v2.mp4",
+        "contentHash": "sha256:14c3b218f2b67b4cc34341d9d39b59bc1a8e382e9f68d06ed839493a9e5e196c"
+      },
+      {
+        "id": "scene-log-v2",
+        "path": "submissions/nodebench-redesign/chat-sprints-1-4-scenes-v2.json",
+        "contentHash": "sha256:f41f478e29a71dee1fb41ff7cd34883a4d7a7e74104c4c200c800efa1efb8242"
+      },
+      {
+        "id": "demo-narrative-v2",
+        "path": "submissions/nodebench-redesign/demo-chat-sprints-1-4-v2.md",
+        "contentHash": "sha256:01d9c4f121a1bc20b7769ce212b43115d3cf642d5fe851b7da543f91e6c4302f"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "id": "source-contract",
+      "passed": true,
+      "detail": "betterprhandoff.handoff/v1"
+    },
+    {
+      "id": "nodekit-contract-pin",
+      "passed": true,
+      "detail": "05b4e0e"
+    },
+    {
+      "id": "claim-evidence-bindings",
+      "passed": true,
+      "detail": "3 claims bound"
+    },
+    {
+      "id": "evidence-files-resolved",
+      "passed": true,
+      "detail": "8 local artifacts hashed"
+    },
+    {
+      "id": "evidence:assertions-v2",
+      "passed": true,
+      "detail": "26/26 assertions passed"
+    },
+    {
+      "id": "limitations-visible",
+      "passed": true,
+      "detail": "4 limitations"
+    }
+  ]
+}

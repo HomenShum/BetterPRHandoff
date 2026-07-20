@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "nodekit.architecture-diff/v1",
+  "changeId": "nodebench-redesign-chat-sprints-1-4-v2",
+  "before": [
+    "A v1 demo showed all feature groups but left dependency-bound interactions skipped or only mid-flow",
+    "Claims, evidence files, and limitations were linked through prose rather than a machine-readable evidence index",
+    "Presentation consumers had to rediscover the story from markdown and filenames"
+  ],
+  "after": [
+    "A deterministic handoff envelope binds scoped claims to assertion, trace, media, architecture, and changelog evidence",
+    "The local adapter verifies boolean assertions and hashes every repository artifact before export",
+    "NodeKit Present receives canonical Change Story, claims, Evidence Index, architecture diff, limitations, and a deterministic receipt",
+    "NodeSlide proposal, editing, and export remain separate governed transports"
+  ]
+}

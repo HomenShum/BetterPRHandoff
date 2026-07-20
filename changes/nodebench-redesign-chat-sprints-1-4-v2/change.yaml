@@ -1,0 +1,48 @@
+schemaVersion: "nodekit.change-story/v1"
+id: "nodebench-redesign-chat-sprints-1-4-v2"
+title: "NodeBench redesign chat sprints 1-4 closed-loop handoff"
+changeType: "feature"
+audience:
+  - "technical-reviewer"
+  - "next-maintainer"
+presentationTier: 2
+problem:
+  previousState: "The first recorded walkthrough rendered all 11 chat features but skipped three dependency-bound behaviors and left several end-state actions unasserted."
+  painOrRisk: "A reviewer could see controls in a video without evidence that hover, restore, unpin, modal selection, clipboard determinism, and correction completion actually closed their loops."
+  affectedUsers:
+    - "NodeBench redesign reviewers"
+    - "maintainers replaying the chat demo"
+    - "agents consuming the branch handoff"
+decision:
+  selectedApproach: "Add a deterministic fresh-chat seed, close the missing interaction paths in the recorder, and bind every material demo claim to the archived assertion map, scene log, and media artifacts."
+  alternatives:
+    - "Keep the v1 video and describe the skipped paths in prose"
+    - "Treat render-only checks as equivalent to completed interactions"
+  tradeoffs:
+    - "The fresh-chat seed is a deterministic demonstration path rather than evidence about every live data state"
+    - "The archived run proves its recorded revision and date, not current production behavior"
+implementation:
+  affectedSystems:
+    - "NodeBench redesign chat"
+    - "Playwright demo recorder"
+    - "BetterPRHandoff submission archive"
+    - "NodeKit Present projection"
+  importantContracts:
+    - "betterprhandoff.handoff/v1"
+    - "nodekit.change-story/v1"
+    - "nodekit.evidence-index/v1"
+proofRequirements:
+  - "Every archived boolean assertion is true"
+  - "The scene timeline and video artifacts resolve to immutable content hashes"
+  - "Material claims resolve to evidence IDs"
+  - "Historical and current-production scope remain visibly separated"
+approvalBoundaries:
+  - "No deployment is performed by the adapter"
+  - "No package publication is performed by the adapter"
+  - "A NodeSlide proposal or export requires a separate host-approved step"
+limitations:
+  - "The evidence was recorded on 2026-05-07 and does not establish current production behavior."
+  - "The adapter verifies archived artifacts and boolean assertions but does not replay Playwright or invoke a visual judge."
+  - "No NodeSlide deck proposal, editable deck, PPTX export, or reopen verification is produced in this P1 slice."
+  - "No authentication, deployment, package publication, paid activation, or destructive action is in scope."
+nextMilestone: "Let an installed NodeSlide transport consume this evidence-bound Change Story and propose a Tier 2 deck without changing the handoff source of truth."

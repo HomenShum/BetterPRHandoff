@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "nodekit.presentation-claims/v1",
+  "changeId": "nodebench-redesign-chat-sprints-1-4-v2",
+  "claims": [
+    {
+      "id": "claim-closed-loop-assertions",
+      "text": "The archived v2 recorder result contains 26 of 26 passing boolean assertions across the 11 chat feature groups.",
+      "status": "verified",
+      "evidenceIds": [
+        "assertions-v2",
+        "scene-log-v2",
+        "demo-v2"
+      ],
+      "scope": {
+        "repository": "HomenShum/NodeBenchAI",
+        "revision": "46e2a317",
+        "recordedAt": "2026-05-07"
+      },
+      "limitations": [
+        "This is evidence for the archived run, not a fresh production replay."
+      ]
+    },
+    {
+      "id": "claim-deterministic-share-hash",
+      "text": "Two consecutive Share actions in the archived run produced the same reproducibility hash.",
+      "status": "verified",
+      "evidenceIds": [
+        "assertions-v2",
+        "demo-narrative-v2"
+      ],
+      "scope": {
+        "assertion": "p2.13-hash-deterministic"
+      },
+      "limitations": [
+        "The assertion covers the recorded AnswerPacket fixture, not all possible packet inputs."
+      ]
+    },
+    {
+      "id": "claim-v2-closes-v1-gaps",
+      "text": "The v2 handoff records completed hover, counterfactual probe, restore, unpin, modal-selection, clipboard, and correction end states that were skipped or render-only in v1.",
+      "status": "observed",
+      "evidenceIds": [
+        "demo-narrative-v2",
+        "chat-changelog",
+        "assertions-v2"
+      ],
+      "scope": {
+        "pullRequests": [
+          251,
+          252
+        ]
+      },
+      "limitations": [
+        "The comparison is based on the archived v1 and v2 handoff artifacts."
+      ]
+    }
+  ]
+}
