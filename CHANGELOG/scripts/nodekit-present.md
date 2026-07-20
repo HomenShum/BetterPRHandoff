@@ -10,6 +10,6 @@ The adapter rejects path traversal, missing evidence, false assertion maps,
 duplicate IDs, and unbound claims; the existing init, lane, QA, and install CLI
 behavior is unchanged.
 
-**Commit**: the commit containing this entry. **Author**: Codex.
+**Commit**: `de17c8b`. **Author**: Codex.
 
 **Touches**: [`CHANGELOG/integrations/nodekit-present.md`](../integrations/nodekit-present.md)

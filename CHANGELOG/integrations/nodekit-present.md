@@ -11,6 +11,6 @@ projects into the NodeKit Change Story and Evidence Index while deployment,
 authentication, package publication, and NodeSlide writes remain separate
 approval gates.
 
-**Commit**: the commit containing this entry. **Author**: Codex.
+**Commit**: `de17c8b`. **Author**: Codex.
 
 **Touches**: [`CHANGELOG/scripts/nodekit-present.md`](../scripts/nodekit-present.md)
