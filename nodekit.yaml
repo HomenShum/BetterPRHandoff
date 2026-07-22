@@ -1,0 +1,29 @@
+schemaVersion: nodekit.repo/v1
+repository: HomenShum/BetterPRHandoff
+lifecycle: production
+support: active
+role: handoff-protocol
+commandProfile: protocol
+canonicalFor:
+  - betterprhandoff.handoff
+  - betterprhandoff.nodekit-present-receipt
+consumes:
+  - nodeplatform.repo-contract
+  - nodeplatform.change-story
+commands:
+  doctor: { script: test, mode: finite }
+  check: { script: test, mode: finite }
+  proof: { script: test, mode: finite }
+noKey:
+  status: certified
+  command: npm run test
+  externalAccountsRequired: 0
+  disclosure: CLI initialization and help validation require no external accounts.
+environment:
+  contractVersion: nodeplatform.env/v1
+  status: not-applicable
+proof:
+  command: npm run test
+  receiptSchema: betterprhandoff.handoff/v1
+contractDeclarations: []
+architectureExceptions: []
