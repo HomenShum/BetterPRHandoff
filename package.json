@@ -49,6 +49,6 @@
     "node": ">=18"
   },
   "scripts": {
-    "test": "node bin/init.mjs --help"
+    "test": "node --test test/cli.test.mjs"
   }
 }
