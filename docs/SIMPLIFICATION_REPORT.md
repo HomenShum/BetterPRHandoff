@@ -15,11 +15,11 @@ git worktree add /tmp/before e2bb028
 
 | Measure | Before | After | Change | Evidence command |
 |---|---:|---:|---:|---|
-| Repo files (tracked) | 43 | 39 | −4 | `git ls-tree -r --name-only <rev> \| wc -l` |
+| Repo files (tracked) | 43 | 50 | +7 | `git ls-tree -r --name-only <rev> \| wc -l` |
 | Production files (what `package.json#files` ships) | 21 | 18 | −3 | `git ls-tree -r --name-only <rev> \| grep -E '^(SKILL\|AGENTS\|README\|LICENSE)\|^bin/\|^templates/' \| wc -l` |
 | Production source lines (executable `.mjs` shipped) | 1076 | 325 | −751 (−70%) | `for f in $(git ls-tree -r --name-only <rev> \| grep -E '^(bin\|templates)/.*\.mjs$'); do git show <rev>:$f \| wc -l; done` |
-| `bin/init.mjs` executable lines (non-blank, non-comment) | 250 | 237 | −13 | `git show <rev>:bin/init.mjs \| grep -vE '^\s*(//\|/\*\|\*\|$)' \| wc -l` |
-| Prose + shell shipped (lines) | 2074 | 1677 | −397 | `for f in $(git ls-tree -r --name-only <rev> \| grep -E '^(SKILL\|AGENTS\|README\|INTEGRATIONS\|install)\.\|^templates/.*\.(md\|sh\|ps1)$'); do git show <rev>:$f \| wc -l; done` |
+| `bin/init.mjs` executable lines (non-blank, non-comment) | 250 | 238 | −12 | `git show <rev>:bin/init.mjs \| grep -vE '^\s*(//\|/\*\|\*\|$)' \| wc -l` |
+| Prose + shell shipped (lines) | 2074 | 1679 | −395 | `for f in $(git ls-tree -r --name-only <rev> \| grep -E '^(SKILL\|AGENTS\|README\|INTEGRATIONS\|install)\.\|^templates/.*\.(md\|sh\|ps1)$'); do git show <rev>:$f \| wc -l; done` |
 | Direct dependencies | 0 | 0 | 0 | `node -e "const p=require('./package.json');console.log(Object.keys(p.dependencies\|\|{}).length)"` |
 | Undeclared imports in shipped code | 1 (`playwright`) | 0 | −1 | `node templates/recorder.mjs` → `ERR_MODULE_NOT_FOUND` before; file gone after |
 | External binaries invoked | 3 (`ffmpeg`, `ffprobe`, `git`) | 0 | −3 | `git grep -hoE "spawnSync\('[a-z]+'\|execSync" <rev> -- bin templates install.sh` |
@@ -30,7 +30,7 @@ git worktree add /tmp/before e2bb028
 | Unused exports | 0 | 0 | 0 | `npx knip --no-progress` |
 | Duplicate blocks | 7 | 6 | −1 | `npx jscpd bin templates AGENTS.md SKILL.md README.md INTEGRATIONS.md --reporters console` |
 | Duplicated lines | 194 (3.65%) | 129 (3.04%) | −65 | same jscpd command |
-| Duplicated tokens | 5637 (9.97%) | 720 (1.82%) | −4917 (−87%) | same jscpd command |
+| Duplicated tokens | 5637 (9.97%) | 720 (1.81%) | −4917 (−87%) | same jscpd command |
 | Duplicate blocks in JavaScript | 1 | 0 | −1 | same jscpd command |
 | Circular dependencies | 0 | 0 | 0 | `npx dependency-cruiser --no-config --validate --output-type err bin templates` |
 | Modules cruised | 10 | 5 | −5 | same dependency-cruiser command |
@@ -40,10 +40,26 @@ git worktree add /tmp/before e2bb028
 | Production bundle size | not applicable — no build step and no bundler; `package.json` has no `build` script and ships source directly | | | `node -e "console.log(Object.keys(require('./package.json').scripts))"` |
 | Additions / deletions | — | — | 13 files changed, 397 (+) / 1265 (−) | `git diff --shortstat e2bb028 d18bb0e` |
 
-The additions/deletions row is measured at commit `d18bb0e`, the last commit
-that changed shipped code. Documentation added after it (`docs/`, `.tours/`) is
-new material rather than simplification and would make the row read as growth
-without meaning anything.
+Two rows need reading carefully.
+
+**Repo files went UP, 43 → 50.** That is not a simplification failure: this
+pass deleted 5 files and added 12 documentation files (`docs/`, `.tours/`,
+`test/`), none of which ship to a user. The row that answers "did the product
+get smaller" is the one below it — production files, 21 → 18 — because
+`package.json#files` is what an installer actually downloads. Both are here
+rather than only the flattering one.
+
+**Additions/deletions is measured at commit `d18bb0e`**, the last commit that
+changed shipped code. Documentation written after it is new material rather
+than simplification, and including it would make the row read as growth without
+meaning anything.
+
+> **Correction, same day.** The first version of this table quoted four "after"
+> numbers taken before the documentation commit: repo files 39, `init.mjs`
+> executable lines 237, prose+shell 1677, and duplicated tokens 1.82%. An
+> adversarial re-run against the real tip gave 50, 238, 1679 and 1.81%. The
+> old values are kept here so the correction is auditable; every other row
+> reproduced exactly on re-run.
 
 ## What was deleted
 
@@ -176,10 +192,28 @@ and there is no trust boundary being crossed. Written up in
 
 ## What did not change
 
-- Zero dependencies, before and after.
-- The five subcommands, their arguments, and every exit code the promotion
-  baseline recorded — except the two documented behaviour changes: `add` now
-  prints a relative path on Windows where it previously printed an absolute
-  one, and `init`'s next-steps list is reordered (D6).
-- The package name, the two binary names, and the published contract.
-- `AGENTS.md` and `SKILL.md` as two separate files.
+Verified rather than asserted. Every subcommand was run against a worktree at
+`e2bb028` and against the tip, in matched throwaway directories, and both the
+printed output and the resulting file tree were diffed:
+
+```bash
+# 15 invocations per side, ANSI stripped, temp paths and today's date normalised
+diff out-before.txt out-after.txt
+# then: same commands, compare the produced file trees and md5 of every file
+```
+
+The file tree produced is **identical**. The output diff and the content diff
+show exactly three differences, all three of them intended and each with its
+own commit:
+
+1. `init`'s next-steps list is reordered — defect D6.
+2. `add` prints `CHANGELOG\components\Button.md` where it previously printed
+   the full absolute path. Windows-only; `relative()` replacing a `.replace()`
+   that never matched a backslash.
+3. `CHANGELOG/README.md`, the file `init` copies, has different content — the
+   SitFlow index replaced by a skeleton. Every other file `init`, `add`, `qa`
+   and `qa-init` produce is byte-identical.
+
+Unchanged: zero dependencies, all five subcommands and their arguments, every
+exit code the promotion baseline recorded, the package name, both binary names,
+the published contract, and `AGENTS.md` / `SKILL.md` as two separate files.
