@@ -94,11 +94,47 @@ reproduction; a hunch is not a defect.
 |---|----------|---------|--------------|--------|
 | D1 | major | J2 | In a fresh git repo: `node bin/init.mjs init` → `git add CHANGELOG && git commit` → `git ls-files` shows only `CHANGELOG/README.md`, `CHANGELOG/TEMPLATE.md` and lane files that have content. `git clone` that repo, run `node bin/init.mjs add pages dashboard` → **exit 1**, `✗ …\CHANGELOG\pages does not exist`. Git does not track empty directories and `init()` (`bin/init.mjs:98`) writes no `.gitkeep`, so five of the six lanes vanish for every teammate. The error tells them to run `npx easier init`, which then prints `! CHANGELOG/ already exists … Skipping scaffold` and exits 0 without repairing — a closed loop. Team adoption is the product's headline claim, so this breaks it at the second person. | open |
 | D2 | major | J4 | `node bin/init.mjs qa demo` → open `QA_DOGFOOD/demo/gmail-magic-resend.html` at the 375×812 Pixel 8 preset. Measured in the page: `document.documentElement.clientWidth === 980`, `visualViewport.scale === 0.383`, `screen.width === 375`. `templates/gmail-magic-resend.html` has no `<meta name="viewport">`, so mobile Chrome falls back to its 980px legacy layout and shrinks everything to 38% — the 13px table text lands near 5 effective pixels. The page's own body copy says "Open this from Gmail on desktop **or phone**". Desktop 1280 is unaffected. | open |
-| D3 | major | J5 | `templates/recorder.mjs` is presented by the README as a reusable template but is SitFlow's concrete recorder. It asserts literal foreign strings — `'SitFlow'` and `'Booking inbox'` (line 191), `'No human food'` / `'Walk after every nap'` / `'Never alone'` (line 260), `'Care Rules'` (line 296) — filters localStorage on a `sitflow:` prefix (line 139), defaults `PWA_URL` to `localhost:8081` and hard-codes output names `jaynee-demo.mp4` / `.gif`. Copy it into any other repo per README Phase 2 and every scene check fails against a correctly working app. It also imports `playwright`, which `package.json` does not declare. | open |
-| D4 | minor | — | `npm test` exits 0 by running `node bin/init.mjs --help`. There are no assertions anywhere in the repo, so condition 11 is green in a way that cannot go red. Every CLI behaviour recorded in the table above was verified by hand this pass and is unprotected against regression — including D1, which a three-line test would have caught. | open |
-| D5 | minor | J2 | `node bin/init.mjs entry CHANGELOG/components/Button.md` → **exit 1**, `✗ Unknown command: entry`. The subcommand is documented in the file's own header comment (`bin/init.mjs:10`, "entry <lane-file> Prepend a new entry to a lane (interactive)") but the dispatcher (lines 306-318) never handles it. Prepending an entry is Phase 1's central action, so the one verb that would automate it is a stub. | open |
-| D6 | minor | J1 | In an empty directory, `npx easier init` succeeds and then prints as step 2: "Bootstrap from git history: see `.claude/skills/easier-to-read-submissions/templates/bootstrap-prompt.md`". That path does not exist — `test -e` returns false — because installing the skill is step 3, one line further down. The ordering is inverted: the file it tells you to read only appears after the step that follows it. | open |
+| D3 | major | J5 | `templates/recorder.mjs` is presented by the README as a reusable template but is SitFlow's concrete recorder. It asserts literal foreign strings — `'SitFlow'` and `'Booking inbox'` (line 191), `'No human food'` / `'Walk after every nap'` / `'Never alone'` (line 260), `'Care Rules'` (line 296) — filters localStorage on a `sitflow:` prefix (line 139), defaults `PWA_URL` to `localhost:8081` and hard-codes output names `jaynee-demo.mp4` / `.gif`. Copy it into any other repo per README Phase 2 and every scene check fails against a correctly working app. It also imports `playwright`, which `package.json` does not declare. | **closed** — wave 3 deleted the file, plus `verifier.mjs` and `probe-routes.mjs`, which are the same class and this row did not name |
+| D4 | minor | — | `npm test` exits 0 by running `node bin/init.mjs --help`. There are no assertions anywhere in the repo, so condition 11 is green in a way that cannot go red. Every CLI behaviour recorded in the table above was verified by hand this pass and is unprotected against regression — including D1, which a three-line test would have caught. | **closed** — wave 3 replaced the script with `node --test test/cli.test.mjs`, 18 scenario tests |
+| D5 | minor | J2 | `node bin/init.mjs entry CHANGELOG/components/Button.md` → **exit 1**, `✗ Unknown command: entry`. The subcommand is documented in the file's own header comment (`bin/init.mjs:10`, "entry <lane-file> Prepend a new entry to a lane (interactive)") but the dispatcher (lines 306-318) never handles it. Prepending an entry is Phase 1's central action, so the one verb that would automate it is a stub. | **half closed** — wave 3 deleted the false documentation at `bin/init.mjs:10`; the verb is still unbuilt |
+| D6 | minor | J1 | In an empty directory, `npx easier init` succeeds and then prints as step 2: "Bootstrap from git history: see `.claude/skills/easier-to-read-submissions/templates/bootstrap-prompt.md`". That path does not exist — `test -e` returns false — because installing the skill is step 3, one line further down. The ordering is inverted: the file it tells you to read only appears after the step that follows it. | **closed** — wave 3 reordered the steps and added a test that follows them literally |
 
 ## Iterations
 
-_none yet — baseline only. Nothing was fixed in this pass by design._
+### Iteration 1 — 2026-08-13 — human-readiness pass (wave 3)
+
+The provisional flag on the baseline above is lifted; its numbers stand as the
+measured starting line. This iteration did **not** drive journeys in a browser —
+it is the second loop, aimed at making the codebase runnable, traceable and
+changeable by a stranger. Full before/after table with every evidence command:
+[`docs/SIMPLIFICATION_REPORT.md`](../docs/SIMPLIFICATION_REPORT.md).
+
+- **Journey exercised:** J1 and J2 at the CLI, driven by 18 automated scenario
+  tests rather than by hand. J4 scaffold likewise. No browser surface was
+  re-measured, so D2 is untouched and conditions 3, 4, 6, 7, 8, 9 and 12 keep
+  the baseline's scores.
+- **Observed:** three `templates/*.mjs` "templates" were another product's
+  concrete scripts that could not run (`ERR_MODULE_NOT_FOUND`, undeclared
+  `playwright`); `install.sh` and `install.ps1` were second and third copies of
+  the CLI's install logic and disagreed with it and with each other on
+  auto-detection; `templates/CHANGELOG-README.md` was SitFlow's finished index,
+  copied verbatim into every adopter's repo; a 72-line ASCII diagram existed
+  byte-identically in two files.
+- **Fixed:** D3 (closed by deletion), D4 (closed — real tests), D6 (closed —
+  step order, with a knockout-verified test), D5 (half closed — false docs
+  removed). Details in each row above.
+- **Re-proved:** `npm test` → 18 pass. `npx knip` → 0 findings, down from 3
+  unused files. `npx jscpd` over the shipped surface → duplicated tokens
+  5637 (9.97%) → 720 (1.82%). `npx dependency-cruiser --validate` → 0
+  violations, 10 modules → 5.
+- **Tests:** `npm test` → `# pass 18 / # fail 0`, ~3s, Node v22.22.2.
+- **Conditions newly PASS:** none claimed. Condition 11 was already PASS and is
+  now non-vacuous, which the baseline explicitly flagged as the problem (D4);
+  that is an improvement in evidence quality, not a new PASS. Conditions 1 and
+  2 remain FAIL while D1 and D2 are open.
+- **New defect found:** D7, below. Found by running the new test suite, not by
+  reading.
+
+| # | Severity | Journey | Reproduction | Status |
+|---|----------|---------|--------------|--------|
+| D7 | minor | J1 | `node bin/init.mjs init && node bin/init.mjs add components Button`, then `grep -c '^## YYYY-MM-DD —' CHANGELOG/components/Button.md` → **3**. `addLane()` substitutes only the topmost heading of `templates/lane.md`, so the template's two sample entries survive into every new lane — one of them carrying `abc1234` as a commit sha — and the newest entry keeps a dangling `**Touches**: <other CHANGELOG files affected>` placeholder. A user who does not clean up commits fake history into a file the protocol declares append-only. Pinned at the observed count of 3 by a test naming D7, so a fix must change the number deliberately. | open |

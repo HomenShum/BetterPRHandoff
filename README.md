@@ -7,6 +7,8 @@ protocol and CLI. The npm package name stays stable for existing installs.
 
 A drop-in protocol for **any** LLM-driven coding agent that turns "made some changes, time to commit" into a deterministic, verifiable submission. Built so the next person reading your branch — your reviewer, your future self, the engineer you're handing the project to, the next AI agent — doesn't have to spelunk through 40 commit messages to understand what changed.
 
+> **Working on this repo rather than using it?** Start at [`docs/START_HERE.md`](docs/START_HERE.md), which walks the code in the order it runs, then read [`promotion/PROMOTION_LOG.md`](promotion/PROMOTION_LOG.md) for what is currently broken. Two CodeTours in [`.tours/`](.tours) cover the same ground inside VS Code.
+
 Four artifacts the protocol produces per submission, automatically:
 
 - **Per-surface changelog entries** — append-only files under `CHANGELOG/<category>/<slug>.md`, one entry per touched surface, cross-linked.

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "02 — Where the rules live",
+  "description": "The half of this product that is not code. Nine stops through the protocol the CLI installs, and the contract line that keeps it from growing a second product inside it.",
+  "ref": "main",
+  "steps": [
+    {
+      "file": "promotion/PRODUCT_GOAL.md",
+      "line": 5,
+      "title": "Who opens this, and what they are trying to finish",
+      "description": "Read this paragraph before any code. Someone has finished a week of changes and is handing the branch to a reviewer, a teammate, themselves in three months, or the next AI agent. This repo hands them a filing system and the rules for keeping it filled in.\n\nThe sentence that governs everything: this product does not run an agent for anyone."
+    },
+    {
+      "file": "AGENTS.md",
+      "line": 13,
+      "title": "The contract, for any agent",
+      "description": "Six numbered steps a coding assistant runs before every commit. Plain markdown and bash — no Claude assumptions, no MCP.\n\n`easier install` copies this file, alone, to Cursor, Cline and Aider."
+    },
+    {
+      "file": "SKILL.md",
+      "line": 23,
+      "title": "The same contract, for Claude Code",
+      "description": "Five phases, with YAML front-matter declaring the trigger phrases. `easier install` copies this alongside AGENTS.md for Claude Code targets.\n\nTwo files with overlapping content is deliberate — different consumers, and this package has no build step to generate one from the other. The cost is drift, and the rule against it is in docs/codebase/CONVENTIONS.md: change one, change the other, same commit."
+    },
+    {
+      "file": "bin/init.mjs",
+      "line": 264,
+      "title": "How the rules find the reader's agent",
+      "description": "Six markers, checked in order, first match wins. A repo-local agent config beats a plain git repo, which beats the user's home configuration.\n\nThere used to be three copies of this ladder — this one, install.sh and install.ps1 — and they disagreed. In a directory holding only `.cursor/`, this chose `cursor`, install.sh chose `user`, and install.ps1 chose `user` for every repository. Both shell installers are gone."
+    },
+    {
+      "file": "bin/init.mjs",
+      "line": 285,
+      "title": "What install actually copies",
+      "description": "The contract plus the whole templates directory. This is why a template that names another product is expensive: it lands in every adopter's agent directory.\n\n`cp` with `recursive` replaced a hand-rolled `copyDir` that walked the tree itself."
+    },
+    {
+      "file": "templates/qa-packet-schema.json",
+      "line": 2,
+      "title": "The line this repo does not cross",
+      "description": "This schema is the integration surface. Another tool captures the screenshots, builds the GIFs and sends the email; it just has to emit a packet that conforms to this shape.\n\nEvery time generation has been put on this side of the line, the result was a script hard-coded to one product. That is what the wave-3 pass deleted 753 lines of. If a change needs Playwright, ffmpeg or an API key, it belongs on the far side."
+    },
+    {
+      "file": "SKILL.md",
+      "line": 115,
+      "title": "Why there is no recorder here",
+      "description": "The protocol still asks for a Playwright recorder and a video verifier. It no longer ships one, because the one it shipped hard-coded another product's routes and assert strings and imported a dependency package.json never declared.\n\nWhat survives is the contract: the evidence JSON shape, the two layers, and the rule that a DOM pass plus a video fail means the content rendered below the fold."
+    },
+    {
+      "file": "INTEGRATIONS.md",
+      "line": 14,
+      "title": "Who implements the other side",
+      "description": "The map of generators — Parity Studio, your CI, your own tool — and what each is adequate for. Note the box for this repo: protocol docs, schemas, templates and a CLI. No generation."
+    },
+    {
+      "file": "docs/SIMPLIFICATION_REPORT.md",
+      "line": 1,
+      "title": "What changed, and how to disagree with it",
+      "description": "Every measurement in this walkthrough with the exact command that produced it, before and after. If a number here looks wrong, run the command against a worktree at commit e2bb028 and it will tell you who is right."
+    }
+  ]
+}
