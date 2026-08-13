@@ -42,9 +42,9 @@ Three, all in `install()`, all about *where to put files*:
 
 | Variable | Read at | Used for |
 |---|---|---|
-| `CLAUDE_CONFIG_DIR` | `bin/init.mjs:254` | overrides `~/.claude` for the `user` install target |
-| `HOME` | `bin/init.mjs:251` | home directory on POSIX |
-| `USERPROFILE` | `bin/init.mjs:251` | home directory on Windows |
+| `CLAUDE_CONFIG_DIR` | `bin/init.mjs:268` → `user: join(process.env.CLAUDE_CONFIG_DIR` | overrides `~/.claude` for the `user` install target |
+| `HOME` | `bin/init.mjs:265` → `const home = process.env.HOME || process.env.USERPROFILE;` | home directory on POSIX |
+| `USERPROFILE` | `bin/init.mjs:265` → `const home = process.env.HOME || process.env.USERPROFILE;` | home directory on Windows |
 
 No secrets, no tokens, no endpoints. If a change introduces a fourth variable,
 ask first whether the work belongs on the generator side of the schema
@@ -53,7 +53,8 @@ boundary.
 ## Where the adopter's own agent plugs in
 
 `easier install` writes the rule files where each agent looks for them.
-The detection ladder is `bin/init.mjs:264-269`, in this order:
+The detection ladder starts at `bin/init.mjs:278` → `if (existsSync(join(cwd, ".cursor"))) mode = "cursor";`
+and runs six rows, in this order:
 
 | Marker found in the current directory | Mode | Files written |
 |---|---|---|
@@ -69,7 +70,7 @@ plain git repo, which beats the user's home configuration. Any of the six can
 be forced by name — `easier install cursor`.
 
 **Adding a seventh agent** means one row in the `targets` object
-(`bin/init.mjs:253-260`), one branch in the detection ladder, one `else if` in
+(`bin/init.mjs:267` → `const targets = {`), one branch in the detection ladder, one `else if` in
 the copy block, and one line of help text. There is no plugin mechanism and
 adding one for six entries would cost more than it saves.
 

@@ -9,28 +9,6 @@ detail and the limits that are not defects.
 
 ## Open defects
 
-### D1 — `add` fails for the second person on the team (major)
-
-Git does not track empty directories. `init` creates six lane directories and
-writes no file into five of them, so those five never survive a commit. The
-teammate who clones cannot add a lane, and the error tells them to run `init`,
-which then declines because `CHANGELOG/` exists. A closed loop.
-
-```bash
-cd "$(mktemp -d)" && git init -q .
-node <repo>/bin/init.mjs init >/dev/null
-git add CHANGELOG && git -c user.email=a@b -c user.name=a commit -qm x
-git ls-files                       # only README.md and TEMPLATE.md
-cd "$(mktemp -d)" && git clone -q <first-dir> . 2>/dev/null
-node <repo>/bin/init.mjs add pages dashboard    # exit 1, "does not exist"
-```
-
-Two candidate fixes, both behaviour changes on the primary journey and so
-owned by the product loop, not the wave-3 pass: write a `.gitkeep` into each
-lane directory, or let `add` create the directory it needs and delete the
-guard at `bin/init.mjs:141`. The second is the smaller diff and removes a code
-path rather than adding files. Pinned by a test that names D1.
-
 ### D2 — the emitted HTML has no viewport meta (major)
 
 `templates/gmail-magic-resend.html` ships no `<meta name="viewport">`, so
@@ -71,7 +49,8 @@ node <repo>/bin/init.mjs init >/dev/null
 node <repo>/bin/init.mjs add components ../../escaped   # ✓ Created escaped.md, exit 0
 ```
 
-`slug` is joined into a path without validation (`bin/init.mjs:147`), so it can
+`slug` is joined into a path without validation (`bin/init.mjs:161` →
+`const target = join(dir,`), so it can
 write outside `CHANGELOG/`. Recorded rather than fixed: this is a local
 developer tool, the argument comes from the person at the keyboard, and no
 trust boundary is crossed. It becomes a real defect the moment anything drives
@@ -95,7 +74,8 @@ does not belong in a structural commit.
 
 ### `fs.cp` on Node 18 and 20
 
-`bin/init.mjs:285` uses `cp` from `node:fs/promises`, which was marked Stable
+`bin/init.mjs:299` → `await cp(TPL_DIR, join(dest, "templates"), { recursive: true });`
+uses `cp` from `node:fs/promises`, which was marked Stable
 only in Node v22.3.0. `engines.node` still says `>=18`. It works on 18 and 20,
 both of which are past end-of-life; if a user on one of them reports an
 `ExperimentalWarning` during `easier install`, that is the cause, and the fix

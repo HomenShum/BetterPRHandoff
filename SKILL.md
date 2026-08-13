@@ -253,7 +253,7 @@ Generation (Playwright capture, diff, GIF, Remotion video, Gmail send, hosted re
 ```
 1. author finishes change on branch
 2. author writes (or already has) qa.config.json declaring states
-3. `npx easier qa-init` (one-time per repo) scaffolds qa.config.json from the example
+3. `npx @homenshum/easier-to-read-submissions qa-init` (one-time per repo) scaffolds qa.config.json from the example
 4. `parity-studio qa-packet --feature <id>`   # captures before+after, builds packet.json
 5. `parity-studio qa-send --to <email>`        # Gmail Magic Resend
 6. reviewers open email → click side-by-side review → leave verdicts

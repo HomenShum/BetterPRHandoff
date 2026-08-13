@@ -16,11 +16,9 @@
  *   install [target]        Install the skill where the user's agent reads it
  *   help
  *
- * Usage:
+ * Usage — from an install, or from a clone of this repo:
  *   npx @homenshum/easier-to-read-submissions init
- *   npx easier init
- *   npx easier add components Button
- *   npx easier install cursor
+ *   node bin/init.mjs init
  *
  * Reading order for the whole system: docs/START_HERE.md
  */
@@ -43,6 +41,21 @@ const CATEGORIES = ["pages", "components", "server", "db", "integrations", "scri
 
 const args = process.argv.slice(2);
 const cmd = args[0] || "help";
+
+/**
+ * How this program tells the user to run it again.
+ *
+ * Every printed next step used to read `npx easier <verb>`. There is an
+ * unrelated package literally named `easier` on npm — published 2017 by
+ * another author, with no `bin` — so that line never reached this file from
+ * anywhere. Print the invocation that actually did: the published name when
+ * running from an install, the real path when running from a clone, so a
+ * reader following the output exercises the code they are reading.
+ */
+const SELF = process.argv[1] || "";
+const INVOKE = /[\\/]node_modules[\\/]/.test(SELF)
+  ? "npx @homenshum/easier-to-read-submissions"
+  : `node ${relative(process.cwd(), SELF).split("\\").join("/")}`;
 
 const C = {
   green: (s) => `\x1b[32m${s}\x1b[0m`,
@@ -68,12 +81,12 @@ ${C.bold("Subcommands:")}
   ${C.cyan("help")}                          This help
 
 ${C.bold("Examples:")}
-  npx easier init
-  npx easier add components Button
-  npx easier add db users
-  npx easier qa-init
-  npx easier qa nodebench-chat-declutter-v1
-  npx easier install cursor
+  ${INVOKE} init
+  ${INVOKE} add components Button
+  ${INVOKE} add db users
+  ${INVOKE} qa-init
+  ${INVOKE} qa nodebench-chat-declutter-v1
+  ${INVOKE} install cursor
 
 ${C.bold("Docs:")}  https://github.com/HomenShum/BetterPRHandoff
 `);
@@ -88,7 +101,7 @@ async function init() {
   if (existsSync(cl)) {
     console.log(C.yellow(`! CHANGELOG/ already exists at ${cl}`));
     console.log(C.dim("  Skipping scaffold to avoid clobbering existing lanes."));
-    console.log(C.dim("  Use `npx easier add <category> <slug>` to add new lane files."));
+    console.log(C.dim(`  Use \`${INVOKE} add <category> <slug>\` to add new lane files.`));
     return;
   }
 
@@ -110,10 +123,10 @@ async function init() {
   // It used to be listed last, so a first-time user was sent to a path that
   // did not exist yet (defect D6).
   console.log(C.bold("Next steps:"));
-  console.log(`  1. Install the skill so your agent picks it up: ${C.cyan("npx easier install")}`);
+  console.log(`  1. Install the skill so your agent picks it up: ${C.cyan(`${INVOKE} install`)}`);
   console.log(`  2. Backfill lanes from git history with the prompt that step 1 just placed at`);
   console.log(`     ${C.cyan(".claude/skills/easier-to-read-submissions/templates/bootstrap-prompt.md")}`);
-  console.log(`     OR: ${C.cyan("npx easier add pages tabs-index-inbox")} to create lanes one at a time`);
+  console.log(`     OR: ${C.cyan(`${INVOKE} add pages tabs-index-inbox`)} to create lanes one at a time`);
   console.log(`  3. Edit ${C.cyan("CHANGELOG/README.md")} to list your repo's lanes`);
 }
 
@@ -124,8 +137,8 @@ async function addLane() {
   const slug = slugParts.join("-");
 
   if (!category || !slug) {
-    console.error(C.red("✗ Usage: npx easier add <category> <slug>"));
-    console.error(C.dim("  Example: npx easier add components Button"));
+    console.error(C.red(`✗ Usage: ${INVOKE} add <category> <slug>`));
+    console.error(C.dim(`  Example: ${INVOKE} add components Button`));
     console.error(C.dim(`  Categories: ${CATEGORIES.join(" | ")}`));
     process.exit(1);
   }
@@ -138,11 +151,12 @@ async function addLane() {
 
   const cwd = process.cwd();
   const dir = join(cwd, "CHANGELOG", category);
-  if (!existsSync(dir)) {
-    console.error(C.red(`✗ ${dir} does not exist`));
-    console.error(C.dim(`  Run \`npx easier init\` first to scaffold CHANGELOG/`));
-    process.exit(1);
-  }
+  // Create the lane directory rather than demanding it already be there.
+  // Git does not track empty directories, so five of the six `init` makes never
+  // survive a commit and the second person to clone the repo used to hit
+  // `✗ CHANGELOG\pages does not exist` — which told them to run `init`, which
+  // then declined because `CHANGELOG/` existed. That closed loop was defect D1.
+  await mkdir(dir, { recursive: true });
 
   const target = join(dir, `${slug}.md`);
   if (existsSync(target)) {
@@ -207,8 +221,8 @@ async function scaffoldQaPacket() {
     .replace(/^-+|-+$/g, "");
 
   if (!featureId) {
-    console.error(C.red("✗ Usage: npx easier qa <feature-id>"));
-    console.error(C.dim("  Example: npx easier qa nodebench-chat-declutter-v1"));
+    console.error(C.red(`✗ Usage: ${INVOKE} qa <feature-id>`));
+    console.error(C.dim(`  Example: ${INVOKE} qa nodebench-chat-declutter-v1`));
     process.exit(1);
   }
 
@@ -299,7 +313,7 @@ async function install() {
   console.log("");
   console.log(C.bold("Next steps:"));
   console.log(`  1. Tell your agent: "${C.cyan("Follow AGENTS.md (or SKILL.md) before every commit")}"`);
-  console.log(`  2. Bootstrap your CHANGELOG: ${C.cyan("npx easier init")}`);
+  console.log(`  2. Bootstrap your CHANGELOG: ${C.cyan(`${INVOKE} init`)}`);
   console.log(`  3. Try it on your next commit.`);
 }
 

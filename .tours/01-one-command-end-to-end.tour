@@ -1,98 +1,127 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
   "title": "01 — One command, end to end",
-  "description": "Follow `easier init` and `easier add` from the shell into the files they write. Fifteen stops, in the order the code runs.",
+  "description": "Follow `init` and `add` from the shell into the files they write. Seventeen stops, in the order the code runs. Every stop carries a `pattern`: the text it expects on the line it cites, which `npm test` checks.",
   "ref": "main",
   "steps": [
     {
       "file": "bin/init.mjs",
-      "line": 308,
+      "line": 324,
+      "pattern": "if \\(cmd === \"init\"\\) await init\\(\\);",
       "title": "The whole router",
-      "description": "Start here. A command-line tool has no framework in front of it — the first word after the program name IS the route, and this if/else chain is the entire routing table.\n\nFive verbs. `npx easier init` and `node bin/init.mjs init` reach this same line, because package.json maps two binary names to this one file."
+      "description": "Start here. A command-line tool has no framework in front of it — the first word after the program name IS the route, and this if/else chain is the entire routing table.\n\nFive verbs. `npx @homenshum/easier-to-read-submissions init` and `node bin/init.mjs init` reach this same line, because package.json maps two binary names to this one file. `npx easier` does not: that word is somebody else's package on npm."
     },
     {
       "file": "bin/init.mjs",
-      "line": 44,
+      "line": 42,
+      "pattern": "const args = process\\.argv\\.slice\\(2\\);",
       "title": "The only input this program has",
       "description": "`process.argv` and nothing else. No config file is read, no environment variable is required to run, no network call is made. If you are hunting for where settings come from, they do not."
     },
     {
       "file": "bin/init.mjs",
-      "line": 84,
+      "line": 56,
+      "pattern": "const INVOKE = ",
+      "title": "How it tells you to run it again",
+      "description": "Every printed next step used to read `npx easier <verb>`. There is a package literally named `easier` on npm — published in 2017 by a different author, with no `bin` — so that line never reached this file from anywhere.\n\nNow the program prints the invocation that actually got here: the published package name when it is running out of `node_modules`, the real path to this file when it is running from a clone. A reader following the output exercises the code they are reading."
+    },
+    {
+      "file": "bin/init.mjs",
+      "line": 97,
+      "pattern": "async function init\\(\\)",
       "title": "The primary user action",
-      "description": "`easier init` is the moment a repository adopts the protocol. Somebody is about to hand a branch to a reviewer and wants a per-surface history to hand over with it. This function makes the folders that history will live in."
+      "description": "`init` is the moment a repository adopts the protocol. Somebody is about to hand a branch to a reviewer and wants a per-surface history to hand over with it. This function makes the folders that history will live in."
     },
     {
       "file": "bin/init.mjs",
-      "line": 88,
+      "line": 101,
+      "pattern": "if \\(existsSync\\(cl\\)\\)",
       "title": "Refusing is not an error",
-      "description": "If `CHANGELOG/` already exists, write nothing and exit **0**. A lane file may already hold months of real history and overwriting it would destroy the audit trail the product exists to keep.\n\nThe cost of this choice is defect D1: it also declines to repair a half-present CHANGELOG/, which is exactly the state `git clone` produces. See step 14."
+      "description": "If `CHANGELOG/` already exists, write nothing and exit **0**. A lane file may already hold months of real history and overwriting it would destroy the audit trail the product exists to keep.\n\nThis used to be half of defect D1: it declines to repair a half-present `CHANGELOG/`, which is exactly the state `git clone` produces. It still declines — and that is now fine, because `add` no longer needs it to. See step 11."
     },
     {
       "file": "bin/init.mjs",
-      "line": 42,
+      "line": 40,
+      "pattern": "const CATEGORIES = \\[",
       "title": "The domain vocabulary, declared once",
       "description": "Six kinds of surface a change can touch. This one array is simultaneously a set of directory names, the valid values of the `add` command's first argument, and a line of help text.\n\nBefore the wave-3 pass those six words were written out in four separate places. Collapsing them to one constant is why a seventh category is now a one-line change."
     },
     {
       "file": "bin/init.mjs",
-      "line": 97,
+      "line": 110,
+      "pattern": "for \\(const sub of CATEGORIES\\)",
       "title": "Six directories from the one list",
-      "description": "The lane directories are created straight from CATEGORIES, so the folder layout can never disagree with what `add` accepts."
+      "description": "The lane directories are created straight from CATEGORIES, so the folder layout can never disagree with what `add` accepts.\n\nFive of the six will be empty, and git does not track empty directories. That is the fact behind defect D1 — and the reason the fix went into `add` rather than here."
     },
     {
       "file": "bin/init.mjs",
-      "line": 102,
+      "line": 115,
+      "pattern": "CHANGELOG-README\\.md",
       "title": "Two files copied, not generated",
       "description": "The master index and the format spec are copied verbatim out of `templates/`. Nothing in `templates/` is ever imported — every file there is data."
     },
     {
       "file": "templates/CHANGELOG-README.md",
       "line": 1,
+      "pattern": "per-surface changelog index",
       "title": "What the adopter opens first",
       "description": "This becomes `CHANGELOG/README.md` in their repo. Line 1 used to read `# SitFlow — per-surface changelog index` and 83 of its rows named another product's routes — a stranger's finished index, landing on day one. It is now a skeleton they fill in."
     },
     {
       "file": "bin/init.mjs",
-      "line": 133,
+      "line": 146,
+      "pattern": "!CATEGORIES\\.includes\\(category\\)",
       "title": "Validation is a gate, not a transform",
-      "description": "`easier add widgets Thing` stops here. The error lists all six valid values, so the user never has to leave the terminal to find them — that shape is a convention worth keeping in any new error message."
+      "description": "`add widgets Thing` stops here. The error lists all six valid values, so the user never has to leave the terminal to find them — that shape is a convention worth keeping in any new error message."
     },
     {
       "file": "bin/init.mjs",
-      "line": 148,
+      "line": 159,
+      "pattern": "await mkdir\\(dir, \\{ recursive: true \\}\\);",
+      "title": "Defect D1 died on this line",
+      "description": "One line, replacing a five-line guard that exited 1 when the lane directory was missing.\n\nThe person who runs `init` gets six lane directories; five stay empty; git tracks none of the empty ones; so the second person to clone the repo has one lane directory, not six. They ran `add`, got `✗ CHANGELOG\\pages does not exist`, were told to run `init`, and `init` declined because `CHANGELOG/` existed. A closed loop, at the second person, on the product's headline claim.\n\nTwo fixes were written down: write a `.gitkeep` into each lane directory, or let `add` make the directory it needs. This is the second — it removes a code path instead of adding six files."
+    },
+    {
+      "file": "bin/init.mjs",
+      "line": 162,
+      "pattern": "if \\(existsSync\\(target\\)\\)",
       "title": "Never overwrite a lane",
-      "description": "Exit 1 rather than clobber. Lanes are strictly append-only; a rewritten entry is a silently altered record with nothing to reconcile it against."
+      "description": "Exit 1 rather than clobber. Lanes are strictly append-only; a rewritten entry is a silently altered record with nothing to reconcile it against.\n\nNote the asymmetry with the stop before this one: a missing *directory* is something the tool can safely create, an existing *file* is not something it can safely replace."
     },
     {
       "file": "bin/init.mjs",
-      "line": 154,
+      "line": 168,
+      "pattern": "readFile\\(join\\(TPL_DIR, \"lane\\.md\"\\)",
       "title": "The only place a file is written with content",
       "description": "Read the lane template, substitute the surface path and today's date, write the result. Everything else this tool creates is a straight copy.\n\nThis substitution is incomplete — see the next stop."
     },
     {
       "file": "templates/lane.md",
       "line": 7,
+      "pattern": "^## YYYY-MM-DD — Short imperative title",
       "title": "Defect D7 lives here",
       "description": "Only this heading gets substituted. The two sample entries below it survive into every new lane, one of them carrying `abc1234` as a commit sha. A user who does not clean up commits fake history into an append-only file.\n\nFound by the first run of the test suite, pinned at the observed count so a fix has to change it deliberately."
     },
     {
       "file": "bin/init.mjs",
-      "line": 321,
+      "line": 335,
+      "pattern": "\\} catch \\(e\\) \\{",
       "title": "No stack traces, ever",
       "description": "The outermost catch turns any unexpected throw into one red line. Expected failures should never reach it — they call `console.error` and `process.exit(1)` where they happen.\n\nExit 0 means the requested state now exists. Exit 1 means it does not, and a line beginning `✗` says why."
     },
     {
       "file": "promotion/PROMOTION_LOG.md",
-      "line": 95,
+      "line": 108,
+      "pattern": "^\\| D1 \\|",
       "title": "The defect this walkthrough kept mentioning",
-      "description": "D1, with its full reproduction. Git does not track empty directories, so five of the six lane folders vanish for the second person on the team, and the error tells them to run a command that then declines to help.\n\nRead this ledger before you believe anything in this repo works."
+      "description": "D1, with its full reproduction and the status it now carries. Git does not track empty directories, so five of the six lane folders vanished for the second person on the team, and the error told them to run a command that then declined to help.\n\nRead this ledger before you believe anything in this repo works — D2 and D7 are still open."
     },
     {
       "file": "test/cli.test.mjs",
       "line": 50,
+      "pattern": "J1 init scaffolds the six lanes",
       "title": "What proves all of the above",
-      "description": "18 scenario tests, each running the real CLI as a subprocess in a throwaway directory. `npm test` runs them in about three seconds.\n\nUntil the wave-3 pass, `npm test` was `node bin/init.mjs --help` — green in a way that could not go red."
+      "description": "Scenario tests, each running the real CLI as a subprocess in a throwaway directory. `npm test` runs them in about three seconds.\n\nUntil the wave-3 pass, `npm test` was `node bin/init.mjs --help` — green in a way that could not go red. Two of the blocks in this file check the walkthroughs themselves, including the `pattern` on every step of this tour."
     }
   ]
 }

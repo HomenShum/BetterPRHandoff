@@ -83,7 +83,20 @@ baseline after consolidation; do not carry these numbers forward.
 
 ### Timings (condition 10, Node v22.22.2, includes interpreter startup)
 
-`init` 403ms / 369ms / 370ms · `qa` 495ms.
+~~`init` 403ms / 369ms / 370ms · `qa` 495ms.~~ **Withdrawn — these were roughly
+4x too slow.** Left visible rather than edited away, because a wrong number that
+disappears teaches nobody. Re-measured 2026-08-13 in iteration 2 on the same
+Node v22.22.2 and the same Windows 11 (10.0.26200), each run spawning the real
+process into a fresh `mkdtemp` directory and timing it with `process.hrtime`
+around `execFileSync`, so interpreter startup is still inside the number:
+
+`init` 93ms median of 7 (76 / 80 / 80 / 93 / 105 / 105 / 135) ·
+`qa` 82ms median of 5 (79 / 82 / 82 / 83 / 120).
+
+The high sample in each set is the first run of that set — cold filesystem
+cache, not variance in the code. An independent cold reader measured
+118 / 128 / 117ms for `init` through their own harness on the same Node and OS,
+which is the same order of magnitude; the original 403ms was not.
 
 ## Defect ledger
 
@@ -92,7 +105,7 @@ reproduction; a hunch is not a defect.
 
 | # | Severity | Journey | Reproduction | Status |
 |---|----------|---------|--------------|--------|
-| D1 | major | J2 | In a fresh git repo: `node bin/init.mjs init` → `git add CHANGELOG && git commit` → `git ls-files` shows only `CHANGELOG/README.md`, `CHANGELOG/TEMPLATE.md` and lane files that have content. `git clone` that repo, run `node bin/init.mjs add pages dashboard` → **exit 1**, `✗ …\CHANGELOG\pages does not exist`. Git does not track empty directories and `init()` (`bin/init.mjs:98`) writes no `.gitkeep`, so five of the six lanes vanish for every teammate. The error tells them to run `npx easier init`, which then prints `! CHANGELOG/ already exists … Skipping scaffold` and exits 0 without repairing — a closed loop. Team adoption is the product's headline claim, so this breaks it at the second person. | open |
+| D1 | major | J2 | In a fresh git repo: `node bin/init.mjs init` → `git add CHANGELOG && git commit` → `git ls-files` shows only `CHANGELOG/README.md`, `CHANGELOG/TEMPLATE.md` and lane files that have content. `git clone` that repo, run `node bin/init.mjs add pages dashboard` → **exit 1**, `✗ …\CHANGELOG\pages does not exist`. Git does not track empty directories and `init()` (`bin/init.mjs:98`) writes no `.gitkeep`, so five of the six lanes vanish for every teammate. The error tells them to run `npx easier init`, which then prints `! CHANGELOG/ already exists … Skipping scaffold` and exits 0 without repairing — a closed loop. Team adoption is the product's headline claim, so this breaks it at the second person. | **closed** — iteration 2 took the smaller of the two candidate fixes recorded in `docs/codebase/CONCERNS.md`: delete the guard and let `add` create the lane directory it needs (`bin/init.mjs:159`). Re-run of the reproduction above now exits **0** and writes `CHANGELOG/pages/dashboard.md`. No `.gitkeep` was added; nothing was added at all. |
 | D2 | major | J4 | `node bin/init.mjs qa demo` → open `QA_DOGFOOD/demo/gmail-magic-resend.html` at the 375×812 Pixel 8 preset. Measured in the page: `document.documentElement.clientWidth === 980`, `visualViewport.scale === 0.383`, `screen.width === 375`. `templates/gmail-magic-resend.html` has no `<meta name="viewport">`, so mobile Chrome falls back to its 980px legacy layout and shrinks everything to 38% — the 13px table text lands near 5 effective pixels. The page's own body copy says "Open this from Gmail on desktop **or phone**". Desktop 1280 is unaffected. | open |
 | D3 | major | J5 | `templates/recorder.mjs` is presented by the README as a reusable template but is SitFlow's concrete recorder. It asserts literal foreign strings — `'SitFlow'` and `'Booking inbox'` (line 191), `'No human food'` / `'Walk after every nap'` / `'Never alone'` (line 260), `'Care Rules'` (line 296) — filters localStorage on a `sitflow:` prefix (line 139), defaults `PWA_URL` to `localhost:8081` and hard-codes output names `jaynee-demo.mp4` / `.gif`. Copy it into any other repo per README Phase 2 and every scene check fails against a correctly working app. It also imports `playwright`, which `package.json` does not declare. | **closed** — wave 3 deleted the file, plus `verifier.mjs` and `probe-routes.mjs`, which are the same class and this row did not name |
 | D4 | minor | — | `npm test` exits 0 by running `node bin/init.mjs --help`. There are no assertions anywhere in the repo, so condition 11 is green in a way that cannot go red. Every CLI behaviour recorded in the table above was verified by hand this pass and is unprotected against regression — including D1, which a three-line test would have caught. | **closed** — wave 3 replaced the script with `node --test test/cli.test.mjs`, 18 scenario tests |
@@ -138,3 +151,61 @@ changeable by a stranger. Full before/after table with every evidence command:
 | # | Severity | Journey | Reproduction | Status |
 |---|----------|---------|--------------|--------|
 | D7 | minor | J1 | `node bin/init.mjs init && node bin/init.mjs add components Button`, then `grep -c '^## YYYY-MM-DD —' CHANGELOG/components/Button.md` → **3**. `addLane()` substitutes only the topmost heading of `templates/lane.md`, so the template's two sample entries survive into every new lane — one of them carrying `abc1234` as a commit sha — and the newest entry keeps a dangling `**Touches**: <other CHANGELOG files affected>` placeholder. A user who does not clean up commits fake history into a file the protocol declares append-only. Pinned at the observed count of 3 by a test naming D7, so a fix must change the number deliberately. | open |
+
+### Iteration 2 — 2026-08-13 — an independent cold reader's findings
+
+A fresh engineer was handed this repository and nothing else, ran it, and
+traced nine stages. They got through. What they filed is below, each item
+re-measured here rather than taken on their word.
+
+- **Journey exercised:** J2 end to end, by the reproduction in its own ledger
+  row, and J1 at the CLI. No browser surface was opened, so D2 is untouched and
+  conditions 3, 4, 6, 7, 8, 9 and 12 keep the baseline's scores.
+- **Observed:**
+  1. `npx easier <verb>` was printed as a user instruction in **40 places**
+     (counted over `git ls-files`), including the four commands in
+     `README.md:45-48` that a new adopter runs first, and 18 lines inside the
+     CLI's own output. `npm view easier` resolves a real package: version
+     0.1.0, published 2017-06-29, maintainer `donavon`, **no `bin` field**. So
+     that command has never run this CLI from anywhere — not from a clone, not
+     from an install.
+  2. D1 was still open and still broke team adoption at the second person.
+  3. The timings row above was roughly 4x too slow.
+  4. The only guard over the two CodeTours asserted that a step's line number
+     was within the file's length, and nothing else. It proved anchor
+     stability and never anchor correctness — a step could point at the wrong
+     function and stay green.
+- **Fixed:**
+  - **The invocation, everywhere.** The CLI now derives what to print from how
+    it was actually invoked (`bin/init.mjs:56`): the published package name
+    when running out of `node_modules`, the real path to `bin/init.mjs` when
+    running from a clone. Documents that address an adopter say
+    `npx @homenshum/easier-to-read-submissions <verb>`; documents that address
+    someone reading this checkout say `node bin/init.mjs <verb>`. A test fails
+    the build if any tracked file outside `promotion/` names `npx easier`
+    followed by a verb.
+  - **D1**, by the smaller of the two candidate fixes that were already written
+    down: delete the guard, let `add` create the lane directory
+    (`bin/init.mjs:159`). Five lines out, one line in, no `.gitkeep` files.
+  - **The timings**, re-measured and struck through above rather than edited
+    away.
+  - **The citation guard.** Both tours now carry CodeTour's own `pattern` field
+    on every step, and the guard asserts the cited line matches it. A second
+    guard applies the same rule to `path:line` citations in the docs, which had
+    no check at all: each must be written ``path:line`` → ``the text on that
+    line``. Between them they check 26 tour steps and 26 doc citations.
+- **Re-proved:** `npm test` → 20 pass / 0 fail, Node v22.22.2. The hardened
+  guard was knocked out before it was trusted. Two citations were moved one
+  line off — tour 01 step 4 from `bin/init.mjs:97` to 96 (a blank line), and
+  the ARCHITECTURE.md row from `bin/init.mjs:101` to 102 — both still inside
+  the file, which is all the old check ever asked. Result: the wave-3 guard,
+  re-run verbatim against that mutated tree, **passed**; the two new guards
+  failed, one with `step 4 (bin/init.mjs:96) does not match its own pattern`
+  and one printing the text it expected next to the text actually on line 102.
+  Restored, `npm test` → 20 pass / 0 fail again.
+- **Tests:** `npm test` → `# pass 20 / # fail 0`, ~4s, Node v22.22.2.
+- **Conditions newly PASS:** condition 2 is re-scored by the product loop; D1
+  is closed but D2 (major) is still open, so it does not flip on this pass.
+  J2 goes from FAIL to PASS in [PRODUCT_JOURNEYS.md](PRODUCT_JOURNEYS.md).
+- **Not fixed:** D2 (needs a browser pass), D5 (`entry` verb unbuilt — feature
+  work), D7 (lane template's sample entries).

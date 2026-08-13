@@ -3,7 +3,7 @@
 ## Run them
 
 ```bash
-npm test          # node --test test/cli.test.mjs — 18 tests, ~3s
+npm test          # node --test test/cli.test.mjs — 20 tests, ~4s
 ```
 
 No install step, no framework, no config file. `node:test` and
@@ -11,7 +11,7 @@ No install step, no framework, no config file. `node:test` and
 
 ## What they are
 
-18 scenario tests in one file, `test/cli.test.mjs`. Each one is a person trying
+20 scenario tests in one file, `test/cli.test.mjs`. Each one is a person trying
 to finish a job, not a function with its inputs mocked.
 
 They run the **real CLI as a subprocess** in a **real throwaway directory**,
@@ -47,24 +47,49 @@ By journey, matching `promotion/PRODUCT_JOURNEYS.md`:
 | **J3** | someone installing the rules where their agent will read them | 3 |
 | **J4** | someone preparing a reviewer hand-off packet | 4 |
 | front door | a stranger guessing at the command line | 2 |
-| upkeep | the CodeTour steps still point at real lines | 1 |
+| upkeep | the walkthroughs still cite the right lines, and no document tells a reader to run `npx easier` | 3 |
 | D6 regression | the printed next-steps can be followed in the printed order | 1 |
 
-## The two tests that pin wrong behaviour on purpose
+## The one test that pins wrong behaviour on purpose
 
-This is the only sanctioned way to encode a known defect, and both instances
-follow the same rule: name the defect id in a comment, say what correct would
-look like, and pin the observed value so a fix has to change it deliberately.
-
-**D1** — `add` fails in a fresh clone. The test reproduces what `git clone`
-hands the second person by deleting the empty lane directories git never
-tracked, then asserts exit **1**. That is not desired behaviour; the comment
-says so and says a fix should flip it to 0.
+This is the only sanctioned way to encode a known defect: name the defect id in
+a comment, say what correct would look like, and pin the observed value so a fix
+has to change it deliberately.
 
 **D7** — a new lane keeps the template's two sample entries. Pinned at the
 observed count of three `## YYYY-MM-DD —` headings. The comment records the
 assertion that was written first (`!body.includes("YYYY-MM-DD —")`) and failed,
 which is how D7 was found.
+
+There were two. The **D1** block asserted exit **1** for `add` in a fresh clone
+and said in its own comment that a fix should flip it to 0. The fix landed, so
+the block now asserts exit **0** and a lane file on disk. The old expectation is
+written into the comment, which is the rule for any loosened assertion here: a
+changed test is guilty until its justification is legible without git.
+
+## The two guards over the walkthroughs
+
+A walkthrough that cites a file and a line number is making a claim, and a claim
+needs a check. The check shipped in wave 3 asserted only that the number was
+somewhere inside the file.
+That proves a citation is **stable**; it never proves it is **correct**. Insert
+thirteen lines at the top of the file and every step points one function too
+early with the guard still green — which is exactly what happened when the
+invocation constant was added.
+
+Both guards now demand an anchor and assert the cited line matches it:
+
+- `.tours/*.tour` — every step with a `file` must carry CodeTour's own
+  `pattern` field, and the cited line must match that regex. 26 steps checked.
+- Markdown docs outside `promotion/` — every ``path:line`` citation must be
+  written ``path:line`` → ``the text on that line``, and the guard asserts the
+  line contains that text. 26 citations checked. `promotion/` is excluded on
+  purpose: it is an append-only ledger, and its rows record what a line said on
+  the day it was measured.
+
+A third block fails the build if any tracked file outside `promotion/` prints
+`npx easier <verb>`, which resolves an unrelated package on npm and has never
+run this CLI.
 
 ## What is not covered
 
@@ -86,9 +111,10 @@ which is how D7 was found.
 ## Before this existed
 
 `npm test` was `node bin/init.mjs --help` — a help print with zero assertions,
-green in a way that could not go red. That was open defect D4. Every behaviour
-the promotion baseline recorded had been verified by hand and was unprotected
-against regression, including D1, which three lines of test would have caught.
+green in a way that could not go red. That was defect D4, since closed. Every
+behaviour the promotion baseline recorded had been verified by hand and was
+unprotected against regression, including D1, which three lines of test would
+have caught.
 
 The tests were written and run **before** the wave-3 refactor, against the
 unmodified tree, so that "17/17 pass, unchanged" afterwards means something.

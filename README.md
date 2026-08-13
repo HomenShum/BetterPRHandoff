@@ -39,14 +39,22 @@ That installs the skill to the right path for whichever agent you're using. Manu
 | **Codex / Continue.dev / Devin / generic LLM** | `<repo>/AGENTS.md` (point your `systemMessage` at it) | AGENTS.md |
 | **No agent** (humans only) | wherever — read `SKILL.md` and apply by hand | full skill |
 
-After install, bootstrap your repo's CHANGELOG/:
+After install, bootstrap your repo's CHANGELOG/. The package name is the whole
+name — `npx easier` fetches an unrelated 2017 package that happens to own that
+word on npm, so it has never run this CLI:
 
 ```bash
-npx easier init                    # scaffolds CHANGELOG/ + TEMPLATE.md
-npx easier add components Button   # add a new lane file
-npx easier qa-init                 # scaffolds qa.config.json (Phase 5 / QA packet)
-npx easier qa nodebench-chat-v1    # scaffolds QA_DOGFOOD/<feature-id>/ packet files
+E="npx @homenshum/easier-to-read-submissions"
+$E init                    # scaffolds CHANGELOG/ + TEMPLATE.md
+$E add components Button   # add a new lane file
+$E qa-init                 # scaffolds qa.config.json (Phase 5 / QA packet)
+$E qa nodebench-chat-v1    # scaffolds QA_DOGFOOD/<feature-id>/ packet files
 ```
+
+Working inside a clone of this repo instead of installing it? Then `npx`
+resolves the registry, not your checkout, and you would be reading one CLI and
+running another. Use `node bin/init.mjs <verb>`, which is what the CLI's own
+printed next steps will tell you when it detects it is running from a clone.
 
 Then tell your agent: **"Follow `AGENTS.md` before every commit / push / PR."**
 

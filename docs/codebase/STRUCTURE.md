@@ -19,13 +19,13 @@ copy and all three had drifted, so they now point here instead.
 
 | Path | Lines | What it is |
 |---|---:|---|
-| `bin/init.mjs` | 325 | Every subcommand, the dispatcher, the colour helpers, the category vocabulary. There is no second source file. Walk it in runtime order via `docs/START_HERE.md`. |
+| `bin/init.mjs` | 339 | Every subcommand, the dispatcher, the colour helpers, the category vocabulary. There is no second source file. Walk it in runtime order via `docs/START_HERE.md`. |
 
 ## `test/` — the behaviour lock
 
 | Path | Lines | What it is |
 |---|---:|---|
-| `test/cli.test.mjs` | 280 | 18 scenario tests. Each runs the real CLI as a subprocess in a throwaway directory and asserts the exit code plus the files that landed. Two tests pin known defects on purpose and say so. |
+| `test/cli.test.mjs` | 369 | 20 scenario tests. Each runs the real CLI as a subprocess in a throwaway directory and asserts the exit code plus the files that landed. One pins a known defect on purpose and says so; three guard the walkthroughs and the documented invocation. |
 
 ## `templates/` — everything the CLI copies into a user's repo
 
@@ -50,7 +50,8 @@ unused exports — there are none.
 | `qa-email.html.mustache` | 111 | `easier install` | the Gmail Magic Resend email template, rendered by a generator, not by this CLI |
 
 Placeholder substitution is three tokens only — `__FEATURE_ID__`, `__TITLE__`,
-`__DATE__` — done by `writeTemplate()` at `bin/init.mjs:238`. A test asserts
+`__DATE__` — done at `bin/init.mjs:252` →
+`async function writeTemplate(templateName, dest, replacements) {`. A test asserts
 none of the three survive into a generated packet.
 
 ## `promotion/` — the product loop's state, in git

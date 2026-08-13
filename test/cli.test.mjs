@@ -128,7 +128,7 @@ test("J1 the next steps init prints can be followed in the order printed (D6)", 
     const r = easier(dir, "init");
     const steps = r.out.split("Next steps:")[1];
     const readMe = steps.match(/\S*bootstrap-prompt\.md/)[0];
-    const install = steps.indexOf("npx easier install");
+    const install = steps.search(/\binstall\b/);
     const bootstrap = steps.indexOf(readMe);
     assert.ok(install < bootstrap, "step order sends the reader to a file that does not exist yet");
     // Following the steps as printed must actually land on that file.
@@ -139,17 +139,23 @@ test("J1 the next steps init prints can be followed in the order printed (D6)", 
 
 // ── Journey 2: a teammate clones the repo the first developer committed ─────
 
-test("J2 KNOWN DEFECT D1 — add fails in a clone because git drops empty lane dirs", () => {
+test("J2 add creates the lane directory git dropped from the clone (D1)", () => {
   sandbox((dir) => {
     easier(dir, "init");
     // Reproduce what `git clone` hands the second person: git does not track
     // empty directories, so every lane dir that never received a file is gone.
     for (const c of CATEGORIES) rmSync(join(dir, "CHANGELOG", c), { recursive: true, force: true });
     const r = easier(dir, "add", "pages", "dashboard");
-    // Pinned as-is on purpose. This is defect D1 in promotion/PROMOTION_LOG.md,
-    // not desired behaviour. Fixing D1 should flip this to code 0.
-    assert.equal(r.code, 1, r.out);
-    assert.match(r.out, /does not exist/);
+    // DELIBERATE FLIP. This block used to assert `r.code === 1` and
+    // `/does not exist/`, pinning defect D1 in promotion/PROMOTION_LOG.md — and
+    // saying in its own comment that a fix should flip it to 0. The fix landed:
+    // `add` creates the lane directory instead of demanding it. The old
+    // expectation is written out here so the loosening stays auditable.
+    assert.equal(r.code, 0, r.out);
+    assert.ok(
+      existsSync(join(dir, "CHANGELOG", "pages", "dashboard.md")),
+      "add exited 0 without writing the lane",
+    );
   });
 });
 
@@ -257,24 +263,97 @@ test("an unknown command fails and shows the help instead of a stack trace", () 
   });
 });
 
-// ── The walkthrough must keep pointing at real lines ───────────────────────
+// ── The walkthrough must keep pointing at the right lines ──────────────────
+//
+// The version of this guard shipped in wave 3 asserted only that the cited
+// line number was within the file's length. That proves a citation is stable,
+// never that it is correct: insert thirteen lines at the top of bin/init.mjs
+// and every step in both tours silently points one function too early, with
+// the guard still green. Both checks below therefore assert the cited line
+// MATCHES an anchor the citation itself carries.
 
-test("every .tours step points at a file and line that still exists", () => {
+/** Read a file's lines with the trailing \r stripped, so CRLF checkouts match. */
+function linesOf(path) {
+  return readFileSync(path, "utf8").split("\n").map((l) => l.replace(/\r$/, ""));
+}
+
+/** Every file git tracks. Asking git means a new doc is guarded the day it lands. */
+function trackedFiles() {
+  return spawnSync("git", ["ls-files"], { cwd: REPO, encoding: "utf8" }).stdout.trim().split("\n");
+}
+
+test("every .tours step names what it expects to find, and finds it there", () => {
   const toursDir = join(REPO, ".tours");
   if (!existsSync(toursDir)) return; // no tours yet: nothing to rot
   const tours = readdirSync(toursDir).filter((f) => f.endsWith(".tour"));
   assert.ok(tours.length > 0, ".tours/ exists but holds no .tour files");
+  let checked = 0;
   for (const t of tours) {
     const tour = JSON.parse(readFileSync(join(toursDir, t), "utf8"));
     for (const [i, step] of tour.steps.entries()) {
       if (!step.file) continue; // text-only step
+      const where = `${t} step ${i + 1} (${step.file}:${step.line})`;
       const target = join(REPO, step.file);
-      assert.ok(existsSync(target), `${t} step ${i + 1} points at missing file ${step.file}`);
-      const lines = readFileSync(target, "utf8").split("\n").length;
+      assert.ok(existsSync(target), `${where} points at a missing file`);
+      const lines = linesOf(target);
       assert.ok(
-        step.line >= 1 && step.line <= lines,
-        `${t} step ${i + 1} points at ${step.file}:${step.line}, which has ${lines} lines`,
+        step.line >= 1 && step.line <= lines.length,
+        `${where} is out of range; the file has ${lines.length} lines`,
       );
+      // `pattern` is CodeTour's own field for "the line content this step is
+      // about". Requiring it is what turns a stable citation into a correct one.
+      assert.ok(step.pattern, `${where} carries no "pattern", so nothing proves it cites the right line`);
+      assert.match(lines[step.line - 1], new RegExp(step.pattern), `${where} does not match its own pattern`);
+      checked += 1;
     }
   }
+  assert.ok(checked >= 20, `expected the tours to anchor at least 20 steps, checked ${checked}`);
+});
+
+test("every doc citation of the form `path:line` proves it cites the right line", () => {
+  // A citation must be written `path:line` → `text that is on that line`.
+  // promotion/ is excluded on purpose: it is an append-only ledger whose rows
+  // record what a line said on the day it was measured, not what it says now.
+  const docs = trackedFiles().filter((f) => f.endsWith(".md") && !f.startsWith("promotion/"));
+  const cite = /`([A-Za-z0-9_./-]+\.(?:mjs|md|json|html|mustache|txt)):(\d+)`(?:\s*(?:\r?\n)?\s*→\s*`([^`]+)`)?/g;
+  let checked = 0;
+  for (const doc of docs) {
+    const body = readFileSync(join(REPO, doc), "utf8");
+    for (const m of body.matchAll(cite)) {
+      const [whole, file, lineNo, anchor] = m;
+      const where = `${doc}: citation ${whole.split("\n")[0]}`;
+      assert.ok(anchor, `${where} names a line but no expected text — add \`→ \\\`<the line>\\\`\``);
+      const target = join(REPO, file);
+      assert.ok(existsSync(target), `${where} points at a missing file`);
+      const lines = linesOf(target);
+      const n = Number(lineNo);
+      assert.ok(n >= 1 && n <= lines.length, `${where} is out of range; the file has ${lines.length} lines`);
+      assert.ok(
+        lines[n - 1].includes(anchor.trim()),
+        `${where} expects ${JSON.stringify(anchor.trim())} but line ${n} is ${JSON.stringify(lines[n - 1])}`,
+      );
+      checked += 1;
+    }
+  }
+  assert.ok(checked >= 15, `expected at least 15 anchored citations, checked ${checked}`);
+});
+
+// ── No document may tell a reader to run a command that is not this CLI ────
+
+test("no shipped instruction says `npx easier <verb>`", () => {
+  // `easier` is a real package on npm, published in 2017 by an unrelated author
+  // and carrying no `bin`. `npx easier` has therefore never run this code
+  // — not from a clone, not from an install. It was printed as a user
+  // instruction in 40 places before this guard existed.
+  const verbs = ["init", "add", "qa-init", "qa", "install", "help"];
+  const bad = new RegExp(`npx easier\\s+(?:${verbs.join("|")})\\b`);
+  const offenders = [];
+  for (const f of trackedFiles()) {
+    if (f.startsWith("promotion/")) continue; // append-only ledger: it quotes what was printed then
+    if (!/\.(md|mjs|json|tour|html|mustache|txt)$/.test(f)) continue;
+    for (const [i, line] of linesOf(join(REPO, f)).entries()) {
+      if (bad.test(line)) offenders.push(`${f}:${i + 1}: ${line.trim()}`);
+    }
+  }
+  assert.deepEqual(offenders, [], `these tell a reader to run a package that is not this one:\n${offenders.join("\n")}`);
 });

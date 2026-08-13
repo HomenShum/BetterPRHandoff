@@ -4,6 +4,11 @@ You have never seen this repo. This page walks the code in the order it
 actually runs, not the order the folders are arranged in. Follow it top to
 bottom and you will have traced a full user action end to end.
 
+Every code citation below is written `path:line` → `the text on that line`.
+The arrow half is not decoration: `npm test` reads these citations and asserts
+that the cited line still contains that text, so a citation cannot rot into
+pointing at the wrong symbol while still pointing at a line that exists.
+
 ## What this thing is, in plain language
 
 A developer has spent a week changing code and is about to hand the branch to
@@ -29,7 +34,7 @@ that does not exist.
 
 ```bash
 npm install          # zero dependencies; confirms the toolchain works
-npm test             # 18 scenario tests, ~3s
+npm test             # 20 scenario tests, ~4s
 cd "$(mktemp -d)" && node <this-repo>/bin/init.mjs init
 ```
 
@@ -41,11 +46,13 @@ did.
 ## Step 1 — Application entry and route
 
 - **File**: `bin/init.mjs`
-- **Symbol**: the top-level module body (lines 28-54) and the dispatch block at
-  the bottom (lines 308-325)
+- **Symbol**: the argument read at `bin/init.mjs:42` → `const args = process.argv.slice(2);`,
+  and the dispatch block that starts at `bin/init.mjs:322` → `(async () => {`
 - **Called by**: the shell. `package.json` maps two binary names,
   `easier-to-read-submissions` and `easier`, to this one file, so
-  `npx easier init` and `node bin/init.mjs init` are the same entry.
+  `npx @homenshum/easier-to-read-submissions init` and `node bin/init.mjs init`
+  are the same entry. `npx easier` is not — that word belongs to an unrelated
+  package on npm.
 - **Calls next**: exactly one of `init()`, `addLane()`, `qaInit()`,
   `scaffoldQaPacket()`, `install()`, or `help()`.
 - **Why this exists**: a command-line tool has no router and no request object.
@@ -76,8 +83,8 @@ else if (cmd === "--help" || cmd === "-h" || cmd === "help") help();
 ## Step 2 — The primary user action
 
 - **File**: `bin/init.mjs`
-- **Symbol**: `init()` (line 84)
-- **Called by**: the dispatcher, on `easier init`.
+- **Symbol**: `bin/init.mjs:97` → `async function init() {`
+- **Called by**: the dispatcher, on `init`.
 - **Calls next**: `mkdir` and `copyFile` from `node:fs/promises`. Nothing in
   this repo.
 - **Why this exists**: this is the moment a repo adopts the protocol. It
@@ -102,14 +109,17 @@ await copyFile(join(TPL_DIR, "CHANGELOG-TEMPLATE.md"), join(cl, "TEMPLATE.md"));
   directories `pages/ components/ server/ db/ integrations/ scripts/`.
 - **Failure behavior**: if `CHANGELOG/` already exists it writes nothing and
   exits **0**. This is deliberate — a second run must never overwrite a lane
-  that already holds real history. Note the consequence, though: it also does
-  not repair a partially-present `CHANGELOG/`, which is open defect **D1**.
+  that already holds real history. It still does not *repair* a partially
+  present `CHANGELOG/`, and it does not have to: `add` now creates whatever
+  lane directory it needs (step 6), so a half-present `CHANGELOG/` is no longer
+  a dead end. That dead end was defect **D1**, now closed.
 - **Next**: step 3.
 
 ## Step 3 — Validation and domain types
 
 - **File**: `bin/init.mjs`
-- **Symbol**: `CATEGORIES` (line 42), enforced in `addLane()` (lines 133-136)
+- **Symbol**: `bin/init.mjs:40` → `const CATEGORIES = ["pages", "components", "server", "db", "integrations", "scripts"];`,
+  enforced at `bin/init.mjs:146` → `if (!CATEGORIES.includes(category)) {`
 - **Called by**: `init()`, `addLane()`, and the help text.
 - **Calls next**: nothing; on a bad value it exits.
 - **Why this exists**: there are exactly six kinds of surface a change can
@@ -170,7 +180,8 @@ block of help text, and one test. Nothing else registers it.
 ## Step 6 — Persistence and artifact mutation
 
 - **File**: `bin/init.mjs`
-- **Symbol**: `addLane()` (line 122) and `writeTemplate()` (line 238)
+- **Symbol**: `bin/init.mjs:135` → `async function addLane() {` and
+  `bin/init.mjs:252` → `async function writeTemplate(templateName, dest, replacements) {`
 - **Called by**: the dispatcher, on `easier add <category> <slug>` and
   `easier qa <feature-id>`.
 - **Calls next**: `readFile` then `writeFile` from `node:fs/promises`.
@@ -193,8 +204,11 @@ await writeFile(target, personalized);
 - **Output**: `CHANGELOG/<category>/<slug>.md`, dated today.
 - **Failure behavior**: refuses to overwrite an existing lane (exit **1**),
   because lanes are append-only and clobbering one destroys the audit trail
-  that is the entire point of the product. It also exits **1** if the category
-  directory is missing — the D1 path, see step 9.
+  that is the entire point of the product. A missing category directory is
+  *not* a failure — `bin/init.mjs:159` → `await mkdir(dir, { recursive: true });`
+  creates it. It used to exit **1** there, which was defect D1: git does not
+  track empty directories, so the five lane folders `init` leaves empty never
+  reach the second person on the team.
 - **Known gap**: substitution is partial. The template's two sample entries
   survive into the new lane carrying a fake commit sha. That is defect **D7**,
   pinned by a test so a fix has to change it deliberately.
@@ -209,7 +223,7 @@ to keep a user waiting.
 Rendering is `console.log` plus six ANSI colour helpers:
 
 - **File**: `bin/init.mjs`
-- **Symbol**: `C` (line 47)
+- **Symbol**: `bin/init.mjs:60` → `const C = {`
 - **Why this exists**: a CLI's entire user interface is its stdout. Green means
   a file was written, yellow means the tool declined to act and that is fine,
   red means it stopped.
@@ -234,7 +248,8 @@ static email preview — no scripts, no fonts, no images.
 ## Step 8 — Failure and recovery
 
 - **File**: `bin/init.mjs`
-- **Symbol**: the `try/catch` wrapping the dispatcher (lines 309-324)
+- **Symbol**: the `try/catch` wrapping the dispatcher, caught at
+  `bin/init.mjs:335` → `} catch (e) {`
 - **Called by**: nothing — it is the outermost frame.
 - **Calls next**: `process.exit(1)`.
 - **Why this exists**: so a user never sees a Node stack trace. Any error
@@ -253,15 +268,16 @@ static email preview — no scripts, no fonts, no images.
   no partial rollback — a verb that fails halfway leaves whatever it had already
   written, which is safe here because everything it writes is new files in new
   directories.
-- **The one recovery path that is broken**: `add` in a freshly cloned repo fails
-  with `CHANGELOG\pages does not exist` and tells you to run `easier init`;
-  `init` then sees `CHANGELOG/` and declines. That closed loop is defect **D1**,
-  still open, reproduced by a test.
+- **The recovery path that used to be broken**: `add` in a freshly cloned repo
+  failed with `CHANGELOG\pages does not exist` and told you to run `init`;
+  `init` then saw `CHANGELOG/` and declined. That closed loop was defect **D1**.
+  It is closed — `add` creates the directory — and the test that used to pin the
+  failure now asserts the recovery.
 
 ## Step 9 — The tests that prove this flow
 
 - **File**: `test/cli.test.mjs`
-- **Symbol**: 18 `test(...)` blocks, grouped by journey
+- **Symbol**: 20 `test(...)` blocks, grouped by journey
 - **Called by**: `npm test` → `node --test test/cli.test.mjs`
 - **Why this exists**: before the wave-3 pass, `npm test` ran
   `node bin/init.mjs --help` — a help print with zero assertions, green in a
@@ -288,13 +304,20 @@ Which test proves which step:
 | 3 — validation | `J1 add rejects a category that is not one of the six, and lists the six`, `J1 add with no arguments prints usage and fails` |
 | 6 — persistence | `J1 add writes a dated lane file naming the surface it tracks`, `J4 qa scaffolds four packet files with every placeholder substituted` |
 | 7 — rendering | `J1 the next steps init prints can be followed in the order printed (D6)` |
-| 8 — failure paths | `J2 KNOWN DEFECT D1 — add fails in a clone because git drops empty lane dirs`, `J4 qa with no feature id, and qa on an existing packet, both fail loudly` |
+| 8 — failure paths | `J2 add creates the lane directory git dropped from the clone (D1)`, `J4 qa with no feature id, and qa on an existing packet, both fail loudly` |
 | install | `J3 install project copies the contract and every template into .claude/skills`, `J3 install auto-detects a git repo as a project install`, `J3 install rejects an unknown target and lists the real ones` |
-| this document's tours | `every .tours step points at a file and line that still exists` |
+| this document's citations | `every .tours step names what it expects to find, and finds it there`, `every doc citation of the form ``path:line`` proves it cites the right line`, `no shipped instruction says ``npx easier <verb>``` |
 
-Two of those tests pin behaviour that is **wrong on purpose** — D1 and D7. Each
-says so in a comment naming the defect, so fixing the defect forces a deliberate
-edit to the test rather than a silent one.
+One of those tests pins behaviour that is **wrong on purpose** — D7. It says so
+in a comment naming the defect, so fixing the defect forces a deliberate edit to
+the test rather than a silent one. There were two: the D1 block was unpinned
+this pass, and it kept the old expectation in its comment so the change reads as
+deliberate rather than as a quietly weakened assertion.
+
+The last three rows are the guards over this page and the two CodeTours. Until
+this pass the only one that existed checked that a cited line number was inside
+the file — true of every wrong line too. It is now an error to cite a line
+without naming what should be on it.
 
 ---
 
@@ -302,7 +325,7 @@ edit to the test rather than a silent one.
 
 | You want to… | Touch |
 |---|---|
-| add a seventh surface category | `CATEGORIES` in `bin/init.mjs:42`, the lane taxonomy in `AGENTS.md` step 1 and `SKILL.md` Phase 1, and the index skeleton in `templates/CHANGELOG-README.md` |
+| add a seventh surface category | `bin/init.mjs:40` → `const CATEGORIES = ["pages", "components", "server", "db", "integrations", "scripts"];`, the lane taxonomy in `AGENTS.md` step 1 and `SKILL.md` Phase 1, and the index skeleton in `templates/CHANGELOG-README.md` |
 | add a new subcommand | one `else if` in the dispatcher, one async function, one help block, one test block |
 | change what a new lane file looks like | `templates/lane.md` — but read D7 first, because `addLane()` only substitutes part of it |
 | change what the protocol asks an agent to do | `AGENTS.md` *and* `SKILL.md`. They are deliberately two files: `install` copies `AGENTS.md` alone to Cursor / Cline / Aider, and both to Claude Code. Changing one without the other is the most likely way to introduce drift here. |

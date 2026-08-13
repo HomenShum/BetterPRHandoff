@@ -68,10 +68,10 @@ twice and the second run either declines (`init`, `qa-init`) or fails loudly
 
 | Boundary | Where it is enforced | What it protects |
 |---|---|---|
-| Six surface categories, not seven | `CATEGORIES`, `bin/init.mjs:42` | the lane taxonomy stays the same in the directory layout, the CLI, and both rule files |
-| Never overwrite an existing lane | `bin/init.mjs:148` | the audit trail, which is the entire product |
-| Never clobber an existing `CHANGELOG/` | `bin/init.mjs:88` | a second `init` in an adopted repo is a no-op, not a wipe |
-| The package ships only what `files:` lists | `package.json:40-47` | `promotion/`, `submissions/`, `docs/`, `test/` never land in a user's `node_modules` |
+| Six surface categories, not seven | `bin/init.mjs:40` → `const CATEGORIES = ["pages", "components", "server", "db", "integrations", "scripts"];` | the lane taxonomy stays the same in the directory layout, the CLI, and both rule files |
+| Never overwrite an existing lane | `bin/init.mjs:162` → `if (existsSync(target)) {` | the audit trail, which is the entire product |
+| Never clobber an existing `CHANGELOG/` | `bin/init.mjs:101` → `if (existsSync(cl)) {` | a second `init` in an adopted repo is a no-op, not a wipe |
+| The package ships only what `files:` lists | `package.json:40` → `"files": [` | `promotion/`, `submissions/`, `docs/`, `test/` never land in a user's `node_modules` |
 | QA packet shape | `templates/qa-packet-schema.json` | multiple generators stay interchangeable |
 
 ## Invariants

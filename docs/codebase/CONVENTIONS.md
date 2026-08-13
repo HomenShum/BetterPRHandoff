@@ -21,7 +21,7 @@ is expected to follow, each with the reason it exists.
 ## Code style in `bin/init.mjs`
 
 - **One file, no exports.** Adding a second source file means a reader has to
-  hold a second file open. At 325 lines that trade is not worth making yet. If
+  hold a second file open. At 339 lines that trade is not worth making yet. If
   it ever is, the split to make first is the QA half.
 - **One async function per subcommand**, named after the verb, dispatched by
   string match at the bottom.
@@ -70,7 +70,15 @@ measurement that justified it.
 - **Scenario, not unit.** Each test is a person trying to finish a job. See
   TESTING.md.
 - **A test that pins a known defect says so in a comment, names the defect id,
-  and states what the correct behaviour would be.** Two such tests exist (D1
-  and D7). This is the only acceptable way to encode wrong behaviour: it makes
-  fixing the defect require a deliberate edit, and it stops a future reader
-  mistaking the assertion for a specification.
+  and states what the correct behaviour would be.** One such test exists (D7).
+  This is the only acceptable way to encode wrong behaviour: it makes fixing the
+  defect require a deliberate edit, and it stops a future reader mistaking the
+  assertion for a specification.
+- **When such a test is unpinned, the old expectation stays in the comment.**
+  The D1 block did exactly that when D1 was fixed. A loosened assertion whose
+  justification is only in git history is indistinguishable from a weakened one.
+- **A citation is a claim, so it carries its own anchor.** Anything that cites
+  `path:line` — a `.tour` step, a line in `docs/` — must also name the text
+  expected on that line, and `npm test` asserts the match. Checking only that
+  the line number is in range proves nothing: it stays green while the citation
+  slides onto the wrong symbol.

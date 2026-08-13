@@ -43,7 +43,7 @@ than convenient:
   conditions 5, 10, 11.
 - **The one browser-rendered artifact the product emits** —
   `QA_DOGFOOD/<feature-id>/gmail-magic-resend.html`, written by
-  `npx easier qa <feature-id>` from `templates/gmail-magic-resend.html`. It is
+  the CLI's `qa <feature-id>` from `templates/gmail-magic-resend.html`. It is
   the only HTML a user of this package ever opens. Scored: conditions 3, 4, 6, 9.
 - Conditions 1 and 2 span every journey in
   [PRODUCT_JOURNEYS.md](PRODUCT_JOURNEYS.md), on whichever surface each runs.
@@ -71,8 +71,8 @@ package boundary invalidates it.
 
 | # | Condition | Status | Evidence / reason |
 |---|-----------|--------|-------------------|
-| 1 | Journeys succeed end-to-end in a real browser | FAIL | J2 does not complete. Reproduction: adopt the protocol, `git add CHANGELOG && git commit`, `git clone` the repo elsewhere, run `node bin/init.mjs add pages dashboard` → exit **1**, `CHANGELOG\pages does not exist`. Git does not track the five empty lane directories `init` created. J1/J3/J5 pass (below); J4 completes but renders wrong on phones (row 3). |
-| 2 | No critical or major usability defect open | FAIL | D1 (major, above) and D2 (major, row 3) are open in the [defect ledger](PROMOTION_LOG.md#defect-ledger). |
+| 1 | Journeys succeed end-to-end in a real browser | FAIL | J2 completed as of iteration 2: the same reproduction — adopt the protocol, `git add CHANGELOG && git commit`, drop the untracked empty lane dirs as a clone would, `node bin/init.mjs add pages dashboard` — now exits **0** and writes the lane, because `add` creates the directory it needs. J1/J3 pass, J5 unverified. Still FAIL overall: J4 completes but renders wrong on phones (row 3), and no journey has been driven in a browser since the baseline. |
+| 2 | No critical or major usability defect open | FAIL | D1 is closed in iteration 2. D2 (major, row 3) is still open in the [defect ledger](PROMOTION_LOG.md#defect-ledger), so this stays FAIL. |
 | 3 | Mobile and desktop both intentional | FAIL | `templates/gmail-magic-resend.html` ships no `<meta name="viewport">`. Measured in the rendered page on an emulated Pixel 8 (375 CSS px): `document.documentElement.clientWidth === 980` and `visualViewport.scale === 0.383` — the browser fell back to its legacy 980px desktop layout and shrank the page to 38%. The file's own body copy reads "Open this from Gmail on desktop **or phone**", so mobile is claimed, not out of scope. Desktop at 1280 is fine. |
 | 4 | No horizontal overflow at supported widths | PASS | Measured in the rendered page. Desktop 1280: `scrollWidth 1280 === clientWidth 1280`. Mobile preset: `.card` is 810px inside the 980px layout viewport; `scrollWidth 981` vs `clientWidth 980` — a 1px emulator rounding artifact, no scrollable content overflow. Recorded verbatim so a reader can disagree with the call. |
 | 5 | Loading/empty/success/error/agent-running designed | PASS | CLI surface. Eight states driven, each with a distinct message and a correct exit code: `init` 0 (success), `init` on an existing `CHANGELOG/` 0 (warning, refuses to clobber), `add` 0, `add` duplicate 1, `add widgets Thing` 1 (bad category), `qa` with no argument 1, `qa` duplicate 1, `install nonsense` 1. Loading and agent-running have no subject here: every verb is synchronous file scaffolding (row 10), and the product runs no agent. |

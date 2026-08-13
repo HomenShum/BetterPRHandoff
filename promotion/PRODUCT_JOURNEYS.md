@@ -53,7 +53,8 @@ Each journey states, in this order:
   ready for its first dated entry.
 - **Steps:**
   1. `git clone <the repo>` and `cd` into it.
-  2. `npx easier add pages dashboard`.
+  2. `npx @homenshum/easier-to-read-submissions add pages dashboard` (or, from
+     a clone of this repo, `node bin/init.mjs add pages dashboard`).
 - **Done when:** exit 0 and `CHANGELOG/pages/dashboard.md` exists with today's
   date pre-filled.
 - **Drives:** `bin/init.mjs` → `addLane()`, reading `templates/lane.md`.
@@ -62,9 +63,18 @@ Each journey states, in this order:
   shows only `CHANGELOG/README.md`, `CHANGELOG/TEMPLATE.md` and the one lane
   file that had content; the five empty lane directories `init` created were
   never tracked, because git does not track empty directories and `init()`
-  writes no `.gitkeep`. The recovery the error message names (`npx easier init`)
-  then prints `! CHANGELOG/ already exists ... Skipping scaffold` and exits 0
-  without repairing anything — a closed loop with no way out but `mkdir`.
+  writes no `.gitkeep`. The recovery the error message named then printed
+  `! CHANGELOG/ already exists ... Skipping scaffold` and exited 0 without
+  repairing anything — a closed loop with no way out but `mkdir`.
+- **Evidence:** **PASS**, iteration 2, 2026-08-13 — D1 closed. Same
+  reproduction re-run against this tree: `git init` a temp repo, `init`,
+  `git add CHANGELOG && git commit`, `git ls-files` → still exactly
+  `CHANGELOG/README.md` and `CHANGELOG/TEMPLATE.md` (git's behaviour did not
+  change and was never the thing to fix), delete the five empty lane dirs to
+  reproduce what a clone hands the second person, then
+  `node bin/init.mjs add pages dashboard` → **exit 0**,
+  `✓ Created CHANGELOG\pages\dashboard.md`, file present on disk. `add` now
+  creates the lane directory instead of demanding it.
 
 ## J3 — "Wire the protocol into whichever agent I actually use"
 
@@ -73,7 +83,8 @@ Each journey states, in this order:
   install targets and an auto-detect.
 - **Goal:** The instruction file lands where their specific agent reads it.
 - **Steps:**
-  1. `npx easier install` (auto), or `install cursor` / `cline` / `aider`.
+  1. `npx @homenshum/easier-to-read-submissions install` (auto), or the same
+     with `cursor` / `cline` / `aider`.
 - **Done when:** exit 0 and the agent-specific path exists — `.claude/skills/
   easier-to-read-submissions/` for project mode, `.cursor/rules/
   easier-to-read-submissions.md` for Cursor, `.clinerules` for Cline,
@@ -97,7 +108,7 @@ Each journey states, in this order:
 - **Goal:** A self-contained HTML page exists that reads correctly on a desktop
   browser and on a phone.
 - **Steps:**
-  1. `npx easier qa nodebench-chat-v1`.
+  1. `npx @homenshum/easier-to-read-submissions qa nodebench-chat-v1`.
   2. Open `QA_DOGFOOD/nodebench-chat-v1/gmail-magic-resend.html` in a browser.
   3. Look at it at desktop width and at phone width.
 - **Done when:** the page renders legibly at both widths, with no console errors

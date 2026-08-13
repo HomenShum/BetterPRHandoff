@@ -85,7 +85,7 @@ implementation of `install()` in `bin/init.mjs`: same six modes, same
 destinations, same copy rules, three separate auto-detect ladders that had
 drifted. Observed by running all three in the same directory:
 
-| directory holds | `npx easier install` | `install.sh` | `install.ps1` |
+| directory holds | `bin/init.mjs install` | `install.sh` | `install.ps1` |
 |---|---|---|---|
 | `.git` only | project | project | **user** |
 | `.cursor` only | **cursor** | **user** | **user** |
@@ -120,7 +120,8 @@ imported in the same file — answers directly. Three of the four copies of the
 six-category vocabulary are gone, leaving one `CATEGORIES` constant.
 
 **One line of documentation that described a feature that was never built**:
-`bin/init.mjs:10` documented an `entry <lane-file>` subcommand. Running it
+the header comment of `bin/init.mjs`, line 10 as it stood at commit `e2bb028`,
+documented an `entry <lane-file>` subcommand. Running it
 printed `Unknown command`. Defect D5's documentation half is resolved by
 deleting the claim; the verb itself is still unbuilt and still in the ledger.
 
@@ -188,7 +189,7 @@ and there is no trust boundary being crossed. Written up in
 | 83-line clone reported between `AGENTS.md` and `SKILL.md` (53 tokens) | jscpd is matching box-drawing characters in the two diagram skeletons. The two files exist on purpose: `install` copies `AGENTS.md` alone to Cursor / Cline / Aider and both to Claude Code. Documented in `docs/codebase/CONVENTIONS.md` as the drift risk it is. |
 | ANSI colour codes emitted unconditionally, including when stdout is redirected | One-line fix (`process.stdout.isTTY`), but it changes output bytes for every non-terminal consumer and this pass is not mixing behaviour changes into a structural one. Recorded in `docs/codebase/CONCERNS.md` with the fix named. |
 | `submissions/nodebench-redesign/` — 13 files including two MP4s and two GIFs | Evidence from a past submission, not product code. `package.json#files` does not ship it, so it costs installers nothing. Deleting someone's recorded evidence is not simplification. Its role is explained in `docs/codebase/STRUCTURE.md`. |
-| `templates/qa-packet.md:206` links to `github.com/jayneebui/sitflow-mobile` on a named branch | A cross-repository reference this pass cannot verify is reachable for a stranger. Flagged in `docs/codebase/CONCERNS.md`; changing it needs someone who knows whether that repo is public. |
+| `templates/qa-packet.md:206` → `- Use SitFlow's [` links to `github.com/jayneebui/sitflow-mobile` on a named branch | A cross-repository reference this pass cannot verify is reachable for a stranger. Flagged in `docs/codebase/CONCERNS.md`; changing it needs someone who knows whether that repo is public. |
 
 ## What did not change
 

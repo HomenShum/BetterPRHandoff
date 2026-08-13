@@ -26,7 +26,7 @@ This file documents the canonical generators and how to wire them. The goal is n
 │   (no recorder/verifier — this side ships rules only)    │
 │                                                          │
 │   CLI                                                    │
-│   · npx easier init / add / install / qa-init           │
+│   · bin/init.mjs: init / add / install / qa-init         │
 │                                                          │
 └──────────────────────────────────────────────────────────┘
                   │                   │
@@ -62,7 +62,7 @@ This file documents the canonical generators and how to wire them. The goal is n
 │                                                          │
 │   SitFlow / NodeBench / your app                         │
 │   · qa.config.json (declares states)                     │
-│   · CHANGELOG/ (bootstrapped by `npx easier init`)       │
+│   · CHANGELOG/ (bootstrapped by the CLI's `init`)        │
 │   · runs `parity-studio qa-packet` (or equivalent)       │
 │                                                          │
 └──────────────────────────────────────────────────────────┘
@@ -143,10 +143,10 @@ node scripts/sitflow-evidence-to-packet.mjs   # not built yet — open issue if 
 npx @homenshum/easier-to-read-submissions install
 
 # 2. Bootstrap CHANGELOG/ (lane files)
-npx easier init
+npx @homenshum/easier-to-read-submissions init
 
 # 3. Declare your QA states
-npx easier qa-init                    # writes qa.config.json from qa-states.example.json
+npx @homenshum/easier-to-read-submissions qa-init   # writes qa.config.json
 
 # 4. Pick a generator. For full Parity Studio path:
 npx parity-studio qa-packet --feature myapp.thing.v1 --config ./qa.config.json
@@ -180,8 +180,8 @@ Splitting:
 | Schema + protocol docs | ✅ shipped this repo v1.2.0+ |
 | `qa-email.html.mustache` template | ✅ shipped this repo v1.2.0+ |
 | `qa-states.example.json` | ✅ shipped this repo v1.2.0+ |
-| `npx easier qa-init` CLI | ✅ shipped this repo v1.2.0+ |
-| `npx easier qa <feature-id>` (QA_DOGFOOD scaffold) | ✅ shipped this repo v1.2.1 |
+| `qa-init` CLI verb | ✅ shipped this repo v1.2.0+ |
+| `qa <feature-id>` CLI verb (QA_DOGFOOD scaffold) | ✅ shipped this repo v1.2.1 |
 | **`@homenshum/easier-to-read-submissions` on npm** | ✅ live, latest `1.2.1` |
 | **Parity Studio `qa-packet` MCP tool** | ✅ shipped [`parity-studio-mcp@0.3.6`](https://www.npmjs.com/package/parity-studio-mcp) ([release notes](https://github.com/HomenShum/parity-studio/releases/tag/v0.3.6)) |
 | Parity Studio review page | 🚧 spec filed (post-v0.3.6 follow-up) |

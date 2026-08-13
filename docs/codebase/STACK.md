@@ -23,7 +23,7 @@ Node.js, and nothing else.
 ## Node built-ins used
 
 The entire CLI imports four modules, all from the standard library
-(`bin/init.mjs:28-31`):
+(`bin/init.mjs:26` → `import { mkdir, writeFile, readFile, copyFile, cp } from "node:fs/promises";`):
 
 ```js
 import { mkdir, writeFile, readFile, copyFile, cp } from "node:fs/promises";
@@ -50,7 +50,8 @@ and copying files, which `node:fs` does. Keep it that way; if a change appears
 to need a dependency, that is a strong signal the change belongs in a generator
 tool (see `INTEGRATIONS.md`) rather than here.
 
-`fs.cp` is worth one note: it is used at `bin/init.mjs:285` and was marked
+`fs.cp` is worth one note: it is used at `bin/init.mjs:299` →
+`await cp(TPL_DIR, join(dest, "templates"), { recursive: true });` and was marked
 Stable only in Node v22.3.0, Experimental from v16.7.0. It works on Node 18 and
 20, both of which are past end-of-life as of this writing. If a Node 18 user
 reports an `ExperimentalWarning` on `easier install`, that is the cause and the
