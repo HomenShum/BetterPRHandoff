@@ -34,7 +34,7 @@ For each touched surface, find the lane file at `CHANGELOG/<category>/<slug>.md`
 - `server/_core/index.ts` → `CHANGELOG/server/_core-index.md`
 - DB table `users` → `CHANGELOG/db/users.md`
 
-If the lane file doesn't exist, create it from `templates/lane.md`. If `CHANGELOG/` itself doesn't exist, run `npx @homenshum/easier-to-read init` first (or copy `templates/CHANGELOG-README.md` and `templates/CHANGELOG-TEMPLATE.md` manually, then bootstrap lanes per `templates/bootstrap-prompt.md`).
+If the lane file doesn't exist, create it from `templates/lane.md`. If `CHANGELOG/` itself doesn't exist, run `npx @homenshum/easier-to-read-submissions init` first (or copy `templates/CHANGELOG-README.md` and `templates/CHANGELOG-TEMPLATE.md` manually, then bootstrap lanes per `templates/bootstrap-prompt.md`).
 
 **Prepend** a new entry at the TOP of each touched lane (right below the file header, before the previous most-recent entry). Use this format exactly:
 
@@ -182,7 +182,7 @@ You **never** skip the live-DOM verification on anything claiming a deploy.
 
 If the user invokes the protocol on a fresh repo:
 
-1. Run `npx @homenshum/easier-to-read init` to scaffold `CHANGELOG/README.md` + `CHANGELOG/TEMPLATE.md` + the six category subdirectories.
+1. Run `npx @homenshum/easier-to-read-submissions init` to scaffold `CHANGELOG/README.md` + `CHANGELOG/TEMPLATE.md` + the six category subdirectories.
 2. Inventory the repo (`find app server components -type f \( -name "*.tsx" -o -name "*.ts" \)` and equivalent for db tables, scripts, integrations).
 3. Dispatch parallel subagents to backfill lane files from `git log --follow` per file. The exact subagent prompt is at `templates/bootstrap-prompt.md`.
 4. Audit cross-links: `grep -hroE '(pages|components|server|db|integrations|scripts)/[A-Za-z0-9_-]+\.md' CHANGELOG/ | sort -u` and fix any references to non-existent files.

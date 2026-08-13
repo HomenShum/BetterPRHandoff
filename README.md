@@ -19,15 +19,11 @@ Four artifacts the protocol produces per submission, automatically:
 ## Install anywhere — pick your agent
 
 ```bash
-# One-line install (Mac / Linux / Git Bash) — auto-detects your environment
-curl -fsSL https://raw.githubusercontent.com/HomenShum/BetterPRHandoff/main/install.sh | bash
-
-# One-line install (Windows PowerShell)
-iwr https://raw.githubusercontent.com/HomenShum/BetterPRHandoff/main/install.ps1 -useb | iex
-
-# OR via npm (works everywhere)
+# One line, every platform — auto-detects your environment
 npx @homenshum/easier-to-read-submissions install
 ```
+
+One command, because there used to be three and they disagreed. A `curl | bash` and an `iwr | iex` installer each re-implemented this detection in their own dialect and drifted: in a directory holding only `.cursor/`, the npm CLI chose `cursor`, `install.sh` chose `user`, and `install.ps1` chose `user` — and `install.ps1` chose `user` for *every* repo, because it looked only for `package.json` and never for `.git`. Both shell installers were deleted in the wave-3 pass; see [`docs/SIMPLIFICATION_REPORT.md`](docs/SIMPLIFICATION_REPORT.md). Node is already a hard requirement of this package, so `npx` reaches everyone the shell scripts did.
 
 That installs the skill to the right path for whichever agent you're using. Manual paths if you'd rather:
 
