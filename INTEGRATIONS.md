@@ -22,7 +22,8 @@ This file documents the canonical generators and how to wire them. The goal is n
 │   · CHANGELOG-TEMPLATE.md                                │
 │   · lane.md                                              │
 │   · runtime-diagram.md                                   │
-│   · recorder.mjs / verifier.mjs (lightweight reference)  │
+│                                                          │
+│   (no recorder/verifier — this side ships rules only)    │
 │                                                          │
 │   CLI                                                    │
 │   · npx easier init / add / install / qa-init           │

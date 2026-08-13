@@ -90,7 +90,13 @@ node scripts/record-demo.mjs                          # ~75s recording
 node scripts/verify-demo.mjs out/demo.mp4 out/evidence.json   # local + Gemini
 ```
 
-Both layers must pass before you push. The local layer asserts DOM strings exist; the Gemini layer confirms they're visibly on screen (catches "string is in DOM but past the fold"). If the recorder isn't set up yet, copy `templates/recorder.mjs` + `templates/verifier.mjs` and adapt the scenes to your routes.
+Both layers must pass before you push. The local layer asserts DOM strings exist; the Gemini layer confirms they're visibly on screen (catches "string is in DOM but past the fold").
+
+If your repo has no recorder yet, write one against this contract rather than copying somebody else's — a recorder is mostly your own routes and your own assert strings, so a borrowed one fails on a working app:
+
+- **The recorder** navigates to each route in your flow, asserts every claim against the rendered text, holds the final frame ~2s so a viewer can read it, and writes one evidence JSON: `{ scenes: [{label, durationMs}], checks: { "<key>": {ok, note, at} }, outputs: {mp4, gif} }`.
+- **The verifier** reads that JSON, fails if any required check is missing or false, then sends the MP4 to a vision model and asks, scene by scene, whether the claimed content is *visibly on screen*. PASS / PARTIAL / FAIL with a per-scene reason.
+- A scene that passes the DOM layer and fails the video layer means the content rendered below the fold. Scroll further in that scene, re-record, re-verify.
 
 ### Step 5 — Live-DOM verify before claiming "deployed" or "shipped"
 
@@ -209,13 +215,6 @@ In repos that have this skill installed at `.claude/skills/easier-to-read-submis
 |---|---|
 | `SKILL.md` | Long-form Claude-Code-specific version of these instructions |
 | `AGENTS.md` (this file) | Agent-agnostic version |
-| `templates/CHANGELOG-README.md` | Master index template |
-| `templates/CHANGELOG-TEMPLATE.md` | Format spec |
-| `templates/lane.md` | Single-surface lane template |
-| `templates/bootstrap-prompt.md` | Parallel-subagent backfill prompt |
-| `templates/runtime-diagram.md` | Format spec + 4 worked examples |
-| `templates/recorder.mjs` | Playwright + smoothPan + ffmpeg |
-| `templates/verifier.mjs` | Local DOM + Gemini Files API |
-| `templates/probe-routes.mjs` | Diagnostic for off-screen content |
+| `templates/` | Everything the CLI copies into a repo. Inventoried once, with each file's consumer, in `docs/codebase/STRUCTURE.md` — kept in one place so it cannot drift out of date in three. |
 
 Source: https://github.com/HomenShum/BetterPRHandoff

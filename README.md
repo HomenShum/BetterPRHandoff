@@ -66,7 +66,9 @@ Three artifacts per commit, applied based on what the change touched:
 
 ### What a full-stack diagram looks like
 
-This is the actual diagram from SitFlow's `care_rules` introduction. The change touched all 5 runtime layers — DEPLOY (Vercel), FRONTEND (Expo Router), BACKEND (Express + tRPC), DATABASE (MySQL live + Convex dormant in parallel), AGENT (Anthropic Haiku via pi-ai). Drawn once, dropped into the commit body, the affected lane entries, and the PR description — every reviewer sees the same map:
+All four worked examples live in one place — [`templates/runtime-diagram.md`](templates/runtime-diagram.md) — so there is only ever one copy to keep true: single-layer (skip the diagram), two-layer, three-layer, and the full stack.
+
+The full-stack one (Example 4) is the diagram from SitFlow's `care_rules` introduction: DEPLOY (Vercel), FRONTEND (Expo Router), BACKEND (Express + tRPC), DATABASE (MySQL live + Convex dormant in parallel), AGENT (Anthropic Haiku). Drawn once, dropped into the commit body, the affected lane entries, and the PR description — every reviewer sees the same map. Its top box looks like this:
 
 ```
 ┌─────────────────────────── DEPLOY (Vercel — production web) ──────────────────────┐
@@ -84,66 +86,13 @@ This is the actual diagram from SitFlow's `care_rules` introduction. The change 
 └─────────────────────────────────────┬──────────────────────────────────────────────┘
                                       │ user fetches /index.html, then /_expo/*.js bundle
                                       ▼
-┌─────────────────────── FRONTEND (Expo Router 6 + React Native + NativeWind) ──────┐
-│                                                                                    │
-│  ~ app/(tabs)/index.tsx              ~ app/clients/[id].tsx                       │
-│      [Inbox]                              [Client Detail]                         │
-│         │                                      │                                  │
-│         │ uses CareCard(compact)              │ uses CareCard(full)               │
-│         │                                      │                                  │
-│         └──────────────────┬───────────────────┘                                  │
-│                            ▼                                                      │
-│                  + components/CareCard.tsx (NEW — 3 modes, severity stripes)      │
-│                                                                                    │
-│  Calls EXPO_PUBLIC_API_URL (env-baked at build time) for tRPC requests.           │
-│                                                                                    │
-└────────────────────────────────────┬───────────────────────────────────────────────┘
-                                     │ tRPC over HTTPS (clients.getById)
-                                     ▼
-┌──────────────────────── BACKEND (Express + tRPC v11 on Node 22) ──────────────────┐
-│                                                                                    │
-│  ~ server/db.ts                                                                   │
-│      ~ getClientById() now joins care_rules per pet                              │
-│      + listCareRulesForPet(petId) → CareRule[]                                   │
-│                                                                                    │
-│  + server/m-and-g.ts (NEW)   extractCarePlanFromText() → ProposedCarePlan         │
-│  + server/llm.ts (NEW)       pi-ai adapter, $5/day USD cap                       │
-│                                                                                    │
-│  Boot guard: NODE_ENV=production && !API_SECRET → process.exit(1)                │
-│                                                                                    │
-└──────────────┬─────────────────────────────────────────────┬───────────────────────┘
-               │ Drizzle ORM                                 │ pi-ai (Anthropic Haiku)
-               ▼                                             ▼
-┌──── DATABASE · LIVE (MySQL) ─────┐  ┌── DATABASE · DORMANT (Convex) ──┐  ┌── AGENT ────────┐
-│                                  │  │                                 │  │                 │
-│  · pets table (existing)         │  │  · convex/schema.ts (PARALLEL) │  │ Prompt: "Extract│
-│    ┌────────────────┐            │  │      mirrors every Drizzle      │  │  care rules..."│
-│    │ id             │←── FK ──┐  │  │      table 1:1 (clients, pets, │  │                 │
-│    │ name           │         │  │  │      careRules, consents, etc) │  │ Schema:         │
-│    │ behaviorNotes  │ legacy  │  │  │  · convex/{carePlan,clients,   │  │  ProposedCarePlan│
-│    └────────────────┘         │  │  │      consent}.ts (functions)   │  │  (TypeBox)      │
-│                               │  │  │  · CONVEX_URL set in .env but  │  │                 │
-│  + care_rules table (NEW)     │  │  │      no `npx convex dev` yet — │  │ Tools: none     │
-│    ┌──────────────────────┐  │  │  │      schema doesn't push        │  │                 │
-│    │ id                   │  │  │  │      until activated            │  │ Cost cap: $5/day│
-│    │ pet_id               │──┘  │  │  │                                 │  │   ensureUnderCap│
-│    │ category (8 enums)   │     │  │  │  Migration plan: when active,  │  │   429 if over   │
-│    │ severity (4 enums)   │     │  │  │   server/db.ts swaps to       │  │                 │
-│    │ rule TEXT            │     │  │  │   convex/_generated/api.ts    │  │ ~$0.0014/extract│
-│    │ context TEXT NULL    │     │  │  │   client; tRPC routes become  │  │ ~2-3s round-trip│
-│    │ source ENUM          │     │  │  │   thin pass-throughs.         │  │                 │
-│    │ created_at DATETIME  │     │  │  │                                 │  └─────────────────┘
-│    └──────────────────────┘     │  │  │                                 │
-│                                  │  │  │                                 │
-│  Migration:                      │  │  │                                 │
-│   drizzle/0001_care_rules.sql    │  │  │                                 │
-│                                  │  │  │                                 │
-└──────────────────────────────────┘  └─────────────────────────────────┘
 
-Legend:  + NEW   ~ MODIFIED   - REMOVED   · UNCHANGED   · LIVE   · DORMANT (parallel, ready to activate)
+      … FRONTEND, BACKEND, DATABASE (live + dormant) and AGENT boxes follow.
+      Whole diagram: templates/runtime-diagram.md → "Example 4 — Full stack".
+
 ```
 
-A reviewer who sees this knows in 15 seconds: a new component is rendered by two screens, a new server module fronts a new table, an agent prompt+schema with a cost cap fills it, the live data lives in MySQL but a Convex foundation is scaffolded for future migration, and it all ships through Vercel with a SPA-fallback rewrite. Three other worked examples (1-layer skip, 2-layer, 3-layer) in [`templates/runtime-diagram.md`](templates/runtime-diagram.md).
+A reviewer who sees the whole thing knows in 15 seconds: a new component is rendered by two screens, a new server module fronts a new table, an agent prompt+schema with a cost cap fills it, the live data lives in MySQL but a Convex foundation is scaffolded for future migration, and it all ships through Vercel with a SPA-fallback rewrite.
 
 The `· LIVE` / `· DORMANT` labels matter — they tell readers what tech debt or migration paths exist without forcing them to grep `convex/` or `web/` to discover the alternate stack. Same convention applies to alternate deploy paths (Vercel + GitHub Pages both wired = both shown in DEPLOY box).
 
@@ -199,17 +148,9 @@ The skill is just markdown — read `SKILL.md` and `templates/` and apply the pr
 
 ## What's in the box
 
-```
-SKILL.md                           the contract — read this first
-templates/
-  CHANGELOG-README.md              master index template
-  CHANGELOG-TEMPLATE.md            format spec
-  lane.md                          single-surface lane template
-  bootstrap-prompt.md              parallel-subagent backfill prompt
-  recorder.mjs                     Playwright + smoothPan + ffmpeg
-  verifier.mjs                     local checks + Gemini Files API
-  probe-routes.mjs                 diagnostic for "Gemini says X is off-screen"
-```
+`SKILL.md` is the contract — read that first. `AGENTS.md` is the same contract for agents that are not Claude Code. `bin/init.mjs` is the whole CLI. Everything the CLI copies into your repo lives in `templates/`, and every file there is inventoried once, with its consumer, in [`docs/codebase/STRUCTURE.md`](docs/codebase/STRUCTURE.md).
+
+New here? [`docs/START_HERE.md`](docs/START_HERE.md) walks the code in the order it actually runs.
 
 ## Origin
 
@@ -227,7 +168,8 @@ MIT. Take it, fork it, adapt it. PRs welcome — particularly:
 
 - Templates for other frameworks (Next.js App Router, Remix, SvelteKit, vanilla web)
 - Better Gemini prompts for scene verification
-- Docker / CI integrations so the verifier runs in PR checks
+- A recorder + verifier pair that is genuinely framework-agnostic. This repo shipped one that was not — it hard-coded another product's routes and assert strings — so it was deleted rather than left as a trap. See [`docs/SIMPLIFICATION_REPORT.md`](docs/SIMPLIFICATION_REPORT.md).
+- Docker / CI integrations that run a recorder + verifier in PR checks
 - Slack / Discord webhooks that post the verifier verdict
 
 ## Contact

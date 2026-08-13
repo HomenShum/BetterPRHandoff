@@ -88,15 +88,15 @@ If you're not sure, re-record anyway. The recorder is fast (~75s for a 5-scene d
 
 ### The recipe
 
-Two scripts, one pipeline:
+Two scripts, one pipeline. You write them against your own routes — a recorder is almost entirely your assert strings and your scroll offsets, so a copied one fails against an app that works fine:
 
-1. **`scripts/record-jaynee-demo.mjs`** (or whatever the repo names it) — Playwright drives the live PWA. Each scene is a function that:
+1. **`scripts/record-<name>-demo.mjs`** — Playwright drives the live app. Each scene is a function that:
    - Navigates to a route
    - Optionally smooth-pans the inner scroller through multiple stops (RN-Web inner scrollers are taller than the viewport — content past the fold won't be in the recorded video unless you scroll to it)
    - Asserts every claim via `bodyContains([...])` → records pass/fail in evidence JSON
    - Holds the final frame for ~1.5-2.5s so viewers can read it
 
-2. **`scripts/verify-jaynee-demo.mjs`** — two-layer verifier:
+2. **`scripts/verify-<name>-demo.mjs`** — two-layer verifier:
    - **Local**: video exists, duration in expected range, all required DOM checks passed in the evidence JSON
    - **Gemini**: uploads the MP4 to Gemini Files API (resumable), polls for `ACTIVE` state, asks gemini-2.5-flash to confirm each scene's expected content is **visibly on screen**. Returns PASS / PARTIAL / FAIL with per-scene reasoning.
 
@@ -112,11 +112,9 @@ Every recorder run writes `out/<demo-name>-evidence.json` with:
 
 This JSON is what reviewers grep when they ask "did the AI extraction actually fire?" — they read `liveAi.formFilled.note` instead of having to watch 71 seconds of video.
 
-### Templates ship in this skill
+### This skill ships no recorder, on purpose
 
-- `templates/recorder.mjs` — adapt to your repo's routes
-- `templates/verifier.mjs` — adapt the per-scene prompt to your asserts
-- `templates/probe-routes.mjs` — diagnostic for "Gemini says X is off-screen, is it actually in the DOM?"
+It used to ship three scripts here. They were another product's concrete recorder, verifier and route probe — hard-coded routes, hard-coded assert strings, an undeclared `playwright` dependency — so copying them into a second repo produced failing scenes against an app that worked. They were deleted in the wave-3 pass; see `docs/SIMPLIFICATION_REPORT.md`. What survives is the contract above: the evidence JSON shape, the two layers, and the rule that a DOM pass plus a video fail means "rendered below the fold."
 
 ---
 
@@ -330,8 +328,7 @@ You **never** skip the live-DOM verification on anything claiming a deploy.
 - `templates/CHANGELOG-TEMPLATE.md` — format spec (drop into `CHANGELOG/TEMPLATE.md`)
 - `templates/lane.md` — one-lane template (copy when creating a new lane)
 - `templates/bootstrap-prompt.md` — prompt for parallel subagents to backfill lanes from `git log`
-- `templates/recorder.mjs` — Playwright recorder template (adapt scenes to your routes)
-- `templates/verifier.mjs` — Gemini video verifier template
-- `templates/probe-routes.mjs` — diagnostic script
+
+Every file in `templates/`, and which command or phase consumes it, is inventoried once in `docs/codebase/STRUCTURE.md`. There is no recorder or verifier here — see "This skill ships no recorder, on purpose" above.
 
 If you're working in a repo that already has `CHANGELOG/` and `scripts/record-*.mjs`, follow them. If it doesn't, scaffold from these templates.
