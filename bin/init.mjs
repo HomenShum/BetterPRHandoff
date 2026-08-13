@@ -1,14 +1,19 @@
 #!/usr/bin/env node
 /**
- * BetterPRHandoff — repo bootstrap CLI for the easier-to-read-submissions package
+ * BetterPRHandoff — the whole CLI, in one file.
  *
- * Subcommands:
+ * Someone finished a week of changes and is about to hand the branch to a
+ * reviewer, a teammate, or the next AI agent. This tool does not write their
+ * history for them; it lays out the folders and the blank forms that history
+ * goes into, and it installs the rules their own agent will follow.
+ *
+ * Five verbs, each one synchronous file scaffolding — no network, no daemon,
+ * no state between runs:
  *   init                    Scaffold CHANGELOG/ + TEMPLATE.md in current dir
- *   add <category> <slug>   Create a new lane file (category: pages|components|server|db|integrations|scripts)
+ *   add <category> <slug>   Create a new lane file (one per surface)
  *   qa-init                 Scaffold qa.config.json from the example template
  *   qa <feature-id>         Scaffold QA_DOGFOOD/<feature-id>/ packet files
- *   entry <lane-file>       Prepend a new entry to a lane (interactive)
- *   install [target]        Install the skill (target: user|project|cursor|cline|aider|generic)
+ *   install [target]        Install the skill where the user's agent reads it
  *   help
  *
  * Usage:
@@ -16,17 +21,25 @@
  *   npx easier init
  *   npx easier add components Button
  *   npx easier install cursor
+ *
+ * Reading order for the whole system: docs/START_HERE.md
  */
 
-import { mkdir, writeFile, readFile, access, copyFile, readdir, stat } from "node:fs/promises";
-import { existsSync, readdirSync } from "node:fs";
-import { dirname, join, resolve, basename } from "node:path";
+import { mkdir, writeFile, readFile, copyFile, cp } from "node:fs/promises";
+import { existsSync } from "node:fs";
+import { dirname, join, resolve, relative } from "node:path";
 import { fileURLToPath } from "node:url";
-import { execSync } from "node:child_process";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PKG_ROOT = resolve(__dirname, "..");
 const TPL_DIR = join(PKG_ROOT, "templates");
+
+/**
+ * The six kinds of surface a change can touch. This is the domain vocabulary
+ * of the whole protocol: a lane directory, a valid `add` argument, and a line
+ * of help text are all the same six words, so they are declared once here.
+ */
+const CATEGORIES = ["pages", "components", "server", "db", "integrations", "scripts"];
 
 const args = process.argv.slice(2);
 const cmd = args[0] || "help";
@@ -47,7 +60,7 @@ ${C.bold("BetterPRHandoff")} — make every commit easier to read
 ${C.bold("Subcommands:")}
   ${C.cyan("init")}                          Scaffold CHANGELOG/ in the current repo
   ${C.cyan("add <category> <slug>")}         Create a new lane file
-                                  (category: pages|components|server|db|integrations|scripts)
+                                  (category: ${CATEGORIES.join("|")})
   ${C.cyan("qa-init")}                       Scaffold qa.config.json (Phase 5 / QA packet)
   ${C.cyan("qa <feature-id>")}               Scaffold QA_DOGFOOD/<feature-id>/ packet files
   ${C.cyan("install [target]")}              Install the skill where your agent reads it
@@ -66,27 +79,13 @@ ${C.bold("Docs:")}  https://github.com/HomenShum/BetterPRHandoff
 `);
 }
 
-async function pathExists(p) {
-  try { await access(p); return true; } catch { return false; }
-}
-
-async function copyDir(src, dest) {
-  await mkdir(dest, { recursive: true });
-  for (const entry of readdirSync(src, { withFileTypes: true })) {
-    const s = join(src, entry.name);
-    const d = join(dest, entry.name);
-    if (entry.isDirectory()) await copyDir(s, d);
-    else await copyFile(s, d);
-  }
-}
-
 // ───────────────────────────── init ─────────────────────────────
 
 async function init() {
   const cwd = process.cwd();
   const cl = join(cwd, "CHANGELOG");
 
-  if (await pathExists(cl)) {
+  if (existsSync(cl)) {
     console.log(C.yellow(`! CHANGELOG/ already exists at ${cl}`));
     console.log(C.dim("  Skipping scaffold to avoid clobbering existing lanes."));
     console.log(C.dim("  Use `npx easier add <category> <slug>` to add new lane files."));
@@ -95,7 +94,7 @@ async function init() {
 
   console.log(C.green("→ Scaffolding CHANGELOG/ for"), C.bold(cwd));
 
-  for (const sub of ["pages", "components", "server", "db", "integrations", "scripts"]) {
+  for (const sub of CATEGORIES) {
     await mkdir(join(cl, sub), { recursive: true });
   }
 
@@ -105,7 +104,7 @@ async function init() {
 
   console.log(C.green("✓"), "CHANGELOG/README.md created (master index)");
   console.log(C.green("✓"), "CHANGELOG/TEMPLATE.md created (format spec)");
-  console.log(C.green("✓"), "Subdirs: pages/ components/ server/ db/ integrations/ scripts/");
+  console.log(C.green("✓"), `Subdirs: ${CATEGORIES.map((c) => `${c}/`).join(" ")}`);
   console.log("");
   console.log(C.bold("Next steps:"));
   console.log(`  1. Edit ${C.cyan("CHANGELOG/README.md")} to list your repo's lanes`);
@@ -123,27 +122,26 @@ async function addLane() {
   if (!category || !slug) {
     console.error(C.red("✗ Usage: npx easier add <category> <slug>"));
     console.error(C.dim("  Example: npx easier add components Button"));
-    console.error(C.dim("  Categories: pages | components | server | db | integrations | scripts"));
+    console.error(C.dim(`  Categories: ${CATEGORIES.join(" | ")}`));
     process.exit(1);
   }
 
-  const validCategories = ["pages", "components", "server", "db", "integrations", "scripts"];
-  if (!validCategories.includes(category)) {
+  if (!CATEGORIES.includes(category)) {
     console.error(C.red(`✗ Bad category: ${category}`));
-    console.error(C.dim(`  Must be one of: ${validCategories.join(", ")}`));
+    console.error(C.dim(`  Must be one of: ${CATEGORIES.join(", ")}`));
     process.exit(1);
   }
 
   const cwd = process.cwd();
   const dir = join(cwd, "CHANGELOG", category);
-  if (!(await pathExists(dir))) {
+  if (!existsSync(dir)) {
     console.error(C.red(`✗ ${dir} does not exist`));
     console.error(C.dim(`  Run \`npx easier init\` first to scaffold CHANGELOG/`));
     process.exit(1);
   }
 
   const target = join(dir, `${slug}.md`);
-  if (await pathExists(target)) {
+  if (existsSync(target)) {
     console.error(C.red(`✗ ${target} already exists`));
     process.exit(1);
   }
@@ -160,7 +158,7 @@ async function addLane() {
     );
 
   await writeFile(target, personalized);
-  console.log(C.green("✓"), `Created ${C.cyan(target.replace(cwd + "/", ""))}`);
+  console.log(C.green("✓"), `Created ${C.cyan(relative(cwd, target))}`);
   console.log(C.dim(`  Edit it now — the placeholder entry needs a real description.`));
 }
 
@@ -170,7 +168,7 @@ async function qaInit() {
   const cwd = process.cwd();
   const target = join(cwd, "qa.config.json");
 
-  if (await pathExists(target)) {
+  if (existsSync(target)) {
     console.log(C.yellow(`! qa.config.json already exists at ${target}`));
     console.log(C.dim("  Edit it directly, or delete and re-run."));
     return;
@@ -212,7 +210,7 @@ async function scaffoldQaPacket() {
 
   const cwd = process.cwd();
   const dir = join(cwd, "QA_DOGFOOD", featureId);
-  if (await pathExists(dir)) {
+  if (existsSync(dir)) {
     console.error(C.red(`✗ ${dir} already exists`));
     process.exit(1);
   }
@@ -280,17 +278,17 @@ async function install() {
     await mkdir(dest, { recursive: true });
     await copyFile(join(PKG_ROOT, "SKILL.md"), join(dest, "SKILL.md"));
     await copyFile(join(PKG_ROOT, "AGENTS.md"), join(dest, "AGENTS.md"));
-    await copyDir(TPL_DIR, join(dest, "templates"));
+    await cp(TPL_DIR, join(dest, "templates"), { recursive: true });
   } else if (mode === "cursor") {
     await mkdir(dest, { recursive: true });
     await copyFile(join(PKG_ROOT, "AGENTS.md"), join(dest, "easier-to-read-submissions.md"));
-    await copyDir(TPL_DIR, join(dest, "templates-easier"));
+    await cp(TPL_DIR, join(dest, "templates-easier"), { recursive: true });
   } else if (mode === "cline") {
     await copyFile(join(PKG_ROOT, "AGENTS.md"), join(cwd, ".clinerules"));
-    await copyDir(TPL_DIR, join(cwd, ".cline-easier-templates"));
+    await cp(TPL_DIR, join(cwd, ".cline-easier-templates"), { recursive: true });
   } else if (mode === "aider") {
     await copyFile(join(PKG_ROOT, "AGENTS.md"), join(cwd, "AGENTS.md"));
-    await copyDir(TPL_DIR, join(cwd, ".easier-templates"));
+    await cp(TPL_DIR, join(cwd, ".easier-templates"), { recursive: true });
   }
 
   console.log(C.green("✓"), "Installed.");
