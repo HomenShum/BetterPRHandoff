@@ -123,6 +123,20 @@ test("J1 add with no arguments prints usage and fails", () => {
   });
 });
 
+test("J1 the next steps init prints can be followed in the order printed (D6)", () => {
+  sandbox((dir) => {
+    const r = easier(dir, "init");
+    const steps = r.out.split("Next steps:")[1];
+    const readMe = steps.match(/\S*bootstrap-prompt\.md/)[0];
+    const install = steps.indexOf("npx easier install");
+    const bootstrap = steps.indexOf(readMe);
+    assert.ok(install < bootstrap, "step order sends the reader to a file that does not exist yet");
+    // Following the steps as printed must actually land on that file.
+    easier(dir, "install", "project");
+    assert.ok(existsSync(join(dir, readMe)), `init pointed at ${readMe}, which install did not create`);
+  });
+});
+
 // ── Journey 2: a teammate clones the repo the first developer committed ─────
 
 test("J2 KNOWN DEFECT D1 — add fails in a clone because git drops empty lane dirs", () => {

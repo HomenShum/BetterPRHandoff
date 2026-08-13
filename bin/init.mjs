@@ -106,11 +106,15 @@ async function init() {
   console.log(C.green("✓"), "CHANGELOG/TEMPLATE.md created (format spec)");
   console.log(C.green("✓"), `Subdirs: ${CATEGORIES.map((c) => `${c}/`).join(" ")}`);
   console.log("");
+  // Order matters: step 1 is what creates the file step 2 tells you to read.
+  // It used to be listed last, so a first-time user was sent to a path that
+  // did not exist yet (defect D6).
   console.log(C.bold("Next steps:"));
-  console.log(`  1. Edit ${C.cyan("CHANGELOG/README.md")} to list your repo's lanes`);
-  console.log(`  2. Bootstrap from git history: see ${C.cyan(".claude/skills/easier-to-read-submissions/templates/bootstrap-prompt.md")}`);
+  console.log(`  1. Install the skill so your agent picks it up: ${C.cyan("npx easier install")}`);
+  console.log(`  2. Backfill lanes from git history with the prompt that step 1 just placed at`);
+  console.log(`     ${C.cyan(".claude/skills/easier-to-read-submissions/templates/bootstrap-prompt.md")}`);
   console.log(`     OR: ${C.cyan("npx easier add pages tabs-index-inbox")} to create lanes one at a time`);
-  console.log(`  3. Install the skill so your agent picks it up: ${C.cyan("npx easier install")}`);
+  console.log(`  3. Edit ${C.cyan("CHANGELOG/README.md")} to list your repo's lanes`);
 }
 
 // ───────────────────────────── add ─────────────────────────────
