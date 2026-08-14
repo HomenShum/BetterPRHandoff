@@ -269,6 +269,17 @@ was not retained is UNVERIFIED, however real the number was.
   findings recorded in `promotion/evidence/WIG_REVIEW.md` (placeholder `href="#"`
   buttons, 38 px hit targets, no `touch-action: manipulation`, no meta
   description).
+- **Verified from a fresh clone, not from this working tree.** The gate's rule
+  is that the producer must run for someone who just cloned the repo, so that
+  was tested rather than assumed: `git clone` into an empty directory (no
+  `node_modules`), then `node promotion/evidence/audit.mjs`. It installed
+  Playwright itself, exit 0, and regenerated every artifact. The reproduced
+  numbers are identical — Lighthouse 1.00 / 1.00 / 1.00 / 0.90, axe 0 violations
+  and 23 passes, mobile 375 / scale 1 / 0 px overflow / 5.03:1 / 13 px,
+  7 keyboard stops, 20 tests passing. Only clock-dependent values moved
+  (LCP 675 → 662 ms, `init` median 111 → 91 ms). The three screenshots came back
+  byte-identical, so `git status` in that clone listed five changed files and no
+  PNGs.
 - **Honest caveat on the audit host:** port 4917 was held by an unrelated
   process, so the producer fell back to an ephemeral port and recorded the URL
   it actually used in `summary.json`. Two Lighthouse audits score below 1
