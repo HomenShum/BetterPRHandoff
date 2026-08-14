@@ -45,7 +45,7 @@ unused exports — there are none.
 | `qa-states.example.json` | 160 | `easier qa-init` | `qa.config.json` at the adopter's repo root |
 | `qa-dogfood-packet.md` | 67 | `easier qa <id>` | `QA_DOGFOOD/<id>/README.md` |
 | `qa-dogfood-manifest.json` | 73 | `easier qa <id>` | `QA_DOGFOOD/<id>/manifest.json` |
-| `gmail-magic-resend.html` | 97 | `easier qa <id>` | `QA_DOGFOOD/<id>/gmail-magic-resend.html` — **the only file this product renders in a browser** |
+| `gmail-magic-resend.html` | 107 | `easier qa <id>` | `QA_DOGFOOD/<id>/gmail-magic-resend.html` — **the only file this product renders in a browser** |
 | `remotion-storyboard.json` | 47 | `easier qa <id>` | `QA_DOGFOOD/<id>/remotion-storyboard.json` |
 | `qa-email.html.mustache` | 111 | `easier install` | the Gmail Magic Resend email template, rendered by a generator, not by this CLI |
 

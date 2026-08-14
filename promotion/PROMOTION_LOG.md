@@ -106,7 +106,7 @@ reproduction; a hunch is not a defect.
 | # | Severity | Journey | Reproduction | Status |
 |---|----------|---------|--------------|--------|
 | D1 | major | J2 | In a fresh git repo: `node bin/init.mjs init` → `git add CHANGELOG && git commit` → `git ls-files` shows only `CHANGELOG/README.md`, `CHANGELOG/TEMPLATE.md` and lane files that have content. `git clone` that repo, run `node bin/init.mjs add pages dashboard` → **exit 1**, `✗ …\CHANGELOG\pages does not exist`. Git does not track empty directories and `init()` (`bin/init.mjs:98`) writes no `.gitkeep`, so five of the six lanes vanish for every teammate. The error tells them to run `npx easier init`, which then prints `! CHANGELOG/ already exists … Skipping scaffold` and exits 0 without repairing — a closed loop. Team adoption is the product's headline claim, so this breaks it at the second person. | **closed** — iteration 2 took the smaller of the two candidate fixes recorded in `docs/codebase/CONCERNS.md`: delete the guard and let `add` create the lane directory it needs (`bin/init.mjs:159`). Re-run of the reproduction above now exits **0** and writes `CHANGELOG/pages/dashboard.md`. No `.gitkeep` was added; nothing was added at all. |
-| D2 | major | J4 | `node bin/init.mjs qa demo` → open `QA_DOGFOOD/demo/gmail-magic-resend.html` at the 375×812 Pixel 8 preset. Measured in the page: `document.documentElement.clientWidth === 980`, `visualViewport.scale === 0.383`, `screen.width === 375`. `templates/gmail-magic-resend.html` has no `<meta name="viewport">`, so mobile Chrome falls back to its 980px legacy layout and shrinks everything to 38% — the 13px table text lands near 5 effective pixels. The page's own body copy says "Open this from Gmail on desktop **or phone**". Desktop 1280 is unaffected. | open |
+| D2 | major | J4 | `node bin/init.mjs qa demo` → open `QA_DOGFOOD/demo/gmail-magic-resend.html` at the 375×812 Pixel 8 preset. Measured in the page: `document.documentElement.clientWidth === 980`, `visualViewport.scale === 0.383`, `screen.width === 375`. `templates/gmail-magic-resend.html` has no `<meta name="viewport">`, so mobile Chrome falls back to its 980px legacy layout and shrinks everything to 38% — the 13px table text lands near 5 effective pixels. The page's own body copy says "Open this from Gmail on desktop **or phone**". Desktop 1280 is unaffected. | **closed** — iteration 3 added one `<meta name="viewport" content="width=device-width, initial-scale=1">`. Re-measured through `promotion/evidence/audit.mjs` at the same 375×812 `isMobile` preset: `clientWidth` **375**, `visualViewport.scale` **1**, table text **13** effective px, horizontal overflow **0 px**. Screenshot: `promotion/evidence/screenshot-mobile-375.png`. |
 | D3 | major | J5 | `templates/recorder.mjs` is presented by the README as a reusable template but is SitFlow's concrete recorder. It asserts literal foreign strings — `'SitFlow'` and `'Booking inbox'` (line 191), `'No human food'` / `'Walk after every nap'` / `'Never alone'` (line 260), `'Care Rules'` (line 296) — filters localStorage on a `sitflow:` prefix (line 139), defaults `PWA_URL` to `localhost:8081` and hard-codes output names `jaynee-demo.mp4` / `.gif`. Copy it into any other repo per README Phase 2 and every scene check fails against a correctly working app. It also imports `playwright`, which `package.json` does not declare. | **closed** — wave 3 deleted the file, plus `verifier.mjs` and `probe-routes.mjs`, which are the same class and this row did not name |
 | D4 | minor | — | `npm test` exits 0 by running `node bin/init.mjs --help`. There are no assertions anywhere in the repo, so condition 11 is green in a way that cannot go red. Every CLI behaviour recorded in the table above was verified by hand this pass and is unprotected against regression — including D1, which a three-line test would have caught. | **closed** — wave 3 replaced the script with `node --test test/cli.test.mjs`, 18 scenario tests |
 | D5 | minor | J2 | `node bin/init.mjs entry CHANGELOG/components/Button.md` → **exit 1**, `✗ Unknown command: entry`. The subcommand is documented in the file's own header comment (`bin/init.mjs:10`, "entry <lane-file> Prepend a new entry to a lane (interactive)") but the dispatcher (lines 306-318) never handles it. Prepending an entry is Phase 1's central action, so the one verb that would automate it is a stub. | **half closed** — wave 3 deleted the false documentation at `bin/init.mjs:10`; the verb is still unbuilt |
@@ -209,3 +209,74 @@ re-measured here rather than taken on their word.
   J2 goes from FAIL to PASS in [PRODUCT_JOURNEYS.md](PRODUCT_JOURNEYS.md).
 - **Not fixed:** D2 (needs a browser pass), D5 (`entry` verb unbuilt — feature
   work), D7 (lane template's sample entries).
+
+### Iteration 3 — 2026-08-13 — the browser pass, and the audits nobody had run
+
+The baseline left four rows UNVERIFIED. Three of them (7, 8, 12) were never run
+at all, and one (6) failed because keystrokes did not reach a browser pane that
+was not compositing. This iteration ran all four. It also rebuilt the evidence
+for rows that were already PASS, because their proof was a browser session that
+no other reader can reopen — the gate's own rule says a measurement whose tool
+was not retained is UNVERIFIED, however real the number was.
+
+- **Journey exercised:** J4, end to end in a real browser, at 1440×900,
+  768×1024 and 375×812 (`isMobile`, DPR 3). J1/J2/J3 re-exercised by the test
+  suite. J5 attempted and found undrivable — see D8.
+- **Observed:** four defects in the one page this product renders, each with a
+  number, and none of them found by reading.
+
+  | | Before | After |
+  |---|---|---|
+  | mobile `clientWidth` / `visualViewport.scale` | 980 / 0.383 | **375 / 1** |
+  | table text, effective px on a phone | 4.97 | **13** |
+  | horizontal overflow at 375 | 1 px | **0 px** |
+  | minimum text contrast on the four buttons | 3.65:1 | **5.03:1** |
+  | axe-core violations / serious+critical | 3 over 6 nodes / 1 | **0 / 0** |
+  | axe-core rules passing | 17 | **23** |
+  | Lighthouse accessibility / best-practices | 0.87 / 0.96 | **1.00 / 1.00** |
+  | Lighthouse `errors-in-console` | fails — `favicon.ico` 404 | **passes** |
+
+  The before column is not a memory. Both columns came from the same producer,
+  and the left one is reproducible on demand:
+
+  ```bash
+  git checkout <parent-commit> -- templates/gmail-magic-resend.html
+  node promotion/evidence/audit.mjs      # writes the "before" numbers
+  git checkout HEAD -- templates/gmail-magic-resend.html
+  ```
+
+- **Fixed**, all four in `templates/gmail-magic-resend.html`, four lines total:
+  `<meta name="viewport">` (D2, major); button background `#dc5f42` → `#bd4a2a`,
+  which is 5.03:1 on white where the old value was 3.65:1 and failed WCAG AA;
+  `<div class="card">` → `<main class="card">`, closing axe's
+  `landmark-one-main` and `region`; `<link rel="icon" href="data:,">`, which
+  removes the only failed request on the page. A fifth line,
+  `<meta name="color-scheme" content="light">`, came out of the guidelines
+  review — the page's stated delivery channel is a Gmail message on a phone,
+  where forced-dark would otherwise invert a fixed light palette.
+- **Re-proved:** one command, committed, regenerates every artifact:
+  `node promotion/evidence/audit.mjs`. It scaffolds the packet with the
+  product's own `qa` verb, serves it, then runs Lighthouse 13.4.1,
+  @axe-core/cli 4.13.0 and Playwright chromium against that URL, plus the CLI
+  latency probe and `npm test`. Outputs in
+  [`promotion/evidence/`](evidence/README.md).
+- **Tests:** `npm test` → `# pass 20 / # fail 0`, exit 0, Node v22.22.2 —
+  captured this time at `promotion/evidence/npm-test.txt` rather than quoted.
+- **Conditions newly PASS:** **3, 6, 7, 8, 12.** Rows 4, 5, 9, 10 and 11 keep
+  PASS but are no longer resting on an unretained tool. Scorecard moves
+  **5/12 PASS, 3 FAIL, 4 UNVERIFIED → 10/12 PASS, 2 FAIL, 0 UNVERIFIED.**
+- **Not fixed:** D8 (new, major — below), D5, D7, and four minor guidelines
+  findings recorded in `promotion/evidence/WIG_REVIEW.md` (placeholder `href="#"`
+  buttons, 38 px hit targets, no `touch-action: manipulation`, no meta
+  description).
+- **Honest caveat on the audit host:** port 4917 was held by an unrelated
+  process, so the producer fell back to an ephemeral port and recorded the URL
+  it actually used in `summary.json`. Two Lighthouse audits score below 1
+  because of that throwaway server rather than the page — `document-latency-insight`
+  (no gzip on 2,098 bytes) and `forced-reflow-insight` (38 ms attributed to
+  `[unattributed]` on a page with zero scripts). Both are named in
+  `promotion/evidence/README.md` rather than left as an unexplained gap.
+
+| # | Severity | Journey | Reproduction | Status |
+|---|----------|---------|--------------|--------|
+| D8 | major | J5 | `git ls-files templates/ \| grep mjs` → no output, exit 1. J5 step 1 says "Copy `templates/recorder.mjs` into their repo"; step 2 says "Run `templates/verifier.mjs`". Neither file exists, nor does `probe-routes.mjs` — wave 3 deleted all three to close D3, correctly, and nothing replaced them. Meanwhile `README.md:15`, `:70` and `:109` still list "Verified demo recording — Playwright recorder + Gemini video analysis. Both must pass." as one of the three things this skill delivers. `README.md:177` discloses the deletion, 68 lines below the promise. A reader who stops at the feature list believes a recorder ships. One canonical journey therefore has no implementation at all. | open |

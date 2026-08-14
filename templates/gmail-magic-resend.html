@@ -2,6 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The stated delivery channel is a Gmail message. Declaring the scheme
+         opts the fixed warm palette out of Chrome/Android forced-dark, which
+         would otherwise invert these colours unpredictably. -->
+    <meta name="color-scheme" content="light" />
+    <!-- Empty data: icon. The page ships no subresources; without this the
+         browser's automatic /favicon.ico probe is the only failed request. -->
+    <link rel="icon" href="data:," />
     <title>__TITLE__ QA packet</title>
     <style>
       body {
@@ -29,7 +37,9 @@
         margin: 8px 8px 8px 0;
         padding: 10px 14px;
         border-radius: 999px;
-        background: #dc5f42;
+        /* 5.03:1 on white. #dc5f42 was 3.65:1 and failed WCAG AA (4.5:1) --
+           axe-core 4.13 "color-contrast", serious, 4 nodes. */
+        background: #bd4a2a;
         color: #fff;
         text-decoration: none;
         font-weight: 700;
@@ -55,7 +65,7 @@
     </style>
   </head>
   <body>
-    <div class="card">
+    <main class="card">
       <p><code>__FEATURE_ID__</code></p>
       <h1>__TITLE__ QA packet</h1>
       <p>Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.</p>
@@ -92,6 +102,6 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </main>
   </body>
 </html>

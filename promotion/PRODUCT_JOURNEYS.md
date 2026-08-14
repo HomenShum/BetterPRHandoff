@@ -124,6 +124,16 @@ Each journey states, in this order:
   `clientWidth 980` and `visualViewport.scale 0.383`, so the 13px table text
   renders at roughly 5 effective pixels. The page's own copy invites exactly
   this ("Open this from Gmail on desktop or phone").
+- **Evidence:** **PASS**, iteration 3, 2026-08-13 — D2 closed, re-proved in the
+  browser rather than inferred from the diff. Driven by
+  `node promotion/evidence/audit.mjs`, which scaffolds the packet with the
+  product's own `qa` verb, serves it, and drives Playwright chromium at three
+  widths. At 375×812 with `isMobile: true`: `clientWidth` **375** (was 980),
+  `visualViewport.scale` **1** (was 0.383), table text **13** effective px (was
+  4.97), horizontal overflow **0 px** (was 1). Screenshots for all three widths,
+  zero console errors, zero failed requests:
+  [`promotion/evidence/`](evidence/). The reviewer's phone half of this journey
+  now works.
 
 ## J5 — "Prove the demo I recorded actually shows what I claim"
 
@@ -147,6 +157,22 @@ Each journey states, in this order:
   `'Booking inbox'`, `'No human food'`, `'Walk after every nap'`, `'Care Rules'`)
   and `sitflow:`-prefixed localStorage keys, so a stranger who copies it gets a
   recorder pointed at somebody else's product.
+- **Evidence:** **FAIL**, iteration 3, 2026-08-13 — defect **D8**. This journey
+  is no longer merely unverified; it is undrivable. Wave 3 closed D3 by deleting
+  all three files step 1 and step 2 name, and nothing replaced them:
+
+  ```bash
+  git ls-files templates/ | grep mjs     # no output, exit 1
+  ```
+
+  The journey is deliberately left in place rather than deleted, because
+  deleting a journey to make a scorecard read better is the failure the gate
+  exists to catch. README lines 15, 70 and 109 still present the verified demo
+  as one of the three things this skill delivers; line 177 discloses that the
+  implementation was removed. Both cannot be true for a reader who stops at
+  line 15. Closing this needs either a framework-agnostic recorder or a README
+  that promises only what ships — a decision, not a measurement, which is why
+  this pass records it instead of picking one.
 
 ---
 

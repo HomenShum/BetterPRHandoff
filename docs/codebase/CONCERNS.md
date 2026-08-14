@@ -9,13 +9,30 @@ detail and the limits that are not defects.
 
 ## Open defects
 
-### D2 — the emitted HTML has no viewport meta (major)
+### D8 — one canonical journey has no implementation (major)
 
-`templates/gmail-magic-resend.html` ships no `<meta name="viewport">`, so
-mobile browsers fall back to a 980px legacy layout and shrink the page to 38%.
-Measured on an emulated Pixel 8: `document.documentElement.clientWidth === 980`,
-`visualViewport.scale === 0.383`. The page's own copy says to open it on a
-phone. Full evidence in `promotion/PROMOTION_LOG.md`.
+```bash
+git ls-files templates/ | grep mjs     # no output, exit 1
+```
+
+`promotion/PRODUCT_JOURNEYS.md` J5 tells the reader to copy
+`templates/recorder.mjs` and run `templates/verifier.mjs`. Wave 3 deleted both,
+plus `probe-routes.mjs`, to close D3 — correctly, they were another product's
+scripts — and nothing replaced them.
+
+The README still promises the thing that was deleted:
+
+`README.md:15` → `**Verified demo recording** (UI changes only)`
+
+and repeats it at lines 70 and 109, while the disclosure sits 162 lines below
+the first promise:
+
+`README.md:177` → `A recorder + verifier pair that is genuinely framework-agnostic`
+
+A reader who stops at the feature list believes a recorder ships. Closing this
+is a decision — ship a framework-agnostic recorder, or promise only what ships —
+not a measurement, which is why the iteration that found it recorded it instead
+of picking one. Full row in `promotion/PROMOTION_LOG.md`.
 
 ### D5 — `entry` subcommand still unbuilt (minor)
 
@@ -38,6 +55,22 @@ sample entries below it survive, one of them carrying `abc1234` as a commit
 sha, and the newest entry keeps a dangling `**Touches**:` placeholder. A user
 who does not clean up commits fake history into an append-only file. Pinned at
 the observed count by a test that names D7.
+
+## Closed defects worth remembering
+
+### D2 — the emitted HTML had no viewport meta (major, closed 2026-08-13)
+
+`templates/gmail-magic-resend.html` shipped no `<meta name="viewport">`, so
+mobile browsers fell back to a 980px legacy layout and shrank the page to 38%.
+Measured on an emulated 375×812 phone: `clientWidth === 980`,
+`visualViewport.scale === 0.383`, 13px table text at 4.97 effective px. The
+page's own copy says to open it on a phone.
+
+Closed by one meta tag and re-measured through `promotion/evidence/audit.mjs`:
+`clientWidth 375`, `scale 1`, 13 effective px, 0 px horizontal overflow.
+Screenshot at `promotion/evidence/screenshot-mobile-375.png`. Kept here rather
+than deleted because the shape of the bug — a template that claims a device it
+was never laid out for — is the one most likely to come back.
 
 ## Limits that are not defects
 

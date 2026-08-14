@@ -1,0 +1,305 @@
+{
+  "url": "http://127.0.0.1:51014/gmail-magic-resend.html",
+  "measuredAt": "2026-08-14T02:53:33.202Z",
+  "widths": {
+    "desktop-1440": {
+      "hasMetaViewport": true,
+      "metaViewportContent": "width=device-width, initial-scale=1",
+      "hasMetaDescription": false,
+      "metaColorScheme": "light",
+      "animationCount": 0,
+      "lang": "en",
+      "title": "promotion audit QA packet",
+      "landmarks": [
+        "main"
+      ],
+      "headings": [
+        "H1: promotion audit QA packet",
+        "H2: What changed for end users",
+        "H2: Workflow lanes",
+        "H2: Snapshot snippets"
+      ],
+      "layoutViewportWidth": 1440,
+      "documentScrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "horizontalOverflowPx": 0,
+      "visualViewportScale": 1,
+      "cardWidthPx": 810,
+      "bodyFontSizePx": 16,
+      "tableCellFontSizePx": 13,
+      "effectiveTableTextPx": 13,
+      "interactiveTargets": [
+        {
+          "selector": "a.button",
+          "text": "Open test link",
+          "href": "#",
+          "width": 134,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        },
+        {
+          "selector": "a.button",
+          "text": "Approve",
+          "href": "#",
+          "width": 93,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        },
+        {
+          "selector": "a.button",
+          "text": "Needs fix",
+          "href": "#",
+          "width": 99,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        },
+        {
+          "selector": "a.button",
+          "text": "Magic resend after fix",
+          "href": "#",
+          "width": 193,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        }
+      ],
+      "deadHrefCount": 4,
+      "subresourceRefs": [
+        "data:,"
+      ],
+      "consoleMessages": [],
+      "failedRequests": []
+    },
+    "tablet-768": {
+      "hasMetaViewport": true,
+      "metaViewportContent": "width=device-width, initial-scale=1",
+      "hasMetaDescription": false,
+      "metaColorScheme": "light",
+      "animationCount": 0,
+      "lang": "en",
+      "title": "promotion audit QA packet",
+      "landmarks": [
+        "main"
+      ],
+      "headings": [
+        "H1: promotion audit QA packet",
+        "H2: What changed for end users",
+        "H2: Workflow lanes",
+        "H2: Snapshot snippets"
+      ],
+      "layoutViewportWidth": 768,
+      "documentScrollWidth": 768,
+      "bodyScrollWidth": 768,
+      "horizontalOverflowPx": 0,
+      "visualViewportScale": 1,
+      "cardWidthPx": 720,
+      "bodyFontSizePx": 16,
+      "tableCellFontSizePx": 13,
+      "effectiveTableTextPx": 13,
+      "interactiveTargets": [
+        {
+          "selector": "a.button",
+          "text": "Open test link",
+          "href": "#",
+          "width": 134,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        },
+        {
+          "selector": "a.button",
+          "text": "Approve",
+          "href": "#",
+          "width": 93,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        },
+        {
+          "selector": "a.button",
+          "text": "Needs fix",
+          "href": "#",
+          "width": 99,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        },
+        {
+          "selector": "a.button",
+          "text": "Magic resend after fix",
+          "href": "#",
+          "width": 193,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        }
+      ],
+      "deadHrefCount": 4,
+      "subresourceRefs": [
+        "data:,"
+      ],
+      "consoleMessages": [],
+      "failedRequests": []
+    },
+    "mobile-375": {
+      "hasMetaViewport": true,
+      "metaViewportContent": "width=device-width, initial-scale=1",
+      "hasMetaDescription": false,
+      "metaColorScheme": "light",
+      "animationCount": 0,
+      "lang": "en",
+      "title": "promotion audit QA packet",
+      "landmarks": [
+        "main"
+      ],
+      "headings": [
+        "H1: promotion audit QA packet",
+        "H2: What changed for end users",
+        "H2: Workflow lanes",
+        "H2: Snapshot snippets"
+      ],
+      "layoutViewportWidth": 375,
+      "documentScrollWidth": 375,
+      "bodyScrollWidth": 375,
+      "horizontalOverflowPx": 0,
+      "visualViewportScale": 1,
+      "cardWidthPx": 327,
+      "bodyFontSizePx": 16,
+      "tableCellFontSizePx": 13,
+      "effectiveTableTextPx": 13,
+      "interactiveTargets": [
+        {
+          "selector": "a.button",
+          "text": "Open test link",
+          "href": "#",
+          "width": 134,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        },
+        {
+          "selector": "a.button",
+          "text": "Approve",
+          "href": "#",
+          "width": 93,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        },
+        {
+          "selector": "a.button",
+          "text": "Needs fix",
+          "href": "#",
+          "width": 99,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        },
+        {
+          "selector": "a.button",
+          "text": "Magic resend after fix",
+          "href": "#",
+          "width": 193,
+          "height": 38,
+          "fontSizePx": 16,
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(189, 74, 42)",
+          "contrastRatio": 5.03
+        }
+      ],
+      "deadHrefCount": 4,
+      "subresourceRefs": [
+        "data:,"
+      ],
+      "consoleMessages": [],
+      "failedRequests": []
+    }
+  },
+  "keyboard": [
+    {
+      "tag": "A",
+      "text": "Open test link",
+      "focusVisibleOutline": "auto 1px rgb(16, 16, 16)",
+      "matchesFocusVisible": true,
+      "keypressToFocusMs": 4
+    },
+    {
+      "tag": "A",
+      "text": "Approve",
+      "focusVisibleOutline": "auto 1px rgb(16, 16, 16)",
+      "matchesFocusVisible": true,
+      "keypressToFocusMs": 3
+    },
+    {
+      "tag": "A",
+      "text": "Needs fix",
+      "focusVisibleOutline": "auto 1px rgb(16, 16, 16)",
+      "matchesFocusVisible": true,
+      "keypressToFocusMs": 2
+    },
+    {
+      "tag": "A",
+      "text": "Magic resend after fix",
+      "focusVisibleOutline": "auto 1px rgb(16, 16, 16)",
+      "matchesFocusVisible": true,
+      "keypressToFocusMs": 3
+    },
+    {
+      "tag": "BODY",
+      "text": "promotion-audit\n      promotio",
+      "focusVisibleOutline": null,
+      "matchesFocusVisible": false,
+      "keypressToFocusMs": 2
+    },
+    {
+      "tag": "A",
+      "text": "Open test link",
+      "focusVisibleOutline": "auto 1px rgb(16, 16, 16)",
+      "matchesFocusVisible": true,
+      "keypressToFocusMs": 2
+    },
+    {
+      "tag": "A",
+      "text": "Approve",
+      "focusVisibleOutline": "auto 1px rgb(16, 16, 16)",
+      "matchesFocusVisible": true,
+      "keypressToFocusMs": 2
+    },
+    {
+      "tag": "A",
+      "text": "Needs fix",
+      "focusVisibleOutline": "auto 1px rgb(16, 16, 16)",
+      "matchesFocusVisible": true,
+      "keypressToFocusMs": 1
+    }
+  ],
+  "network": {
+    "consoleMessages": [],
+    "failedRequests": []
+  }
+}

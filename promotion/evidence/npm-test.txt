@@ -1,0 +1,139 @@
+$ npm test
+# node v22.22.2 on win32
+
+
+> @homenshum/easier-to-read-submissions@1.2.1 test
+> node --test test/cli.test.mjs
+
+TAP version 13
+# Subtest: J1 init scaffolds the six lanes, the index and the format spec
+ok 1 - J1 init scaffolds the six lanes, the index and the format spec
+  ---
+  duration_ms: 160.7063
+  type: 'test'
+  ...
+# Subtest: J1 init on an existing CHANGELOG refuses to clobber and still exits 0
+ok 2 - J1 init on an existing CHANGELOG refuses to clobber and still exits 0
+  ---
+  duration_ms: 202.8171
+  type: 'test'
+  ...
+# Subtest: J1 add writes a dated lane file naming the surface it tracks
+ok 3 - J1 add writes a dated lane file naming the surface it tracks
+  ---
+  duration_ms: 195.6845
+  type: 'test'
+  ...
+# Subtest: J1 add refuses to overwrite an existing lane
+ok 4 - J1 add refuses to overwrite an existing lane
+  ---
+  duration_ms: 299.1519
+  type: 'test'
+  ...
+# Subtest: J1 add rejects a category that is not one of the six, and lists the six
+ok 5 - J1 add rejects a category that is not one of the six, and lists the six
+  ---
+  duration_ms: 208.4619
+  type: 'test'
+  ...
+# Subtest: J1 add with no arguments prints usage and fails
+ok 6 - J1 add with no arguments prints usage and fails
+  ---
+  duration_ms: 89.6712
+  type: 'test'
+  ...
+# Subtest: J1 the next steps init prints can be followed in the order printed (D6)
+ok 7 - J1 the next steps init prints can be followed in the order printed (D6)
+  ---
+  duration_ms: 237.9732
+  type: 'test'
+  ...
+# Subtest: J2 add creates the lane directory git dropped from the clone (D1)
+ok 8 - J2 add creates the lane directory git dropped from the clone (D1)
+  ---
+  duration_ms: 235.671
+  type: 'test'
+  ...
+# Subtest: J4 qa-init writes a valid qa.config.json and will not overwrite it
+ok 9 - J4 qa-init writes a valid qa.config.json and will not overwrite it
+  ---
+  duration_ms: 212.4079
+  type: 'test'
+  ...
+# Subtest: J4 qa scaffolds four packet files with every placeholder substituted
+ok 10 - J4 qa scaffolds four packet files with every placeholder substituted
+  ---
+  duration_ms: 114.3834
+  type: 'test'
+  ...
+# Subtest: J4 qa slugifies a messy feature name into a safe directory name
+ok 11 - J4 qa slugifies a messy feature name into a safe directory name
+  ---
+  duration_ms: 197.85
+  type: 'test'
+  ...
+# Subtest: J4 qa with no feature id, and qa on an existing packet, both fail loudly
+ok 12 - J4 qa with no feature id, and qa on an existing packet, both fail loudly
+  ---
+  duration_ms: 376.5425
+  type: 'test'
+  ...
+# Subtest: J3 install project copies the contract and every template into .claude/skills
+ok 13 - J3 install project copies the contract and every template into .claude/skills
+  ---
+  duration_ms: 138.9856
+  type: 'test'
+  ...
+# Subtest: J3 install auto-detects a git repo as a project install
+ok 14 - J3 install auto-detects a git repo as a project install
+  ---
+  duration_ms: 162.914
+  type: 'test'
+  ...
+# Subtest: J3 install rejects an unknown target and lists the real ones
+ok 15 - J3 install rejects an unknown target and lists the real ones
+  ---
+  duration_ms: 107.5937
+  type: 'test'
+  ...
+# Subtest: help lists every subcommand the dispatcher actually handles
+ok 16 - help lists every subcommand the dispatcher actually handles
+  ---
+  duration_ms: 111.8333
+  type: 'test'
+  ...
+# Subtest: an unknown command fails and shows the help instead of a stack trace
+ok 17 - an unknown command fails and shows the help instead of a stack trace
+  ---
+  duration_ms: 113.3263
+  type: 'test'
+  ...
+# Subtest: every .tours step names what it expects to find, and finds it there
+ok 18 - every .tours step names what it expects to find, and finds it there
+  ---
+  duration_ms: 17.5509
+  type: 'test'
+  ...
+# Subtest: every doc citation of the form `path:line` proves it cites the right line
+ok 19 - every doc citation of the form `path:line` proves it cites the right line
+  ---
+  duration_ms: 83.3427
+  type: 'test'
+  ...
+# Subtest: no shipped instruction says `npx easier <verb>`
+ok 20 - no shipped instruction says `npx easier <verb>`
+  ---
+  duration_ms: 67.4697
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3492.2405
+
+# exit 0

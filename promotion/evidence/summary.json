@@ -1,0 +1,119 @@
+{
+  "generatedBy": "node promotion/evidence/audit.mjs",
+  "generatedAt": "2026-08-14T02:53:35.879Z",
+  "commit": "e0625662938e0c034990714b254a35d2ec5d3316",
+  "url": "http://127.0.0.1:51014/gmail-magic-resend.html",
+  "lighthouse": {
+    "version": "13.4.1",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.9,
+      "agentic-browsing": 1
+    },
+    "coreWebVitals": {
+      "lcpMs": 675,
+      "cls": 0,
+      "tbtMs": 0,
+      "maxPotentialFidMs": 16
+    },
+    "failingAudits": [
+      {
+        "id": "meta-description",
+        "score": 0,
+        "title": "Document does not have a meta description"
+      },
+      {
+        "id": "document-latency-insight",
+        "score": 0.5,
+        "title": "Document request latency"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "score": 0,
+        "title": "Forced reflow"
+      }
+    ]
+  },
+  "axe": {
+    "version": "4.13.0",
+    "violations": [],
+    "seriousOrCritical": 0,
+    "passes": 23
+  },
+  "surface": {
+    "desktop-1440": {
+      "layoutViewportWidth": 1440,
+      "horizontalOverflowPx": 0,
+      "visualViewportScale": 1,
+      "effectiveTableTextPx": 13,
+      "minContrastRatio": 5.03,
+      "smallestTargetPx": 38,
+      "failedRequests": 0,
+      "consoleErrors": 0
+    },
+    "tablet-768": {
+      "layoutViewportWidth": 768,
+      "horizontalOverflowPx": 0,
+      "visualViewportScale": 1,
+      "effectiveTableTextPx": 13,
+      "minContrastRatio": 5.03,
+      "smallestTargetPx": 38,
+      "failedRequests": 0,
+      "consoleErrors": 0
+    },
+    "mobile-375": {
+      "layoutViewportWidth": 375,
+      "horizontalOverflowPx": 0,
+      "visualViewportScale": 1,
+      "effectiveTableTextPx": 13,
+      "minContrastRatio": 5.03,
+      "smallestTargetPx": 38,
+      "failedRequests": 0,
+      "consoleErrors": 0
+    }
+  },
+  "keyboardStopsReached": 7,
+  "cli": {
+    "node": "v22.22.2",
+    "platform": "win32",
+    "init": {
+      "runs": 7,
+      "medianMs": 111,
+      "allMs": [
+        119,
+        105,
+        112,
+        119,
+        111,
+        102,
+        87
+      ]
+    },
+    "qa": {
+      "runs": 5,
+      "medianMs": 96,
+      "allMs": [
+        167,
+        96,
+        106,
+        96,
+        92
+      ]
+    }
+  },
+  "tests": {
+    "command": "npm test",
+    "pass": 20,
+    "fail": 0,
+    "skipped": 0,
+    "exit": 0,
+    "output": "npm-test.txt"
+  },
+  "exitCodes": {
+    "lighthouse": 0,
+    "axe": 0
+  }
+}

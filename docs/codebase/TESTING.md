@@ -101,8 +101,12 @@ run this CLI.
   diverges.
 - **The rendered HTML.** `templates/gmail-magic-resend.html` is asserted to
   exist and to have its placeholders substituted, but nothing here opens a
-  browser. Its rendering evidence — including open defect D2 — lives in
-  `promotion/PROMOTION_LOG.md`.
+  browser. That work lives in a separate committed producer,
+  `node promotion/evidence/audit.mjs`, which scaffolds the page with this CLI,
+  serves it, and drives Lighthouse, axe-core and Playwright over it. Its outputs
+  and the numbers that closed defect D2 are in `promotion/evidence/`. It is not
+  part of `npm test` because it downloads two audit toolchains and a browser;
+  a contributor changing that HTML should run it anyway.
 - **Concurrency, load, long-running state.** There is none: every verb is a
   process that starts, writes files and exits.
 - **Node 18 and 20.** Everything here was measured on Node v22.22.2. See

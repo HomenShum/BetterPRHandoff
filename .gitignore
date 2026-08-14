@@ -1,0 +1,4 @@
+# This package has zero dependencies. Both of these appear only when
+# promotion/evidence/audit.mjs installs Playwright with `npm i --no-save`.
+node_modules/
+package-lock.json
