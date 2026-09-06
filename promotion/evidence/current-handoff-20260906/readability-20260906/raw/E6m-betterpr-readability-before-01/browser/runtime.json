@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-06T04:14:49.083Z",
+  "pid": 39908,
+  "listen": {
+    "address": "127.0.0.1",
+    "family": "IPv4",
+    "port": 53601
+  },
+  "base": "http://127.0.0.1:53601",
+  "browserVersion": "149.0.7827.55",
+  "playwright": "1.61.1",
+  "source": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "tree": "2724c85cc595fbd05e50c16b5ba6caf9b2d5c394",
+  "scope": "Existing final actual installed-CLI output replay, byte-exact. Only temporary DOM boundary labels/computed font doubling."
+}

@@ -61,16 +61,38 @@ and excludes HANDOFF and promotion evidence. No package allowlist change is
 implied. Package consumers should follow their included README and use the
 reviewed source checkout for the historical proof packet.
 
-The browser proof addresses the generated static preview with normal and long
-illustrative inputs. It preserves original narrow-table, misleading-action and
+The readability layout starts with “QA packet”, keeps the complete change title
+beneath it and places the exact feature ID in a labelled footer. Component,
+Proof and Correction prompt use full-width labelled fields; the four review
+actions remain unconfigured. The [readability supplement](promotion/evidence/current-handoff-20260906/readability-20260906/README.md)
+records a fresh 19-member package, its actual installation and generated normal
+and long previews. All 18 other tar members and six companion outputs stayed
+identical; the normal source command passed 30 tests.
+
+The final readability observation passed 168 checks across six matched layout
+states and two native no-action journeys. It used normal and long inputs at
+320 × 800, 390 × 844 with computed doubled text, and 1440 × 960. The first
+instruction is visible in both long phone states, and the three proof fields
+retain their complete values in reading order. The full feature ID remains in
+the footer. The [independent judgment](promotion/evidence/current-handoff-20260906/readability-20260906/raw/E6m_BETTERPRHANDOFF_READABILITY_FINAL_JUDGE.md.txt)
+and [scoped criterion observations](promotion/evidence/current-handoff-20260906/readability-20260906/raw/E6m_BETTERPRHANDOFF_READABILITY_CRITERION_ASSESSMENT.md.txt)
+state the remaining limits. These results do not certify all viewports or
+email clients; the earlier results below retain their original source.
+Eight scoped readability observations improved from 3/5 to 4/5; the other
+36 criterion rows stay historical and all full grades remain null. The long
+desktop example needs 7 pixels of ordinary vertical scrolling.
+
+The historical browser proof addresses the preceding static preview with normal
+and long illustrative inputs. It preserves original narrow-table, misleading-action and
 enlarged-heading failures. The final heading-only run passed 68 checks across
 six normal/long states and
 two scrolled tables. Its 14 PNGs include illustrative full-page captures; this
 packet retains the eight actual viewport/scrolled images and structured state.
 The broad seven-pair and native-action observations belong to the preceding
 source with unchanged table/action bytes. They were not rerun or silently
-relabeled as final-source observations. Long titles and heavily wrapped narrow
-columns remain usability limits. Full visual, responsive, interaction and
+relabeled as final-source observations. The historical review identified long
+titles and heavily wrapped narrow columns as reading limitations. It does not
+establish the new layout's usability. Full visual, responsive, interaction and
 readiness scores remain unassigned.
 
 The [independent criterion assessment](promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.md.txt)
@@ -87,12 +109,14 @@ client's rendering, a delivery service, a review backend, recording/video
 verification, a physical device or a model/provider. Computed doubled text is
 not native browser zoom. No global host was activated and no email was sent.
 
-The configured [ordinary CI](.github/workflows/ci.yml) uses Node 22 on Windows
-and Ubuntu. Configuring a job
-does not mean it has run; actual shared results require their own receipts.
+The [ordinary CI](.github/workflows/ci.yml) ran on the published source
+`42e57a96f9ae961f501729ec6ace5c3d8dbe3aee`: [shared run 34010433758](https://github.com/HomenShum/BetterPRHandoff/actions/runs/34010433758)
+completed installation, 30/30 scenarios and packaging on both Windows and
+Ubuntu with Node 22.23.2. It did not replay a browser or certify this later
+readability change, which requires its own current-source shared result.
 Historical promotion records remain unchanged and describe their original
-source. Current source bindings explicitly include CI and this handoff,
-without relabeling old measurements as current.
+source. The historical publication bindings include its CI and handoff versions;
+they do not certify the later readability template or this updated handoff.
 
 ## Preserve and verify evidence
 
@@ -110,16 +134,27 @@ controlled repaired command cases supply the current proof. Profiles, private
 environment/state and caches are also excluded. A byte verifier does not rerun
 the CLI or browser and cannot reconstruct omitted sessions or files.
 
-Run these from the repository root; Python needs no added package:
+Run the current packet's byte check from the repository root; Python needs
+no added package:
 
 ```sh
 python promotion/evidence/current-handoff-20260906/verify.py
+```
+
+Its optional current source check uses the same verifier:
+
+```sh
 python promotion/evidence/current-handoff-20260906/verify.py --source-root .
 ```
 
-The first check requires exact packet bytes. The optional source check verifies
-69 source files against actual Git-canonical byte/hash/blob identities alongside
-their recorded raw identities. Only proven text rows accept CRLF pairs converted
-to LF; binary media remain byte-exact. Historical source measurements and the
-67-file heading proof remain historical. The added CI and current handoff have
-their own publication binding, rather than borrowing an older commit identity.
+This checks 69 effective source files, including the later publication handoff
+and changelog text. The producer's exact 69-file snapshot is separately bound;
+updating documentation does not rerun the package or browser. Source checking
+allows only proven per-file CRLF-to-LF conversion and keeps binary media exact.
+Raw evidence always remains byte-exact.
+
+For the old complete packet and source check, use its matching publication
+checkout at `42e57a96f9ae961f501729ec6ace5c3d8dbe3aee`. The supplement preserves
+the old bindings, manifest, index and handoff as inert history. All 554 earlier
+raw copies and both earlier HTML examples remain unchanged; their old grades
+and runtime identities are not relabelled as readability proof.

@@ -1,0 +1,132 @@
+{
+  "approved_plan": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_PLAN.json",
+    "bytes": 12135,
+    "sha256": "280cf82456efe500dd498600b0b2f972e45ad8c618b1464fa72c56e21a04b592"
+  },
+  "approved_after_preflight": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_AFTER_PREFLIGHT.json",
+    "bytes": 1678,
+    "sha256": "cee0f47a699ee493a62e40a17c22a3cb6a7f89726956f466f2fb243779d7c2c0"
+  },
+  "source_freeze": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\receipt.json",
+    "bytes": 2878,
+    "sha256": "e5092b0b5ad3d7f63f3002ca895c88ac80e94117635f0858be0e2c6910626ed4"
+  },
+  "source69": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\current-source69.json",
+    "bytes": 10041,
+    "sha256": "e6162218f2d2b2b41c11412b6f64b67278c76a7dc2478592041e689185b0d53c"
+  },
+  "producer": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_CONSUMER.json",
+    "bytes": 11265,
+    "sha256": "6b1dac9bcf8d02f47dee3bf406049cfc2a32bd8d98671b2e25de630ce4ac9ffe"
+  },
+  "producer_source633": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\source-before.json",
+    "bytes": 147718,
+    "sha256": "61424aed2b21a70eda1d4d7fdc610bb64fb149ddf1a81d899c0865b0a965aa27"
+  },
+  "producer_commands": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\commands.json",
+    "bytes": 5580,
+    "sha256": "7544fe031a0fb6b1780a8f1f2e1ac08a7aa6b6d66374878834eed13990785ca3"
+  },
+  "source_package_equivalence": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-inputs-01\\source-package-input-equivalence.json",
+    "bytes": 21381,
+    "sha256": "a1a702d30e8a31a8c3d0858a0c98a72182cdaf8a93fc9bf5ce525728060576f9"
+  },
+  "before_receipt": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_BEFORE_RECEIPT.json",
+    "bytes": 18656,
+    "sha256": "3393ba2c7b4ef72e45afe16a7c9426227aca82159a08d7942fe28d975812fe81"
+  },
+  "after_report": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\report.json",
+    "bytes": 357849,
+    "sha256": "bb74306e682002b1e5e96dbb6cc755ef1370ac790c29968202a884ef026ee084"
+  },
+  "after_controller": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\controller-report.json",
+    "bytes": 1205,
+    "sha256": "e5178202b4635ba3506ab00cc675da87d43d1d9c27462985dfc54d2c97b236a6"
+  },
+  "after_manifest": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\manifest.json",
+    "bytes": 31110,
+    "sha256": "44b4f94856f09d098fda3ebb5ca925522ed678695eef7c7791735ae3ff1677ac"
+  },
+  "closing_guard": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\closing-guard.json",
+    "bytes": 104647,
+    "sha256": "97e48a4aff272aa4e57a1fbf7d8c9f93894eaf192a08ec007f0f3c9b9ebd2d2a"
+  },
+  "measured_comparison": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\matched-measurements.json",
+    "bytes": 62657,
+    "sha256": "7e03fc71a3e2c8ede48bd7e153e25746484652a407ceb90522e1a835518580c6"
+  },
+  "viewed_pixels": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\viewed-pixels.json",
+    "bytes": 8409,
+    "sha256": "04567616b206272e32fa99f4c619e03db65bee68c1fb5d066f3536ccbf4db443"
+  },
+  "actual_diff": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\actual-six-owner.diff.txt",
+    "bytes": 13210,
+    "sha256": "1a0412a11dd4b742cf32202b2aed4eefd5e05ed1236412e7d107465a9c82dfff"
+  },
+  "long_phone_top": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-top.png",
+    "bytes": 59578,
+    "sha256": "1ce1d090a15337acaafcca20beb186619bb040e1891f076f5abf764ca28ba958"
+  },
+  "normal_phone_fields": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-snippet.png",
+    "bytes": 51006,
+    "sha256": "1cc5171f7392b95fbfd58bca9704b9d7fc3407aeb62797e76d617618007b1982"
+  },
+  "long_phone_fields": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-snippet.png",
+    "bytes": 55440,
+    "sha256": "e32a7d9edd6b838b8c28faeebfb84bcbc872d804882add6d4f2baa26c828a67f"
+  },
+  "long_320_top": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-top.png",
+    "bytes": 38137,
+    "sha256": "902b7f1a173461ea0b4068e2ec29f680ded19e8208b345044f9aad36920afc22"
+  },
+  "desktop_long": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-top.png",
+    "bytes": 72695,
+    "sha256": "028d8fc4de17661889ae532fce0144d6ead9055367e1cc38271ae9450abcacf1"
+  },
+  "desktop_normal": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-top.png",
+    "bytes": 66639,
+    "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05"
+  },
+  "native_phone_actions": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-last-action.png",
+    "bytes": 67526,
+    "sha256": "ef6b08b58cb9c064e38e08c337d2cd3118d68b09ffda0ad9a6b3a13f393b94e4"
+  },
+  "full_phone_identifier": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-footer.png",
+    "bytes": 55573,
+    "sha256": "037b1f26423f0fefc84918719b89d487112d0d4016fadc719bbc7a95fcbd5a70"
+  },
+  "old_assessment": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.json",
+    "bytes": 57645,
+    "sha256": "b82f3aa5cce17e5c2bc9a92dc73b698a44c47fecaa2fe22d1f13700d8aea4084"
+  },
+  "historical_shared_ci": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_SHARED_JUDGE.json",
+    "bytes": 13182,
+    "sha256": "7bbeed9b86f8b1a59c19c6d0194be1439f290d82e1ba08f42beb80c5709d63d7"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "status": "BEFORE_BOUNDARY_COMPLETE_GUARD_CLOSED",
+  "mode": "Builder",
+  "source": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "tree": "2724c85cc595fbd05e50c16b5ba6caf9b2d5c394",
+  "templateSha256": "f23bff53132de5579329fae9598046e42580a023e1fa8ebd1954328c65017f0e",
+  "selectedFutureTemplateSha256": "92dbb0deb2b3f8055f6def51bf231fd9f082dffaeb558c2290ddc738701f13ba",
+  "selectedTemplateExecuted": false,
+  "sourceGuard": "CLOSED; entry/exit106 file bindings and Git state exact. No guard remains open during root pixel review or worker implementation.",
+  "controller": {
+    "status": "CAPTURE_COMPLETE",
+    "seconds": 3.344,
+    "exitCode": 0,
+    "errors": [],
+    "cleanup": [],
+    "survivors": [],
+    "listeners": [],
+    "complete": true,
+    "sourceInputGitUnchanged": true,
+    "ownedProcesses": [
+      {
+        "pid": 39908,
+        "created": 1788668088.4470656,
+        "name": "node.exe"
+      },
+      {
+        "pid": 38120,
+        "created": 1788668088.7407224,
+        "name": "chrome.exe"
+      },
+      {
+        "pid": 55448,
+        "created": 1788668088.7666812,
+        "name": "chrome.exe"
+      },
+      {
+        "pid": 60508,
+        "created": 1788668088.7814744,
+        "name": "chrome.exe"
+      },
+      {
+        "pid": 50644,
+        "created": 1788668088.9742343,
+        "name": "chrome.exe"
+      },
+      {
+        "pid": 4252,
+        "created": 1788668089.0383651,
+        "name": "chrome.exe"
+      },
+      {
+        "pid": 38012,
+        "created": 1788668089.0566113,
+        "name": "chrome.exe"
+      },
+      {
+        "pid": 51040,
+        "created": 1788668089.1311893,
+        "name": "chrome.exe"
+      },
+      {
+        "pid": 46752,
+        "created": 1788668089.142406,
+        "name": "chrome.exe"
+      }
+    ],
+    "fullGrades": null
+  },
+  "runtime": {
+    "at": "2026-09-06T04:14:49.083Z",
+    "pid": 39908,
+    "listen": {
+      "address": "127.0.0.1",
+      "family": "IPv4",
+      "port": 53601
+    },
+    "base": "http://127.0.0.1:53601",
+    "browserVersion": "149.0.7827.55",
+    "playwright": "1.61.1",
+    "source": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+    "tree": "2724c85cc595fbd05e50c16b5ba6caf9b2d5c394",
+    "scope": "Existing final actual installed-CLI output replay, byte-exact. Only temporary DOM boundary labels/computed font doubling."
+  },
+  "cells": [
+    {
+      "which": "normal",
+      "width": 320,
+      "height": 800,
+      "doubled": false,
+      "id": "normal-320x800-normal",
+      "headingHeight": 140,
+      "firstInstruction": {
+        "x": 49,
+        "y": 255,
+        "right": 271,
+        "bottom": 327,
+        "width": 222,
+        "height": 72
+      },
+      "firstInstructionFullyWithinInitialViewport": true,
+      "documentWidth": 320,
+      "tableWidth": 222,
+      "tableHeight": 222,
+      "rawTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-320x800-normal-top-before.png",
+      "labelledTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-320x800-normal-top-change-boundary.png",
+      "rawSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-320x800-normal-snippet-before.png",
+      "labelledSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-320x800-normal-snippet-change-boundary.png"
+    },
+    {
+      "which": "long",
+      "width": 320,
+      "height": 800,
+      "doubled": false,
+      "id": "long-320x800-normal",
+      "headingHeight": 560,
+      "firstInstruction": {
+        "x": 49,
+        "y": 747,
+        "right": 271,
+        "bottom": 819,
+        "width": 222,
+        "height": 72
+      },
+      "firstInstructionFullyWithinInitialViewport": false,
+      "documentWidth": 320,
+      "tableWidth": 222,
+      "tableHeight": 222,
+      "rawTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-320x800-normal-top-before.png",
+      "labelledTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-320x800-normal-top-change-boundary.png",
+      "rawSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-320x800-normal-snippet-before.png",
+      "labelledSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-320x800-normal-snippet-change-boundary.png"
+    },
+    {
+      "which": "normal",
+      "width": 390,
+      "height": 844,
+      "doubled": true,
+      "id": "normal-390x844-text200",
+      "headingHeight": 340,
+      "firstInstruction": {
+        "x": 49,
+        "y": 559,
+        "right": 341,
+        "bottom": 781,
+        "width": 292,
+        "height": 222
+      },
+      "firstInstructionFullyWithinInitialViewport": true,
+      "documentWidth": 390,
+      "tableWidth": 292,
+      "tableHeight": 476,
+      "rawTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-390x844-text200-top-before.png",
+      "labelledTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-390x844-text200-top-change-boundary.png",
+      "rawSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-390x844-text200-snippet-before.png",
+      "labelledSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-390x844-text200-snippet-change-boundary.png"
+    },
+    {
+      "which": "long",
+      "width": 390,
+      "height": 844,
+      "doubled": true,
+      "id": "long-390x844-text200",
+      "headingHeight": 1224,
+      "firstInstruction": {
+        "x": 49,
+        "y": 1665,
+        "right": 341,
+        "bottom": 1887,
+        "width": 292,
+        "height": 222
+      },
+      "firstInstructionFullyWithinInitialViewport": false,
+      "documentWidth": 390,
+      "tableWidth": 292,
+      "tableHeight": 476,
+      "rawTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-390x844-text200-top-before.png",
+      "labelledTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-390x844-text200-top-change-boundary.png",
+      "rawSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-390x844-text200-snippet-before.png",
+      "labelledSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-390x844-text200-snippet-change-boundary.png"
+    },
+    {
+      "which": "normal",
+      "width": 1440,
+      "height": 960,
+      "doubled": false,
+      "id": "normal-1440x960-normal",
+      "headingHeight": 35,
+      "firstInstruction": {
+        "x": 340,
+        "y": 150,
+        "right": 1100,
+        "bottom": 168,
+        "width": 760,
+        "height": 18
+      },
+      "firstInstructionFullyWithinInitialViewport": true,
+      "documentWidth": 1440,
+      "tableWidth": 760,
+      "tableHeight": 87,
+      "rawTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-1440x960-normal-top-before.png",
+      "labelledTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-1440x960-normal-top-change-boundary.png",
+      "rawSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-1440x960-normal-snippet-before.png",
+      "labelledSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-1440x960-normal-snippet-change-boundary.png"
+    },
+    {
+      "which": "long",
+      "width": 1440,
+      "height": 960,
+      "doubled": false,
+      "id": "long-1440x960-normal",
+      "headingHeight": 140,
+      "firstInstruction": {
+        "x": 340,
+        "y": 273,
+        "right": 1100,
+        "bottom": 291,
+        "width": 760,
+        "height": 18
+      },
+      "firstInstructionFullyWithinInitialViewport": true,
+      "documentWidth": 1440,
+      "tableWidth": 760,
+      "tableHeight": 87,
+      "rawTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-1440x960-normal-top-before.png",
+      "labelledTop": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-1440x960-normal-top-change-boundary.png",
+      "rawSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-1440x960-normal-snippet-before.png",
+      "labelledSnippet": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-1440x960-normal-snippet-change-boundary.png"
+    }
+  ],
+  "viewCount": 12,
+  "pngCount": 24,
+  "exactRestorations": 12,
+  "manifestFilesVerified": 103,
+  "viewedPngs": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-390x844-text200-top-before.png",
+      "sha256": "28c8c18e7fc93041ba6e6d2dc8c0f3ed229c2d2f94da10ff7b89f48203d3e792"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-390x844-text200-top-change-boundary.png",
+      "sha256": "557de803205810225230c0fdeb547d723524c1ae9590ccf1585fa52e00bbe7d8"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-390x844-text200-snippet-before.png",
+      "sha256": "8440ae6dbb21fd380a08899917dfee55716c78a494ad039d52f22891c2fe928e"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-390x844-text200-snippet-change-boundary.png",
+      "sha256": "5e9e5dbc9a47221ec432e14068eb2a5d623e55c82e95498ca0246c0c7adabf04"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-320x800-normal-top-before.png",
+      "sha256": "5670b1d4cd97ef8e6bcef696d44fac549e1a62fd4746fac2a33c477ca430588d"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-320x800-normal-snippet-change-boundary.png",
+      "sha256": "bee093f7c2dcce36580359a5172ef9d1e3d0aeb643ee6becd843f614cdc53b35"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-320x800-normal-top-change-boundary.png",
+      "sha256": "e9f786199cb5083bc970257d07badcda2606164d805824e045bd906132128f9f"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-320x800-normal-snippet-before.png",
+      "sha256": "b4a621cd0e3543f0587306a07fd9b22a3121ad3e0de851771c53087f40a1cca1"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-1440x960-normal-top-before.png",
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-1440x960-normal-top-change-boundary.png",
+      "sha256": "0a7e3c142f235dc8b1cd086c4b218d5ddb8f96a71f0a9c0015db481b94e84c37"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-390x844-text200-top-before.png",
+      "sha256": "31f3c2626cea22a17271ef3e6f0773d350af5e389e2988b2802d446a41e8fef1"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-390x844-text200-snippet-before.png",
+      "sha256": "8440ae6dbb21fd380a08899917dfee55716c78a494ad039d52f22891c2fe928e"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-1440x960-normal-snippet-change-boundary.png",
+      "sha256": "09e0cc01a7ca628164cf31666a706543a78e60f2905f752fc12aebb2767c8e1d"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-1440x960-normal-snippet-before.png",
+      "sha256": "9ff5730c3126351026ac050d48e7c87e725bef7bd36acc08198391630f09a3fd"
+    }
+  ],
+  "rawManifest": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\manifest.json",
+    "sha256": "2416d09fc73d6d5b742da5c13ea63f2f012a8b2d50a6e4e7116a3fc1e9c55806"
+  },
+  "receiptBindings": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\preflight.json",
+      "sha256": "1eff075bca0d929f70ea0d6508a7ef14d3fec50cfd7e10f765b9352788f04112"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\config.json",
+      "sha256": "18e3b441e56d7ed93e68b776a1d5e5bd3b37c4c883804952dbf03468b6cf5ff8"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\controller-report.json",
+      "sha256": "33ce51a66382878141cf1d888a35a061528ed8e17d80c08ce698c11919e4f858"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\report.json",
+      "sha256": "c268c73473067fcef4eb5010d7d8f7d412ab109fdd74e27c60c36ec249496997"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\entry-custody.json",
+      "sha256": "e54948e98b3e6d019504d70f435c355ba864011a1f6ea333ba270e50ba924f7d"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\exit-custody.json",
+      "sha256": "e54948e98b3e6d019504d70f435c355ba864011a1f6ea333ba270e50ba924f7d"
+    }
+  ],
+  "visualFindings": [
+    "Long320 first instruction extends below initial viewport; long390 computed2x first instruction is well below it. The title repeats nearly the full machine identity and dominates entry.",
+    "At320 and390computed2x, table words remain narrowly fragmented despite contained horizontal layout. Desktop columns are readable and compact; proposed vertical fields must justify their deliberate added height.",
+    "Original unavailable actions remain plain text and instructions explicitly say no approvals/resend. No newly working action is claimed."
+  ],
+  "stateContract": {
+    "changeA": "Only existing ID/title placement. Preserve complete title/ID, pending state and page title; no hidden or truncated identity.",
+    "changeB": "Only three-column single-example table layout. Preserve Component, Proof, Correction prompt and every exact value through future definition-list relationship.",
+    "protected": "Card palette/padding, all original remaining instructions/headings/lane bullets, four unavailable labels and absence of interactive attributes/scripts.",
+    "emptyLoadingError": "Static generated scaffold only. Pending evidence is genuine current content. No application loader, provider/error workflow or completed approval is created or inferred.",
+    "populatedOverflow": "Normal/long synthetic feature identities at exact six states; existing vertical title density and narrow word fragmentation remain before defects.",
+    "keyboard": "No native journey in this before capture. Future after requires two native keyboard/pointer/scroll journeys while unavailable slots remain inert.",
+    "text200": "Existing all-element computed font vector doubled and verified; not native zoom/device."
+  },
+  "failures": [],
+  "newBrowserRuns": 1,
+  "newNativeJourneys": 0,
+  "providerCalls": 0,
+  "fullDimensionScores": null,
+  "overallScore": null,
+  "criterionChanges": 0
+}

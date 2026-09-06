@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": 931,
+  "failed": 0,
+  "artifactManifestFiles": 92,
+  "sourceFiles": 633,
+  "effectiveSources": 69,
+  "productOwners": 1,
+  "documentationOwners": 5,
+  "pngs": 24,
+  "directlyViewedUniquePngs": 13,
+  "browserChecks": 168,
+  "runtimeProcessesClosed": 9,
+  "fullGrades": null
+}

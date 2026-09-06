@@ -1,0 +1,389 @@
+{
+  "status": "READY_FOR_NORMAL_INTEGRATION_AT_EXACT_HEAD",
+  "at": "2026-09-06T04:05:19.321681+00:00",
+  "mode": "Builder",
+  "reviewer": "Independent nonauthor product reviewer; reused context. Author of prior browser collectors and criterion assessment.",
+  "head": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "tree": "2724c85cc595fbd05e50c16b5ba6caf9b2d5c394",
+  "base": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "syntheticMerge": "ffbdb5d71f1b195ffc929281bc11a43c08b7aa9e",
+  "prUrl": "https://github.com/HomenShum/BetterPRHandoff/pull/6",
+  "prState": "open",
+  "mergeable": true,
+  "workflowId": 34010433758,
+  "workflowAttempt": 1,
+  "event": "pull_request",
+  "workflowUrl": "https://github.com/HomenShum/BetterPRHandoff/actions/runs/34010433758",
+  "committed633BindingsExact": true,
+  "platforms": [
+    {
+      "jobId": 101425186360,
+      "name": "source-checks (ubuntu-latest)",
+      "htmlUrl": "https://github.com/HomenShum/BetterPRHandoff/actions/runs/34010433758/job/101425186360",
+      "conclusion": "success",
+      "versions": {
+        "node": "v22.23.2",
+        "npm": "10.9.8"
+      },
+      "tests": 30,
+      "passed": 30,
+      "failed": 0,
+      "skipped": 0,
+      "tapDurationMs": 3234.027358,
+      "installCommand": "npm install",
+      "testCommand": "npm test",
+      "packCommand": "npm pack --json",
+      "auditAtInstall": "found 0 vulnerabilities",
+      "pack": {
+        "id": "@homenshum/easier-to-read-submissions@1.2.1",
+        "name": "@homenshum/easier-to-read-submissions",
+        "version": "1.2.1",
+        "size": 43281,
+        "unpackedSize": 138086,
+        "shasum": "0e6af5b1dedd059c46561216198cb6825be353eb",
+        "integrity": "sha512-CzIEfld7NN5EE1QGXkiYvKIYSAoW2KEhGFP0Pz6oeu5jr5DsZ0iqF+gf3K6rNTdEPrerEgBlJaAJZkrJJbpKeQ==",
+        "filename": "homenshum-easier-to-read-submissions-1.2.1.tgz",
+        "files": [
+          {
+            "path": "AGENTS.md",
+            "size": 13014,
+            "mode": 420
+          },
+          {
+            "path": "LICENSE",
+            "size": 1067,
+            "mode": 420
+          },
+          {
+            "path": "README.md",
+            "size": 15855,
+            "mode": 420
+          },
+          {
+            "path": "SKILL.md",
+            "size": 21063,
+            "mode": 420
+          },
+          {
+            "path": "bin/init.mjs",
+            "size": 16068,
+            "mode": 420
+          },
+          {
+            "path": "package.json",
+            "size": 1320,
+            "mode": 420
+          },
+          {
+            "path": "templates/bootstrap-prompt.md",
+            "size": 4540,
+            "mode": 420
+          },
+          {
+            "path": "templates/CHANGELOG-README.md",
+            "size": 4243,
+            "mode": 420
+          },
+          {
+            "path": "templates/CHANGELOG-TEMPLATE.md",
+            "size": 2542,
+            "mode": 420
+          },
+          {
+            "path": "templates/gmail-magic-resend.html",
+            "size": 3459,
+            "mode": 420
+          },
+          {
+            "path": "templates/lane.md",
+            "size": 863,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-dogfood-manifest.json",
+            "size": 1570,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-dogfood-packet.md",
+            "size": 2067,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-email.html.mustache",
+            "size": 8907,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-packet-schema.json",
+            "size": 8094,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-packet.md",
+            "size": 10506,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-states.example.json",
+            "size": 6019,
+            "mode": 420
+          },
+          {
+            "path": "templates/remotion-storyboard.json",
+            "size": 1056,
+            "mode": 420
+          },
+          {
+            "path": "templates/runtime-diagram.md",
+            "size": 15833,
+            "mode": 420
+          }
+        ],
+        "entryCount": 19,
+        "bundled": []
+      },
+      "stepConclusions": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test developer handoff scenarios",
+          "conclusion": "success"
+        },
+        {
+          "name": "Pack the current source",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ],
+      "warnings": [
+        "(node:2050) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.",
+        "(node:3535) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.",
+        "##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/"
+      ]
+    },
+    {
+      "jobId": 101425186445,
+      "name": "source-checks (windows-latest)",
+      "htmlUrl": "https://github.com/HomenShum/BetterPRHandoff/actions/runs/34010433758/job/101425186445",
+      "conclusion": "success",
+      "versions": {
+        "node": "v22.23.2",
+        "npm": "10.9.8"
+      },
+      "tests": 30,
+      "passed": 30,
+      "failed": 0,
+      "skipped": 0,
+      "tapDurationMs": 9477.7032,
+      "installCommand": "npm install",
+      "testCommand": "npm test",
+      "packCommand": "npm pack --json",
+      "auditAtInstall": "found 0 vulnerabilities",
+      "pack": {
+        "id": "@homenshum/easier-to-read-submissions@1.2.1",
+        "name": "@homenshum/easier-to-read-submissions",
+        "version": "1.2.1",
+        "size": 43558,
+        "unpackedSize": 140726,
+        "shasum": "a1bbc46fb91f8bf375ac911c36f6f89811c90ab9",
+        "integrity": "sha512-ccUB8D1xm4WOJ29UDxt7IxQIZQTb9YTDAf1GcxitmUYyrVJ5ywN6cDGRiqB4PLhzeNe1/IHgBXT2VoMQJHyplw==",
+        "filename": "homenshum-easier-to-read-submissions-1.2.1.tgz",
+        "files": [
+          {
+            "path": "AGENTS.md",
+            "size": 13234,
+            "mode": 420
+          },
+          {
+            "path": "LICENSE",
+            "size": 1088,
+            "mode": 420
+          },
+          {
+            "path": "README.md",
+            "size": 16053,
+            "mode": 420
+          },
+          {
+            "path": "SKILL.md",
+            "size": 21397,
+            "mode": 420
+          },
+          {
+            "path": "bin/init.mjs",
+            "size": 16437,
+            "mode": 420
+          },
+          {
+            "path": "package.json",
+            "size": 1374,
+            "mode": 420
+          },
+          {
+            "path": "templates/bootstrap-prompt.md",
+            "size": 4635,
+            "mode": 420
+          },
+          {
+            "path": "templates/CHANGELOG-README.md",
+            "size": 4329,
+            "mode": 420
+          },
+          {
+            "path": "templates/CHANGELOG-TEMPLATE.md",
+            "size": 2594,
+            "mode": 420
+          },
+          {
+            "path": "templates/gmail-magic-resend.html",
+            "size": 3566,
+            "mode": 420
+          },
+          {
+            "path": "templates/lane.md",
+            "size": 885,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-dogfood-manifest.json",
+            "size": 1643,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-dogfood-packet.md",
+            "size": 2134,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-email.html.mustache",
+            "size": 9018,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-packet-schema.json",
+            "size": 8287,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-packet.md",
+            "size": 10717,
+            "mode": 420
+          },
+          {
+            "path": "templates/qa-states.example.json",
+            "size": 6179,
+            "mode": 420
+          },
+          {
+            "path": "templates/remotion-storyboard.json",
+            "size": 1103,
+            "mode": 420
+          },
+          {
+            "path": "templates/runtime-diagram.md",
+            "size": 16053,
+            "mode": 420
+          }
+        ],
+        "entryCount": 19,
+        "bundled": []
+      },
+      "stepConclusions": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install",
+          "conclusion": "success"
+        },
+        {
+          "name": "Test developer handoff scenarios",
+          "conclusion": "success"
+        },
+        {
+          "name": "Pack the current source",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ],
+      "warnings": [
+        "(node:9268) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.",
+        "(node:8388) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.",
+        "##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@11d5960a326750d5838078e36cf38b85af677262, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/"
+      ]
+    }
+  ],
+  "scanner": {
+    "head": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+    "id": 101425182711,
+    "conclusion": "success",
+    "summary": "**1** commit was scanned without uncovering any secrets.\n",
+    "annotations": 0,
+    "scope": "One PR source commit scanned; no claim of every historical branch or arbitrary local excluded file."
+  },
+  "guard": "Immutable commit only; no working-source guard held.",
+  "mutationCalls": 0,
+  "browserReplays": 0,
+  "newProviderCalls": 0,
+  "limits": [
+    "Each platform ran npm install, not npm ci; source has no dependency lock requirement for this workflow.",
+    "Shared pack output is a logged 19-member tarball manifest; CI did not install that tarball or replay the browser.",
+    "Local installed-consumer and HTML proof remain separately source-bound.",
+    "Action runtime deprecation warnings say Node20 actions were forced to Node24; project test Node was22.23.2 on both platforms.",
+    "No actual shared step was skipped or failed. No registry publish, deployment, external email or provider operation exists in these checks.",
+    "44 criterion assessment and all full grades unchanged.",
+    "Readability follow-up is authorized separately and may change this PR head; these checks only certify42e57."
+  ],
+  "fullDimensionScores": null,
+  "overallScore": null,
+  "rawManifest": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-shared-pr-01\\manifest.json",
+    "sha256": "a760295f2b2a2c3bf17579310c17b8384c481b0f3b114e070f740c55cfb88d78"
+  }
+}

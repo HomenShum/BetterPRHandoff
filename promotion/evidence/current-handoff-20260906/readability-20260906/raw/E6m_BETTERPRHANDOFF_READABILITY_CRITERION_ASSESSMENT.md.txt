@@ -1,0 +1,74 @@
+Builder. **Eight scoped readability observations improve from3/5 to4/5. Full grades remain null.**
+
+**Re your request:** include visual UI, responsiveness and interaction grading in repository handoff — this separate44-criterion successor records only the changes supported by actual installed-output pixels and native interaction evidence.
+
+A reviewer can now read the first complete instruction on the long320px and390px doubled-text phone examples, then read each proof field without narrow-column word fragments. The full title and exact identifier remain available. The four review actions remain honest unconfigured text.
+
+This assessment binds the selected92db template and69-source working successor on42e57. The one after run passed168 checks across six cells,18 views and two native journeys. Thirteen directly viewed raster hashes cover24 exact viewport captures. Prior53-check CLI results and broader browser coverage retain their historical bindings. The closed source guard allows later documentation publication; it does not certify those future bytes.
+
+**V1:3→4.** Body-sized title and16px labelled fields (32px doubled) read as complete words at320/390. H1 font family/size/color is deliberately unchanged, with compact text. Code remains13px/26px. Minor remaining friction: the complete long title still spans several phone lines.
+
+**V4:3→4.** Compact heading, full title, first instruction and honest action notice precede detailed evidence and the exact ID. The long phone first instruction moves819→296px at320 and1887→767px at390 doubled. Minor remaining friction: placeholder instructions still compete with eventual project content; no real-user comprehension result.
+
+**V5:3→4.** Actual saved normal/enlarged phone pixels show legible full-width labels and prose without the old lexical fractures or horizontal clipping. Existing strong text/background contrast is preserved by exact computed-style comparisons. Minor remaining friction: the full machine ID requires intentional wrapping and code stays smaller than prose.
+
+**D2:3→4.** The linear one-packet reading order exposes the first instruction on both long phone screens and places reference identity after proof. Native End reaches it without hidden controls. Minor remaining friction: this remains a long single document with ordinary scrolling; no section navigation or multi-packet navigation is claimed.
+
+**D3:3→4.** For this single static packet, higher-priority instructions and proof appear before the unchanged detailed identifier. Full information stays visible and reachable; no new disclosure control is asserted. The previously obstructing expanded identity is resolved by order and type scale. Minor remaining friction: the full title is still expanded and long content requires ordinary scrolling.
+
+**D4:3→4.** One vertical label/value group replaces each narrow table column; identity no longer duplicates a large machine-ID block before the first instruction. The reviewed one-record example is readable at phone sizes. Minor tradeoff: desktop becomes taller and the exact long title/footer remain verbose; long1440 needs7px ordinary vertical scrolling.
+
+**R3:3→4.** The actual generated one-record table is replaced by native full-width dl/dt/dd fields retaining all three associations and values. All18 current views have zero horizontal overflow/outlying text and no split lexical words; saved320/390/1440 pixels confirm usable adaptation. Minor friction: enlarged content occupies more vertical space. Broader multi-row/canvas/modal behavior is not certified.
+
+**U4:3→4.** The fresh19-file tar was normally installed; two actual generated HTML exports retain every original text leaf and six unchanged companion artifacts. They reopen as readable packet scaffolds, including exact full identifier and proof/correction text. Remaining limitation: consumers must replace pending proof and configure verified links; no completed email, approval or downstream app outcome is claimed.
+
+There are still **29 partially observed criteria and15 NOT_RUN criteria**. The other36 rows are preserved exactly as historical evidence. Human comprehension/core-task studies, physical devices, native zoom, assistive technology, performance and unobserved lifecycle/platform behavior remain missing. No dimension average was computed, and the4.5 dimension target and criterion minimum4 remain unchanged. Scoped4 observations are not an A-grade or whole-product acceptance.
+
+| Criterion | Partial observation | Revision scope |
+| --- | --- | --- |
+| V1 typography | 4 | Current readability observation |
+| V2 spacing/grid | 4 | Historical unchanged |
+| V3 color/token discipline | 4 | Historical unchanged |
+| V4 hierarchy | 4 | Current readability observation |
+| V5 rendered legibility/contrast | 4 | Current readability observation |
+| V6 consistent elevation/icons | 4 | Historical unchanged |
+| V7 alignment | 4 | Historical unchanged |
+| V8 polish of empty/loading/error/populated states | null | NOT_RUN, unchanged |
+| V9 purposeful motion and reduced-motion behavior | null | NOT_RUN, unchanged |
+| D1 Clarity of the main action | 4 | Historical unchanged |
+| D2 navigation/information architecture | 4 | Current readability observation |
+| D3 progressive disclosure | 4 | Current readability observation |
+| D4 useful information density | 4 | Current readability observation |
+| D5 consistency of component behavior and wording | 4 | Historical unchanged |
+| R1 Reflow/content preservation | 4 | Historical unchanged |
+| R2 reachability of navigation and primary actions | null | NOT_RUN, unchanged |
+| R3 modal/panel/table/canvas adaptation | 4 | Current readability observation |
+| R4 touch and on-screen-keyboard usability | null | NOT_RUN, unchanged |
+| R5 stability under zoom, long content and declared locales | null | NOT_RUN, unchanged |
+| I1 Working controls and keyboard paths | 5 | Historical unchanged |
+| I2 immediate honest feedback and durable status | 4 | Historical unchanged |
+| I3 validation/error/retry behavior | 4 | Historical unchanged |
+| I4 safe cancellation/undo and duplicate-action handling | 4 | Historical unchanged |
+| I5 state continuity through navigation, reload, conflicts and reopening | 4 | Historical unchanged |
+| A1 Semantic names/structure | 4 | Historical unchanged |
+| A2 keyboard/focus order and modal focus return | 4 | Historical unchanged |
+| A3 contrast/non-color cues | 5 | Historical unchanged |
+| A4 text resize/reflow and target size | null | NOT_RUN, unchanged |
+| A5 screen-reader announcements and reduced-motion alternatives. Manual checks accompany automated scans | null | NOT_RUN, unchanged |
+| P1 Initial usable view | null | NOT_RUN, unchanged |
+| P2 input/scroll responsiveness | null | NOT_RUN, unchanged |
+| P3 layout stability | null | NOT_RUN, unchanged |
+| P4 honest long-operation feedback | null | NOT_RUN, unchanged |
+| P5 behavior with large data and constrained device/network conditions. Record workload and measured budgets separately from reviewer impressions | null | NOT_RUN, unchanged |
+| U1 First-time task comprehension | null | NOT_RUN, unchanged |
+| U2 successful core journey | null | NOT_RUN, unchanged |
+| U3 bounded errors/help/rework | 4 | Historical unchanged |
+| U4 usable export or consumer result | 4 | Current readability observation |
+| U5 restart/reopen/handoff without hidden knowledge. Fresh-agent operability is separate from observed fresh-human usability | 4 | Historical unchanged |
+| L1 Fit to intended user and job | 4 | Historical unchanged |
+| L2 coverage of advertised capabilities | null | NOT_RUN, unchanged |
+| L3 truthful limits/status | 4 | Historical unchanged |
+| L4 permissions and review authority | 4 | Historical unchanged |
+| L5 source/trace/artifact consistency | 5 | Historical unchanged |
+
+The two historical readability fixes are resolved in the named scope. Desktop is taller, the complete title/identifier still contain deliberate metadata, and placeholders require configuration. Publication and new exact-source shared CI remain separate. [Exact criterion deltas](C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6m-betterpr-readability-criterion-assessment-01/criterion-delta.json) and [source/pixel judgment](C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6m_BETTERPRHANDOFF_READABILITY_FINAL_JUDGE.json) retain reasons and bound evidence.

@@ -1,0 +1,14 @@
+Builder mode. **Ready for normal integration at `42e57a96f9ae961f501729ec6ace5c3d8dbe3aee`.**
+
+A developer needs confidence that the handoff scaffold can install, test and package on both supported CI operating systems. The first normal [PR 6 workflow](https://github.com/HomenShum/BetterPRHandoff/actions/runs/34010433758) ran successfully on Ubuntu and Windows; it did not merely report inherited status.
+
+- All **633 actual committed blobs** match the accepted staged bindings. Source tree `2724c85cc595fbd05e50c16b5ba6caf9b2d5c394` equals the synthetic merge `ffbdb5d71f1b195ffc929281bc11a43c08b7aa9e`, whose parents are the exact main base and PR source.
+- Both platforms use **Node 22.23.2** and execute **`npm install`**, **`npm test`**, and **`npm pack --json`**. Each passes **30/30** with no cancelled/skipped tests and logs 19 packed members. All actual job steps succeeded. Install output reports zero vulnerabilities.
+- GitGuardian reports **one scanned source commit**, no secrets, and zero annotations. That does not certify all preserved branches or excluded local files.
+- The runner warns that the pinned checkout/setup-node actions declare Node 20 and were forced to execute on Node 24. This is separate from the verified Node 22.23.2 used by project commands. The warning is retained; no action/version/policy was changed.
+
+The shared package listing is packaging evidence, not an installed-consumer or browser replay. Earlier local installed/HTML receipts retain those separate claims. This proves no registry release, deployment, approval/email operation, or complete grade. The eight observed readability 3/5 values and all full scores remain unchanged. A later readability commit requires its own exact-head CI readback.
+
+No retry, merge, working-source/index/ref write, local suite or browser replay was performed. No working-tree guard remains open while awaiting future work. [Structured verdict](E6m_BETTERPRHANDOFF_SHARED_JUDGE.json) and [raw manifest](E6m-betterpr-shared-pr-01/manifest.json) retain both full job logs, source/merge API objects, scanner scope and committed-byte verification.
+
+**Re your request:** make individual repositories ready for developer handoff with independent judgment — the first shared Windows/Ubuntu install, scenario and packaging checks are now verified against the exact reviewed source.

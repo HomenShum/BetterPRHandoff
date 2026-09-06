@@ -1,0 +1,20 @@
+[
+  {
+    "x": 24,
+    "y": 24,
+    "width": 272,
+    "height": 1761.4375,
+    "right": 296,
+    "bottom": 1785.4375,
+    "label": "PROTECT | CARD + UNAVAILABLE ACTIONS",
+    "color": "#005a9c"
+  },
+  {
+    "x": 49,
+    "y": 65,
+    "width": 222,
+    "height": 666,
+    "label": "CHANGE A | FULL ID + TITLE PLACEMENT",
+    "color": "#a40000"
+  }
+]

@@ -1,0 +1,26 @@
+Builder. **Approved for the bounded readability repair; source and process guards are closed.**
+
+**Re your request:** make each repository usable for developers and users, including visual, responsive and interaction grading — the actual installed packet now presents its first instruction and proof fields without the observed phone reading obstruction.
+
+A reviewer opening a generated packet needs to see what to do before decoding its technical identifier. The previous long heading placed the first complete instruction below the phone viewport; the three-column example split ordinary words. The selected template puts the full change title under a compact heading, the exact identifier at the end, and the unchanged proof values in native labelled fields. All original text is preserved. The four unavailable actions remain explicitly unconfigured.
+
+The single approved run passed **168/168 assertions**, six matched states,18 top/snippet/footer views and two native journeys. I directly viewed13 distinct raster hashes covering all24 exact-viewport PNGs. There was no full-page capture or browser rerun. Eight ordinary GET loads and zero additional action requests were recorded; all nine owned processes closed.
+
+| State | Complete first-instruction bottom, before → after (px) | Visible in initial viewport |
+| --- | --- | --- |
+| normal-320x800-normal | 327 → 224 | True |
+| long-320x800-normal | 819 → 296 | True |
+| normal-390x844-text200 | 781 → 545 | True |
+| long-390x844-text200 | 1887 → 767 | True |
+| normal-1440x960-normal | 168 → 152 | True |
+| long-1440x960-normal | 291 → 170 | True |
+
+The actual desktop card is taller. The long1440 document is967px high in a960px viewport: a small ordinary vertical scroll, with readable full content. The exact long identifier remains verbose in the footer; proof and links still require configuration. These are scaffold observations, not completed approval/email work.
+
+The independent readback passed931 finite checks:132 configured bindings, all633 current tracked bytes,69 effective sources,627 unchanged published paths and564 unchanged historical packet files. HEAD, refs, index entries and raw index bytes match the browser guard. The six exact owners are the selected HTML template and five documentation files; no product code was edited by this reviewer. [Closing guard](C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6m-betterpr-readability-final-judge-02/closing-guard.json) and [raw review manifest](C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6m-betterpr-readability-final-judge-02/manifest.json).
+
+The first post-run measurement collector stopped because it used the wrong historical filename suffix. Its files and exception are preserved in judge-01; v2 corrected only the lookup/output directory. The168-check browser run, source and all oracles stayed unchanged.
+
+The assessed working template SHA is92dbb0deb2b3f8055f6def51bf231fd9f082dffaeb558c2290ddc738701f13ba on base42e57a96. Current normal30 tests, actual19-member tar, fresh local install and two CLI generations are bound separately. Prior shared Windows/Ubuntu success applies only to42e57, and later publication/CI requires its own review. Full dimension/overall scores, human/device/native-zoom/email/performance and production acceptance remain unresolved.
+
+Key pixels: [long phone entry](C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6m-betterpr-readability-after-01/browser/long-390x844-text200-top.png), [phone proof fields](C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6m-betterpr-readability-after-01/browser/normal-390x844-text200-snippet.png), [320px entry](C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6m-betterpr-readability-after-01/browser/long-320x800-normal-top.png), [desktop](C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904/E6m-betterpr-readability-after-01/browser/long-1440x960-normal-top.png).

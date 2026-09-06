@@ -258,9 +258,11 @@ The one thing this product renders in a browser is
 `easier qa <feature-id>` from `templates/gmail-magic-resend.html`. It is a
 static email preview — no scripts, no external fonts, no images. Its four
 unconfigured review actions are ordinary text labelled `Not configured`; they
-do not submit a verdict, request a fix, approve, or resend. Table and code
-wrapping is a layout change, whose visual result needs the separate browser
-proof. File-generation tests alone do not establish responsive readability.
+do not submit a verdict, request a fix, approve, or resend. The preview starts
+with “QA packet”, keeps the complete change title below it, and puts the exact
+feature ID in a labelled footer. Component, Proof and Correction prompt use
+full-width labelled fields. The visual result needs separate browser proof;
+file-generation tests alone do not establish responsive readability.
 
 ## Step 8 — Failure and recovery
 

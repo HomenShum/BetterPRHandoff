@@ -1,0 +1,77 @@
+{
+  "at": "2026-09-06T04:26:22.470633+00:00",
+  "status": "SIX_OWNER_READABILITY_SOURCE_FROZEN_NO_NEW_RUNTIME",
+  "baseCommit": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "template": {
+    "path": "templates/gmail-magic-resend.html",
+    "bytes": 3601,
+    "sha256": "92dbb0deb2b3f8055f6def51bf231fd9f082dffaeb558c2290ddc738701f13ba",
+    "rawGitBlob": "dca9f078b00cf43a07e1872e05a482c960b29eff"
+  },
+  "appliedDocFiles": [
+    {
+      "path": "CHANGELOG/components/qa-packet.md",
+      "bytes": 1885,
+      "sha256": "9e6b94b8600560f0f85e11c5061b9547c171ba34e424016983af183da9e44e17",
+      "rawGitBlob": "45a8d98b418f8db0e48ae1cc777a65facd8530a8"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 7678,
+      "sha256": "e3694ea86125f964eb84f79c5113f8343c198037ce4dbfb8f5b8fadf596f7c7c",
+      "rawGitBlob": "51ba3fdaa06a22421b25c92fec006206160cf7ee"
+    },
+    {
+      "path": "docs/START_HERE.md",
+      "bytes": 18445,
+      "sha256": "0cb29703518e2c764c74c44d107bf3fcc56cbba54b846ada1ff3350f084b54b8",
+      "rawGitBlob": "ed018d8bdd2758ff072794c95d3efd0aacac2241"
+    },
+    {
+      "path": "docs/codebase/CONCERNS.md",
+      "bytes": 6944,
+      "sha256": "970fb21f3b9934f2745ffdb121aff06e8acb19a68cb0f0329de9d35544bf9449",
+      "rawGitBlob": "c4124d64027c7e02ac1b3abc125bb62fbfca945c"
+    },
+    {
+      "path": "docs/codebase/STRUCTURE.md",
+      "bytes": 6777,
+      "sha256": "8447ec9e33265dba169f731e118f49f639faa240c2830b677482ae6fae4d347c",
+      "rawGitBlob": "95762f71b28a62f3bec50e4c86c174cb0275708b"
+    }
+  ],
+  "allChangedPaths": [
+    "CHANGELOG/components/qa-packet.md",
+    "HANDOFF.md",
+    "docs/START_HERE.md",
+    "docs/codebase/CONCERNS.md",
+    "docs/codebase/STRUCTURE.md",
+    "templates/gmail-magic-resend.html"
+  ],
+  "allFiveDocsOutsidePackageAllowlist": true,
+  "packageAllowlist": [
+    "SKILL.md",
+    "AGENTS.md",
+    "README.md",
+    "LICENSE",
+    "bin/",
+    "templates/"
+  ],
+  "sharedJudgmentSha256": "7bbeed9b86f8b1a59c19c6d0194be1439f290d82e1ba08f42beb80c5709d63d7",
+  "sharedRun": "34010433758",
+  "sharedSuccessAppliesOnlyTo": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "freshReadabilityRuntimeAndCI": "NOT_RUN",
+  "source633": {
+    "unchangedFromPublishedBase": 627,
+    "changed": 6
+  },
+  "source69Sha256": "e6162218f2d2b2b41c11412b6f64b67278c76a7dc2478592041e689185b0d53c",
+  "primary40Nested54Unchanged": true,
+  "raw554AndHtml2Unchanged": true,
+  "oldPacketAllBytesUnchanged": true,
+  "indexRefsHeadUnchanged": true,
+  "staged": false,
+  "runtimePackageTestBrowserCalls": 0,
+  "historicalVerifierHandling": "Existing default packet bytes remain valid; optional source checks use matching 42e57. No historical 69-source binding or evidence is rewritten.",
+  "next": "Freeze source for fresh ordinary package/tests and independent after capture; update pending proof wording only from actual reviewed results."
+}

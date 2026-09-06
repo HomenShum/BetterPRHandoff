@@ -40,20 +40,23 @@
       .unconfigured-actions li {
         margin: 8px 0;
       }
-      table {
-        width: 100%;
-        table-layout: fixed;
-        border-collapse: collapse;
-        margin-top: 16px;
+      .snippet {
+        margin: 16px 0 0;
       }
-      th,
-      td {
+      .snippet > div {
         border-top: 1px solid #eaded2;
-        text-align: left;
-        padding: 10px;
-        vertical-align: top;
-        font-size: 13px;
+        padding: 12px 0;
+      }
+      .snippet dt {
+        margin-bottom: 4px;
+        font-weight: 700;
+      }
+      .snippet dd {
+        margin: 0;
         overflow-wrap: anywhere;
+      }
+      .feature-id {
+        margin: 24px 0 0;
       }
       code {
         overflow-wrap: anywhere;
@@ -65,8 +68,8 @@
   </head>
   <body>
     <main class="card">
-      <p><code>__FEATURE_ID__</code></p>
-      <h1>__TITLE__ QA packet</h1>
+      <h1>QA packet</h1>
+      <p>__TITLE__ QA packet</p>
       <p>Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.</p>
       <ul class="unconfigured-actions">
         <li><strong>Open test link</strong>: Not configured</li>
@@ -86,22 +89,21 @@
         <li>Mobile state</li>
       </ul>
       <h2>Snapshot snippets</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Component</th>
-            <th>Proof</th>
-            <th>Correction prompt</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><code>surface.primary</code></td>
-            <td>before / after / diff pending</td>
-            <td>Attach a component-scoped fix prompt if the snippet fails.</td>
-          </tr>
-        </tbody>
-      </table>
+      <dl class="snippet">
+        <div>
+          <dt>Component</dt>
+          <dd><code>surface.primary</code></dd>
+        </div>
+        <div>
+          <dt>Proof</dt>
+          <dd>before / after / diff pending</dd>
+        </div>
+        <div>
+          <dt>Correction prompt</dt>
+          <dd>Attach a component-scoped fix prompt if the snippet fails.</dd>
+        </div>
+      </dl>
+      <p class="feature-id"><strong>Feature ID:</strong> <code>__FEATURE_ID__</code></p>
     </main>
   </body>
 </html>

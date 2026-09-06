@@ -1,0 +1,53 @@
+{
+  "status": "PRESERVED_REVIEWER_COLLECTOR_FAILURE_NOT_PRODUCT_FAILURE",
+  "cause": "The first post-run measurement reader used -top.json instead of the actual frozen -top-before.json. It stopped after byte/source/pixel readback. Corrected only that filename and a fresh output directory in v2. Browser/producer/source/oracles were not rerun or changed.",
+  "initialFiles": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\actual-six-owner.diff.stderr.txt",
+      "bytes": 703,
+      "sha256": "11d32881d6cae8bbb6c6d78819e69c7d034ac078cc19f67be886c04b34478160"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\actual-six-owner.diff.txt",
+      "bytes": 13210,
+      "sha256": "1a0412a11dd4b742cf32202b2aed4eefd5e05ed1236412e7d107465a9c82dfff"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\authored-whitespace.stderr.txt",
+      "bytes": 703,
+      "sha256": "11d32881d6cae8bbb6c6d78819e69c7d034ac078cc19f67be886c04b34478160"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\authored-whitespace.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\collector-failure.json",
+      "bytes": 271,
+      "sha256": "bbf52b49cb5effc2fdb318710ea1c219ff7519a083a64074bdd17cb475c59962"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\collector-v1.py.txt",
+      "bytes": 10297,
+      "sha256": "0b7470c0989ea75dee0aa5bfb0d1da68a1eae99981e538b9ad9a43f44e443d1f"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\viewed-pixels.json",
+      "bytes": 8409,
+      "sha256": "04567616b206272e32fa99f4c619e03db65bee68c1fb5d066f3536ccbf4db443"
+    }
+  ],
+  "helpers": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-close-readability-judge.py",
+      "bytes": 10297,
+      "sha256": "0b7470c0989ea75dee0aa5bfb0d1da68a1eae99981e538b9ad9a43f44e443d1f"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-close-readability-judge-v2.py",
+      "bytes": 10304,
+      "sha256": "839285611a70c0db36e39d25f2bc8e792c8e00b37d85d266f8a4df38d3c0a36a"
+    }
+  ]
+}

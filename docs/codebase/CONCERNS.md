@@ -109,12 +109,16 @@ alone does not establish byte identity.
 - Installer preservation and detection use owned profiles and destinations.
   They do not activate a real coding-agent host or modify a personal profile.
   See TESTING.md for the exact finite scenarios and current command evidence.
-- `npm test` does not render HTML. The current template wraps table/code
-  content and presents four unconfigured review labels as ordinary text, with
-  explicit disclosure. Its separate browser proof remains required. No Gmail
-  delivery, functional approval action, or completed review follows from it.
-- Everything was measured on Node v22.22.2 on Windows 11. Nothing has been run
-  on macOS or Linux in this pass.
+- `npm test` does not render HTML. The preview uses a compact heading, the full
+  change title, a labelled feature-ID footer, and full-width labelled snippet
+  fields. Four unconfigured review labels remain ordinary text with explicit
+  disclosure. Separate browser proof is required; no Gmail delivery, functional
+  approval action, or completed review follows from file generation.
+- The earlier local evidence used Node v22.22.2 on Windows 11. Published source
+  `42e57a96f9ae961f501729ec6ace5c3d8dbe3aee` subsequently passed all 30 scenarios
+  in both Windows and Ubuntu jobs of [shared run 34010433758](https://github.com/HomenShum/BetterPRHandoff/actions/runs/34010433758),
+  using Node 22.23.2. Those jobs also completed installation and packaging.
+  They do not certify the later readability change, macOS or an email client.
 
 ## Things that look like problems and are not
 

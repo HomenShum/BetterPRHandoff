@@ -1,0 +1,4652 @@
+[
+  {
+    "name": "approved config exact",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "approved recorder exact",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "approved controller exact",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "132 configured bindings",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.github\\workflows\\ci.yml",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.gitignore",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.tours\\01-one-command-end-to-end.tour",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.tours\\02-where-the-rules-live.tour",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\AGENTS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\TEMPLATE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\components\\changelog-lane.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\components\\qa-packet.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\scripts\\bin-init.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\INTEGRATIONS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\LICENSE",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\SKILL.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\bin\\init.mjs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\SIMPLIFICATION_REPORT.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\START_HERE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\ARCHITECTURE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\CONCERNS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\CONVENTIONS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\INTEGRATIONS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\STACK.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\STRUCTURE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\TESTING.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\package.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\PRODUCT_GOAL.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\PRODUCT_JOURNEYS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\PROMOTION_LOG.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\SKILLS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\WIG_REVIEW.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\audit.mjs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\axe.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\lighthouse.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\npm-test.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\screenshot-desktop-1440.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\screenshot-mobile-375.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\screenshot-tablet-768.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\summary.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\surface-measurements.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\ascii-runtime.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\changelog\\chat.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\changelog\\schema-s5.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\changelog\\shell.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-assertions-v2.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo-v2.gif",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo-v2.mp4",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo.gif",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo.mp4",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-scenes-v2.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-scenes.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\demo-chat-sprints-1-4-v2.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\demo-chat-sprints-1-4.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\CHANGELOG-README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\CHANGELOG-TEMPLATE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\bootstrap-prompt.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\gmail-magic-resend.html",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\lane.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-dogfood-manifest.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-dogfood-packet.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-email.html.mustache",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-packet-schema.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-packet.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-states.example.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\remotion-storyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\runtime-diagram.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\test\\cli.test.mjs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\HANDOFF.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\LICENSE",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\package.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-states.example.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\AGENTS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\lane.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-packet.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\SKILL.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\gmail-magic-resend.html",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\manifest.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\remotion-storyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\gmail-magic-resend.html",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\manifest.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\remotion-storyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\ProjectRecovery\\betterprhandoff-readability-first-use-20260906\\pack\\homenshum-easier-to-read-submissions-1.2.1.tgz",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_CONSUMER.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\source-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\installed-bindings.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\commands.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\normal-test.stdout",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\pack-current-source.stdout",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\install-exact-tarball.stdout",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\installed-help.stdout",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\normal-actual-installed-qa.stdout",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\long-actual-installed-qa.stdout",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\exit-observation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\receipt.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\current-source69.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\applied-six-owner.diff.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-inputs-01\\source-package-input-equivalence.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-320x800-normal-top-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-320x800-normal-top-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-320x800-normal-top-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-320x800-normal-top-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-390x844-text200-top-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-390x844-text200-top-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-390x844-text200-top-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-390x844-text200-top-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-1440x960-normal-top-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\normal-1440x960-normal-top-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-1440x960-normal-top-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\long-1440x960-normal-top-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-before-01\\browser\\report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_PLAN.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_BEFORE_RECEIPT.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-inputs-01\\actual-input-request.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright\\package.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright\\index.js",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright-core\\package.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current configured bytes: D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright-core\\browsers.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "entry/exit source and Git equal",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "browser raw input entry/exit equal",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "controller complete PASS and closed runtime",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "browser 168/168 and exact completed counts",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "only eight GET loads and no action requests",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "native-long-390x844-text200 native four keyboard and four pointer actions",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "native-normal-1440x960-normal native four keyboard and four pointer actions",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\input-entry.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\input-exit.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-footer.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-footer.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-snippet.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-snippet.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-top.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-top.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-footer.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-footer.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-snippet.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-snippet.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-top.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-top.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-footer.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-footer.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-snippet.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-snippet.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-top.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-top.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-footer.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-footer.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-keyboard.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-keyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-last-action.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-last-action.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-last-action.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-footer.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-footer.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-keyboard.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-keyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-last-action.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-last-action.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-last-action.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-footer.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-footer.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-snippet.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-snippet.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-top.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-top.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-footer.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-footer.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-snippet.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-snippet.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-top.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-top.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-footer.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-footer.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-snippet.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-snippet.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-top.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-top.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\runtime.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\command.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\command.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\config.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\controller-preflight.py.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\controller-report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\entry-custody.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\environment-policy.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\exit-custody.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\preflight.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\prepared-custody.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\recorder-preflight.mjs.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\syntax.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "original after manifest bytes: C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\syntax.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "all633 frozen tracked paths present",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: .github/workflows/ci.yml",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: .gitignore",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: .tours/01-one-command-end-to-end.tour",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: .tours/02-where-the-rules-live.tour",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: AGENTS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: CHANGELOG/README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: CHANGELOG/TEMPLATE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: CHANGELOG/components/changelog-lane.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: CHANGELOG/components/qa-packet.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: CHANGELOG/scripts/bin-init.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: HANDOFF.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: INTEGRATIONS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: LICENSE",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: SKILL.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: bin/init.mjs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: docs/SIMPLIFICATION_REPORT.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: docs/START_HERE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: docs/codebase/ARCHITECTURE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: docs/codebase/CONCERNS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: docs/codebase/CONVENTIONS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: docs/codebase/INTEGRATIONS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: docs/codebase/STACK.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: docs/codebase/STRUCTURE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: docs/codebase/TESTING.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: package.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/PRODUCT_GOAL.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/PRODUCT_JOURNEYS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/PROMOTION_LOG.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/SKILLS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/WIG_REVIEW.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/audit.mjs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/axe.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/.gitattributes",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/examples/final-long.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/examples/final-normal.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/excluded-artifacts.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/manifest.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/original-command-isolation.public-summary.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw-copy-map.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-criterion-assessment-01/assessment-checks.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-criterion-assessment-01/cli-raw-readback.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-criterion-assessment-01/manifest.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-criterion-assessment-01/measured-visual-observations.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/390x844-text200-heading-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/390x844-text200-heading-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/390x844-text200-heading-before.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/390x844-text200-heading-change-boundary.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/390x844-text200-heading-restored.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/change-boundary.md.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/command.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/freeze.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-h1-before-01/runtime.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/commands.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/exit-observation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/install-exact-tarball.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/install-exact-tarball.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/installed-bindings.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/installed-help.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/installed-help.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/normal-test.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/normal-test.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/pack-current-source.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/pack-current-source.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/source-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-heading-consumer-01/tarball-members.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/input-entry.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/input-exit.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1024x768-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1024x768-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1024x768-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-keyboard.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-keyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-0.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-0.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-0.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-1.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-1.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-1.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-2.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-2.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-2.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-3.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-3.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440-unavailable-native-pointer-3.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-reduced.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-reduced.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-reduced.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1440x960-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1920x1080-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1920x1080-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-1920x1080-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-320x800-normal-table-scrolled.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-320x800-normal-table-scrolled.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-320x800-normal-table-scrolled.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-320x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-320x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-320x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-360x800-normal-table-scrolled.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-360x800-normal-table-scrolled.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-360x800-normal-table-scrolled.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-360x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-360x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-360x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-keyboard.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-keyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-0.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-0.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-0.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-1.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-1.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-1.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-2.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-2.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-2.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-3.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-3.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390-unavailable-native-pointer-3.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-reduced.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-reduced.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-reduced.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-text200-table-scrolled-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-text200-table-scrolled.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-text200-table-scrolled.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-text200-table-scrolled.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-390x844-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-768x1024-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-768x1024-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/long-768x1024-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1024x768-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1024x768-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1024x768-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-keyboard.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-keyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-0.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-0.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-0.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-1.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-1.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-1.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-2.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-2.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-2.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-3.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-3.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440-unavailable-native-pointer-3.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-reduced.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-reduced.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-reduced.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1440x960-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1920x1080-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1920x1080-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-1920x1080-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-320x800-normal-table-scrolled.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-320x800-normal-table-scrolled.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-320x800-normal-table-scrolled.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-320x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-320x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-320x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-360x800-normal-table-scrolled.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-360x800-normal-table-scrolled.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-360x800-normal-table-scrolled.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-360x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-360x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-360x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-keyboard.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-keyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-0.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-0.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-0.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-1.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-1.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-1.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-2.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-2.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-2.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-3.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-3.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390-unavailable-native-pointer-3.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-reduced.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-reduced.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-reduced.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-text200-table-scrolled-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-text200-table-scrolled.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-text200-table-scrolled.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-text200-table-scrolled.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-390x844-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-768x1024-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-768x1024-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/normal-768x1024-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/browser/runtime.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-after-01/controller-report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-actions-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-actions-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-actions-before.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-actions-change-boundary.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-actions-restored.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-table-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-table-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-table-before.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-table-change-boundary.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/320x800-normal-table-restored.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-actions-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-actions-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-actions-before.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-actions-change-boundary.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-actions-restored.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-table-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-table-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-table-before.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-table-change-boundary.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/360x800-normal-table-restored.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-actions-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-actions-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-actions-before.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-actions-change-boundary.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-actions-restored.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-table-before.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-table-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-table-before.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-table-change-boundary.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/390x844-text200-table-restored.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/change-boundary.md.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/command.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/freeze.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-boundaries-before-01/runtime.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/input-entry.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/input-exit.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-1440x960-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-1440x960-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-1440x960-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-320x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-320x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-320x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-390x844-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-390x844-text200-table-scrolled-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-390x844-text200-table-scrolled.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-390x844-text200-table-scrolled.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-390x844-text200-table-scrolled.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-390x844-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-390x844-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/long-390x844-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-1440x960-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-1440x960-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-1440x960-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-320x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-320x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-320x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-390x844-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-390x844-text200-table-scrolled-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-390x844-text200-table-scrolled.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-390x844-text200-table-scrolled.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-390x844-text200-table-scrolled.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-390x844-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-390x844-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/normal-390x844-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/browser/runtime.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/command.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/command.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/controller-preflight.py.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/controller-report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-01/recorder-preflight.mjs.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-inputs-01/actual-h1.diff.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-inputs-01/prepare-command.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-inputs-01/prepare.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-inputs-01/prepare.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-inputs-01/source-package-input-equivalence.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-judge-01/closing-guard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-judge-01/template.diff.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-html-final-judge-01/viewed-pixels.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/input-entry.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/input-exit.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1024x768-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1024x768-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1024x768-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-0-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-0-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-0-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-0-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-1-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-1-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-1-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-1-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-2-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-2-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-2-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-2-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-3-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-3-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-3-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440-keyboard-3-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-reduced.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-reduced.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-reduced.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1440x960-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1920x1080-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1920x1080-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-1920x1080-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-320x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-320x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-320x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-360x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-360x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-360x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-0-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-0-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-0-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-0-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-1-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-1-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-1-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-1-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-2-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-2-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-2-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-2-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-3-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-3-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-3-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390-keyboard-3-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-reduced.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-reduced.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-reduced.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-390x844-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-768x1024-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-768x1024-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/long-768x1024-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1024x768-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1024x768-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1024x768-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-0-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-0-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-0-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-0-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-1-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-1-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-1-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-1-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-2-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-2-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-2-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-2-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-3-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-3-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-3-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440-keyboard-3-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-reduced.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-reduced.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-reduced.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1920x1080-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1920x1080-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-1920x1080-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-320x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-320x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-320x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-360x800-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-360x800-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-360x800-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-0-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-0-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-0-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-0-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-1-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-1-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-1-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-1-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-2-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-2-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-2-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-2-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-3-activation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-3-activation.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-3-focus.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390-keyboard-3-focus.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-reduced.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-reduced.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-reduced.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-text200-font-vector.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-text200.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-text200.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-390x844-text200.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-768x1024-normal.dom.html.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-768x1024-normal.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/normal-768x1024-normal.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/browser/runtime.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-rendered-baseline-01/controller-report.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-components.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-components.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-db.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-db.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-existing.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-existing.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-integrations.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-integrations.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-pages.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-pages.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-scripts.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-scripts.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-server.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/add-server.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-aider.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-aider.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-cline.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-cline.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-cursor.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-cursor.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-generic.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-generic.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-project.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-project.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-user.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/auto-user.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/commands.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/concurrent-0.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/concurrent-0.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/concurrent-1.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/concurrent-1.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/concurrent-qa-0.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/concurrent-qa-0.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/concurrent-qa-1.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/concurrent-qa-1.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/generated-artifacts.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/init-repeat.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/init-repeat.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/init.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/init.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-aider-repeat.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-aider-repeat.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-aider.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-aider.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-cline-repeat.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-cline-repeat.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-cline.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-cline.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-cursor-repeat.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-cursor-repeat.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-cursor.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-cursor.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-generic-repeat.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-generic-repeat.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-generic.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-generic.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-project-repeat.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-project-repeat.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-project.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-project.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-user-repeat.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-user-repeat.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-user.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/install-user.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/installed-help-for-copy-paste.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/installed-help-for-copy-paste.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-0.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-0.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-1.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-1.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-2.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-2.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-3.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-3.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-4.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-4.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-5.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/invalid-5.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/noargs-help.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/noargs-help.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/owned-git-init.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/owned-git-init.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/printed-installed-init.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/printed-installed-init.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/printed-source-init.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/printed-source-init.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/printed-source-powershell.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/printed-source-powershell.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/qa-create.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/qa-create.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/qa-init-repeat.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/qa-init-repeat.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/qa-init.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/qa-init.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/qa-repeat.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/qa-repeat.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/semantic-checks.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/source-after.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/source-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/source-help-powershell.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/source-help-powershell.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/source-help.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/source-help.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-0.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-0.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-1.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-1.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-2.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-2.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-3.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-3.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-4.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-4.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-5.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-5.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-6.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-6.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-7.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/sustained-7.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/traversal-backslash.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/traversal-backslash.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/traversal-forward.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-cli-journeys-01/traversal-forward.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/commands.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/exit-observation.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/install-exact-tarball.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/install-exact-tarball.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/installed-bindings.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/installed-help.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/installed-help.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/normal-test.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/normal-test.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/pack-current-source.stderr.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/pack-current-source.stdout.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/source-before.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterpr-repaired-consumer-01/tarball-members.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-betterprhandoff-cli-journeys-01/semantic-checks.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m-ci-doc-transfer-01/receipt.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_BASELINE_CLI_JUDGE.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_BASELINE_CLI_JUDGE.md.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.md.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_FINAL_CLI_JUDGE.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_FINAL_CLI_JUDGE.md.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_HEADING_CONSUMER.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_HTML_AFTER_INTERMEDIATE_JUDGE.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_HTML_AFTER_INTERMEDIATE_JUDGE.md.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_HTML_FINAL_JUDGE.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_HTML_FINAL_JUDGE.md.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_RENDERED_BASELINE_JUDGE.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_RENDERED_BASELINE_JUDGE.md.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_REPAIRED_CLI_FIRST_USE.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_REPAIRED_CONSUMER.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/source-bindings.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/current-handoff-20260906/verify.py",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/lighthouse.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/npm-test.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/screenshot-desktop-1440.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/screenshot-mobile-375.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/screenshot-tablet-768.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/summary.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: promotion/evidence/surface-measurements.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/ascii-runtime.txt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/changelog/chat.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/changelog/schema-s5.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/changelog/shell.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/chat-sprints-1-4-assertions-v2.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/chat-sprints-1-4-demo-v2.gif",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/chat-sprints-1-4-demo-v2.mp4",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/chat-sprints-1-4-demo.gif",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/chat-sprints-1-4-demo.mp4",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/chat-sprints-1-4-scenes-v2.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/chat-sprints-1-4-scenes.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/demo-chat-sprints-1-4-v2.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: submissions/nodebench-redesign/demo-chat-sprints-1-4.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/CHANGELOG-README.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/CHANGELOG-TEMPLATE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/bootstrap-prompt.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/gmail-magic-resend.html",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/lane.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/qa-dogfood-manifest.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/qa-dogfood-packet.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/qa-email.html.mustache",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/qa-packet-schema.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/qa-packet.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/qa-states.example.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/remotion-storyboard.json",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: templates/runtime-diagram.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "frozen633 bytes: test/cli.test.mjs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "effective69 source subset exact",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "current Git exactly matches browser guard",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "exact six intended owners",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "no staged changes",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "six-owner frozen raw/blob: templates/gmail-magic-resend.html",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "six-owner frozen raw/blob: CHANGELOG/components/qa-packet.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "six-owner frozen raw/blob: HANDOFF.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "six-owner frozen raw/blob: docs/START_HERE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "six-owner frozen raw/blob: docs/codebase/CONCERNS.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "six-owner frozen raw/blob: docs/codebase/STRUCTURE.md",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "selected proposal equals actual template",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "six authored owners whitespace PASS",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: normal-320x800-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: normal-320x800-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: normal-320x800-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: normal-320x800-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: normal-320x800-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: normal-320x800-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: long-320x800-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: long-320x800-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: long-320x800-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: long-320x800-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: long-320x800-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: long-320x800-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: normal-390x844-text200-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: normal-390x844-text200-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: normal-390x844-text200-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: normal-390x844-text200-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: normal-390x844-text200-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: normal-390x844-text200-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: long-390x844-text200-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: long-390x844-text200-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: long-390x844-text200-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: long-390x844-text200-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: long-390x844-text200-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: long-390x844-text200-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: normal-1440x960-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: normal-1440x960-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: normal-1440x960-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: normal-1440x960-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: normal-1440x960-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: normal-1440x960-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: long-1440x960-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: long-1440x960-normal-top.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: long-1440x960-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: long-1440x960-normal-snippet.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: long-1440x960-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: long-1440x960-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: native-long-390x844-text200-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: native-long-390x844-text200-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: native-long-390x844-text200-last-action.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: native-long-390x844-text200-last-action.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: native-long-390x844-text200-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: native-long-390x844-text200-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: native-normal-1440x960-normal-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: native-normal-1440x960-normal-keyboard.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: native-normal-1440x960-normal-last-action.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: native-normal-1440x960-normal-last-action.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG bytes/dimensions: native-normal-1440x960-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "actual PNG directly viewed or exact same pixels: native-normal-1440x960-normal-footer.png",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "name": "two long phone instructions newly fully visible",
+    "pass": true,
+    "detail": null
+  }
+]

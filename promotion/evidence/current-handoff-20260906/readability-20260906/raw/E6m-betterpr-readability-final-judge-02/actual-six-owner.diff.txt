@@ -1,0 +1,249 @@
+diff --git a/CHANGELOG/components/qa-packet.md b/CHANGELOG/components/qa-packet.md
+index 3ba27d6..45a8d98 100644
+--- a/CHANGELOG/components/qa-packet.md
++++ b/CHANGELOG/components/qa-packet.md
+@@ -4,6 +4,12 @@
+ >
+ > **Append rule**: New entries go at the TOP. Never rewrite older entries.
+ 
++## 2026-09-06 — Put the change title and proof fields in reading order
++Use a compact “QA packet” heading, retain the complete human-derived title beneath it, and move the unchanged exact feature ID to a labelled footer. Replace the single three-column snippet with full-width Component, Proof and Correction prompt fields at body size. All original values and four unavailable review labels stay visible; no new control or backend is added.
++**Verification**: Fresh generated-consumer, text-preservation and browser proof is pending for this layout. Earlier table/heading results remain historical; no readability or email-client pass is claimed here.
++**Commit**: `pending`. **Author**: pending.
++**Touches**: none; one template surface.
++
+ ## 2026-09-06 — Wrap preview content and disclose unconfigured actions
+ Keep long table and code content within the preview layout, and replace placeholder links with ordinary review labels marked Not configured. The template states that it cannot approve, request a fix, or resend. Long headings also wrap within the card. Current generated normal and long previews pass the focused 320-pixel, desktop and computed doubled-text containment checks; the broader table and native-action observations retain their earlier source bindings. No email-client or delivery result is claimed.
+ **Commit**: `pending`. **Author**: pending.
+diff --git a/HANDOFF.md b/HANDOFF.md
+index 3d8f042..51ba3fd 100644
+--- a/HANDOFF.md
++++ b/HANDOFF.md
+@@ -61,16 +61,23 @@ and excludes HANDOFF and promotion evidence. No package allowlist change is
+ implied. Package consumers should follow their included README and use the
+ reviewed source checkout for the historical proof packet.
+ 
+-The browser proof addresses the generated static preview with normal and long
+-illustrative inputs. It preserves original narrow-table, misleading-action and
++The readability layout starts with “QA packet”, keeps the complete change title
++beneath it and places the exact feature ID in a labelled footer. Component,
++Proof and Correction prompt use full-width labelled fields; the four review
++actions remain unconfigured. This layout needs its own generated-consumer and
++browser proof. No result below is relabelled as acceptance of the new layout.
++
++The historical browser proof addresses the preceding static preview with normal
++and long illustrative inputs. It preserves original narrow-table, misleading-action and
+ enlarged-heading failures. The final heading-only run passed 68 checks across
+ six normal/long states and
+ two scrolled tables. Its 14 PNGs include illustrative full-page captures; this
+ packet retains the eight actual viewport/scrolled images and structured state.
+ The broad seven-pair and native-action observations belong to the preceding
+ source with unchanged table/action bytes. They were not rerun or silently
+-relabeled as final-source observations. Long titles and heavily wrapped narrow
+-columns remain usability limits. Full visual, responsive, interaction and
++relabeled as final-source observations. The historical review identified long
++titles and heavily wrapped narrow columns as reading limitations. It does not
++establish the new layout's usability. Full visual, responsive, interaction and
+ readiness scores remain unassigned.
+ 
+ The [independent criterion assessment](promotion/evidence/current-handoff-20260906/raw/E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.md.txt)
+@@ -87,12 +94,14 @@ client's rendering, a delivery service, a review backend, recording/video
+ verification, a physical device or a model/provider. Computed doubled text is
+ not native browser zoom. No global host was activated and no email was sent.
+ 
+-The configured [ordinary CI](.github/workflows/ci.yml) uses Node 22 on Windows
+-and Ubuntu. Configuring a job
+-does not mean it has run; actual shared results require their own receipts.
++The [ordinary CI](.github/workflows/ci.yml) ran on the published source
++`42e57a96f9ae961f501729ec6ace5c3d8dbe3aee`: [shared run 34010433758](https://github.com/HomenShum/BetterPRHandoff/actions/runs/34010433758)
++completed installation, 30/30 scenarios and packaging on both Windows and
++Ubuntu with Node 22.23.2. It did not replay a browser or certify this later
++readability change, which requires its own current-source shared result.
+ Historical promotion records remain unchanged and describe their original
+-source. Current source bindings explicitly include CI and this handoff,
+-without relabeling old measurements as current.
++source. The historical publication bindings include its CI and handoff versions;
++they do not certify the later readability template or this updated handoff.
+ 
+ ## Preserve and verify evidence
+ 
+@@ -110,16 +119,23 @@ controlled repaired command cases supply the current proof. Profiles, private
+ environment/state and caches are also excluded. A byte verifier does not rerun
+ the CLI or browser and cannot reconstruct omitted sessions or files.
+ 
+-Run these from the repository root; Python needs no added package:
++Run the historical packet's byte check from the repository root; Python needs
++no added package:
+ 
+ ```sh
+ python promotion/evidence/current-handoff-20260906/verify.py
+-python promotion/evidence/current-handoff-20260906/verify.py --source-root .
+ ```
+ 
+-The first check requires exact packet bytes. The optional source check verifies
+-69 source files against actual Git-canonical byte/hash/blob identities alongside
+-their recorded raw identities. Only proven text rows accept CRLF pairs converted
+-to LF; binary media remain byte-exact. Historical source measurements and the
+-67-file heading proof remain historical. The added CI and current handoff have
+-their own publication binding, rather than borrowing an older commit identity.
++Its optional source check is for the matching publication checkout at commit
++`42e57a96f9ae961f501729ec6ace5c3d8dbe3aee`, not this later readability change:
++
++```sh
++python promotion/evidence/current-handoff-20260906/verify.py --source-root "<matching-publication-checkout>"
++```
++
++That historical check binds 69 source files, allowing only proven text CRLF-to-LF
++conversion while preserving binary media exactly. It is expected to reject the
++later template and handoff. Keep all 554 raw evidence copies and both inert HTML
++examples unchanged. Fresh readability proof must have its own current source,
++package, installed-output and observation bindings; the old packet cannot
++certify new HTML merely because its preserved bytes still verify.
+diff --git a/docs/START_HERE.md b/docs/START_HERE.md
+index 51f8a34..ed018d8 100644
+--- a/docs/START_HERE.md
++++ b/docs/START_HERE.md
+@@ -258,9 +258,11 @@ The one thing this product renders in a browser is
+ `easier qa <feature-id>` from `templates/gmail-magic-resend.html`. It is a
+ static email preview — no scripts, no external fonts, no images. Its four
+ unconfigured review actions are ordinary text labelled `Not configured`; they
+-do not submit a verdict, request a fix, approve, or resend. Table and code
+-wrapping is a layout change, whose visual result needs the separate browser
+-proof. File-generation tests alone do not establish responsive readability.
++do not submit a verdict, request a fix, approve, or resend. The preview starts
++with “QA packet”, keeps the complete change title below it, and puts the exact
++feature ID in a labelled footer. Component, Proof and Correction prompt use
++full-width labelled fields. The visual result needs separate browser proof;
++file-generation tests alone do not establish responsive readability.
+ 
+ ## Step 8 — Failure and recovery
+ 
+diff --git a/docs/codebase/CONCERNS.md b/docs/codebase/CONCERNS.md
+index 2658150..c4124d6 100644
+--- a/docs/codebase/CONCERNS.md
++++ b/docs/codebase/CONCERNS.md
+@@ -109,12 +109,16 @@ alone does not establish byte identity.
+ - Installer preservation and detection use owned profiles and destinations.
+   They do not activate a real coding-agent host or modify a personal profile.
+   See TESTING.md for the exact finite scenarios and current command evidence.
+-- `npm test` does not render HTML. The current template wraps table/code
+-  content and presents four unconfigured review labels as ordinary text, with
+-  explicit disclosure. Its separate browser proof remains required. No Gmail
+-  delivery, functional approval action, or completed review follows from it.
+-- Everything was measured on Node v22.22.2 on Windows 11. Nothing has been run
+-  on macOS or Linux in this pass.
++- `npm test` does not render HTML. The preview uses a compact heading, the full
++  change title, a labelled feature-ID footer, and full-width labelled snippet
++  fields. Four unconfigured review labels remain ordinary text with explicit
++  disclosure. Separate browser proof is required; no Gmail delivery, functional
++  approval action, or completed review follows from file generation.
++- The earlier local evidence used Node v22.22.2 on Windows 11. Published source
++  `42e57a96f9ae961f501729ec6ace5c3d8dbe3aee` subsequently passed all 30 scenarios
++  in both Windows and Ubuntu jobs of [shared run 34010433758](https://github.com/HomenShum/BetterPRHandoff/actions/runs/34010433758),
++  using Node 22.23.2. Those jobs also completed installation and packaging.
++  They do not certify the later readability change, macOS or an email client.
+ 
+ ## Things that look like problems and are not
+ 
+diff --git a/docs/codebase/STRUCTURE.md b/docs/codebase/STRUCTURE.md
+index 9299ba4..95762f7 100644
+--- a/docs/codebase/STRUCTURE.md
++++ b/docs/codebase/STRUCTURE.md
+@@ -53,7 +53,7 @@ unused exports — there are none.
+ | `qa-states.example.json` | 160 | `easier qa-init` | `qa.config.json` at the adopter's repo root |
+ | `qa-dogfood-packet.md` | 67 | `easier qa <id>` | `QA_DOGFOOD/<id>/README.md` |
+ | `qa-dogfood-manifest.json` | 73 | `easier qa <id>` | `QA_DOGFOOD/<id>/manifest.json` |
+-| `gmail-magic-resend.html` | 107 | `easier qa <id>` | `QA_DOGFOOD/<id>/gmail-magic-resend.html` — **the only file this product renders in a browser** |
++| `gmail-magic-resend.html` | 109 | `easier qa <id>` | `QA_DOGFOOD/<id>/gmail-magic-resend.html` — **the only file this product renders in a browser** |
+ | `remotion-storyboard.json` | 47 | `easier qa <id>` | `QA_DOGFOOD/<id>/remotion-storyboard.json` |
+ | `qa-email.html.mustache` | 111 | `easier install` | the Gmail Magic Resend email template, rendered by a generator, not by this CLI |
+ 
+diff --git a/templates/gmail-magic-resend.html b/templates/gmail-magic-resend.html
+index 9ff1926..11ffdb1 100644
+--- a/templates/gmail-magic-resend.html
++++ b/templates/gmail-magic-resend.html
+@@ -40,21 +40,24 @@
+       .unconfigured-actions li {
+         margin: 8px 0;
+       }
+-      table {
+-        width: 100%;
+-        table-layout: fixed;
+-        border-collapse: collapse;
+-        margin-top: 16px;
++      .snippet {
++        margin: 16px 0 0;
+       }
+-      th,
+-      td {
++      .snippet > div {
+         border-top: 1px solid #eaded2;
+-        text-align: left;
+-        padding: 10px;
+-        vertical-align: top;
+-        font-size: 13px;
++        padding: 12px 0;
++      }
++      .snippet dt {
++        margin-bottom: 4px;
++        font-weight: 700;
++      }
++      .snippet dd {
++        margin: 0;
+         overflow-wrap: anywhere;
+       }
++      .feature-id {
++        margin: 24px 0 0;
++      }
+       code {
+         overflow-wrap: anywhere;
+         background: #f1e6dc;
+@@ -65,8 +68,8 @@
+   </head>
+   <body>
+     <main class="card">
+-      <p><code>__FEATURE_ID__</code></p>
+-      <h1>__TITLE__ QA packet</h1>
++      <h1>QA packet</h1>
++      <p>__TITLE__ QA packet</p>
+       <p>Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.</p>
+       <ul class="unconfigured-actions">
+         <li><strong>Open test link</strong>: Not configured</li>
+@@ -86,22 +89,21 @@
+         <li>Mobile state</li>
+       </ul>
+       <h2>Snapshot snippets</h2>
+-      <table>
+-        <thead>
+-          <tr>
+-            <th>Component</th>
+-            <th>Proof</th>
+-            <th>Correction prompt</th>
+-          </tr>
+-        </thead>
+-        <tbody>
+-          <tr>
+-            <td><code>surface.primary</code></td>
+-            <td>before / after / diff pending</td>
+-            <td>Attach a component-scoped fix prompt if the snippet fails.</td>
+-          </tr>
+-        </tbody>
+-      </table>
++      <dl class="snippet">
++        <div>
++          <dt>Component</dt>
++          <dd><code>surface.primary</code></dd>
++        </div>
++        <div>
++          <dt>Proof</dt>
++          <dd>before / after / diff pending</dd>
++        </div>
++        <div>
++          <dt>Correction prompt</dt>
++          <dd>Attach a component-scoped fix prompt if the snippet fails.</dd>
++        </div>
++      </dl>
++      <p class="feature-id"><strong>Feature ID:</strong> <code>__FEATURE_ID__</code></p>
+     </main>
+   </body>
+ </html>

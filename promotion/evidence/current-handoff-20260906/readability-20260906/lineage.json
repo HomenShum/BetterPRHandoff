@@ -1,0 +1,95 @@
+{
+  "scope": "Historical publication, actual source/package/native proof, then documentation-only publication.",
+  "historicalCommit": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "historicalCopies": [
+    {
+      "origin": "promotion/evidence/current-handoff-20260906/source-bindings.json",
+      "destination": "history/42e57-source-bindings.json.txt",
+      "bytes": 48644,
+      "sha256": "54b92beb9c24b781a5175e3ffa3b678a002c04ccb5be1540da9c36e1662b26e5",
+      "rawGitBlob": "1f99b073ef529671f59932bbd008c20c5d6d3e45",
+      "mode": "exact-historical-copy"
+    },
+    {
+      "origin": "promotion/evidence/current-handoff-20260906/manifest.json",
+      "destination": "history/42e57-manifest.json.txt",
+      "bytes": 151782,
+      "sha256": "c39a4d18a9f50bce5ca307640bbafd24ccdd5520ed0b98a12b83c07a08e042c7",
+      "rawGitBlob": "2b89e52c2aeabff39b52eaa82eecfb52f10430e2",
+      "mode": "exact-historical-copy"
+    },
+    {
+      "origin": "promotion/evidence/current-handoff-20260906/README.md",
+      "destination": "history/42e57-packet-README.md.txt",
+      "bytes": 9298,
+      "sha256": "5d371c0868f8f013ef568b0a81d955187773e07c6c358710ea1f5a4245aab064",
+      "rawGitBlob": "0af0df0d256bc6dfd435a97c96c01a95c2eed3bc",
+      "mode": "exact-historical-copy"
+    },
+    {
+      "origin": "E6m-betterpr-readability-docs-proposal-01/before/HANDOFF.md",
+      "destination": "history/42e57-HANDOFF.md.txt",
+      "bytes": 6694,
+      "sha256": "16e83b524288e44cc277181d1c292b0e62d51b176abe18a31fa26e2aa0ace13b",
+      "rawGitBlob": "3d8f0426b807431d39010a28aee5818603815339",
+      "mode": "exact-historical-copy"
+    }
+  ],
+  "producerSource69": {
+    "path": "raw/E6m-betterpr-readability-docs-proposal-02/current-source69.json",
+    "sha256": "e6162218f2d2b2b41c11412b6f64b67278c76a7dc2478592041e689185b0d53c"
+  },
+  "producerReceipt": {
+    "path": "raw/E6m_BETTERPRHANDOFF_READABILITY_CONSUMER.json",
+    "sha256": "6b1dac9bcf8d02f47dee3bf406049cfc2a32bd8d98671b2e25de630ce4ac9ffe"
+  },
+  "templateSha256": "92dbb0deb2b3f8055f6def51bf231fd9f082dffaeb558c2290ddc738701f13ba",
+  "after": {
+    "path": "raw/E6m-betterpr-readability-after-01/browser/report.json",
+    "sha256": "bb74306e682002b1e5e96dbb6cc755ef1370ac790c29968202a884ef026ee084",
+    "checks": 168,
+    "actualPngs": 24
+  },
+  "independentJudgment": {
+    "path": "raw/E6m_BETTERPRHANDOFF_READABILITY_FINAL_JUDGE.json",
+    "sha256": "3187479ef81abeab9b97dc08c526c8dd77350c8a76d7c008f8b3e1ae7b0e0f26"
+  },
+  "criteria": {
+    "path": "raw/E6m_BETTERPRHANDOFF_READABILITY_CRITERION_ASSESSMENT.json",
+    "sha256": "90c1b7703483f659e5f2fc391434895e3347aa1f5fa17daa60ca07a1eea767c0",
+    "historicalValuesUnchanged": true
+  },
+  "laterSourceOverrides": [
+    {
+      "path": "HANDOFF.md",
+      "producer": {
+        "bytes": 7678,
+        "sha256": "e3694ea86125f964eb84f79c5113f8343c198037ce4dbfb8f5b8fadf596f7c7c"
+      },
+      "publication": {
+        "path": "HANDOFF.md",
+        "bytes": 9080,
+        "sha256": "43857493e2bf7c36c192e2fd4e4970aee820f00245a9f18a68f71fb8ee38efe5",
+        "rawGitBlob": "8701a8a3fffbe25cb0a54f55f40aa3a63589cec8"
+      }
+    },
+    {
+      "path": "CHANGELOG/components/qa-packet.md",
+      "producer": {
+        "bytes": 1885,
+        "sha256": "9e6b94b8600560f0f85e11c5061b9547c171ba34e424016983af183da9e44e17"
+      },
+      "publication": {
+        "path": "CHANGELOG/components/qa-packet.md",
+        "bytes": 2219,
+        "sha256": "a8f1dfff3693b3bf7712a0457d215bf5315b095886fe3831c36910c48a950fa5",
+        "rawGitBlob": "269d4c97d8ebf801fe7dd85482f217882f248d5c"
+      }
+    }
+  ],
+  "notReplayed": "The two publication prose updates and evidence metadata were not another application test/package/browser run.",
+  "oldRawCopiesPreserved": 554,
+  "oldInertExamplesPreserved": 2,
+  "fullDimensionScores": null,
+  "overallScore": null
+}

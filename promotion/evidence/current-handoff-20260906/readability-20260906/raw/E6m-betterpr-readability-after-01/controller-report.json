@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "exitCode": 0,
+  "seconds": 6.047,
+  "timedout": false,
+  "observerErrors": [],
+  "cleanup": [],
+  "ownedProcesses": [
+    {
+      "pid": 29280,
+      "created": 1788669138.2603447,
+      "name": "node.exe"
+    },
+    {
+      "pid": 30860,
+      "created": 1788669140.1618247,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 28000,
+      "created": 1788669140.6696672,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 45516,
+      "created": 1788669140.6838248,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 52476,
+      "created": 1788669140.9426613,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 32172,
+      "created": 1788669141.072952,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 2288,
+      "created": 1788669141.091121,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 41708,
+      "created": 1788669141.1832523,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 36916,
+      "created": 1788669141.1890244,
+      "name": "chrome.exe"
+    }
+  ],
+  "survivors": [],
+  "listeners": [],
+  "allInputSourceGitBytesUnchanged": true,
+  "complete": true,
+  "exitMatchesReport": true,
+  "browserVersion": "149.0.7827.55",
+  "fullGrades": null
+}

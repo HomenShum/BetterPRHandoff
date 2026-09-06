@@ -1,0 +1,222 @@
+{
+  "directlyViewedUniqueImages": 13,
+  "captures": [
+    {
+      "path": "normal-320x800-normal-top.png",
+      "bytes": 40385,
+      "sha256": "4aa4b1a8fd6f2fa4165091d0d0047f0e04596ecc525a3736e97d349cf3361cbf",
+      "width": 320,
+      "height": 800,
+      "directlyViewedRepresentative": "normal-320x800-normal-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "normal-320x800-normal-snippet.png",
+      "bytes": 37022,
+      "sha256": "f54bc4f744d226f8c1757e0e2c542b7da687aec9a1e8aca00befe8276a98d2eb",
+      "width": 320,
+      "height": 800,
+      "directlyViewedRepresentative": "normal-320x800-normal-snippet.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "normal-320x800-normal-footer.png",
+      "bytes": 37022,
+      "sha256": "f54bc4f744d226f8c1757e0e2c542b7da687aec9a1e8aca00befe8276a98d2eb",
+      "width": 320,
+      "height": 800,
+      "directlyViewedRepresentative": "normal-320x800-normal-snippet.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "long-320x800-normal-top.png",
+      "bytes": 38137,
+      "sha256": "902b7f1a173461ea0b4068e2ec29f680ded19e8208b345044f9aad36920afc22",
+      "width": 320,
+      "height": 800,
+      "directlyViewedRepresentative": "long-320x800-normal-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "long-320x800-normal-snippet.png",
+      "bytes": 35718,
+      "sha256": "18ef967ef61d5a1b4dad9a2c4c92f4b5f3c74e66971e21cda4bec1672b696c06",
+      "width": 320,
+      "height": 800,
+      "directlyViewedRepresentative": "long-320x800-normal-snippet.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "long-320x800-normal-footer.png",
+      "bytes": 35718,
+      "sha256": "18ef967ef61d5a1b4dad9a2c4c92f4b5f3c74e66971e21cda4bec1672b696c06",
+      "width": 320,
+      "height": 800,
+      "directlyViewedRepresentative": "long-320x800-normal-snippet.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "normal-390x844-text200-top.png",
+      "bytes": 58743,
+      "sha256": "70a39994f114d52cfb147aa282f9d80a58fa313958fce7e076afd56855dcad19",
+      "width": 390,
+      "height": 844,
+      "directlyViewedRepresentative": "normal-390x844-text200-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "normal-390x844-text200-snippet.png",
+      "bytes": 51006,
+      "sha256": "1cc5171f7392b95fbfd58bca9704b9d7fc3407aeb62797e76d617618007b1982",
+      "width": 390,
+      "height": 844,
+      "directlyViewedRepresentative": "normal-390x844-text200-snippet.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "normal-390x844-text200-footer.png",
+      "bytes": 51006,
+      "sha256": "1cc5171f7392b95fbfd58bca9704b9d7fc3407aeb62797e76d617618007b1982",
+      "width": 390,
+      "height": 844,
+      "directlyViewedRepresentative": "normal-390x844-text200-snippet.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "long-390x844-text200-top.png",
+      "bytes": 59578,
+      "sha256": "1ce1d090a15337acaafcca20beb186619bb040e1891f076f5abf764ca28ba958",
+      "width": 390,
+      "height": 844,
+      "directlyViewedRepresentative": "long-390x844-text200-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "long-390x844-text200-snippet.png",
+      "bytes": 55440,
+      "sha256": "e32a7d9edd6b838b8c28faeebfb84bcbc872d804882add6d4f2baa26c828a67f",
+      "width": 390,
+      "height": 844,
+      "directlyViewedRepresentative": "long-390x844-text200-snippet.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "long-390x844-text200-footer.png",
+      "bytes": 55573,
+      "sha256": "037b1f26423f0fefc84918719b89d487112d0d4016fadc719bbc7a95fcbd5a70",
+      "width": 390,
+      "height": 844,
+      "directlyViewedRepresentative": "long-390x844-text200-footer.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "normal-1440x960-normal-top.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "width": 1440,
+      "height": 960,
+      "directlyViewedRepresentative": "normal-1440x960-normal-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "normal-1440x960-normal-snippet.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "width": 1440,
+      "height": 960,
+      "directlyViewedRepresentative": "normal-1440x960-normal-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "normal-1440x960-normal-footer.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "width": 1440,
+      "height": 960,
+      "directlyViewedRepresentative": "normal-1440x960-normal-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "long-1440x960-normal-top.png",
+      "bytes": 72695,
+      "sha256": "028d8fc4de17661889ae532fce0144d6ead9055367e1cc38271ae9450abcacf1",
+      "width": 1440,
+      "height": 960,
+      "directlyViewedRepresentative": "long-1440x960-normal-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "long-1440x960-normal-snippet.png",
+      "bytes": 72699,
+      "sha256": "0ea5e9c0f47fbaa7777823222d62906cd3ccffa5550759fd235b4d79fc145d48",
+      "width": 1440,
+      "height": 960,
+      "directlyViewedRepresentative": "long-1440x960-normal-snippet.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "long-1440x960-normal-footer.png",
+      "bytes": 72699,
+      "sha256": "0ea5e9c0f47fbaa7777823222d62906cd3ccffa5550759fd235b4d79fc145d48",
+      "width": 1440,
+      "height": 960,
+      "directlyViewedRepresentative": "long-1440x960-normal-snippet.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "native-long-390x844-text200-keyboard.png",
+      "bytes": 59578,
+      "sha256": "1ce1d090a15337acaafcca20beb186619bb040e1891f076f5abf764ca28ba958",
+      "width": 390,
+      "height": 844,
+      "directlyViewedRepresentative": "long-390x844-text200-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "native-long-390x844-text200-last-action.png",
+      "bytes": 67526,
+      "sha256": "ef6b08b58cb9c064e38e08c337d2cd3118d68b09ffda0ad9a6b3a13f393b94e4",
+      "width": 390,
+      "height": 844,
+      "directlyViewedRepresentative": "native-long-390x844-text200-last-action.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "native-long-390x844-text200-footer.png",
+      "bytes": 55573,
+      "sha256": "037b1f26423f0fefc84918719b89d487112d0d4016fadc719bbc7a95fcbd5a70",
+      "width": 390,
+      "height": 844,
+      "directlyViewedRepresentative": "long-390x844-text200-footer.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "native-normal-1440x960-normal-keyboard.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "width": 1440,
+      "height": 960,
+      "directlyViewedRepresentative": "normal-1440x960-normal-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "native-normal-1440x960-normal-last-action.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "width": 1440,
+      "height": 960,
+      "directlyViewedRepresentative": "normal-1440x960-normal-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    },
+    {
+      "path": "native-normal-1440x960-normal-footer.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "width": 1440,
+      "height": 960,
+      "directlyViewedRepresentative": "normal-1440x960-normal-top.png",
+      "viewType": "actual exact viewport, not full-page"
+    }
+  ],
+  "note": "13 unique raster hashes directly viewed cover all24 raw PNGs; duplicates were not represented as24 independent image openings."
+}

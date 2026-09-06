@@ -1,0 +1,31 @@
+Builder mode. **Six-cell before capture complete; source guard closed.**
+
+A reviewer needs the actual title and proof layout preserved before the selected readability change. The once-only run captured six normal/long states at 320×800, 390×844 computed doubled text, and 1440×960. It produced twelve top/snippet views and **24 exact-viewport PNGs** in 3.344 seconds. All twelve temporary native 3px overlays were removed with exact full DOM, attributes, geometry and computed-style restoration.
+
+All **106 source/input/tool bindings**, HEAD/tree/refs/index/status and raw index remained exact during the run. Browser, context and owned loopback server closed normally; nine observed owned processes have no survivors. No forced cleanup, listener, browser error or capture failure remains. Fourteen actual saved PNGs were viewed, representing every cell and both affected surfaces; the precise list is in the JSON.
+
+| State | H1 height | First instruction fully visible initially | Table width × height |
+|---|---:|---|---|
+| normal-320x800-normal | 140px | True | 222 × 222px |
+| long-320x800-normal | 560px | False | 222 × 222px |
+| normal-390x844-text200 | 340px | True | 292 × 476px |
+| long-390x844-text200 | 1224px | False | 292 × 476px |
+| normal-1440x960-normal | 35px | True | 760 × 87px |
+| long-1440x960-normal | 140px | True | 760 × 87px |
+
+The long phone title visibly consumes the initial screen; at 320 the first instruction is cut by the viewport, and at 390 doubled text it is below the fold. Phone snippet columns break ordinary words into multiple fragments. Desktop has readable compact columns, so the next layout must explicitly judge its increased vertical length. These are before observations, not failures of containment or capture.
+
+`CHANGE A` identifies the complete current ID/H1 region; `CHANGE B` identifies the table. Blue card boxes protect palette, padding and existing unavailable-action scope. Keep every full ID/title, evidence and correction value, lane bullet, instruction and pending state accessible. The static scaffold has no active loading/error/approval/email states; do not invent those while changing layout. New native after journeys remain required, and this capture changes no prior scores.
+
+Source is committed `42e57a96f9ae961f501729ec6ace5c3d8dbe3aee`, tree `2724c85cc595fbd05e50c16b5ba6caf9b2d5c394`, current template `f23bff53…`. The selected `92dbb0de…` template was not loaded. Existing generated inputs were served byte-for-byte, not regenerated. Computed doubling is not native zoom or device proof. No browser or source custody guard remains open.
+
+Key actual files under `E6m-betterpr-readability-before-01/browser/`:
+
+- [Long 390 doubled title raw](E6m-betterpr-readability-before-01/browser/long-390x844-text200-top-before.png) and [labelled](E6m-betterpr-readability-before-01/browser/long-390x844-text200-top-change-boundary.png).
+- [Normal 390 doubled snippet raw](E6m-betterpr-readability-before-01/browser/normal-390x844-text200-snippet-before.png) and [labelled](E6m-betterpr-readability-before-01/browser/normal-390x844-text200-snippet-change-boundary.png).
+- [Long 320 title labelled](E6m-betterpr-readability-before-01/browser/long-320x800-normal-top-change-boundary.png).
+- [Normal desktop raw](E6m-betterpr-readability-before-01/browser/normal-1440x960-normal-top-before.png) and [long desktop title labelled](E6m-betterpr-readability-before-01/browser/long-1440x960-normal-top-change-boundary.png).
+
+[Structured six-cell receipt](E6m_BETTERPRHANDOFF_READABILITY_BEFORE_RECEIPT.json) binds all outputs and exact closure. Root can inspect these pixels and proceed with its already-selected sole-template worker slice; no merge/branch prerequisite is introduced.
+
+**Re your request:** visual/responsive/interaction quality must be graded and verified — these concrete before boundaries preserve the two actual readability causes and every protected neighboring behavior before implementation.

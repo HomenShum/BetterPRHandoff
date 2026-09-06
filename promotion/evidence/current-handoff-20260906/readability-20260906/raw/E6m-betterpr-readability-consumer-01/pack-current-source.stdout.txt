@@ -1,0 +1,111 @@
+[
+  {
+    "id": "@homenshum/easier-to-read-submissions@1.2.1",
+    "name": "@homenshum/easier-to-read-submissions",
+    "version": "1.2.1",
+    "size": 43694,
+    "unpackedSize": 140483,
+    "shasum": "0f342b06b9de05b7aae120fd087df8e8fba0d90a",
+    "integrity": "sha512-QTT1hgf/yLkaoH2mmtN3ltgi1aKiikpv1sS26PyAON5cGdp1hLGg0AKcivj8S30S+bfYDNfa6+68t94MhpW6kA==",
+    "filename": "homenshum-easier-to-read-submissions-1.2.1.tgz",
+    "files": [
+      {
+        "path": "AGENTS.md",
+        "size": 13234,
+        "mode": 420
+      },
+      {
+        "path": "LICENSE",
+        "size": 1088,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 15855,
+        "mode": 420
+      },
+      {
+        "path": "SKILL.md",
+        "size": 21397,
+        "mode": 420
+      },
+      {
+        "path": "bin/init.mjs",
+        "size": 16363,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 1374,
+        "mode": 420
+      },
+      {
+        "path": "templates/bootstrap-prompt.md",
+        "size": 4635,
+        "mode": 420
+      },
+      {
+        "path": "templates/CHANGELOG-README.md",
+        "size": 4329,
+        "mode": 420
+      },
+      {
+        "path": "templates/CHANGELOG-TEMPLATE.md",
+        "size": 2594,
+        "mode": 420
+      },
+      {
+        "path": "templates/gmail-magic-resend.html",
+        "size": 3601,
+        "mode": 420
+      },
+      {
+        "path": "templates/lane.md",
+        "size": 879,
+        "mode": 420
+      },
+      {
+        "path": "templates/qa-dogfood-manifest.json",
+        "size": 1643,
+        "mode": 420
+      },
+      {
+        "path": "templates/qa-dogfood-packet.md",
+        "size": 2134,
+        "mode": 420
+      },
+      {
+        "path": "templates/qa-email.html.mustache",
+        "size": 9018,
+        "mode": 420
+      },
+      {
+        "path": "templates/qa-packet-schema.json",
+        "size": 8287,
+        "mode": 420
+      },
+      {
+        "path": "templates/qa-packet.md",
+        "size": 10717,
+        "mode": 420
+      },
+      {
+        "path": "templates/qa-states.example.json",
+        "size": 6179,
+        "mode": 420
+      },
+      {
+        "path": "templates/remotion-storyboard.json",
+        "size": 1103,
+        "mode": 420
+      },
+      {
+        "path": "templates/runtime-diagram.md",
+        "size": 16053,
+        "mode": 420
+      }
+    ],
+    "entryCount": 19,
+    "bundled": []
+  }
+]

@@ -4,7 +4,21 @@ Start with [HANDOFF.md](../../../HANDOFF.md). This packet preserves selected
 local CLI and generated-preview observations; it does not record email delivery,
 working approval services, a public package release or overall product grades.
 
-## Acceptance and source stages
+## Readability follow-on
+
+The [dated readability supplement](readability-20260906/README.md) binds the
+compact QA heading, full change title, labelled proof fields and exact ID
+footer to a fresh installed consumer. The normal command passed 30 tests and
+the final six-cell/two-journey observation passed 168 checks. Its 24 actual
+after PNGs are linked with matching before evidence and independent review.
+The current source bindings include later publication documentation; the
+producer's source snapshot remains separate. No full grade or email-client
+claim follows from this scoped static-preview proof.
+Eight scoped observations improved from 3/5 to 4/5; the other 36 rows retain
+their historical values. The long desktop example needs 7 pixels of ordinary
+vertical scrolling, and full grades remain null.
+
+## Historical acceptance and source stages
 
 - [Installed CLI: 53 checks](raw/E6m_BETTERPRHANDOFF_REPAIRED_CLI_FIRST_USE.json)
   belongs to the preceding repaired HTML tarball. The CLI bytes are unchanged in
@@ -21,15 +35,16 @@ working approval services, a public package release or overall product grades.
   remains 250/276. Its separate offline comparator correction is historical,
   and the real heading overflow is closed only by the final source/replay.
 - [CI and four current documentation edits](raw/E6m-ci-doc-transfer-01/receipt.json)
-  establish 68 current source files. This publication adds HANDOFF as file 69;
-  actual shared CI execution remains a separate requirement.
+  established 68 source files at the preceding publication, which added
+  HANDOFF as file 69. The later 42e57 shared Windows/Ubuntu run passed 30 tests
+  on each platform; this readability change still needs its own shared run.
 
 Raw HEAD/tree fields identify the unchanged base at capture time. They do not
 replace the explicit working-source, tarball and installed-file identities.
 The original 20-test baseline and original failed CLI remain historical. No
 old adapter or manifest branch was merged to create the current proof.
 
-## Independent criterion observations
+## Historical independent criterion observations
 
 The [final assessment](raw/E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.md.txt)
 and its [structured values](raw/E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.json)
@@ -40,7 +55,7 @@ observations bind the historical 67-file heading source; the later CI/docs and
 this handoff are separate publication metadata. The assessment reopened 218
 historical CLI artifacts; it did not rerun the application or shared CI.
 
-## Matched native viewport evidence
+## Historical matched native viewport evidence
 
 Each pair below uses the exact viewport shown. The intermediate source already
 repairs tables and unavailable actions but precedes the H1 wrap amendment.
@@ -61,7 +76,7 @@ The two representative [final normal](examples/final-normal.html.txt) and
 [final long](examples/final-long.html.txt) generated HTML files are inert exact
 copies. They are local illustrative fixtures, not an email or configured app.
 
-## Actual scrolled and interaction boundaries
+## Historical scrolled and interaction boundaries
 
 | Observed cause | Before | Corresponding after |
 | --- | --- | --- |
@@ -78,7 +93,7 @@ counterparts, restoration records and native observations remain included.
 The final heading run did not repeat those native journeys; its source binding
 preserves the unchanged action owner. There is no approval or resend backend.
 Computed doubled text is not native browser zoom or physical-device proof.
-Dense long headings and narrow wrapped columns remain stated usability limits.
+That earlier source retained dense long headings and narrow wrapped columns as usability limits; the readability successor is assessed separately.
 
 ## Verify and locate raw evidence
 
@@ -89,7 +104,9 @@ python promotion/evidence/current-handoff-20260906/verify.py
 python promotion/evidence/current-handoff-20260906/verify.py --source-root .
 ```
 
-The standard-library verifier checks strict packet and copy bytes. Optional
+The same standard-library verifier checks strict current packet and historical
+copy bytes. The supplement's new exact-copy map is also protected as a manifest
+payload; independent review checks those new original-to-copy bindings. Optional
 source checking uses each file's actual Git-canonical identity, accepting only
 proven per-row CRLF-to-LF conversion for text and strict identity for binary
 media. Raw source hashes remain recorded; raw evidence is never normalized.

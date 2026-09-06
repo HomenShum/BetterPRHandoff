@@ -1,0 +1,22 @@
+[
+  {
+    "x": 24,
+    "y": -3551,
+    "width": 342,
+    "height": 4370.96875,
+    "right": 366,
+    "bottom": 819.96875,
+    "label": "PROTECT | CARD + UNAVAILABLE ACTIONS",
+    "color": "#005a9c"
+  },
+  {
+    "x": 49,
+    "y": 318.96875,
+    "width": 292,
+    "height": 476,
+    "right": 341,
+    "bottom": 794.96875,
+    "label": "CHANGE B | SNIPPET FIELD LAYOUT",
+    "color": "#a40000"
+  }
+]
