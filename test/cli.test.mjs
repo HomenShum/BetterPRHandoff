@@ -16,8 +16,8 @@
  */
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { spawnSync } from "node:child_process";
-import { mkdtempSync, mkdirSync, rmSync, existsSync, readFileSync, writeFileSync, readdirSync } from "node:fs";
+import { spawn, spawnSync } from "node:child_process";
+import { mkdtempSync, mkdirSync, rmSync, existsSync, readFileSync, writeFileSync, readdirSync, cpSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -28,9 +28,40 @@ const CATEGORIES = ["pages", "components", "server", "db", "integrations", "scri
 
 /** Run the CLI in `cwd` exactly as a user would, with colour codes stripped. */
 function easier(cwd, ...args) {
-  const r = spawnSync(process.execPath, [CLI, ...args], { cwd, encoding: "utf8" });
+  const r = spawnSync(process.execPath, [CLI, ...args], {
+    cwd, encoding: "utf8", env: fixtureEnv(cwd), timeout: 10_000, maxBuffer: 1024 * 1024,
+  });
   const strip = (s) => (s || "").replace(/\x1b\[[0-9;]*m/g, "");
   return { code: r.status, out: strip(r.stdout) + strip(r.stderr) };
+}
+
+function fixtureEnv(cwd) {
+  const home = join(cwd, "test-profile");
+  return { ...process.env, HOME: home, USERPROFILE: home, CLAUDE_CONFIG_DIR: join(home, ".claude") };
+}
+
+async function concurrentCli(cwd, ...args) {
+  const child = spawn(process.execPath, [CLI, ...args], {
+    cwd, env: fixtureEnv(cwd), stdio: ["ignore", "pipe", "pipe"], windowsHide: true,
+  });
+  let out = "";
+  const timer = setTimeout(() => child.kill(), 10_000);
+  for (const stream of [child.stdout, child.stderr]) {
+    stream.on("data", (chunk) => {
+      out += chunk;
+      if (out.length > 1024 * 1024) child.kill();
+    });
+  }
+  return await new Promise((resolveResult, reject) => {
+    child.on("error", (error) => { clearTimeout(timer); reject(error); });
+    child.on("close", (code) => { clearTimeout(timer); resolveResult({ code, out }); });
+  });
+}
+
+async function asyncSandbox(fn) {
+  const dir = mkdtempSync(join(tmpdir(), "easier-test-"));
+  try { return await fn(dir); }
+  finally { rmSync(dir, { recursive: true, force: true }); }
 }
 
 /** A throwaway directory that cleans itself up when the test block ends. */
@@ -45,7 +76,127 @@ function sandbox(fn) {
 
 const today = new Date().toISOString().slice(0, 10);
 
+// A teammate reinstalls after editing their rules. Every supported host must
+// preserve both the rule and its templates, including repeated attempts.
+const installFiles = {
+  user: ["test-profile/.claude/skills/easier-to-read-submissions/AGENTS.md", "test-profile/.claude/skills/easier-to-read-submissions/templates/lane.md"],
+  project: [".claude/skills/easier-to-read-submissions/AGENTS.md", ".claude/skills/easier-to-read-submissions/templates/lane.md"],
+  cursor: [".cursor/rules/easier-to-read-submissions.md", ".cursor/rules/templates-easier/lane.md"],
+  cline: [".clinerules", ".cline-easier-templates/lane.md"],
+  aider: ["AGENTS.md", ".easier-templates/lane.md"],
+  generic: ["agents/easier-to-read-submissions/AGENTS.md", "agents/easier-to-read-submissions/templates/lane.md"],
+};
+for (const [mode, paths] of Object.entries(installFiles)) {
+  test(`J3 a ${mode} user can reinstall unchanged rules and retain edited rules and templates`, () => {
+    sandbox((dir) => {
+      for (let i = 0; i < 2; i++) assert.equal(easier(dir, "install", mode).code, 0);
+      const originals = paths.map((p) => readFileSync(join(dir, p)));
+      for (const [i, path] of paths.entries()) {
+        const dest = join(dir, path);
+        const sentinel = `Team-owned ${mode} ${i}\nPreserve this decision.\n`;
+        writeFileSync(dest, sentinel);
+        for (let retry = 0; retry < 3; retry++) {
+          const r = easier(dir, "install", mode);
+          assert.equal(r.code, 1, r.out);
+          assert.match(r.out, /conflict|manual merge/i);
+          assert.doesNotMatch(r.out, /Installed\./);
+          assert.equal(readFileSync(dest, "utf8"), sentinel);
+        }
+        writeFileSync(dest, originals[i]);
+      }
+    });
+  });
+}
+
+test("J1 an agent cannot turn a lane name into a path but can keep Unicode names", () => {
+  sandbox((dir) => {
+    for (const slug of ["../../../escape", "..\\..\\..\\escape", ".", "..", "C:stream", "line\nname", "bad?name", "trailing.", "trailing ", "CON", "nul.txt"]) {
+      const r = easier(dir, "add", "components", slug);
+      assert.equal(r.code, 1, `${JSON.stringify(slug)}: ${r.out}`);
+      assert.ok(!existsSync(join(dir, "CHANGELOG")), "invalid input created a directory");
+    }
+    assert.equal(easier(dir, "add", "components", "供应商-比較").code, 0);
+    assert.ok(existsSync(join(dir, "CHANGELOG", "components", "供应商-比較.md")));
+  });
+});
+
+test("J1 two workers reserve one lane and one QA packet; later work retains earlier files", async () => {
+  await asyncSandbox(async (dir) => {
+    const inits = await Promise.all(Array.from({ length: 4 }, () => concurrentCli(dir, "init")));
+    assert.ok(inits.every((r) => r.code === 0), JSON.stringify(inits));
+    assert.deepEqual(readFileSync(join(dir, "CHANGELOG", "README.md")), readFileSync(join(REPO, "templates", "CHANGELOG-README.md")));
+    for (const args of [["add", "components", "shared"], ["qa", "same-review"]]) {
+      const results = await Promise.all(Array.from({ length: 4 }, () => concurrentCli(dir, ...args)));
+      assert.equal(results.filter((r) => r.code === 0).length, 1, JSON.stringify(results));
+      assert.equal(results.filter((r) => r.code === 1).length, 3);
+    }
+    const lane = join(dir, "CHANGELOG", "components", "shared.md");
+    const packet = join(dir, "QA_DOGFOOD", "same-review");
+    const original = readFileSync(lane);
+    const files = readdirSync(packet).map((name) => [name, readFileSync(join(packet, name))]);
+    assert.equal(files.length, 4);
+    for (let i = 0; i < 8; i++) {
+      assert.equal(easier(dir, "add", "pages", `iteration-${i}`).code, 0);
+      assert.equal(easier(dir, "qa", "same-review").code, 1);
+    }
+    assert.deepEqual(readFileSync(lane), original);
+    for (const [name, bytes] of files) assert.deepEqual(readFileSync(join(packet, name)), bytes);
+  });
+});
+
+test("J3 concurrent installers preserve completed output and refuse edited rules", async () => {
+  await asyncSandbox(async (dir) => {
+    const first = await Promise.all(Array.from({ length: 4 }, () => concurrentCli(dir, "install", "project")));
+    assert.ok(first.some((r) => r.code === 0), JSON.stringify(first));
+    for (const r of first) {
+      assert.ok(r.code === 0 || r.code === 1, r.out);
+      if (r.code === 1) assert.doesNotMatch(r.out, /Installed\./);
+    }
+    const rule = join(dir, installFiles.project[0]);
+    assert.deepEqual(readFileSync(rule), readFileSync(join(REPO, "AGENTS.md")));
+    writeFileSync(rule, "Team decision must survive every worker.");
+    const retries = await Promise.all(Array.from({ length: 4 }, () => concurrentCli(dir, "install", "project")));
+    assert.ok(retries.every((r) => r.code === 1 && !r.out.includes("Installed.")));
+    assert.equal(readFileSync(rule, "utf8"), "Team decision must survive every worker.");
+    const configs = await Promise.all(Array.from({ length: 4 }, () => concurrentCli(dir, "qa-init")));
+    assert.ok(configs.every((r) => r.code === 0 || r.code === 1));
+    assert.deepEqual(readFileSync(join(dir, "qa.config.json")), readFileSync(join(REPO, "templates", "qa-states.example.json")));
+    writeFileSync(join(dir, "qa.config.json"), '{"team":"owned"}');
+    await Promise.all(Array.from({ length: 4 }, () => concurrentCli(dir, "qa-init")));
+    assert.equal(readFileSync(join(dir, "qa.config.json"), "utf8"), '{"team":"owned"}');
+  });
+});
+
 // ── Journey 1: a solo developer adopts the protocol in their own repo ───────
+
+test("J1 a developer can paste the printed command from a checkout with spaces", () => {
+  sandbox((dir) => {
+    const checkout = join(dir, "checkout with spaces");
+    mkdirSync(join(checkout, "bin"), { recursive: true });
+    cpSync(CLI, join(checkout, "bin", "init.mjs"));
+    cpSync(join(REPO, "templates"), join(checkout, "templates"), { recursive: true });
+    const shells = process.platform === "win32"
+      ? [["cmd.exe", ["/d", "/c"]], ["powershell.exe", ["-NoProfile", "-NonInteractive", "-Command"]]]
+      : [["/bin/sh", ["-c"]]];
+    for (const [index, [shell, prefix]] of shells.entries()) {
+      const cwd = join(dir, `consumer-${index}`);
+      mkdirSync(cwd);
+      const help = spawnSync(process.execPath, [join(checkout, "bin", "init.mjs"), "help"], {
+        cwd, env: fixtureEnv(dir), encoding: "utf8", timeout: 10_000, maxBuffer: 1024 * 1024,
+      });
+      assert.equal(help.status, 0, help.stderr);
+      const clean = help.stdout.replace(/\x1b\[[0-9;]*m/g, "");
+      const command = clean.split(/\r?\n/).find((line) => /^\s+node .+ init$/.test(line))?.trim();
+      assert.ok(command, clean);
+      const result = spawnSync(shell, [...prefix, command], {
+        cwd, env: fixtureEnv(dir), encoding: "utf8", timeout: 10_000, maxBuffer: 1024 * 1024, windowsHide: true,
+        windowsVerbatimArguments: shell === "cmd.exe",
+      });
+      assert.equal(result.status, 0, `${shell}: ${result.stderr}`);
+      assert.ok(existsSync(join(cwd, "CHANGELOG", "TEMPLATE.md")));
+    }
+  });
+});
 
 test("J1 init scaffolds the six lanes, the index and the format spec", () => {
   sandbox((dir) => {
@@ -79,20 +230,18 @@ test("J1 add writes a dated lane file naming the surface it tracks", () => {
     assert.match(body, /components\/Button/, "lane does not name its own surface");
     assert.match(
       body,
-      new RegExp(`^## ${today} — Created — initial implementation$`, "m"),
+      new RegExp(`^## ${today} — Pending — describe this change$`, "m"),
       "the newest entry heading was not dated today",
     );
 
-    // KNOWN DEFECT D7 (promotion/PROMOTION_LOG.md). The first assertion written
-    // here was `!body.includes("YYYY-MM-DD —")` and it FAILED on the unmodified
-    // tree: `add` substitutes only the topmost heading, so the template's two
-    // sample entries ("Older entry", a second "Created") survive into the new
-    // lane carrying a fake commit sha, and the topmost entry keeps a dangling
-    // `**Touches**:` placeholder. Pinned at the observed count so a fix has to
-    // change this number deliberately rather than by accident.
-    const leftovers = body.match(/^## YYYY-MM-DD —/gm) ?? [];
-    assert.equal(leftovers.length, 3, "expected 2 sample entries + 1 inside the entry-template fence");
-    assert.match(body, /\*\*Touches\*\*: `<other CHANGELOG files affected>`/);
+    // D7 deliberately changes from three sample date headings to one fenced
+    // example. A fresh scaffold must never impersonate completed history.
+    const current = body.split("```md")[0];
+    assert.equal((current.match(/^## \d{4}-\d{2}-\d{2} —/gm) ?? []).length, 1);
+    assert.doesNotMatch(current, /abc1234|Older entry|## YYYY-MM-DD/);
+    assert.match(current, /\*\*Commit\*\*: pending/);
+    assert.match(current, /\*\*Author\*\*: pending/);
+    assert.equal((body.match(/^## YYYY-MM-DD —/gm) ?? []).length, 1);
   });
 });
 

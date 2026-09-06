@@ -1,0 +1,27 @@
+# Change boundary and state contract
+
+A teammate opens a generated review packet to read proof and decide what to do next. The current proof table overflows on phones, and four unconfigured links look actionable. The proposed repair makes the existing table readable and plainly labels the unavailable actions.
+
+Only `templates/gmail-magic-resend.html` may change in this UI slice. Its unchanged source SHA-256 is `50b30e029a39935aafe4cfa5459972f6ff72e794ff15dd4af9ae594a5f90d22f`.
+
+| Boundary | Existing owner | Intended change | Protected neighbors |
+| --- | --- | --- | --- |
+| CHANGE A: TABLE | Existing table/cell/code CSS and proof table | Fixed table layout plus wrapping within cells; complete tokens may wrap and rows may grow | Card width/padding, heading text, all three column labels, all evidence/correction text |
+| CHANGE B: UNCONFIGURED ACTIONS | Four `href="#"` placeholders and adjacent setup instruction | Noninteractive labelled unavailable slots, with explicit instructions to configure real destinations before sharing | All four action names, original capture/GIF/MP4 instruction, following end-user-impact heading and paragraph |
+| PROTECT: CARD | Existing `.card` | No card/layout redesign | Border, palette, padding and original header/body typography |
+
+Every original/labelled pair is an exact viewport PNG: 320×800 normal, 360×800 normal and 390×844 with all computed font sizes doubled. Each setting has separately scrolled table and action-group pairs. The red native DOM rectangle is exactly 3px; the blue card rectangle is also 3px. Boxes extending off-screen truthfully follow the overflowing table. Overlay labels can cover a small strip of content, so the immediately preceding unannotated PNG is retained. All six overlay removals restore exact pre-overlay serialized DOM and geometry. There are no full-page screenshots in this boundary packet.
+
+| State | Expected after repair |
+| --- | --- |
+| Unconfigured / initial | All four action names remain visible with a clear Not configured cue and setup instructions. No `href="#"`, invented success, real destination or newly enabled action. |
+| Pending proof | Existing before/after/diff pending wording remains; pending does not become complete. |
+| Populated text | Complete feature ID, title, column labels and correction instructions remain selectable and readable. |
+| Long input / overflow | Existing long generated title is preserved. Table/cell/code wrapping prevents table or text crossing the card content edge; vertical growth is allowed. No overflow hiding, clipping, ellipsis or smaller font. |
+| Computed 200% | Table and unavailable slots remain readable and contained with the exact full computed-font vector doubled; no claim of native zoom or physical device. |
+| Keyboard | Unavailable slots are ordinary text with no anchor/button role, href, tabindex or event handler. Native Tab skips them. Enter does not activate a slot. Space on the document may scroll normally and must not be treated as a failure. |
+| Pointer | Clicking the visible unavailable text cannot navigate, change the fragment, create a request or produce approval/resend state. Selection is ordinary browser behavior. |
+| Loading / error / retry | This static scaffold has no asynchronous operation or service. The UI must not imply a request is running, failed, retried or completed. No invented loading/error/retry state. |
+| Configured / successful review | Not implemented by this patch. Instructions tell the author to replace unavailable slots with verified review/test/feedback destinations in their own workflow. Existing generated evidence remains pending. |
+
+The root agent owns a separate CLI/test/documentation slice. This boundary guard covers only the unchanged HTML template, installed package and saved generated inputs; it does not assert whole-checkout stability during those concurrent authorized edits. No source, CLI output or original baseline artifact was changed here.

@@ -1,0 +1,11 @@
+{
+  "kind": "Privacy-safe historical failure summary, not an exact raw copy",
+  "source": "Independent baseline CLI judgment and its sourceDiagnostic metadata only. The worker did not read the original stderr or unintended file.",
+  "originalDiagnosticSha256": "6cc26ad7d592a94b7494d7c49e88f06a06ca35c8b358cde650e0a152c2d2a215",
+  "originalDiagnosticBytes": 788,
+  "observedFailure": "The original unquoted source command resolved a truncated path outside the intended owned fixture and failed with SyntaxError while parsing an unintended local file. Its stderr contained unrelated configuration text.",
+  "isolationLimit": "Do not claim that all attempted original source reads remained inside the owned test root.",
+  "publication": "Original diagnostic content, exact private path and aggregate original command output remain operator-local. This explanation cannot reconstruct the excluded contents.",
+  "currentProof": "The repaired source command is exercised using controlled full and truncated paths, native cmd and PowerShell, with exact-byte source binding. Current successful proof does not erase the original isolation failure.",
+  "metadataSourceSha256": "9b4e75444801060b1afcc2fb7ba5c6a4efc94fa738e4227f55a66ee9b6d13dc2"
+}

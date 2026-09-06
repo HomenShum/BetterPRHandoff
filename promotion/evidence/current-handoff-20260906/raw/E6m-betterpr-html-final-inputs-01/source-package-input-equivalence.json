@@ -1,0 +1,22 @@
+{
+  "changedSourcePaths": [
+    "templates/gmail-magic-resend.html"
+  ],
+  "unchangedSourceFiles": 66,
+  "tarballFiles": 19,
+  "unchangedTarFiles": 18,
+  "sixGeneratedCompanionsUnchanged": [
+    "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\manifest.json",
+    "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\README.md",
+    "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\remotion-storyboard.json",
+    "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\manifest.json",
+    "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\README.md",
+    "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\remotion-storyboard.json"
+  ],
+  "bothGeneratedHtmlOnlyH1BlockDiff": true,
+  "onlySemanticDeclarationAdded": "h1 overflow-wrap:anywhere",
+  "rawLineEndingDetail": "The four existing CRLF newlines inside the H1 rule became LF along with the inserted declaration; all bytes outside that H1 block are exact. No title/font/card declaration changes.",
+  "normalNpmTransform": "Only bin/init.mjs first hashbang CRLF-to-LF;18 other installed files exact tar bytes.",
+  "sourceEditsByJudge": 0,
+  "newBrowserRuns": 0
+}

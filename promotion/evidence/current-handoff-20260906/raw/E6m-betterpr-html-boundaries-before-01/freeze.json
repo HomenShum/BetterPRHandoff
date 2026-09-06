@@ -1,0 +1,8 @@
+{
+  "recorderSha256": "eca7672dafff4da3dcf72f2698365af534f61176933109c093dcb03de9691cf6",
+  "controllerSha256": "e56f08d0af1a67fa1c8a9d21b595efa561eafd8191f62b67bc435ef866df5fe2",
+  "configSha256": "1d092a92257babf9e79b20eea318fa77228713ae28ac568adc7e716ada73c393",
+  "cells": 6,
+  "viewportPngs": 12,
+  "sourceScope": "Only template and immutable installed/generated inputs; concurrent root CLI/tests/docs work excluded."
+}

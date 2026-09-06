@@ -1,0 +1,15 @@
+{
+  "tag": "A",
+  "text": "Approve",
+  "href": "#",
+  "rect": {
+    "x": 486.25,
+    "y": 315,
+    "width": 92.90625,
+    "height": 38,
+    "right": 579.15625,
+    "bottom": 353
+  },
+  "outline": "rgb(16, 16, 16) auto 1px",
+  "scrollY": 0
+}

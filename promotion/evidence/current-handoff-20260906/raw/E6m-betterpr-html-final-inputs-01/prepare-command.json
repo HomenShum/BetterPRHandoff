@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "python",
+    "-X",
+    "utf8",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-run-html-final.py",
+    "prepare",
+    "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-inputs-01\\request.json"
+  ],
+  "exitCode": 0,
+  "browserRun": false
+}

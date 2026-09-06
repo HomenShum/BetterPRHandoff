@@ -1,0 +1,52 @@
+{
+  "status": "CAPTURE_COMPLETE_BASELINE_DEFECTS_PRESERVED",
+  "cells": [
+    {
+      "id": "390x844-text200-heading",
+      "target": "heading",
+      "width": 390,
+      "height": 844,
+      "doubled": true,
+      "before": "390x844-text200-heading-before.png",
+      "boundary": "390x844-text200-heading-change-boundary.png",
+      "domRestoredExact": true,
+      "geometryRestoredExact": true
+    }
+  ],
+  "captures": [
+    {
+      "path": "390x844-text200-heading-before.png",
+      "bytes": 58157,
+      "sha256": "886e33020e8c860f95e12dee9c1ec18d7fb8c63b0bf72afed88259fe163a44ea",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "390x844-text200-heading-change-boundary.png",
+      "bytes": 59054,
+      "sha256": "21fc4a06c846a81273099b92a229af4ec7c98a601212f3682e6fa6a8417ac7ab",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "/long"
+    }
+  ],
+  "closure": {
+    "context": true,
+    "browser": true,
+    "server": true
+  },
+  "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "fullGrades": null,
+  "limitations": [
+    "Exact viewport screenshots only; no full-page capture.",
+    "Native DOM overlays only; no product/input mutation.",
+    "CHANGE C marks only the H1 wrapping amendment; original full title, font and card are unchanged.",
+    "All current source/input/tool/receipt bindings remain exact; no candidate edits."
+  ]
+}

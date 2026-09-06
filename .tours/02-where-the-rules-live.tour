@@ -27,17 +27,17 @@
     },
     {
       "file": "bin/init.mjs",
-      "line": 278,
+      "line": 308,
       "pattern": "if \\(existsSync\\(join\\(cwd, \"\\.cursor\"\\)\\)\\) mode = \"cursor\";",
       "title": "How the rules find the reader's agent",
       "description": "Six markers, checked in order, first match wins. A repo-local agent config beats a plain git repo, which beats the user's home configuration.\n\nThere used to be three copies of this ladder — this one, install.sh and install.ps1 — and they disagreed. In a directory holding only `.cursor/`, this chose `cursor`, install.sh chose `user`, and install.ps1 chose `user` for every repository. Both shell installers are gone."
     },
     {
       "file": "bin/init.mjs",
-      "line": 299,
-      "pattern": "await cp\\(TPL_DIR, join\\(dest, \"templates\"\\), \\{ recursive: true \\}\\);",
+      "line": 329,
+      "pattern": "await preserveTemplates\\(TPL_DIR, join\\(dest, \"templates\"\\)\\);",
       "title": "What install actually copies",
-      "description": "The contract plus the whole templates directory. This is why a template that names another product is expensive: it lands in every adopter's agent directory.\n\n`cp` with `recursive` replaced a hand-rolled `copyDir` that walked the tree itself."
+      "description": "The installer copies the contract and templates using the same preservation rule. A different existing file produces a nonzero manual-merge conflict; identical completed content can be reused.\n\nExclusive copying prevents replacement, but it is not a transaction across the directory tree. A partially completed install may leave new files and must not claim installation completed."
     },
     {
       "file": "templates/qa-packet-schema.json",

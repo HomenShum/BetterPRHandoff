@@ -1,0 +1,1923 @@
+{
+  "url": "http://127.0.0.1:58083/normal",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "scroll": {
+    "x": 0,
+    "y": 2469
+  },
+  "document": {
+    "width": 390,
+    "height": 3313
+  },
+  "heading": "china sourcing review v1 QA packet",
+  "featureId": "china-sourcing-review-v1",
+  "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link: Not configured\nApprove: Not configured\nNeeds fix: Not configured\nMagic resend after fix: Not configured\n\nActions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+  "card": {
+    "rect": {
+      "x": 24,
+      "y": -2445,
+      "right": 366,
+      "bottom": 819.96875,
+      "width": 342,
+      "height": 3264.96875,
+      "scrollWidth": 340,
+      "clientWidth": 340
+    },
+    "style": {
+      "fontSize": "32px",
+      "fontFamily": "Arial, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(35, 22, 15)",
+      "backgroundColor": "rgb(255, 250, 243)",
+      "padding": "24px",
+      "margin": "0px",
+      "border": "1px solid rgb(231, 216, 202)",
+      "borderRadius": "18px",
+      "overflowX": "visible",
+      "textOverflow": "clip",
+      "whiteSpace": "normal",
+      "tableLayout": "auto",
+      "overflowWrap": "normal"
+    },
+    "inner": {
+      "left": 49,
+      "right": 341
+    }
+  },
+  "bodyStyle": {
+    "fontSize": "32px",
+    "fontFamily": "Arial, sans-serif",
+    "fontWeight": "400",
+    "color": "rgb(35, 22, 15)",
+    "backgroundColor": "rgb(251, 247, 239)",
+    "padding": "24px",
+    "margin": "0px",
+    "border": "0px none rgb(35, 22, 15)",
+    "borderRadius": "0px",
+    "overflowX": "visible",
+    "textOverflow": "clip",
+    "whiteSpace": "normal",
+    "tableLayout": "auto",
+    "overflowWrap": "normal"
+  },
+  "targets": [
+    {
+      "tag": "MAIN",
+      "text": "\n      china-sourcing-review-v1\n      china sourcing review v1 QA packet\n      Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n      \n        Open test link: Not configured\n        Approve: Not configured\n        Needs fix: Not configured\n        Magic resend after fix: Not configured\n      \n      Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.\n      What changed for end users\n      Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n      Workflow lanes\n      \n        New or empty user state\n        Returning user state\n        Main happy path\n        Comment/edit correction\n        Mobile state\n      \n      Snapshot snippets\n      \n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      \n    ",
+      "className": "card",
+      "rect": {
+        "x": 24,
+        "y": -2445,
+        "right": 366,
+        "bottom": 819.96875,
+        "width": 342,
+        "height": 3264.96875,
+        "scrollWidth": 340,
+        "clientWidth": 340
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgb(255, 250, 243)",
+        "padding": "24px",
+        "margin": "0px",
+        "border": "1px solid rgb(231, 216, 202)",
+        "borderRadius": "18px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "china-sourcing-review-v1",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": -2388,
+        "right": 341,
+        "bottom": -2314,
+        "width": 292,
+        "height": 74,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "CODE",
+      "text": "china-sourcing-review-v1",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": -2385,
+        "right": 268.4375,
+        "bottom": -2313,
+        "width": 219.4375,
+        "height": 72,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontFamily": "monospace",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgb(241, 230, 220)",
+        "padding": "2px 5px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "6px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "H1",
+      "text": "china sourcing review v1 QA packet",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": -2282,
+        "right": 341,
+        "bottom": -1942,
+        "width": 292,
+        "height": 340,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "60px",
+        "fontFamily": "Georgia, serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px 0px 8px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": -1910,
+        "right": 341,
+        "bottom": -1688,
+        "width": 292,
+        "height": 222,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Open test link: Not configured",
+      "className": "",
+      "rect": {
+        "x": 69,
+        "y": -1656,
+        "right": 341,
+        "bottom": -1582,
+        "width": 272,
+        "height": 74,
+        "scrollWidth": 272,
+        "clientWidth": 272
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "8px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "STRONG",
+      "text": "Open test link",
+      "className": "",
+      "rect": {
+        "x": 69,
+        "y": -1656,
+        "right": 280.59375,
+        "bottom": -1620,
+        "width": 211.59375,
+        "height": 36,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Approve: Not configured",
+      "className": "",
+      "rect": {
+        "x": 69,
+        "y": -1574,
+        "right": 341,
+        "bottom": -1500,
+        "width": 272,
+        "height": 74,
+        "scrollWidth": 272,
+        "clientWidth": 272
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "8px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "STRONG",
+      "text": "Approve",
+      "className": "",
+      "rect": {
+        "x": 69,
+        "y": -1574,
+        "right": 198.796875,
+        "bottom": -1538,
+        "width": 129.796875,
+        "height": 36,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Needs fix: Not configured",
+      "className": "",
+      "rect": {
+        "x": 69,
+        "y": -1492,
+        "right": 341,
+        "bottom": -1418,
+        "width": 272,
+        "height": 74,
+        "scrollWidth": 272,
+        "clientWidth": 272
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "8px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "STRONG",
+      "text": "Needs fix",
+      "className": "",
+      "rect": {
+        "x": 69,
+        "y": -1492,
+        "right": 211.28125,
+        "bottom": -1456,
+        "width": 142.28125,
+        "height": 36,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Magic resend after fix: Not configured",
+      "className": "",
+      "rect": {
+        "x": 69,
+        "y": -1410,
+        "right": 341,
+        "bottom": -1299,
+        "width": 272,
+        "height": 111,
+        "scrollWidth": 272,
+        "clientWidth": 272
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "8px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "STRONG",
+      "text": "Magic resend after fix",
+      "className": "",
+      "rect": {
+        "x": 69,
+        "y": -1410,
+        "right": 273.515625,
+        "bottom": -1337,
+        "width": 204.515625,
+        "height": 73,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": -1267,
+        "right": 341,
+        "bottom": -897,
+        "width": 292,
+        "height": 370,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "What changed for end users",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": -857.171875,
+        "right": 341,
+        "bottom": -692.171875,
+        "width": 292,
+        "height": 165,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "48px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "39.84px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": -652.34375,
+        "right": 341,
+        "bottom": -356.34375,
+        "width": 292,
+        "height": 296,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "Workflow lanes",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": -316.515625,
+        "right": 341,
+        "bottom": -206.515625,
+        "width": 292,
+        "height": 110,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "48px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "39.84px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "New or empty user state",
+      "className": "",
+      "rect": {
+        "x": 89,
+        "y": -166.6875,
+        "right": 341,
+        "bottom": -92.6875,
+        "width": 252,
+        "height": 74,
+        "scrollWidth": 252,
+        "clientWidth": 252
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Returning user state",
+      "className": "",
+      "rect": {
+        "x": 89,
+        "y": -92.6875,
+        "right": 341,
+        "bottom": -18.6875,
+        "width": 252,
+        "height": 74,
+        "scrollWidth": 252,
+        "clientWidth": 252
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Main happy path",
+      "className": "",
+      "rect": {
+        "x": 89,
+        "y": -18.6875,
+        "right": 341,
+        "bottom": 18.3125,
+        "width": 252,
+        "height": 37,
+        "scrollWidth": 252,
+        "clientWidth": 252
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Comment/edit correction",
+      "className": "",
+      "rect": {
+        "x": 89,
+        "y": 18.3125,
+        "right": 341,
+        "bottom": 92.3125,
+        "width": 252,
+        "height": 74,
+        "scrollWidth": 252,
+        "clientWidth": 252
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Mobile state",
+      "className": "",
+      "rect": {
+        "x": 89,
+        "y": 92.3125,
+        "right": 341,
+        "bottom": 129.3125,
+        "width": 252,
+        "height": 37,
+        "scrollWidth": 252,
+        "clientWidth": 252
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "Snapshot snippets",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": 169.140625,
+        "right": 341,
+        "bottom": 279.140625,
+        "width": 292,
+        "height": 110,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "48px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "39.84px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    {
+      "tag": "TH",
+      "text": "Component",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": 319.46875,
+        "right": 146.328125,
+        "bottom": 464.46875,
+        "width": 97.328125,
+        "height": 145,
+        "scrollWidth": 97,
+        "clientWidth": 97
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "TH",
+      "text": "Proof",
+      "className": "",
+      "rect": {
+        "x": 146.328125,
+        "y": 319.46875,
+        "right": 243.65625,
+        "bottom": 464.46875,
+        "width": 97.328125,
+        "height": 145,
+        "scrollWidth": 97,
+        "clientWidth": 97
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "TH",
+      "text": "Correction prompt",
+      "className": "",
+      "rect": {
+        "x": 243.65625,
+        "y": 319.46875,
+        "right": 341,
+        "bottom": 464.46875,
+        "width": 97.34375,
+        "height": 145,
+        "scrollWidth": 97,
+        "clientWidth": 97
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "TD",
+      "text": "surface.primary",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": 464.46875,
+        "right": 146.328125,
+        "bottom": 794.96875,
+        "width": 97.328125,
+        "height": 330.5,
+        "scrollWidth": 97,
+        "clientWidth": 97
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "CODE",
+      "text": "surface.primary",
+      "className": "",
+      "rect": {
+        "x": 59,
+        "y": 472.96875,
+        "right": 135.484375,
+        "bottom": 569.96875,
+        "width": 76.484375,
+        "height": 97,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontFamily": "monospace",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgb(241, 230, 220)",
+        "padding": "2px 5px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "6px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "TD",
+      "text": "before / after / diff pending",
+      "className": "",
+      "rect": {
+        "x": 146.328125,
+        "y": 464.46875,
+        "right": 243.65625,
+        "bottom": 794.96875,
+        "width": 97.328125,
+        "height": 330.5,
+        "scrollWidth": 97,
+        "clientWidth": 97
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    {
+      "tag": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "className": "",
+      "rect": {
+        "x": 243.65625,
+        "y": 464.46875,
+        "right": 341,
+        "bottom": 794.96875,
+        "width": 97.34375,
+        "height": 330.5,
+        "scrollWidth": 97,
+        "clientWidth": 97
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    }
+  ],
+  "table": {
+    "rect": {
+      "x": 49,
+      "y": 318.96875,
+      "right": 341,
+      "bottom": 794.96875,
+      "width": 292,
+      "height": 476,
+      "scrollWidth": 292,
+      "clientWidth": 292
+    },
+    "style": {
+      "fontSize": "32px",
+      "fontFamily": "Arial, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(35, 22, 15)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px",
+      "margin": "16px 0px 0px",
+      "border": "0px none rgb(35, 22, 15)",
+      "borderRadius": "0px",
+      "overflowX": "visible",
+      "textOverflow": "clip",
+      "whiteSpace": "normal",
+      "tableLayout": "fixed",
+      "overflowWrap": "normal"
+    }
+  },
+  "slots": [
+    {
+      "tag": "LI",
+      "text": "Open test link: Not configured",
+      "label": "Open test link",
+      "rect": {
+        "x": 69,
+        "y": -1656,
+        "right": 341,
+        "bottom": -1582,
+        "width": 272,
+        "height": 74,
+        "scrollWidth": 272,
+        "clientWidth": 272
+      },
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "descendants": [
+        {
+          "tag": "STRONG",
+          "attributes": [
+            [
+              "style",
+              "font-size: 32px;"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "Approve: Not configured",
+      "label": "Approve",
+      "rect": {
+        "x": 69,
+        "y": -1574,
+        "right": 341,
+        "bottom": -1500,
+        "width": 272,
+        "height": 74,
+        "scrollWidth": 272,
+        "clientWidth": 272
+      },
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "descendants": [
+        {
+          "tag": "STRONG",
+          "attributes": [
+            [
+              "style",
+              "font-size: 32px;"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "Needs fix: Not configured",
+      "label": "Needs fix",
+      "rect": {
+        "x": 69,
+        "y": -1492,
+        "right": 341,
+        "bottom": -1418,
+        "width": 272,
+        "height": 74,
+        "scrollWidth": 272,
+        "clientWidth": 272
+      },
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "descendants": [
+        {
+          "tag": "STRONG",
+          "attributes": [
+            [
+              "style",
+              "font-size: 32px;"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "LI",
+      "text": "Magic resend after fix: Not configured",
+      "label": "Magic resend after fix",
+      "rect": {
+        "x": 69,
+        "y": -1410,
+        "right": 341,
+        "bottom": -1299,
+        "width": 272,
+        "height": 111,
+        "scrollWidth": 272,
+        "clientWidth": 272
+      },
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "descendants": [
+        {
+          "tag": "STRONG",
+          "attributes": [
+            [
+              "style",
+              "font-size: 32px;"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "interactive": [],
+  "handlers": [],
+  "scripts": 0,
+  "textRects": [
+    {
+      "parent": "CODE",
+      "text": "china-sourcing-review-v1",
+      "table": false,
+      "left": 54,
+      "right": 268.4375,
+      "top": -2383,
+      "bottom": -2352
+    },
+    {
+      "parent": "CODE",
+      "text": "china-sourcing-review-v1",
+      "table": false,
+      "left": 49,
+      "right": 177.65625,
+      "top": -2346,
+      "bottom": -2315
+    },
+    {
+      "parent": "H1",
+      "text": "china sourcing review v1 QA packet",
+      "table": false,
+      "left": 49,
+      "right": 220.015625,
+      "top": -2282,
+      "bottom": -2214
+    },
+    {
+      "parent": "H1",
+      "text": "china sourcing review v1 QA packet",
+      "table": false,
+      "left": 49,
+      "right": 318.796875,
+      "top": -2214,
+      "bottom": -2146
+    },
+    {
+      "parent": "H1",
+      "text": "china sourcing review v1 QA packet",
+      "table": false,
+      "left": 49,
+      "right": 334.46875,
+      "top": -2146,
+      "bottom": -2078
+    },
+    {
+      "parent": "H1",
+      "text": "china sourcing review v1 QA packet",
+      "table": false,
+      "left": 49,
+      "right": 143.6875,
+      "top": -2078,
+      "bottom": -2010
+    },
+    {
+      "parent": "H1",
+      "text": "china sourcing review v1 QA packet",
+      "table": false,
+      "left": 49,
+      "right": 252.15625,
+      "top": -2010,
+      "bottom": -1942
+    },
+    {
+      "parent": "P",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "table": false,
+      "left": 49,
+      "right": 258.859375,
+      "top": -1910,
+      "bottom": -1874
+    },
+    {
+      "parent": "P",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "table": false,
+      "left": 49,
+      "right": 335.359375,
+      "top": -1873,
+      "bottom": -1837
+    },
+    {
+      "parent": "P",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "table": false,
+      "left": 49,
+      "right": 269.546875,
+      "top": -1836,
+      "bottom": -1800
+    },
+    {
+      "parent": "P",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "table": false,
+      "left": 49,
+      "right": 305.109375,
+      "top": -1799,
+      "bottom": -1763
+    },
+    {
+      "parent": "P",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "table": false,
+      "left": 49,
+      "right": 177.078125,
+      "top": -1762,
+      "bottom": -1726
+    },
+    {
+      "parent": "P",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "table": false,
+      "left": 49,
+      "right": 209.125,
+      "top": -1725,
+      "bottom": -1689
+    },
+    {
+      "parent": "STRONG",
+      "text": "Open test link",
+      "table": false,
+      "left": 69,
+      "right": 280.59375,
+      "top": -1656,
+      "bottom": -1620
+    },
+    {
+      "parent": "LI",
+      "text": ": Not configured",
+      "table": false,
+      "left": 280.59375,
+      "right": 289.484375,
+      "top": -1656,
+      "bottom": -1620
+    },
+    {
+      "parent": "LI",
+      "text": ": Not configured",
+      "table": false,
+      "left": 69,
+      "right": 277.125,
+      "top": -1619,
+      "bottom": -1583
+    },
+    {
+      "parent": "STRONG",
+      "text": "Approve",
+      "table": false,
+      "left": 69,
+      "right": 198.796875,
+      "top": -1574,
+      "bottom": -1538
+    },
+    {
+      "parent": "LI",
+      "text": ": Not configured",
+      "table": false,
+      "left": 198.796875,
+      "right": 266.375,
+      "top": -1574,
+      "bottom": -1538
+    },
+    {
+      "parent": "LI",
+      "text": ": Not configured",
+      "table": false,
+      "left": 69,
+      "right": 218.4375,
+      "top": -1537,
+      "bottom": -1501
+    },
+    {
+      "parent": "STRONG",
+      "text": "Needs fix",
+      "table": false,
+      "left": 69,
+      "right": 211.28125,
+      "top": -1492,
+      "bottom": -1456
+    },
+    {
+      "parent": "LI",
+      "text": ": Not configured",
+      "table": false,
+      "left": 211.28125,
+      "right": 278.859375,
+      "top": -1492,
+      "bottom": -1456
+    },
+    {
+      "parent": "LI",
+      "text": ": Not configured",
+      "table": false,
+      "left": 69,
+      "right": 218.4375,
+      "top": -1455,
+      "bottom": -1419
+    },
+    {
+      "parent": "STRONG",
+      "text": "Magic resend after fix",
+      "table": false,
+      "left": 69,
+      "right": 273.515625,
+      "top": -1410,
+      "bottom": -1374
+    },
+    {
+      "parent": "STRONG",
+      "text": "Magic resend after fix",
+      "table": false,
+      "left": 69,
+      "right": 184.59375,
+      "top": -1373,
+      "bottom": -1337
+    },
+    {
+      "parent": "LI",
+      "text": ": Not configured",
+      "table": false,
+      "left": 184.59375,
+      "right": 252.171875,
+      "top": -1373,
+      "bottom": -1337
+    },
+    {
+      "parent": "LI",
+      "text": ": Not configured",
+      "table": false,
+      "left": 69,
+      "right": 218.4375,
+      "top": -1336,
+      "bottom": -1300
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 262.453125,
+      "top": -1267,
+      "bottom": -1231
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 310.5,
+      "top": -1230,
+      "bottom": -1194
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 324.703125,
+      "top": -1193,
+      "bottom": -1157
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 241.125,
+      "top": -1156,
+      "bottom": -1120
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 296.25,
+      "top": -1119,
+      "bottom": -1083
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 322.875,
+      "top": -1082,
+      "bottom": -1046
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 322.953125,
+      "top": -1045,
+      "bottom": -1009
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 306.328125,
+      "top": -1008,
+      "bottom": -972
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 340.71875,
+      "top": -971,
+      "bottom": -935
+    },
+    {
+      "parent": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "table": false,
+      "left": 49,
+      "right": 278.4375,
+      "top": -934,
+      "bottom": -898
+    },
+    {
+      "parent": "H2",
+      "text": "What changed for end users",
+      "table": false,
+      "left": 49,
+      "right": 166.3125,
+      "top": -856.171875,
+      "bottom": -803.171875
+    },
+    {
+      "parent": "H2",
+      "text": "What changed for end users",
+      "table": false,
+      "left": 49,
+      "right": 323.6875,
+      "top": -801.171875,
+      "bottom": -748.171875
+    },
+    {
+      "parent": "H2",
+      "text": "What changed for end users",
+      "table": false,
+      "left": 49,
+      "right": 275.765625,
+      "top": -746.171875,
+      "bottom": -693.171875
+    },
+    {
+      "parent": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "table": false,
+      "left": 49,
+      "right": 225.09375,
+      "top": -652.34375,
+      "bottom": -616.34375
+    },
+    {
+      "parent": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "table": false,
+      "left": 49,
+      "right": 314.0625,
+      "top": -615.34375,
+      "bottom": -579.34375
+    },
+    {
+      "parent": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "table": false,
+      "left": 49,
+      "right": 287.328125,
+      "top": -578.34375,
+      "bottom": -542.34375
+    },
+    {
+      "parent": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "table": false,
+      "left": 49,
+      "right": 330.0625,
+      "top": -541.34375,
+      "bottom": -505.34375
+    },
+    {
+      "parent": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "table": false,
+      "left": 49,
+      "right": 292.6875,
+      "top": -504.34375,
+      "bottom": -468.34375
+    },
+    {
+      "parent": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "table": false,
+      "left": 49,
+      "right": 324.0625,
+      "top": -467.34375,
+      "bottom": -431.34375
+    },
+    {
+      "parent": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "table": false,
+      "left": 49,
+      "right": 263.578125,
+      "top": -430.34375,
+      "bottom": -394.34375
+    },
+    {
+      "parent": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "table": false,
+      "left": 49,
+      "right": 276.671875,
+      "top": -393.34375,
+      "bottom": -357.34375
+    },
+    {
+      "parent": "H2",
+      "text": "Workflow lanes",
+      "table": false,
+      "left": 49,
+      "right": 264.109375,
+      "top": -315.515625,
+      "bottom": -262.515625
+    },
+    {
+      "parent": "H2",
+      "text": "Workflow lanes",
+      "table": false,
+      "left": 49,
+      "right": 171.75,
+      "top": -260.515625,
+      "bottom": -207.515625
+    },
+    {
+      "parent": "LI",
+      "text": "New or empty user state",
+      "table": false,
+      "left": 89,
+      "right": 286.390625,
+      "top": -166.6875,
+      "bottom": -130.6875
+    },
+    {
+      "parent": "LI",
+      "text": "New or empty user state",
+      "table": false,
+      "left": 89,
+      "right": 229.515625,
+      "top": -129.6875,
+      "bottom": -93.6875
+    },
+    {
+      "parent": "LI",
+      "text": "Returning user state",
+      "table": false,
+      "left": 89,
+      "right": 298.890625,
+      "top": -92.6875,
+      "bottom": -56.6875
+    },
+    {
+      "parent": "LI",
+      "text": "Returning user state",
+      "table": false,
+      "left": 89,
+      "right": 158.375,
+      "top": -55.6875,
+      "bottom": -19.6875
+    },
+    {
+      "parent": "LI",
+      "text": "Main happy path",
+      "table": false,
+      "left": 89,
+      "right": 325.609375,
+      "top": -18.6875,
+      "bottom": 17.3125
+    },
+    {
+      "parent": "LI",
+      "text": "Comment/edit correction",
+      "table": false,
+      "left": 89,
+      "right": 288.1875,
+      "top": 18.3125,
+      "bottom": 54.3125
+    },
+    {
+      "parent": "LI",
+      "text": "Comment/edit correction",
+      "table": false,
+      "left": 89,
+      "right": 229.5,
+      "top": 55.3125,
+      "bottom": 91.3125
+    },
+    {
+      "parent": "LI",
+      "text": "Mobile state",
+      "table": false,
+      "left": 89,
+      "right": 261.53125,
+      "top": 92.3125,
+      "bottom": 128.3125
+    },
+    {
+      "parent": "H2",
+      "text": "Snapshot snippets",
+      "table": false,
+      "left": 49,
+      "right": 267.671875,
+      "top": 170.140625,
+      "bottom": 223.140625
+    },
+    {
+      "parent": "H2",
+      "text": "Snapshot snippets",
+      "table": false,
+      "left": 49,
+      "right": 246.375,
+      "top": 225.140625,
+      "bottom": 278.140625
+    },
+    {
+      "parent": "TH",
+      "text": "Component",
+      "table": true,
+      "left": 59,
+      "right": 132.671875,
+      "top": 329.96875,
+      "bottom": 359.96875
+    },
+    {
+      "parent": "TH",
+      "text": "Component",
+      "table": true,
+      "left": 59,
+      "right": 129.765625,
+      "top": 360.96875,
+      "bottom": 390.96875
+    },
+    {
+      "parent": "TH",
+      "text": "Proof",
+      "table": true,
+      "left": 156.328125,
+      "right": 224.21875,
+      "top": 329.96875,
+      "bottom": 359.96875
+    },
+    {
+      "parent": "TH",
+      "text": "Correction prompt",
+      "table": true,
+      "left": 253.65625,
+      "right": 323.015625,
+      "top": 329.96875,
+      "bottom": 359.96875
+    },
+    {
+      "parent": "TH",
+      "text": "Correction prompt",
+      "table": true,
+      "left": 253.65625,
+      "right": 315.765625,
+      "top": 360.96875,
+      "bottom": 390.96875
+    },
+    {
+      "parent": "TH",
+      "text": "Correction prompt",
+      "table": true,
+      "left": 253.65625,
+      "right": 318.65625,
+      "top": 391.96875,
+      "bottom": 421.96875
+    },
+    {
+      "parent": "TH",
+      "text": "Correction prompt",
+      "table": true,
+      "left": 253.65625,
+      "right": 278.203125,
+      "top": 422.96875,
+      "bottom": 452.96875
+    },
+    {
+      "parent": "CODE",
+      "text": "surface.primary",
+      "table": true,
+      "left": 64,
+      "right": 135.484375,
+      "top": 474.96875,
+      "bottom": 505.96875
+    },
+    {
+      "parent": "CODE",
+      "text": "surface.primary",
+      "table": true,
+      "left": 59,
+      "right": 130.484375,
+      "top": 505.96875,
+      "bottom": 536.96875
+    },
+    {
+      "parent": "CODE",
+      "text": "surface.primary",
+      "table": true,
+      "left": 59,
+      "right": 130.484375,
+      "top": 536.96875,
+      "bottom": 567.96875
+    },
+    {
+      "parent": "TD",
+      "text": "before / after / diff pending",
+      "table": true,
+      "left": 156.328125,
+      "right": 230.0625,
+      "top": 474.96875,
+      "bottom": 504.96875
+    },
+    {
+      "parent": "TD",
+      "text": "before / after / diff pending",
+      "table": true,
+      "left": 156.328125,
+      "right": 222.8125,
+      "top": 505.96875,
+      "bottom": 535.96875
+    },
+    {
+      "parent": "TD",
+      "text": "before / after / diff pending",
+      "table": true,
+      "left": 156.328125,
+      "right": 205,
+      "top": 536.96875,
+      "bottom": 566.96875
+    },
+    {
+      "parent": "TD",
+      "text": "before / after / diff pending",
+      "table": true,
+      "left": 156.328125,
+      "right": 219.953125,
+      "top": 567.96875,
+      "bottom": 597.96875
+    },
+    {
+      "parent": "TD",
+      "text": "before / after / diff pending",
+      "table": true,
+      "left": 156.328125,
+      "right": 185.25,
+      "top": 598.96875,
+      "bottom": 628.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 327.375,
+      "top": 474.96875,
+      "bottom": 504.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 268.125,
+      "top": 505.96875,
+      "bottom": 535.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 317.234375,
+      "top": 536.96875,
+      "bottom": 566.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 327.390625,
+      "top": 567.96875,
+      "bottom": 597.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 323.046875,
+      "top": 598.96875,
+      "bottom": 628.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 301.34375,
+      "top": 629.96875,
+      "bottom": 659.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 327.359375,
+      "top": 660.96875,
+      "bottom": 690.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 324.484375,
+      "top": 691.96875,
+      "bottom": 721.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 330.28125,
+      "top": 722.96875,
+      "bottom": 752.96875
+    },
+    {
+      "parent": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "table": true,
+      "left": 253.65625,
+      "right": 321.578125,
+      "top": 753.96875,
+      "bottom": 783.96875
+    }
+  ],
+  "active": {
+    "tag": "BODY",
+    "text": "",
+    "insideSlot": false
+  },
+  "reduced": false
+}

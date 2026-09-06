@@ -1,0 +1,55 @@
+{
+  "status": "CAPTURE_COMPLETE",
+  "exitCode": 0,
+  "seconds": 1.515,
+  "observerErrors": [],
+  "cleanup": [],
+  "survivors": [],
+  "listeners": [],
+  "ownedProcesses": [
+    {
+      "pid": 41968,
+      "created": 1788663407.8448591,
+      "name": "node.exe"
+    },
+    {
+      "pid": 21552,
+      "created": 1788663408.1175716,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 38288,
+      "created": 1788663408.1336358,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 56116,
+      "created": 1788663408.2890885,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 18044,
+      "created": 1788663408.3673613,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 39164,
+      "created": 1788663408.385363,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 19148,
+      "created": 1788663408.4573734,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 47980,
+      "created": 1788663408.4659252,
+      "name": "chrome.exe"
+    }
+  ],
+  "frozenBindings": 133,
+  "entryExitExact": true,
+  "sourceScope": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.gitignore",
+  "browserVersion": "149.0.7827.55"
+}

@@ -54,23 +54,28 @@ Playwright, ffmpeg, or an API key, it belongs on the far side of that line.
 
 ## Durable state lives in the user's git repository
 
-There is no database and no cache. A lane file is a row; `git log` is the
-transaction log; a merge conflict is the concurrency control. This is why
-lanes are strictly append-only — a rewritten entry is a silently altered
-record with nothing to reconcile it against.
+There is no database and no cache. Lane files hold the history, and Git records
+changes to those files. Git does not prevent two local CLI processes from
+writing the same new destination: creation must reserve that destination at
+the filesystem boundary. Existing history remains append-only.
 
-The CLI holds no state between runs at all. Every subcommand reads
-`process.argv` and the filesystem, writes files, and exits. Run any of them
-twice and the second run either declines (`init`, `qa-init`) or fails loudly
-(`add`, `qa`); none of them mutate what a previous run produced.
+The CLI holds no in-memory state between runs. Every subcommand reads
+`process.argv` and the filesystem, writes files, and exits. Existing scaffolds
+are preserved; `add` and `qa` refuse duplicate destinations. Installer copies
+may reuse identical completed files, but different existing bytes produce a
+nonzero conflict. `qa-init` deliberately preserves any existing configuration,
+even if it differs from the example. There is no rollback: a failed install can
+leave new files without replacing the developer's existing content.
 
 ## Boundaries
 
 | Boundary | Where it is enforced | What it protects |
 |---|---|---|
 | Six surface categories, not seven | `bin/init.mjs:40` → `const CATEGORIES = ["pages", "components", "server", "db", "integrations", "scripts"];` | the lane taxonomy stays the same in the directory layout, the CLI, and both rule files |
-| Never overwrite an existing lane | `bin/init.mjs:162` → `if (existsSync(target)) {` | the audit trail, which is the entire product |
-| Never clobber an existing `CHANGELOG/` | `bin/init.mjs:101` → `if (existsSync(cl)) {` | a second `init` in an adopted repo is a no-op, not a wipe |
+| Never overwrite an existing lane | `bin/init.mjs:179` → `await writeFile(target, personalized, { flag: "wx" });` | the audit trail, which is the entire product |
+| Never clobber an existing `CHANGELOG/` | `bin/init.mjs:102` → `await mkdir(cl);` | atomic creation reserves the directory; an existing directory is a no-op, without validation of its contents |
+| Preserve installed rules and templates | `bin/init.mjs:271` → `await copyFile(source, dest, constants.COPYFILE_EXCL);` | existing different bytes produce a manual-merge conflict; no overwrite permission follows from reading them |
+| Reserve a QA packet before writing members | `bin/init.mjs:237` → `await mkdir(dir);` | only the process creating the leaf directory writes the packet |
 | The package ships only what `files:` lists | `package.json:40` → `"files": [` | `promotion/`, `submissions/`, `docs/`, `test/` never land in a user's `node_modules` |
 | QA packet shape | `templates/qa-packet-schema.json` | multiple generators stay interchangeable |
 
@@ -82,9 +87,10 @@ twice and the second run either declines (`init`, `qa-init`) or fails loudly
    link it prints.
 3. **No shell.** After the wave-3 pass, `bin/init.mjs` imports no
    `child_process`, so no code path can spawn a process.
-4. **Exit code is the truth.** 0 means the requested state now exists,
-   including "it already existed and nothing was done". 1 means it does not,
-   and one line beginning `✗` says why.
+4. **Exit code reports completion.** 0 means the requested scaffold exists or
+   a documented existing-state no-op occurred. A nonzero conflict means the
+   operation did not finish, even when earlier steps created files. Do not
+   print `Installed` after that conflict or imply agent activation.
 5. **Lanes are append-only.** Nothing in this repo ever edits an existing entry.
 
 Invariants 2 and 3 became true only in this pass; the deleted scripts called

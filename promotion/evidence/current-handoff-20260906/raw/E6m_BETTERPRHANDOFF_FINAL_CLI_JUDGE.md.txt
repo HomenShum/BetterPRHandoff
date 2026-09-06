@@ -1,0 +1,17 @@
+# BetterPRHandoff CLI and documentation judgment
+
+**Builder — approved within the CLI scope.** A developer can install the current local package, preserve edited team files, create genuine pending history and receive a failure when another writer already owns the destination. The independent review found no remaining CLI repair required in this slice.
+
+The retained normal command passed **30/30 tests**, with no skips (7.5805 seconds inside Node; 8.734 seconds controller wall time). I checked all **59 recorded processes / 53 observations**, reopened **218 generated files**, and ran **9 new installed CLI processes with 13 passing checks** for nested-template retries, a competing QA pair, later refusal, invalid path rejection and Unicode history retention. These are finite filesystem cases, not unlimited-concurrency or service durability proof.
+
+The exact local tarball is `e7cde30f9370f7b354490d5282bb1f3998a6ed8234d32d1ad7a89f65da5704a1`. All 19 tar entries match their source bindings. npm changes only the bin's first hashbang CRLF to LF; the other 18 installed entries are exact. The source is the recorded 67-file working candidate above base `d30f1abc0ff0251000fedf1a3f25d0bad91bba6c`, not an invented committed revision.
+
+Native exclusive copy, lane `wx`, and QA leaf-directory reservation fix the original destructive/check-then-write seams. Current docs explain partial installs, nonvalidating no-ops, pending real history, missing recorder/email/host activation and the historical proof boundary. All 15 proposed documentation files match. Existing 48 protected canonical files and 94 primary/nested files remain exact. The 66-file CLI/docs guard and existing Git identities are **closed unchanged**; the separately changing HTML owner was explicitly excluded.
+
+HTML acceptance remains with the independent browser review: the first after run revealed the enlarged long-heading defect, and a separate correction needs new package/input bindings. Its new 107-line template also needs the existing STRUCTURE count adjusted. Node18/20, Linux, arbitrary symlinks/shell metacharacters, crash-atomic installation, real agent activation, public npm release and full visual grades remain unproved. The proposed ordinary CI workflow is judged separately as a plan.
+
+Evidence: [raw independent manifest](E6m-betterpr-final-cli-independent-03/manifest.json), [native canary](E6m-betterpr-final-cli-independent-03/native-canary.json), [final custody](E6m-betterpr-final-cli-independent-03/final-custody.json), [machine judgment](E6m_BETTERPRHANDOFF_FINAL_CLI_JUDGE.json). Reader shape/wording/UTF-8 mistakes and the root's initial hashbang claim remain disclosed; none is hidden as product success. Prior private printed-command stderr is not republished.
+
+Reviewer context: reused independent reviewer and prior plan author; nonauthor of this implementation and its ordinary consumer proof.
+
+**Re your request:** make each repo ready for developer and coding-agent handoff using planner-worker-judge — the CLI preservation and truthful handoff slice is independently approved; browser and shared integration acceptance remain separate.

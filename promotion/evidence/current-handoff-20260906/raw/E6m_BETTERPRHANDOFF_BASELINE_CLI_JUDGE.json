@@ -1,0 +1,51 @@
+{
+  "status": "ACCEPTED_SCOPED_BASELINE_EVIDENCE_WITH_PRODUCT_DEFECTS",
+  "mode": "Builder",
+  "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "tree": "122c105f044af5cb65a018195be353a93a71e69e",
+  "sourceGuard": "CLOSED_UNCHANGED",
+  "reviewerContext": "Reused independent nonauthor; no implementation or original proof authorship. Read-only raw replay and source review, no CLI/test/browser execution.",
+  "proof": {
+    "currentFiles": 62,
+    "originalCloneFiles": 94,
+    "tarSourceInstalledFiles": 19,
+    "npmHashbangTransformOnly": true,
+    "existingTestsPassed": 20,
+    "recordedProcessCommands": 55,
+    "setupCommands": 1,
+    "cliRelatedAttempts": 54,
+    "failedBeforeIntendedCLI": 1,
+    "semanticChecks": 51,
+    "pass": 40,
+    "fail": 11,
+    "generatedArtifactsVerified": 198,
+    "separateQaCommands": 2,
+    "separateQaExitCodes": [
+      0,
+      0
+    ],
+    "qaFilesVerified": 4
+  },
+  "corrections": [
+    "55 total commands includes git init; do not call it 55 actual CLI executions.",
+    "Printed source command loaded an external truncated path before SyntaxError; raw stderr contains unrelated configuration and stays operator-local.",
+    "Derived ignored package-lock exists despite clean ordinary status."
+  ],
+  "productReady": false,
+  "allFullDimensionScores": null,
+  "limits": [
+    "No browser or visual grade in this review.",
+    "No email delivery/approval action, registry release, historical adapter or shared CI acceptance.",
+    "No universal filesystem isolation or network-monitoring certificate."
+  ],
+  "rawResult": {
+    "path": "E6m-betterpr-baseline-cli-independent-02\\result.json",
+    "bytes": 739,
+    "sha256": "723192e201361ea2b9a8f3bbb548f5e3c35cea2c4bd3e9aa7eedd157fe67c642"
+  },
+  "report": {
+    "path": "E6m_BETTERPRHANDOFF_BASELINE_CLI_JUDGE.md",
+    "bytes": 5206,
+    "sha256": "99c9475c7c64123abe80f236a13c2ea07d2a47cd01bbf13ec0768580f9f619c2"
+  }
+}

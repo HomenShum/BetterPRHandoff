@@ -1,0 +1,7 @@
+# CHANGE C: title wrapping amendment
+
+A phone reviewer must read the complete report title. The actual long title at 390x844 with all computed fonts doubled clips the word comparison. Add only overflow-wrap:anywhere to the existing h1 declaration in templates/gmail-magic-resend.html. Preserve the exact full title, font size/weight/family, palette, card geometry and all previously repaired table/action bytes. Do not shorten the title or redesign its density.
+
+The immediately preceding raw viewport PNG and genuine native 3px H1/card-labelled PNG are both viewed. Red marks CHANGE C; blue protects the card. Removing the overlay restores exact pre-overlay DOM and geometry. The actual input is the unchanged installed long HTML SHA 3cf9bf1373226040a42088dbaaacc89393711fcc2642750b70c0ddfcdb3ca83e; current template SHA 5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e. All 133 frozen source/input/tool/receipt bindings remained exact. All owned runtime closed normally.
+
+After root's one-line edit, use actual repacked/reinstalled CLI outputs to check long and normal390 computed2x, normal/long1440 normal and320 normal controls. Keep the original 250/276 report and separate offline comparator correction unchanged. Full grades remain on hold until the real heading containment failure is resolved.

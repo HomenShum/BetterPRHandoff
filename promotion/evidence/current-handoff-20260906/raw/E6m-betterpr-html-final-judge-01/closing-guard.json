@@ -1,0 +1,838 @@
+{
+  "status": "CLOSED",
+  "at": "2026-09-06T03:20:17.051352+00:00",
+  "checks": [
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\input-entry.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\input-exit.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-1440x960-normal-full.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-1440x960-normal.dom.html.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-1440x960-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-1440x960-normal.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-320x800-normal-full.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-320x800-normal.dom.html.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-320x800-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-320x800-normal.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200-font-vector.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200-full.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200-table-scrolled-font-vector.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200-table-scrolled.dom.html.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200-table-scrolled.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200-table-scrolled.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200.dom.html.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-1440x960-normal-full.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-1440x960-normal.dom.html.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-1440x960-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-1440x960-normal.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-320x800-normal-full.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-320x800-normal.dom.html.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-320x800-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-320x800-normal.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-font-vector.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-full.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-table-scrolled-font-vector.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-table-scrolled.dom.html.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-table-scrolled.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-table-scrolled.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200.dom.html.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200.png",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\report.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\runtime.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\command.stderr.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\command.stdout.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\config.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\controller-preflight.py.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\controller-report.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\entry-custody.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\environment-policy.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\exit-custody.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\preflight.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\prepared-custody.json",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\recorder-preflight.mjs.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\syntax.stderr.txt",
+      "pass": true
+    },
+    {
+      "name": "Raw C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\syntax.stdout.txt",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.gitignore",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.tours\\01-one-command-end-to-end.tour",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.tours\\02-where-the-rules-live.tour",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\INTEGRATIONS.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\LICENSE",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\bin\\init.mjs",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\SIMPLIFICATION_REPORT.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\START_HERE.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\ARCHITECTURE.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\CONCERNS.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\CONVENTIONS.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\INTEGRATIONS.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\STACK.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\STRUCTURE.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\TESTING.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\package.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\PRODUCT_GOAL.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\PRODUCT_JOURNEYS.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\PROMOTION_LOG.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\SKILLS.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\WIG_REVIEW.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\audit.mjs",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\axe.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\lighthouse.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\npm-test.txt",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\screenshot-desktop-1440.png",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\screenshot-mobile-375.png",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\screenshot-tablet-768.png",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\summary.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\surface-measurements.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\ascii-runtime.txt",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\changelog\\chat.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\changelog\\schema-s5.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\changelog\\shell.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-assertions-v2.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo-v2.gif",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo-v2.mp4",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo.gif",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo.mp4",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-scenes-v2.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-scenes.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\demo-chat-sprints-1-4-v2.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\demo-chat-sprints-1-4.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\test\\cli.test.mjs",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\scripts\\bin-init.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\components\\changelog-lane.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\components\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\LICENSE",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\package.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\pack\\homenshum-easier-to-read-submissions-1.2.1.tgz",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HEADING_CONSUMER.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HEADING_RENDERED_INPUTS.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\source-before.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\installed-bindings.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_REPAIRED_CONSUMER.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_REPAIRED_RENDERED_INPUTS.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-consumer-01\\source-before.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\tarball-members.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\commands.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\exit-observation.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HTML_AFTER_INTERMEDIATE_JUDGE.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_H1_BOUNDARY_ADDENDUM.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-inputs-01\\source-package-input-equivalence.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-320x800-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-320x800-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-360x800-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-360x800-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-390x844-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-390x844-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-768x1024-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-768x1024-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1024x768-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1024x768-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1440x960-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1440x960-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1920x1080-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1920x1080-normal.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-390x844-text200.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-390x844-text200.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-390x844-reduced.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-390x844-reduced.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1440x960-text200.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1440x960-text200.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1440x960-reduced.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1440x960-reduced.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\report.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HTML_REPAIR_PLAN.json",
+      "pass": true
+    },
+    {
+      "name": "Input C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-inputs-01\\request.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright\\package.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright\\index.js",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright-core\\package.json",
+      "pass": true
+    },
+    {
+      "name": "Input D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright-core\\browsers.json",
+      "pass": true
+    },
+    {
+      "name": "Entry and exit custody equal",
+      "pass": true
+    },
+    {
+      "name": "Git head",
+      "pass": true
+    },
+    {
+      "name": "Git tree",
+      "pass": true
+    },
+    {
+      "name": "Git branch",
+      "pass": true
+    },
+    {
+      "name": "Git indexEntries",
+      "pass": true
+    },
+    {
+      "name": "Git refs",
+      "pass": true
+    },
+    {
+      "name": "Git status",
+      "pass": true
+    },
+    {
+      "name": "Git indexPath",
+      "pass": true
+    },
+    {
+      "name": "Closing Git exact",
+      "pass": true
+    },
+    {
+      "name": "Read diff",
+      "pass": true
+    },
+    {
+      "name": "Exact final template",
+      "pass": true
+    },
+    {
+      "name": "Actual 68 checks pass",
+      "pass": true
+    },
+    {
+      "name": "Actual finite completion",
+      "pass": true
+    },
+    {
+      "name": "Controller and browser agree",
+      "pass": true
+    },
+    {
+      "name": "Browser closures",
+      "pass": true
+    },
+    {
+      "name": "Owned processes and port released",
+      "pass": true
+    }
+  ],
+  "git": {
+    "head": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c\n",
+    "tree": "122c105f044af5cb65a018195be353a93a71e69e\n",
+    "branch": "codex/betterprhandoff-current-consumer-20260905\n",
+    "indexEntries": "100644 60a81bf98a13068087dc78da77a2813e3cbb84e3 0\t.gitignore\u0000100644 c9746b40a70eb469beb61c5008c0c098d518503e 0\t.tours/01-one-command-end-to-end.tour\u0000100644 63eaa40a41cfdf5396bec2371cb75102f58a35c0 0\t.tours/02-where-the-rules-live.tour\u0000100644 363f9576ad7547bb072f58401e014c589cfbcd4a 0\tAGENTS.md\u0000100644 7c8166cb974abd43afbd3c8dabc9ee3d0ce606f3 0\tINTEGRATIONS.md\u0000100644 e6ec10b2561a750c3a94d994534f3356590d04b6 0\tLICENSE\u0000100644 22ab185f569985589b5e7fdad613339882d32b35 0\tREADME.md\u0000100644 8998447c6905062bfb927587d86adba735afffcd 0\tSKILL.md\u0000100644 8968e2860e882b52cdd2d90e9fabd5ce7f7fa662 0\tbin/init.mjs\u0000100644 74660432ab5e86892a4fdf10f015b43c5044eb65 0\tdocs/SIMPLIFICATION_REPORT.md\u0000100644 c54a905edb7c41d118a7edc0e8ebd0e3bc347f5f 0\tdocs/START_HERE.md\u0000100644 ef69fd2a187aad2371bdf398d889a5955d814779 0\tdocs/codebase/ARCHITECTURE.md\u0000100644 7654ed869cdaa63b113e44de91613e299ae464f7 0\tdocs/codebase/CONCERNS.md\u0000100644 c4238f08f8bb6da31bed394869a104b09367a336 0\tdocs/codebase/CONVENTIONS.md\u0000100644 0a2c396e510154fcb447511c180703c3572c3a52 0\tdocs/codebase/INTEGRATIONS.md\u0000100644 864e99d5f3b89ef1f74dff8feb36948e61fe28e5 0\tdocs/codebase/STACK.md\u0000100644 2e8989ef81754aef2e3d9d9352ad295e1da65558 0\tdocs/codebase/STRUCTURE.md\u0000100644 720ae69d83778b5b3eff4cac366367c7fb257a5b 0\tdocs/codebase/TESTING.md\u0000100644 3f798505880c5173562023692c45492a1c05b933 0\tpackage.json\u0000100644 0ece45060ea1d88fa84913a7c320acba17d4b4fd 0\tpromotion/PRODUCT_GOAL.md\u0000100644 62bce6268f5a6081cb7a4cbfa117524d13927922 0\tpromotion/PRODUCT_JOURNEYS.md\u0000100644 b1403b84bc87fefb00186df1ec39bd6903512ae1 0\tpromotion/PROMOTION_LOG.md\u0000100644 f69eae493fa7207427749c6049e12af05d67b115 0\tpromotion/SKILLS.md\u0000100644 830b53a78be8102a3a15dfcb5a2f74f69f081b26 0\tpromotion/evidence/README.md\u0000100644 143ec5ec2789c2704e6231c2b348496dbd434061 0\tpromotion/evidence/WIG_REVIEW.md\u0000100644 c92f16a227f805282a5db8af1349520803797081 0\tpromotion/evidence/audit.mjs\u0000100644 b5a28326cf18ecd614af315468e339b666ee7df6 0\tpromotion/evidence/axe.json\u0000100644 5977fcfa3c65bde12cafad37d7e8343d3eeb15ee 0\tpromotion/evidence/lighthouse.json\u0000100644 8c304afee605388faa7ea7e5d39c146615e28ff5 0\tpromotion/evidence/npm-test.txt\u0000100644 bb6fd45eef1a982d70d6f779f1c58240aebbd8f7 0\tpromotion/evidence/screenshot-desktop-1440.png\u0000100644 128d6b52d999423287d1084f9a076da364a0de88 0\tpromotion/evidence/screenshot-mobile-375.png\u0000100644 4c3f44aaf238ac6474de372b2dbed894caf2926d 0\tpromotion/evidence/screenshot-tablet-768.png\u0000100644 3455805f8ff2830a09def6fb34ab8e014f4b85f3 0\tpromotion/evidence/summary.json\u0000100644 3ae2f25bfd498d07d72f1992474cbd38dd817b98 0\tpromotion/evidence/surface-measurements.json\u0000100644 b84eb3231f31cb6542162ec95c7bc8685b7d6ea7 0\tsubmissions/nodebench-redesign/README.md\u0000100644 8653d540ecbecab2bbf690ffb98389d3c6e09b31 0\tsubmissions/nodebench-redesign/ascii-runtime.txt\u0000100644 b6f541b68d7669ba2fd9d0c925efbfe4804864f9 0\tsubmissions/nodebench-redesign/changelog/chat.md\u0000100644 25fad0c489a11c458ba9387a81b721931d919e90 0\tsubmissions/nodebench-redesign/changelog/schema-s5.md\u0000100644 99064f70c5f272459a104721db372e63f86a493c 0\tsubmissions/nodebench-redesign/changelog/shell.md\u0000100644 826953752fa27d33f975477cdc464241ce866dde 0\tsubmissions/nodebench-redesign/chat-sprints-1-4-assertions-v2.json\u0000100644 caa91a9ccba7a3bcbb366b0b5aae4ea250e132f4 0\tsubmissions/nodebench-redesign/chat-sprints-1-4-demo-v2.gif\u0000100644 4650d17d895869cf6dc3ae1eac0c366e9671b159 0\tsubmissions/nodebench-redesign/chat-sprints-1-4-demo-v2.mp4\u0000100644 2b42e705c61168576562ef40e136fa784b2a414c 0\tsubmissions/nodebench-redesign/chat-sprints-1-4-demo.gif\u0000100644 cc0e0e4d6021fbdd66758827b2b2a945eeb6e525 0\tsubmissions/nodebench-redesign/chat-sprints-1-4-demo.mp4\u0000100644 678a00541a5c5acdf7f8e39f340b2a7f2ffe7527 0\tsubmissions/nodebench-redesign/chat-sprints-1-4-scenes-v2.json\u0000100644 e31f11a4047d455f1087e4f2f0ef04a8beafc6d1 0\tsubmissions/nodebench-redesign/chat-sprints-1-4-scenes.json\u0000100644 2f9edfe1a4b7cc1025a48442827689b4ab8ff054 0\tsubmissions/nodebench-redesign/demo-chat-sprints-1-4-v2.md\u0000100644 61c207aeb6090bc77892c4193b598c0c89bbf7f1 0\tsubmissions/nodebench-redesign/demo-chat-sprints-1-4.md\u0000100644 4ab81da789c7917a7fb0cfba9aeac2694ea7596d 0\ttemplates/CHANGELOG-README.md\u0000100644 13a569717232e33f8670ea396605b310997303cb 0\ttemplates/CHANGELOG-TEMPLATE.md\u0000100644 65b97647f7c36105f8343c902c21ad55b8b8ba17 0\ttemplates/bootstrap-prompt.md\u0000100644 d29f99153c6260837c1e32b7de63ea16c2e000cb 0\ttemplates/gmail-magic-resend.html\u0000100644 553548d958487e840cf38ce35f79c484cd4b7e45 0\ttemplates/lane.md\u0000100644 0766e382655473eab421d0f7b3af81fa26199beb 0\ttemplates/qa-dogfood-manifest.json\u0000100644 833efc09388d5b626e18beee43e6925c658a3aff 0\ttemplates/qa-dogfood-packet.md\u0000100644 463d1eda419206159a68aeb88b6f25cfe9ca5508 0\ttemplates/qa-email.html.mustache\u0000100644 dfac4cb7f36a4ecf6f5db867045030b230135969 0\ttemplates/qa-packet-schema.json\u0000100644 166ba34ee006b19378808da7ace17fbc82609f49 0\ttemplates/qa-packet.md\u0000100644 2c7345b99fde6f9c7c4604c10bb6bba40dabfafe 0\ttemplates/qa-states.example.json\u0000100644 3475909270c49f24454c418555f8302478d81624 0\ttemplates/remotion-storyboard.json\u0000100644 88bbe4e6cb2611e37ebb87df2deb54e68ebf30a8 0\ttemplates/runtime-diagram.md\u0000100644 3468925d65eb00172add0cab8099bb26f036376f 0\ttest/cli.test.mjs\u0000",
+    "refs": "refs/heads/codex/betterprhandoff-current-consumer-20260905 d30f1abc0ff0251000fedf1a3f25d0bad91bba6c\nrefs/heads/codex/nodekit-contract-alignment 2b26a4b7a8b309b7c24ffd550d56c3e029676d08\nrefs/heads/main 9537bbdb43b641a118e6253402a03ab0b123aadf\nrefs/remotes/origin/HEAD d30f1abc0ff0251000fedf1a3f25d0bad91bba6c\nrefs/remotes/origin/chat-sprints-1-4-demo 1ea9bf7365f86a6f8ddf36401e2b5d94098407ef\nrefs/remotes/origin/chat-sprints-1-4-v2 c686b2cbe927bf10aa9a18a2c3de5d2a81db3efa\nrefs/remotes/origin/codex/nodekit-contract-alignment 2b26a4b7a8b309b7c24ffd550d56c3e029676d08\nrefs/remotes/origin/codex/nodekit-present-adapter 941b17611d422997216dd4f2b1816b76774bc4ad\nrefs/remotes/origin/main d30f1abc0ff0251000fedf1a3f25d0bad91bba6c\nrefs/remotes/origin/nodebench-redesign-2026-05-05 b1447b2553d5f48cbedf1a7e7c29d2a400fb7c44\n",
+    "status": " M .tours/01-one-command-end-to-end.tour\u0000 M .tours/02-where-the-rules-live.tour\u0000 M README.md\u0000 M bin/init.mjs\u0000 M docs/START_HERE.md\u0000 M docs/codebase/ARCHITECTURE.md\u0000 M docs/codebase/CONCERNS.md\u0000 M docs/codebase/INTEGRATIONS.md\u0000 M docs/codebase/STACK.md\u0000 M docs/codebase/STRUCTURE.md\u0000 M docs/codebase/TESTING.md\u0000 M templates/gmail-magic-resend.html\u0000 M templates/lane.md\u0000 M test/cli.test.mjs\u0000?? CHANGELOG/README.md\u0000?? CHANGELOG/TEMPLATE.md\u0000?? CHANGELOG/components/changelog-lane.md\u0000?? CHANGELOG/components/qa-packet.md\u0000?? CHANGELOG/scripts/bin-init.md\u0000",
+    "rawIndexSha256": "88f5bc6411aa97e5a9ea2109b8c455f10f1dacac5a7375003b4b7abff254dd15"
+  },
+  "sourceFiles": 67,
+  "installedFiles": 19,
+  "generatedInputs": 8,
+  "allFrozenBindings": 137,
+  "survivors": [],
+  "listeners": [],
+  "futureSourceEdits": "This guard is closed; later root CI/documentation changes are outside this historical final source snapshot."
+}

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-06T02:16:04.221Z",
+  "pid": 16280,
+  "listen": {
+    "address": "127.0.0.1",
+    "family": "IPv4",
+    "port": 54370
+  },
+  "browserVersion": "149.0.7827.55",
+  "playwright": "1.61.1",
+  "executablePath": "C:\\Users\\hshum\\AppData\\Local\\ms-playwright\\chromium-1228\\chrome-win64\\chrome.exe",
+  "input": "Desktop mouse and native keyboard with viewport emulation; no Gmail client, physical device or native zoom.",
+  "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "tree": "122c105f044af5cb65a018195be353a93a71e69e"
+}

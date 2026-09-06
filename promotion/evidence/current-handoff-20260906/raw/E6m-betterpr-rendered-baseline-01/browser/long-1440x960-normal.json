@@ -1,0 +1,806 @@
+{
+  "url": "http://127.0.0.1:54370/long",
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "document": {
+    "width": 1440,
+    "height": 960
+  },
+  "title": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+  "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+  "featureId": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1",
+  "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+  "targets": [
+    {
+      "tag": "MAIN",
+      "className": "card",
+      "text": "\n      china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n      china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n      Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n      \n        Open test link\n        Approve\n        Needs fix\n        Magic resend after fix\n      \n      What changed for end users\n      Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n      Workflow lanes\n      \n        New or empty user state\n        Returning user state\n        Main happy path\n        Comment/edit correction\n        Mobile state\n      \n      Snapshot snippets\n      \n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      \n    ",
+      "href": null,
+      "rect": {
+        "x": 315,
+        "y": 24,
+        "width": 810,
+        "height": 763.4375,
+        "right": 1125,
+        "bottom": 787.4375,
+        "scrollWidth": 808,
+        "clientWidth": 808
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "P",
+      "className": "",
+      "text": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 65,
+        "width": 760,
+        "height": 36,
+        "right": 1100,
+        "bottom": 101,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "CODE",
+      "className": "",
+      "text": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 65,
+        "width": 712.609375,
+        "height": 37,
+        "right": 1052.609375,
+        "bottom": 102,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          241,
+          230,
+          220
+        ],
+        "ratio": 14.325672634870536,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "H1",
+      "className": "",
+      "text": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 117,
+        "width": 760,
+        "height": 140,
+        "right": 1100,
+        "bottom": 257,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "30px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "P",
+      "className": "",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 273,
+        "width": 760,
+        "height": 18,
+        "right": 1100,
+        "bottom": 291,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "P",
+      "className": "",
+      "text": "\n        Open test link\n        Approve\n        Needs fix\n        Magic resend after fix\n      ",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 307,
+        "width": 760,
+        "height": 54,
+        "right": 1100,
+        "bottom": 361,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "A",
+      "className": "button",
+      "text": "Open test link",
+      "href": "#",
+      "rect": {
+        "x": 340,
+        "y": 315,
+        "width": 133.796875,
+        "height": 38,
+        "right": 473.796875,
+        "bottom": 353,
+        "scrollWidth": 134,
+        "clientWidth": 134
+      },
+      "contrast": {
+        "color": "rgb(255, 255, 255)",
+        "background": [
+          189,
+          74,
+          42
+        ],
+        "ratio": 5.027882507327991,
+        "fontSize": "16px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "A",
+      "className": "button",
+      "text": "Approve",
+      "href": "#",
+      "rect": {
+        "x": 486.25,
+        "y": 315,
+        "width": 92.90625,
+        "height": 38,
+        "right": 579.15625,
+        "bottom": 353,
+        "scrollWidth": 93,
+        "clientWidth": 93
+      },
+      "contrast": {
+        "color": "rgb(255, 255, 255)",
+        "background": [
+          189,
+          74,
+          42
+        ],
+        "ratio": 5.027882507327991,
+        "fontSize": "16px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "A",
+      "className": "button",
+      "text": "Needs fix",
+      "href": "#",
+      "rect": {
+        "x": 591.609375,
+        "y": 315,
+        "width": 99.140625,
+        "height": 38,
+        "right": 690.75,
+        "bottom": 353,
+        "scrollWidth": 99,
+        "clientWidth": 99
+      },
+      "contrast": {
+        "color": "rgb(255, 255, 255)",
+        "background": [
+          189,
+          74,
+          42
+        ],
+        "ratio": 5.027882507327991,
+        "fontSize": "16px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "A",
+      "className": "button",
+      "text": "Magic resend after fix",
+      "href": "#",
+      "rect": {
+        "x": 703.203125,
+        "y": 315,
+        "width": 192.5,
+        "height": 38,
+        "right": 895.703125,
+        "bottom": 353,
+        "scrollWidth": 193,
+        "clientWidth": 193
+      },
+      "contrast": {
+        "color": "rgb(255, 255, 255)",
+        "background": [
+          189,
+          74,
+          42
+        ],
+        "ratio": 5.027882507327991,
+        "fontSize": "16px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "H2",
+      "className": "",
+      "text": "What changed for end users",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 380.90625,
+        "width": 760,
+        "height": 28,
+        "right": 1100,
+        "bottom": 408.90625,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "24px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "P",
+      "className": "",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 428.8125,
+        "width": 760,
+        "height": 36,
+        "right": 1100,
+        "bottom": 464.8125,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "H2",
+      "className": "",
+      "text": "Workflow lanes",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 484.71875,
+        "width": 760,
+        "height": 28,
+        "right": 1100,
+        "bottom": 512.71875,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "24px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "New or empty user state",
+      "href": null,
+      "rect": {
+        "x": 380,
+        "y": 532.625,
+        "width": 720,
+        "height": 18,
+        "right": 1100,
+        "bottom": 550.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "Returning user state",
+      "href": null,
+      "rect": {
+        "x": 380,
+        "y": 550.625,
+        "width": 720,
+        "height": 18,
+        "right": 1100,
+        "bottom": 568.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "Main happy path",
+      "href": null,
+      "rect": {
+        "x": 380,
+        "y": 568.625,
+        "width": 720,
+        "height": 18,
+        "right": 1100,
+        "bottom": 586.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "Comment/edit correction",
+      "href": null,
+      "rect": {
+        "x": 380,
+        "y": 586.625,
+        "width": 720,
+        "height": 18,
+        "right": 1100,
+        "bottom": 604.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "Mobile state",
+      "href": null,
+      "rect": {
+        "x": 380,
+        "y": 604.625,
+        "width": 720,
+        "height": 18,
+        "right": 1100,
+        "bottom": 622.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "H2",
+      "className": "",
+      "text": "Snapshot snippets",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 642.53125,
+        "width": 760,
+        "height": 28,
+        "right": 1100,
+        "bottom": 670.53125,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "24px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "TH",
+      "className": "",
+      "text": "Component",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 690.9375,
+        "width": 158.25,
+        "height": 36,
+        "right": 498.25,
+        "bottom": 726.9375,
+        "scrollWidth": 158,
+        "clientWidth": 158
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "TH",
+      "className": "",
+      "text": "Proof",
+      "href": null,
+      "rect": {
+        "x": 498.25,
+        "y": 690.9375,
+        "width": 197.8125,
+        "height": 36,
+        "right": 696.0625,
+        "bottom": 726.9375,
+        "scrollWidth": 198,
+        "clientWidth": 198
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "TH",
+      "className": "",
+      "text": "Correction prompt",
+      "href": null,
+      "rect": {
+        "x": 696.0625,
+        "y": 690.9375,
+        "width": 403.9375,
+        "height": 36,
+        "right": 1100,
+        "bottom": 726.9375,
+        "scrollWidth": 404,
+        "clientWidth": 404
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "TD",
+      "className": "",
+      "text": "surface.primary",
+      "href": null,
+      "rect": {
+        "x": 340,
+        "y": 726.9375,
+        "width": 158.25,
+        "height": 35.5,
+        "right": 498.25,
+        "bottom": 762.4375,
+        "scrollWidth": 158,
+        "clientWidth": 158
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "CODE",
+      "className": "",
+      "text": "surface.primary",
+      "href": null,
+      "rect": {
+        "x": 350,
+        "y": 735.4375,
+        "width": 117.21875,
+        "height": 19,
+        "right": 467.21875,
+        "bottom": 754.4375,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          241,
+          230,
+          220
+        ],
+        "ratio": 14.325672634870536,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "TD",
+      "className": "",
+      "text": "before / after / diff pending",
+      "href": null,
+      "rect": {
+        "x": 498.25,
+        "y": 726.9375,
+        "width": 197.8125,
+        "height": 35.5,
+        "right": 696.0625,
+        "bottom": 762.4375,
+        "scrollWidth": 198,
+        "clientWidth": 198
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "TD",
+      "className": "",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "href": null,
+      "rect": {
+        "x": 696.0625,
+        "y": 726.9375,
+        "width": 403.9375,
+        "height": 35.5,
+        "right": 1100,
+        "bottom": 762.4375,
+        "scrollWidth": 404,
+        "clientWidth": 404
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    }
+  ],
+  "outlying": [],
+  "links": [
+    {
+      "text": "Open test link",
+      "href": "#",
+      "resolved": "http://127.0.0.1:54370/long#",
+      "rect": {
+        "x": 340,
+        "y": 315,
+        "width": 133.796875,
+        "height": 38,
+        "right": 473.796875,
+        "bottom": 353,
+        "scrollWidth": 134,
+        "clientWidth": 134
+      }
+    },
+    {
+      "text": "Approve",
+      "href": "#",
+      "resolved": "http://127.0.0.1:54370/long#",
+      "rect": {
+        "x": 486.25,
+        "y": 315,
+        "width": 92.90625,
+        "height": 38,
+        "right": 579.15625,
+        "bottom": 353,
+        "scrollWidth": 93,
+        "clientWidth": 93
+      }
+    },
+    {
+      "text": "Needs fix",
+      "href": "#",
+      "resolved": "http://127.0.0.1:54370/long#",
+      "rect": {
+        "x": 591.609375,
+        "y": 315,
+        "width": 99.140625,
+        "height": 38,
+        "right": 690.75,
+        "bottom": 353,
+        "scrollWidth": 99,
+        "clientWidth": 99
+      }
+    },
+    {
+      "text": "Magic resend after fix",
+      "href": "#",
+      "resolved": "http://127.0.0.1:54370/long#",
+      "rect": {
+        "x": 703.203125,
+        "y": 315,
+        "width": 192.5,
+        "height": 38,
+        "right": 895.703125,
+        "bottom": 353,
+        "scrollWidth": 193,
+        "clientWidth": 193
+      }
+    }
+  ],
+  "active": {
+    "tag": "BODY",
+    "text": "\n    \n      china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n      china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n      Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n      \n        Open test link\n        Approve\n        Needs fix\n        Magic resend after fix\n      \n      What changed for end users\n      Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n      Workflow lanes\n      \n        New or empty user state\n        Returning user state\n        Main happy path\n        Comment/edit correction\n        Mobile state\n      \n      Snapshot snippets\n      \n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      \n    \n  \n\n",
+    "href": null,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 811.4375,
+      "right": 1440,
+      "bottom": 811.4375,
+      "scrollWidth": 1440,
+      "clientWidth": 1440
+    },
+    "outline": "rgb(35, 22, 15) none 3px",
+    "outlineOffset": "0px"
+  },
+  "fontsStatus": "loaded",
+  "reduced": false,
+  "scripts": 0
+}

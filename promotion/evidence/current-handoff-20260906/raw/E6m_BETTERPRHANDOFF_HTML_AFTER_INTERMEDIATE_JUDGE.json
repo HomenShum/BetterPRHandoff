@@ -1,0 +1,95 @@
+{
+  "status": "TABLE_AND_UNAVAILABLE_ACTIONS_APPROVED_TITLE_CONTAINMENT_HOLD",
+  "at": "2026-09-06T02:55:21.271266+00:00",
+  "scope": "Intermediate actual source/visual judgment; root may amend only the inherited H1 wrapping seam before final closure.",
+  "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "tree": "122c105f044af5cb65a018195be353a93a71e69e",
+  "sourceDescription": "HEAD d30f1abc/tree122c105 are unchanged base provenance. The actual repaired working source is the exact 67-file source-before.json snapshot; its19-file tarball and installed bytes plus eight actual CLI outputs are separately hash-bound. No commit or registry publication is inferred.",
+  "template": {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  "rawResult": {
+    "status": "COMPLETED_WITH_FINDINGS",
+    "passed": 250,
+    "checks": 276,
+    "preservedComparatorErrors": 22,
+    "genuineOverflowChecks": 4,
+    "matrixCells": 22,
+    "scrolledCells": 6,
+    "nativeJourneys": 4,
+    "pngs": 70,
+    "viewedPngs": 6,
+    "seconds": 5.797
+  },
+  "offlineCorrectedScope": {
+    "passed": 272,
+    "checks": 276,
+    "browserReplay": false,
+    "exclusion": "Only exact four intentionally removed # action anchors in each saved cell; all other original protected text/font size/weight/color are unchanged."
+  },
+  "accepted": [
+    "All28 table/card containment checks and actual inspected normal320/360/390computed2x table pixels show complete evidence within card.",
+    "Four visible Not configured list items and instructions plainly disclose missing actions; no links, roles, handlers or scripts are fabricated.",
+    "All16 native Tab/Enter steps,16 pointer clicks and4 Space observations pass with no navigation/request/content action. Space scrolling was allowed.",
+    "All22 card x/width checks pass. Exact protected text/font/color comparison passes offline after correcting the collector scope."
+  ],
+  "remainingFinding": {
+    "severity": "P1 for whole-page containment claim",
+    "case": "long-390x844-text200",
+    "evidencePng": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-01\\browser\\long-390x844-text200.png",
+      "bytes": 58147,
+      "sha256": "e08fd71f6131805698fedb006cb20cc13ec6ef2b2de56a3f0e5c5af9eeb7e379"
+    },
+    "observed": "Actual comparison word clips; H1 text range right417.890625, document418 versus viewport390. Repeated in the separately scrolled state.",
+    "preexistingEvidence": "Original long390computed2x H1 scrollWidth369/clientWidth292 and unchanged raw H1 CSS. Old total width563 was dominated by table; after table repair total418 exposes heading contribution.",
+    "minimalProposal": "Add overflow-wrap:anywhere to existing H1 declaration, preserving full exact title,60px doubled font and all card/other owners. This is content containment, not a title-shortening/density redesign. Root must view the actual failed PNG/boundary before editing and verify only affected long3902x plus necessary controls.",
+    "currentSourceEditsByJudge": 0
+  },
+  "sourceGuard": "CLOSED",
+  "bindings": {
+    "config": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-01\\config.json",
+      "bytes": 46166,
+      "sha256": "ca6ba2b25710137fcb2988586cbc608f194580a24f3a531d1cea9f58f52ebbe6"
+    },
+    "rawManifest": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-01\\manifest.json",
+      "bytes": 62863,
+      "sha256": "ac60a6abc333fddfa66a098b4826efae359ed995340106229c163e36f1aabd36"
+    },
+    "rawReport": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-01\\browser\\report.json",
+      "bytes": 207557,
+      "sha256": "e92273f67931aa9f765a07504ddf8c9147f9f601ca3c75d4ce895b2d76a0a3ed"
+    },
+    "controller": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-01\\controller-report.json",
+      "bytes": 1223,
+      "sha256": "bb2855c4b65e319d8a773d66253918f23c6bd93331cfd8313633ad746fc68d24"
+    },
+    "offlineCorrection": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-intermediate-judge-01\\offline-protected-comparison.json",
+      "bytes": 11410,
+      "sha256": "21af4d52144836fbfa2902b9af1fb68105773af2065ddf2ea2d2d4495c1130ba"
+    },
+    "cause": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-intermediate-judge-01\\geometry-and-cause.json",
+      "bytes": 3528,
+      "sha256": "0a36acc373e419ae0acce73eec7694d8fe08b6d8d1a6353223fbe891abb281b3"
+    }
+  },
+  "limits": [
+    "Local Chromium149.0.7827.55 / Playwright1.61.1; no Gmail, provider, email, approval service, human/device/native-zoom or performance claim.",
+    "70 captures does not mean70 images inspected; six representative exact viewport images viewed in this intermediate judgment.",
+    "The strict no-page-overflow named proof remains FAILED pending H1 repair; no whole-product or final visual pass.",
+    "Original raw report/captures/config/scripts remain unchanged; offline comparison is a separate explicit correction.",
+    "Cell/card padding and font sizes are unchanged; narrow columns create more vertical wrapping and remain a density consideration."
+  ],
+  "reviewer": "Product nonauthor; authored external observer and this comparison. Reused reviewer context.",
+  "fullDimensions": null,
+  "overallScore": null,
+  "fullGrades": null
+}

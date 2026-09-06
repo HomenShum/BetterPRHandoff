@@ -8,7 +8,7 @@ copy and all three had drifted, so they now point here instead.
 
 | Path | Lines | What it is | Read by |
 |---|---:|---|---|
-| `README.md` | 173 | The shop window. Install, what the four artifacts are, why per-surface beats a repo-wide changelog. | humans arriving from npm or GitHub |
+| `README.md` | 198 | The shop window. Install, what the four artifacts are, why per-surface beats a repo-wide changelog. | humans arriving from npm or GitHub |
 | `SKILL.md` | 334 | **The contract**, in Claude Code skill format with YAML front-matter declaring its trigger phrases. Five phases. | Claude Code, and humans applying the protocol by hand |
 | `AGENTS.md` | 220 | The same contract, agent-agnostic. Six numbered steps, plain markdown and bash. | Cursor, Cline, Aider, Codex, Continue.dev, any LLM |
 | `INTEGRATIONS.md` | 191 | Which other tools implement the QA-packet contract, and the boundary between "this repo defines the schema" and "another repo generates artifacts". | anyone wiring up a generator |
@@ -19,13 +19,21 @@ copy and all three had drifted, so they now point here instead.
 
 | Path | Lines | What it is |
 |---|---:|---|
-| `bin/init.mjs` | 339 | Every subcommand, the dispatcher, the colour helpers, the category vocabulary. There is no second source file. Walk it in runtime order via `docs/START_HERE.md`. |
+| `bin/init.mjs` | 369 | Every subcommand, the dispatcher, the colour helpers, the category vocabulary. There is no second source file. Walk it in runtime order via `docs/START_HERE.md`. |
 
 ## `test/` — the behaviour lock
 
 | Path | Lines | What it is |
 |---|---:|---|
-| `test/cli.test.mjs` | 369 | 20 scenario tests. Each runs the real CLI as a subprocess in a throwaway directory and asserts the exit code plus the files that landed. One pins a known defect on purpose and says so; three guard the walkthroughs and the documented invocation. |
+| `test/cli.test.mjs` | 508 | Real CLI subprocess scenarios assert exit codes and preserved or newly created files, including pending history and finite concurrent writers. Three guards check the walkthroughs and documented invocation. |
+
+## `CHANGELOG/` — this repository's current CLI change history
+
+`README.md` indexes the three current lanes, and `TEMPLATE.md` states the entry
+format. `scripts/bin-init.md` tracks file scaffolding and preservation;
+`components/changelog-lane.md` tracks the reusable lane document, and
+`components/qa-packet.md` tracks the static preview layout and action disclosure.
+Unavailable commit and author facts remain pending until real facts exist.
 
 ## `templates/` — everything the CLI copies into a user's repo
 
@@ -37,7 +45,7 @@ unused exports — there are none.
 |---|---:|---|---|
 | `CHANGELOG-README.md` | 86 | `easier init` | `CHANGELOG/README.md` — the master index the adopter fills in |
 | `CHANGELOG-TEMPLATE.md` | 52 | `easier init` | `CHANGELOG/TEMPLATE.md` — the entry format spec |
-| `lane.md` | 28 | `easier add <category> <slug>` | `CHANGELOG/<category>/<slug>.md`, with the path and today's date substituted |
+| `lane.md` | 22 | `easier add <category> <slug>` | `CHANGELOG/<category>/<slug>.md`, with the surface/date personalized, pending real facts, and a fenced format example |
 | `bootstrap-prompt.md` | 95 | `easier install` (as part of `templates/`) | the prompt you hand parallel subagents to backfill lanes from `git log` |
 | `runtime-diagram.md` | 220 | `easier install` | format spec plus four worked ASCII diagrams (one, two, three, and five layers). The single copy — `README.md` shows only the top box and links here. |
 | `qa-packet.md` | 211 | `easier install` | the full QA-packet protocol doc, read once |
@@ -50,7 +58,7 @@ unused exports — there are none.
 | `qa-email.html.mustache` | 111 | `easier install` | the Gmail Magic Resend email template, rendered by a generator, not by this CLI |
 
 Placeholder substitution is three tokens only — `__FEATURE_ID__`, `__TITLE__`,
-`__DATE__` — done at `bin/init.mjs:252` →
+`__DATE__` — done at `bin/init.mjs:257` →
 `async function writeTemplate(templateName, dest, replacements) {`. A test asserts
 none of the three survive into a generated packet.
 
@@ -60,14 +68,15 @@ none of the three survive into a generated packet.
 |---|---|
 | `PRODUCT_GOAL.md` | Who opens this and what they are trying to finish; the twelve-condition scorecard |
 | `PRODUCT_JOURNEYS.md` | The five canonical journeys, J1-J5 |
-| `PROMOTION_LOG.md` | **The live defect ledger.** Read this before you believe anything works. One entry per loop iteration, append-only. |
+| `PROMOTION_LOG.md` | Preserved historical defect observations. One entry per loop iteration, append-only; current behavior and limits are described in `docs/codebase/CONCERNS.md`. |
 | `SKILLS.md` | Which skills the loop uses |
 
 This directory is not shipped by `package.json#files`. It is the record of a
 different loop from the one that produced `docs/` — the product loop drives
 journeys and files defects; the wave-3 pass reduced and documented the code.
-Where they disagree, `PROMOTION_LOG.md` is the authority on what is broken and
-`docs/SIMPLIFICATION_REPORT.md` is the authority on what changed.
+Historical measurements keep their original source meaning. Do not rewrite
+them to match a later repair; use current source, tests, and CONCERNS.md for
+current behavior and the dated records for the original failures.
 
 ## `submissions/` — evidence from a past hand-off
 

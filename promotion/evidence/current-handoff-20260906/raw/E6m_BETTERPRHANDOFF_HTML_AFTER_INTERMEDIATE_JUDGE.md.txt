@@ -1,0 +1,11 @@
+Builder mode. The table and unavailable-action repair is supported by actual pixels and native behavior, but complete page containment remains on hold.
+
+The inspected 320/360 normal and 390 computed 2× table screenshots show all proof/correction text inside the card. The action group now visibly says Not configured, and all 16 native Tab/Enter steps, 16 pointer clicks and 4 Space observations leave navigation, requests and content unchanged. The actual normal desktop packet is clear about the absence of approval or resend service.
+
+One real failure remains: the long title's word “comparison” clips at 390px with doubled text. Its right edge is 417.89px and document width 418px. The old baseline already recorded H1 scrollWidth 369 against clientWidth 292; the unchanged H1 CSS proves this is inherited, previously masked by the wider overflowing table. It is a content-containment defect, separate from the intentionally deferred long-title density issue. The minimal proposal is token wrapping in the existing H1 declaration, preserving full text and font size.
+
+The once-only run completed 22 matched cells plus 6 scrolled cells, 4 native journeys and 70 PNGs in 5.797 seconds, with no harness errors or remaining owned runtime. The raw result is 250/276. My comparator mistakenly retained the four intentionally removed anchor elements in its protected set, causing 22 false failures. All originals remain exact. A separate offline comparison excludes only those exact declared action nodes and verifies all other text and font/color values unchanged: 272/276 effective checks, with the four real title-overflow checks still failed. No browser replay or source edit was used to correct that observer error.
+
+All 67 source files, 19 installed files, eight generated companions and the complete 133-binding config remained exact; HEAD/index/refs/status also remained exact. The guard is now CLOSED so root can review the precise heading amendment. Six representative after PNGs were actually inspected. Full grades remain null; no final complete-page visual pass is claimed.
+
+**Re your request:** visual UI, responsiveness and interaction readiness — the repaired table/action behavior is verified and the remaining actual phone clipping is exposed before final grading.

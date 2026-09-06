@@ -7,14 +7,14 @@ protocol and CLI. The npm package name stays stable for existing installs.
 
 A drop-in protocol for **any** LLM-driven coding agent that turns "made some changes, time to commit" into a deterministic, verifiable submission. Built so the next person reading your branch — your reviewer, your future self, the engineer you're handing the project to, the next AI agent — doesn't have to spelunk through 40 commit messages to understand what changed.
 
-> **Working on this repo rather than using it?** Start at [`docs/START_HERE.md`](docs/START_HERE.md), which walks the code in the order it runs, then read [`promotion/PROMOTION_LOG.md`](promotion/PROMOTION_LOG.md) for what is currently broken. Two CodeTours in [`.tours/`](.tours) cover the same ground inside VS Code.
+> **Working on this repo rather than using it?** Start at [`docs/START_HERE.md`](docs/START_HERE.md), which walks the code in the order it runs, then read [`docs/codebase/CONCERNS.md`](docs/codebase/CONCERNS.md) for current limits and [`promotion/PROMOTION_LOG.md`](promotion/PROMOTION_LOG.md) for preserved historical observations. Two CodeTours in [`.tours/`](.tours) cover the same ground inside VS Code.
 
-Four artifacts the protocol produces per submission, automatically:
+The protocol asks the developer or their own agent to prepare four artifacts when applicable. The CLI creates folders, copies instructions, and scaffolds files; it does not record a demo, run a verifier, write real commit history, or send email:
 
 - **Per-surface changelog entries** — append-only files under `CHANGELOG/<category>/<slug>.md`, one entry per touched surface, cross-linked.
-- **Verified demo recording** (UI changes only) — Playwright recorder + Gemini video analysis. Both must pass.
+- **Verified demo recording** (UI changes only) — your project supplies the recorder and video verifier. The protocol requires both checks; this package includes neither executable.
 - **ASCII runtime diagram** (multi-layer changes) — visual map of what changed across DEPLOY → FRONTEND → BACKEND → DATABASE → AGENT, including parallel-stack labels (`· LIVE` / `· DORMANT`).
-- **QA packet** (when handoff matters) — single email/page with preview link, per-state test URLs, before/after screenshots, component snippets, GIFs, optional Remotion demo, and per-state verdicts. Schema-shared so any generator (Parity Studio, your CI, custom tool) emits the same shape. Gmail Magic Resend updates the same email thread on regeneration.
+- **QA packet** (when handoff matters) — single email/page with preview link, per-state test URLs, before/after screenshots, component snippets, GIFs, optional Remotion demo, and per-state verdicts. Schema-shared so any generator (Parity Studio, your CI, custom tool) emits the same shape. A separate generator and email integration must implement capture, verification, delivery, and same-thread resend; the scaffold does not perform those actions.
 
 ---
 
@@ -27,16 +27,16 @@ npx @homenshum/easier-to-read-submissions install
 
 One command, because there used to be three and they disagreed. A `curl | bash` and an `iwr | iex` installer each re-implemented this detection in their own dialect and drifted: in a directory holding only `.cursor/`, the npm CLI chose `cursor`, `install.sh` chose `user`, and `install.ps1` chose `user` — and `install.ps1` chose `user` for *every* repo, because it looked only for `package.json` and never for `.git`. Both shell installers were deleted in the wave-3 pass; see [`docs/SIMPLIFICATION_REPORT.md`](docs/SIMPLIFICATION_REPORT.md). Node is already a hard requirement of this package, so `npx` reaches everyone the shell scripts did.
 
-That installs the skill to the right path for whichever agent you're using. Manual paths if you'd rather:
+The installer copies rules to the selected agent's path. It preserves existing files: identical completed content can be reused; different content produces a nonzero conflict naming the destination for manual reconciliation. A partial failed install may leave newly created files, so inspect the reported conflict before retrying. Copying files does not prove an agent loaded them. Manual paths if you'd rather:
 
 | Your agent | Where to install | What to drop |
 |---|---|---|
-| **Claude Code** (per-user) | `~/.claude/skills/easier-to-read-submissions/` | full skill (SKILL.md + templates/) |
+| **Claude Code** (per-user) | `~/.claude/skills/easier-to-read-submissions/` | full skill (SKILL.md + AGENTS.md + templates/) |
 | **Claude Code** (per-repo) | `<repo>/.claude/skills/easier-to-read-submissions/` | full skill |
 | **Cursor** | `<repo>/.cursor/rules/easier-to-read-submissions.md` | AGENTS.md |
 | **Cline** | `<repo>/.clinerules` | AGENTS.md |
 | **Aider** | `<repo>/AGENTS.md` (use with `aider --read AGENTS.md`) | AGENTS.md |
-| **Codex / Continue.dev / Devin / generic LLM** | `<repo>/AGENTS.md` (point your `systemMessage` at it) | AGENTS.md |
+| **Codex / Continue.dev / Devin / generic LLM** | `<repo>/agents/easier-to-read-submissions/` for `install generic` (point your agent at its AGENTS.md) | SKILL.md + AGENTS.md + templates/ |
 | **No agent** (humans only) | wherever — read `SKILL.md` and apply by hand | full skill |
 
 After install, bootstrap your repo's CHANGELOG/. The package name is the whole
@@ -55,6 +55,18 @@ Working inside a clone of this repo instead of installing it? Then `npx`
 resolves the registry, not your checkout, and you would be reading one CLI and
 running another. Use `node bin/init.mjs <verb>`, which is what the CLI's own
 printed next steps will tell you when it detects it is running from a clone.
+The displayed source path is quoted for a checkout containing spaces. Use the
+command from the checkout you intend to test; installed-package and source
+invocations are different evidence.
+
+A new lane contains an unfilled current entry and a fenced format example.
+Commit and author fields remain pending until you supply real facts; no previous
+history is invented. Existing lane files are never regenerated. A repeated
+`add` refuses an existing lane, and `qa` reserves a new packet directory before
+writing its four members. `init` preserves an existing CHANGELOG directory; `qa-init` preserves an existing
+configuration even when it differs from the example. Neither no-op confirms
+that the existing content is complete. Conflicts do not imply a completed
+review or approval.
 
 Then tell your agent: **"Follow `AGENTS.md` before every commit / push / PR."**
 
@@ -62,12 +74,13 @@ Then tell your agent: **"Follow `AGENTS.md` before every commit / push / PR."**
 
 ---
 
-## What it produces
+## What the protocol asks you to prepare
 
-Three artifacts per commit, applied based on what the change touched:
+These are developer or agent responsibilities, applied based on what the change
+touched. Scaffolding them does not complete their evidence:
 
 1. **Per-surface changelog entries** — append-only files under `CHANGELOG/<category>/<slug>.md`, one entry per touched surface, cross-linked.
-2. **Verified demo (UI changes only)** — Playwright recorder + Gemini video analysis, both must pass.
+2. **Verified demo (UI changes only)** — a project-specific recorder and video verifier you supply, with both results checked.
 3. **ASCII runtime diagram (multi-layer changes)** — visual map of what changed across frontend / backend / database / agent. Renders unchanged in commit bodies, PR descriptions, GitHub markdown, and terminal `git log`.
 
 ### What a full-stack diagram looks like
@@ -106,7 +119,7 @@ The `· LIVE` / `· DORMANT` labels matter — they tell readers what tech debt 
 
 **Phase 1 — Per-surface changelog lanes (always).** Every page, component, server module, db table, integration, and script gets its own `CHANGELOG/<category>/<slug>.md` file. When you change a surface, you prepend a new dated entry. Multi-surface changes write entries to **each** affected lane, cross-linked via `**Touches**:`. Append-only — the audit trail is the whole point.
 
-**Phase 2 — Verified demo recording (when relevant).** For UI changes: a Playwright recorder asserts every claim via DOM grep, then a Gemini-2.5-Flash pass watches the recorded MP4 and confirms what's actually visible. Both layers must pass before you push. Catches the gap between "the string is in the DOM" and "the string is visibly on screen."
+**Phase 2 — Verified demo recording (when relevant).** For UI changes, provide a recorder for your actual routes and a video verifier for its output. The protocol requires DOM assertions and visual confirmation before the relevant handoff. No recorder, model call, or verification run is supplied by this CLI. This separates "the string is in the DOM" from "the string is visibly on screen."
 
 **Phase 3 — Live-DOM verification before claiming done.** Never claim "deployed" / "shipped" / "live" on the basis of CLI exit codes or build logs. Always fetch the live URL (or authenticated API) and grep for a concrete content signal. Catches webhooks silently disconnected, Suspense traps, CDN-cached stale HTML.
 
@@ -128,7 +141,9 @@ Two failure modes the skill catches:
 1. **DOM check passes, video doesn't show it.** The recorder confirms the string is in the rendered HTML, but if it's past the fold of the recorded viewport, viewers (and reviewers) see nothing. Gemini watches the actual pixels and flags this.
 2. **Code-review claims that can't be falsified.** "I added the Care Plan to the inbox card" is a claim. "I added it AND the recorder asserts it AND Gemini confirms it's visible in the 3-second hold at 0:12" is a verified claim.
 
-Time cost: ~75 seconds to record, ~30 seconds for Gemini analysis. Worth it on every UI change.
+The original worked example took about 75 seconds to record and 30 seconds to
+verify. Those are historical timings for that application, not a timing promise
+or evidence that this package runs a recorder.
 
 ## Install
 

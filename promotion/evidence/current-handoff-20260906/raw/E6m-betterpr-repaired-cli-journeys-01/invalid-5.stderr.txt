@@ -1,0 +1,1 @@
+[31m✗ Bad target: wrong. Use: user|project|cursor|cline|aider|generic|auto[0m

@@ -1,0 +1,1424 @@
+{
+  "status": "PASS",
+  "fatal": null,
+  "errors": [],
+  "events": [],
+  "checks": [
+    {
+      "name": "normal-390x844-text200: exact original feature and title",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-text200: four truthful noninteractive unavailable slots",
+      "pass": true,
+      "actual": {
+        "slots": [
+          {
+            "text": "Open test link: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Approve: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Needs fix: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Magic resend after fix: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "interactive": [],
+        "handlers": [],
+        "scripts": 0
+      }
+    },
+    {
+      "name": "normal-390x844-text200: explicit unavailable instructions",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-text200: no horizontal document overflow",
+      "pass": true,
+      "actual": {
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "normal-390x844-text200: table within card content",
+      "pass": true,
+      "actual": {
+        "table": {
+          "x": 49,
+          "y": 2787.96875,
+          "right": 341,
+          "bottom": 3263.96875,
+          "width": 292,
+          "height": 476,
+          "scrollWidth": 292,
+          "clientWidth": 292
+        },
+        "content": {
+          "left": 49,
+          "right": 341
+        }
+      }
+    },
+    {
+      "name": "normal-390x844-text200: complete text within card content",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-390x844-text200: actual fixed layout without hiding",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-text200: exact protected text and inherited typography",
+      "pass": true,
+      "actual": {
+        "missing": [],
+        "changed": []
+      }
+    },
+    {
+      "name": "normal-390x844-text200: protected card x and width",
+      "pass": true,
+      "actual": {
+        "before": {
+          "x": 24,
+          "y": 24,
+          "width": 342,
+          "height": 2648.96875,
+          "right": 366,
+          "bottom": 2672.96875,
+          "scrollWidth": 538,
+          "clientWidth": 340
+        },
+        "after": {
+          "x": 24,
+          "y": 24,
+          "right": 366,
+          "bottom": 3288.96875,
+          "width": 342,
+          "height": 3264.96875,
+          "scrollWidth": 340,
+          "clientWidth": 340
+        }
+      }
+    },
+    {
+      "name": "long-390x844-text200: exact original feature and title",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-text200: four truthful noninteractive unavailable slots",
+      "pass": true,
+      "actual": {
+        "slots": [
+          {
+            "text": "Open test link: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Approve: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Needs fix: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Magic resend after fix: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "interactive": [],
+        "handlers": [],
+        "scripts": 0
+      }
+    },
+    {
+      "name": "long-390x844-text200: explicit unavailable instructions",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-text200: no horizontal document overflow",
+      "pass": true,
+      "actual": {
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "long-390x844-text200: table within card content",
+      "pass": true,
+      "actual": {
+        "table": {
+          "x": 49,
+          "y": 3893.96875,
+          "right": 341,
+          "bottom": 4369.96875,
+          "width": 292,
+          "height": 476,
+          "scrollWidth": 292,
+          "clientWidth": 292
+        },
+        "content": {
+          "left": 49,
+          "right": 341
+        }
+      }
+    },
+    {
+      "name": "long-390x844-text200: complete text within card content",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-390x844-text200: actual fixed layout without hiding",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-text200: exact protected text and inherited typography",
+      "pass": true,
+      "actual": {
+        "missing": [],
+        "changed": []
+      }
+    },
+    {
+      "name": "long-390x844-text200: protected card x and width",
+      "pass": true,
+      "actual": {
+        "before": {
+          "x": 24,
+          "y": 24,
+          "width": 342,
+          "height": 3686.96875,
+          "right": 366,
+          "bottom": 3710.96875,
+          "scrollWidth": 538,
+          "clientWidth": 340
+        },
+        "after": {
+          "x": 24,
+          "y": 24,
+          "right": 366,
+          "bottom": 4394.96875,
+          "width": 342,
+          "height": 4370.96875,
+          "scrollWidth": 340,
+          "clientWidth": 340
+        }
+      }
+    },
+    {
+      "name": "normal-1440x960-normal: exact original feature and title",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-normal: four truthful noninteractive unavailable slots",
+      "pass": true,
+      "actual": {
+        "slots": [
+          {
+            "text": "Open test link: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Approve: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Needs fix: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Magic resend after fix: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          }
+        ],
+        "interactive": [],
+        "handlers": [],
+        "scripts": 0
+      }
+    },
+    {
+      "name": "normal-1440x960-normal: explicit unavailable instructions",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-normal: no horizontal document overflow",
+      "pass": true,
+      "actual": {
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "normal-1440x960-normal: table within card content",
+      "pass": true,
+      "actual": {
+        "table": {
+          "x": 340,
+          "y": 661.4375,
+          "right": 1100,
+          "bottom": 748.4375,
+          "width": 760,
+          "height": 87,
+          "scrollWidth": 760,
+          "clientWidth": 760
+        },
+        "content": {
+          "left": 340,
+          "right": 1100
+        }
+      }
+    },
+    {
+      "name": "normal-1440x960-normal: complete text within card content",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-1440x960-normal: actual fixed layout without hiding",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-normal: exact protected text and inherited typography",
+      "pass": true,
+      "actual": {
+        "missing": [],
+        "changed": []
+      }
+    },
+    {
+      "name": "normal-1440x960-normal: protected card x and width",
+      "pass": true,
+      "actual": {
+        "before": {
+          "x": 315,
+          "y": 24,
+          "width": 810,
+          "height": 640.4375,
+          "right": 1125,
+          "bottom": 664.4375,
+          "scrollWidth": 808,
+          "clientWidth": 808
+        },
+        "after": {
+          "x": 315,
+          "y": 24,
+          "right": 1125,
+          "bottom": 773.4375,
+          "width": 810,
+          "height": 749.4375,
+          "scrollWidth": 808,
+          "clientWidth": 808
+        }
+      }
+    },
+    {
+      "name": "long-1440x960-normal: exact original feature and title",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-normal: four truthful noninteractive unavailable slots",
+      "pass": true,
+      "actual": {
+        "slots": [
+          {
+            "text": "Open test link: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Approve: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Needs fix: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Magic resend after fix: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          }
+        ],
+        "interactive": [],
+        "handlers": [],
+        "scripts": 0
+      }
+    },
+    {
+      "name": "long-1440x960-normal: explicit unavailable instructions",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-normal: no horizontal document overflow",
+      "pass": true,
+      "actual": {
+        "document": 1440,
+        "viewport": 1440
+      }
+    },
+    {
+      "name": "long-1440x960-normal: table within card content",
+      "pass": true,
+      "actual": {
+        "table": {
+          "x": 340,
+          "y": 784.4375,
+          "right": 1100,
+          "bottom": 871.4375,
+          "width": 760,
+          "height": 87,
+          "scrollWidth": 760,
+          "clientWidth": 760
+        },
+        "content": {
+          "left": 340,
+          "right": 1100
+        }
+      }
+    },
+    {
+      "name": "long-1440x960-normal: complete text within card content",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-1440x960-normal: actual fixed layout without hiding",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-normal: exact protected text and inherited typography",
+      "pass": true,
+      "actual": {
+        "missing": [],
+        "changed": []
+      }
+    },
+    {
+      "name": "long-1440x960-normal: protected card x and width",
+      "pass": true,
+      "actual": {
+        "before": {
+          "x": 315,
+          "y": 24,
+          "width": 810,
+          "height": 763.4375,
+          "right": 1125,
+          "bottom": 787.4375,
+          "scrollWidth": 808,
+          "clientWidth": 808
+        },
+        "after": {
+          "x": 315,
+          "y": 24,
+          "right": 1125,
+          "bottom": 896.4375,
+          "width": 810,
+          "height": 872.4375,
+          "scrollWidth": 808,
+          "clientWidth": 808
+        }
+      }
+    },
+    {
+      "name": "normal-320x800-normal: exact original feature and title",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-320x800-normal: four truthful noninteractive unavailable slots",
+      "pass": true,
+      "actual": {
+        "slots": [
+          {
+            "text": "Open test link: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Approve: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Needs fix: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Magic resend after fix: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          }
+        ],
+        "interactive": [],
+        "handlers": [],
+        "scripts": 0
+      }
+    },
+    {
+      "name": "normal-320x800-normal: explicit unavailable instructions",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-320x800-normal: no horizontal document overflow",
+      "pass": true,
+      "actual": {
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "name": "normal-320x800-normal: table within card content",
+      "pass": true,
+      "actual": {
+        "table": {
+          "x": 49,
+          "y": 1046.4375,
+          "right": 271,
+          "bottom": 1268.4375,
+          "width": 222,
+          "height": 222,
+          "scrollWidth": 222,
+          "clientWidth": 222
+        },
+        "content": {
+          "left": 49,
+          "right": 271
+        }
+      }
+    },
+    {
+      "name": "normal-320x800-normal: complete text within card content",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-320x800-normal: actual fixed layout without hiding",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-320x800-normal: exact protected text and inherited typography",
+      "pass": true,
+      "actual": {
+        "missing": [],
+        "changed": []
+      }
+    },
+    {
+      "name": "normal-320x800-normal: protected card x and width",
+      "pass": true,
+      "actual": {
+        "before": {
+          "x": 24,
+          "y": 24,
+          "width": 272,
+          "height": 1097.4375,
+          "right": 296,
+          "bottom": 1121.4375,
+          "scrollWidth": 316,
+          "clientWidth": 270
+        },
+        "after": {
+          "x": 24,
+          "y": 24,
+          "right": 296,
+          "bottom": 1293.4375,
+          "width": 272,
+          "height": 1269.4375,
+          "scrollWidth": 270,
+          "clientWidth": 270
+        }
+      }
+    },
+    {
+      "name": "long-320x800-normal: exact original feature and title",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-320x800-normal: four truthful noninteractive unavailable slots",
+      "pass": true,
+      "actual": {
+        "slots": [
+          {
+            "text": "Open test link: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Approve: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Needs fix: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          },
+          {
+            "text": "Magic resend after fix: Not configured",
+            "attributes": [],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": []
+              }
+            ]
+          }
+        ],
+        "interactive": [],
+        "handlers": [],
+        "scripts": 0
+      }
+    },
+    {
+      "name": "long-320x800-normal: explicit unavailable instructions",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-320x800-normal: no horizontal document overflow",
+      "pass": true,
+      "actual": {
+        "document": 320,
+        "viewport": 320
+      }
+    },
+    {
+      "name": "long-320x800-normal: table within card content",
+      "pass": true,
+      "actual": {
+        "table": {
+          "x": 49,
+          "y": 1538.4375,
+          "right": 271,
+          "bottom": 1760.4375,
+          "width": 222,
+          "height": 222,
+          "scrollWidth": 222,
+          "clientWidth": 222
+        },
+        "content": {
+          "left": 49,
+          "right": 271
+        }
+      }
+    },
+    {
+      "name": "long-320x800-normal: complete text within card content",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-320x800-normal: actual fixed layout without hiding",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-320x800-normal: exact protected text and inherited typography",
+      "pass": true,
+      "actual": {
+        "missing": [],
+        "changed": []
+      }
+    },
+    {
+      "name": "long-320x800-normal: protected card x and width",
+      "pass": true,
+      "actual": {
+        "before": {
+          "x": 24,
+          "y": 24,
+          "width": 272,
+          "height": 1589.4375,
+          "right": 296,
+          "bottom": 1613.4375,
+          "scrollWidth": 316,
+          "clientWidth": 270
+        },
+        "after": {
+          "x": 24,
+          "y": 24,
+          "right": 296,
+          "bottom": 1785.4375,
+          "width": 272,
+          "height": 1761.4375,
+          "scrollWidth": 270,
+          "clientWidth": 270
+        }
+      }
+    },
+    {
+      "name": "normal-390x844-text200-table-scrolled: exact original feature and title",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-text200-table-scrolled: four truthful noninteractive unavailable slots",
+      "pass": true,
+      "actual": {
+        "slots": [
+          {
+            "text": "Open test link: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Approve: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Needs fix: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Magic resend after fix: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "interactive": [],
+        "handlers": [],
+        "scripts": 0
+      }
+    },
+    {
+      "name": "normal-390x844-text200-table-scrolled: explicit unavailable instructions",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-text200-table-scrolled: no horizontal document overflow",
+      "pass": true,
+      "actual": {
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "normal-390x844-text200-table-scrolled: table within card content",
+      "pass": true,
+      "actual": {
+        "table": {
+          "x": 49,
+          "y": 318.96875,
+          "right": 341,
+          "bottom": 794.96875,
+          "width": 292,
+          "height": 476,
+          "scrollWidth": 292,
+          "clientWidth": 292
+        },
+        "content": {
+          "left": 49,
+          "right": 341
+        }
+      }
+    },
+    {
+      "name": "normal-390x844-text200-table-scrolled: complete text within card content",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-390x844-text200-table-scrolled: actual fixed layout without hiding",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-text200-table-scrolled: exact original feature and title",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-text200-table-scrolled: four truthful noninteractive unavailable slots",
+      "pass": true,
+      "actual": {
+        "slots": [
+          {
+            "text": "Open test link: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Approve: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Needs fix: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Magic resend after fix: Not configured",
+            "attributes": [
+              [
+                "style",
+                "font-size: 32px;"
+              ]
+            ],
+            "descendants": [
+              {
+                "tag": "STRONG",
+                "attributes": [
+                  [
+                    "style",
+                    "font-size: 32px;"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "interactive": [],
+        "handlers": [],
+        "scripts": 0
+      }
+    },
+    {
+      "name": "long-390x844-text200-table-scrolled: explicit unavailable instructions",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-text200-table-scrolled: no horizontal document overflow",
+      "pass": true,
+      "actual": {
+        "document": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "long-390x844-text200-table-scrolled: table within card content",
+      "pass": true,
+      "actual": {
+        "table": {
+          "x": 49,
+          "y": 318.96875,
+          "right": 341,
+          "bottom": 794.96875,
+          "width": 292,
+          "height": 476,
+          "scrollWidth": 292,
+          "clientWidth": 292
+        },
+        "content": {
+          "left": 49,
+          "right": 341
+        }
+      }
+    },
+    {
+      "name": "long-390x844-text200-table-scrolled: complete text within card content",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-390x844-text200-table-scrolled: actual fixed layout without hiding",
+      "pass": true,
+      "actual": null
+    }
+  ],
+  "cells": [
+    {
+      "width": 390,
+      "height": 844,
+      "mode": "text200",
+      "which": "normal",
+      "id": "normal-390x844-text200",
+      "viewport": "normal-390x844-text200.png",
+      "fullPage": "normal-390x844-text200-full.png"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mode": "text200",
+      "which": "long",
+      "id": "long-390x844-text200",
+      "viewport": "long-390x844-text200.png",
+      "fullPage": "long-390x844-text200-full.png"
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "mode": "normal",
+      "which": "normal",
+      "id": "normal-1440x960-normal",
+      "viewport": "normal-1440x960-normal.png",
+      "fullPage": "normal-1440x960-normal-full.png"
+    },
+    {
+      "width": 1440,
+      "height": 960,
+      "mode": "normal",
+      "which": "long",
+      "id": "long-1440x960-normal",
+      "viewport": "long-1440x960-normal.png",
+      "fullPage": "long-1440x960-normal-full.png"
+    },
+    {
+      "width": 320,
+      "height": 800,
+      "mode": "normal",
+      "which": "normal",
+      "id": "normal-320x800-normal",
+      "viewport": "normal-320x800-normal.png",
+      "fullPage": "normal-320x800-normal-full.png"
+    },
+    {
+      "width": 320,
+      "height": 800,
+      "mode": "normal",
+      "which": "long",
+      "id": "long-320x800-normal",
+      "viewport": "long-320x800-normal.png",
+      "fullPage": "long-320x800-normal-full.png"
+    }
+  ],
+  "scrolled": [
+    {
+      "id": "normal-390x844-text200-table-scrolled",
+      "width": 390,
+      "height": 844,
+      "mode": "text200",
+      "which": "normal",
+      "png": "normal-390x844-text200-table-scrolled.png"
+    },
+    {
+      "id": "long-390x844-text200-table-scrolled",
+      "width": 390,
+      "height": 844,
+      "mode": "text200",
+      "which": "long",
+      "png": "long-390x844-text200-table-scrolled.png"
+    }
+  ],
+  "journeys": [],
+  "captures": [
+    {
+      "path": "normal-390x844-text200.png",
+      "sha256": "31f3c2626cea22a17271ef3e6f0773d350af5e389e2988b2802d446a41e8fef1",
+      "bytes": 53540,
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "scope": "Exact requested viewport"
+    },
+    {
+      "path": "normal-390x844-text200-full.png",
+      "sha256": "117cfdafe416d2ba2240ce86b7d965f212a17f8cf2f0c6ccece8ca27d062b9a6",
+      "bytes": 227733,
+      "width": 390,
+      "height": 3313,
+      "fullPage": true,
+      "scope": "Illustrative only; prior viewport PNG proves requested size"
+    },
+    {
+      "path": "long-390x844-text200.png",
+      "sha256": "28c8c18e7fc93041ba6e6d2dc8c0f3ed229c2d2f94da10ff7b89f48203d3e792",
+      "bytes": 54045,
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "scope": "Exact requested viewport"
+    },
+    {
+      "path": "long-390x844-text200-full.png",
+      "sha256": "75ab8039a676391b3e07d4775044b9fc5284eb51e86d61574e8027f8dc2216c2",
+      "bytes": 310607,
+      "width": 390,
+      "height": 4419,
+      "fullPage": true,
+      "scope": "Illustrative only; prior viewport PNG proves requested size"
+    },
+    {
+      "path": "normal-1440x960-normal.png",
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "bytes": 67705,
+      "width": 1440,
+      "height": 960,
+      "fullPage": false,
+      "scope": "Exact requested viewport"
+    },
+    {
+      "path": "normal-1440x960-normal-full.png",
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "bytes": 67705,
+      "width": 1440,
+      "height": 960,
+      "fullPage": true,
+      "scope": "Illustrative only; prior viewport PNG proves requested size"
+    },
+    {
+      "path": "long-1440x960-normal.png",
+      "sha256": "9ff5730c3126351026ac050d48e7c87e725bef7bd36acc08198391630f09a3fd",
+      "bytes": 89865,
+      "width": 1440,
+      "height": 960,
+      "fullPage": false,
+      "scope": "Exact requested viewport"
+    },
+    {
+      "path": "long-1440x960-normal-full.png",
+      "sha256": "9ff5730c3126351026ac050d48e7c87e725bef7bd36acc08198391630f09a3fd",
+      "bytes": 89865,
+      "width": 1440,
+      "height": 960,
+      "fullPage": true,
+      "scope": "Illustrative only; prior viewport PNG proves requested size"
+    },
+    {
+      "path": "normal-320x800-normal.png",
+      "sha256": "5670b1d4cd97ef8e6bcef696d44fac549e1a62fd4746fac2a33c477ca430588d",
+      "bytes": 42082,
+      "width": 320,
+      "height": 800,
+      "fullPage": false,
+      "scope": "Exact requested viewport"
+    },
+    {
+      "path": "normal-320x800-normal-full.png",
+      "sha256": "867dc9454af61cca13f57b453b42a901c82328cf5589942a6472b956fb0877f4",
+      "bytes": 62203,
+      "width": 320,
+      "height": 1317,
+      "fullPage": true,
+      "scope": "Illustrative only; prior viewport PNG proves requested size"
+    },
+    {
+      "path": "long-320x800-normal.png",
+      "sha256": "1b7bddb2918e5d81b2d2cb13f950d07e6244d1b2885d36907a8fcb2b7a5759e9",
+      "bytes": 48243,
+      "width": 320,
+      "height": 800,
+      "fullPage": false,
+      "scope": "Exact requested viewport"
+    },
+    {
+      "path": "long-320x800-normal-full.png",
+      "sha256": "d18e15542349fd60fd1bfc2780a5e6a0522ab74b6fb7c0e9ff21a861b8752d2b",
+      "bytes": 93925,
+      "width": 320,
+      "height": 1809,
+      "fullPage": true,
+      "scope": "Illustrative only; prior viewport PNG proves requested size"
+    },
+    {
+      "path": "normal-390x844-text200-table-scrolled.png",
+      "sha256": "8440ae6dbb21fd380a08899917dfee55716c78a494ad039d52f22891c2fe928e",
+      "bytes": 46436,
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "scope": "Exact requested viewport"
+    },
+    {
+      "path": "long-390x844-text200-table-scrolled.png",
+      "sha256": "8440ae6dbb21fd380a08899917dfee55716c78a494ad039d52f22891c2fe928e",
+      "bytes": 46436,
+      "width": 390,
+      "height": 844,
+      "fullPage": false,
+      "scope": "Exact requested viewport"
+    }
+  ],
+  "requests": [
+    {
+      "cell": "normal-390x844-text200",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-390x844-text200",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-1440x960-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-1440x960-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-320x800-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-320x800-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-390x844-text200-table-scrolled",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-390x844-text200-table-scrolled",
+      "method": "GET",
+      "url": "/long"
+    }
+  ],
+  "closure": {
+    "contextClosed": true,
+    "browserClosed": true,
+    "serverClosed": true
+  },
+  "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "tree": "122c105f044af5cb65a018195be353a93a71e69e",
+  "sourceDescription": "HEAD/tree are unchanged base provenance. Actual source is the final 67-file heading-consumer snapshot and exact19-file tarball; only H1 wrap differs from intermediate, including four H1 CRLF-to-LF newline changes. Final eight CLI outputs are unedited. Historical native interactions are rebound through unchanged action source, not claimed as freshly executed.",
+  "limitations": [
+    "Full-page PNGs illustrative only; exact viewport PNG precedes each.",
+    "Computed text doubling is not native zoom/physical-device proof.",
+    "No real configured actions exist or were invented; plain unavailable text is the expected state. Native interactions are historical from the unchanged-action intermediate source; this bounded H1 run does not replay or claim them as new.",
+    "No Gmail delivery, email, approval backend, provider,performance or full-product certification."
+  ],
+  "fullGrades": null
+}

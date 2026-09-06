@@ -34,8 +34,8 @@ that does not exist.
 
 ```bash
 npm install          # zero dependencies; confirms the toolchain works
-npm test             # 20 scenario tests, ~4s
-cd "$(mktemp -d)" && node <this-repo>/bin/init.mjs init
+npm test             # real CLI scenario tests; inspect the current result
+cd "$(mktemp -d)" && node "<this-repo>/bin/init.mjs" init
 ```
 
 That last command is the primary user action. Everything below traces what it
@@ -47,7 +47,7 @@ did.
 
 - **File**: `bin/init.mjs`
 - **Symbol**: the argument read at `bin/init.mjs:42` → `const args = process.argv.slice(2);`,
-  and the dispatch block that starts at `bin/init.mjs:322` → `(async () => {`
+  and the dispatch block that starts at `bin/init.mjs:352` → `(async () => {`
 - **Called by**: the shell. `package.json` maps two binary names,
   `easier-to-read-submissions` and `easier`, to this one file, so
   `npx @homenshum/easier-to-read-submissions init` and `node bin/init.mjs init`
@@ -72,8 +72,9 @@ else if (cmd === "install") await install();
 else if (cmd === "--help" || cmd === "-h" || cmd === "help") help();
 ```
 
-- **Input**: `process.argv`. Nothing else. No config file is read, no
-  environment variable is required, no network call is made.
+- **Input**: command arguments and the local filesystem. Installation also
+  reads the documented profile-directory environment variables; no provider
+  credentials or network request are used.
 - **Output**: lines on stdout, files on disk, and a process exit code.
 - **Failure behavior**: an unrecognised word prints `✗ Unknown command: <word>`,
   then the full help, then exits **1**. No word at all is treated as `help` and
@@ -85,30 +86,34 @@ else if (cmd === "--help" || cmd === "-h" || cmd === "help") help();
 - **File**: `bin/init.mjs`
 - **Symbol**: `bin/init.mjs:97` → `async function init() {`
 - **Called by**: the dispatcher, on `init`.
-- **Calls next**: `mkdir` and `copyFile` from `node:fs/promises`. Nothing in
-  this repo.
+- **Calls next**: native `mkdir` reserves the new directory, then
+  `preserveCopy()` uses exclusive native copying for the two master files.
 - **Why this exists**: this is the moment a repo adopts the protocol. It
   creates `CHANGELOG/` with six empty lane directories, drops in the master
   index and the format spec, and prints the three things to do next.
 
 ```js
-if (existsSync(cl)) {
-  console.log(C.yellow(`! CHANGELOG/ already exists at ${cl}`));
-  console.log(C.dim("  Skipping scaffold to avoid clobbering existing lanes."));
-  return;                       // exit 0 — refusing is not an error
+try {
+  await mkdir(cl);
+} catch (error) {
+  if (error.code !== "EEXIST") throw error;
+  // Print the documented existing-directory no-op and return.
+  return;
 }
 for (const sub of CATEGORIES) {
   await mkdir(join(cl, sub), { recursive: true });
 }
-await copyFile(join(TPL_DIR, "CHANGELOG-README.md"), join(cl, "README.md"));
-await copyFile(join(TPL_DIR, "CHANGELOG-TEMPLATE.md"), join(cl, "TEMPLATE.md"));
+await preserveCopy(join(TPL_DIR, "CHANGELOG-README.md"), join(cl, "README.md"));
+await preserveCopy(join(TPL_DIR, "CHANGELOG-TEMPLATE.md"), join(cl, "TEMPLATE.md"));
 ```
 
 - **Input**: the current working directory.
 - **Output**: `CHANGELOG/README.md`, `CHANGELOG/TEMPLATE.md`, and the six
   directories `pages/ components/ server/ db/ integrations/ scripts/`.
-- **Failure behavior**: if `CHANGELOG/` already exists it writes nothing and
-  exits **0**. This is deliberate — a second run must never overwrite a lane
+- **Failure behavior**: nonrecursive `mkdir` reserves a new `CHANGELOG/`. If
+  it already exists, this invocation writes nothing and exits **0**; it does not
+  validate the existing contents or wait for another creator. This is
+  deliberate — a second run must never overwrite a lane
   that already holds real history. It still does not *repair* a partially
   present `CHANGELOG/`, and it does not have to: `add` now creates whatever
   lane directory it needs (step 6), so a half-present `CHANGELOG/` is no longer
@@ -119,7 +124,7 @@ await copyFile(join(TPL_DIR, "CHANGELOG-TEMPLATE.md"), join(cl, "TEMPLATE.md"));
 
 - **File**: `bin/init.mjs`
 - **Symbol**: `bin/init.mjs:40` → `const CATEGORIES = ["pages", "components", "server", "db", "integrations", "scripts"];`,
-  enforced at `bin/init.mjs:146` → `if (!CATEGORIES.includes(category)) {`
+  enforced at `bin/init.mjs:149` → `if (!CATEGORIES.includes(category)) {`
 - **Called by**: `init()`, `addLane()`, and the help text.
 - **Calls next**: nothing; on a bad value it exits.
 - **Why this exists**: there are exactly six kinds of surface a change can
@@ -142,11 +147,11 @@ if (!CATEGORIES.includes(category)) {
 - **Output**: nothing on success — validation is a gate, not a transform.
 - **Failure behavior**: exits **1** and lists all six valid values, so the user
   never has to go find the list.
-- **Note on trust**: `slug` is *not* validated. It is joined into a path
-  (`join(dir, slug + ".md")`), so `easier add components ../../evil` escapes the
-  `CHANGELOG/` directory. This is a local developer tool run by hand on the
-  user's own machine, so it is recorded as a known limit rather than defended
-  against — see `docs/codebase/CONCERNS.md`.
+- **Note on trust**: a coding agent can pass a mistaken or untrusted lane name.
+  Validate the name before making directories: meaningful Unicode names remain
+  usable, while path separators, dot aliases, controls, and Windows alternate
+  stream syntax are rejected. This is a filename boundary, not a promise of
+  arbitrary symlinked-directory safety. See `docs/codebase/CONCERNS.md`.
 - **Next**: step 4.
 
 ## Step 4 — Agent orchestration
@@ -180,11 +185,12 @@ block of help text, and one test. Nothing else registers it.
 ## Step 6 — Persistence and artifact mutation
 
 - **File**: `bin/init.mjs`
-- **Symbol**: `bin/init.mjs:135` → `async function addLane() {` and
-  `bin/init.mjs:252` → `async function writeTemplate(templateName, dest, replacements) {`
+- **Symbol**: `bin/init.mjs:138` → `async function addLane() {` and
+  `bin/init.mjs:257` → `async function writeTemplate(templateName, dest, replacements) {`
 - **Called by**: the dispatcher, on `easier add <category> <slug>` and
   `easier qa <feature-id>`.
-- **Calls next**: `readFile` then `writeFile` from `node:fs/promises`.
+- **Calls next**: `readFile` then native file creation. `add` uses `wx` for the
+  lane file; `qa` reserves its leaf directory before writing the four members.
 - **Why this exists**: this is the only place the tool creates a file with
   *content* rather than copying one. It reads a template, substitutes the
   caller's values, and writes the result. The "database" of this product is the
@@ -195,30 +201,37 @@ const tpl = await readFile(join(TPL_DIR, "lane.md"), "utf8");
 const today = new Date().toISOString().slice(0, 10);
 const personalized = tpl
   .replace("<relative/path/to/file>", `${category}/${slug}`)
-  .replace("YYYY-MM-DD — Short imperative title (most recent)",
-           `${today} — Created — initial implementation`);
-await writeFile(target, personalized);
+  .replace("YYYY-MM-DD — Pending — describe this change", `${today} — Pending — describe this change`);
+
+try {
+  await writeFile(target, personalized, { flag: "wx" });
+} catch (error) {
+  if (error.code === "EEXIST") throw new Error(`${target} already exists`);
+  throw error;
+}
 ```
 
 - **Input**: a category, a slug, and `templates/lane.md`.
-- **Output**: `CHANGELOG/<category>/<slug>.md`, dated today.
+- **Output**: `CHANGELOG/<category>/<slug>.md`, with today's unfilled current
+  entry, visibly pending commit/author fields, and a fenced format example.
 - **Failure behavior**: refuses to overwrite an existing lane (exit **1**),
   because lanes are append-only and clobbering one destroys the audit trail
   that is the entire point of the product. A missing category directory is
-  *not* a failure — `bin/init.mjs:159` → `await mkdir(dir, { recursive: true });`
+  *not* a failure — `bin/init.mjs:167` → `await mkdir(dir, { recursive: true });`
   creates it. It used to exit **1** there, which was defect D1: git does not
   track empty directories, so the five lane folders `init` leaves empty never
   reach the second person on the team.
-- **Known gap**: substitution is partial. The template's two sample entries
-  survive into the new lane carrying a fake commit sha. That is defect **D7**,
-  pinned by a test so a fix has to change it deliberately.
+- **History boundary**: the old D7 output carried apparent sample commits. New
+  lanes keep only an unfilled current entry and an instructional fenced example.
+  Existing histories are preserved; the CLI does not infer commits or authors.
+  The historical D7 observations remain in `promotion/PROMOTION_LOG.md`.
 - **Next**: step 7.
 
 ## Step 7 — Streaming and rendering
 
-**There is no streaming.** Every verb is synchronous file scaffolding that
-finishes in under half a second, so there is no progress to stream and nothing
-to keep a user waiting.
+**There is no streaming.** Each invocation performs finite local file
+scaffolding and exits. Its duration depends on the filesystem and template
+size; a successful scaffold is not evidence of background agent work.
 
 Rendering is `console.log` plus six ANSI colour helpers:
 
@@ -243,13 +256,17 @@ const C = {
 The one thing this product renders in a browser is
 `QA_DOGFOOD/<feature-id>/gmail-magic-resend.html`, written by
 `easier qa <feature-id>` from `templates/gmail-magic-resend.html`. It is a
-static email preview — no scripts, no fonts, no images.
+static email preview — no scripts, no external fonts, no images. Its four
+unconfigured review actions are ordinary text labelled `Not configured`; they
+do not submit a verdict, request a fix, approve, or resend. Table and code
+wrapping is a layout change, whose visual result needs the separate browser
+proof. File-generation tests alone do not establish responsive readability.
 
 ## Step 8 — Failure and recovery
 
 - **File**: `bin/init.mjs`
 - **Symbol**: the `try/catch` wrapping the dispatcher, caught at
-  `bin/init.mjs:335` → `} catch (e) {`
+  `bin/init.mjs:365` → `} catch (e) {`
 - **Called by**: nothing — it is the outermost frame.
 - **Calls next**: `process.exit(1)`.
 - **Why this exists**: so a user never sees a Node stack trace. Any error
@@ -262,12 +279,13 @@ static email preview — no scripts, no fonts, no images.
 }
 ```
 
-- **Failure behavior, as a whole**: exit **0** means the requested state now
-  exists (including "it already existed, so nothing was done"). Exit **1** means
-  it does not, and a line beginning `✗` says why. There is no retry anywhere and
-  no partial rollback — a verb that fails halfway leaves whatever it had already
-  written, which is safe here because everything it writes is new files in new
-  directories.
+- **Failure behavior, as a whole**: exit **0** means the requested scaffold
+  exists or a documented existing-state no-op occurred. A nonzero exit means
+  the requested operation did not finish; its error identifies the conflict.
+  There is no automatic retry or rollback. A partial install may leave new
+  files while preserving pre-existing content, so inspect and reconcile the
+  reported destination before retrying. It must not print `Installed` after a
+  conflict or imply that an agent has activated.
 - **The recovery path that used to be broken**: `add` in a freshly cloned repo
   failed with `CHANGELOG\pages does not exist` and told you to run `init`;
   `init` then saw `CHANGELOG/` and declined. That closed loop was defect **D1**.
@@ -277,7 +295,7 @@ static email preview — no scripts, no fonts, no images.
 ## Step 9 — The tests that prove this flow
 
 - **File**: `test/cli.test.mjs`
-- **Symbol**: 20 `test(...)` blocks, grouped by journey
+- **Symbol**: 30 registered scenarios, including the six installer-target cases
 - **Called by**: `npm test` → `node --test test/cli.test.mjs`
 - **Why this exists**: before the wave-3 pass, `npm test` ran
   `node bin/init.mjs --help` — a help print with zero assertions, green in a
@@ -289,7 +307,9 @@ asserts the exit code plus the files that actually landed on disk:
 
 ```js
 function easier(cwd, ...args) {
-  const r = spawnSync(process.execPath, [CLI, ...args], { cwd, encoding: "utf8" });
+  const r = spawnSync(process.execPath, [CLI, ...args], {
+    cwd, encoding: "utf8", env: fixtureEnv(cwd), timeout: 10_000, maxBuffer: 1024 * 1024,
+  });
   const strip = (s) => (s || "").replace(/\x1b\[[0-9;]*m/g, "");
   return { code: r.status, out: strip(r.stdout) + strip(r.stderr) };
 }
@@ -308,11 +328,13 @@ Which test proves which step:
 | install | `J3 install project copies the contract and every template into .claude/skills`, `J3 install auto-detects a git repo as a project install`, `J3 install rejects an unknown target and lists the real ones` |
 | this document's citations | `every .tours step names what it expects to find, and finds it there`, `every doc citation of the form ``path:line`` proves it cites the right line`, `no shipped instruction says ``npx easier <verb>``` |
 
-One of those tests pins behaviour that is **wrong on purpose** — D7. It says so
-in a comment naming the defect, so fixing the defect forces a deliberate edit to
-the test rather than a silent one. There were two: the D1 block was unpinned
-this pass, and it kept the old expectation in its comment so the change reads as
-deliberate rather than as a quietly weakened assertion.
+The historical D7 assertion accepted sample history. Its replacement must
+require pending current facts and preserve the fenced instructional example,
+while the original failure remains evidence. The preservation scenarios also
+exercise edited installer targets, duplicate writers, invalid lane names, and
+accumulating files. The current cases use four competing creators/installers
+and eight later lane writes. These are finite filesystem scenarios, not a
+long-running service or arbitrary concurrency certification.
 
 The last three rows are the guards over this page and the two CodeTours. Until
 this pass the only one that existed checked that a cited line number was inside
@@ -327,7 +349,7 @@ without naming what should be on it.
 |---|---|
 | add a seventh surface category | `bin/init.mjs:40` → `const CATEGORIES = ["pages", "components", "server", "db", "integrations", "scripts"];`, the lane taxonomy in `AGENTS.md` step 1 and `SKILL.md` Phase 1, and the index skeleton in `templates/CHANGELOG-README.md` |
 | add a new subcommand | one `else if` in the dispatcher, one async function, one help block, one test block |
-| change what a new lane file looks like | `templates/lane.md` — but read D7 first, because `addLane()` only substitutes part of it |
+| change what a new lane file looks like | `templates/lane.md` and its pending-history scenario; keep the instructional example fenced and never regenerate existing lanes |
 | change what the protocol asks an agent to do | `AGENTS.md` *and* `SKILL.md`. They are deliberately two files: `install` copies `AGENTS.md` alone to Cursor / Cline / Aider, and both to Claude Code. Changing one without the other is the most likely way to introduce drift here. |
 | change the QA packet shape | `templates/qa-packet-schema.json` is the contract; other tools generate against it. See `INTEGRATIONS.md`. |
 
@@ -336,5 +358,5 @@ without naming what should be on it.
 1. `docs/codebase/STRUCTURE.md` — what every file is, and who consumes it
 2. `docs/codebase/ARCHITECTURE.md` — the boundaries and the one invariant
 3. `docs/codebase/CONCERNS.md` — every known defect and limit, with reproductions
-4. `promotion/PROMOTION_LOG.md` — the live defect ledger
+4. `promotion/PROMOTION_LOG.md` — preserved historical defect observations
 5. `docs/SIMPLIFICATION_REPORT.md` — what the wave-3 pass removed and why

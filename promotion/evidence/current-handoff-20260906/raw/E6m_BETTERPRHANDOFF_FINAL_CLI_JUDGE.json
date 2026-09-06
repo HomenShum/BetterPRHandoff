@@ -1,0 +1,131 @@
+{
+  "mode": "Builder / independent judge",
+  "status": "APPROVED_SCOPED_CLI_AND_DOCUMENTATION_WITH_HTML_AND_SHARED_INTEGRATION_PENDING",
+  "at": "2026-09-06T03:02:38.414540+00:00",
+  "requestTrace": "Make each individual repository ready for usage and handoff, using planner-worker-judge and actual evidence.",
+  "reviewer": "Reused nonauthor reviewer; earlier plan/causal judgments authored by this reviewer. Product implementation and recorded normal consumer journeys authored by root; this reviewer independently reopened bytes and ran fresh nine-process canary.",
+  "candidate": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905",
+  "baseCommit": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "baseTree": "122c105f044af5cb65a018195be353a93a71e69e",
+  "effectiveSourceFiles": 67,
+  "sourceSnapshot": {
+    "path": "E6m-betterpr-repaired-consumer-01/source-before.json",
+    "sha256": "3481617a4f5e37cb0e28aa6f1c890c7ecf084c8cb31c7716771085ff3d4d60a0"
+  },
+  "sourceScope": {
+    "trackedModified": [
+      ".tours/01-one-command-end-to-end.tour",
+      ".tours/02-where-the-rules-live.tour",
+      "README.md",
+      "bin/init.mjs",
+      "docs/START_HERE.md",
+      "docs/codebase/ARCHITECTURE.md",
+      "docs/codebase/CONCERNS.md",
+      "docs/codebase/INTEGRATIONS.md",
+      "docs/codebase/STACK.md",
+      "docs/codebase/STRUCTURE.md",
+      "docs/codebase/TESTING.md",
+      "templates/gmail-magic-resend.html",
+      "templates/lane.md",
+      "test/cli.test.mjs"
+    ],
+    "new": [
+      "CHANGELOG/README.md",
+      "CHANGELOG/TEMPLATE.md",
+      "CHANGELOG/components/changelog-lane.md",
+      "CHANGELOG/components/qa-packet.md",
+      "CHANGELOG/scripts/bin-init.md"
+    ],
+    "protectedCanonicalUnchanged": 48,
+    "heldUntilClosed": 66,
+    "separatelyChangingHtmlOwner": "templates/gmail-magic-resend.html",
+    "originalPrimaryAndNestedFilesVerified": 94,
+    "gitGuard": "CLOSED_UNCHANGED"
+  },
+  "package": {
+    "tarSha256": "e7cde30f9370f7b354490d5282bb1f3998a6ed8234d32d1ad7a89f65da5704a1",
+    "files": 19,
+    "allTarSourceExact": true,
+    "installedExact": 18,
+    "installedTransformation": {
+      "path": "bin/init.mjs",
+      "sourceSha256": "5d2df08800725f72c5c6b7bbb6fe60f13b5a0a503fbb023fc61fd3607304930d",
+      "installedSha256": "891291fc2636497bf176a824f91975ceac0d00b811afa86c0964e7c8a0f7d7ff",
+      "rule": "Only first hashbang CRLF to LF, 16363 to 16362 bytes."
+    },
+    "version": "1.2.1",
+    "scope": "Current local tarball, not public registry publication. Historical first-HTML-after package; heading follow-on needs new package binding."
+  },
+  "validation": {
+    "normalCommand": "npm test",
+    "normalRootEvidence": {
+      "tests": 30,
+      "passed": 30,
+      "failed": 0,
+      "skipped": 0,
+      "nodeInternalMilliseconds": 7580.5089,
+      "controllerWallSeconds": 8.734,
+      "rerunByJudge": false
+    },
+    "recordedConsumer": {
+      "commands": 59,
+      "gitSetup": 1,
+      "cliRelatedAttempts": 58,
+      "semanticChecks": 53,
+      "passed": 53,
+      "reopenedGeneratedFiles": 218,
+      "streamsReadAndBound": 118,
+      "timeoutsOrSurvivors": 0
+    },
+    "newIndependentNative": {
+      "commands": 9,
+      "checks": 13,
+      "passed": true,
+      "receipt": "E6m-betterpr-final-cli-independent-03/native-canary.json",
+      "sha256": "5f78fa1d0e9ea47f37522ef0c7c63bfd85b120cff0f0b780026f4965b1defb0f"
+    },
+    "renderedInputs": {
+      "files": 8,
+      "verifiedBytes": true,
+      "pixelApproval": false
+    },
+    "docs": {
+      "proposalFiles": 15,
+      "exactProposalBytes": true,
+      "currentRegisteredTestCount": 30,
+      "historicalProducerInstructions": "Old promotion evidence is preserved; current browser producer must use fresh owned outputs."
+    }
+  },
+  "causalFindings": [
+    "Native exclusive copy refuses differing existing rules/templates, permits identical no-op, and preserves every pre-existing byte; a partial install can leave newly created files and does not falsely print Installed after conflict.",
+    "Lane validation occurs before mkdir and exclusive wx enforces one successful creator. Meaningful Unicode persists; invalid path syntax fails.",
+    "QA leaf directory creation is the single writer reservation; duplicate and concurrent processes refuse without replacing the completed four-file packet.",
+    "New lane history is visibly pending and a fenced instructional example; no fabricated commit or author replaces history.",
+    "Printed source command is quoted and verified through Windows cmd/PowerShell in owned space-containing source path. Actual installed printed npx resolves the local tarball offline.",
+    "Docs and tours explain finite scaffolding, conflicts, partial results, missing recorder/email/host activation and historical evidence instead of promising automatic completion."
+  ],
+  "eightPointReliability": {
+    "BOUND": "Finite CLI/template tree; no long-lived collection added. Existing filesystem scale and arbitrary source/symlink trees not certified.",
+    "HONEST_STATUS": "Actual conflicting/invalid calls exit1; documented existing init/qa-init no-op exit0 does not validate completeness.",
+    "HONEST_SCORES": "No score/gate values introduced.",
+    "TIMEOUT": "CLI has no new external request or service deadline; proof children bounded10s or retained30s with output/survivor checks.",
+    "SSRF": "No URL fetch or endpoint added.",
+    "BOUND_READ": "Owned local template reads only; no external response bodies.",
+    "ERROR_BOUNDARY": "Existing outer async catch reports conflict and exits1. Partial newly created files remain explicitly disclosed.",
+    "DETERMINISTIC": "No CAS introduced; exclusive native file/directory creation owns duplicate prevention."
+  },
+  "limitations": [
+    "HTML first-after exposed an enlarged long heading clip; that owner is being amended separately and is not approved by this CLI verdict. No full UI or dimension grade.",
+    "Current Windows Node22 evidence is not Node18/20, Linux, every shell metacharacter, arbitrary symlink, crash-atomic installation, filesystem durability or unlimited concurrency proof.",
+    "Exact new template becomes107 lines; existing STRUCTURE count106 requires corresponding final-doc adjustment.",
+    "New CI is an external accepted plan only; no shared run, registry release, host activation, Gmail/email, model/provider or deployment acceptance.",
+    "Root original count/hashbang claims and failed before/intermediate logs remain. Prior private printed-source stderr is excluded from public reuse."
+  ],
+  "evidence": {
+    "directory": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-final-cli-independent-03",
+    "manifestSha256": "cb27696468f3cd4534961e36182cf563dcb6ddf4dcbedba4a54f5ed09d9abf9d",
+    "finalGuardSha256": "e31b7348d7f023498605cf72cf363769e70a835d045ebf75a6f934b48ef30de0"
+  },
+  "fullDimensions": null,
+  "requiredCliSourceFixes": []
+}

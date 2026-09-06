@@ -1,0 +1,60 @@
+{
+  "status": "CAPTURE_COMPLETE",
+  "exitCode": 0,
+  "seconds": 1.875,
+  "observerErrors": [],
+  "cleanup": [],
+  "survivors": [],
+  "listeners": [],
+  "ownedProcesses": [
+    {
+      "pid": 62832,
+      "created": 1788661778.0042572,
+      "name": "node.exe"
+    },
+    {
+      "pid": 59744,
+      "created": 1788661778.2544844,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 44836,
+      "created": 1788661778.2869415,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 32432,
+      "created": 1788661778.3005435,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 24144,
+      "created": 1788661778.490212,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 40852,
+      "created": 1788661778.554536,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 21456,
+      "created": 1788661778.5730789,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 46508,
+      "created": 1788661778.6421857,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 16820,
+      "created": 1788661778.6483772,
+      "name": "chrome.exe"
+    }
+  ],
+  "frozenBindings": 38,
+  "entryExitExact": true,
+  "sourceScope": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\gmail-magic-resend.html",
+  "browserVersion": "149.0.7827.55"
+}

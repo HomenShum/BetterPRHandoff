@@ -1,0 +1,15 @@
+[32m✓[0m Created [36mqa.config.json[0m from the QA packet example
+
+[1mEdit it now:[0m
+  - Replace [36mfeature.id[0m with your slug (e.g. [2mmyapp.thing.v1[0m)
+  - Replace [36mpreviewUrlTemplate[0m with your dev URL or PR preview URL
+  - Replace [36mstates[][0m with your real test lanes
+  - Replace [36mpersonas{}[0m with your real personas (or remove)
+
+[1mThen:[0m
+  - Generate a packet with Parity Studio: [36mnpx parity-studio qa-packet --feature <id>[0m
+  - Or roll your own generator that conforms to [36mtemplates/qa-packet-schema.json[0m
+  - Email-resend with: [36mnpx parity-studio qa-send --to you@example.com[0m
+
+[2m  Schema + protocol docs: https://github.com/HomenShum/BetterPRHandoff[0m
+[2m  Generator integration:   See INTEGRATIONS.md in this skill[0m

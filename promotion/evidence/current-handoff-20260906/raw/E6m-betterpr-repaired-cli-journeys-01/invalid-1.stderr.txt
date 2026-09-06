@@ -1,0 +1,3 @@
+[31m✗ Usage: npx @homenshum/easier-to-read-submissions add <category> <slug>[0m
+[2m  Example: npx @homenshum/easier-to-read-submissions add components Button[0m
+[2m  Categories: pages | components | server | db | integrations | scripts[0m

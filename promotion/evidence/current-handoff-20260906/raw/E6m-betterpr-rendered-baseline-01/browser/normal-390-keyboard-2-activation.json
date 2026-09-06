@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:54370/normal#",
+  "heading": "china sourcing review v1 QA packet",
+  "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+  "active": {
+    "tag": "A",
+    "text": "Needs fix"
+  },
+  "scrollY": 0
+}

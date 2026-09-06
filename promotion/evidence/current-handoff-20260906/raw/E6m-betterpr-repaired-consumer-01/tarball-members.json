@@ -1,0 +1,97 @@
+[
+  {
+    "path": "LICENSE",
+    "bytes": 1088,
+    "sha256": "8df6a3fd828134a5b08f620a7c0bc1ad7c177e3f45720729307d25805f29e789"
+  },
+  {
+    "path": "templates/gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "package.json",
+    "bytes": 1374,
+    "sha256": "989e0fa54f2ea2f780c2c4a4170135f5f9195c797ddcf8edc27a086bf864b26b"
+  },
+  {
+    "path": "templates/qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "templates/qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "templates/qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "templates/remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 13234,
+    "sha256": "00cf751446c9e890ea8055aa4aaec22f04c9e2c7d7c82aca26ed6e909893a560"
+  },
+  {
+    "path": "templates/bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "templates/CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "templates/CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "templates/lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "templates/qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "templates/qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "README.md",
+    "bytes": 15855,
+    "sha256": "2eeef2e3034d99da331e33f67cd4713ecd4b3cfd84f5864bd3f2d6e12b817d41"
+  },
+  {
+    "path": "templates/runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "SKILL.md",
+    "bytes": 21397,
+    "sha256": "8b590f34aae46086569e634319e8b8ba8c61f9b78999060f9a646dd12aabe524"
+  },
+  {
+    "path": "bin/init.mjs",
+    "bytes": 16363,
+    "sha256": "5d2df08800725f72c5c6b7bbb6fe60f13b5a0a503fbb023fc61fd3607304930d"
+  },
+  {
+    "path": "templates/qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  }
+]

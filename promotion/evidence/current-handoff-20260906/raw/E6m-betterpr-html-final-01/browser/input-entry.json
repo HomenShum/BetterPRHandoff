@@ -1,0 +1,824 @@
+[
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.gitignore",
+    "bytes": 180,
+    "sha256": "3f5eb5b9aedb98c10ff43c74ff77e0ebbf9cb0a69e23c02df724ec6a35875949",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.tours\\01-one-command-end-to-end.tour",
+    "bytes": 9018,
+    "sha256": "2d33c73402d4fe5baf5ba16656fd716f8b31d3f17423db07062d0a49cae5c78f",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\.tours\\02-where-the-rules-live.tour",
+    "bytes": 5256,
+    "sha256": "8dddea5c2c6094e0894f8c16c4ab6f0fc39274497a4e63cf71f80d935b7e9d0f",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\AGENTS.md",
+    "bytes": 13234,
+    "sha256": "00cf751446c9e890ea8055aa4aaec22f04c9e2c7d7c82aca26ed6e909893a560",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\INTEGRATIONS.md",
+    "bytes": 10268,
+    "sha256": "98810c4fda5cc628d6f4e91b667d95dc6248e6d8551a2ac291e3c0c2f199b685",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\LICENSE",
+    "bytes": 1088,
+    "sha256": "8df6a3fd828134a5b08f620a7c0bc1ad7c177e3f45720729307d25805f29e789",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\README.md",
+    "bytes": 15855,
+    "sha256": "2eeef2e3034d99da331e33f67cd4713ecd4b3cfd84f5864bd3f2d6e12b817d41",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\SKILL.md",
+    "bytes": 21397,
+    "sha256": "8b590f34aae46086569e634319e8b8ba8c61f9b78999060f9a646dd12aabe524",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\bin\\init.mjs",
+    "bytes": 16363,
+    "sha256": "5d2df08800725f72c5c6b7bbb6fe60f13b5a0a503fbb023fc61fd3607304930d",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\SIMPLIFICATION_REPORT.md",
+    "bytes": 16188,
+    "sha256": "a0ffa71018f0dfcaa3587f893120d1602e71a15288301c37c6e5499a77bca71e",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\START_HERE.md",
+    "bytes": 18289,
+    "sha256": "5b7d5ba2d851a830c3860e655c2145bbb22ad4bcd86a76d564758c6d121312af",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\ARCHITECTURE.md",
+    "bytes": 7426,
+    "sha256": "3ff993e7bfe859750e71216bead9c7dfc31d68f37e47ed2b68700d9742d671ec",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\CONCERNS.md",
+    "bytes": 6528,
+    "sha256": "4a3366c88292b6ff99c1b3dc577d51cac546b2b739c98dd45d3449e5e968975d",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\CONVENTIONS.md",
+    "bytes": 4796,
+    "sha256": "41be8490af80951a037ef18ebf3c3f27a107757eb9869acef1d1e8cd621db7ed",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\INTEGRATIONS.md",
+    "bytes": 4958,
+    "sha256": "3d5206732a8b26372e9886aac5d185a5aed3ccf6ef401d7427030b169cef243e",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\STACK.md",
+    "bytes": 2957,
+    "sha256": "73e01edca86757d19bbb773c17bba4dc43b267d1951cb774bbdb009ee3c72ff3",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\STRUCTURE.md",
+    "bytes": 6777,
+    "sha256": "7f9c53765a925458c55d9e1fdf0b972942b48b6df471bc6ea6e3d90e68a1003c",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\docs\\codebase\\TESTING.md",
+    "bytes": 6761,
+    "sha256": "cd8b6bcbe5f51b476d971056416dab21adedd115e0843a39f9eb6223f20b5aee",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\package.json",
+    "bytes": 1374,
+    "sha256": "989e0fa54f2ea2f780c2c4a4170135f5f9195c797ddcf8edc27a086bf864b26b",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\PRODUCT_GOAL.md",
+    "bytes": 10825,
+    "sha256": "5e4691aae8d6131b550dd7084b2e2b1fa9e0590bc668251114c1e990c0812bb1",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\PRODUCT_JOURNEYS.md",
+    "bytes": 11264,
+    "sha256": "45f0e3e40c4a601f71bdd9c436636dc0cbbd120251b22866299db06ee45a1012",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\PROMOTION_LOG.md",
+    "bytes": 22979,
+    "sha256": "0a34bc23cde1681bf853e9fca1105bbd4e59423c81f15977901a3f046e3b0502",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\SKILLS.md",
+    "bytes": 2010,
+    "sha256": "7482adf4fa755fb649cb2a19352643fad1b53a43c500c7e59122ccddc51136e3",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\README.md",
+    "bytes": 4587,
+    "sha256": "b5a296661a2a7923489026bb0dcc3552a7756c3d3595cd533c8f7e0c8286851e",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\WIG_REVIEW.md",
+    "bytes": 8044,
+    "sha256": "4264427a4e0ce8d7928cc8e7ab456f2f3ea5b36df8b59287e20888522bfdc247",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\audit.mjs",
+    "bytes": 15207,
+    "sha256": "b7bfd9cb031eb3ef8675147d12cae063ff1dedf39d74485e653161425e828e0c",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\axe.json",
+    "bytes": 112045,
+    "sha256": "ef84ff967ebd63638bd60ae7a59c29cf893cb2e154044d314edd0371bd4accf8",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\lighthouse.json",
+    "bytes": 593809,
+    "sha256": "51250088a94ffa4ef511a2edc1032f058a0c110842382f2abc41a4c5894bbdec",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\npm-test.txt",
+    "bytes": 4343,
+    "sha256": "aef8d88cda1a66ae3b79e1ed63e81b0a5a9617e7e6d302810e11bf62b89a8852",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\screenshot-desktop-1440.png",
+    "bytes": 52712,
+    "sha256": "06644958d4c1c59755f7e71cf962111ba9aff3e6a3686d11fb7db28846fb17b1",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\screenshot-mobile-375.png",
+    "bytes": 253829,
+    "sha256": "07f8ff9cc404eae66145b57a19aa22ecba6db1c688c964d482b6f85b7c895cd1",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\screenshot-tablet-768.png",
+    "bytes": 49340,
+    "sha256": "494ef507a8736de0f85987d99c1b908c6e56963e72d7c0a47a4a01414cb18dae",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\summary.json",
+    "bytes": 2622,
+    "sha256": "6be5b284d3fefe0e43dbbe2faec002497a429cc9e1db353e2ccea7b901b5cc8a",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\promotion\\evidence\\surface-measurements.json",
+    "bytes": 8531,
+    "sha256": "5ba9b59b3842685f79f07b97303e1040768e35be004449c28294b5bde620aafd",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\README.md",
+    "bytes": 6246,
+    "sha256": "2f23c8045ed47f1a00f14c74e1ea3ad5e46b0718d0d03d36054f9ea69f7d9967",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\ascii-runtime.txt",
+    "bytes": 3064,
+    "sha256": "1b41b722efcce064ed7f848c549407e1506532cb03347121053cb2534d7db986",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\changelog\\chat.md",
+    "bytes": 6812,
+    "sha256": "076ed9f9aa4fa97bbde50a7266b1576c3946950b03cfc8cf6627a3b209e46644",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\changelog\\schema-s5.md",
+    "bytes": 1663,
+    "sha256": "08cd4687b77dba0e64c5b3b258981508afe08f08100e0967f7363c4f7af6a94e",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\changelog\\shell.md",
+    "bytes": 1425,
+    "sha256": "ebc63a21fa77f2e70ba475056f8fcc239d9ae6f6317a1121bffb7ef98e02e122",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-assertions-v2.json",
+    "bytes": 2718,
+    "sha256": "ddaf50be22ce64b2cbc9161f4eec29667737fcbbf5b03a3a9bad4b14c856ae46",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo-v2.gif",
+    "bytes": 8011077,
+    "sha256": "eeab347e59d9c1a0b5e5915be117f1336105cd912969d3ec6388e1591a1ae274",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo-v2.mp4",
+    "bytes": 1300751,
+    "sha256": "14c3b218f2b67b4cc34341d9d39b59bc1a8e382e9f68d06ed839493a9e5e196c",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo.gif",
+    "bytes": 6833166,
+    "sha256": "18f11277b0f8a413a42d23e27f8bb62b23c0096d921fbf82a1459f84044f5d5f",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-demo.mp4",
+    "bytes": 1342784,
+    "sha256": "aa857f8eefab444babc2f3d66e6e67cff4c5ef4510d91b6b4572d57d2adedee2",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-scenes-v2.json",
+    "bytes": 2125,
+    "sha256": "8eecebdd2b898b16cea3d02065150e9de73ee6b860d6a28a3cd9d44ec2d9f2b6",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\chat-sprints-1-4-scenes.json",
+    "bytes": 1695,
+    "sha256": "e51e5ace2e4884b864ac718d70a5b99fc6ada99ebefe4b430562fe9768e477e7",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\demo-chat-sprints-1-4-v2.md",
+    "bytes": 6560,
+    "sha256": "063a66212140ddbd6be44b9287a718a4dbd62b923bb433bddd55dfe956535264",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\submissions\\nodebench-redesign\\demo-chat-sprints-1-4.md",
+    "bytes": 6725,
+    "sha256": "885bf49353a469a9bcb67c21dc55ede8be4604b0f5a7ca39b691218f27d35ebf",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\gmail-magic-resend.html",
+    "bytes": 3541,
+    "sha256": "f23bff53132de5579329fae9598046e42580a023e1fa8ebd1954328c65017f0e",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\test\\cli.test.mjs",
+    "bytes": 24279,
+    "sha256": "f18f83239039e2759d43eca143dc50176bda0fe7c15ceb8ce0b17812b15c9568",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\README.md",
+    "bytes": 974,
+    "sha256": "8f58bb72854e634b117c3a7a285c50593a830175a22a1741c43da4d9ced16e55",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\TEMPLATE.md",
+    "bytes": 984,
+    "sha256": "d403157c85923f0e9a2f80c4146fe930256a7e3786c6fd9c67b926889445f367",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\scripts\\bin-init.md",
+    "bytes": 926,
+    "sha256": "262a587fb3436fe61439132429f804d80fd3888ea59cf199f159b9bbc601f846",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\components\\changelog-lane.md",
+    "bytes": 806,
+    "sha256": "24f31bdb2e96333ee02934022060f3fb65f6c0cbf98e27ecb52de1ac84fa6302",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\CHANGELOG\\components\\qa-packet.md",
+    "bytes": 932,
+    "sha256": "a0588b1ea6c05a0c8307bebbe34f6f8f6c97b53a755ae37f5dbc695f0164c2ba",
+    "kind": "source"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\LICENSE",
+    "bytes": 1088,
+    "sha256": "8df6a3fd828134a5b08f620a7c0bc1ad7c177e3f45720729307d25805f29e789",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+    "bytes": 3541,
+    "sha256": "f23bff53132de5579329fae9598046e42580a023e1fa8ebd1954328c65017f0e",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\package.json",
+    "bytes": 1374,
+    "sha256": "989e0fa54f2ea2f780c2c4a4170135f5f9195c797ddcf8edc27a086bf864b26b",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\AGENTS.md",
+    "bytes": 13234,
+    "sha256": "00cf751446c9e890ea8055aa4aaec22f04c9e2c7d7c82aca26ed6e909893a560",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\README.md",
+    "bytes": 15855,
+    "sha256": "2eeef2e3034d99da331e33f67cd4713ecd4b3cfd84f5864bd3f2d6e12b817d41",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\SKILL.md",
+    "bytes": 21397,
+    "sha256": "8b590f34aae46086569e634319e8b8ba8c61f9b78999060f9a646dd12aabe524",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+    "bytes": 16362,
+    "sha256": "891291fc2636497bf176a824f91975ceac0d00b811afa86c0964e7c8a0f7d7ff",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4",
+    "kind": "installed-package"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\gmail-magic-resend.html",
+    "bytes": 3581,
+    "sha256": "32db30aa8fae9f5960797105e5c39e992dbfe6c53c1b9277eea83a85187c763e",
+    "kind": "actual-cli-output"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\manifest.json",
+    "bytes": 1670,
+    "sha256": "f8436cb3f26f111ff96d215cca02398055b121b8da44a26bb0451ea194dd63e4",
+    "kind": "actual-cli-output"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\README.md",
+    "bytes": 2171,
+    "sha256": "4d2c47146606435d14baea5e6cef834f259fd8e2601510cec8bb09b7ee0564a3",
+    "kind": "actual-cli-output"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-review-v1\\remotion-storyboard.json",
+    "bytes": 1128,
+    "sha256": "f00429d211478bed42d9fefbcd8318aa18c624817a3d6223ecda0ef63992222a",
+    "kind": "actual-cli-output"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\gmail-magic-resend.html",
+    "bytes": 3881,
+    "sha256": "74fee84d31a9d5a90dddff5fb639ce8cda95bddf7905c15bef89ccf912745c55",
+    "kind": "actual-cli-output"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\manifest.json",
+    "bytes": 1870,
+    "sha256": "45f50a64db2cbdcaf6f66ea89992aa4ca726973b85e03df1262555952bc28553",
+    "kind": "actual-cli-output"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\README.md",
+    "bytes": 2471,
+    "sha256": "6bf98c965d529614df26462fd94fd4e7e617b9a1d855f5742541da1e7dcd7229",
+    "kind": "actual-cli-output"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\rendered-consumer\\QA_DOGFOOD\\china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\\remotion-storyboard.json",
+    "bytes": 1328,
+    "sha256": "0dfd4f59f11d5d1bab37c7fa02a92deec067c8adabb863c4cfa2b85a3122ac96",
+    "kind": "actual-cli-output"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\pack\\homenshum-easier-to-read-submissions-1.2.1.tgz",
+    "bytes": 43694,
+    "sha256": "c5eaa2f27e36554b50048b951d4b004e550ba77551bfeb0110f7e754dad6069e",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HEADING_CONSUMER.json",
+    "bytes": 5869,
+    "sha256": "98caf91439605043e66edec9e44e7f8869f9738ed40a31593fa70394355f08e7",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HEADING_RENDERED_INPUTS.json",
+    "bytes": 6115,
+    "sha256": "d58cdf8b26cde1c4c67d3e2c49e6ba9916b260971b7971f9f1958cae88394924",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\source-before.json",
+    "bytes": 12964,
+    "sha256": "bf54a97b1f6c31a1cdca0a5a2395aeff6faf7691b042a72d8e5df0fdd63c3f48",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\installed-bindings.json",
+    "bytes": 5223,
+    "sha256": "12813549494a20f873c3316c81b77f682d60efef2d35e5eb16529c4974122cac",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_REPAIRED_CONSUMER.json",
+    "bytes": 5928,
+    "sha256": "8edb3b66753f144cc4da6c2609d77f34e95f882cad4dd493b58a734b57015001",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_REPAIRED_RENDERED_INPUTS.json",
+    "bytes": 6129,
+    "sha256": "36f5496adc485cc36d16c8f46e70e70359c150e1aa5a03b96b8fbad810354271",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-consumer-01\\source-before.json",
+    "bytes": 12964,
+    "sha256": "3481617a4f5e37cb0e28aa6f1c890c7ecf084c8cb31c7716771085ff3d4d60a0",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\tarball-members.json",
+    "bytes": 2919,
+    "sha256": "72eb035587147ee89569caf4518aa35678c31044e402b4acdc28a5645fc5aa50",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\commands.json",
+    "bytes": 4114,
+    "sha256": "6e2e1894c9711061444b2281af6cfbaeb2054ef6cc806c2e9e4f580554f73032",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\exit-observation.json",
+    "bytes": 33776,
+    "sha256": "524d56d46a9a3960829abc47abbc808cff95d899a4a026385cbb51b964f79d13",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HTML_AFTER_INTERMEDIATE_JUDGE.json",
+    "bytes": 6043,
+    "sha256": "840da1239da9f67c406e09622280ffe24e48d289813c65c08bb6dd6e85e09935",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_H1_BOUNDARY_ADDENDUM.json",
+    "bytes": 2122,
+    "sha256": "75590701e736ea07402ecb191effa50802fafa18742fccc585292d4cba2d23c9",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-inputs-01\\source-package-input-equivalence.json",
+    "bytes": 1847,
+    "sha256": "6f6a89e87527ebcab4d3a99a723eb037fa14849ee464af3de99793f642fb520a",
+    "kind": "source-equivalence-or-root-receipt"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-320x800-normal.json",
+    "bytes": 22846,
+    "sha256": "eb3d269af51fecb288e90afba3932aa6a6e780f9ee7038446fd26f4df6f1a9a4",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-320x800-normal.json",
+    "bytes": 24077,
+    "sha256": "b54c1577915482fda8bcd3ed485446f29b9dffba79d4eb5201e0bff7ea7caec8",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-360x800-normal.json",
+    "bytes": 19799,
+    "sha256": "5971280cf66faafa2c3ba6469277ec3c4e7878c00e3e4e217c2de5356e3eab2a",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-360x800-normal.json",
+    "bytes": 21015,
+    "sha256": "207da08ebc2835ad82b44b883d02c52197b664940e71079be8873e6e6402bda6",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-390x844-normal.json",
+    "bytes": 19799,
+    "sha256": "bdb1d245e45231895c460e16edc0abba785aed7e1ea67bdcbbcdbec73c7b92a0",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-390x844-normal.json",
+    "bytes": 21012,
+    "sha256": "8b05ba9437fc650021a087caaff180bbf793a4b345df1ef20962aa12d4b109e6",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-768x1024-normal.json",
+    "bytes": 19798,
+    "sha256": "3934273938f3e0720ed27c44f21ec77bdd559fb8fa67e800bf13d83888564233",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-768x1024-normal.json",
+    "bytes": 20992,
+    "sha256": "8748f55bdd2d085af5b395fe99cb023b89d4e59c7c9cfcc00d708d0cf7f9a0d3",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1024x768-normal.json",
+    "bytes": 19812,
+    "sha256": "307b50e4d0312a73b853a40d002d9cca264d236d81c651ec7f964047b292722e",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1024x768-normal.json",
+    "bytes": 21006,
+    "sha256": "85f0d40911ebede3653a5d1d4adde41c89184fc8d69626e55567ed6b268bace5",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1440x960-normal.json",
+    "bytes": 19828,
+    "sha256": "4dc49026304dd547cf1b4bda252afef43804a34e9578128850ccf9a72bb954ee",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1440x960-normal.json",
+    "bytes": 21023,
+    "sha256": "fd7766864ef2011b2a0b66eb68b91b7dcd8531b223f4afbb46e8edfcb6f9187d",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1920x1080-normal.json",
+    "bytes": 19832,
+    "sha256": "29bbd088908a65e20bc51008493d169ed7364fc0df45555975cefef6c2cba577",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1920x1080-normal.json",
+    "bytes": 21027,
+    "sha256": "7d99c6820542bb6fc4a1c4ff2db0b6199d44360cf33c2decac48f81b12d01486",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-390x844-text200.json",
+    "bytes": 23597,
+    "sha256": "185f7c3c40aea2b3c3fe655bf47e44037d8b1f724ca5b071dcd68cefa2d37574",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-390x844-text200.json",
+    "bytes": 24806,
+    "sha256": "42a60a22f5770a7949f22bb30f34d1e144b65a0034a7b8250ed6cf73fa52933e",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-390x844-reduced.json",
+    "bytes": 19798,
+    "sha256": "0ed5311758f6bc04b55a2b452f75568aada218e7aa07845d20c484f3236370b0",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-390x844-reduced.json",
+    "bytes": 21011,
+    "sha256": "f6bb82ebb03d610e9dad7c829fd4ef2c7d8366cb771c3a365aa301df96132651",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1440x960-text200.json",
+    "bytes": 19911,
+    "sha256": "18a30fa95da694f5c0634fad68ed180a8a38d1e84ff1ded0bc24acb62b289f8c",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1440x960-text200.json",
+    "bytes": 21112,
+    "sha256": "91dbc6da8f83f435c13ad04036ac51cba6f2a2d9bc491554a1159b21171bb484",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\normal-1440x960-reduced.json",
+    "bytes": 19827,
+    "sha256": "e0564fcd37947bbe0a08bad3ff827c96de7d3718f2360c9ce7c94b1271fd321b",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\long-1440x960-reduced.json",
+    "bytes": 21022,
+    "sha256": "8f00ea8d758466e120b3126cde52ec14adf887e888206448f5805fe25dc9e84f",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\report.json",
+    "bytes": 122015,
+    "sha256": "9db667b611b97ca07a206884388281cf1b083eaff70bec5fe31e2ba53f9f63be",
+    "kind": "historical-observation"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HTML_REPAIR_PLAN.json",
+    "bytes": 16037,
+    "sha256": "f5aeb440aa39a9695bc52d162462beb7c561d33b9a92615134d05869f96d5bb3",
+    "kind": "accepted-plan"
+  },
+  {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-inputs-01\\request.json",
+    "bytes": 36728,
+    "sha256": "9cef382ddda08fe8ca713328a27f21124be939434d3e1e2e70cdd2969b08b158",
+    "kind": "root-after-input-receipt"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright\\package.json",
+    "bytes": 1559,
+    "sha256": "6b840268612656f0639fb7d68782e8353bdf11518589d30ddf66f283c2670ed5",
+    "kind": "evidence-or-tool-binding"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright\\index.js",
+    "bytes": 648,
+    "sha256": "4e98f65f0a9d9bcab8cffc0c5cfdd87fd3f5b0be74fc494ff166a466b204cd44",
+    "kind": "evidence-or-tool-binding"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright-core\\package.json",
+    "bytes": 876,
+    "sha256": "759e376f995bf39edd4810d699b99469bab1d7428b6fbc78d41912f367df7ba9",
+    "kind": "evidence-or-tool-binding"
+  },
+  {
+    "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\nodevideo-current-consumer-20260905\\node_modules\\playwright-core\\browsers.json",
+    "bytes": 1939,
+    "sha256": "ee39bc924bc3d1bd895626c2910f1292d109bbfeeb5abd113acb45e1951cc942",
+    "kind": "evidence-or-tool-binding"
+  }
+]
