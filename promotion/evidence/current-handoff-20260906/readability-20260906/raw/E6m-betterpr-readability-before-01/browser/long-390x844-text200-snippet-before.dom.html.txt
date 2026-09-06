@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The stated delivery channel is a Gmail message. Declaring the scheme
+         opts the fixed warm palette out of Chrome/Android forced-dark, which
+         would otherwise invert these colours unpredictably. -->
+    <meta name="color-scheme" content="light">
+    <!-- Empty data: icon. The page ships no subresources; without this the
+         browser's automatic /favicon.ico probe is the only failed request. -->
+    <link rel="icon" href="data:,">
+    <title>china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        background: #fbf7ef;
+        color: #23160f;
+        font-family: Arial, sans-serif;
+      }
+      .card {
+        max-width: 760px;
+        margin: 0 auto;
+        background: #fffaf3;
+        border: 1px solid #e7d8ca;
+        border-radius: 18px;
+        padding: 24px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-family: Georgia, serif;
+        font-size: 30px;
+        overflow-wrap: anywhere;
+      }
+      .unconfigured-actions {
+        padding-left: 20px;
+        overflow-wrap: anywhere;
+      }
+      .unconfigured-actions li {
+        margin: 8px 0;
+      }
+      table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse;
+        margin-top: 16px;
+      }
+      th,
+      td {
+        border-top: 1px solid #eaded2;
+        text-align: left;
+        padding: 10px;
+        vertical-align: top;
+        font-size: 13px;
+        overflow-wrap: anywhere;
+      }
+      code {
+        overflow-wrap: anywhere;
+        background: #f1e6dc;
+        border-radius: 6px;
+        padding: 2px 5px;
+      }
+    </style>
+  </head>
+  <body style="font-size: 32px;">
+    <main class="card" style="font-size: 32px;">
+      <p style="font-size: 32px;"><code style="font-size: 26px;">china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1</code></p>
+      <h1 style="font-size: 60px;">china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet</h1>
+      <p style="font-size: 32px;">Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.</p>
+      <ul class="unconfigured-actions" style="font-size: 32px;">
+        <li style="font-size: 32px;"><strong style="font-size: 32px;">Open test link</strong>: Not configured</li>
+        <li style="font-size: 32px;"><strong style="font-size: 32px;">Approve</strong>: Not configured</li>
+        <li style="font-size: 32px;"><strong style="font-size: 32px;">Needs fix</strong>: Not configured</li>
+        <li style="font-size: 32px;"><strong style="font-size: 32px;">Magic resend after fix</strong>: Not configured</li>
+      </ul>
+      <p style="font-size: 32px;">Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.</p>
+      <h2 style="font-size: 48px;">What changed for end users</h2>
+      <p style="font-size: 32px;">Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.</p>
+      <h2 style="font-size: 48px;">Workflow lanes</h2>
+      <ul style="font-size: 32px;">
+        <li style="font-size: 32px;">New or empty user state</li>
+        <li style="font-size: 32px;">Returning user state</li>
+        <li style="font-size: 32px;">Main happy path</li>
+        <li style="font-size: 32px;">Comment/edit correction</li>
+        <li style="font-size: 32px;">Mobile state</li>
+      </ul>
+      <h2 style="font-size: 48px;">Snapshot snippets</h2>
+      <table style="font-size: 32px;">
+        <thead style="font-size: 32px;">
+          <tr style="font-size: 32px;">
+            <th style="font-size: 26px;">Component</th>
+            <th style="font-size: 26px;">Proof</th>
+            <th style="font-size: 26px;">Correction prompt</th>
+          </tr>
+        </thead>
+        <tbody style="font-size: 32px;">
+          <tr style="font-size: 32px;">
+            <td style="font-size: 26px;"><code style="font-size: 26px;">surface.primary</code></td>
+            <td style="font-size: 26px;">before / after / diff pending</td>
+            <td style="font-size: 26px;">Attach a component-scoped fix prompt if the snippet fails.</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  
+
+</body></html>

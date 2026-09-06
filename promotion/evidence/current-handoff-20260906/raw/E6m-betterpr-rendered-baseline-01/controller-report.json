@@ -1,0 +1,62 @@
+{
+  "status": "COMPLETED_WITH_FINDINGS",
+  "exitCode": 1,
+  "exitMatchesReport": true,
+  "seconds": 7.266,
+  "timedOut": false,
+  "observerErrors": [],
+  "observedOwnedProcesses": [
+    {
+      "pid": 16280,
+      "created": 1788660962.667954,
+      "name": "node.exe"
+    },
+    {
+      "pid": 56380,
+      "created": 1788660963.10284,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 35928,
+      "created": 1788660963.6782591,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 20572,
+      "created": 1788660963.6912432,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 29732,
+      "created": 1788660964.0059826,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 17712,
+      "created": 1788660964.0699496,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 42516,
+      "created": 1788660964.0911653,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 64116,
+      "created": 1788660964.166212,
+      "name": "chrome.exe"
+    },
+    {
+      "pid": 5252,
+      "created": 1788660964.172582,
+      "name": "chrome.exe"
+    }
+  ],
+  "cleanupActions": [],
+  "survivors": [],
+  "ownedListenersAfter": [],
+  "allInputAndSourceGitBytesUnchanged": true,
+  "expectedCellsAndJourneysComplete": true,
+  "browserVersion": "149.0.7827.55",
+  "fullGrades": null
+}

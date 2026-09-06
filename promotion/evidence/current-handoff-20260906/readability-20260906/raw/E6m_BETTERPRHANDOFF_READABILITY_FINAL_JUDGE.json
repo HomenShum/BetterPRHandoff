@@ -1,0 +1,286 @@
+{
+  "schema": "portfolio-independent-readability-judge/v1",
+  "at": "2026-09-06T04:47:19.911337+00:00",
+  "repo": "BetterPRHandoff",
+  "mode": "Builder",
+  "requestTrace": "Make each individual repo ready for developer/user handoff and include visual UI, responsiveness and interaction grading; execute through planner-worker-judge.",
+  "status": "APPROVED_SCOPED_READABILITY_REPAIR",
+  "sourceGuard": "CLOSED_UNCHANGED",
+  "reviewer": {
+    "role": "independent product nonauthor",
+    "contextReuse": true,
+    "authored": [
+      "external browser recorder/controller",
+      "this judgment",
+      "criterion assessment"
+    ],
+    "productOrRepoEdits": 0
+  },
+  "baseCommit": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "baseTree": "2724c85cc595fbd05e50c16b5ba6caf9b2d5c394",
+  "workingRevision": {
+    "templateSha256": "92dbb0deb2b3f8055f6def51bf231fd9f082dffaeb558c2290ddc738701f13ba",
+    "effectiveSourceFiles": 69,
+    "trackedFiles": 633,
+    "exactChangedPaths": [
+      "CHANGELOG/components/qa-packet.md",
+      "HANDOFF.md",
+      "docs/START_HERE.md",
+      "docs/codebase/CONCERNS.md",
+      "docs/codebase/STRUCTURE.md",
+      "templates/gmail-magic-resend.html"
+    ],
+    "protectedPublishedPaths": 627,
+    "oldPacketFilesExact": 564,
+    "commit": null
+  },
+  "namedProof": "Read the complete first instruction and each full proof/correction field from an actual installed CLI packet at normal and enlarged phone sizes, retain the full title/ID and inert controls, and preserve desktop usability.",
+  "result": {
+    "browserAssertions": 168,
+    "browserFailed": 0,
+    "cells": 6,
+    "views": 18,
+    "nativeJourneys": 2,
+    "pngs": 24,
+    "directlyViewedUniqueRasterHashes": 13,
+    "exactDuplicatePngs": 11,
+    "configuredBindings": 132,
+    "sourceAndArtifactChecks": 931,
+    "checkCountNote": "checks.json contains930 checks; closing-guard.json supplies the final unchanged-Git check.",
+    "originalAfterManifestFiles": 92,
+    "ownedProcessesClosed": 9,
+    "observedRequests": 8,
+    "newActionRequests": 0,
+    "browserVersion": "149.0.7827.55",
+    "playwright": "1.61.1",
+    "executionSeconds": 6.047,
+    "newBrowserExecutions": 1
+  },
+  "findings": [
+    {
+      "status": "RESOLVED_IN_NAMED_SCOPE",
+      "issue": "Long identity dominates entry",
+      "evidence": "At320px the complete first instruction bottom moved819→296px; at390px doubled text1887→767px within844px. H1height560→35 and1224→136 respectively. Full previous title is body text; exact ID remains reachable at the footer."
+    },
+    {
+      "status": "RESOLVED_IN_NAMED_SCOPE",
+      "issue": "Three narrow columns fragment proof text",
+      "evidence": "Native dl/dt/dd keeps exact three label/value pairs in full-width rows. Fields use16px/32px body type, code13px/26px remains protected. Saved actual phone pixels and bounded lexical ranges show whole words rather than the prior fragments."
+    },
+    {
+      "status": "PRESERVED",
+      "issue": "Truthful unavailable controls",
+      "evidence": "Two native journeys exercised four Tab/Enter pairs and four pointer activations each; no interactive targets, changed DOM/text/URL, or extra requests. Native End reached complete ID. Space/selection/ordinary vertical scrolling remain allowed."
+    },
+    {
+      "status": "ACCEPTED_MINOR_TRADEOFF",
+      "issue": "Desktop vertical density",
+      "evidence": "Full-width fields occupy more vertical space than one horizontal table row. Actual1440 normal and long images remain legible; long document967px requires7px scroll in960px viewport."
+    }
+  ],
+  "blockingFindingsInNamedScope": [],
+  "collectorFailure": {
+    "status": "PRESERVED_REVIEWER_COLLECTOR_FAILURE_NOT_PRODUCT_FAILURE",
+    "cause": "The first post-run measurement reader used -top.json instead of the actual frozen -top-before.json. It stopped after byte/source/pixel readback. Corrected only that filename and a fresh output directory in v2. Browser/producer/source/oracles were not rerun or changed.",
+    "initialFiles": [
+      {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\actual-six-owner.diff.stderr.txt",
+        "bytes": 703,
+        "sha256": "11d32881d6cae8bbb6c6d78819e69c7d034ac078cc19f67be886c04b34478160"
+      },
+      {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\actual-six-owner.diff.txt",
+        "bytes": 13210,
+        "sha256": "1a0412a11dd4b742cf32202b2aed4eefd5e05ed1236412e7d107465a9c82dfff"
+      },
+      {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\authored-whitespace.stderr.txt",
+        "bytes": 703,
+        "sha256": "11d32881d6cae8bbb6c6d78819e69c7d034ac078cc19f67be886c04b34478160"
+      },
+      {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\authored-whitespace.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\collector-failure.json",
+        "bytes": 271,
+        "sha256": "bbf52b49cb5effc2fdb318710ea1c219ff7519a083a64074bdd17cb475c59962"
+      },
+      {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\collector-v1.py.txt",
+        "bytes": 10297,
+        "sha256": "0b7470c0989ea75dee0aa5bfb0d1da68a1eae99981e538b9ad9a43f44e443d1f"
+      },
+      {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-01\\viewed-pixels.json",
+        "bytes": 8409,
+        "sha256": "04567616b206272e32fa99f4c619e03db65bee68c1fb5d066f3536ccbf4db443"
+      }
+    ],
+    "helpers": [
+      {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-close-readability-judge.py",
+        "bytes": 10297,
+        "sha256": "0b7470c0989ea75dee0aa5bfb0d1da68a1eae99981e538b9ad9a43f44e443d1f"
+      },
+      {
+        "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-close-readability-judge-v2.py",
+        "bytes": 10304,
+        "sha256": "839285611a70c0db36e39d25f2bc8e792c8e00b37d85d266f8a4df38d3c0a36a"
+      }
+    ]
+  },
+  "sourceAndDocReview": "Actual Git diff matches the selected template exactly and five documentation updates only. No new dependency, script, endpoint, control, configuration, test exclusion or CLI behavior. Six authored owners pass whitespace; native Git warns that proven text will use CRLF on checkout. Pending-proof wording was truthful at its source freeze and is expected to receive a separate receipt-bound publication successor.",
+  "limitations": [
+    "This approves the selected one-template readability repair and five truthful documentation successors, not whole-repository or email-client readiness.",
+    "Six exact normal/long states:320x800 normal,390x844 computed doubled fonts,1440x960 normal. No new seven-viewport matrix, native zoom, physical device, screen reader, human study, performance measurement or sustained service test.",
+    "The long title and exact identifier remain verbose by design. Reading order and full-width fields remove the observed repeated friction; they do not turn placeholder proof into completed evidence.",
+    "The desktop layout is taller. The long1440 document is967px high in a960px viewport, so seven pixels of ordinary vertical scrolling remain; no horizontal overflow or hidden content was observed.",
+    "All four review labels remain unconfigured text. No approval, email, provider, recording, video creation or actual Gmail rendering occurred.",
+    "Existing CLI53-check evidence and broader historical browser runs retain their own earlier input bindings. Fresh normal30 tests,19-member package and two installed generations are current; they do not rerun the full historical CLI boundary matrix.",
+    "Shared CI success applies to committed42e57 only; the six-owner working successor needs its own later immutable shared result. No deployment claim.",
+    "Root/worker may update handoff and publication metadata after this closed source guard. Such bytes require a separate publication review; they cannot be covered retrospectively by this receipt."
+  ],
+  "fullGrades": null,
+  "humanUsability": "NOT_RUN",
+  "production": "NOT_RUN",
+  "evidenceRefs": {
+    "approved_plan": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_PLAN.json",
+      "bytes": 12135,
+      "sha256": "280cf82456efe500dd498600b0b2f972e45ad8c618b1464fa72c56e21a04b592"
+    },
+    "approved_after_preflight": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_AFTER_PREFLIGHT.json",
+      "bytes": 1678,
+      "sha256": "cee0f47a699ee493a62e40a17c22a3cb6a7f89726956f466f2fb243779d7c2c0"
+    },
+    "source_freeze": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\receipt.json",
+      "bytes": 2878,
+      "sha256": "e5092b0b5ad3d7f63f3002ca895c88ac80e94117635f0858be0e2c6910626ed4"
+    },
+    "source69": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\current-source69.json",
+      "bytes": 10041,
+      "sha256": "e6162218f2d2b2b41c11412b6f64b67278c76a7dc2478592041e689185b0d53c"
+    },
+    "producer": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_CONSUMER.json",
+      "bytes": 11265,
+      "sha256": "6b1dac9bcf8d02f47dee3bf406049cfc2a32bd8d98671b2e25de630ce4ac9ffe"
+    },
+    "producer_source633": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\source-before.json",
+      "bytes": 147718,
+      "sha256": "61424aed2b21a70eda1d4d7fdc610bb64fb149ddf1a81d899c0865b0a965aa27"
+    },
+    "producer_commands": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\commands.json",
+      "bytes": 5580,
+      "sha256": "7544fe031a0fb6b1780a8f1f2e1ac08a7aa6b6d66374878834eed13990785ca3"
+    },
+    "source_package_equivalence": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-inputs-01\\source-package-input-equivalence.json",
+      "bytes": 21381,
+      "sha256": "a1a702d30e8a31a8c3d0858a0c98a72182cdaf8a93fc9bf5ce525728060576f9"
+    },
+    "before_receipt": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_BEFORE_RECEIPT.json",
+      "bytes": 18656,
+      "sha256": "3393ba2c7b4ef72e45afe16a7c9426227aca82159a08d7942fe28d975812fe81"
+    },
+    "after_report": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\report.json",
+      "bytes": 357849,
+      "sha256": "bb74306e682002b1e5e96dbb6cc755ef1370ac790c29968202a884ef026ee084"
+    },
+    "after_controller": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\controller-report.json",
+      "bytes": 1205,
+      "sha256": "e5178202b4635ba3506ab00cc675da87d43d1d9c27462985dfc54d2c97b236a6"
+    },
+    "after_manifest": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\manifest.json",
+      "bytes": 31110,
+      "sha256": "44b4f94856f09d098fda3ebb5ca925522ed678695eef7c7791735ae3ff1677ac"
+    },
+    "closing_guard": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\closing-guard.json",
+      "bytes": 104647,
+      "sha256": "97e48a4aff272aa4e57a1fbf7d8c9f93894eaf192a08ec007f0f3c9b9ebd2d2a"
+    },
+    "measured_comparison": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\matched-measurements.json",
+      "bytes": 62657,
+      "sha256": "7e03fc71a3e2c8ede48bd7e153e25746484652a407ceb90522e1a835518580c6"
+    },
+    "viewed_pixels": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\viewed-pixels.json",
+      "bytes": 8409,
+      "sha256": "04567616b206272e32fa99f4c619e03db65bee68c1fb5d066f3536ccbf4db443"
+    },
+    "actual_diff": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\actual-six-owner.diff.txt",
+      "bytes": 13210,
+      "sha256": "1a0412a11dd4b742cf32202b2aed4eefd5e05ed1236412e7d107465a9c82dfff"
+    },
+    "long_phone_top": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-top.png",
+      "bytes": 59578,
+      "sha256": "1ce1d090a15337acaafcca20beb186619bb040e1891f076f5abf764ca28ba958"
+    },
+    "normal_phone_fields": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-snippet.png",
+      "bytes": 51006,
+      "sha256": "1cc5171f7392b95fbfd58bca9704b9d7fc3407aeb62797e76d617618007b1982"
+    },
+    "long_phone_fields": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-snippet.png",
+      "bytes": 55440,
+      "sha256": "e32a7d9edd6b838b8c28faeebfb84bcbc872d804882add6d4f2baa26c828a67f"
+    },
+    "long_320_top": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-top.png",
+      "bytes": 38137,
+      "sha256": "902b7f1a173461ea0b4068e2ec29f680ded19e8208b345044f9aad36920afc22"
+    },
+    "desktop_long": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-top.png",
+      "bytes": 72695,
+      "sha256": "028d8fc4de17661889ae532fce0144d6ead9055367e1cc38271ae9450abcacf1"
+    },
+    "desktop_normal": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-top.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05"
+    },
+    "native_phone_actions": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-last-action.png",
+      "bytes": 67526,
+      "sha256": "ef6b08b58cb9c064e38e08c337d2cd3118d68b09ffda0ad9a6b3a13f393b94e4"
+    },
+    "full_phone_identifier": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-footer.png",
+      "bytes": 55573,
+      "sha256": "037b1f26423f0fefc84918719b89d487112d0d4016fadc719bbc7a95fcbd5a70"
+    },
+    "old_assessment": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.json",
+      "bytes": 57645,
+      "sha256": "b82f3aa5cce17e5c2bc9a92dc73b698a44c47fecaa2fe22d1f13700d8aea4084"
+    },
+    "historical_shared_ci": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_SHARED_JUDGE.json",
+      "bytes": 13182,
+      "sha256": "7bbeed9b86f8b1a59c19c6d0194be1439f290d82e1ba08f42beb80c5709d63d7"
+    }
+  },
+  "rawManifest": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\manifest.json",
+    "bytes": 3767,
+    "sha256": "b2b6bd5f26f8fd7c1dc483827539a7352fc604b40d95a01479504e83d0a80345"
+  }
+}

@@ -1,0 +1,1 @@
+[31m✗ FATAL:[0m D:\ProjectRecovery\betterprhandoff-repaired-first-use-20260906\cli journeys\developer-adopts-protocol\workspace\CHANGELOG\components\SourcingReview.md already exists

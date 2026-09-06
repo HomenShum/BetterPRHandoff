@@ -1,0 +1,257 @@
+[
+  {
+    "name": "No arguments explain available verbs",
+    "passed": true,
+    "note": "Actual installed CLI help."
+  },
+  {
+    "name": "Six category directories and index exist",
+    "passed": true,
+    "note": "Actual initialized synthetic repository."
+  },
+  {
+    "name": "Repeated init preserves maintainer index",
+    "passed": true,
+    "note": "No-clobber requirement."
+  },
+  {
+    "name": "Lane created for pages",
+    "passed": true,
+    "note": "Actual file reopened below."
+  },
+  {
+    "name": "Lane created for components",
+    "passed": true,
+    "note": "Actual file reopened below."
+  },
+  {
+    "name": "Lane created for server",
+    "passed": true,
+    "note": "Actual file reopened below."
+  },
+  {
+    "name": "Lane created for db",
+    "passed": true,
+    "note": "Actual file reopened below."
+  },
+  {
+    "name": "Lane created for integrations",
+    "passed": true,
+    "note": "Actual file reopened below."
+  },
+  {
+    "name": "Lane created for scripts",
+    "passed": true,
+    "note": "Actual file reopened below."
+  },
+  {
+    "name": "New lane does not fabricate historical commits",
+    "passed": false,
+    "note": "Existing D7 intentionally pins sample fake history; this acceptance evaluates the user handoff."
+  },
+  {
+    "name": "Duplicate lane refuses and preserves content",
+    "passed": true,
+    "note": "Actual preserved user entry."
+  },
+  {
+    "name": "Repeated QA config preserves user state",
+    "passed": true,
+    "note": "Reopened exact maintainer JSON."
+  },
+  {
+    "name": "Duplicate packet refuses and preserves all four files",
+    "passed": true,
+    "note": "Second actual CLI process."
+  },
+  {
+    "name": "Invalid invocation 0 exits nonzero",
+    "passed": true,
+    "note": "Arguments: ['unexpected']"
+  },
+  {
+    "name": "Invalid invocation 1 exits nonzero",
+    "passed": true,
+    "note": "Arguments: ['add']"
+  },
+  {
+    "name": "Invalid invocation 2 exits nonzero",
+    "passed": true,
+    "note": "Arguments: ['add', 'widgets', 'Review']"
+  },
+  {
+    "name": "Invalid invocation 3 exits nonzero",
+    "passed": true,
+    "note": "Arguments: ['qa']"
+  },
+  {
+    "name": "Invalid invocation 4 exits nonzero",
+    "passed": true,
+    "note": "Arguments: ['qa', '!!!']"
+  },
+  {
+    "name": "Invalid invocation 5 exits nonzero",
+    "passed": true,
+    "note": "Arguments: ['install', 'wrong']"
+  },
+  {
+    "name": "Explicit user contract copied",
+    "passed": true,
+    "note": "Actual documented installer target."
+  },
+  {
+    "name": "Repeated user install preserves team rules",
+    "passed": false,
+    "note": "Default install must not silently replace edited instructions; actual exit 0"
+  },
+  {
+    "name": "Explicit project contract copied",
+    "passed": true,
+    "note": "Actual documented installer target."
+  },
+  {
+    "name": "Repeated project install preserves team rules",
+    "passed": false,
+    "note": "Default install must not silently replace edited instructions; actual exit 0"
+  },
+  {
+    "name": "Explicit cursor contract copied",
+    "passed": true,
+    "note": "Actual documented installer target."
+  },
+  {
+    "name": "Repeated cursor install preserves team rules",
+    "passed": false,
+    "note": "Default install must not silently replace edited instructions; actual exit 0"
+  },
+  {
+    "name": "Explicit cline contract copied",
+    "passed": true,
+    "note": "Actual documented installer target."
+  },
+  {
+    "name": "Repeated cline install preserves team rules",
+    "passed": false,
+    "note": "Default install must not silently replace edited instructions; actual exit 0"
+  },
+  {
+    "name": "Explicit aider contract copied",
+    "passed": true,
+    "note": "Actual documented installer target."
+  },
+  {
+    "name": "Repeated aider install preserves team rules",
+    "passed": false,
+    "note": "Default install must not silently replace edited instructions; actual exit 0"
+  },
+  {
+    "name": "Explicit generic contract copied",
+    "passed": true,
+    "note": "Actual documented installer target."
+  },
+  {
+    "name": "Repeated generic install preserves team rules",
+    "passed": false,
+    "note": "Default install must not silently replace edited instructions; actual exit 0"
+  },
+  {
+    "name": "Fresh profile auto selects project",
+    "passed": true,
+    "note": "Each case owns a new HOME; no selection inherited from earlier installs."
+  },
+  {
+    "name": "Fresh profile auto selects cursor",
+    "passed": true,
+    "note": "Each case owns a new HOME; no selection inherited from earlier installs."
+  },
+  {
+    "name": "Fresh profile auto selects cline",
+    "passed": true,
+    "note": "Each case owns a new HOME; no selection inherited from earlier installs."
+  },
+  {
+    "name": "Fresh profile auto selects aider",
+    "passed": true,
+    "note": "Each case owns a new HOME; no selection inherited from earlier installs."
+  },
+  {
+    "name": "Fresh profile auto selects user",
+    "passed": true,
+    "note": "Each case owns a new HOME; no selection inherited from earlier installs."
+  },
+  {
+    "name": "Fresh profile auto selects generic",
+    "passed": true,
+    "note": "Each case owns a new HOME; no selection inherited from earlier installs."
+  },
+  {
+    "name": "Reject forward path escaping the lane",
+    "passed": false,
+    "note": "{\"exit\": 0, \"resolvedTarget\": \"D:\\\\ProjectRecovery\\\\betterprhandoff-first-use-20260906\\\\cli journeys\\\\traversal-forward\\\\escaped-forward.md\", \"written\": true, \"output\": \"\\u2713 Created ..\\\\escaped-forward.md\\n  Edit it now \\u2014 the placeholder entry needs a real description.\\n\"}"
+  },
+  {
+    "name": "Reject backslash path escaping the lane",
+    "passed": false,
+    "note": "{\"exit\": 0, \"resolvedTarget\": \"D:\\\\ProjectRecovery\\\\betterprhandoff-first-use-20260906\\\\cli journeys\\\\traversal-backslash\\\\escaped-backslash.md\", \"written\": true, \"output\": \"\\u2713 Created ..\\\\escaped-backslash.md\\n  Edit it now \\u2014 the placeholder entry needs a real description.\\n\"}"
+  },
+  {
+    "name": "Two creators yield one success and one refusal",
+    "passed": false,
+    "note": "Observed exit codes [0, 0]; both succeeding would violate exclusive creation."
+  },
+  {
+    "name": "Sustained lane 0 persists",
+    "passed": true,
+    "note": "Distinct CLI process, accumulated earlier files retained."
+  },
+  {
+    "name": "Sustained lane 1 persists",
+    "passed": true,
+    "note": "Distinct CLI process, accumulated earlier files retained."
+  },
+  {
+    "name": "Sustained lane 2 persists",
+    "passed": true,
+    "note": "Distinct CLI process, accumulated earlier files retained."
+  },
+  {
+    "name": "Sustained lane 3 persists",
+    "passed": true,
+    "note": "Distinct CLI process, accumulated earlier files retained."
+  },
+  {
+    "name": "Sustained lane 4 persists",
+    "passed": true,
+    "note": "Distinct CLI process, accumulated earlier files retained."
+  },
+  {
+    "name": "Sustained lane 5 persists",
+    "passed": true,
+    "note": "Distinct CLI process, accumulated earlier files retained."
+  },
+  {
+    "name": "Sustained lane 6 persists",
+    "passed": true,
+    "note": "Distinct CLI process, accumulated earlier files retained."
+  },
+  {
+    "name": "Sustained lane 7 persists",
+    "passed": true,
+    "note": "Distinct CLI process, accumulated earlier files retained."
+  },
+  {
+    "name": "Sustained writes preserve existing shared entry",
+    "passed": true,
+    "note": "Reopen previous artifact after eight more processes."
+  },
+  {
+    "name": "Exact printed source command supports space-containing path",
+    "passed": false,
+    "note": "Executed the actual printed command unchanged: node ../../../../../VSCode Projects/cafecorner_nodebench/nodebench_ai4/.portfolio-worktrees/betterprhandoff-current-consumer-20260905/bin/init.mjs init"
+  },
+  {
+    "name": "Installed printed invocation completes offline",
+    "passed": true,
+    "note": "Exact npx command, owned local tarball package and cache, NPM_CONFIG_OFFLINE=true. Captured descendant argv identifies resolution when observed."
+  }
+]

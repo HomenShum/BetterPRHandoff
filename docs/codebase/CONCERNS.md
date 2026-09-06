@@ -3,36 +3,20 @@
 Everything known to be wrong or limited, each with a reproduction you can run.
 A hunch is not a concern; if it is listed here, someone observed it.
 
-The live product ledger is `promotion/PROMOTION_LOG.md` and it is the
-authority on defect severity and status. This page adds the engineering
-detail and the limits that are not defects.
+`promotion/PROMOTION_LOG.md` preserves the observations made at its recorded
+source versions. This page describes current behavior and remaining limits;
+resolved behavior does not rewrite the old evidence.
 
-## Open defects
+## Current behavior and open gaps
 
-### D8 — one canonical journey has no implementation (major)
+### D8 — the protocol needs a recorder supplied by the adopter
 
-```bash
-git ls-files templates/ | grep mjs     # no output, exit 1
-```
-
-`promotion/PRODUCT_JOURNEYS.md` J5 tells the reader to copy
-`templates/recorder.mjs` and run `templates/verifier.mjs`. Wave 3 deleted both,
-plus `probe-routes.mjs`, to close D3 — correctly, they were another product's
-scripts — and nothing replaced them.
-
-The README still promises the thing that was deleted:
-
-`README.md:15` → `**Verified demo recording** (UI changes only)`
-
-and repeats it at lines 70 and 109, while the disclosure sits 162 lines below
-the first promise:
-
-`README.md:177` → `A recorder + verifier pair that is genuinely framework-agnostic`
-
-A reader who stops at the feature list believes a recorder ships. Closing this
-is a decision — ship a framework-agnostic recorder, or promise only what ships —
-not a measurement, which is why the iteration that found it recorded it instead
-of picking one. Full row in `promotion/PROMOTION_LOG.md`.
+The old journey describes recorder and verifier files that were removed because
+they were specific to another application. The current README now says what
+ships: scaffolding, instructions, and contracts. The adopter still needs a
+recorder and verifier for their own routes; this CLI neither creates those
+executables nor runs them. Historical J5 and D8 observations remain unchanged
+in `promotion/`; correcting the feature description does not implement J5.
 
 ### D5 — `entry` subcommand still unbuilt (minor)
 
@@ -40,21 +24,15 @@ Prepending an entry to a lane is the protocol's central action and there is no
 command that automates it. The false documentation was removed in the wave-3
 pass; the verb was not written, because writing it is feature work.
 
-### D7 — new lanes carry the template's sample entries (minor, new)
+### D7 — fresh history must leave unavailable facts pending
 
-```bash
-cd "$(mktemp -d)"
-node <repo>/bin/init.mjs init >/dev/null
-node <repo>/bin/init.mjs add components Button >/dev/null
-grep -c '^## YYYY-MM-DD —' CHANGELOG/components/Button.md   # 3
-grep -n 'abc1234' CHANGELOG/components/Button.md            # a fake commit sha
-```
-
-`addLane()` substitutes only the topmost heading of `templates/lane.md`. The
-sample entries below it survive, one of them carrying `abc1234` as a commit
-sha, and the newest entry keeps a dangling `**Touches**:` placeholder. A user
-who does not clean up commits fake history into an append-only file. Pinned at
-the observed count by a test that names D7.
+The original `add` output carried two apparent historical entries and sample
+commit hashes. The current lane template instead leaves the current change,
+commit, and author visibly unfilled, with one fenced reusable format example.
+The CLI personalizes the surface and date; it does not infer historical events.
+Existing lane histories are never regenerated. The old D7 failure is preserved
+in the historical promotion record; use the current scenario proof for the
+changed behavior.
 
 ## Closed defects worth remembering
 
@@ -74,22 +52,22 @@ was never laid out for — is the one most likely to come back.
 
 ## Limits that are not defects
 
-### Path traversal in the `slug` argument
+### Filename and concurrent-write boundaries
 
-```bash
-cd "$(mktemp -d)" && mkdir sub && cd sub
-node <repo>/bin/init.mjs init >/dev/null
-node <repo>/bin/init.mjs add components ../../escaped   # ✓ Created escaped.md, exit 0
-```
+The original lane name was joined directly into a path. A coding agent could
+therefore write outside the intended category even without a network service.
+The current boundary rejects path separators, dot aliases, control characters,
+and Windows alternate-stream syntax before creating directories, while allowing
+meaningful Unicode names. New lane files are created exclusively so duplicate
+writers cannot both replace the same history.
 
-`slug` is joined into a path without validation (`bin/init.mjs:161` →
-`const target = join(dir,`), so it can
-write outside `CHANGELOG/`. Recorded rather than fixed: this is a local
-developer tool, the argument comes from the person at the keyboard, and no
-trust boundary is crossed. It becomes a real defect the moment anything drives
-this CLI with an argument it did not author — a CI job templating a slug from a
-branch name, for instance. If that day comes, reject a slug that is not
-`[A-Za-z0-9._-]+`, in `addLane()`, once.
+Installer copies preserve differing existing content and report a manual-merge
+conflict. An identical completed file can be a no-op; a concurrent reader may
+observe an incomplete new copy and refuse honestly. Copying is not transactional,
+and a failed install can leave its newly created files. QA packet creation
+reserves its leaf directory before writing members; an existing packet is not
+replaced. These guarantees do not certify arbitrary symlinked parent directories
+or every possible filesystem race.
 
 ### ANSI colour codes are emitted unconditionally
 
@@ -105,14 +83,12 @@ test suite has to strip them. One-line fix — gate `C` on
 bytes for every non-terminal consumer and that is a behaviour change, which
 does not belong in a structural commit.
 
-### `fs.cp` on Node 18 and 20
+### Runtime compatibility
 
-`bin/init.mjs:299` → `await cp(TPL_DIR, join(dest, "templates"), { recursive: true });`
-uses `cp` from `node:fs/promises`, which was marked Stable
-only in Node v22.3.0. `engines.node` still says `>=18`. It works on 18 and 20,
-both of which are past end-of-life; if a user on one of them reports an
-`ExperimentalWarning` during `easier install`, that is the cause, and the fix
-is to raise `engines.node` rather than to reintroduce a hand-rolled copy.
+The declared Node range is broader than the local Windows execution evidence.
+The current installer uses native exclusive-copy behavior to preserve files;
+its exact built-in imports and tested runtime are listed in STACK.md. A
+successful local run does not certify every supported OS, filesystem, or shell.
 
 ### `templates/qa-packet.md` links to another repository on a named branch
 
@@ -121,20 +97,28 @@ Line 206 points at `github.com/jayneebui/sitflow-mobile` on branch
 open it. If it is not public the link should go; deciding that needs someone
 who knows the repo's visibility.
 
-### Windows line endings inside generated lane files
+### Generated line endings
 
-`addLane()` reads a template checked out with CRLF on Windows and substitutes
-using `\n`, so the produced file mixes both. Cosmetic in markdown, and it
-disappears if the repo ever gains a `.gitattributes`. Nothing depends on it.
+Generated files derive from the checked-out templates. Preserve their actual
+bytes when recording source, package, and installed-consumer evidence, and
+disclose any observed npm hashbang normalization separately. Markdown rendering
+alone does not establish byte identity.
 
 ## Coverage gaps worth knowing about
 
-- `install user`, `install cursor`, `install cline` and `install aider` have no
-  tests. Only `project` and `auto` are exercised. See TESTING.md.
-- Nothing here opens a browser. The one rendered artifact is covered only by
-  the promotion baseline's manual measurements.
-- Everything was measured on Node v22.22.2 on Windows 11. Nothing has been run
-  on macOS or Linux in this pass.
+- Installer preservation and detection use owned profiles and destinations.
+  They do not activate a real coding-agent host or modify a personal profile.
+  See TESTING.md for the exact finite scenarios and current command evidence.
+- `npm test` does not render HTML. The preview uses a compact heading, the full
+  change title, a labelled feature-ID footer, and full-width labelled snippet
+  fields. Four unconfigured review labels remain ordinary text with explicit
+  disclosure. Separate browser proof is required; no Gmail delivery, functional
+  approval action, or completed review follows from file generation.
+- The earlier local evidence used Node v22.22.2 on Windows 11. Published source
+  `42e57a96f9ae961f501729ec6ace5c3d8dbe3aee` subsequently passed all 30 scenarios
+  in both Windows and Ubuntu jobs of [shared run 34010433758](https://github.com/HomenShum/BetterPRHandoff/actions/runs/34010433758),
+  using Node 22.23.2. Those jobs also completed installation and packaging.
+  They do not certify the later readability change, macOS or an email client.
 
 ## Things that look like problems and are not
 

@@ -1,0 +1,6 @@
+{
+  "status": "COLLECTOR_FAILED_AFTER_BYTE_AND_PIXEL_READBACK",
+  "exception": "FileNotFoundError",
+  "cause": "Reviewer measurement reader expected -top.json instead of frozen -top-before.json. Browser report and custody remain unchanged.",
+  "browserReruns": 0
+}

@@ -1,0 +1,16 @@
+{
+  "at": "2026-09-06T04:32:21.124Z",
+  "pid": 29280,
+  "listen": {
+    "address": "127.0.0.1",
+    "family": "IPv4",
+    "port": 54161
+  },
+  "base": "http://127.0.0.1:54161",
+  "browserVersion": "149.0.7827.55",
+  "playwright": "1.61.1",
+  "source": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "tree": "2724c85cc595fbd05e50c16b5ba6caf9b2d5c394",
+  "sourceDescription": "Committed42e57/tree2724 is the base; current selected92db HTML and five documentation successors are uncommitted and explicitly bound by69 working source files. Actual outputs come from the fresh19-file local tar/normal installed CLI producer, not edited fixtures.",
+  "scope": "Fresh actual installed-CLI generated outputs; no HTML override or generated-input edit."
+}

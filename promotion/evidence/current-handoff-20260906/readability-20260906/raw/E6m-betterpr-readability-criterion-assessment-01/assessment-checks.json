@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "criteria": 44,
+  "changedObservations": 8,
+  "unchangedHistoricalRowsExact": 36,
+  "partiallyObserved": 29,
+  "notRun": 15,
+  "allFinalCriterionScoresNull": true,
+  "allDimensionAndOverallScoresNull": true,
+  "workingTargetUnchanged": true,
+  "oldAssessmentExact": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.json",
+    "bytes": 57645,
+    "sha256": "b82f3aa5cce17e5c2bc9a92dc73b698a44c47fecaa2fe22d1f13700d8aea4084"
+  },
+  "noNewBrowserAfterClosedProof": true
+}

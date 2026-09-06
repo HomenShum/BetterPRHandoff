@@ -1,0 +1,128 @@
+from pathlib import Path
+import json,hashlib,subprocess,os,sys,time,threading
+import psutil
+
+P=Path('C:/Users/hshum/.codex/worktrees/5dba/nodebench-ai/docs/plans/portfolio-recovery-20260904')
+O=P/'E6m-betterpr-html-final-01'
+REC=P/'E6m-observe-html-final.mjs'
+R=Path('D:/VSCode Projects/cafecorner_nodebench/nodebench_ai4/.portfolio-worktrees/betterprhandoff-current-consumer-20260905')
+TEMPLATE_SHA='f23bff53132de5579329fae9598046e42580a023e1fa8ebd1954328c65017f0e'
+NODE='C:/nvm4w/nodejs/node.exe'
+read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
+def digest(p):
+ h=hashlib.sha256()
+ with p.open('rb') as f:
+  while b:=f.read(1048576):h.update(b)
+ return h.hexdigest()
+def bind(p,kind):return {'path':str(p),'bytes':p.stat().st_size,'sha256':digest(p),'kind':kind}
+def put(p,value):
+ with p.open('x',encoding='utf-8',newline='\n') as f:json.dump(value,f,indent=2,ensure_ascii=False);f.write('\n')
+def git_state():
+ values={}
+ for name,args in [('head',['rev-parse','HEAD']),('tree',['rev-parse','HEAD^{tree}']),('branch',['branch','--show-current']),('indexEntries',['ls-files','--stage','-z']),('refs',['for-each-ref','--format=%(refname) %(objectname)']),('status',['status','--porcelain=v1','--untracked-files=all','-z']),('indexPath',['rev-parse','--git-path','index'])]:
+  a=subprocess.run(['git','--no-optional-locks',*args],cwd=R,capture_output=True,timeout=15)
+  if a.returncode:raise RuntimeError('Read-only Git failed: '+name)
+  values[name]=a.stdout.decode('utf-8')
+ ip=Path(values.pop('indexPath').strip());ip=ip if ip.is_absolute() else R/ip;values['rawIndexSha256']=digest(ip)
+ return values
+def verify(config):
+ for row in config['bindings']:
+  p=Path(row['path'])
+  if p.stat().st_size!=row['bytes'] or digest(p)!=row['sha256']:raise RuntimeError('Frozen bytes changed: '+str(p))
+ if digest(Path(config['browserBinary']['path']))!=config['browserBinary']['sha256']:raise RuntimeError('Browser binary changed')
+ return {'bindings':config['bindings'],'browserBinary':config['browserBinary'],'git':git_state()}
+def prepare(request_path):
+ # This reads only a real, future root-frozen after-input request. No fixture or CLI generation.
+ request=read(request_path)
+ assert Path(request['candidate']).resolve()==R.resolve()
+ assert request['status']=='ACTUAL_INSTALLED_CLI_AFTER_INPUTS_FROZEN'
+ assert len(request['html'])==2 and {x['case'] for x in request['html']}=={'normal','long'}
+ assert request['sourceDescription'] and request['source'] and request['tree']
+ rows=request['bindings'];assert 0<len(rows)<=450 and len({str(Path(x['path']).resolve()).casefold() for x in rows})==len(rows)
+ assert all({'path','bytes','sha256','kind'}<=x.keys() and 0<=x['bytes']<=16*1024*1024 for x in rows)
+ assert sum(x['kind']=='actual-cli-output' for x in rows)==8
+ assert sum(x['kind']=='source' for x in rows)>=62 and sum(x['kind']=='installed-package' for x in rows)>=19
+ tr=next(x for x in rows if Path(x['path']).resolve()==(R/'templates/gmail-magic-resend.html').resolve());assert tr['sha256']==TEMPLATE_SHA
+ for html in request['html']:
+  assert any(Path(x['path']).resolve()==Path(html['path']).resolve() and x['sha256']==html['sha256'] and x['bytes']==html['bytes'] and x['kind']=='actual-cli-output' for x in rows)
+ before=P/'E6m-betterpr-rendered-baseline-01/browser';old=read(P/'E6m-betterpr-rendered-baseline-01/config.json')
+ for which in ['normal','long']:
+  old_feature=next(x for x in old['inputs'] if x['case']==which)['featureId']
+  assert next(x for x in request['html'] if x['case']==which)['featureId']==old_feature
+ oldreport=read(before/'report.json')
+ extra=[bind(before/x['state'],'historical-observation') for x in oldreport['cells']]
+ extra += [bind(before/'report.json','historical-observation'),bind(P/'E6m_BETTERPRHANDOFF_HTML_REPAIR_PLAN.json','accepted-plan'),bind(request_path,'root-after-input-receipt')]
+ for x in old['bindings']:
+  if '/node_modules/playwright' in x['path'].replace('\\','/'):extra.append(x)
+ seen={str(Path(x['path']).resolve()).casefold() for x in rows}
+ for x in extra:
+  key=str(Path(x['path']).resolve()).casefold()
+  if key not in seen:rows.append(x);seen.add(key)
+ assert len(rows)<=512
+ config={'output':str(O/'browser'),'candidate':str(R),'source':request['source'],'tree':request['tree'],'sourceDescription':request['sourceDescription'],'html':request['html'],'bindings':rows,'beforeDirectory':str(before),'playwrightRequireFrom':old['playwrightRequireFrom'],'browserExecutable':old['browserExecutable'],'browserBinary':old['browserBinary'],'scope':'Actual after outputs supplied by root; source/tree represent stated provenance, full working source identity is bound separately.'}
+ entry=verify(config);assert entry['git']['head'].strip()==request['source'] and entry['git']['tree'].strip()==request['tree']
+ O.mkdir(exist_ok=False);put(O/'config.json',config);put(O/'prepared-custody.json',entry)
+ (O/'recorder-preflight.mjs.txt').write_bytes(REC.read_bytes());(O/'controller-preflight.py.txt').write_bytes(Path(__file__).read_bytes())
+ syntax=subprocess.run([NODE,'--check',str(REC)],capture_output=True,timeout=20);(O/'syntax.stdout.txt').write_bytes(syntax.stdout);(O/'syntax.stderr.txt').write_bytes(syntax.stderr);assert syntax.returncode==0
+ pre={'status':'PREPARED_NOT_RUN','request':bind(request_path,'root-after-input-receipt'),'recorderSha256':digest(REC),'controllerSha256':digest(Path(__file__)),'configSha256':digest(O/'config.json'),'expectedMatrixCells':6,'expectedScrolledCells':2,'expectedJourneys':0,'expectedPngs':14,'bindings':len(rows),'sourceDescription':request['sourceDescription'],'runtime':'NOT_STARTED'}
+ put(O/'preflight.json',pre);print(json.dumps(pre))
+def run():
+ pre=read(O/'preflight.json');config=read(O/'config.json')
+ assert digest(REC)==pre['recorderSha256'] and digest(Path(__file__))==pre['controllerSha256'] and digest(O/'config.json')==pre['configSha256']
+ entry=verify(config);assert entry==read(O/'prepared-custody.json');put(O/'entry-custody.json',entry)
+ B=O/'browser';B.mkdir(exist_ok=False);profile=O/'owned-profile';temp=O/'owned-temp'
+ for p in [profile,temp,profile/'AppData/Local',profile/'AppData/Roaming']:p.mkdir(parents=True,exist_ok=True)
+ env={k:os.environ[k] for k in ['PATH','PATHEXT','SystemRoot','SYSTEMROOT','WINDIR','ComSpec','COMSPEC','NUMBER_OF_PROCESSORS','PROCESSOR_ARCHITECTURE'] if k in os.environ}
+ env.update({'USERPROFILE':str(profile),'HOME':str(profile),'LOCALAPPDATA':str(profile/'AppData/Local'),'APPDATA':str(profile/'AppData/Roaming'),'TEMP':str(temp),'TMP':str(temp),'GIT_OPTIONAL_LOCKS':'0'})
+ put(O/'environment-policy.json',{'inheritedNames':[k for k in env if k not in ['USERPROFILE','HOME','LOCALAPPDATA','APPDATA','TEMP','TMP','GIT_OPTIONAL_LOCKS']],'secretValuesRecorded':False,'freshOwnedProfile':True})
+ owned={};errors=[];cleanup=[];stop=threading.Event();timedout=False
+ with (O/'command.stdout.txt').open('xb') as stdout,(O/'command.stderr.txt').open('xb') as stderr:
+  started=time.monotonic();p=subprocess.Popen([NODE,str(REC),str(O/'config.json')],cwd=O,env=env,stdout=stdout,stderr=stderr);root=psutil.Process(p.pid);owned[(p.pid,root.create_time())]=root.name()
+  def observe():
+   while not stop.wait(.1):
+    try:
+     for child in root.children(recursive=True):
+      key=(child.pid,child.create_time())
+      if key not in owned and len(owned)>=128:errors.append('Owned process limit');root.terminate();return
+      owned[key]=child.name()
+     if any((O/f).stat().st_size>2*1024*1024 for f in ['command.stdout.txt','command.stderr.txt']):errors.append('Output limit');root.terminate();return
+    except psutil.Error:pass
+  t=threading.Thread(target=observe,daemon=True);t.start()
+  try:p.wait(timeout=240)
+  except subprocess.TimeoutExpired:timedout=True
+  finally:
+   stop.set();t.join(timeout=2)
+   for (pid,created),name in reversed(list(owned.items())):
+    try:
+     q=psutil.Process(pid)
+     if q.create_time()==created and q.is_running():q.terminate();cleanup.append({'pid':pid,'created':created,'action':'terminate-owned-survivor'})
+    except psutil.Error:pass
+   if p.poll() is None:
+    try:p.wait(timeout=8)
+    except subprocess.TimeoutExpired:
+     for (pid,created),name in owned.items():
+      try:
+       q=psutil.Process(pid)
+       if q.create_time()==created and q.is_running():q.kill();cleanup.append({'pid':pid,'created':created,'action':'kill-owned-timeout'})
+      except psutil.Error:pass
+     p.wait(timeout=5)
+ survivors=[]
+ for (pid,created),name in owned.items():
+  try:
+   q=psutil.Process(pid)
+   if q.create_time()==created and q.is_running():survivors.append({'pid':pid,'created':created})
+  except psutil.Error:pass
+ exitstate=verify(config);put(O/'exit-custody.json',exitstate)
+ r=read(B/'report.json') if (B/'report.json').exists() else None;runtime=read(B/'runtime.json') if (B/'runtime.json').exists() else None
+ listeners=[{'pid':x.pid,'status':x.status} for x in psutil.net_connections(kind='tcp') if runtime and x.laddr and x.laddr.port==runtime['listen']['port'] and x.status==psutil.CONN_LISTEN]
+ complete=bool(r and len(r['cells'])==6 and len(r['scrolled'])==2 and len(r['journeys'])==0 and len(r['captures'])==14)
+ matched=bool(r and r['status'] in ['PASS','COMPLETED_WITH_FINDINGS'] and p.returncode==(0 if r['status']=='PASS' else 1))
+ failure=bool(timedout or errors or cleanup or survivors or listeners or entry!=exitstate or not complete or not matched or not r or r['errors'] or r['fatal'] or not all(r['closure'].values()))
+ result={'status':'HARNESS_FAILED' if failure else r['status'],'exitCode':p.returncode,'seconds':round(time.monotonic()-started,3),'timedout':timedout,'observerErrors':errors,'cleanup':cleanup,'ownedProcesses':[{'pid':pid,'created':created,'name':name} for (pid,created),name in owned.items()],'survivors':survivors,'listeners':listeners,'allInputSourceGitBytesUnchanged':entry==exitstate,'complete':complete,'exitMatchesReport':matched,'browserVersion':runtime['browserVersion'] if runtime else None,'fullGrades':None}
+ put(O/'controller-report.json',result)
+ put(O/'manifest.json',{'files':[bind(x,'evidence') for x in sorted(O.rglob('*')) if x.is_file() and not {'owned-profile','owned-temp'}.intersection(x.parts)],'excluded':'Only ephemeral owned profile/temp; all generated-input references and browser evidence retained.'})
+ print(json.dumps(result));raise SystemExit(0 if not failure and r['status']=='PASS' else 1)
+if __name__=='__main__':
+ if len(sys.argv)==3 and sys.argv[1]=='prepare':prepare(Path(sys.argv[2]))
+ elif len(sys.argv)==2 and sys.argv[1]=='run':run()
+ else:raise SystemExit('Use prepare <actual-after-input-request.json> or run. No browser is launched by prepare.')

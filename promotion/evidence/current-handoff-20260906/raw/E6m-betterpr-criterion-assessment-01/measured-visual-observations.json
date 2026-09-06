@@ -1,0 +1,249 @@
+{
+  "contrast": {
+    "method": "Read actual saved computed RGB values, calculate sRGB relative luminance ratio; manually inspected exact viewport images. This is not an automated full accessibility scan or AT evaluation.",
+    "text": "rgb(35, 22, 15)",
+    "cardBackground": "rgb(255, 250, 243)",
+    "codeBackground": "rgb(241, 230, 220)",
+    "bodyCardRatio": 16.947451509465164,
+    "codeRatio": 14.325672634870536,
+    "nonColorState": "All four unconfigured slots explicitly say Not configured and explanatory text says no approval or resend email."
+  },
+  "normalDesktop": {
+    "card": {
+      "rect": {
+        "x": 315,
+        "y": 24,
+        "right": 1125,
+        "bottom": 773.4375,
+        "width": 810,
+        "height": 749.4375,
+        "scrollWidth": 808,
+        "clientWidth": 808
+      },
+      "style": {
+        "fontSize": "16px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgb(255, 250, 243)",
+        "padding": "24px",
+        "margin": "0px 291px",
+        "border": "1px solid rgb(231, 216, 202)",
+        "borderRadius": "18px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      },
+      "inner": {
+        "left": 340,
+        "right": 1100
+      }
+    },
+    "table": {
+      "rect": {
+        "x": 340,
+        "y": 661.4375,
+        "right": 1100,
+        "bottom": 748.4375,
+        "width": 760,
+        "height": 87,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "style": {
+        "fontSize": "16px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "16px 0px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "fixed",
+        "overflowWrap": "normal"
+      }
+    },
+    "bodyStyle": {
+      "fontSize": "16px",
+      "fontFamily": "Arial, sans-serif",
+      "fontWeight": "400",
+      "color": "rgb(35, 22, 15)",
+      "backgroundColor": "rgb(251, 247, 239)",
+      "padding": "24px",
+      "margin": "0px",
+      "border": "0px none rgb(35, 22, 15)",
+      "borderRadius": "0px",
+      "overflowX": "visible",
+      "textOverflow": "clip",
+      "whiteSpace": "normal",
+      "tableLayout": "auto",
+      "overflowWrap": "normal"
+    }
+  },
+  "long390Text200": {
+    "document": {
+      "width": 390,
+      "height": 4419
+    },
+    "h1": {
+      "tag": "H1",
+      "text": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": 409,
+        "right": 341,
+        "bottom": 1633,
+        "width": 292,
+        "height": 1224,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "60px",
+        "fontFamily": "Georgia, serif",
+        "fontWeight": "700",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px 0px 8px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "anywhere"
+      }
+    },
+    "firstInstruction": {
+      "tag": "P",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "className": "",
+      "rect": {
+        "x": 49,
+        "y": 1665,
+        "right": 341,
+        "bottom": 1887,
+        "width": 292,
+        "height": 222,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "auto",
+        "overflowWrap": "normal"
+      }
+    },
+    "table": {
+      "rect": {
+        "x": 49,
+        "y": 3893.96875,
+        "right": 341,
+        "bottom": 4369.96875,
+        "width": 292,
+        "height": 476,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "16px 0px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "fixed",
+        "overflowWrap": "normal"
+      }
+    }
+  },
+  "scrolled390Text200": {
+    "table": {
+      "rect": {
+        "x": 49,
+        "y": 318.96875,
+        "right": 341,
+        "bottom": 794.96875,
+        "width": 292,
+        "height": 476,
+        "scrollWidth": 292,
+        "clientWidth": 292
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontFamily": "Arial, sans-serif",
+        "fontWeight": "400",
+        "color": "rgb(35, 22, 15)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "16px 0px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowX": "visible",
+        "textOverflow": "clip",
+        "whiteSpace": "normal",
+        "tableLayout": "fixed",
+        "overflowWrap": "normal"
+      }
+    },
+    "document": {
+      "width": 390,
+      "height": 3313
+    }
+  },
+  "pixelObservations": [
+    "At 1440 the complete normal packet has distinct headings and a coherent warm single-card presentation.",
+    "At 320 the unconfigured-action list and explanation wrap into a long but readable vertical block.",
+    "At 390 computed 2x the long duplicated feature/title fills more than the first screen; comparison visibly breaks as comparis/on.",
+    "At 390 computed 2x the table correction text wraps to many short fragments; containment is fixed but scanning still takes repeated effort."
+  ],
+  "reviewedViewportImages": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-320x800-normal.png",
+      "sha256": "5670b1d4cd97ef8e6bcef696d44fac549e1a62fd4746fac2a33c477ca430588d",
+      "bytes": 42082
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-1440x960-normal.png",
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "bytes": 67705
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200.png",
+      "sha256": "28c8c18e7fc93041ba6e6d2dc8c0f3ed229c2d2f94da10ff7b89f48203d3e792",
+      "bytes": 54045
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-table-scrolled.png",
+      "sha256": "8440ae6dbb21fd380a08899917dfee55716c78a494ad039d52f22891c2fe928e",
+      "bytes": 46436
+    }
+  ],
+  "fullPageUsedAsExactViewportProof": false,
+  "newBrowserRunsForAssessment": 0
+}

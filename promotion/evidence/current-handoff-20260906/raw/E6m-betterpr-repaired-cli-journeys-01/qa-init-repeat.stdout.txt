@@ -1,0 +1,2 @@
+[33m! qa.config.json already exists at D:\ProjectRecovery\betterprhandoff-repaired-first-use-20260906\cli journeys\developer-adopts-protocol\workspace\qa.config.json[0m
+[2m  Preserved your configuration. Edit it directly if needed.[0m

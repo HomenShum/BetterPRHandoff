@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\actual-six-owner.diff.stderr.txt",
+      "bytes": 703,
+      "sha256": "11d32881d6cae8bbb6c6d78819e69c7d034ac078cc19f67be886c04b34478160"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\actual-six-owner.diff.txt",
+      "bytes": 13210,
+      "sha256": "1a0412a11dd4b742cf32202b2aed4eefd5e05ed1236412e7d107465a9c82dfff"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\authored-whitespace.stderr.txt",
+      "bytes": 703,
+      "sha256": "11d32881d6cae8bbb6c6d78819e69c7d034ac078cc19f67be886c04b34478160"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\authored-whitespace.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\check-summary.json",
+      "bytes": 309,
+      "sha256": "3357648c61a95e1d474ac44d3fd24ae0d9b613da7aaed7efb92860e52ba6cb3f"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\checks.json",
+      "bytes": 183481,
+      "sha256": "7695195cfc2e40666b9a86d627707f12d7675269335541df06b11cf3541f6af6"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\closing-guard.json",
+      "bytes": 104647,
+      "sha256": "97e48a4aff272aa4e57a1fbf7d8c9f93894eaf192a08ec007f0f3c9b9ebd2d2a"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\collector-history.json",
+      "bytes": 3031,
+      "sha256": "bb84c7f6ab9da8ae39c17b65d9ee9ab76b4b7929c7ea92a1846e7457cd200331"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\evidence-bindings.json",
+      "bytes": 7948,
+      "sha256": "f38a3bdad54b24837e96ed0b96458945095f3e365e0b0f52ba1c045daf6800ad"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\matched-measurements.json",
+      "bytes": 62657,
+      "sha256": "7e03fc71a3e2c8ede48bd7e153e25746484652a407ceb90522e1a835518580c6"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\source633-readback.json",
+      "bytes": 145753,
+      "sha256": "10bf4a3d4792003f38df9e34c4a449bbac7dc00769059fd5dd637e6da65cf125"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\viewed-pixels.json",
+      "bytes": 8409,
+      "sha256": "04567616b206272e32fa99f4c619e03db65bee68c1fb5d066f3536ccbf4db443"
+    }
+  ],
+  "scope": "Finite independent source/artifact/pixel review only. Browser raw92-file manifest remains separately bound; no bulk historical recapture or source mutation."
+}

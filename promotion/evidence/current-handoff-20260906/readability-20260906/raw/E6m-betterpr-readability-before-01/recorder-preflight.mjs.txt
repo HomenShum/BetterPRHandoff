@@ -1,0 +1,60 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import http from 'node:http';
+import crypto from 'node:crypto';
+import {createRequire} from 'node:module';
+const C=JSON.parse(fs.readFileSync(process.argv[2],'utf8')),O=C.output;
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const save=(name,v)=>fs.writeFileSync(path.join(O,name),typeof v==='string'?v:JSON.stringify(v,null,2)+'\n',{flag:'wx'});
+const must=(v,m)=>{if(!v)throw Error(m)};
+const errors=[],events=[],requests=[],cells=[],views=[],captures=[];
+const fail=e=>{if(errors.length<40)errors.push(String(e));else throw Error('Error count bound')};
+function guard(){must(C.bindings.length<=256,'Input count');return C.bindings.map(r=>{must(fs.statSync(r.path).size===r.bytes&&r.bytes<=16*1024*1024,'Input bound');const b=fs.readFileSync(r.path);must(sha(b)===r.sha256,'Input changed: '+r.path);return r})}
+const require=createRequire(C.playwrightRequireFrom),{chromium}=require('playwright');
+const payloads=new Map(C.html.map(r=>{const b=fs.readFileSync(r.path);must(b.length<16384&&sha(b)===r.sha256,'Original HTML exact');return ['/'+r.case,{row:r,bytes:b}]}));
+must(payloads.size===2,'Two frozen inputs');
+const paint=p=>p.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));
+let server,browser,context,page,base,runtime,current='setup',fatal=null;
+const closure={context:false,browser:false,server:false};
+async function state(){return page.evaluate(()=>{
+ const all=[document.body,...document.body.querySelectorAll('*')];if(all.length>256)throw Error('DOM count');
+ const rect=e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,right:r.right,bottom:r.bottom,width:r.width,height:r.height}};
+ return {url:location.href,viewport:{width:innerWidth,height:innerHeight},scroll:{x:scrollX,y:scrollY},document:{width:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight},bodyText:document.body.innerText,
+  nodes:all.map(e=>{const s=getComputedStyle(e);return {tag:e.tagName,text:e.textContent,attributes:[...e.attributes].map(a=>[a.name,a.value]),rect:rect(e),style:{fontSize:s.fontSize,fontWeight:s.fontWeight,fontFamily:s.fontFamily,color:s.color,background:s.backgroundColor,padding:s.padding,margin:s.margin,border:s.border,borderRadius:s.borderRadius,overflowWrap:s.overflowWrap,tableLayout:s.tableLayout}}}),
+  interactive:[...document.querySelectorAll('a[href],button,input,select,textarea,[tabindex],[role="button"],[role="link"]')].map(e=>({tag:e.tagName,text:e.textContent})),scripts:document.scripts.length,reduced:matchMedia('(prefers-reduced-motion: reduce)').matches};
+ })}
+async function shot(name){must(captures.length<24,'24 image maximum');const b=await page.screenshot({fullPage:false,timeout:10000});must(b.length<8*1024*1024&&b.subarray(1,4).toString()==='PNG','PNG size/signature');const size=await page.viewportSize();must(b.readUInt32BE(16)===size.width&&b.readUInt32BE(20)===size.height,'Exact viewport PNG');fs.writeFileSync(path.join(O,name),b,{flag:'wx'});captures.push({path:name,bytes:b.length,sha256:sha(b),...size})}
+async function overlay(target){return page.evaluate(target=>{
+ const existing=document.getElementById('judge-readability-boundary');if(existing)throw Error('Overlay collision');
+ const root=document.createElement('div');root.id='judge-readability-boundary';root.style.cssText='position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:2147483647;contain:strict';
+ const rect=e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height,right:r.right,bottom:r.bottom}};
+ const card=rect(document.querySelector('.card'));let change,label;
+ if(target==='top'){const a=rect(document.querySelector('.card>p')),b=rect(document.querySelector('h1'));change={x:Math.min(a.x,b.x),y:Math.min(a.y,b.y),width:Math.max(a.right,b.right)-Math.min(a.x,b.x),height:Math.max(a.bottom,b.bottom)-Math.min(a.y,b.y)};label='CHANGE A | FULL ID + TITLE PLACEMENT'}
+ else{change=rect(document.querySelector('table'));label='CHANGE B | SNIPPET FIELD LAYOUT'}
+ const boxes=[{...card,label:'PROTECT | CARD + UNAVAILABLE ACTIONS',color:'#005a9c'},{...change,label,color:'#a40000'}];
+ boxes.forEach((b,i)=>{const box=document.createElement('div');box.style.cssText=`position:absolute;box-sizing:border-box;border:3px solid ${b.color};left:${b.x}px;top:${b.y}px;width:${b.width}px;height:${b.height}px`;const t=document.createElement('div');t.textContent=b.label;t.style.cssText=`position:absolute;left:4px;top:${i===0?4:28}px;max-width:calc(100vw - 8px);box-sizing:border-box;background:${b.color};color:white;font:700 11px/14px Arial;padding:3px;white-space:normal`;root.append(box,t)});
+ document.body.append(root);return boxes;
+ },target)}
+try{
+ save('input-entry.json',guard());
+ server=http.createServer((req,res)=>{if(requests.length>=32){fail('Request bound');res.writeHead(429);res.end();return}requests.push({cell:current,method:req.method,url:req.url});const p=payloads.get(req.url);if(req.method!=='GET'||!p){fail('Unexpected request');res.writeHead(404);res.end();return}res.writeHead(200,{'content-type':'text/html; charset=utf-8','cache-control':'no-store'});res.end(p.bytes)});
+ await new Promise((ok,no)=>{server.once('error',no);server.listen(0,'127.0.0.1',ok)});const listen=server.address();base=`http://127.0.0.1:${listen.port}`;
+ browser=await chromium.launch({headless:true,executablePath:C.browserExecutable});runtime={at:new Date().toISOString(),pid:process.pid,listen,base,browserVersion:browser.version(),playwright:require('playwright/package.json').version,source:C.source,tree:C.tree,scope:'Existing final actual installed-CLI output replay, byte-exact. Only temporary DOM boundary labels/computed font doubling.'};save('runtime.json',runtime);
+ context=await browser.newContext({viewport:{width:320,height:800},colorScheme:'light',reducedMotion:'no-preference',serviceWorkers:'block'});
+ await context.route('**/*',async r=>{const u=new URL(r.request().url());if(u.origin!==base||!payloads.has(u.pathname)||u.search){fail('Blocked unexpected network');await r.abort();return}await r.continue()});
+ page=await context.newPage();page.on('pageerror',e=>fail(e));page.on('requestfailed',r=>fail(r.failure()?.errorText));page.on('console',m=>{if(m.type()==='error')fail(m.text());else if(events.length<40)events.push({type:m.type(),text:m.text()});else fail('Console event limit')});
+ for(const c of C.cells){current=`${c.which}-${c.width}x${c.height}-${c.doubled?'text200':'normal'}`;await page.setViewportSize({width:c.width,height:c.height});const response=await page.goto(base+'/'+c.which,{waitUntil:'load',timeout:15000});must(response.status()===200&&sha(await response.body())===payloads.get('/'+c.which).row.sha256,'Exact HTTP input');await paint(page);
+  if(c.doubled){const before=await page.evaluate(()=>{const els=[document.body,...document.body.querySelectorAll('*')],sizes=els.map(e=>parseFloat(getComputedStyle(e).fontSize));els.forEach((e,i)=>e.style.fontSize=`${sizes[i]*2}px`);return sizes});await paint(page);const after=await page.evaluate(()=>[document.body,...document.body.querySelectorAll('*')].map(e=>parseFloat(getComputedStyle(e).fontSize)));must(before.length===after.length&&before.every((n,i)=>Math.abs(n*2-after[i])<.02),'Exact all-element computed doubling');save(current+'-font-vector.json',{before,after,scope:'Computed doubling, not native zoom'});}
+  for(const target of ['top','snippet']){const id=current+'-'+target;await page.evaluate(t=>scrollTo(0,t==='top'?0:Math.max(0,scrollY+document.querySelector('table').getBoundingClientRect().top-100)),target);await paint(page);const dom=await page.content(),s=await state();must(s.viewport.width===c.width&&s.viewport.height===c.height,'Exact viewport');must(s.interactive.length===0&&s.scripts===0,'Original unavailable noninteractive state');save(id+'-before.dom.html.txt',dom);save(id+'-before.json',s);await shot(id+'-before.png');const boxes=await overlay(target);await paint(page);save(id+'-overlay.json',boxes);save(id+'-labelled.dom.html.txt',await page.content());await shot(id+'-change-boundary.png');await page.evaluate(()=>document.getElementById('judge-readability-boundary').remove());await paint(page);const restored=await page.content(),rs=await state();must(restored===dom,'Exact DOM/attribute restoration');must(JSON.stringify(s)===JSON.stringify(rs),'Exact geometry/style/state restoration');save(id+'-restored.json',{beforeDomSha256:sha(Buffer.from(dom)),restoredDomSha256:sha(Buffer.from(restored)),exact:true,state:rs});views.push({id,target,before:id+'-before.png',boundary:id+'-change-boundary.png',restored:true});}
+  cells.push({...c,id:current});
+ }
+ must(cells.length===6&&views.length===12&&captures.length===24,'Exact six cells / twelve views / twenty-four PNGs');must(!errors.length,'No browser errors');
+}catch(e){fatal=String(e.stack||e);if(page)try{save('failure.dom.html.txt',await page.content())}catch(x){fail(x)}}
+finally{
+ try{if(context){await context.close();closure.context=true}}catch(e){fail(e)}
+ try{if(browser){await browser.close();closure.browser=true}}catch(e){fail(e)}
+ try{if(server){await new Promise((ok,no)=>server.close(e=>e?no(e):ok()));closure.server=true}}catch(e){fail(e)}
+ try{save('input-exit.json',guard())}catch(e){fail(e)}
+ const ok=!fatal&&!errors.length&&cells.length===6&&views.length===12&&captures.length===24&&Object.values(closure).every(Boolean);
+ save('report.json',{status:ok?'CAPTURE_COMPLETE_BASELINE_LIMITS_RETAINED':'FAILED',fatal,errors,events,requests,cells,views,captures,closure,source:C.source,tree:C.tree,fullGrades:null,limitations:['Before observation only; no proposed template is loaded.','No native interaction replay or after-readability acceptance.','No full-page image, real Gmail/device/native zoom/performance or provider claim.']});process.exitCode=ok?0:1;
+}

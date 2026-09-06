@@ -1,0 +1,15 @@
+Builder mode. The actual generated handoff pages completed the browser baseline with findings; they are not yet an operational review workflow.
+
+A reviewer can read the normal desktop packet and reach all four actions with the keyboard. On a 320px phone, the proof table extends 21px beyond the viewport; with computed text doubled at 390px, it extends 173px. The automatic table layout cannot shrink the three padded columns and unbroken component token to the available space. The table also extends 5.14px past the 360px card border despite no document overflow. Preserve all text and repair the existing table sizing/wrapping rules first.
+
+The prominent Open test link, Approve, Needs fix and Magic resend controls all point to `#`. Sixteen native Enter actions changed no document content and sent no request. Existing instructions disclose that links need filling, but these remain scaffold placeholders. An HTML-only follow-on should make that unavailable state explicit; it must not pretend to implement approval or email delivery. Long machine-derived titles also dominate phone first views; that remains a separate density observation.
+
+The approved unchanged recorder completed 22 cells, 4 native keyboard journeys and 76 PNG captures in 7.266 seconds using Chromium 149.0.7827.55 / Playwright 1.61.1. Raw checks were 137/167: 22 failures record placeholder destinations and 8 record layout across 4 cells. There were no harness errors. I viewed 12 saved PNGs, including two settled native focus rings. Full-page images are illustrative only; the prior viewport PNG and DOM preserve each exact requested viewport. Root should capture actual scrolled table boundaries before repair.
+
+All 62 source files, 19 actual installed files and 8 generated companion artifacts remained exact, as did HEAD/tree/index/refs. The 9 observed owned processes closed normally; no forced cleanup, survivors or listener remained. All raw manifest entries were rehashed. The documented npm hashbang line-ending transform remains part of actual installed-byte custody.
+
+Smallest proposed scope: the existing generated HTML template. Capture labelled before boundaries, constrain the table and wrap tokens, truthfully label unconfigured actions, then regenerate/reopen through the same consumer path. Preserve headings, exact identities, full evidence text, contrast and workflow instructions. No product edits were made.
+
+This is local browser evidence, not Gmail rendering, email/approval completion, a physical device/native zoom, human accessibility review or deployment. All full dimensions and overall grades remain null.
+
+**Re your request:** make each repo ready for usage and handoff, including visual UI, responsiveness and interactions — this baseline records the actual generated-page behavior, two concrete repair targets and exact preserved evidence.

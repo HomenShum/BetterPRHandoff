@@ -1,0 +1,3896 @@
+{
+  "status": "COMPLETED_WITH_FINDINGS",
+  "fatal": null,
+  "errors": [],
+  "cells": [
+    {
+      "id": "normal-320x800-normal",
+      "case": "normal",
+      "width": 320,
+      "height": 800,
+      "mode": "normal",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-320x800-normal.json",
+      "viewportPng": "normal-320x800-normal.png",
+      "fullPng": "normal-320x800-normal-full.png"
+    },
+    {
+      "id": "long-320x800-normal",
+      "case": "long",
+      "width": 320,
+      "height": 800,
+      "mode": "normal",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-320x800-normal.json",
+      "viewportPng": "long-320x800-normal.png",
+      "fullPng": "long-320x800-normal-full.png"
+    },
+    {
+      "id": "normal-360x800-normal",
+      "case": "normal",
+      "width": 360,
+      "height": 800,
+      "mode": "normal",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-360x800-normal.json",
+      "viewportPng": "normal-360x800-normal.png",
+      "fullPng": "normal-360x800-normal-full.png"
+    },
+    {
+      "id": "long-360x800-normal",
+      "case": "long",
+      "width": 360,
+      "height": 800,
+      "mode": "normal",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-360x800-normal.json",
+      "viewportPng": "long-360x800-normal.png",
+      "fullPng": "long-360x800-normal-full.png"
+    },
+    {
+      "id": "normal-390x844-normal",
+      "case": "normal",
+      "width": 390,
+      "height": 844,
+      "mode": "normal",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-390x844-normal.json",
+      "viewportPng": "normal-390x844-normal.png",
+      "fullPng": "normal-390x844-normal-full.png"
+    },
+    {
+      "id": "long-390x844-normal",
+      "case": "long",
+      "width": 390,
+      "height": 844,
+      "mode": "normal",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-390x844-normal.json",
+      "viewportPng": "long-390x844-normal.png",
+      "fullPng": "long-390x844-normal-full.png"
+    },
+    {
+      "id": "normal-768x1024-normal",
+      "case": "normal",
+      "width": 768,
+      "height": 1024,
+      "mode": "normal",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-768x1024-normal.json",
+      "viewportPng": "normal-768x1024-normal.png",
+      "fullPng": "normal-768x1024-normal-full.png"
+    },
+    {
+      "id": "long-768x1024-normal",
+      "case": "long",
+      "width": 768,
+      "height": 1024,
+      "mode": "normal",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-768x1024-normal.json",
+      "viewportPng": "long-768x1024-normal.png",
+      "fullPng": "long-768x1024-normal-full.png"
+    },
+    {
+      "id": "normal-1024x768-normal",
+      "case": "normal",
+      "width": 1024,
+      "height": 768,
+      "mode": "normal",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-1024x768-normal.json",
+      "viewportPng": "normal-1024x768-normal.png",
+      "fullPng": "normal-1024x768-normal-full.png"
+    },
+    {
+      "id": "long-1024x768-normal",
+      "case": "long",
+      "width": 1024,
+      "height": 768,
+      "mode": "normal",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-1024x768-normal.json",
+      "viewportPng": "long-1024x768-normal.png",
+      "fullPng": "long-1024x768-normal-full.png"
+    },
+    {
+      "id": "normal-1440x960-normal",
+      "case": "normal",
+      "width": 1440,
+      "height": 960,
+      "mode": "normal",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-1440x960-normal.json",
+      "viewportPng": "normal-1440x960-normal.png",
+      "fullPng": "normal-1440x960-normal-full.png"
+    },
+    {
+      "id": "long-1440x960-normal",
+      "case": "long",
+      "width": 1440,
+      "height": 960,
+      "mode": "normal",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-1440x960-normal.json",
+      "viewportPng": "long-1440x960-normal.png",
+      "fullPng": "long-1440x960-normal-full.png"
+    },
+    {
+      "id": "normal-1920x1080-normal",
+      "case": "normal",
+      "width": 1920,
+      "height": 1080,
+      "mode": "normal",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-1920x1080-normal.json",
+      "viewportPng": "normal-1920x1080-normal.png",
+      "fullPng": "normal-1920x1080-normal-full.png"
+    },
+    {
+      "id": "long-1920x1080-normal",
+      "case": "long",
+      "width": 1920,
+      "height": 1080,
+      "mode": "normal",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-1920x1080-normal.json",
+      "viewportPng": "long-1920x1080-normal.png",
+      "fullPng": "long-1920x1080-normal-full.png"
+    },
+    {
+      "id": "normal-390x844-text200",
+      "case": "normal",
+      "width": 390,
+      "height": 844,
+      "mode": "text200",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-390x844-text200.json",
+      "viewportPng": "normal-390x844-text200.png",
+      "fullPng": "normal-390x844-text200-full.png"
+    },
+    {
+      "id": "long-390x844-text200",
+      "case": "long",
+      "width": 390,
+      "height": 844,
+      "mode": "text200",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-390x844-text200.json",
+      "viewportPng": "long-390x844-text200.png",
+      "fullPng": "long-390x844-text200-full.png"
+    },
+    {
+      "id": "normal-390x844-reduced",
+      "case": "normal",
+      "width": 390,
+      "height": 844,
+      "mode": "reduced",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-390x844-reduced.json",
+      "viewportPng": "normal-390x844-reduced.png",
+      "fullPng": "normal-390x844-reduced-full.png"
+    },
+    {
+      "id": "long-390x844-reduced",
+      "case": "long",
+      "width": 390,
+      "height": 844,
+      "mode": "reduced",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-390x844-reduced.json",
+      "viewportPng": "long-390x844-reduced.png",
+      "fullPng": "long-390x844-reduced-full.png"
+    },
+    {
+      "id": "normal-1440x960-text200",
+      "case": "normal",
+      "width": 1440,
+      "height": 960,
+      "mode": "text200",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-1440x960-text200.json",
+      "viewportPng": "normal-1440x960-text200.png",
+      "fullPng": "normal-1440x960-text200-full.png"
+    },
+    {
+      "id": "long-1440x960-text200",
+      "case": "long",
+      "width": 1440,
+      "height": 960,
+      "mode": "text200",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-1440x960-text200.json",
+      "viewportPng": "long-1440x960-text200.png",
+      "fullPng": "long-1440x960-text200-full.png"
+    },
+    {
+      "id": "normal-1440x960-reduced",
+      "case": "normal",
+      "width": 1440,
+      "height": 960,
+      "mode": "reduced",
+      "sourceHtmlSha256": "85ee338f1bdbee6537048954f8dcea50522df46f103e993158c24f856df1b93a",
+      "state": "normal-1440x960-reduced.json",
+      "viewportPng": "normal-1440x960-reduced.png",
+      "fullPng": "normal-1440x960-reduced-full.png"
+    },
+    {
+      "id": "long-1440x960-reduced",
+      "case": "long",
+      "width": 1440,
+      "height": 960,
+      "mode": "reduced",
+      "sourceHtmlSha256": "c1eef1242403880c4e07bca681eafb7a67e433d3a621fc952c643af0afc4e666",
+      "state": "long-1440x960-reduced.json",
+      "viewportPng": "long-1440x960-reduced.png",
+      "fullPng": "long-1440x960-reduced-full.png"
+    }
+  ],
+  "journeys": [
+    {
+      "id": "normal-390-keyboard",
+      "case": "normal",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        {
+          "index": 0,
+          "label": "Open test link",
+          "focused": {
+            "tag": "A",
+            "text": "Open test link",
+            "href": "#",
+            "rect": {
+              "x": 49,
+              "y": 298,
+              "width": 133.796875,
+              "height": 38,
+              "right": 182.796875,
+              "bottom": 336
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/normal#",
+            "heading": "china sourcing review v1 QA packet",
+            "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Open test link"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 1,
+          "label": "Approve",
+          "focused": {
+            "tag": "A",
+            "text": "Approve",
+            "href": "#",
+            "rect": {
+              "x": 195.25,
+              "y": 298,
+              "width": 92.90625,
+              "height": 38,
+              "right": 288.15625,
+              "bottom": 336
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/normal#",
+            "heading": "china sourcing review v1 QA packet",
+            "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Approve"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 2,
+          "label": "Needs fix",
+          "focused": {
+            "tag": "A",
+            "text": "Needs fix",
+            "href": "#",
+            "rect": {
+              "x": 49,
+              "y": 352,
+              "width": 99.140625,
+              "height": 38,
+              "right": 148.140625,
+              "bottom": 390
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/normal#",
+            "heading": "china sourcing review v1 QA packet",
+            "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Needs fix"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 3,
+          "label": "Magic resend after fix",
+          "focused": {
+            "tag": "A",
+            "text": "Magic resend after fix",
+            "href": "#",
+            "rect": {
+              "x": 49,
+              "y": 406,
+              "width": 192.5,
+              "height": 38,
+              "right": 241.5,
+              "bottom": 444
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/normal#",
+            "heading": "china sourcing review v1 QA packet",
+            "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Magic resend after fix"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        }
+      ]
+    },
+    {
+      "id": "long-390-keyboard",
+      "case": "long",
+      "width": 390,
+      "height": 844,
+      "actions": [
+        {
+          "index": 0,
+          "label": "Open test link",
+          "focused": {
+            "tag": "A",
+            "text": "Open test link",
+            "href": "#",
+            "rect": {
+              "x": 49,
+              "y": 597,
+              "width": 133.796875,
+              "height": 38,
+              "right": 182.796875,
+              "bottom": 635
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/long#",
+            "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+            "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Open test link"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 1,
+          "label": "Approve",
+          "focused": {
+            "tag": "A",
+            "text": "Approve",
+            "href": "#",
+            "rect": {
+              "x": 195.25,
+              "y": 597,
+              "width": 92.90625,
+              "height": 38,
+              "right": 288.15625,
+              "bottom": 635
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/long#",
+            "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+            "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Approve"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 2,
+          "label": "Needs fix",
+          "focused": {
+            "tag": "A",
+            "text": "Needs fix",
+            "href": "#",
+            "rect": {
+              "x": 49,
+              "y": 651,
+              "width": 99.140625,
+              "height": 38,
+              "right": 148.140625,
+              "bottom": 689
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/long#",
+            "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+            "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Needs fix"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 3,
+          "label": "Magic resend after fix",
+          "focused": {
+            "tag": "A",
+            "text": "Magic resend after fix",
+            "href": "#",
+            "rect": {
+              "x": 49,
+              "y": 705,
+              "width": 192.5,
+              "height": 38,
+              "right": 241.5,
+              "bottom": 743
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/long#",
+            "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+            "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Magic resend after fix"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        }
+      ]
+    },
+    {
+      "id": "normal-1440-keyboard",
+      "case": "normal",
+      "width": 1440,
+      "height": 960,
+      "actions": [
+        {
+          "index": 0,
+          "label": "Open test link",
+          "focused": {
+            "tag": "A",
+            "text": "Open test link",
+            "href": "#",
+            "rect": {
+              "x": 340,
+              "y": 192,
+              "width": 133.796875,
+              "height": 38,
+              "right": 473.796875,
+              "bottom": 230
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/normal#",
+            "heading": "china sourcing review v1 QA packet",
+            "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Open test link"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 1,
+          "label": "Approve",
+          "focused": {
+            "tag": "A",
+            "text": "Approve",
+            "href": "#",
+            "rect": {
+              "x": 486.25,
+              "y": 192,
+              "width": 92.90625,
+              "height": 38,
+              "right": 579.15625,
+              "bottom": 230
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/normal#",
+            "heading": "china sourcing review v1 QA packet",
+            "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Approve"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 2,
+          "label": "Needs fix",
+          "focused": {
+            "tag": "A",
+            "text": "Needs fix",
+            "href": "#",
+            "rect": {
+              "x": 591.609375,
+              "y": 192,
+              "width": 99.140625,
+              "height": 38,
+              "right": 690.75,
+              "bottom": 230
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/normal#",
+            "heading": "china sourcing review v1 QA packet",
+            "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Needs fix"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 3,
+          "label": "Magic resend after fix",
+          "focused": {
+            "tag": "A",
+            "text": "Magic resend after fix",
+            "href": "#",
+            "rect": {
+              "x": 703.203125,
+              "y": 192,
+              "width": 192.5,
+              "height": 38,
+              "right": 895.703125,
+              "bottom": 230
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/normal#",
+            "heading": "china sourcing review v1 QA packet",
+            "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Magic resend after fix"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        }
+      ]
+    },
+    {
+      "id": "long-1440-keyboard",
+      "case": "long",
+      "width": 1440,
+      "height": 960,
+      "actions": [
+        {
+          "index": 0,
+          "label": "Open test link",
+          "focused": {
+            "tag": "A",
+            "text": "Open test link",
+            "href": "#",
+            "rect": {
+              "x": 340,
+              "y": 315,
+              "width": 133.796875,
+              "height": 38,
+              "right": 473.796875,
+              "bottom": 353
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/long#",
+            "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+            "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Open test link"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 1,
+          "label": "Approve",
+          "focused": {
+            "tag": "A",
+            "text": "Approve",
+            "href": "#",
+            "rect": {
+              "x": 486.25,
+              "y": 315,
+              "width": 92.90625,
+              "height": 38,
+              "right": 579.15625,
+              "bottom": 353
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/long#",
+            "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+            "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Approve"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 2,
+          "label": "Needs fix",
+          "focused": {
+            "tag": "A",
+            "text": "Needs fix",
+            "href": "#",
+            "rect": {
+              "x": 591.609375,
+              "y": 315,
+              "width": 99.140625,
+              "height": 38,
+              "right": 690.75,
+              "bottom": 353
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/long#",
+            "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+            "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Needs fix"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        },
+        {
+          "index": 3,
+          "label": "Magic resend after fix",
+          "focused": {
+            "tag": "A",
+            "text": "Magic resend after fix",
+            "href": "#",
+            "rect": {
+              "x": 703.203125,
+              "y": 315,
+              "width": 192.5,
+              "height": 38,
+              "right": 895.703125,
+              "bottom": 353
+            },
+            "outline": "rgb(16, 16, 16) auto 1px",
+            "scrollY": 0
+          },
+          "activated": {
+            "url": "http://127.0.0.1:54370/long#",
+            "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+            "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+            "active": {
+              "tag": "A",
+              "text": "Magic resend after fix"
+            },
+            "scrollY": 0
+          },
+          "completedApprovalOrSend": false
+        }
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "path": "normal-320x800-normal.png",
+      "bytes": 39008,
+      "sha256": "dcaa73ab6767146b0ae460299f34a4421758e7b145c8900c548ede741efbcd95",
+      "width": 320,
+      "height": 800,
+      "fullPage": false
+    },
+    {
+      "path": "normal-320x800-normal-full.png",
+      "bytes": 54769,
+      "sha256": "4d98f6b4b182e8da7c4f708443d2addf165d03df11bf18bf67897d0e6af30835",
+      "width": 341,
+      "height": 1145,
+      "fullPage": true
+    },
+    {
+      "path": "long-320x800-normal.png",
+      "bytes": 48243,
+      "sha256": "1b7bddb2918e5d81b2d2cb13f950d07e6244d1b2885d36907a8fcb2b7a5759e9",
+      "width": 320,
+      "height": 800,
+      "fullPage": false
+    },
+    {
+      "path": "long-320x800-normal-full.png",
+      "bytes": 86804,
+      "sha256": "34e5d8afd4a6d358583fdf09cb38ea00e29decca82edd0cd7954927b5df2752e",
+      "width": 341,
+      "height": 1637,
+      "fullPage": true
+    },
+    {
+      "path": "normal-360x800-normal.png",
+      "bytes": 42100,
+      "sha256": "0e25520e692eb32e5b0db199345aeef8a1ae79fb9614742f94aa0d3403084c14",
+      "width": 360,
+      "height": 800,
+      "fullPage": false
+    },
+    {
+      "path": "normal-360x800-normal-full.png",
+      "bytes": 52955,
+      "sha256": "42544307704409e0c3f7afc6d3a9329846f09a1996135575eac7ced5d017eddf",
+      "width": 360,
+      "height": 1074,
+      "fullPage": true
+    },
+    {
+      "path": "long-360x800-normal.png",
+      "bytes": 50846,
+      "sha256": "5d5409f3263291776d557c40746cb755b1279c75b6c452030274e1da667641d0",
+      "width": 360,
+      "height": 800,
+      "fullPage": false
+    },
+    {
+      "path": "long-360x800-normal-full.png",
+      "bytes": 77229,
+      "sha256": "c0d7f1e25d4f3c1fae179cb20a89dd338c37ec6ddd6229460163a2853b98a5fc",
+      "width": 360,
+      "height": 1373,
+      "fullPage": true
+    },
+    {
+      "path": "normal-390x844-normal.png",
+      "bytes": 45628,
+      "sha256": "835bfe9fc3d4f36c7e2468c361ba4166af9d7416e654aa3f1d539357a80ab649",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390x844-normal-full.png",
+      "bytes": 53120,
+      "sha256": "17781ae270d3865839bee01bb11438eb5d5e6a152584f8f11dd66dee8d841c4b",
+      "width": 390,
+      "height": 1056,
+      "fullPage": true
+    },
+    {
+      "path": "long-390x844-normal.png",
+      "bytes": 51917,
+      "sha256": "66a7314597385b3ab391ccebde3c0026401ed9fb7864f6bb0b33a68bd6e930ef",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390x844-normal-full.png",
+      "bytes": 77516,
+      "sha256": "81a24157edfc76a4ffc34e28bdea7785f093ac38d86e09815b9d3d416748c598",
+      "width": 390,
+      "height": 1355,
+      "fullPage": true
+    },
+    {
+      "path": "normal-768x1024-normal.png",
+      "bytes": 52767,
+      "sha256": "ba3a03ded582055e62c4f3a0b7ccdc190468e5570877b1bfb816c801a08b5339",
+      "width": 768,
+      "height": 1024,
+      "fullPage": false
+    },
+    {
+      "path": "normal-768x1024-normal-full.png",
+      "bytes": 52767,
+      "sha256": "ba3a03ded582055e62c4f3a0b7ccdc190468e5570877b1bfb816c801a08b5339",
+      "width": 768,
+      "height": 1024,
+      "fullPage": true
+    },
+    {
+      "path": "long-768x1024-normal.png",
+      "bytes": 74082,
+      "sha256": "d2994f49c3a4c2fda4a2538e1f5bd5c5d76e30728007cbaa657b1114a9d588c5",
+      "width": 768,
+      "height": 1024,
+      "fullPage": false
+    },
+    {
+      "path": "long-768x1024-normal-full.png",
+      "bytes": 74082,
+      "sha256": "d2994f49c3a4c2fda4a2538e1f5bd5c5d76e30728007cbaa657b1114a9d588c5",
+      "width": 768,
+      "height": 1024,
+      "fullPage": true
+    },
+    {
+      "path": "normal-1024x768-normal.png",
+      "bytes": 53207,
+      "sha256": "448e786690b9cdae5add47abf0ba75edf30d9ea70c4ffa528bc7fbdf3cce622d",
+      "width": 1024,
+      "height": 768,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1024x768-normal-full.png",
+      "bytes": 53207,
+      "sha256": "448e786690b9cdae5add47abf0ba75edf30d9ea70c4ffa528bc7fbdf3cce622d",
+      "width": 1024,
+      "height": 768,
+      "fullPage": true
+    },
+    {
+      "path": "long-1024x768-normal.png",
+      "bytes": 74445,
+      "sha256": "a11b29e0acabe99b5d9bb13afb3a1295bfe09fdd93f626e78ebeed3c301cb1e3",
+      "width": 1024,
+      "height": 768,
+      "fullPage": false
+    },
+    {
+      "path": "long-1024x768-normal-full.png",
+      "bytes": 75242,
+      "sha256": "b5d3cd2fd9a1433a82c351bfe5703c9bcd3a005ef624557af824a0bc52d2ee01",
+      "width": 1024,
+      "height": 811,
+      "fullPage": true
+    },
+    {
+      "path": "normal-1440x960-normal.png",
+      "bytes": 56624,
+      "sha256": "250141962f70d3f19546504f4b8cdb9891c8419dec496a536479c8763e018b9b",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440x960-normal-full.png",
+      "bytes": 56624,
+      "sha256": "250141962f70d3f19546504f4b8cdb9891c8419dec496a536479c8763e018b9b",
+      "width": 1440,
+      "height": 960,
+      "fullPage": true
+    },
+    {
+      "path": "long-1440x960-normal.png",
+      "bytes": 79145,
+      "sha256": "ad544b3bcb49ceed5ac3b068ae183a71aa6ef11d9031945a1a1b8a8e4d79c7c6",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440x960-normal-full.png",
+      "bytes": 79145,
+      "sha256": "ad544b3bcb49ceed5ac3b068ae183a71aa6ef11d9031945a1a1b8a8e4d79c7c6",
+      "width": 1440,
+      "height": 960,
+      "fullPage": true
+    },
+    {
+      "path": "normal-1920x1080-normal.png",
+      "bytes": 59691,
+      "sha256": "63ffb76ed6747f377fd296bb9c917709a2b882d30691fc390d8dfad4b8355586",
+      "width": 1920,
+      "height": 1080,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1920x1080-normal-full.png",
+      "bytes": 59691,
+      "sha256": "63ffb76ed6747f377fd296bb9c917709a2b882d30691fc390d8dfad4b8355586",
+      "width": 1920,
+      "height": 1080,
+      "fullPage": true
+    },
+    {
+      "path": "long-1920x1080-normal.png",
+      "bytes": 81990,
+      "sha256": "ad83a55b5e527fec672f546071784e66b728619271c1e7ee28fb58b446a5dffd",
+      "width": 1920,
+      "height": 1080,
+      "fullPage": false
+    },
+    {
+      "path": "long-1920x1080-normal-full.png",
+      "bytes": 81990,
+      "sha256": "ad83a55b5e527fec672f546071784e66b728619271c1e7ee28fb58b446a5dffd",
+      "width": 1920,
+      "height": 1080,
+      "fullPage": true
+    },
+    {
+      "path": "normal-390x844-text200.png",
+      "bytes": 51465,
+      "sha256": "1b2824e0f02d536e3693c6d27182d0eca6af3b307f8eb37e534214b0742c0a24",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390x844-text200-full.png",
+      "bytes": 182917,
+      "sha256": "52222c0a125e578aa837d0b90aa95d7d61b014b7e2703d8bfd6a90949feb90dd",
+      "width": 563,
+      "height": 2697,
+      "fullPage": true
+    },
+    {
+      "path": "long-390x844-text200.png",
+      "bytes": 58147,
+      "sha256": "e08fd71f6131805698fedb006cb20cc13ec6ef2b2de56a3f0e5c5af9eeb7e379",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390x844-text200-full.png",
+      "bytes": 268242,
+      "sha256": "6517dd5742edc56aaa8e198a633ab43fb854c4d0f8ff9025be8213c91ed5ec24",
+      "width": 563,
+      "height": 3735,
+      "fullPage": true
+    },
+    {
+      "path": "normal-390x844-reduced.png",
+      "bytes": 45628,
+      "sha256": "835bfe9fc3d4f36c7e2468c361ba4166af9d7416e654aa3f1d539357a80ab649",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390x844-reduced-full.png",
+      "bytes": 53120,
+      "sha256": "17781ae270d3865839bee01bb11438eb5d5e6a152584f8f11dd66dee8d841c4b",
+      "width": 390,
+      "height": 1056,
+      "fullPage": true
+    },
+    {
+      "path": "long-390x844-reduced.png",
+      "bytes": 51917,
+      "sha256": "66a7314597385b3ab391ccebde3c0026401ed9fb7864f6bb0b33a68bd6e930ef",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390x844-reduced-full.png",
+      "bytes": 77516,
+      "sha256": "81a24157edfc76a4ffc34e28bdea7785f093ac38d86e09815b9d3d416748c598",
+      "width": 390,
+      "height": 1355,
+      "fullPage": true
+    },
+    {
+      "path": "normal-1440x960-text200.png",
+      "bytes": 108854,
+      "sha256": "6f1adf19f3d7256256120c0e9cc2e2ff1d7d06359148dd8f830a51e27fe07d10",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440x960-text200-full.png",
+      "bytes": 165932,
+      "sha256": "b66231b118e545e3b12377a0a5177877cc92fabb4a7ac2155e7deedf3e91f7b0",
+      "width": 1440,
+      "height": 1485,
+      "fullPage": true
+    },
+    {
+      "path": "long-1440x960-text200.png",
+      "bytes": 135847,
+      "sha256": "9210f96e31edbd9fe881b43acc2955ab27e87cec15fe708f85559724b58e278a",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440x960-text200-full.png",
+      "bytes": 236346,
+      "sha256": "0e93895629cee41c8600c21cebec6fb9357306ed9d9dbb21c273fdb81576845e",
+      "width": 1440,
+      "height": 1831,
+      "fullPage": true
+    },
+    {
+      "path": "normal-1440x960-reduced.png",
+      "bytes": 56624,
+      "sha256": "250141962f70d3f19546504f4b8cdb9891c8419dec496a536479c8763e018b9b",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440x960-reduced-full.png",
+      "bytes": 56624,
+      "sha256": "250141962f70d3f19546504f4b8cdb9891c8419dec496a536479c8763e018b9b",
+      "width": 1440,
+      "height": 960,
+      "fullPage": true
+    },
+    {
+      "path": "long-1440x960-reduced.png",
+      "bytes": 79145,
+      "sha256": "ad544b3bcb49ceed5ac3b068ae183a71aa6ef11d9031945a1a1b8a8e4d79c7c6",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440x960-reduced-full.png",
+      "bytes": 79145,
+      "sha256": "ad544b3bcb49ceed5ac3b068ae183a71aa6ef11d9031945a1a1b8a8e4d79c7c6",
+      "width": 1440,
+      "height": 960,
+      "fullPage": true
+    },
+    {
+      "path": "normal-390-keyboard-0-focus.png",
+      "bytes": 46953,
+      "sha256": "797aed487a0b38fe9e2224bbe4a5c97e8c2afbc4f5ab1952241bc8d1e1a0a5bc",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390-keyboard-0-activation.png",
+      "bytes": 46953,
+      "sha256": "797aed487a0b38fe9e2224bbe4a5c97e8c2afbc4f5ab1952241bc8d1e1a0a5bc",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390-keyboard-1-focus.png",
+      "bytes": 46942,
+      "sha256": "0d5d0ff3642c787ef229ec84224c90426ed0335a442b60a93742e14d9009df66",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390-keyboard-1-activation.png",
+      "bytes": 46942,
+      "sha256": "0d5d0ff3642c787ef229ec84224c90426ed0335a442b60a93742e14d9009df66",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390-keyboard-2-focus.png",
+      "bytes": 46708,
+      "sha256": "004eb6e1e6c587ff6950cc37a5ab45c6e6818b44f4e396bd672dc7a09c31defc",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390-keyboard-2-activation.png",
+      "bytes": 46708,
+      "sha256": "004eb6e1e6c587ff6950cc37a5ab45c6e6818b44f4e396bd672dc7a09c31defc",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390-keyboard-3-focus.png",
+      "bytes": 46640,
+      "sha256": "5265b629ced39f1076f04065c6f1ae4f6b10d152532b86e495597faafeacb2bc",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-390-keyboard-3-activation.png",
+      "bytes": 46640,
+      "sha256": "5265b629ced39f1076f04065c6f1ae4f6b10d152532b86e495597faafeacb2bc",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390-keyboard-0-focus.png",
+      "bytes": 53265,
+      "sha256": "8fd5c7f37bd15260234dd8e1a567485e8b28cac2796fff437aa7efdf736ebd19",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390-keyboard-0-activation.png",
+      "bytes": 53265,
+      "sha256": "8fd5c7f37bd15260234dd8e1a567485e8b28cac2796fff437aa7efdf736ebd19",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390-keyboard-1-focus.png",
+      "bytes": 53255,
+      "sha256": "8d9db653d052d9d96f61598176fa1edeaae9a9cbd0825ef23e77692dc11c8f2a",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390-keyboard-1-activation.png",
+      "bytes": 53255,
+      "sha256": "8d9db653d052d9d96f61598176fa1edeaae9a9cbd0825ef23e77692dc11c8f2a",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390-keyboard-2-focus.png",
+      "bytes": 53004,
+      "sha256": "9695b4e3daafed1d617efee698233f11792cc7b8bb632b93b6fe9bf05e0266fe",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390-keyboard-2-activation.png",
+      "bytes": 53004,
+      "sha256": "9695b4e3daafed1d617efee698233f11792cc7b8bb632b93b6fe9bf05e0266fe",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390-keyboard-3-focus.png",
+      "bytes": 52905,
+      "sha256": "24523f498b914d54897c1575a78f95e2c5f8c75efb3dc636702321946c3ba436",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "long-390-keyboard-3-activation.png",
+      "bytes": 52905,
+      "sha256": "24523f498b914d54897c1575a78f95e2c5f8c75efb3dc636702321946c3ba436",
+      "width": 390,
+      "height": 844,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440-keyboard-0-focus.png",
+      "bytes": 58330,
+      "sha256": "48d01b3f294f49d00408e8eaf4e7b0f3186045b6c8e25a249da838046f341379",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440-keyboard-0-activation.png",
+      "bytes": 58330,
+      "sha256": "48d01b3f294f49d00408e8eaf4e7b0f3186045b6c8e25a249da838046f341379",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440-keyboard-1-focus.png",
+      "bytes": 58335,
+      "sha256": "38efd25f37487fbf930865a0016b93f4ba497e101f207691fe65b371f830c06f",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440-keyboard-1-activation.png",
+      "bytes": 58335,
+      "sha256": "38efd25f37487fbf930865a0016b93f4ba497e101f207691fe65b371f830c06f",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440-keyboard-2-focus.png",
+      "bytes": 58330,
+      "sha256": "c6e615ac839e1bfa7903c204519c2d42219e1aecf8696c08dd921eb8122efa1a",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440-keyboard-2-activation.png",
+      "bytes": 58330,
+      "sha256": "c6e615ac839e1bfa7903c204519c2d42219e1aecf8696c08dd921eb8122efa1a",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440-keyboard-3-focus.png",
+      "bytes": 58266,
+      "sha256": "de9a517c88d35fce5ad0c0766956da5564f75a9e6bf5b3eba82e694b21d3d941",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "normal-1440-keyboard-3-activation.png",
+      "bytes": 58266,
+      "sha256": "de9a517c88d35fce5ad0c0766956da5564f75a9e6bf5b3eba82e694b21d3d941",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440-keyboard-0-focus.png",
+      "bytes": 80722,
+      "sha256": "8a4a9fcfd20d3932d5a73af02d55dff9e46979104c3c40a398c400cedf723436",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440-keyboard-0-activation.png",
+      "bytes": 80722,
+      "sha256": "8a4a9fcfd20d3932d5a73af02d55dff9e46979104c3c40a398c400cedf723436",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440-keyboard-1-focus.png",
+      "bytes": 80734,
+      "sha256": "ec558c491b01e8b4181ffef8a41be6de16df2555d86892cdbdfc71747113db88",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440-keyboard-1-activation.png",
+      "bytes": 80734,
+      "sha256": "ec558c491b01e8b4181ffef8a41be6de16df2555d86892cdbdfc71747113db88",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440-keyboard-2-focus.png",
+      "bytes": 80725,
+      "sha256": "731f2b8761bc2a169ad287f8e27896483ec06d8b8d7a94f068f3ed0987a6acb0",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440-keyboard-2-activation.png",
+      "bytes": 80725,
+      "sha256": "731f2b8761bc2a169ad287f8e27896483ec06d8b8d7a94f068f3ed0987a6acb0",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440-keyboard-3-focus.png",
+      "bytes": 80665,
+      "sha256": "37f12546e85a9314ac019e0b768b61c504943ae1afe586c7768f35a047bccc39",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    },
+    {
+      "path": "long-1440-keyboard-3-activation.png",
+      "bytes": 80665,
+      "sha256": "37f12546e85a9314ac019e0b768b61c504943ae1afe586c7768f35a047bccc39",
+      "width": 1440,
+      "height": 960,
+      "fullPage": false
+    }
+  ],
+  "states": [
+    {
+      "id": "normal-320x800-normal",
+      "path": "normal-320x800-normal.json",
+      "dom": "normal-320x800-normal.dom.html.txt"
+    },
+    {
+      "id": "long-320x800-normal",
+      "path": "long-320x800-normal.json",
+      "dom": "long-320x800-normal.dom.html.txt"
+    },
+    {
+      "id": "normal-360x800-normal",
+      "path": "normal-360x800-normal.json",
+      "dom": "normal-360x800-normal.dom.html.txt"
+    },
+    {
+      "id": "long-360x800-normal",
+      "path": "long-360x800-normal.json",
+      "dom": "long-360x800-normal.dom.html.txt"
+    },
+    {
+      "id": "normal-390x844-normal",
+      "path": "normal-390x844-normal.json",
+      "dom": "normal-390x844-normal.dom.html.txt"
+    },
+    {
+      "id": "long-390x844-normal",
+      "path": "long-390x844-normal.json",
+      "dom": "long-390x844-normal.dom.html.txt"
+    },
+    {
+      "id": "normal-768x1024-normal",
+      "path": "normal-768x1024-normal.json",
+      "dom": "normal-768x1024-normal.dom.html.txt"
+    },
+    {
+      "id": "long-768x1024-normal",
+      "path": "long-768x1024-normal.json",
+      "dom": "long-768x1024-normal.dom.html.txt"
+    },
+    {
+      "id": "normal-1024x768-normal",
+      "path": "normal-1024x768-normal.json",
+      "dom": "normal-1024x768-normal.dom.html.txt"
+    },
+    {
+      "id": "long-1024x768-normal",
+      "path": "long-1024x768-normal.json",
+      "dom": "long-1024x768-normal.dom.html.txt"
+    },
+    {
+      "id": "normal-1440x960-normal",
+      "path": "normal-1440x960-normal.json",
+      "dom": "normal-1440x960-normal.dom.html.txt"
+    },
+    {
+      "id": "long-1440x960-normal",
+      "path": "long-1440x960-normal.json",
+      "dom": "long-1440x960-normal.dom.html.txt"
+    },
+    {
+      "id": "normal-1920x1080-normal",
+      "path": "normal-1920x1080-normal.json",
+      "dom": "normal-1920x1080-normal.dom.html.txt"
+    },
+    {
+      "id": "long-1920x1080-normal",
+      "path": "long-1920x1080-normal.json",
+      "dom": "long-1920x1080-normal.dom.html.txt"
+    },
+    {
+      "id": "normal-390x844-text200",
+      "path": "normal-390x844-text200.json",
+      "dom": "normal-390x844-text200.dom.html.txt"
+    },
+    {
+      "id": "long-390x844-text200",
+      "path": "long-390x844-text200.json",
+      "dom": "long-390x844-text200.dom.html.txt"
+    },
+    {
+      "id": "normal-390x844-reduced",
+      "path": "normal-390x844-reduced.json",
+      "dom": "normal-390x844-reduced.dom.html.txt"
+    },
+    {
+      "id": "long-390x844-reduced",
+      "path": "long-390x844-reduced.json",
+      "dom": "long-390x844-reduced.dom.html.txt"
+    },
+    {
+      "id": "normal-1440x960-text200",
+      "path": "normal-1440x960-text200.json",
+      "dom": "normal-1440x960-text200.dom.html.txt"
+    },
+    {
+      "id": "long-1440x960-text200",
+      "path": "long-1440x960-text200.json",
+      "dom": "long-1440x960-text200.dom.html.txt"
+    },
+    {
+      "id": "normal-1440x960-reduced",
+      "path": "normal-1440x960-reduced.json",
+      "dom": "normal-1440x960-reduced.dom.html.txt"
+    },
+    {
+      "id": "long-1440x960-reduced",
+      "path": "long-1440x960-reduced.json",
+      "dom": "long-1440x960-reduced.dom.html.txt"
+    }
+  ],
+  "checks": [
+    {
+      "name": "normal-320x800-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-320x800-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-320x800-normal: document remains within viewport",
+      "pass": false,
+      "actual": {
+        "viewport": 320,
+        "document": 341
+      }
+    },
+    {
+      "name": "normal-320x800-normal: visible content boxes remain within viewport",
+      "pass": false,
+      "actual": [
+        {
+          "tag": "TABLE",
+          "className": "",
+          "text": "\n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      ",
+          "rect": {
+            "x": 49,
+            "y": 934.4375,
+            "width": 292.140625,
+            "height": 162,
+            "right": 341.140625,
+            "bottom": 1096.4375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "THEAD",
+          "className": "",
+          "text": "\n          \n            Component\n            Proof\n            Correction prompt\n          \n        ",
+          "rect": {
+            "x": 49,
+            "y": 934.9375,
+            "width": 292.140625,
+            "height": 51,
+            "right": 341.140625,
+            "bottom": 985.9375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "TR",
+          "className": "",
+          "text": "\n            Component\n            Proof\n            Correction prompt\n          ",
+          "rect": {
+            "x": 49,
+            "y": 934.9375,
+            "width": 292.140625,
+            "height": 51,
+            "right": 341.140625,
+            "bottom": 985.9375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "TH",
+          "className": "",
+          "text": "Correction prompt",
+          "rect": {
+            "x": 252.484375,
+            "y": 934.9375,
+            "width": 88.65625,
+            "height": 51,
+            "right": 341.140625,
+            "bottom": 985.9375,
+            "scrollWidth": 89,
+            "clientWidth": 89
+          }
+        },
+        {
+          "tag": "TBODY",
+          "className": "",
+          "text": "\n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        ",
+          "rect": {
+            "x": 49,
+            "y": 985.9375,
+            "width": 292.140625,
+            "height": 110.5,
+            "right": 341.140625,
+            "bottom": 1096.4375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "TR",
+          "className": "",
+          "text": "\n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          ",
+          "rect": {
+            "x": 49,
+            "y": 985.9375,
+            "width": 292.140625,
+            "height": 110.5,
+            "right": 341.140625,
+            "bottom": 1096.4375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "TD",
+          "className": "",
+          "text": "Attach a component-scoped fix prompt if the snippet fails.",
+          "rect": {
+            "x": 252.484375,
+            "y": 985.9375,
+            "width": 88.65625,
+            "height": 110.5,
+            "right": 341.140625,
+            "bottom": 1096.4375,
+            "scrollWidth": 89,
+            "clientWidth": 89
+          }
+        }
+      ]
+    },
+    {
+      "name": "normal-320x800-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-320x800-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-320x800-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-320x800-normal: document remains within viewport",
+      "pass": false,
+      "actual": {
+        "viewport": 320,
+        "document": 341
+      }
+    },
+    {
+      "name": "long-320x800-normal: visible content boxes remain within viewport",
+      "pass": false,
+      "actual": [
+        {
+          "tag": "TABLE",
+          "className": "",
+          "text": "\n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      ",
+          "rect": {
+            "x": 49,
+            "y": 1426.4375,
+            "width": 292.140625,
+            "height": 162,
+            "right": 341.140625,
+            "bottom": 1588.4375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "THEAD",
+          "className": "",
+          "text": "\n          \n            Component\n            Proof\n            Correction prompt\n          \n        ",
+          "rect": {
+            "x": 49,
+            "y": 1426.9375,
+            "width": 292.140625,
+            "height": 51,
+            "right": 341.140625,
+            "bottom": 1477.9375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "TR",
+          "className": "",
+          "text": "\n            Component\n            Proof\n            Correction prompt\n          ",
+          "rect": {
+            "x": 49,
+            "y": 1426.9375,
+            "width": 292.140625,
+            "height": 51,
+            "right": 341.140625,
+            "bottom": 1477.9375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "TH",
+          "className": "",
+          "text": "Correction prompt",
+          "rect": {
+            "x": 252.484375,
+            "y": 1426.9375,
+            "width": 88.65625,
+            "height": 51,
+            "right": 341.140625,
+            "bottom": 1477.9375,
+            "scrollWidth": 89,
+            "clientWidth": 89
+          }
+        },
+        {
+          "tag": "TBODY",
+          "className": "",
+          "text": "\n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        ",
+          "rect": {
+            "x": 49,
+            "y": 1477.9375,
+            "width": 292.140625,
+            "height": 110.5,
+            "right": 341.140625,
+            "bottom": 1588.4375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "TR",
+          "className": "",
+          "text": "\n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          ",
+          "rect": {
+            "x": 49,
+            "y": 1477.9375,
+            "width": 292.140625,
+            "height": 110.5,
+            "right": 341.140625,
+            "bottom": 1588.4375,
+            "scrollWidth": 292,
+            "clientWidth": 292
+          }
+        },
+        {
+          "tag": "TD",
+          "className": "",
+          "text": "Attach a component-scoped fix prompt if the snippet fails.",
+          "rect": {
+            "x": 252.484375,
+            "y": 1477.9375,
+            "width": 88.65625,
+            "height": 110.5,
+            "right": 341.140625,
+            "bottom": 1588.4375,
+            "scrollWidth": 89,
+            "clientWidth": 89
+          }
+        }
+      ]
+    },
+    {
+      "name": "long-320x800-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-360x800-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-360x800-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-360x800-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 360,
+        "document": 360
+      }
+    },
+    {
+      "name": "normal-360x800-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-360x800-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-360x800-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-360x800-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-360x800-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 360,
+        "document": 360
+      }
+    },
+    {
+      "name": "long-360x800-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-360x800-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-390x844-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "name": "normal-390x844-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-390x844-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-390x844-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "name": "long-390x844-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-390x844-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-768x1024-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-768x1024-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-768x1024-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "document": 768
+      }
+    },
+    {
+      "name": "normal-768x1024-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-768x1024-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-768x1024-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-768x1024-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-768x1024-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "document": 768
+      }
+    },
+    {
+      "name": "long-768x1024-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-768x1024-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-1024x768-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1024x768-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1024x768-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1024,
+        "document": 1024
+      }
+    },
+    {
+      "name": "normal-1024x768-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-1024x768-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-1024x768-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1024x768-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1024x768-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1024,
+        "document": 1024
+      }
+    },
+    {
+      "name": "long-1024x768-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-1024x768-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-1440x960-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "normal-1440x960-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-1440x960-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-1440x960-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "long-1440x960-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-1440x960-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-1920x1080-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1920x1080-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1920x1080-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1920,
+        "document": 1920
+      }
+    },
+    {
+      "name": "normal-1920x1080-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-1920x1080-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-1920x1080-normal: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1920x1080-normal: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1920x1080-normal: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1920,
+        "document": 1920
+      }
+    },
+    {
+      "name": "long-1920x1080-normal: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-1920x1080-normal: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-390x844-text200: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-text200: exact whole computed 2x vector",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-text200: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-text200: document remains within viewport",
+      "pass": false,
+      "actual": {
+        "viewport": 390,
+        "document": 563
+      }
+    },
+    {
+      "name": "normal-390x844-text200: visible content boxes remain within viewport",
+      "pass": false,
+      "actual": [
+        {
+          "tag": "TABLE",
+          "className": "",
+          "text": "\n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      ",
+          "rect": {
+            "x": 49,
+            "y": 2357.96875,
+            "width": 514.265625,
+            "height": 290,
+            "right": 563.265625,
+            "bottom": 2647.96875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "THEAD",
+          "className": "",
+          "text": "\n          \n            Component\n            Proof\n            Correction prompt\n          \n        ",
+          "rect": {
+            "x": 49,
+            "y": 2358.46875,
+            "width": 514.265625,
+            "height": 83,
+            "right": 563.265625,
+            "bottom": 2441.46875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "TR",
+          "className": "",
+          "text": "\n            Component\n            Proof\n            Correction prompt\n          ",
+          "rect": {
+            "x": 49,
+            "y": 2358.46875,
+            "width": 514.265625,
+            "height": 83,
+            "right": 563.265625,
+            "bottom": 2441.46875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "TH",
+          "className": "",
+          "text": "Proof",
+          "rect": {
+            "x": 293.4375,
+            "y": 2358.46875,
+            "width": 112.53125,
+            "height": 83,
+            "right": 405.96875,
+            "bottom": 2441.46875,
+            "scrollWidth": 113,
+            "clientWidth": 113
+          }
+        },
+        {
+          "tag": "TH",
+          "className": "",
+          "text": "Correction prompt",
+          "rect": {
+            "x": 405.96875,
+            "y": 2358.46875,
+            "width": 157.296875,
+            "height": 83,
+            "right": 563.265625,
+            "bottom": 2441.46875,
+            "scrollWidth": 157,
+            "clientWidth": 157
+          }
+        },
+        {
+          "tag": "TBODY",
+          "className": "",
+          "text": "\n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        ",
+          "rect": {
+            "x": 49,
+            "y": 2441.46875,
+            "width": 514.265625,
+            "height": 206.5,
+            "right": 563.265625,
+            "bottom": 2647.96875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "TR",
+          "className": "",
+          "text": "\n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          ",
+          "rect": {
+            "x": 49,
+            "y": 2441.46875,
+            "width": 514.265625,
+            "height": 206.5,
+            "right": 563.265625,
+            "bottom": 2647.96875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "TD",
+          "className": "",
+          "text": "before / after / diff pending",
+          "rect": {
+            "x": 293.4375,
+            "y": 2441.46875,
+            "width": 112.53125,
+            "height": 206.5,
+            "right": 405.96875,
+            "bottom": 2647.96875,
+            "scrollWidth": 113,
+            "clientWidth": 113
+          }
+        },
+        {
+          "tag": "TD",
+          "className": "",
+          "text": "Attach a component-scoped fix prompt if the snippet fails.",
+          "rect": {
+            "x": 405.96875,
+            "y": 2441.46875,
+            "width": 157.296875,
+            "height": 206.5,
+            "right": 563.265625,
+            "bottom": 2647.96875,
+            "scrollWidth": 157,
+            "clientWidth": 157
+          }
+        }
+      ]
+    },
+    {
+      "name": "normal-390x844-text200: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-390x844-text200: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-text200: exact whole computed 2x vector",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-text200: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-text200: document remains within viewport",
+      "pass": false,
+      "actual": {
+        "viewport": 390,
+        "document": 563
+      }
+    },
+    {
+      "name": "long-390x844-text200: visible content boxes remain within viewport",
+      "pass": false,
+      "actual": [
+        {
+          "tag": "TABLE",
+          "className": "",
+          "text": "\n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      ",
+          "rect": {
+            "x": 49,
+            "y": 3395.96875,
+            "width": 514.265625,
+            "height": 290,
+            "right": 563.265625,
+            "bottom": 3685.96875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "THEAD",
+          "className": "",
+          "text": "\n          \n            Component\n            Proof\n            Correction prompt\n          \n        ",
+          "rect": {
+            "x": 49,
+            "y": 3396.46875,
+            "width": 514.265625,
+            "height": 83,
+            "right": 563.265625,
+            "bottom": 3479.46875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "TR",
+          "className": "",
+          "text": "\n            Component\n            Proof\n            Correction prompt\n          ",
+          "rect": {
+            "x": 49,
+            "y": 3396.46875,
+            "width": 514.265625,
+            "height": 83,
+            "right": 563.265625,
+            "bottom": 3479.46875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "TH",
+          "className": "",
+          "text": "Proof",
+          "rect": {
+            "x": 293.4375,
+            "y": 3396.46875,
+            "width": 112.53125,
+            "height": 83,
+            "right": 405.96875,
+            "bottom": 3479.46875,
+            "scrollWidth": 113,
+            "clientWidth": 113
+          }
+        },
+        {
+          "tag": "TH",
+          "className": "",
+          "text": "Correction prompt",
+          "rect": {
+            "x": 405.96875,
+            "y": 3396.46875,
+            "width": 157.296875,
+            "height": 83,
+            "right": 563.265625,
+            "bottom": 3479.46875,
+            "scrollWidth": 157,
+            "clientWidth": 157
+          }
+        },
+        {
+          "tag": "TBODY",
+          "className": "",
+          "text": "\n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        ",
+          "rect": {
+            "x": 49,
+            "y": 3479.46875,
+            "width": 514.265625,
+            "height": 206.5,
+            "right": 563.265625,
+            "bottom": 3685.96875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "TR",
+          "className": "",
+          "text": "\n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          ",
+          "rect": {
+            "x": 49,
+            "y": 3479.46875,
+            "width": 514.265625,
+            "height": 206.5,
+            "right": 563.265625,
+            "bottom": 3685.96875,
+            "scrollWidth": 514,
+            "clientWidth": 514
+          }
+        },
+        {
+          "tag": "TD",
+          "className": "",
+          "text": "before / after / diff pending",
+          "rect": {
+            "x": 293.4375,
+            "y": 3479.46875,
+            "width": 112.53125,
+            "height": 206.5,
+            "right": 405.96875,
+            "bottom": 3685.96875,
+            "scrollWidth": 113,
+            "clientWidth": 113
+          }
+        },
+        {
+          "tag": "TD",
+          "className": "",
+          "text": "Attach a component-scoped fix prompt if the snippet fails.",
+          "rect": {
+            "x": 405.96875,
+            "y": 3479.46875,
+            "width": 157.296875,
+            "height": 206.5,
+            "right": 563.265625,
+            "bottom": 3685.96875,
+            "scrollWidth": 157,
+            "clientWidth": 157
+          }
+        }
+      ]
+    },
+    {
+      "name": "long-390x844-text200: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-390x844-reduced: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-reduced: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390x844-reduced: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "name": "normal-390x844-reduced: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-390x844-reduced: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-390x844-reduced: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-reduced: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390x844-reduced: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "document": 390
+      }
+    },
+    {
+      "name": "long-390x844-reduced: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-390x844-reduced: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-1440x960-text200: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-text200: exact whole computed 2x vector",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-text200: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-text200: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "normal-1440x960-text200: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-1440x960-text200: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-1440x960-text200: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-text200: exact whole computed 2x vector",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-text200: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-text200: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "long-1440x960-text200: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-1440x960-text200: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-1440x960-reduced: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-reduced: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440x960-reduced: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "normal-1440x960-reduced: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "normal-1440x960-reduced: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "long-1440x960-reduced: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-reduced: actual generated feature/title and four links present",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440x960-reduced: document remains within viewport",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "document": 1440
+      }
+    },
+    {
+      "name": "long-1440x960-reduced: visible content boxes remain within viewport",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "long-1440x960-reduced: visible actions have configured nonplaceholder destinations",
+      "pass": false,
+      "actual": {
+        "links": [
+          {
+            "text": "Open test link",
+            "href": "#"
+          },
+          {
+            "text": "Approve",
+            "href": "#"
+          },
+          {
+            "text": "Needs fix",
+            "href": "#"
+          },
+          {
+            "text": "Magic resend after fix",
+            "href": "#"
+          }
+        ],
+        "classification": "Scaffold capability observation, not an inferred requirement to send anything: fragment navigation is not approval, feedback delivery or resend."
+      }
+    },
+    {
+      "name": "normal-390-keyboard: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-390-keyboard-0: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Open test link",
+        "href": "#",
+        "rect": {
+          "x": 49,
+          "y": 298,
+          "width": 133.796875,
+          "height": 38,
+          "right": 182.796875,
+          "bottom": 336
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "normal-390-keyboard-0: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 49,
+        "y": 298,
+        "width": 133.796875,
+        "height": 38,
+        "right": 182.796875,
+        "bottom": 336
+      }
+    },
+    {
+      "name": "normal-390-keyboard-0: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/normal",
+        "urlAfter": "http://127.0.0.1:54370/normal#",
+        "requestsBefore": 23,
+        "requestsAfter": 23,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "normal-390-keyboard-1: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Approve",
+        "href": "#",
+        "rect": {
+          "x": 195.25,
+          "y": 298,
+          "width": 92.90625,
+          "height": 38,
+          "right": 288.15625,
+          "bottom": 336
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "normal-390-keyboard-1: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 195.25,
+        "y": 298,
+        "width": 92.90625,
+        "height": 38,
+        "right": 288.15625,
+        "bottom": 336
+      }
+    },
+    {
+      "name": "normal-390-keyboard-1: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/normal#",
+        "urlAfter": "http://127.0.0.1:54370/normal#",
+        "requestsBefore": 23,
+        "requestsAfter": 23,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "normal-390-keyboard-2: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Needs fix",
+        "href": "#",
+        "rect": {
+          "x": 49,
+          "y": 352,
+          "width": 99.140625,
+          "height": 38,
+          "right": 148.140625,
+          "bottom": 390
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "normal-390-keyboard-2: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 49,
+        "y": 352,
+        "width": 99.140625,
+        "height": 38,
+        "right": 148.140625,
+        "bottom": 390
+      }
+    },
+    {
+      "name": "normal-390-keyboard-2: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/normal#",
+        "urlAfter": "http://127.0.0.1:54370/normal#",
+        "requestsBefore": 23,
+        "requestsAfter": 23,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "normal-390-keyboard-3: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Magic resend after fix",
+        "href": "#",
+        "rect": {
+          "x": 49,
+          "y": 406,
+          "width": 192.5,
+          "height": 38,
+          "right": 241.5,
+          "bottom": 444
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "normal-390-keyboard-3: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 49,
+        "y": 406,
+        "width": 192.5,
+        "height": 38,
+        "right": 241.5,
+        "bottom": 444
+      }
+    },
+    {
+      "name": "normal-390-keyboard-3: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/normal#",
+        "urlAfter": "http://127.0.0.1:54370/normal#",
+        "requestsBefore": 23,
+        "requestsAfter": 23,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "long-390-keyboard: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-390-keyboard-0: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Open test link",
+        "href": "#",
+        "rect": {
+          "x": 49,
+          "y": 597,
+          "width": 133.796875,
+          "height": 38,
+          "right": 182.796875,
+          "bottom": 635
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "long-390-keyboard-0: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 49,
+        "y": 597,
+        "width": 133.796875,
+        "height": 38,
+        "right": 182.796875,
+        "bottom": 635
+      }
+    },
+    {
+      "name": "long-390-keyboard-0: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/long",
+        "urlAfter": "http://127.0.0.1:54370/long#",
+        "requestsBefore": 24,
+        "requestsAfter": 24,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "long-390-keyboard-1: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Approve",
+        "href": "#",
+        "rect": {
+          "x": 195.25,
+          "y": 597,
+          "width": 92.90625,
+          "height": 38,
+          "right": 288.15625,
+          "bottom": 635
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "long-390-keyboard-1: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 195.25,
+        "y": 597,
+        "width": 92.90625,
+        "height": 38,
+        "right": 288.15625,
+        "bottom": 635
+      }
+    },
+    {
+      "name": "long-390-keyboard-1: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/long#",
+        "urlAfter": "http://127.0.0.1:54370/long#",
+        "requestsBefore": 24,
+        "requestsAfter": 24,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "long-390-keyboard-2: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Needs fix",
+        "href": "#",
+        "rect": {
+          "x": 49,
+          "y": 651,
+          "width": 99.140625,
+          "height": 38,
+          "right": 148.140625,
+          "bottom": 689
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "long-390-keyboard-2: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 49,
+        "y": 651,
+        "width": 99.140625,
+        "height": 38,
+        "right": 148.140625,
+        "bottom": 689
+      }
+    },
+    {
+      "name": "long-390-keyboard-2: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/long#",
+        "urlAfter": "http://127.0.0.1:54370/long#",
+        "requestsBefore": 24,
+        "requestsAfter": 24,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "long-390-keyboard-3: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Magic resend after fix",
+        "href": "#",
+        "rect": {
+          "x": 49,
+          "y": 705,
+          "width": 192.5,
+          "height": 38,
+          "right": 241.5,
+          "bottom": 743
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "long-390-keyboard-3: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 49,
+        "y": 705,
+        "width": 192.5,
+        "height": 38,
+        "right": 241.5,
+        "bottom": 743
+      }
+    },
+    {
+      "name": "long-390-keyboard-3: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/long#",
+        "urlAfter": "http://127.0.0.1:54370/long#",
+        "requestsBefore": 24,
+        "requestsAfter": 24,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "normal-1440-keyboard: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "normal-1440-keyboard-0: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Open test link",
+        "href": "#",
+        "rect": {
+          "x": 340,
+          "y": 192,
+          "width": 133.796875,
+          "height": 38,
+          "right": 473.796875,
+          "bottom": 230
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-0: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 340,
+        "y": 192,
+        "width": 133.796875,
+        "height": 38,
+        "right": 473.796875,
+        "bottom": 230
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-0: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/normal",
+        "urlAfter": "http://127.0.0.1:54370/normal#",
+        "requestsBefore": 25,
+        "requestsAfter": 25,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-1: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Approve",
+        "href": "#",
+        "rect": {
+          "x": 486.25,
+          "y": 192,
+          "width": 92.90625,
+          "height": 38,
+          "right": 579.15625,
+          "bottom": 230
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-1: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 486.25,
+        "y": 192,
+        "width": 92.90625,
+        "height": 38,
+        "right": 579.15625,
+        "bottom": 230
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-1: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/normal#",
+        "urlAfter": "http://127.0.0.1:54370/normal#",
+        "requestsBefore": 25,
+        "requestsAfter": 25,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-2: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Needs fix",
+        "href": "#",
+        "rect": {
+          "x": 591.609375,
+          "y": 192,
+          "width": 99.140625,
+          "height": 38,
+          "right": 690.75,
+          "bottom": 230
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-2: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 591.609375,
+        "y": 192,
+        "width": 99.140625,
+        "height": 38,
+        "right": 690.75,
+        "bottom": 230
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-2: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/normal#",
+        "urlAfter": "http://127.0.0.1:54370/normal#",
+        "requestsBefore": 25,
+        "requestsAfter": 25,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-3: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Magic resend after fix",
+        "href": "#",
+        "rect": {
+          "x": 703.203125,
+          "y": 192,
+          "width": 192.5,
+          "height": 38,
+          "right": 895.703125,
+          "bottom": 230
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-3: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 703.203125,
+        "y": 192,
+        "width": 192.5,
+        "height": 38,
+        "right": 895.703125,
+        "bottom": 230
+      }
+    },
+    {
+      "name": "normal-1440-keyboard-3: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/normal#",
+        "urlAfter": "http://127.0.0.1:54370/normal#",
+        "requestsBefore": 25,
+        "requestsAfter": 25,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "long-1440-keyboard: exact original HTTP body",
+      "pass": true,
+      "actual": null
+    },
+    {
+      "name": "long-1440-keyboard-0: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Open test link",
+        "href": "#",
+        "rect": {
+          "x": 340,
+          "y": 315,
+          "width": 133.796875,
+          "height": 38,
+          "right": 473.796875,
+          "bottom": 353
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "long-1440-keyboard-0: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 340,
+        "y": 315,
+        "width": 133.796875,
+        "height": 38,
+        "right": 473.796875,
+        "bottom": 353
+      }
+    },
+    {
+      "name": "long-1440-keyboard-0: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/long",
+        "urlAfter": "http://127.0.0.1:54370/long#",
+        "requestsBefore": 26,
+        "requestsAfter": 26,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "long-1440-keyboard-1: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Approve",
+        "href": "#",
+        "rect": {
+          "x": 486.25,
+          "y": 315,
+          "width": 92.90625,
+          "height": 38,
+          "right": 579.15625,
+          "bottom": 353
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "long-1440-keyboard-1: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 486.25,
+        "y": 315,
+        "width": 92.90625,
+        "height": 38,
+        "right": 579.15625,
+        "bottom": 353
+      }
+    },
+    {
+      "name": "long-1440-keyboard-1: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/long#",
+        "urlAfter": "http://127.0.0.1:54370/long#",
+        "requestsBefore": 26,
+        "requestsAfter": 26,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "long-1440-keyboard-2: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Needs fix",
+        "href": "#",
+        "rect": {
+          "x": 591.609375,
+          "y": 315,
+          "width": 99.140625,
+          "height": 38,
+          "right": 690.75,
+          "bottom": 353
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "long-1440-keyboard-2: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 591.609375,
+        "y": 315,
+        "width": 99.140625,
+        "height": 38,
+        "right": 690.75,
+        "bottom": 353
+      }
+    },
+    {
+      "name": "long-1440-keyboard-2: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/long#",
+        "urlAfter": "http://127.0.0.1:54370/long#",
+        "requestsBefore": 26,
+        "requestsAfter": 26,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "long-1440-keyboard-3: native Tab reaches expected link",
+      "pass": true,
+      "actual": {
+        "tag": "A",
+        "text": "Magic resend after fix",
+        "href": "#",
+        "rect": {
+          "x": 703.203125,
+          "y": 315,
+          "width": 192.5,
+          "height": 38,
+          "right": 895.703125,
+          "bottom": 353
+        },
+        "outline": "rgb(16, 16, 16) auto 1px",
+        "scrollY": 0
+      }
+    },
+    {
+      "name": "long-1440-keyboard-3: focused link lies inside viewport",
+      "pass": true,
+      "actual": {
+        "x": 703.203125,
+        "y": 315,
+        "width": 192.5,
+        "height": 38,
+        "right": 895.703125,
+        "bottom": 353
+      }
+    },
+    {
+      "name": "long-1440-keyboard-3: native # activation has no document/request side effect",
+      "pass": true,
+      "actual": {
+        "urlBefore": "http://127.0.0.1:54370/long#",
+        "urlAfter": "http://127.0.0.1:54370/long#",
+        "requestsBefore": 26,
+        "requestsAfter": 26,
+        "domUnchanged": true
+      }
+    },
+    {
+      "name": "Complete planned cells/journeys/captures",
+      "pass": true,
+      "actual": {
+        "cells": 22,
+        "journeys": 4,
+        "captures": 76
+      }
+    }
+  ],
+  "events": [],
+  "requests": [
+    {
+      "cell": "normal-320x800-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-320x800-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-360x800-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-360x800-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-390x844-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-390x844-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-768x1024-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-768x1024-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-1024x768-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-1024x768-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-1440x960-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-1440x960-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-1920x1080-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-1920x1080-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-390x844-text200",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-390x844-text200",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-390x844-reduced",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-390x844-reduced",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-1440x960-text200",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-1440x960-text200",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-1440x960-reduced",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-1440x960-reduced",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-390-keyboard",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-390-keyboard",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-1440-keyboard",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-1440-keyboard",
+      "method": "GET",
+      "url": "/long"
+    }
+  ],
+  "closure": {
+    "contextClosed": true,
+    "browserClosed": true,
+    "serverClosed": true
+  },
+  "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "tree": "122c105f044af5cb65a018195be353a93a71e69e",
+  "fixtureMode": "Actual local installed CLI scaffolds; exact saved buffers served unchanged.",
+  "limitations": [
+    "Browser rendering is not Gmail-client rendering or email delivery.",
+    "All four existing links are # placeholders; no approval, feedback or resend was completed.",
+    "Computed 2x text is not native zoom or physical-device evidence. Reduced motion captures are static observations.",
+    "No product source/generated-input edits, CLI generation, dependency installs, model/provider or external network action."
+  ],
+  "fullGrades": null
+}

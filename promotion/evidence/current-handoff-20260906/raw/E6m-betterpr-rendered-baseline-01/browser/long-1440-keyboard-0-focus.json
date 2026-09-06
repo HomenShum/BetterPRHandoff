@@ -1,0 +1,15 @@
+{
+  "tag": "A",
+  "text": "Open test link",
+  "href": "#",
+  "rect": {
+    "x": 340,
+    "y": 315,
+    "width": 133.796875,
+    "height": 38,
+    "right": 473.796875,
+    "bottom": 353
+  },
+  "outline": "rgb(16, 16, 16) auto 1px",
+  "scrollY": 0
+}

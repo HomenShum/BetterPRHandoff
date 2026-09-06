@@ -1,0 +1,86 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import http from 'node:http';
+import crypto from 'node:crypto';
+import {createRequire} from 'node:module';
+const C=JSON.parse(fs.readFileSync(process.argv[2],'utf8')),O=C.output;
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');
+const write=(name,value)=>fs.writeFileSync(path.join(O,name),typeof value==='string'?value:JSON.stringify(value,null,2)+'\n',{flag:'wx'});
+const required=(condition,message)=>{if(!condition)throw Error(message)};
+const checks=[],errors=[],events=[],requests=[],cells=[],scrolled=[],journeys=[],captures=[];
+function record(name,pass,actual=null){required(checks.length<1600,'Check count bound');checks.push({name,pass:!!pass,actual})}
+function error(value){if(errors.length<40)errors.push(value);else throw Error('Error count bound')}
+function guard(){required(C.bindings.length<=512,'Binding count bound');return C.bindings.map(r=>{const size=fs.statSync(r.path).size;required(size===r.bytes&&size<=16*1024*1024,`Bound file size: ${r.path}`);const hash=crypto.createHash('sha256'),fd=fs.openSync(r.path,'r'),buffer=Buffer.alloc(1024*1024);try{let n;while((n=fs.readSync(fd,buffer,0,buffer.length,null))>0)hash.update(buffer.subarray(0,n))}finally{fs.closeSync(fd)}required(hash.digest('hex')===r.sha256,`Frozen bytes changed: ${r.path}`);return r})}
+const require=createRequire(C.playwrightRequireFrom),{chromium}=require('playwright');
+const labels=['Open test link','Approve','Needs fix','Magic resend after fix'];
+const instruction='Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.';
+const buffers=new Map(C.html.map(r=>{const b=fs.readFileSync(r.path);required(b.length<2*1024*1024&&sha(b)===r.sha256,'Exact new installed-CLI HTML');return ['/'+r.case,{row:r,bytes:b}]}));
+required(buffers.size===2&&buffers.has('/normal')&&buffers.has('/long'),'Two exact cases');
+const paint=page=>page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));
+let server,browser,context,page,current='setup',runtime,closure={contextClosed:false,browserClosed:false,serverClosed:false},fatal=null;
+async function snapshot(){return page.evaluate(()=>{
+ const all=[...document.body.querySelectorAll('*')];if(all.length>1000)throw Error('DOM bound');
+ const rect=el=>{const r=el.getBoundingClientRect();return {x:r.x,y:r.y,right:r.right,bottom:r.bottom,width:r.width,height:r.height,scrollWidth:el.scrollWidth,clientWidth:el.clientWidth}};
+ const style=el=>{const s=getComputedStyle(el);return {fontSize:s.fontSize,fontFamily:s.fontFamily,fontWeight:s.fontWeight,color:s.color,backgroundColor:s.backgroundColor,padding:s.padding,margin:s.margin,border:s.border,borderRadius:s.borderRadius,overflowX:s.overflowX,textOverflow:s.textOverflow,whiteSpace:s.whiteSpace,tableLayout:s.tableLayout,overflowWrap:s.overflowWrap}};
+ const card=document.querySelector('.card'),cr=rect(card),cs=getComputedStyle(card),inner={left:cr.x+parseFloat(cs.borderLeftWidth)+parseFloat(cs.paddingLeft),right:cr.right-parseFloat(cs.borderRightWidth)-parseFloat(cs.paddingRight)};
+ const selectors='main,p,h1,h2,li,strong,th,td,code';const targets=[...document.querySelectorAll(selectors)].map(el=>({tag:el.tagName,text:el.textContent,className:el.className,rect:rect(el),style:style(el)}));
+ const table=document.querySelector('table'),ranges=[];const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node;
+ while(node=walker.nextNode()){if(!node.textContent.trim()||node.parentElement.closest('style,script'))continue;const r=document.createRange();r.selectNodeContents(node);for(const b of r.getClientRects()){if(ranges.length>=2000)throw Error('Text rect bound');ranges.push({parent:node.parentElement.tagName,text:node.textContent,table:!!node.parentElement.closest('table'),left:b.left,right:b.right,top:b.top,bottom:b.bottom})}}
+ const slotRoot=document.querySelector('.unconfigured-actions'),slots=slotRoot?[...slotRoot.children].map(el=>({tag:el.tagName,text:el.textContent,label:el.querySelector('strong')?.textContent,rect:rect(el),attributes:[...el.attributes].map(a=>[a.name,a.value]),descendants:[...el.querySelectorAll('*')].map(x=>({tag:x.tagName,attributes:[...x.attributes].map(a=>[a.name,a.value])}))})):[];
+ const interactive=[...document.querySelectorAll('a[href],button,input,select,textarea,[tabindex],[role="button"],[role="link"],[contenteditable="true"]')].map(el=>({tag:el.tagName,text:el.textContent,attributes:[...el.attributes].map(a=>[a.name,a.value])}));
+ const handlers=all.flatMap(el=>[...el.attributes].filter(a=>/^on/i.test(a.name)).map(a=>({tag:el.tagName,name:a.name})));
+ return {url:location.href,viewport:{width:innerWidth,height:innerHeight},scroll:{x:scrollX,y:scrollY},document:{width:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight},heading:document.querySelector('h1').textContent,featureId:document.querySelector('.card>p code').textContent,bodyText:document.body.innerText,card:{rect:cr,style:style(card),inner},bodyStyle:style(document.body),targets,table:{rect:rect(table),style:style(table)},slots,interactive,handlers,scripts:document.scripts.length,textRects:ranges,active:{tag:document.activeElement.tagName,text:document.activeElement===document.body?'':document.activeElement.textContent,insideSlot:!!document.activeElement.closest?.('.unconfigured-actions')},reduced:matchMedia('(prefers-reduced-motion: reduce)').matches};
+ });}
+async function saveState(id){const s=await snapshot();write(id+'.json',s);write(id+'.dom.html.txt',await page.content());return s}
+async function shot(id,fullPage=false){required(captures.length<90,'Capture count bound');const b=await page.screenshot({fullPage,timeout:10000});required(b.length<8*1024*1024&&b.subarray(1,4).toString()==='PNG','PNG bound');const name=id+'.png';fs.writeFileSync(path.join(O,name),b,{flag:'wx'});captures.push({path:name,sha256:sha(b),bytes:b.length,width:b.readUInt32BE(16),height:b.readUInt32BE(20),fullPage,scope:fullPage?'Illustrative only; prior viewport PNG proves requested size':'Exact requested viewport'});return name}
+async function load(which,width,height,mode='normal'){
+ await page.setViewportSize({width,height});await page.emulateMedia({reducedMotion:mode==='reduced'?'reduce':'no-preference'});
+ const response=await page.goto(runtime.base+'/'+which,{waitUntil:'load',timeout:15000});required(response.status()===200&&sha(await response.body())===buffers.get('/'+which).row.sha256,'New original HTTP bytes');await paint(page);
+ if(mode==='text200'){const before=await page.evaluate(()=>{const els=[document.body,...document.body.querySelectorAll('*')],sizes=els.map(el=>parseFloat(getComputedStyle(el).fontSize));els.forEach((el,i)=>el.style.fontSize=`${sizes[i]*2}px`);return sizes});await paint(page);const after=await page.evaluate(()=>[document.body,...document.body.querySelectorAll('*')].map(el=>parseFloat(getComputedStyle(el).fontSize)));write(current+'-font-vector.json',{before,after});required(before.length===after.length&&before.every((n,i)=>Math.abs(n*2-after[i])<.02),'Exact whole computed font vector');}
+}
+function assertState(id,which,s,before=null){
+ const row=buffers.get('/'+which).row;
+ record(id+': exact original feature and title',s.featureId===row.featureId&&s.heading===row.featureId.replaceAll('-',' ')+' QA packet');
+ record(id+': four truthful noninteractive unavailable slots',s.slots.length===4&&s.slots.every((v,i)=>v.tag==='LI'&&v.label===labels[i]&&v.text===labels[i]+': Not configured')&&s.interactive.length===0&&s.handlers.length===0&&s.scripts===0,{slots:s.slots.map(x=>({text:x.text,attributes:x.attributes,descendants:x.descendants})),interactive:s.interactive,handlers:s.handlers,scripts:s.scripts});
+ record(id+': explicit unavailable instructions',s.bodyText.includes(instruction)&&s.bodyText.includes('before / after / diff pending'));
+ record(id+': no horizontal document overflow',s.document.width<=s.viewport.width,{document:s.document.width,viewport:s.viewport.width});
+ record(id+': table within card content',s.table.rect.x>=s.card.inner.left-.6&&s.table.rect.right<=s.card.inner.right+.6,{table:s.table.rect,content:s.card.inner});
+ const textOutliers=s.textRects.filter(x=>x.left<s.card.inner.left-.6||x.right>s.card.inner.right+.6);
+ record(id+': complete text within card content',textOutliers.length===0,textOutliers);
+ record(id+': actual fixed layout without hiding',s.table.style.tableLayout==='fixed'&&s.table.style.overflowX!=='hidden'&&s.targets.filter(x=>['TH','TD','CODE'].includes(x.tag)).every(x=>x.style.overflowWrap==='anywhere'&&x.style.textOverflow!=='ellipsis'));
+ if(before){
+  const approvedOldAction=x=>x.tag==='A'&&x.href==='#'&&x.className==='button'&&labels.includes(x.text);
+  required(before.targets.filter(approvedOldAction).length===4,'Exactly four approved old action exclusions');
+  const excluded=x=>x.tag==='MAIN'||approvedOldAction(x)||(x.tag==='P'&&x.text.includes('Open test link')&&x.text.includes('Magic resend after fix'));
+  const protectedTargets=before.targets.filter(x=>!excluded(x));
+  const missing=protectedTargets.filter(x=>!s.targets.some(y=>y.tag===x.tag&&y.text===x.text));
+  const changed=protectedTargets.flatMap(x=>{const y=s.targets.find(y=>y.tag===x.tag&&y.text===x.text);return y&&x.contrast&&(y.style.fontSize!==x.contrast.fontSize||y.style.fontWeight!==x.contrast.fontWeight||y.style.color!==x.contrast.color)?[{tag:x.tag,text:x.text,before:x.contrast,after:y.style}]:[]});
+  record(id+': exact protected text and inherited typography',missing.length===0&&changed.length===0,{missing,changed});
+  const bc=before.targets.find(x=>x.tag==='MAIN').rect;
+  record(id+': protected card x and width',Math.abs(s.card.rect.x-bc.x)<.6&&Math.abs(s.card.rect.width-bc.width)<.6,{before:bc,after:s.card.rect});
+ }
+}
+try{
+ write('input-entry.json',guard());
+ server=http.createServer((req,res)=>{if(requests.length>=64){error('Request count bound');res.writeHead(429);res.end();return}requests.push({cell:current,method:req.method,url:req.url});const payload=buffers.get(req.url);if(req.method!=='GET'||!payload){error('Unexpected request');res.writeHead(404);res.end();return}res.writeHead(200,{'content-type':'text/html; charset=utf-8','cache-control':'no-store'});res.end(payload.bytes)});
+ await new Promise((resolve,reject)=>{server.once('error',reject);server.listen(0,'127.0.0.1',resolve)});const listen=server.address();
+ browser=await chromium.launch({headless:true,executablePath:C.browserExecutable});runtime={at:new Date().toISOString(),pid:process.pid,listen,base:`http://127.0.0.1:${listen.port}`,browserVersion:browser.version(),playwright:require('playwright/package.json').version,source:C.source,tree:C.tree,sourceDescription:C.sourceDescription,fixtureMode:'Actual updated installed-CLI generated bytes, never edited by observer'};write('runtime.json',runtime);
+ context=await browser.newContext({viewport:{width:320,height:800},colorScheme:'light',serviceWorkers:'block'});
+ await context.route('**/*',async route=>{const u=new URL(route.request().url());if(u.origin!==runtime.base||!buffers.has(u.pathname)){error('Blocked unexpected network URL');await route.abort();return}await route.continue()});
+ page=await context.newPage();page.on('pageerror',e=>error(String(e)));page.on('console',m=>{if(m.type()==='error')error(m.text());else if(events.length<40)events.push({type:m.type(),text:m.text()})});page.on('requestfailed',r=>error(r.failure()?.errorText||'Request failure'));
+ const matrix=[[390,844,'text200'],[1440,960,'normal'],[320,800,'normal']].flatMap(([width,height,mode])=>['normal','long'].map(which=>({width,height,mode,which})));
+ for(const v of matrix){current=`${v.which}-${v.width}x${v.height}-${v.mode}`;await load(v.which,v.width,v.height,v.mode);const s=await saveState(current);const before=JSON.parse(fs.readFileSync(path.join(C.beforeDirectory,current+'.json'),'utf8'));assertState(current,v.which,s,before);const viewport=await shot(current),fullPage=await shot(current+'-full',true);cells.push({...v,id:current,viewport,fullPage});}
+ for(const [width,height,mode] of [[390,844,'text200']])for(const which of ['normal','long']){
+  current=`${which}-${width}x${height}-${mode}-table-scrolled`;await load(which,width,height,mode);await page.evaluate(()=>scrollTo(0,Math.max(0,scrollY+document.querySelector('table').getBoundingClientRect().top-120)));await paint(page);const s=await saveState(current);assertState(current,which,s);const png=await shot(current);scrolled.push({id:current,width,height,mode,which,png});
+ }
+ required(cells.length===6&&scrolled.length===2&&journeys.length===0&&captures.length===14,'Required 6 final matrix cells,2 scrolled cells,0 new native journeys,14 PNGs');
+ required(errors.length===0,'No browser/network errors');
+}catch(e){fatal=String(e.stack||e);try{if(page){write('failure.dom.html.txt',await page.content());await shot('failure')}}catch(extra){error(String(extra))}}
+finally{
+ try{if(context){await context.close();closure.contextClosed=true}}catch(e){error(String(e))}
+ try{if(browser){await browser.close();closure.browserClosed=true}}catch(e){error(String(e))}
+ try{if(server){await new Promise((resolve,reject)=>server.close(e=>e?reject(e):resolve()));closure.serverClosed=true}}catch(e){error(String(e))}
+ try{write('input-exit.json',guard())}catch(e){error(String(e))}
+ const status=fatal||errors.length||!Object.values(closure).every(Boolean)?'HARNESS_FAILED':checks.some(x=>!x.pass)?'COMPLETED_WITH_FINDINGS':'PASS';
+ write('report.json',{status,fatal,errors,events,checks,cells,scrolled,journeys,captures,requests,closure,source:C.source,tree:C.tree,sourceDescription:C.sourceDescription,limitations:['Full-page PNGs illustrative only; exact viewport PNG precedes each.','Computed text doubling is not native zoom/physical-device proof.','No real configured actions exist or were invented; plain unavailable text is the expected state. Native interactions are historical from the unchanged-action intermediate source; this bounded H1 run does not replay or claim them as new.','No Gmail delivery, email, approval backend, provider,performance or full-product certification.'],fullGrades:null});process.exitCode=status==='PASS'?0:1;
+}

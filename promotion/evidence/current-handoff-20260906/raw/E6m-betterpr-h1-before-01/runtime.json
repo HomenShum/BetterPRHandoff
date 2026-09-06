@@ -1,0 +1,12 @@
+{
+  "pid": 41968,
+  "listen": {
+    "address": "127.0.0.1",
+    "family": "IPv4",
+    "port": 59736
+  },
+  "browserVersion": "149.0.7827.55",
+  "playwright": "1.61.1",
+  "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "sourceScope": "All 133 current source/input/tool/receipt bindings held for this one heading boundary."
+}

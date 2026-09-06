@@ -1,0 +1,153 @@
+{
+  "status": "APPROVED_SCOPED_HTML_REPAIR",
+  "at": "2026-09-06T03:20:17.052353+00:00",
+  "reviewer": "Product nonauthor; author of external recorders and judgment. Reused reviewer context.",
+  "sourceGuard": "CLOSED",
+  "source": {
+    "baseHead": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+    "baseTree": "122c105f044af5cb65a018195be353a93a71e69e",
+    "actualSnapshot": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\source-before.json",
+      "bytes": 12964,
+      "sha256": "bf54a97b1f6c31a1cdca0a5a2395aeff6faf7691b042a72d8e5df0fdd63c3f48"
+    },
+    "description": "HEAD/tree are unchanged base provenance. Actual source is the final 67-file heading-consumer snapshot and exact19-file tarball; only H1 wrap differs from intermediate, including four H1 CRLF-to-LF newline changes. Final eight CLI outputs are unedited. Historical native interactions are rebound through unchanged action source, not claimed as freshly executed.",
+    "template": {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\gmail-magic-resend.html",
+      "bytes": 3541,
+      "sha256": "f23bff53132de5579329fae9598046e42580a023e1fa8ebd1954328c65017f0e"
+    }
+  },
+  "actualResult": {
+    "status": "PASS",
+    "checks": 68,
+    "passed": 68,
+    "matrixCells": 6,
+    "scrolledCells": 2,
+    "pngs": 14,
+    "viewedExactViewportPngs": 4,
+    "newNativeJourneys": 0,
+    "seconds": 2.703,
+    "browserVersion": "149.0.7827.55",
+    "ownedProcessesClosed": 9,
+    "requests": [
+      {
+        "cell": "normal-390x844-text200",
+        "method": "GET",
+        "url": "/normal"
+      },
+      {
+        "cell": "long-390x844-text200",
+        "method": "GET",
+        "url": "/long"
+      },
+      {
+        "cell": "normal-1440x960-normal",
+        "method": "GET",
+        "url": "/normal"
+      },
+      {
+        "cell": "long-1440x960-normal",
+        "method": "GET",
+        "url": "/long"
+      },
+      {
+        "cell": "normal-320x800-normal",
+        "method": "GET",
+        "url": "/normal"
+      },
+      {
+        "cell": "long-320x800-normal",
+        "method": "GET",
+        "url": "/long"
+      },
+      {
+        "cell": "normal-390x844-text200-table-scrolled",
+        "method": "GET",
+        "url": "/normal"
+      },
+      {
+        "cell": "long-390x844-text200-table-scrolled",
+        "method": "GET",
+        "url": "/long"
+      }
+    ]
+  },
+  "accepted": [
+    "The actual long 390x844 computed-double-font heading wraps completely inside the original card; all eight final states have no document or text-range horizontal overflow.",
+    "Both actual scrolled 390px doubled-text tables remain within the card content, preserve every evidence/correction token, and use no clipping or hidden-overflow workaround.",
+    "All six matched original comparisons preserve non-action text, inherited font size/weight/color and card horizontal geometry. The comparator excludes only the four approved original # anchors plus their aggregate action paragraph.",
+    "The four unavailable slots remain plain truthful text with exact instructions. Their actual intermediate native Tab/Enter/pointer/Space observations are rebound through unchanged action bytes, not claimed as repeated here.",
+    "One H1 declaration is the only semantic change from the intermediate template. Four H1 newlines changed CRLF to LF; outside-H1 raw bytes, six non-HTML companions and 18 other tar members are exact."
+  ],
+  "remainingObservations": [
+    "Long machine-style titles still dominate phone reading before instructions; wrapping fixes containment, not density.",
+    "At doubled text the three fixed table columns split words over many lines, making scanning difficult even though all text is preserved and contained.",
+    "Generated review/approval/email actions remain intentionally unconfigured. CLI scaffolding does not execute those services."
+  ],
+  "historicalEvidence": {
+    "originalBaselineJudge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_RENDERED_BASELINE_JUDGE.json",
+      "bytes": 9334,
+      "sha256": "09250d063cc5f872e582916503952a84ba9af7b6abc432d25376b75992e5d902"
+    },
+    "intermediateJudge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HTML_AFTER_INTERMEDIATE_JUDGE.json",
+      "bytes": 6043,
+      "sha256": "840da1239da9f67c406e09622280ffe24e48d289813c65c08bb6dd6e85e09935"
+    },
+    "headingBoundary": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_H1_BOUNDARY_ADDENDUM.json",
+      "bytes": 2122,
+      "sha256": "75590701e736ea07402ecb191effa50802fafa18742fccc585292d4cba2d23c9"
+    },
+    "equivalence": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-inputs-01\\source-package-input-equivalence.json",
+      "bytes": 1847,
+      "sha256": "6f6a89e87527ebcab4d3a99a723eb037fa14849ee464af3de99793f642fb520a"
+    }
+  },
+  "preservedFailure": "Original intermediate 250/276 report remains exact; separate offline comparator correction yields 272/276 with four real title overflow checks still failed for that intermediate source. This final source has a separate 68/68 run.",
+  "bindings": {
+    "config": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\config.json",
+      "bytes": 47555,
+      "sha256": "5c907d6c3141a618c917e3e3c5191a2a02ba7a38604d5705ec9be61133110430"
+    },
+    "rawManifest": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\manifest.json",
+      "bytes": 16606,
+      "sha256": "10b28e5065b806cf9c9b78ecd5ee0b2f729528f523569944fd94bb2efa018257"
+    },
+    "rawReport": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\report.json",
+      "bytes": 35622,
+      "sha256": "865d27f6c78833d6e745a02711e4daf848fd5d3e8646ce0e4560184ee4946249"
+    },
+    "controller": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\controller-report.json",
+      "bytes": 1208,
+      "sha256": "3210b3f37fb3098f796641acb265f2cc45e9beaf524dc25811fbf2e5b0bd41c4"
+    },
+    "closingGuard": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-judge-01\\closing-guard.json",
+      "bytes": 49469,
+      "sha256": "2aed32937643e2771741d80e7b018d608a9a785a9093404392d6e6f4cc4a7e93"
+    },
+    "viewedPixels": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-judge-01\\viewed-pixels.json",
+      "bytes": 1167,
+      "sha256": "e703f3f904049defe707059866a788821e05dcc4654c03a66ee5a9837adfce56"
+    }
+  },
+  "limits": [
+    "Actual installed local HTML in Chromium 149.0.7827.55; no Gmail rendering/delivery, configured approval/email, provider, deployment or whole-product certification.",
+    "Computed all-element font doubling is not native browser zoom or a physical-device test.",
+    "Six full-page images are illustrative; four explicitly listed viewport PNGs were viewed for this judgment.",
+    "Normal package installation preserves 18 member files exactly and converts only the bin hashbang CRLF to LF; this expected transform is not raw source identity.",
+    "No full matrix or native interaction replay was added for the H1-only amendment."
+  ],
+  "fullDimensions": null,
+  "overallScore": null,
+  "fullGrades": null
+}

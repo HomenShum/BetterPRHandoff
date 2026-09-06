@@ -1,0 +1,1207 @@
+{
+  "url": "http://127.0.0.1:53601/long",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "document": {
+    "width": 390,
+    "height": 4419
+  },
+  "bodyText": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link: Not configured\nApprove: Not configured\nNeeds fix: Not configured\nMagic resend after fix: Not configured\n\nActions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+  "nodes": [
+    {
+      "tag": "BODY",
+      "text": "\n    \n      china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n      china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n      Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n      \n        Open test link: Not configured\n        Approve: Not configured\n        Needs fix: Not configured\n        Magic resend after fix: Not configured\n      \n      Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.\n      What changed for end users\n      Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n      Workflow lanes\n      \n        New or empty user state\n        Returning user state\n        Main happy path\n        Comment/edit correction\n        Mobile state\n      \n      Snapshot snippets\n      \n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      \n    \n  \n\n",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 4418.96875,
+        "width": 390,
+        "height": 4418.96875
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgb(251, 247, 239)",
+        "padding": "24px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "MAIN",
+      "text": "\n      china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n      china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n      Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n      \n        Open test link: Not configured\n        Approve: Not configured\n        Needs fix: Not configured\n        Magic resend after fix: Not configured\n      \n      Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.\n      What changed for end users\n      Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n      Workflow lanes\n      \n        New or empty user state\n        Returning user state\n        Main happy path\n        Comment/edit correction\n        Mobile state\n      \n      Snapshot snippets\n      \n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      \n    ",
+      "attributes": [
+        [
+          "class",
+          "card"
+        ],
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 24,
+        "y": 24,
+        "right": 366,
+        "bottom": 4394.96875,
+        "width": 342,
+        "height": 4370.96875
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgb(255, 250, 243)",
+        "padding": "24px",
+        "margin": "0px",
+        "border": "1px solid rgb(231, 216, 202)",
+        "borderRadius": "18px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 81,
+        "right": 341,
+        "bottom": 377,
+        "width": 292,
+        "height": 296
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "CODE",
+      "text": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1",
+      "attributes": [
+        [
+          "style",
+          "font-size: 26px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 84,
+        "right": 334.90625,
+        "bottom": 378,
+        "width": 285.90625,
+        "height": 294
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontWeight": "400",
+        "fontFamily": "monospace",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgb(241, 230, 220)",
+        "padding": "2px 5px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "6px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "H1",
+      "text": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+      "attributes": [
+        [
+          "style",
+          "font-size: 60px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 409,
+        "right": 341,
+        "bottom": 1633,
+        "width": 292,
+        "height": 1224
+      },
+      "style": {
+        "fontSize": "60px",
+        "fontWeight": "700",
+        "fontFamily": "Georgia, serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px 0px 8px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 1665,
+        "right": 341,
+        "bottom": 1887,
+        "width": 292,
+        "height": 222
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "UL",
+      "text": "\n        Open test link: Not configured\n        Approve: Not configured\n        Needs fix: Not configured\n        Magic resend after fix: Not configured\n      ",
+      "attributes": [
+        [
+          "class",
+          "unconfigured-actions"
+        ],
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 1919,
+        "right": 341,
+        "bottom": 2276,
+        "width": 292,
+        "height": 357
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px 0px 0px 20px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Open test link: Not configured",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 69,
+        "y": 1919,
+        "right": 341,
+        "bottom": 1993,
+        "width": 272,
+        "height": 74
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "8px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "STRONG",
+      "text": "Open test link",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 69,
+        "y": 1919,
+        "right": 280.59375,
+        "bottom": 1955,
+        "width": 211.59375,
+        "height": 36
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Approve: Not configured",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 69,
+        "y": 2001,
+        "right": 341,
+        "bottom": 2075,
+        "width": 272,
+        "height": 74
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "8px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "STRONG",
+      "text": "Approve",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 69,
+        "y": 2001,
+        "right": 198.796875,
+        "bottom": 2037,
+        "width": 129.796875,
+        "height": 36
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Needs fix: Not configured",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 69,
+        "y": 2083,
+        "right": 341,
+        "bottom": 2157,
+        "width": 272,
+        "height": 74
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "8px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "STRONG",
+      "text": "Needs fix",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 69,
+        "y": 2083,
+        "right": 211.28125,
+        "bottom": 2119,
+        "width": 142.28125,
+        "height": 36
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Magic resend after fix: Not configured",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 69,
+        "y": 2165,
+        "right": 341,
+        "bottom": 2276,
+        "width": 272,
+        "height": 111
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "8px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "STRONG",
+      "text": "Magic resend after fix",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 69,
+        "y": 2165,
+        "right": 273.515625,
+        "bottom": 2238,
+        "width": 204.515625,
+        "height": 73
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Actions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 2308,
+        "right": 341,
+        "bottom": 2678,
+        "width": 292,
+        "height": 370
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "What changed for end users",
+      "attributes": [
+        [
+          "style",
+          "font-size: 48px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 2717.828125,
+        "right": 341,
+        "bottom": 2882.828125,
+        "width": 292,
+        "height": 165
+      },
+      "style": {
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "39.84px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "P",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 2922.65625,
+        "right": 341,
+        "bottom": 3218.65625,
+        "width": 292,
+        "height": 296
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "Workflow lanes",
+      "attributes": [
+        [
+          "style",
+          "font-size: 48px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 3258.484375,
+        "right": 341,
+        "bottom": 3368.484375,
+        "width": 292,
+        "height": 110
+      },
+      "style": {
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "39.84px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "UL",
+      "text": "\n        New or empty user state\n        Returning user state\n        Main happy path\n        Comment/edit correction\n        Mobile state\n      ",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 3408.3125,
+        "right": 341,
+        "bottom": 3704.3125,
+        "width": 292,
+        "height": 296
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px 0px 0px 40px",
+        "margin": "32px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "New or empty user state",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 89,
+        "y": 3408.3125,
+        "right": 341,
+        "bottom": 3482.3125,
+        "width": 252,
+        "height": 74
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Returning user state",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 89,
+        "y": 3482.3125,
+        "right": 341,
+        "bottom": 3556.3125,
+        "width": 252,
+        "height": 74
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Main happy path",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 89,
+        "y": 3556.3125,
+        "right": 341,
+        "bottom": 3593.3125,
+        "width": 252,
+        "height": 37
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Comment/edit correction",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 89,
+        "y": 3593.3125,
+        "right": 341,
+        "bottom": 3667.3125,
+        "width": 252,
+        "height": 74
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "LI",
+      "text": "Mobile state",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 89,
+        "y": 3667.3125,
+        "right": 341,
+        "bottom": 3704.3125,
+        "width": 252,
+        "height": 37
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "H2",
+      "text": "Snapshot snippets",
+      "attributes": [
+        [
+          "style",
+          "font-size: 48px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 3744.140625,
+        "right": 341,
+        "bottom": 3854.140625,
+        "width": 292,
+        "height": 110
+      },
+      "style": {
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "39.84px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TABLE",
+      "text": "\n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      ",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 3893.96875,
+        "right": 341,
+        "bottom": 4369.96875,
+        "width": 292,
+        "height": 476
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "16px 0px 0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "fixed"
+      }
+    },
+    {
+      "tag": "THEAD",
+      "text": "\n          \n            Component\n            Proof\n            Correction prompt\n          \n        ",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 3894.46875,
+        "right": 341,
+        "bottom": 4039.46875,
+        "width": 292,
+        "height": 145
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TR",
+      "text": "\n            Component\n            Proof\n            Correction prompt\n          ",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 3894.46875,
+        "right": 341,
+        "bottom": 4039.46875,
+        "width": 292,
+        "height": 145
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TH",
+      "text": "Component",
+      "attributes": [
+        [
+          "style",
+          "font-size: 26px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 3894.46875,
+        "right": 146.328125,
+        "bottom": 4039.46875,
+        "width": 97.328125,
+        "height": 145
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TH",
+      "text": "Proof",
+      "attributes": [
+        [
+          "style",
+          "font-size: 26px;"
+        ]
+      ],
+      "rect": {
+        "x": 146.328125,
+        "y": 3894.46875,
+        "right": 243.65625,
+        "bottom": 4039.46875,
+        "width": 97.328125,
+        "height": 145
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TH",
+      "text": "Correction prompt",
+      "attributes": [
+        [
+          "style",
+          "font-size: 26px;"
+        ]
+      ],
+      "rect": {
+        "x": 243.65625,
+        "y": 3894.46875,
+        "right": 341,
+        "bottom": 4039.46875,
+        "width": 97.34375,
+        "height": 145
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontWeight": "700",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TBODY",
+      "text": "\n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        ",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 4039.46875,
+        "right": 341,
+        "bottom": 4369.96875,
+        "width": 292,
+        "height": 330.5
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TR",
+      "text": "\n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          ",
+      "attributes": [
+        [
+          "style",
+          "font-size: 32px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 4039.46875,
+        "right": 341,
+        "bottom": 4369.96875,
+        "width": 292,
+        "height": 330.5
+      },
+      "style": {
+        "fontSize": "32px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "0px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "0px",
+        "overflowWrap": "normal",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TD",
+      "text": "surface.primary",
+      "attributes": [
+        [
+          "style",
+          "font-size: 26px;"
+        ]
+      ],
+      "rect": {
+        "x": 49,
+        "y": 4039.46875,
+        "right": 146.328125,
+        "bottom": 4369.96875,
+        "width": 97.328125,
+        "height": 330.5
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "CODE",
+      "text": "surface.primary",
+      "attributes": [
+        [
+          "style",
+          "font-size: 26px;"
+        ]
+      ],
+      "rect": {
+        "x": 59,
+        "y": 4047.96875,
+        "right": 135.484375,
+        "bottom": 4144.96875,
+        "width": 76.484375,
+        "height": 97
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontWeight": "400",
+        "fontFamily": "monospace",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgb(241, 230, 220)",
+        "padding": "2px 5px",
+        "margin": "0px",
+        "border": "0px none rgb(35, 22, 15)",
+        "borderRadius": "6px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TD",
+      "text": "before / after / diff pending",
+      "attributes": [
+        [
+          "style",
+          "font-size: 26px;"
+        ]
+      ],
+      "rect": {
+        "x": 146.328125,
+        "y": 4039.46875,
+        "right": 243.65625,
+        "bottom": 4369.96875,
+        "width": 97.328125,
+        "height": 330.5
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    },
+    {
+      "tag": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "attributes": [
+        [
+          "style",
+          "font-size: 26px;"
+        ]
+      ],
+      "rect": {
+        "x": 243.65625,
+        "y": 4039.46875,
+        "right": 341,
+        "bottom": 4369.96875,
+        "width": 97.34375,
+        "height": 330.5
+      },
+      "style": {
+        "fontSize": "26px",
+        "fontWeight": "400",
+        "fontFamily": "Arial, sans-serif",
+        "color": "rgb(35, 22, 15)",
+        "background": "rgba(0, 0, 0, 0)",
+        "padding": "10px",
+        "margin": "0px",
+        "border": "",
+        "borderRadius": "0px",
+        "overflowWrap": "anywhere",
+        "tableLayout": "auto"
+      }
+    }
+  ],
+  "interactive": [],
+  "scripts": 0,
+  "reduced": false
+}

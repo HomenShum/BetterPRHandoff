@@ -1,0 +1,1610 @@
+[
+  {
+    "name": "owned-git-init",
+    "argv": [
+      "git",
+      "init"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "41072": {
+        "created": 1788662849.8410854,
+        "argv": [
+          "git",
+          "init"
+        ]
+      },
+      "17056": {
+        "created": 1788662849.8521235,
+        "argv": [
+          "git.exe",
+          "init"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "noargs-help",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "6832": {
+        "created": 1788662849.9213405,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "init",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "init"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "59988": {
+        "created": 1788662849.9814992,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "init"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "init-repeat",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "init"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "2896": {
+        "created": 1788662850.0573027,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "init"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "add-pages",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "pages",
+      "SourcingReview"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "64372": {
+        "created": 1788662850.1424236,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "pages",
+          "SourcingReview"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "add-components",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "SourcingReview"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "44020": {
+        "created": 1788662850.2174022,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "SourcingReview"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "add-server",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "server",
+      "SourcingReview"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "18480": {
+        "created": 1788662850.2844925,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "server",
+          "SourcingReview"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "add-db",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "db",
+      "SourcingReview"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "30372": {
+        "created": 1788662850.3443356,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "db",
+          "SourcingReview"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "add-integrations",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "integrations",
+      "SourcingReview"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "55236": {
+        "created": 1788662850.4080355,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "integrations",
+          "SourcingReview"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "add-scripts",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "scripts",
+      "SourcingReview"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "62368": {
+        "created": 1788662850.4827023,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "scripts",
+          "SourcingReview"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "add-existing",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "SourcingReview"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 1,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "14108": {
+        "created": 1788662850.563347,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "SourcingReview"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "qa-init",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "qa-init"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "30728": {
+        "created": 1788662850.6485107,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "qa-init"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "qa-init-repeat",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "qa-init"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "57068": {
+        "created": 1788662850.7119713,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "qa-init"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "qa-create",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "qa",
+      "supplier-review"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 0,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "36820": {
+        "created": 1788662850.7785912,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "qa",
+          "supplier-review"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "qa-repeat",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "qa",
+      "supplier-review"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 1,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "18244": {
+        "created": 1788662850.847054,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "qa",
+          "supplier-review"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "invalid-0",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "unexpected"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 1,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "38556": {
+        "created": 1788662850.917384,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "unexpected"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "invalid-1",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 1,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "67532": {
+        "created": 1788662850.9883437,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "invalid-2",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "widgets",
+      "Review"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 1,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "58612": {
+        "created": 1788662851.0649984,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "widgets",
+          "Review"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "invalid-3",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "qa"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 1,
+    "seconds": 0.046,
+    "timedOutOrCapped": false,
+    "processes": {
+      "13588": {
+        "created": 1788662851.141471,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "qa"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "invalid-4",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "qa",
+      "!!!"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 1,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "50460": {
+        "created": 1788662851.2115414,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "qa",
+          "!!!"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "invalid-5",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "wrong"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace",
+    "exit": 1,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "57904": {
+        "created": 1788662851.27473,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "wrong"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-user",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "user"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "63040": {
+        "created": 1788662851.3457537,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "user"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-user-repeat",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "user"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\workspace",
+    "exit": 1,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "59796": {
+        "created": 1788662851.4578595,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "user"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-project",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "project"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace",
+    "exit": 0,
+    "seconds": 0.094,
+    "timedOutOrCapped": false,
+    "processes": {
+      "20772": {
+        "created": 1788662851.5610733,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "project"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-project-repeat",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "project"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace",
+    "exit": 1,
+    "seconds": 0.094,
+    "timedOutOrCapped": false,
+    "processes": {
+      "11808": {
+        "created": 1788662851.6801815,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "project"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-cursor",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "cursor"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "56700": {
+        "created": 1788662851.8097343,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "cursor"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-cursor-repeat",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "cursor"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace",
+    "exit": 1,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "54212": {
+        "created": 1788662851.9259996,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "cursor"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-cline",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "cline"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "21164": {
+        "created": 1788662852.0088298,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "cline"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-cline-repeat",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "cline"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace",
+    "exit": 1,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "12976": {
+        "created": 1788662852.1179051,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "cline"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-aider",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "aider"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace",
+    "exit": 0,
+    "seconds": 0.094,
+    "timedOutOrCapped": false,
+    "processes": {
+      "60492": {
+        "created": 1788662852.1965907,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "aider"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-aider-repeat",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "aider"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace",
+    "exit": 1,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "2080": {
+        "created": 1788662852.320328,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "aider"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-generic",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "generic"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace",
+    "exit": 0,
+    "seconds": 0.156,
+    "timedOutOrCapped": false,
+    "processes": {
+      "25496": {
+        "created": 1788662852.4836886,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "generic"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "install-generic-repeat",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install",
+      "generic"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace",
+    "exit": 1,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "31212": {
+        "created": 1788662852.5953395,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install",
+          "generic"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "auto-project",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "34948": {
+        "created": 1788662852.7048419,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "auto-cursor",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "56584": {
+        "created": 1788662852.8095396,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "auto-cline",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "47000": {
+        "created": 1788662852.8976824,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "auto-aider",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "64416": {
+        "created": 1788662852.9878092,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "auto-user",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\workspace",
+    "exit": 0,
+    "seconds": 0.079,
+    "timedOutOrCapped": false,
+    "processes": {
+      "32240": {
+        "created": 1788662853.0752227,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "auto-generic",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "install"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "40056": {
+        "created": 1788662853.1640618,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "install"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "traversal-forward",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "../../../escaped-forward"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\traversal-forward\\workspace",
+    "exit": 1,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "52964": {
+        "created": 1788662853.255251,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "../../../escaped-forward"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "traversal-backslash",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "..\\..\\..\\escaped-backslash"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\traversal-backslash\\workspace",
+    "exit": 1,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "15548": {
+        "created": 1788662853.3307087,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "..\\..\\..\\escaped-backslash"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "concurrent-0",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "SharedReview"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 0,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "18224": {
+        "created": 1788662853.4021752,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "SharedReview"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "concurrent-1",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "SharedReview"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 1,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "26096": {
+        "created": 1788662853.4029956,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "SharedReview"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "sustained-0",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "Review0"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 0,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "46144": {
+        "created": 1788662853.4930084,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "Review0"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "sustained-1",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "Review1"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 0,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "50500": {
+        "created": 1788662853.5510848,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "Review1"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "sustained-2",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "Review2"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 0,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "22276": {
+        "created": 1788662853.6210928,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "Review2"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "sustained-3",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "Review3"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 0,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "7800": {
+        "created": 1788662853.694006,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "Review3"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "sustained-4",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "Review4"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 0,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "44372": {
+        "created": 1788662853.7540753,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "Review4"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "sustained-5",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "Review5"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 0,
+    "seconds": 0.047,
+    "timedOutOrCapped": false,
+    "processes": {
+      "25632": {
+        "created": 1788662853.8116848,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "Review5"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "sustained-6",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "Review6"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 0,
+    "seconds": 0.062,
+    "timedOutOrCapped": false,
+    "processes": {
+      "29924": {
+        "created": 1788662853.887863,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "Review6"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "sustained-7",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "add",
+      "components",
+      "Review7"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace",
+    "exit": 0,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "53472": {
+        "created": 1788662853.9583857,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "add",
+          "components",
+          "Review7"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "source-help",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\bin\\init.mjs",
+      "help"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-command\\workspace",
+    "exit": 0,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "67620": {
+        "created": 1788662854.0693583,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\bin\\init.mjs",
+          "help"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "printed-source-init",
+    "argv": [
+      "C:\\WINDOWS\\system32\\cmd.exe",
+      "/d",
+      "/c",
+      "node \"../../source checkout with spaces/bin/init.mjs\" init"
+    ],
+    "windowsCmdLine": "C:\\WINDOWS\\system32\\cmd.exe /d /c node \"../../source checkout with spaces/bin/init.mjs\" init",
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-command\\workspace",
+    "exit": 0,
+    "seconds": 0.094,
+    "timedOutOrCapped": false,
+    "processes": {
+      "10500": {
+        "created": 1788662854.1360264,
+        "argv": [
+          "C:\\WINDOWS\\system32\\cmd.exe",
+          "/d",
+          "/c",
+          "node",
+          "../../source checkout with spaces/bin/init.mjs",
+          "init"
+        ]
+      },
+      "67764": {
+        "created": 1788662854.1598265,
+        "argv": [
+          "node",
+          "../../source checkout with spaces/bin/init.mjs",
+          "init"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "source-help-powershell",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\bin\\init.mjs",
+      "help"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-powershell\\workspace",
+    "exit": 0,
+    "seconds": 0.063,
+    "timedOutOrCapped": false,
+    "processes": {
+      "43572": {
+        "created": 1788662854.241965,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\bin\\init.mjs",
+          "help"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "printed-source-powershell",
+    "argv": [
+      "powershell.exe",
+      "-NoProfile",
+      "-NonInteractive",
+      "-Command",
+      "node \"../../source checkout with spaces/bin/init.mjs\" init"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-powershell\\workspace",
+    "exit": 0,
+    "seconds": 0.281,
+    "timedOutOrCapped": false,
+    "processes": {
+      "63464": {
+        "created": 1788662854.2981164,
+        "argv": [
+          "powershell.exe",
+          "-NoProfile",
+          "-NonInteractive",
+          "-Command",
+          "node \"../../source checkout with spaces/bin/init.mjs\" init"
+        ]
+      },
+      "39368": {
+        "created": 1788662854.463376,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.exe",
+          "../../source checkout with spaces/bin/init.mjs",
+          "init"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "concurrent-qa-1",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "qa",
+      "shared-packet"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace",
+    "exit": 1,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "45772": {
+        "created": 1788662854.6090667,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "qa",
+          "shared-packet"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "concurrent-qa-0",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "qa",
+      "shared-packet"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace",
+    "exit": 0,
+    "seconds": 0.078,
+    "timedOutOrCapped": false,
+    "processes": {
+      "59192": {
+        "created": 1788662854.6082373,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "qa",
+          "shared-packet"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "installed-help-for-copy-paste",
+    "argv": [
+      "C:\\nvm4w\\nodejs\\node.EXE",
+      "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "help"
+    ],
+    "windowsCmdLine": null,
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer",
+    "exit": 0,
+    "seconds": 0.079,
+    "timedOutOrCapped": false,
+    "processes": {
+      "7164": {
+        "created": 1788662854.6923485,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\node.EXE",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "help"
+        ]
+      }
+    },
+    "survivors": []
+  },
+  {
+    "name": "printed-installed-init",
+    "argv": [
+      "C:\\WINDOWS\\system32\\cmd.exe",
+      "/d",
+      "/c",
+      "npx @homenshum/easier-to-read-submissions init"
+    ],
+    "windowsCmdLine": "C:\\WINDOWS\\system32\\cmd.exe /d /c npx @homenshum/easier-to-read-submissions init",
+    "cwd": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer",
+    "exit": 0,
+    "seconds": 1.031,
+    "timedOutOrCapped": false,
+    "processes": {
+      "23876": {
+        "created": 1788662854.7722096,
+        "argv": [
+          "C:\\WINDOWS\\system32\\cmd.exe",
+          "/d",
+          "/c",
+          "npx",
+          "@homenshum/easier-to-read-submissions",
+          "init"
+        ]
+      },
+      "19732": {
+        "created": 1788662854.802196,
+        "argv": [
+          "C:\\WINDOWS\\system32\\cmd.exe",
+          "/c",
+          "CALL",
+          "C:\\nvm4w\\nodejs\\\\node.exe",
+          "C:\\nvm4w\\nodejs\\\\node_modules\\npm\\bin\\npm-prefix.js"
+        ]
+      },
+      "44104": {
+        "created": 1788662854.8259847,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\\\node.exe",
+          "C:\\nvm4w\\nodejs\\\\node_modules\\npm\\bin\\npm-prefix.js"
+        ]
+      },
+      "36948": {
+        "created": 1788662854.9226148,
+        "argv": [
+          "C:\\nvm4w\\nodejs\\\\node.exe",
+          "C:\\nvm4w\\nodejs\\node_modules\\npm\\bin\\npx-cli.js",
+          "@homenshum/easier-to-read-submissions",
+          "init"
+        ]
+      },
+      "20548": {
+        "created": 1788662855.6744745,
+        "argv": [
+          "C:\\WINDOWS\\system32\\cmd.exe",
+          "/d",
+          "/s",
+          "/c",
+          "easier",
+          "init"
+        ]
+      },
+      "19444": {
+        "created": 1788662855.7032225,
+        "argv": [
+          "node",
+          "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\\node_modules\\.bin\\\\..\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+          "init"
+        ]
+      }
+    },
+    "survivors": []
+  }
+]

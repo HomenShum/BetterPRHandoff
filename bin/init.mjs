@@ -23,8 +23,8 @@
  * Reading order for the whole system: docs/START_HERE.md
  */
 
-import { mkdir, writeFile, readFile, copyFile, cp } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { mkdir, writeFile, readFile, copyFile, readdir } from "node:fs/promises";
+import { existsSync, constants } from "node:fs";
 import { dirname, join, resolve, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -55,7 +55,7 @@ const cmd = args[0] || "help";
 const SELF = process.argv[1] || "";
 const INVOKE = /[\\/]node_modules[\\/]/.test(SELF)
   ? "npx @homenshum/easier-to-read-submissions"
-  : `node ${relative(process.cwd(), SELF).split("\\").join("/")}`;
+  : `node "${relative(process.cwd(), SELF).split("\\").join("/")}"`;
 
 const C = {
   green: (s) => `\x1b[32m${s}\x1b[0m`,
@@ -98,7 +98,10 @@ async function init() {
   const cwd = process.cwd();
   const cl = join(cwd, "CHANGELOG");
 
-  if (existsSync(cl)) {
+  try {
+    await mkdir(cl);
+  } catch (error) {
+    if (error.code !== "EEXIST") throw error;
     console.log(C.yellow(`! CHANGELOG/ already exists at ${cl}`));
     console.log(C.dim("  Skipping scaffold to avoid clobbering existing lanes."));
     console.log(C.dim(`  Use \`${INVOKE} add <category> <slug>\` to add new lane files.`));
@@ -112,8 +115,8 @@ async function init() {
   }
 
   // Copy master README + TEMPLATE
-  await copyFile(join(TPL_DIR, "CHANGELOG-README.md"), join(cl, "README.md"));
-  await copyFile(join(TPL_DIR, "CHANGELOG-TEMPLATE.md"), join(cl, "TEMPLATE.md"));
+  await preserveCopy(join(TPL_DIR, "CHANGELOG-README.md"), join(cl, "README.md"));
+  await preserveCopy(join(TPL_DIR, "CHANGELOG-TEMPLATE.md"), join(cl, "TEMPLATE.md"));
 
   console.log(C.green("✓"), "CHANGELOG/README.md created (master index)");
   console.log(C.green("✓"), "CHANGELOG/TEMPLATE.md created (format spec)");
@@ -149,6 +152,11 @@ async function addLane() {
     process.exit(1);
   }
 
+  if (/[/\\\x00-\x1f\x7f<>:"|?*]/.test(slug) || /[. ]$/.test(slug)
+      || /^(?:con|prn|aux|nul|com[1-9]|lpt[1-9])(?:\.|$)/i.test(slug)) {
+    throw new Error("Invalid lane name: use one filename without separators, control characters or reserved names.");
+  }
+
   const cwd = process.cwd();
   const dir = join(cwd, "CHANGELOG", category);
   // Create the lane directory rather than demanding it already be there.
@@ -159,23 +167,20 @@ async function addLane() {
   await mkdir(dir, { recursive: true });
 
   const target = join(dir, `${slug}.md`);
-  if (existsSync(target)) {
-    console.error(C.red(`✗ ${target} already exists`));
-    process.exit(1);
-  }
 
   // Read lane template and personalize
   const tpl = await readFile(join(TPL_DIR, "lane.md"), "utf8");
   const today = new Date().toISOString().slice(0, 10);
   const personalized = tpl
     .replace("<relative/path/to/file>", `${category}/${slug}`)
-    .replace("YYYY-MM-DD — Short imperative title (most recent)", `${today} — Created — initial implementation`)
-    .replace(
-      /What changed and \*\*why\*\*[^\n]*\n[^\n]*/,
-      `First entry. Replace this with a description of what this surface does today and why it was created.`
-    );
+    .replace("YYYY-MM-DD — Pending — describe this change", `${today} — Pending — describe this change`);
 
-  await writeFile(target, personalized);
+  try {
+    await writeFile(target, personalized, { flag: "wx" });
+  } catch (error) {
+    if (error.code === "EEXIST") throw new Error(`${target} already exists`);
+    throw error;
+  }
   console.log(C.green("✓"), `Created ${C.cyan(relative(cwd, target))}`);
   console.log(C.dim(`  Edit it now — the placeholder entry needs a real description.`));
 }
@@ -186,13 +191,12 @@ async function qaInit() {
   const cwd = process.cwd();
   const target = join(cwd, "qa.config.json");
 
-  if (existsSync(target)) {
+  if (!await preserveCopy(join(TPL_DIR, "qa-states.example.json"), target, true)) {
     console.log(C.yellow(`! qa.config.json already exists at ${target}`));
-    console.log(C.dim("  Edit it directly, or delete and re-run."));
+    console.log(C.dim("  Preserved your configuration. Edit it directly if needed."));
     return;
   }
 
-  await copyFile(join(TPL_DIR, "qa-states.example.json"), target);
   console.log(C.green("✓"), `Created ${C.cyan("qa.config.json")} from the QA packet example`);
   console.log("");
   console.log(C.bold("Edit it now:"));
@@ -228,12 +232,13 @@ async function scaffoldQaPacket() {
 
   const cwd = process.cwd();
   const dir = join(cwd, "QA_DOGFOOD", featureId);
-  if (existsSync(dir)) {
-    console.error(C.red(`✗ ${dir} already exists`));
-    process.exit(1);
+  await mkdir(join(cwd, "QA_DOGFOOD"), { recursive: true });
+  try {
+    await mkdir(dir);
+  } catch (error) {
+    if (error.code === "EEXIST") throw new Error(`${dir} already exists`);
+    throw error;
   }
-
-  await mkdir(dir, { recursive: true });
   const replacements = {
     "__FEATURE_ID__": featureId,
     "__TITLE__": featureId.replace(/[-_.]+/g, " "),
@@ -258,6 +263,31 @@ async function writeTemplate(templateName, dest, replacements) {
 }
 
 // ───────────────────────────── install ─────────────────────────────
+
+// Creation is exclusive; reading an existing file never grants permission to
+// replace it. A racing reader can refuse an unfinished copy without losing it.
+async function preserveCopy(source, dest, keepExisting = false) {
+  try {
+    await copyFile(source, dest, constants.COPYFILE_EXCL);
+    return true;
+  } catch (error) {
+    if (error.code !== "EEXIST") throw error;
+    if (keepExisting) return false; // qa-init keeps the user's configuration.
+    const [wanted, existing] = await Promise.all([readFile(source), readFile(dest)]);
+    if (wanted.equals(existing)) return false;
+    throw new Error(`Install conflict at ${dest}. Existing content preserved; manual merge required.`);
+  }
+}
+
+async function preserveTemplates(source, dest) {
+  await mkdir(dest, { recursive: true });
+  for (const entry of await readdir(source, { withFileTypes: true })) {
+    const from = join(source, entry.name);
+    const to = join(dest, entry.name);
+    if (entry.isDirectory()) await preserveTemplates(from, to);
+    else await preserveCopy(from, to);
+  }
+}
 
 async function install() {
   const target = args[1] || "auto";
@@ -294,19 +324,19 @@ async function install() {
 
   if (mode === "user" || mode === "project" || mode === "generic") {
     await mkdir(dest, { recursive: true });
-    await copyFile(join(PKG_ROOT, "SKILL.md"), join(dest, "SKILL.md"));
-    await copyFile(join(PKG_ROOT, "AGENTS.md"), join(dest, "AGENTS.md"));
-    await cp(TPL_DIR, join(dest, "templates"), { recursive: true });
+    await preserveCopy(join(PKG_ROOT, "SKILL.md"), join(dest, "SKILL.md"));
+    await preserveCopy(join(PKG_ROOT, "AGENTS.md"), join(dest, "AGENTS.md"));
+    await preserveTemplates(TPL_DIR, join(dest, "templates"));
   } else if (mode === "cursor") {
     await mkdir(dest, { recursive: true });
-    await copyFile(join(PKG_ROOT, "AGENTS.md"), join(dest, "easier-to-read-submissions.md"));
-    await cp(TPL_DIR, join(dest, "templates-easier"), { recursive: true });
+    await preserveCopy(join(PKG_ROOT, "AGENTS.md"), join(dest, "easier-to-read-submissions.md"));
+    await preserveTemplates(TPL_DIR, join(dest, "templates-easier"));
   } else if (mode === "cline") {
-    await copyFile(join(PKG_ROOT, "AGENTS.md"), join(cwd, ".clinerules"));
-    await cp(TPL_DIR, join(cwd, ".cline-easier-templates"), { recursive: true });
+    await preserveCopy(join(PKG_ROOT, "AGENTS.md"), join(cwd, ".clinerules"));
+    await preserveTemplates(TPL_DIR, join(cwd, ".cline-easier-templates"));
   } else if (mode === "aider") {
-    await copyFile(join(PKG_ROOT, "AGENTS.md"), join(cwd, "AGENTS.md"));
-    await cp(TPL_DIR, join(cwd, ".easier-templates"), { recursive: true });
+    await preserveCopy(join(PKG_ROOT, "AGENTS.md"), join(cwd, "AGENTS.md"));
+    await preserveTemplates(TPL_DIR, join(cwd, ".easier-templates"));
   }
 
   console.log(C.green("✓"), "Installed.");

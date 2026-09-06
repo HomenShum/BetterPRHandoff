@@ -1,0 +1,557 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\input-entry.json",
+      "bytes": 42004,
+      "sha256": "c2bdea336eddd1a1423f0b27fd56501bff8fff87f74f28c32aacf2d91e5dbb32",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\input-exit.json",
+      "bytes": 42004,
+      "sha256": "c2bdea336eddd1a1423f0b27fd56501bff8fff87f74f28c32aacf2d91e5dbb32",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-footer.dom.html.txt",
+      "bytes": 3840,
+      "sha256": "7f95d95280c7ec190540b42f6e566bd742c9157eb7e22ff7af11f1915cf0dc87",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-footer.json",
+      "bytes": 64108,
+      "sha256": "5dca3f5a3c71ed122dd1205d3cb401d16bd342b853d34c4ff826f6fc11f73d22",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-footer.png",
+      "bytes": 72699,
+      "sha256": "0ea5e9c0f47fbaa7777823222d62906cd3ccffa5550759fd235b4d79fc145d48",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-snippet.dom.html.txt",
+      "bytes": 3840,
+      "sha256": "7f95d95280c7ec190540b42f6e566bd742c9157eb7e22ff7af11f1915cf0dc87",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-snippet.json",
+      "bytes": 64108,
+      "sha256": "5dca3f5a3c71ed122dd1205d3cb401d16bd342b853d34c4ff826f6fc11f73d22",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-snippet.png",
+      "bytes": 72699,
+      "sha256": "0ea5e9c0f47fbaa7777823222d62906cd3ccffa5550759fd235b4d79fc145d48",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-top.dom.html.txt",
+      "bytes": 3840,
+      "sha256": "7f95d95280c7ec190540b42f6e566bd742c9157eb7e22ff7af11f1915cf0dc87",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-top.json",
+      "bytes": 64110,
+      "sha256": "a3776c59930ded0fdf1321b6d81dfbde74fe2e6325cff41fd6ad6d7933d57b9f",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-top.png",
+      "bytes": 72695,
+      "sha256": "028d8fc4de17661889ae532fce0144d6ead9055367e1cc38271ae9450abcacf1",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-footer.dom.html.txt",
+      "bytes": 3840,
+      "sha256": "7f95d95280c7ec190540b42f6e566bd742c9157eb7e22ff7af11f1915cf0dc87",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-footer.json",
+      "bytes": 70315,
+      "sha256": "cccc6ff12ed6017840c8151a912910a0b372b570ae90c1afcd8960ee8928312f",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-footer.png",
+      "bytes": 35718,
+      "sha256": "18ef967ef61d5a1b4dad9a2c4c92f4b5f3c74e66971e21cda4bec1672b696c06",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-snippet.dom.html.txt",
+      "bytes": 3840,
+      "sha256": "7f95d95280c7ec190540b42f6e566bd742c9157eb7e22ff7af11f1915cf0dc87",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-snippet.json",
+      "bytes": 70315,
+      "sha256": "cccc6ff12ed6017840c8151a912910a0b372b570ae90c1afcd8960ee8928312f",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-snippet.png",
+      "bytes": 35718,
+      "sha256": "18ef967ef61d5a1b4dad9a2c4c92f4b5f3c74e66971e21cda4bec1672b696c06",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-top.dom.html.txt",
+      "bytes": 3840,
+      "sha256": "7f95d95280c7ec190540b42f6e566bd742c9157eb7e22ff7af11f1915cf0dc87",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-top.json",
+      "bytes": 70329,
+      "sha256": "fcd87a06e7f74c2600a40c3ae23f9d2b3ed1c538467785ffa47da8bf71476880",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-top.png",
+      "bytes": 38137,
+      "sha256": "902b7f1a173461ea0b4068e2ec29f680ded19e8208b345044f9aad36920afc22",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-font-vector.json",
+      "bytes": 662,
+      "sha256": "8da59eeac0f4c5555dba490a6b95988a61b54e51129ddefbd26e554d7a865cbc",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-footer.dom.html.txt",
+      "bytes": 4815,
+      "sha256": "90317bf7d9b6000f1c565e0bb9f1814efa0170ea113a0cf279f4fff8eb5c49ba",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-footer.json",
+      "bytes": 80559,
+      "sha256": "1517001ec0c925368a576b2c53b8b3051c3d5202a039fde6d477a7b9e7f67199",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-footer.png",
+      "bytes": 55573,
+      "sha256": "037b1f26423f0fefc84918719b89d487112d0d4016fadc719bbc7a95fcbd5a70",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-snippet.dom.html.txt",
+      "bytes": 4815,
+      "sha256": "90317bf7d9b6000f1c565e0bb9f1814efa0170ea113a0cf279f4fff8eb5c49ba",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-snippet.json",
+      "bytes": 80559,
+      "sha256": "fd4f1ed23b78a78b0236e7906b95c8a7925a05728a19b999bb007b00a177500e",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-snippet.png",
+      "bytes": 55440,
+      "sha256": "e32a7d9edd6b838b8c28faeebfb84bcbc872d804882add6d4f2baa26c828a67f",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-top.dom.html.txt",
+      "bytes": 4815,
+      "sha256": "90317bf7d9b6000f1c565e0bb9f1814efa0170ea113a0cf279f4fff8eb5c49ba",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-top.json",
+      "bytes": 80471,
+      "sha256": "e4281cf1dfea71d3c3f767b89b57221841bc191ed5d7e3ebb23e6d6dd144fea5",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-top.png",
+      "bytes": 59578,
+      "sha256": "1ce1d090a15337acaafcca20beb186619bb040e1891f076f5abf764ca28ba958",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-font-vector.json",
+      "bytes": 662,
+      "sha256": "8da59eeac0f4c5555dba490a6b95988a61b54e51129ddefbd26e554d7a865cbc",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-footer.dom.html.txt",
+      "bytes": 4815,
+      "sha256": "90317bf7d9b6000f1c565e0bb9f1814efa0170ea113a0cf279f4fff8eb5c49ba",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-footer.json",
+      "bytes": 80559,
+      "sha256": "1517001ec0c925368a576b2c53b8b3051c3d5202a039fde6d477a7b9e7f67199",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-footer.png",
+      "bytes": 55573,
+      "sha256": "037b1f26423f0fefc84918719b89d487112d0d4016fadc719bbc7a95fcbd5a70",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-keyboard.dom.html.txt",
+      "bytes": 4815,
+      "sha256": "90317bf7d9b6000f1c565e0bb9f1814efa0170ea113a0cf279f4fff8eb5c49ba",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-keyboard.json",
+      "bytes": 80471,
+      "sha256": "e4281cf1dfea71d3c3f767b89b57221841bc191ed5d7e3ebb23e6d6dd144fea5",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-keyboard.png",
+      "bytes": 59578,
+      "sha256": "1ce1d090a15337acaafcca20beb186619bb040e1891f076f5abf764ca28ba958",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-last-action.dom.html.txt",
+      "bytes": 4815,
+      "sha256": "90317bf7d9b6000f1c565e0bb9f1814efa0170ea113a0cf279f4fff8eb5c49ba",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-last-action.json",
+      "bytes": 80457,
+      "sha256": "d112be871ceeff89a90b1d903723f2e2290df7d4bc49419b6f17adf6a444a5c2",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-last-action.png",
+      "bytes": 67526,
+      "sha256": "ef6b08b58cb9c064e38e08c337d2cd3118d68b09ffda0ad9a6b3a13f393b94e4",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-footer.dom.html.txt",
+      "bytes": 3540,
+      "sha256": "14c52a0384c0d4668470dc61fb4a5ec20bf7bc7b40132d1d2b5fe643d2669bd9",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-footer.json",
+      "bytes": 61874,
+      "sha256": "7c74073ea392fee92d541a6dd1c7e773be8044923a8dfa53a9b4d514f84d48d7",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-footer.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-keyboard.dom.html.txt",
+      "bytes": 3540,
+      "sha256": "14c52a0384c0d4668470dc61fb4a5ec20bf7bc7b40132d1d2b5fe643d2669bd9",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-keyboard.json",
+      "bytes": 61874,
+      "sha256": "7c74073ea392fee92d541a6dd1c7e773be8044923a8dfa53a9b4d514f84d48d7",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-keyboard.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-last-action.dom.html.txt",
+      "bytes": 3540,
+      "sha256": "14c52a0384c0d4668470dc61fb4a5ec20bf7bc7b40132d1d2b5fe643d2669bd9",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-last-action.json",
+      "bytes": 61874,
+      "sha256": "7c74073ea392fee92d541a6dd1c7e773be8044923a8dfa53a9b4d514f84d48d7",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-normal-1440x960-normal-last-action.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-footer.dom.html.txt",
+      "bytes": 3540,
+      "sha256": "14c52a0384c0d4668470dc61fb4a5ec20bf7bc7b40132d1d2b5fe643d2669bd9",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-footer.json",
+      "bytes": 61874,
+      "sha256": "7c74073ea392fee92d541a6dd1c7e773be8044923a8dfa53a9b4d514f84d48d7",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-footer.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-snippet.dom.html.txt",
+      "bytes": 3540,
+      "sha256": "14c52a0384c0d4668470dc61fb4a5ec20bf7bc7b40132d1d2b5fe643d2669bd9",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-snippet.json",
+      "bytes": 61874,
+      "sha256": "7c74073ea392fee92d541a6dd1c7e773be8044923a8dfa53a9b4d514f84d48d7",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-snippet.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-top.dom.html.txt",
+      "bytes": 3540,
+      "sha256": "14c52a0384c0d4668470dc61fb4a5ec20bf7bc7b40132d1d2b5fe643d2669bd9",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-top.json",
+      "bytes": 61874,
+      "sha256": "7c74073ea392fee92d541a6dd1c7e773be8044923a8dfa53a9b4d514f84d48d7",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-top.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-footer.dom.html.txt",
+      "bytes": 3540,
+      "sha256": "14c52a0384c0d4668470dc61fb4a5ec20bf7bc7b40132d1d2b5fe643d2669bd9",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-footer.json",
+      "bytes": 66221,
+      "sha256": "0fe511511df0b97eefd4760f5faa27335a19ede1f0b87458973fc730bd9bd324",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-footer.png",
+      "bytes": 37022,
+      "sha256": "f54bc4f744d226f8c1757e0e2c542b7da687aec9a1e8aca00befe8276a98d2eb",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-snippet.dom.html.txt",
+      "bytes": 3540,
+      "sha256": "14c52a0384c0d4668470dc61fb4a5ec20bf7bc7b40132d1d2b5fe643d2669bd9",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-snippet.json",
+      "bytes": 66221,
+      "sha256": "0fe511511df0b97eefd4760f5faa27335a19ede1f0b87458973fc730bd9bd324",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-snippet.png",
+      "bytes": 37022,
+      "sha256": "f54bc4f744d226f8c1757e0e2c542b7da687aec9a1e8aca00befe8276a98d2eb",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-top.dom.html.txt",
+      "bytes": 3540,
+      "sha256": "14c52a0384c0d4668470dc61fb4a5ec20bf7bc7b40132d1d2b5fe643d2669bd9",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-top.json",
+      "bytes": 66226,
+      "sha256": "fa944546baad199b191b4b23062086db93cfd09423e68658e4e5f5465021c505",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-320x800-normal-top.png",
+      "bytes": 40385,
+      "sha256": "4aa4b1a8fd6f2fa4165091d0d0047f0e04596ecc525a3736e97d349cf3361cbf",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-font-vector.json",
+      "bytes": 662,
+      "sha256": "8da59eeac0f4c5555dba490a6b95988a61b54e51129ddefbd26e554d7a865cbc",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-footer.dom.html.txt",
+      "bytes": 4515,
+      "sha256": "d15ebb2df9ae79f1c0185ebf58c42549c8d32f2071f795f2aa4e974b91d54151",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-footer.json",
+      "bytes": 75354,
+      "sha256": "7bfc6f538912b2d5a3109cdea7e346ff1d1738760235e9c6ad0396c9e6aed41e",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-footer.png",
+      "bytes": 51006,
+      "sha256": "1cc5171f7392b95fbfd58bca9704b9d7fc3407aeb62797e76d617618007b1982",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-snippet.dom.html.txt",
+      "bytes": 4515,
+      "sha256": "d15ebb2df9ae79f1c0185ebf58c42549c8d32f2071f795f2aa4e974b91d54151",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-snippet.json",
+      "bytes": 75354,
+      "sha256": "7bfc6f538912b2d5a3109cdea7e346ff1d1738760235e9c6ad0396c9e6aed41e",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-snippet.png",
+      "bytes": 51006,
+      "sha256": "1cc5171f7392b95fbfd58bca9704b9d7fc3407aeb62797e76d617618007b1982",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-top.dom.html.txt",
+      "bytes": 4515,
+      "sha256": "d15ebb2df9ae79f1c0185ebf58c42549c8d32f2071f795f2aa4e974b91d54151",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-top.json",
+      "bytes": 75275,
+      "sha256": "abb9f84c1c77322e36b5f1e296fc0f473409a4584055e9a6bc86d1d9a30acb23",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-top.png",
+      "bytes": 58743,
+      "sha256": "70a39994f114d52cfb147aa282f9d80a58fa313958fce7e076afd56855dcad19",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\report.json",
+      "bytes": 357849,
+      "sha256": "bb74306e682002b1e5e96dbb6cc755ef1370ac790c29968202a884ef026ee084",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\runtime.json",
+      "bytes": 744,
+      "sha256": "9604790687205ec7a268ab5144f58a08fe76248e52af09a868d42b4bc7755866",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\command.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\command.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\config.json",
+      "bytes": 46735,
+      "sha256": "0b74b907f8432342d9fc4293ca2f69070d202e9f7db8eabf405875aada8f9ca5",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\controller-preflight.py.txt",
+      "bytes": 11036,
+      "sha256": "ab208f76a83f13622231e864379021248480b2721f3eee65adde2983a735319a",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\controller-report.json",
+      "bytes": 1205,
+      "sha256": "e5178202b4635ba3506ab00cc675da87d43d1d9c27462985dfc54d2c97b236a6",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\entry-custody.json",
+      "bytes": 147979,
+      "sha256": "405898ac2db91b2631f5a3254890d530fd23ea5f2d830dbafbe551911ef63b09",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\environment-policy.json",
+      "bytes": 256,
+      "sha256": "27818f561acf49db57a09cff146069e864f1eb402b33b4a6b60d9e379f6cbcd2",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\exit-custody.json",
+      "bytes": 147979,
+      "sha256": "405898ac2db91b2631f5a3254890d530fd23ea5f2d830dbafbe551911ef63b09",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\preflight.json",
+      "bytes": 1078,
+      "sha256": "a690c006940a8b61895065c8f087ae155cb285888396cb5c0bfb1dd0a5693f65",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\prepared-custody.json",
+      "bytes": 147979,
+      "sha256": "405898ac2db91b2631f5a3254890d530fd23ea5f2d830dbafbe551911ef63b09",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\recorder-preflight.mjs.txt",
+      "bytes": 18992,
+      "sha256": "f112c1011e15417c20f8431084f03757e98e9495646f8ad093bf0d08647043c7",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\syntax.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "evidence"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\syntax.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "evidence"
+    }
+  ],
+  "excluded": "Only ephemeral owned profile/temp; all generated-input references and browser evidence retained."
+}

@@ -1,0 +1,121 @@
+{
+  "domSha256": "c2e831cfa5d3b5818ae19bd5029312c96d567b996f69b4405467db8504cd9073",
+  "beforeDomSha256": "c2e831cfa5d3b5818ae19bd5029312c96d567b996f69b4405467db8504cd9073",
+  "exact": true,
+  "state": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scroll": {
+      "x": 0,
+      "y": 0
+    },
+    "document": {
+      "width": 418,
+      "height": 4351
+    },
+    "card": {
+      "x": 24,
+      "y": 24,
+      "width": 342,
+      "height": 4302.96875,
+      "right": 366,
+      "bottom": 4326.96875
+    },
+    "contentRight": 341,
+    "table": {
+      "x": 49,
+      "y": 3825.96875,
+      "width": 292,
+      "height": 476,
+      "right": 341,
+      "bottom": 4301.96875
+    },
+    "actions": {
+      "x": 49,
+      "y": 1851,
+      "width": 292,
+      "height": 357,
+      "right": 341,
+      "bottom": 2208
+    },
+    "heading": "china sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet",
+    "body": "china-sourcing-supplier-comparison-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-handoff-review-v1\n\nchina sourcing supplier comparison handoff handoff handoff handoff handoff handoff handoff handoff handoff handoff review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link: Not configured\nApprove: Not configured\nNeeds fix: Not configured\nMagic resend after fix: Not configured\n\nActions are not configured. Before sharing this packet, replace these placeholders with verified test, review and feedback links. This scaffold does not record approvals or resend email.\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+    "links": [],
+    "cells": [
+      {
+        "tag": "TH",
+        "text": "Component",
+        "rect": {
+          "x": 49,
+          "y": 3826.46875,
+          "width": 97.328125,
+          "height": 145,
+          "right": 146.328125,
+          "bottom": 3971.46875
+        }
+      },
+      {
+        "tag": "TH",
+        "text": "Proof",
+        "rect": {
+          "x": 146.328125,
+          "y": 3826.46875,
+          "width": 97.328125,
+          "height": 145,
+          "right": 243.65625,
+          "bottom": 3971.46875
+        }
+      },
+      {
+        "tag": "TH",
+        "text": "Correction prompt",
+        "rect": {
+          "x": 243.65625,
+          "y": 3826.46875,
+          "width": 97.34375,
+          "height": 145,
+          "right": 341,
+          "bottom": 3971.46875
+        }
+      },
+      {
+        "tag": "TD",
+        "text": "surface.primary",
+        "rect": {
+          "x": 49,
+          "y": 3971.46875,
+          "width": 97.328125,
+          "height": 330.5,
+          "right": 146.328125,
+          "bottom": 4301.96875
+        }
+      },
+      {
+        "tag": "TD",
+        "text": "before / after / diff pending",
+        "rect": {
+          "x": 146.328125,
+          "y": 3971.46875,
+          "width": 97.328125,
+          "height": 330.5,
+          "right": 243.65625,
+          "bottom": 4301.96875
+        }
+      },
+      {
+        "tag": "TD",
+        "text": "Attach a component-scoped fix prompt if the snippet fails.",
+        "rect": {
+          "x": 243.65625,
+          "y": 3971.46875,
+          "width": 97.34375,
+          "height": 330.5,
+          "right": 341,
+          "bottom": 4301.96875
+        }
+      }
+    ]
+  }
+}

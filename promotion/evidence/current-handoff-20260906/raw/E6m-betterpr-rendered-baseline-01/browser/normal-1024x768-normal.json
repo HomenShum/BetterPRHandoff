@@ -1,0 +1,806 @@
+{
+  "url": "http://127.0.0.1:54370/normal",
+  "viewport": {
+    "width": 1024,
+    "height": 768
+  },
+  "scroll": {
+    "x": 0,
+    "y": 0
+  },
+  "document": {
+    "width": 1024,
+    "height": 768
+  },
+  "title": "china sourcing review v1 QA packet",
+  "heading": "china sourcing review v1 QA packet",
+  "featureId": "china-sourcing-review-v1",
+  "bodyText": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+  "targets": [
+    {
+      "tag": "MAIN",
+      "className": "card",
+      "text": "\n      china-sourcing-review-v1\n      china sourcing review v1 QA packet\n      Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n      \n        Open test link\n        Approve\n        Needs fix\n        Magic resend after fix\n      \n      What changed for end users\n      Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n      Workflow lanes\n      \n        New or empty user state\n        Returning user state\n        Main happy path\n        Comment/edit correction\n        Mobile state\n      \n      Snapshot snippets\n      \n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      \n    ",
+      "href": null,
+      "rect": {
+        "x": 107,
+        "y": 24,
+        "width": 810,
+        "height": 640.4375,
+        "right": 917,
+        "bottom": 664.4375,
+        "scrollWidth": 808,
+        "clientWidth": 808
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "P",
+      "className": "",
+      "text": "china-sourcing-review-v1",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 65,
+        "width": 760,
+        "height": 18,
+        "right": 892,
+        "bottom": 83,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "CODE",
+      "className": "",
+      "text": "china-sourcing-review-v1",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 65,
+        "width": 181.546875,
+        "height": 19,
+        "right": 313.546875,
+        "bottom": 84,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          241,
+          230,
+          220
+        ],
+        "ratio": 14.325672634870536,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "H1",
+      "className": "",
+      "text": "china sourcing review v1 QA packet",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 99,
+        "width": 760,
+        "height": 35,
+        "right": 892,
+        "bottom": 134,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "30px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "P",
+      "className": "",
+      "text": "Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 150,
+        "width": 760,
+        "height": 18,
+        "right": 892,
+        "bottom": 168,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "P",
+      "className": "",
+      "text": "\n        Open test link\n        Approve\n        Needs fix\n        Magic resend after fix\n      ",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 184,
+        "width": 760,
+        "height": 54,
+        "right": 892,
+        "bottom": 238,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "A",
+      "className": "button",
+      "text": "Open test link",
+      "href": "#",
+      "rect": {
+        "x": 132,
+        "y": 192,
+        "width": 133.796875,
+        "height": 38,
+        "right": 265.796875,
+        "bottom": 230,
+        "scrollWidth": 134,
+        "clientWidth": 134
+      },
+      "contrast": {
+        "color": "rgb(255, 255, 255)",
+        "background": [
+          189,
+          74,
+          42
+        ],
+        "ratio": 5.027882507327991,
+        "fontSize": "16px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "A",
+      "className": "button",
+      "text": "Approve",
+      "href": "#",
+      "rect": {
+        "x": 278.25,
+        "y": 192,
+        "width": 92.90625,
+        "height": 38,
+        "right": 371.15625,
+        "bottom": 230,
+        "scrollWidth": 93,
+        "clientWidth": 93
+      },
+      "contrast": {
+        "color": "rgb(255, 255, 255)",
+        "background": [
+          189,
+          74,
+          42
+        ],
+        "ratio": 5.027882507327991,
+        "fontSize": "16px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "A",
+      "className": "button",
+      "text": "Needs fix",
+      "href": "#",
+      "rect": {
+        "x": 383.609375,
+        "y": 192,
+        "width": 99.140625,
+        "height": 38,
+        "right": 482.75,
+        "bottom": 230,
+        "scrollWidth": 99,
+        "clientWidth": 99
+      },
+      "contrast": {
+        "color": "rgb(255, 255, 255)",
+        "background": [
+          189,
+          74,
+          42
+        ],
+        "ratio": 5.027882507327991,
+        "fontSize": "16px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "A",
+      "className": "button",
+      "text": "Magic resend after fix",
+      "href": "#",
+      "rect": {
+        "x": 495.203125,
+        "y": 192,
+        "width": 192.5,
+        "height": 38,
+        "right": 687.703125,
+        "bottom": 230,
+        "scrollWidth": 193,
+        "clientWidth": 193
+      },
+      "contrast": {
+        "color": "rgb(255, 255, 255)",
+        "background": [
+          189,
+          74,
+          42
+        ],
+        "ratio": 5.027882507327991,
+        "fontSize": "16px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "H2",
+      "className": "",
+      "text": "What changed for end users",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 257.90625,
+        "width": 760,
+        "height": 28,
+        "right": 892,
+        "bottom": 285.90625,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "24px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "P",
+      "className": "",
+      "text": "Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 305.8125,
+        "width": 760,
+        "height": 36,
+        "right": 892,
+        "bottom": 341.8125,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "H2",
+      "className": "",
+      "text": "Workflow lanes",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 361.71875,
+        "width": 760,
+        "height": 28,
+        "right": 892,
+        "bottom": 389.71875,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "24px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "New or empty user state",
+      "href": null,
+      "rect": {
+        "x": 172,
+        "y": 409.625,
+        "width": 720,
+        "height": 18,
+        "right": 892,
+        "bottom": 427.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "Returning user state",
+      "href": null,
+      "rect": {
+        "x": 172,
+        "y": 427.625,
+        "width": 720,
+        "height": 18,
+        "right": 892,
+        "bottom": 445.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "Main happy path",
+      "href": null,
+      "rect": {
+        "x": 172,
+        "y": 445.625,
+        "width": 720,
+        "height": 18,
+        "right": 892,
+        "bottom": 463.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "Comment/edit correction",
+      "href": null,
+      "rect": {
+        "x": 172,
+        "y": 463.625,
+        "width": 720,
+        "height": 18,
+        "right": 892,
+        "bottom": 481.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "LI",
+      "className": "",
+      "text": "Mobile state",
+      "href": null,
+      "rect": {
+        "x": 172,
+        "y": 481.625,
+        "width": 720,
+        "height": 18,
+        "right": 892,
+        "bottom": 499.625,
+        "scrollWidth": 720,
+        "clientWidth": 720
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "16px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "H2",
+      "className": "",
+      "text": "Snapshot snippets",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 519.53125,
+        "width": 760,
+        "height": 28,
+        "right": 892,
+        "bottom": 547.53125,
+        "scrollWidth": 760,
+        "clientWidth": 760
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "24px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "TH",
+      "className": "",
+      "text": "Component",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 567.9375,
+        "width": 158.25,
+        "height": 36,
+        "right": 290.25,
+        "bottom": 603.9375,
+        "scrollWidth": 158,
+        "clientWidth": 158
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "TH",
+      "className": "",
+      "text": "Proof",
+      "href": null,
+      "rect": {
+        "x": 290.25,
+        "y": 567.9375,
+        "width": 197.8125,
+        "height": 36,
+        "right": 488.0625,
+        "bottom": 603.9375,
+        "scrollWidth": 198,
+        "clientWidth": 198
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "TH",
+      "className": "",
+      "text": "Correction prompt",
+      "href": null,
+      "rect": {
+        "x": 488.0625,
+        "y": 567.9375,
+        "width": 403.9375,
+        "height": 36,
+        "right": 892,
+        "bottom": 603.9375,
+        "scrollWidth": 404,
+        "clientWidth": 404
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "700"
+      }
+    },
+    {
+      "tag": "TD",
+      "className": "",
+      "text": "surface.primary",
+      "href": null,
+      "rect": {
+        "x": 132,
+        "y": 603.9375,
+        "width": 158.25,
+        "height": 35.5,
+        "right": 290.25,
+        "bottom": 639.4375,
+        "scrollWidth": 158,
+        "clientWidth": 158
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "CODE",
+      "className": "",
+      "text": "surface.primary",
+      "href": null,
+      "rect": {
+        "x": 142,
+        "y": 612.4375,
+        "width": 117.21875,
+        "height": 19,
+        "right": 259.21875,
+        "bottom": 631.4375,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          241,
+          230,
+          220
+        ],
+        "ratio": 14.325672634870536,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "TD",
+      "className": "",
+      "text": "before / after / diff pending",
+      "href": null,
+      "rect": {
+        "x": 290.25,
+        "y": 603.9375,
+        "width": 197.8125,
+        "height": 35.5,
+        "right": 488.0625,
+        "bottom": 639.4375,
+        "scrollWidth": 198,
+        "clientWidth": 198
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    },
+    {
+      "tag": "TD",
+      "className": "",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "href": null,
+      "rect": {
+        "x": 488.0625,
+        "y": 603.9375,
+        "width": 403.9375,
+        "height": 35.5,
+        "right": 892,
+        "bottom": 639.4375,
+        "scrollWidth": 404,
+        "clientWidth": 404
+      },
+      "contrast": {
+        "color": "rgb(35, 22, 15)",
+        "background": [
+          255,
+          250,
+          243
+        ],
+        "ratio": 16.947451509465164,
+        "fontSize": "13px",
+        "fontWeight": "400"
+      }
+    }
+  ],
+  "outlying": [],
+  "links": [
+    {
+      "text": "Open test link",
+      "href": "#",
+      "resolved": "http://127.0.0.1:54370/normal#",
+      "rect": {
+        "x": 132,
+        "y": 192,
+        "width": 133.796875,
+        "height": 38,
+        "right": 265.796875,
+        "bottom": 230,
+        "scrollWidth": 134,
+        "clientWidth": 134
+      }
+    },
+    {
+      "text": "Approve",
+      "href": "#",
+      "resolved": "http://127.0.0.1:54370/normal#",
+      "rect": {
+        "x": 278.25,
+        "y": 192,
+        "width": 92.90625,
+        "height": 38,
+        "right": 371.15625,
+        "bottom": 230,
+        "scrollWidth": 93,
+        "clientWidth": 93
+      }
+    },
+    {
+      "text": "Needs fix",
+      "href": "#",
+      "resolved": "http://127.0.0.1:54370/normal#",
+      "rect": {
+        "x": 383.609375,
+        "y": 192,
+        "width": 99.140625,
+        "height": 38,
+        "right": 482.75,
+        "bottom": 230,
+        "scrollWidth": 99,
+        "clientWidth": 99
+      }
+    },
+    {
+      "text": "Magic resend after fix",
+      "href": "#",
+      "resolved": "http://127.0.0.1:54370/normal#",
+      "rect": {
+        "x": 495.203125,
+        "y": 192,
+        "width": 192.5,
+        "height": 38,
+        "right": 687.703125,
+        "bottom": 230,
+        "scrollWidth": 193,
+        "clientWidth": 193
+      }
+    }
+  ],
+  "active": {
+    "tag": "BODY",
+    "text": "\n    \n      china-sourcing-review-v1\n      china sourcing review v1 QA packet\n      Open this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n      \n        Open test link\n        Approve\n        Needs fix\n        Magic resend after fix\n      \n      What changed for end users\n      Replace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n      Workflow lanes\n      \n        New or empty user state\n        Returning user state\n        Main happy path\n        Comment/edit correction\n        Mobile state\n      \n      Snapshot snippets\n      \n        \n          \n            Component\n            Proof\n            Correction prompt\n          \n        \n        \n          \n            surface.primary\n            before / after / diff pending\n            Attach a component-scoped fix prompt if the snippet fails.\n          \n        \n      \n    \n  \n\n",
+    "href": null,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1024,
+      "height": 688.4375,
+      "right": 1024,
+      "bottom": 688.4375,
+      "scrollWidth": 1024,
+      "clientWidth": 1024
+    },
+    "outline": "rgb(35, 22, 15) none 3px",
+    "outlineOffset": "0px"
+  },
+  "fontsStatus": "loaded",
+  "reduced": false,
+  "scripts": 0
+}

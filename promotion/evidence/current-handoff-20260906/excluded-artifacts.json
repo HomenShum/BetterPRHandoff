@@ -1,0 +1,848 @@
+{
+  "scope": "Finite named directory entries and direct browser artifacts only. This is not an inventory of all operator evidence.",
+  "omittedFiles": [
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/artifact-manifest.json",
+      "bytes": 30903,
+      "sha256": "89599f23fc23e2a4de4feba3edb1571e8eeebd1d89ca4f147e96737247860632",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-1024x768-normal-full.png",
+      "bytes": 75242,
+      "sha256": "b5d3cd2fd9a1433a82c351bfe5703c9bcd3a005ef624557af824a0bc52d2ee01",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-1440x960-normal-full.png",
+      "bytes": 79145,
+      "sha256": "ad544b3bcb49ceed5ac3b068ae183a71aa6ef11d9031945a1a1b8a8e4d79c7c6",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-1440x960-reduced-full.png",
+      "bytes": 79145,
+      "sha256": "ad544b3bcb49ceed5ac3b068ae183a71aa6ef11d9031945a1a1b8a8e4d79c7c6",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-1440x960-text200-full.png",
+      "bytes": 236346,
+      "sha256": "0e93895629cee41c8600c21cebec6fb9357306ed9d9dbb21c273fdb81576845e",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-1920x1080-normal-full.png",
+      "bytes": 81990,
+      "sha256": "ad83a55b5e527fec672f546071784e66b728619271c1e7ee28fb58b446a5dffd",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-320x800-normal-full.png",
+      "bytes": 86804,
+      "sha256": "34e5d8afd4a6d358583fdf09cb38ea00e29decca82edd0cd7954927b5df2752e",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-360x800-normal-full.png",
+      "bytes": 77229,
+      "sha256": "c0d7f1e25d4f3c1fae179cb20a89dd338c37ec6ddd6229460163a2853b98a5fc",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-390x844-normal-full.png",
+      "bytes": 77516,
+      "sha256": "81a24157edfc76a4ffc34e28bdea7785f093ac38d86e09815b9d3d416748c598",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-390x844-reduced-full.png",
+      "bytes": 77516,
+      "sha256": "81a24157edfc76a4ffc34e28bdea7785f093ac38d86e09815b9d3d416748c598",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-390x844-text200-full.png",
+      "bytes": 268242,
+      "sha256": "6517dd5742edc56aaa8e198a633ab43fb854c4d0f8ff9025be8213c91ed5ec24",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/long-768x1024-normal-full.png",
+      "bytes": 74082,
+      "sha256": "d2994f49c3a4c2fda4a2538e1f5bd5c5d76e30728007cbaa657b1114a9d588c5",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-1024x768-normal-full.png",
+      "bytes": 53207,
+      "sha256": "448e786690b9cdae5add47abf0ba75edf30d9ea70c4ffa528bc7fbdf3cce622d",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-normal-full.png",
+      "bytes": 56624,
+      "sha256": "250141962f70d3f19546504f4b8cdb9891c8419dec496a536479c8763e018b9b",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-reduced-full.png",
+      "bytes": 56624,
+      "sha256": "250141962f70d3f19546504f4b8cdb9891c8419dec496a536479c8763e018b9b",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-1440x960-text200-full.png",
+      "bytes": 165932,
+      "sha256": "b66231b118e545e3b12377a0a5177877cc92fabb4a7ac2155e7deedf3e91f7b0",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-1920x1080-normal-full.png",
+      "bytes": 59691,
+      "sha256": "63ffb76ed6747f377fd296bb9c917709a2b882d30691fc390d8dfad4b8355586",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-320x800-normal-full.png",
+      "bytes": 54769,
+      "sha256": "4d98f6b4b182e8da7c4f708443d2addf165d03df11bf18bf67897d0e6af30835",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-360x800-normal-full.png",
+      "bytes": 52955,
+      "sha256": "42544307704409e0c3f7afc6d3a9329846f09a1996135575eac7ced5d017eddf",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-390x844-normal-full.png",
+      "bytes": 53120,
+      "sha256": "17781ae270d3865839bee01bb11438eb5d5e6a152584f8f11dd66dee8d841c4b",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-390x844-reduced-full.png",
+      "bytes": 53120,
+      "sha256": "17781ae270d3865839bee01bb11438eb5d5e6a152584f8f11dd66dee8d841c4b",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-390x844-text200-full.png",
+      "bytes": 182917,
+      "sha256": "52222c0a125e578aa837d0b90aa95d7d61b014b7e2703d8bfd6a90949feb90dd",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser/normal-768x1024-normal-full.png",
+      "bytes": 52767,
+      "sha256": "ba3a03ded582055e62c4f3a0b7ccdc190468e5570877b1bfb816c801a08b5339",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser-command.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/browser-command.stdout.txt",
+      "bytes": 2495,
+      "sha256": "49eb64710adcde52daa8a74c610d80400323b635904dcd489d49901c9b2872dd",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/child-environment-policy.json",
+      "reason": "Environment/profile inventory omitted without reading its bytes."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/config.json",
+      "bytes": 37138,
+      "sha256": "ce110a1e3fc396056028a619b6f26f38af80d235d3c9580830f47b48a2d2d450",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/controller-preflight.py.txt",
+      "bytes": 10944,
+      "sha256": "14768965b851dcdc8fa0f6744d6cae49590d91e34335e4fbaac4e23ac44ec297",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/entry-custody.json",
+      "bytes": 39528,
+      "sha256": "b00d0523d92668c1cbd9e5c11305c06effb0a37fd17155d4fc91d81eba17d0f8",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/exit-custody.json",
+      "bytes": 39528,
+      "sha256": "b00d0523d92668c1cbd9e5c11305c06effb0a37fd17155d4fc91d81eba17d0f8",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/preflight.json",
+      "bytes": 1038,
+      "sha256": "564658b7588efff3b75bdc7a3a4b7fc036d320a4183bf87a5025444577479bce",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/prepared-input-custody.json",
+      "bytes": 39528,
+      "sha256": "b00d0523d92668c1cbd9e5c11305c06effb0a37fd17155d4fc91d81eba17d0f8",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/recorder-preflight.mjs.txt",
+      "bytes": 15236,
+      "sha256": "ae0067edbf4ad4f406e663336aaa9d0e03bafdb4daf1821190ef7a6273e79498",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/syntax-check.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-rendered-baseline-01/syntax-check.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-1024x768-normal-full.png",
+      "bytes": 86852,
+      "sha256": "42342585fde17054fa3e210294b2d141605519712185631bf5f196270aa49481",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-1440x960-normal-full.png",
+      "bytes": 89865,
+      "sha256": "9ff5730c3126351026ac050d48e7c87e725bef7bd36acc08198391630f09a3fd",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-1440x960-reduced-full.png",
+      "bytes": 89865,
+      "sha256": "9ff5730c3126351026ac050d48e7c87e725bef7bd36acc08198391630f09a3fd",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-1440x960-text200-full.png",
+      "bytes": 283002,
+      "sha256": "cf7713e301bbb4db2768ad811842577cbf4618b30feb6a9b64af0cd1606feb72",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-1920x1080-normal-full.png",
+      "bytes": 93446,
+      "sha256": "f7d93e55af195289e698740b7bb58039aa1581d0998a645b1747ce75d9a0a120",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-320x800-normal-full.png",
+      "bytes": 93925,
+      "sha256": "d18e15542349fd60fd1bfc2780a5e6a0522ab74b6fb7c0e9ff21a861b8752d2b",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-360x800-normal-full.png",
+      "bytes": 84599,
+      "sha256": "5c5f736dfd6ec919c6bfa7305e4a5c9ba3551f80a1004a6f137164b8e4130887",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-390x844-normal-full.png",
+      "bytes": 84587,
+      "sha256": "8021512c46fecb1dc6bfc68787e123116ce3a2c62cd9017401e67f5450e112a5",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-390x844-reduced-full.png",
+      "bytes": 84587,
+      "sha256": "8021512c46fecb1dc6bfc68787e123116ce3a2c62cd9017401e67f5450e112a5",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-390x844-text200-full.png",
+      "bytes": 311814,
+      "sha256": "caf9c3ad4c47e512f27d711cbc93cbc1401ce18cb533c8041274a51fd210228f",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/long-768x1024-normal-full.png",
+      "bytes": 84746,
+      "sha256": "f243df0ce547f6d1ed3f711790b8b936dd10804b5a84ef46aca61c93d5573d9d",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-1024x768-normal-full.png",
+      "bytes": 63968,
+      "sha256": "dec7c4d73245af8bc4e08e41565a9c13bd66d6fc12417a4e853d6a388503af30",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-1440x960-normal-full.png",
+      "bytes": 67705,
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-1440x960-reduced-full.png",
+      "bytes": 67705,
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-1440x960-text200-full.png",
+      "bytes": 212556,
+      "sha256": "bca6a1f4468e0e7f5b2dde7e51db3483d67219d838e408864d03e51cd77bd822",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-1920x1080-normal-full.png",
+      "bytes": 70921,
+      "sha256": "000e2e5b3c2dbe1515c782481021dd1917ea4da1a22e35eb025ba8a2c67be297",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-320x800-normal-full.png",
+      "bytes": 62203,
+      "sha256": "867dc9454af61cca13f57b453b42a901c82328cf5589942a6472b956fb0877f4",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-360x800-normal-full.png",
+      "bytes": 60148,
+      "sha256": "74c99e086d652d7fa21f98fb08d16f54518b52d735e64e1c734dbcfbca73d35c",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-390x844-normal-full.png",
+      "bytes": 59998,
+      "sha256": "852733b626c62cd0eabd6d19522ad5e1fefaee6b90947bf0c48adaff63bb7e31",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-390x844-reduced-full.png",
+      "bytes": 59998,
+      "sha256": "852733b626c62cd0eabd6d19522ad5e1fefaee6b90947bf0c48adaff63bb7e31",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-390x844-text200-full.png",
+      "bytes": 227733,
+      "sha256": "117cfdafe416d2ba2240ce86b7d965f212a17f8cf2f0c6ccece8ca27d062b9a6",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/browser/normal-768x1024-normal-full.png",
+      "bytes": 63461,
+      "sha256": "4de254adcc11f770d37f9662876c9359cfe8d7363cae3526c684731decd0bb33",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/command.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/command.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/config.json",
+      "bytes": 46166,
+      "sha256": "ca6ba2b25710137fcb2988586cbc608f194580a24f3a531d1cea9f58f52ebbe6",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/controller-preflight.py.txt",
+      "bytes": 10700,
+      "sha256": "bbfcc9b649e7d0720c6afaa364770a88b06667c27f950eca0ab9df84a8016bf5",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/entry-custody.json",
+      "bytes": 51339,
+      "sha256": "fa6e0b19608b5ec5921954d309154864567f278aab019195682fcd24f3323485",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/environment-policy.json",
+      "reason": "Environment/profile inventory omitted without reading its bytes."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/exit-custody.json",
+      "bytes": 51339,
+      "sha256": "fa6e0b19608b5ec5921954d309154864567f278aab019195682fcd24f3323485",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/manifest.json",
+      "bytes": 62863,
+      "sha256": "ac60a6abc333fddfa66a098b4826efae359ed995340106229c163e36f1aabd36",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/preflight.json",
+      "bytes": 1093,
+      "sha256": "a2d9834827d0db5ac04d45f1bb06dba8855f2d4fd58f1a1dd87bd0fb8fea32a0",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/prepared-custody.json",
+      "bytes": 51339,
+      "sha256": "fa6e0b19608b5ec5921954d309154864567f278aab019195682fcd24f3323485",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/recorder-preflight.mjs.txt",
+      "bytes": 16262,
+      "sha256": "2ee6afb9bf0eeaeff43fd6ab4f5bd4027b827b175c76273be235271c5b25be3c",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/syntax.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-after-01/syntax.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/browser/long-1440x960-normal-full.png",
+      "bytes": 89865,
+      "sha256": "9ff5730c3126351026ac050d48e7c87e725bef7bd36acc08198391630f09a3fd",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/browser/long-320x800-normal-full.png",
+      "bytes": 93925,
+      "sha256": "d18e15542349fd60fd1bfc2780a5e6a0522ab74b6fb7c0e9ff21a861b8752d2b",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/browser/long-390x844-text200-full.png",
+      "bytes": 310607,
+      "sha256": "75ab8039a676391b3e07d4775044b9fc5284eb51e86d61574e8027f8dc2216c2",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/browser/normal-1440x960-normal-full.png",
+      "bytes": 67705,
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/browser/normal-320x800-normal-full.png",
+      "bytes": 62203,
+      "sha256": "867dc9454af61cca13f57b453b42a901c82328cf5589942a6472b956fb0877f4",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/browser/normal-390x844-text200-full.png",
+      "bytes": 227733,
+      "sha256": "117cfdafe416d2ba2240ce86b7d965f212a17f8cf2f0c6ccece8ca27d062b9a6",
+      "reason": "Illustrative full-page image omitted; native viewport PNG and structured state retained."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/config.json",
+      "bytes": 47555,
+      "sha256": "5c907d6c3141a618c917e3e3c5191a2a02ba7a38604d5705ec9be61133110430",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/entry-custody.json",
+      "bytes": 52654,
+      "sha256": "d74606be94596e15f2646131b48ef93aba32dc7cbca1121be1f62f93948d3c01",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/environment-policy.json",
+      "reason": "Environment/profile inventory omitted without reading its bytes."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/exit-custody.json",
+      "bytes": 52654,
+      "sha256": "d74606be94596e15f2646131b48ef93aba32dc7cbca1121be1f62f93948d3c01",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/manifest.json",
+      "bytes": 16606,
+      "sha256": "10b28e5065b806cf9c9b78ecd5ee0b2f729528f523569944fd94bb2efa018257",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/preflight.json",
+      "bytes": 1161,
+      "sha256": "766097be75bd666312fd1cb9fd11758aa21559f4b63db15418d3a1a6e3ebf57b",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/prepared-custody.json",
+      "bytes": 52654,
+      "sha256": "d74606be94596e15f2646131b48ef93aba32dc7cbca1121be1f62f93948d3c01",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/syntax.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-01/syntax.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/320x800-normal-actions-labelled.dom.html.txt",
+      "bytes": 4275,
+      "sha256": "fdb52a091aa3a6c42d7f5a155adb1678b692c9c90122a5fd4e3ce5df1386f86c",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/320x800-normal-table-labelled.dom.html.txt",
+      "bytes": 4273,
+      "sha256": "62ee7280f659a60281fdb29a56ce1db6250b1d74920d0c31ecd426125721bd76",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/360x800-normal-actions-labelled.dom.html.txt",
+      "bytes": 4275,
+      "sha256": "488266a1acf1c47c3f0e5bc9da1914ca566a4066b1889fa29fe73f89654072d9",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/360x800-normal-table-labelled.dom.html.txt",
+      "bytes": 4273,
+      "sha256": "7da383b18ca307ccd77cb6502bc49d8731d6b2f40b2f1c11e6e3371985b5437e",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/390-fonts.json",
+      "bytes": 626,
+      "sha256": "ca80676cdc8ac58989d4c98425aed28de24f68a6580b7d4b9c140cb4078989b1",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/390x844-text200-actions-labelled.dom.html.txt",
+      "bytes": 5100,
+      "sha256": "55eca5a55a717ac666b26af3449f33dbf50d1c414589e3811d69164f812a812d",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/390x844-text200-table-labelled.dom.html.txt",
+      "bytes": 5099,
+      "sha256": "ae00f622872165fb4a346a1ac01bd0cd44725d9bd5f6716462062b61938fd6ab",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/command.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/command.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/config.json",
+      "bytes": 13967,
+      "sha256": "1d092a92257babf9e79b20eea318fa77228713ae28ac568adc7e716ada73c393",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/controller.py.txt",
+      "bytes": 5459,
+      "sha256": "e56f08d0af1a67fa1c8a9d21b595efa561eafd8191f62b67bc435ef866df5fe2",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/environment-policy.json",
+      "reason": "Environment/profile inventory omitted without reading its bytes."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/input-entry.json",
+      "bytes": 12103,
+      "sha256": "e51cb5fab4c06f81df056c4a6af892c508c34b35a920401cb76b69fbb90fa486",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/input-exit.json",
+      "bytes": 12103,
+      "sha256": "e51cb5fab4c06f81df056c4a6af892c508c34b35a920401cb76b69fbb90fa486",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/manifest.json",
+      "bytes": 8537,
+      "sha256": "e9cf1d91806c55fdd76e7dae7926e0b2afd95ca3f939d09ea2339c049569e48d",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/plan-freeze.json",
+      "bytes": 1592,
+      "sha256": "ddf8729d116e49e7911a5c03fd99fb529640a2f3a97912dc85f6986d2f4ad278",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-boundaries-before-01/recorder.mjs.txt",
+      "bytes": 8739,
+      "sha256": "eca7672dafff4da3dcf72f2698365af534f61176933109c093dcb03de9691cf6",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/390-fonts.json",
+      "bytes": 706,
+      "sha256": "8be2f287ebce4ea34e5c9df4516767e41314eee1bcc0c8b8fbcfe37f5a493564",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/390x844-text200-heading-labelled.dom.html.txt",
+      "bytes": 5659,
+      "sha256": "090d5d4e4a735dd0a66a36f638358bac0b39f7115cbb7a5d4f9d05d656e29051",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/command.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/command.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/config.json",
+      "bytes": 45841,
+      "sha256": "57477fe9b40ad7838a6fdc2cfa4b39f5870b3edd8cfd29b89e6af69621a294cb",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/controller.py.txt",
+      "bytes": 5264,
+      "sha256": "1781e21ba08ad155125b1eb450de3203951555d69355da986bc8e32ea2daf3ec",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/environment-policy.json",
+      "reason": "Environment/profile inventory omitted without reading its bytes."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/input-entry.json",
+      "bytes": 42073,
+      "sha256": "08b11fde0e00917caa057c94534072a3e5a360f7b7c082924737cead3ed04e59",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/input-exit.json",
+      "bytes": 42073,
+      "sha256": "08b11fde0e00917caa057c94534072a3e5a360f7b7c082924737cead3ed04e59",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/manifest.json",
+      "bytes": 3202,
+      "sha256": "81b514aa26a5264511af3da2cead4e16665b6b2afab9c4ce173eee20b8258785",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-h1-before-01/recorder.mjs.txt",
+      "bytes": 8305,
+      "sha256": "c30402e5edd9487c27a2b91cbcde0686497f7afd4910b14aff81b92a4f5c6daa",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-repaired-consumer-01/child-environment.json",
+      "reason": "Environment/profile inventory omitted without reading its bytes."
+    },
+    {
+      "origin": "E6m-betterpr-repaired-consumer-01/originals-before.json",
+      "bytes": 19341,
+      "sha256": "d767f1c77636b09d08d2e08e463f341270046b5b8ea6187e9e84e79cd181d386",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-heading-consumer-01/child-environment.json",
+      "reason": "Environment/profile inventory omitted without reading its bytes."
+    },
+    {
+      "origin": "E6m-betterpr-heading-consumer-01/originals-before.json",
+      "bytes": 19341,
+      "sha256": "d767f1c77636b09d08d2e08e463f341270046b5b8ea6187e9e84e79cd181d386",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-inputs-01/manifest.json",
+      "bytes": 2216,
+      "sha256": "0ed2f2e4d71f3fc044e514478651c479a206333505c77e8ac8449577d12ec65d",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-inputs-01/request.json",
+      "bytes": 36728,
+      "sha256": "9cef382ddda08fe8ca713328a27f21124be939434d3e1e2e70cdd2969b08b158",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/branch.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/branch.stdout.txt",
+      "bytes": 48,
+      "sha256": "86c5b5093c6ac6c5058412db40972425e16dbfde97033645c672a5825f4c3f9f",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/head.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/head.stdout.txt",
+      "bytes": 41,
+      "sha256": "8ce267050eaf46cdf233987efd676e6fce5dfd2cf65166b2c49c91acaa5ef734",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/indexEntries.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/indexEntries.stdout.txt",
+      "bytes": 5201,
+      "sha256": "e2a6d22dd165496bdc0d2c74e2be974efb2d9f8516cee5f85b027b8e203b9115",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/indexPath.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/indexPath.stdout.txt",
+      "bytes": 133,
+      "sha256": "6896a32eb34f6845b0108292fccd13eb2885f1af029580d1af1a0510b27b06d8",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/manifest.json",
+      "bytes": 5419,
+      "sha256": "ea22a0cd0bda78b6e43b98952d7c1ed5d427c073dc0dc3c5d413ab347191b9d8",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/refs.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/refs.stdout.txt",
+      "bytes": 814,
+      "sha256": "44aa2c6f51858263f0cbfe558468104d0282c7c6d81d5b3991fd4ab67eda2c35",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/status.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/status.stdout.txt",
+      "bytes": 549,
+      "sha256": "6889430ba85670b90396167eb2a2d56db17361d5b187a4d463354ba0a9f9c7b0",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/tree.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    },
+    {
+      "origin": "E6m-betterpr-html-final-judge-01/tree.stdout.txt",
+      "bytes": 41,
+      "sha256": "c772c9c449cb8178230a7ec4c2849a865af402d95441189f39a9462fed6dcee6",
+      "reason": "Overlapping configuration, custody or syntax receipt retained operator-local."
+    }
+  ],
+  "excludedSubtrees": [
+    {
+      "originDirectory": "E6m-betterpr-rendered-baseline-01/isolated-profile",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    },
+    {
+      "originDirectory": "E6m-betterpr-rendered-baseline-01/runtime-temp",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    },
+    {
+      "originDirectory": "E6m-betterpr-html-after-01/owned-profile",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    },
+    {
+      "originDirectory": "E6m-betterpr-html-after-01/owned-temp",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    },
+    {
+      "originDirectory": "E6m-betterpr-html-final-01/owned-profile",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    },
+    {
+      "originDirectory": "E6m-betterpr-html-final-01/owned-temp",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    },
+    {
+      "originDirectory": "E6m-betterpr-html-boundaries-before-01/owned-profile",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    },
+    {
+      "originDirectory": "E6m-betterpr-html-boundaries-before-01/owned-temp",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    },
+    {
+      "originDirectory": "E6m-betterpr-h1-before-01/owned-profile",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    },
+    {
+      "originDirectory": "E6m-betterpr-h1-before-01/owned-temp",
+      "reason": "Excluded without traversal: owned profile, runtime state or overlapping source/fixture subtree."
+    }
+  ],
+  "privateOriginalCommand": {
+    "readOrCopied": false,
+    "originalDiagnosticSha256": "6cc26ad7d592a94b7494d7c49e88f06a06ca35c8b358cde650e0a152c2d2a215",
+    "reason": "Original unquoted command executed an unintended local file; stderr and aggregate command diagnostic stay private. See the explicit public summary."
+  },
+  "otherExclusions": [
+    "All original CLI baseline raw command streams except semantic observations; the unrelated original stderr is never read for this publication.",
+    "Profiles, environment/name inventories, npm caches, databases, private path inventories, whole source/installed-package copies.",
+    "Historical promotion files remain in the original repository and are not overwritten or repackaged into this folder.",
+    "An omitted full-page image, original browser session or private file cannot be reconstructed or certified from this packet."
+  ]
+}

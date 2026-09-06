@@ -1,0 +1,8 @@
+[2m→ Auto-detected mode: user[0m
+[32m→ Installing to:[0m D:\ProjectRecovery\betterprhandoff-repaired-first-use-20260906\cli journeys\auto-user\profile\.claude\skills\easier-to-read-submissions
+[32m✓[0m Installed.
+
+[1mNext steps:[0m
+  1. Tell your agent: "[36mFollow AGENTS.md (or SKILL.md) before every commit[0m"
+  2. Bootstrap your CHANGELOG: [36mnpx @homenshum/easier-to-read-submissions init[0m
+  3. Try it on your next commit.

@@ -1,0 +1,41 @@
+{
+  "at": "2026-09-06T04:22:22.532179+00:00",
+  "status": "EXACT_SELECTED_TEMPLATE_APPLIED_NO_RUNTIME",
+  "baseCommit": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "baseTree": "2724c85cc595fbd05e50c16b5ba6caf9b2d5c394",
+  "owner": "templates/gmail-magic-resend.html",
+  "changed": [
+    {
+      "before": {
+        "path": "templates/gmail-magic-resend.html",
+        "bytes": 3541,
+        "sha256": "f23bff53132de5579329fae9598046e42580a023e1fa8ebd1954328c65017f0e",
+        "rawGitBlob": "a44ce805496539456464812831f8fe651661d785"
+      },
+      "after": {
+        "path": "templates/gmail-magic-resend.html",
+        "bytes": 3601,
+        "sha256": "92dbb0deb2b3f8055f6def51bf231fd9f082dffaeb558c2290ddc738701f13ba",
+        "rawGitBlob": "dca9f078b00cf43a07e1872e05a482c960b29eff"
+      }
+    }
+  ],
+  "selectedTemplateSha256": "92dbb0deb2b3f8055f6def51bf231fd9f082dffaeb558c2290ddc738701f13ba",
+  "boundaryReceiptSha256": "3393ba2c7b4ef72e45afe16a7c9426227aca82159a08d7942fe28d975812fe81",
+  "diffSha256": "559dc4b4e05f1852f60c8fc2bbb5ae638b977431d2c47f532b04d8815981028f",
+  "sourceCount": 633,
+  "unchangedOtherSource": 632,
+  "primarySourceCount": 40,
+  "nestedSourceCount": 54,
+  "allPrimaryNestedAndGitUnchanged": true,
+  "historicalRawCopiesUnchanged": 554,
+  "historicalHtmlExamplesUnchanged": 2,
+  "indexAndRefsUnchanged": true,
+  "staged": false,
+  "runtimePackageBrowserTestCalls": 0,
+  "documentationApplied": false,
+  "externalDocProposal": "E6m-betterpr-readability-docs-proposal-01/proposal.json",
+  "externalDocProposalSha256": "6fe732bef17c35ed3054dd74c0e5800b38a1028ad5fab2345cb125602466b5c1",
+  "handoffBindingHandling": "Retain old 69-source packet unchanged; its optional source check is historical at 42e57. Bind fresh readability source/package/installed/observations in a separate dated successor proof after actual execution.",
+  "next": "Parent selects exact external doc delta; evidence judge prepares fresh package/after capture. No readability pass or grade claimed."
+}

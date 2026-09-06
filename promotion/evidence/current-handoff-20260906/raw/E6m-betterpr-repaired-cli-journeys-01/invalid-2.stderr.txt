@@ -1,0 +1,2 @@
+[31m✗ Bad category: widgets[0m
+[2m  Must be one of: pages, components, server, db, integrations, scripts[0m

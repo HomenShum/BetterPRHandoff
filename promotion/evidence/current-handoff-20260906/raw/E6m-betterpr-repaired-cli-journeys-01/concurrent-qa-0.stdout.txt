@@ -1,0 +1,2 @@
+[32m✓[0m Created [36mD:\ProjectRecovery\betterprhandoff-repaired-first-use-20260906\cli journeys\concurrent-qa\workspace\QA_DOGFOOD\shared-packet[0m
+[2m  Fill links/screenshots/GIF/MP4 after your Parity Studio run or browser QA pass.[0m

@@ -1,0 +1,165 @@
+{
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "scroll": {
+    "x": 0,
+    "y": 1853
+  },
+  "document": {
+    "width": 563,
+    "height": 2697
+  },
+  "card": {
+    "x": 24,
+    "y": -1829,
+    "width": 342,
+    "height": 2648.96875,
+    "right": 366,
+    "bottom": 819.96875
+  },
+  "contentRight": 341,
+  "table": {
+    "x": 49,
+    "y": 504.96875,
+    "width": 514.265625,
+    "height": 290,
+    "right": 563.265625,
+    "bottom": 794.96875
+  },
+  "actions": {
+    "x": 49,
+    "y": -1040,
+    "width": 292,
+    "height": 329,
+    "right": 341,
+    "bottom": -711
+  },
+  "heading": "china sourcing review v1 QA packet",
+  "body": "china-sourcing-review-v1\n\nchina sourcing review v1 QA packet\n\nOpen this from Gmail on desktop or phone. Fill links after capture, GIF, and MP4 generation.\n\nOpen test link Approve Needs fix Magic resend after fix\n\nWhat changed for end users\n\nReplace this paragraph with the end-user impact. Explain whether the change improves clarity, speed, trust, accessibility, or completion rate.\n\nWorkflow lanes\nNew or empty user state\nReturning user state\nMain happy path\nComment/edit correction\nMobile state\nSnapshot snippets\nComponent\tProof\tCorrection prompt\nsurface.primary\tbefore / after / diff pending\tAttach a component-scoped fix prompt if the snippet fails.",
+  "links": [
+    {
+      "text": "Open test link",
+      "href": "#",
+      "rect": {
+        "x": 49,
+        "y": -1032,
+        "width": 239.59375,
+        "height": 57,
+        "right": 288.59375,
+        "bottom": -975
+      }
+    },
+    {
+      "text": "Approve",
+      "href": "#",
+      "rect": {
+        "x": 49,
+        "y": -959,
+        "width": 157.796875,
+        "height": 57,
+        "right": 206.796875,
+        "bottom": -902
+      }
+    },
+    {
+      "text": "Needs fix",
+      "href": "#",
+      "rect": {
+        "x": 49,
+        "y": -886,
+        "width": 170.28125,
+        "height": 57,
+        "right": 219.28125,
+        "bottom": -829
+      }
+    },
+    {
+      "text": "Magic resend after fix",
+      "href": "#",
+      "rect": {
+        "x": 49,
+        "y": -813,
+        "width": 284,
+        "height": 94,
+        "right": 333,
+        "bottom": -719
+      }
+    }
+  ],
+  "cells": [
+    {
+      "tag": "TH",
+      "text": "Component",
+      "rect": {
+        "x": 49,
+        "y": 505.46875,
+        "width": 244.4375,
+        "height": 83,
+        "right": 293.4375,
+        "bottom": 588.46875
+      }
+    },
+    {
+      "tag": "TH",
+      "text": "Proof",
+      "rect": {
+        "x": 293.4375,
+        "y": 505.46875,
+        "width": 112.53125,
+        "height": 83,
+        "right": 405.96875,
+        "bottom": 588.46875
+      }
+    },
+    {
+      "tag": "TH",
+      "text": "Correction prompt",
+      "rect": {
+        "x": 405.96875,
+        "y": 505.46875,
+        "width": 157.296875,
+        "height": 83,
+        "right": 563.265625,
+        "bottom": 588.46875
+      }
+    },
+    {
+      "tag": "TD",
+      "text": "surface.primary",
+      "rect": {
+        "x": 49,
+        "y": 588.46875,
+        "width": 244.4375,
+        "height": 206.5,
+        "right": 293.4375,
+        "bottom": 794.96875
+      }
+    },
+    {
+      "tag": "TD",
+      "text": "before / after / diff pending",
+      "rect": {
+        "x": 293.4375,
+        "y": 588.46875,
+        "width": 112.53125,
+        "height": 206.5,
+        "right": 405.96875,
+        "bottom": 794.96875
+      }
+    },
+    {
+      "tag": "TD",
+      "text": "Attach a component-scoped fix prompt if the snippet fails.",
+      "rect": {
+        "x": 405.96875,
+        "y": 588.46875,
+        "width": 157.296875,
+        "height": 206.5,
+        "right": 563.265625,
+        "bottom": 794.96875
+      }
+    }
+  ]
+}

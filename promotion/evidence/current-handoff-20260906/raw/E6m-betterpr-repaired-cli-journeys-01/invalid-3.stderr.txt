@@ -1,0 +1,2 @@
+[31m✗ Usage: npx @homenshum/easier-to-read-submissions qa <feature-id>[0m
+[2m  Example: npx @homenshum/easier-to-read-submissions qa nodebench-chat-declutter-v1[0m

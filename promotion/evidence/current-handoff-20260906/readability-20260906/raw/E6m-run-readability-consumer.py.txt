@@ -1,0 +1,80 @@
+"""Fresh local package and real CLI outputs for the selected readability change."""
+import ast, atexit, hashlib, json, os, shutil, subprocess, tarfile, time
+from pathlib import Path
+from datetime import datetime, timezone
+import psutil
+P=Path(__file__).resolve().parent
+O=P/'E6m-betterpr-readability-consumer-01'
+OWN=Path('D:/ProjectRecovery/betterprhandoff-readability-first-use-20260906')
+R=Path('D:/VSCode Projects/cafecorner_nodebench/nodebench_ai4/.portfolio-worktrees/betterprhandoff-current-consumer-20260905')
+ORIGINALS=[R.parent.parent/'BetterPRHandoff',R.parent.parent/'nodebench-ai/.worktrees/betterprhandoff-nodekit-present']
+NODE='C:/nvm4w/nodejs/node.EXE';NPM='C:/nvm4w/nodejs/node_modules/npm/bin/npm-cli.js'
+assert hashlib.sha256((R/'templates/gmail-magic-resend.html').read_bytes()).hexdigest()=='92dbb0deb2b3f8055f6def51bf231fd9f082dffaeb558c2290ddc738701f13ba'
+O.mkdir(exist_ok=False);OWN.mkdir(exist_ok=False)
+env={k:v for k,v in os.environ.items() if k.upper() in {'PATH','SYSTEMROOT','WINDIR','COMSPEC','PATHEXT','NUMBER_OF_PROCESSORS','PROCESSOR_ARCHITECTURE'}}
+for key,sub in {'HOME':'profile','USERPROFILE':'profile','APPDATA':'profile/AppData/Roaming','LOCALAPPDATA':'profile/AppData/Local','TEMP':'temp','TMP':'temp','NPM_CONFIG_CACHE':'npm-cache','CLAUDE_CONFIG_DIR':'profile/.claude'}.items():
+    path=OWN/sub;path.mkdir(parents=True,exist_ok=True);env[key]=str(path)
+for key,name in {'NPM_CONFIG_USERCONFIG':'empty-user.npmrc','NPM_CONFIG_GLOBALCONFIG':'empty-global.npmrc'}.items():
+    path=OWN/name;path.write_bytes(b'');env[key]=str(path)
+env['NPM_CONFIG_OFFLINE']='true'
+commands=[]
+original=(P/'E6m-run-current-baseline.py').read_text(encoding='utf-8')
+nodes=[n for n in ast.parse(original).body if isinstance(n,ast.FunctionDef) and n.name in {'sha','save','git','snapshot','run'}]
+exec(compile(ast.Module(body=nodes,type_ignores=[]),'<bounded-baseline-functions>','exec'))
+save('child-environment.json',{k:v for k,v in env.items() if k not in os.environ or v!=os.environ[k]})
+before=snapshot(R);originals=[snapshot(r) for r in ORIGINALS]
+assert before['head']=='42e57a96f9ae961f501729ec6ace5c3d8dbe3aee'
+save('source-before.json',before);save('originals-before.json',originals)
+def close_guard():save('exit-observation.json',{'candidate':snapshot(R),'originals':[snapshot(r) for r in ORIGINALS]})
+atexit.register(close_guard)
+run('normal-test',[NODE,NPM,'test'],R,timeout=90)
+packdir=OWN/'pack';packdir.mkdir()
+packed=json.loads(run('pack-current-source',[NODE,NPM,'pack','--json','--pack-destination',packdir],R))
+assert len(packed)==1
+tarball=packdir/packed[0]['filename'];members=[]
+oldmembers={x['path']:x for x in json.loads((P/'E6m-betterpr-heading-consumer-01/tarball-members.json').read_text())}
+with tarfile.open(tarball,'r:gz') as archive:
+    for m in archive.getmembers():
+        if not m.isfile():continue
+        assert m.name.startswith('package/')
+        name=m.name[len('package/'):];assert name in before['files']
+        raw=archive.extractfile(m).read();assert raw==(R/name).read_bytes(),name
+        members.append({'path':name,'bytes':len(raw),'sha256':sha(raw)})
+assert len(members)==19 and {x['path'] for x in members}==set(oldmembers)
+# No unrelated package member is allowed to drift from the last actual tar.
+for x in members:
+    if x['path']!='templates/gmail-magic-resend.html':assert x==oldmembers[x['path']],x['path']
+save('tarball-members.json',members)
+consumer=OWN/'installed consumer';consumer.mkdir()
+(consumer/'package.json').write_text(json.dumps({'name':'portfolio-betterpr-readability-consumer','version':'0.0.0','private':True})+'\n',encoding='utf-8')
+run('install-exact-tarball',[NODE,NPM,'install',str(tarball)],consumer)
+installed=consumer/'node_modules/@homenshum/easier-to-read-submissions';bindings=[]
+for member in members:
+    name=member['path'];wanted=(R/name).read_bytes();actual=(installed/name).read_bytes()
+    normalization='identity'
+    if name=='bin/init.mjs' and wanted.startswith(b'#!') and b'\r\n' in wanted.split(b'\n',1)[0]+b'\n':
+        wanted=wanted.replace(b'\r\n',b'\n',1);normalization='npm bin hashbang first CRLF to LF only'
+    assert actual==wanted,name
+    bindings.append({**member,'installedSha256':sha(actual),'installedBytes':len(actual),'installTransformation':normalization})
+save('installed-bindings.json',bindings)
+run('installed-help',[NODE,installed/'bin/init.mjs','help'],consumer)
+cwd=OWN/'rendered-consumer';cwd.mkdir()
+ids={'normal':'china-sourcing-review-v1','long':'china-sourcing-supplier-comparison-'+('handoff-'*10)+'review-v1'}
+previous=json.loads((P/'E6m_BETTERPRHANDOFF_HEADING_RENDERED_INPUTS.json').read_text())
+oldoutputs={(x['case'],Path(x['path']).name):x for x in previous['artifacts']}
+artifacts=[]
+for name,feature_id in ids.items():
+    run(name+'-actual-installed-qa',[NODE,installed/'bin/init.mjs','qa',feature_id],cwd)
+    for f in sorted((cwd/'QA_DOGFOOD'/feature_id).iterdir()):
+        data=f.read_bytes();(O/(name+'-'+f.name+'.txt')).write_bytes(data)
+        old=oldoutputs[(name,f.name)]
+        if f.suffix!='.html':assert len(data)==old['bytes'] and sha(data)==old['sha256'],f.name
+        if f.suffix=='.json':json.loads(data)
+        artifacts.append({'case':name,'featureId':feature_id,'path':str(f),'bytes':len(data),'sha256':sha(data)})
+assert len(artifacts)==8
+assert snapshot(R)==before and [snapshot(r) for r in ORIGINALS]==originals
+for x in bindings:assert sha((installed/x['path']).read_bytes())==x['installedSha256']
+sourcepaths=[x for x in before['files'] if not x.startswith('promotion/evidence/current-handoff-20260906/')]
+receipt={'status':'READABILITY_NORMAL_TEST_EXACT_PACKAGE_AND_ACTUAL_OUTPUTS_COMPLETE','at':datetime.now(timezone.utc).isoformat(),'candidate':str(R),'source':before['head'],'tree':before['tree'],'sourceSnapshot':str(O/'source-before.json'),'sourceFiles':len(sourcepaths),'trackedFiles':len(before['files']),'ownedRoot':str(OWN),'installedPackage':str(installed),'tarball':str(tarball),'tarballSha256':sha(tarball.read_bytes()),'tarballFiles':19,'other18TarMembersUnchanged':True,'sixCompanionOutputsUnchanged':True,'installedBindings':str((O/'installed-bindings.json').relative_to(P)),'commands':commands,'artifacts':artifacts,'sourceGuard':'CLOSED_UNCHANGED','uiEvidence':'NOT_RUN','newProviderCalls':0,'note':'Working source includes the selected HTML change atop committed42e57; publication evidence remains historical. No npm registry publication.'}
+save('receipt.json',receipt);(P/'E6m_BETTERPRHANDOFF_READABILITY_CONSUMER.json').write_text(json.dumps(receipt,indent=2)+'\n',encoding='utf-8')
+print(json.dumps({'status':receipt['status'],'sourceFiles':receipt['sourceFiles'],'tarballSha256':receipt['tarballSha256'],'html':[a for a in artifacts if a['path'].endswith('.html')]}))

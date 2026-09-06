@@ -1,0 +1,1244 @@
+{
+  "status": "PASS_FINITE_READ_ONLY_REOPEN",
+  "checks": [
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.clinerules",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\easier-to-read-submissions.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review0.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review1.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review2.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review3.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review4.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review5.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review6.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review7.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\SharedReview.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet\\manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\components\\SourcingReview.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\db\\SourcingReview.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\integrations\\SourcingReview.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\pages\\SourcingReview.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\scripts\\SourcingReview.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\server\\SourcingReview.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\qa.config.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\QA_DOGFOOD\\supplier-review\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\QA_DOGFOOD\\supplier-review\\manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\QA_DOGFOOD\\supplier-review\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\QA_DOGFOOD\\supplier-review\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.clinerules",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\easier-to-read-submissions.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-command\\workspace\\CHANGELOG\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-command\\workspace\\CHANGELOG\\TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-powershell\\workspace\\CHANGELOG\\README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-powershell\\workspace\\CHANGELOG\\TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\bin\\init.mjs",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\lane.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-email.html.mustache",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Reopened original CLI artifact D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "59 actual command records",
+      "pass": true
+    },
+    {
+      "name": "No command timeout or survivors",
+      "pass": true
+    },
+    {
+      "name": "Lane contention one writer",
+      "pass": true
+    },
+    {
+      "name": "QA contention one writer",
+      "pass": true
+    },
+    {
+      "name": "Traversal rejects with explanation",
+      "pass": true
+    },
+    {
+      "name": "Normal test actual TAP 30 pass no skips",
+      "pass": true
+    },
+    {
+      "name": "Independent actual 13 checks nine processes",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity LICENSE",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/gmail-magic-resend.html",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity package.json",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/qa-dogfood-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/qa-packet-schema.json",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/qa-states.example.json",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/remotion-storyboard.json",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/bootstrap-prompt.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/CHANGELOG-README.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/CHANGELOG-TEMPLATE.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/lane.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/qa-dogfood-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/qa-packet.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity README.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/runtime-diagram.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity SKILL.md",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity bin/init.mjs",
+      "pass": true
+    },
+    {
+      "name": "Final installed source identity templates/qa-email.html.mustache",
+      "pass": true
+    }
+  ],
+  "generatedFilesReopened": 218,
+  "selectedCommandStreams": [
+    {
+      "name": "noargs-help",
+      "exit": 0,
+      "seconds": 0.047,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\noargs-help.stdout",
+            "sha256": "7148a7fd37682b0d9f68694be34d4cf9c9723b0318e116932eee533ef7ec1ebc",
+            "bytes": 1162
+          },
+          "text": "\n\u001b[1mBetterPRHandoff\u001b[0m — make every commit easier to read\n\n\u001b[1mSubcommands:\u001b[0m\n  \u001b[36minit\u001b[0m                          Scaffold CHANGELOG/ in the current repo\n  \u001b[36madd <category> <slug>\u001b[0m         Create a new lane file\n                                  (category: pages|components|server|db|integrations|scripts)\n  \u001b[36mqa-init\u001b[0m                       Scaffold qa.config.json (Phase 5 / QA packet)\n  \u001b[36mqa <feature-id>\u001b[0m               Scaffold QA_DOGFOOD/<feature-id>/ packet files\n  \u001b[36minstall [target]\u001b[0m              Install the skill where your agent reads it\n                                  (target: user|project|cursor|cline|aider|generic|auto)\n  \u001b[36mhelp\u001b[0m                          This help\n\n\u001b[1mExamples:\u001b[0m\n  npx @homenshum/easier-to-read-submissions init\n  npx @homenshum/easier-to-read-submissions add components Button\n  npx @homenshum/easier-to-read-submissions add db users\n  npx @homenshum/easier-to-read-submissions qa-init\n  npx @homenshum/easier-to-read-submissions qa nodebench-chat-declutter-v1\n  npx @homenshum/easier-to-read-submissions install cursor\n\n\u001b[1mDocs:\u001b[0m  https://github.com/HomenShum/BetterPRHandoff\n\n"
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\noargs-help.stderr",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        }
+      }
+    },
+    {
+      "name": "install-project-repeat",
+      "exit": 1,
+      "seconds": 0.094,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\install-project-repeat.stdout",
+            "sha256": "6999d6dc2bb6658844e7433574da2c46046a211286d5ffe6d0b945341578e553",
+            "bytes": 172
+          },
+          "text": "\u001b[32m→ Installing to:\u001b[0m D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\n"
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\install-project-repeat.stderr",
+            "sha256": "84abc1eb7453c15504c6ce4de6ec8253c5fec85e365705ccd85b28753704bdf1",
+            "bytes": 246
+          },
+          "text": "\u001b[31m✗ FATAL:\u001b[0m Install conflict at D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\AGENTS.md. Existing content preserved; manual merge required.\n"
+        }
+      }
+    },
+    {
+      "name": "qa-repeat",
+      "exit": 1,
+      "seconds": 0.047,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\qa-repeat.stdout",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\qa-repeat.stderr",
+            "sha256": "24c8b2f527916b8077dd01f10a8336392290e2c4cdc541a60d1344ac0e3edd3b",
+            "bytes": 174
+          },
+          "text": "\u001b[31m✗ FATAL:\u001b[0m D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\QA_DOGFOOD\\supplier-review already exists\n"
+        }
+      }
+    },
+    {
+      "name": "traversal-forward",
+      "exit": 1,
+      "seconds": 0.062,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\traversal-forward.stdout",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\traversal-forward.stderr",
+            "sha256": "13ec49ba207c8129637aa3ce3be4916a5b5b02c202a42770fb13d2fa0e731e66",
+            "bytes": 114
+          },
+          "text": "\u001b[31m✗ FATAL:\u001b[0m Invalid lane name: use one filename without separators, control characters or reserved names.\n"
+        }
+      }
+    },
+    {
+      "name": "traversal-backslash",
+      "exit": 1,
+      "seconds": 0.063,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\traversal-backslash.stdout",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\traversal-backslash.stderr",
+            "sha256": "13ec49ba207c8129637aa3ce3be4916a5b5b02c202a42770fb13d2fa0e731e66",
+            "bytes": 114
+          },
+          "text": "\u001b[31m✗ FATAL:\u001b[0m Invalid lane name: use one filename without separators, control characters or reserved names.\n"
+        }
+      }
+    },
+    {
+      "name": "concurrent-0",
+      "exit": 0,
+      "seconds": 0.062,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\concurrent-0.stdout",
+            "sha256": "2cd067732b1bc816b6603eacddeeeb48a65201701873d443b2718ba5f3908623",
+            "bytes": 141
+          },
+          "text": "\u001b[32m✓\u001b[0m Created \u001b[36mCHANGELOG\\components\\SharedReview.md\u001b[0m\n\u001b[2m  Edit it now — the placeholder entry needs a real description.\u001b[0m\n"
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\concurrent-0.stderr",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        }
+      }
+    },
+    {
+      "name": "concurrent-1",
+      "exit": 1,
+      "seconds": 0.078,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\concurrent-1.stdout",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\concurrent-1.stderr",
+            "sha256": "354e007445e0dc0a97adb6f8f744b2ada8aa2fd9cdd3482edcd833db3ae691e0",
+            "bytes": 183
+          },
+          "text": "\u001b[31m✗ FATAL:\u001b[0m D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\SharedReview.md already exists\n"
+        }
+      }
+    },
+    {
+      "name": "concurrent-qa-0",
+      "exit": 0,
+      "seconds": 0.078,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\concurrent-qa-0.stdout",
+            "sha256": "4edef56c8e999405a3c5505db17eec0367d231e907cecd3406a98d962513f229",
+            "bytes": 245
+          },
+          "text": "\u001b[32m✓\u001b[0m Created \u001b[36mD:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet\u001b[0m\n\u001b[2m  Fill links/screenshots/GIF/MP4 after your Parity Studio run or browser QA pass.\u001b[0m\n"
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\concurrent-qa-0.stderr",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        }
+      }
+    },
+    {
+      "name": "concurrent-qa-1",
+      "exit": 1,
+      "seconds": 0.078,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\concurrent-qa-1.stdout",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\concurrent-qa-1.stderr",
+            "sha256": "162f2f1c3f30fb36ab6ec12f2926a3dfdf3fcf5c2dc172bda2fe793b75f87446",
+            "bytes": 160
+          },
+          "text": "\u001b[31m✗ FATAL:\u001b[0m D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet already exists\n"
+        }
+      }
+    },
+    {
+      "name": "sustained-7",
+      "exit": 0,
+      "seconds": 0.063,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\sustained-7.stdout",
+            "sha256": "6da4f773e1b2498e8ad0c8d3275d5a7adf773e5bfbd553c644a382d494f27d47",
+            "bytes": 136
+          },
+          "text": "\u001b[32m✓\u001b[0m Created \u001b[36mCHANGELOG\\components\\Review7.md\u001b[0m\n\u001b[2m  Edit it now — the placeholder entry needs a real description.\u001b[0m\n"
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\sustained-7.stderr",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        }
+      }
+    },
+    {
+      "name": "printed-installed-init",
+      "exit": 0,
+      "seconds": 1.031,
+      "streams": {
+        "stdout": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\printed-installed-init.stdout",
+            "sha256": "22c92ef837f9b1c06d62a718ecdf39a5f30570f0f65872cdd2b95e1be25148bf",
+            "bytes": 797
+          },
+          "text": "\u001b[32m→ Scaffolding CHANGELOG/ for\u001b[0m \u001b[1mD:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\installed consumer\u001b[0m\n\u001b[32m✓\u001b[0m CHANGELOG/README.md created (master index)\n\u001b[32m✓\u001b[0m CHANGELOG/TEMPLATE.md created (format spec)\n\u001b[32m✓\u001b[0m Subdirs: pages/ components/ server/ db/ integrations/ scripts/\n\n\u001b[1mNext steps:\u001b[0m\n  1. Install the skill so your agent picks it up: \u001b[36mnpx @homenshum/easier-to-read-submissions install\u001b[0m\n  2. Backfill lanes from git history with the prompt that step 1 just placed at\n     \u001b[36m.claude/skills/easier-to-read-submissions/templates/bootstrap-prompt.md\u001b[0m\n     OR: \u001b[36mnpx @homenshum/easier-to-read-submissions add pages tabs-index-inbox\u001b[0m to create lanes one at a time\n  3. Edit \u001b[36mCHANGELOG/README.md\u001b[0m to list your repo's lanes\n"
+        },
+        "stderr": {
+          "binding": {
+            "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\printed-installed-init.stderr",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "bytes": 0
+          },
+          "text": ""
+        }
+      }
+    }
+  ],
+  "otherIndependentJudgeNative": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-final-cli-independent-03\\native-canary.json",
+    "sha256": "5f78fa1d0e9ea47f37522ef0c7c63bfd85b120cff0f0b780026f4965b1defb0f",
+    "bytes": 8936
+  },
+  "noNewProcessRuns": true,
+  "scope": "Historical CLI replay uses identical final bin and non-HTML templates. The historical HTML template is explicitly intermediate; final HTML generation is separately bound. No service or crash durability inference."
+}

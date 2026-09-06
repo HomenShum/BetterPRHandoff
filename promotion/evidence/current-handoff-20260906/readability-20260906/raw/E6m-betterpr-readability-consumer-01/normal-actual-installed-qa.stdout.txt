@@ -1,0 +1,2 @@
+[32m✓[0m Created [36mD:\ProjectRecovery\betterprhandoff-readability-first-use-20260906\rendered-consumer\QA_DOGFOOD\china-sourcing-review-v1[0m
+[2m  Fill links/screenshots/GIF/MP4 after your Parity Studio run or browser QA pass.[0m

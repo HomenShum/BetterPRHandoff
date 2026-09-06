@@ -1,0 +1,308 @@
+{
+  "scope": "Finite selection from named before/producer/after/judge folders only.",
+  "omittedFiles": [
+    {
+      "origin": "E6m-betterpr-readability-consumer-01/child-environment.json",
+      "bytes": 1085,
+      "reason": "Environment/browser-capability diagnostic excluded without opening its contents.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-consumer-01/exit-observation.json",
+      "bytes": 173054,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-consumer-01/originals-before.json",
+      "bytes": 19341,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-consumer-01/receipt.json",
+      "bytes": 11265,
+      "reason": "Duplicate producer receipt omitted; the named main producer receipt is selected.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-consumer-01/source-before.json",
+      "bytes": 147718,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/input-entry.json",
+      "bytes": 32907,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/input-exit.json",
+      "bytes": 32907,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/long-1440x960-normal-snippet-labelled.dom.html.txt",
+      "bytes": 4765,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/long-1440x960-normal-top-labelled.dom.html.txt",
+      "bytes": 4766,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/long-320x800-normal-snippet-labelled.dom.html.txt",
+      "bytes": 4766,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/long-320x800-normal-top-labelled.dom.html.txt",
+      "bytes": 4764,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/long-390x844-text200-snippet-labelled.dom.html.txt",
+      "bytes": 5717,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/long-390x844-text200-top-labelled.dom.html.txt",
+      "bytes": 5715,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/normal-1440x960-normal-snippet-labelled.dom.html.txt",
+      "bytes": 4465,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/normal-1440x960-normal-top-labelled.dom.html.txt",
+      "bytes": 4465,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/normal-320x800-normal-snippet-labelled.dom.html.txt",
+      "bytes": 4466,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/normal-320x800-normal-top-labelled.dom.html.txt",
+      "bytes": 4464,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/normal-390x844-text200-snippet-labelled.dom.html.txt",
+      "bytes": 5417,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/browser/normal-390x844-text200-top-labelled.dom.html.txt",
+      "bytes": 5414,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/command.stderr",
+      "bytes": 0,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/command.stdout",
+      "bytes": 0,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/config.json",
+      "bytes": 36684,
+      "reason": "Environment/browser-capability diagnostic excluded without opening its contents.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/controller-preflight.py.txt",
+      "bytes": 8846,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/entry-custody.json",
+      "bytes": 138297,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/environment-policy.json",
+      "bytes": 250,
+      "reason": "Environment/browser-capability diagnostic excluded without opening its contents.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/exit-custody.json",
+      "bytes": 138297,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/manifest.json",
+      "bytes": 35360,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/preflight.json",
+      "bytes": 752,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/prepared-readback.json",
+      "bytes": 138297,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/syntax.stderr",
+      "bytes": 0,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-before-01/syntax.stdout",
+      "bytes": 0,
+      "reason": "Redundant full source/index/refs/guard or labelled-DOM copy remains operator-local; selected source/receipt/restoration evidence supplies the bounded claim.",
+      "contentReadForThisInventory": false
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/browser/input-entry.json",
+      "bytes": 42004,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/browser/input-exit.json",
+      "bytes": 42004,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/config.json",
+      "bytes": 46735,
+      "contentReadForThisInventory": false,
+      "reason": "Environment/browser capability input excluded without opening its contents."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/entry-custody.json",
+      "bytes": 147979,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/environment-policy.json",
+      "bytes": 256,
+      "contentReadForThisInventory": false,
+      "reason": "Environment/browser capability input excluded without opening its contents."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/exit-custody.json",
+      "bytes": 147979,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/preflight.json",
+      "bytes": 1078,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/prepared-custody.json",
+      "bytes": 147979,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/syntax.stderr.txt",
+      "bytes": 0,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-01/syntax.stdout.txt",
+      "bytes": 0,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-after-inputs-01/actual-input-request.json",
+      "bytes": 38870,
+      "contentReadForThisInventory": false,
+      "reason": "Environment/browser capability input excluded without opening its contents."
+    },
+    {
+      "origin": "E6m-betterpr-readability-final-judge-01/actual-six-owner.diff.stderr.txt",
+      "bytes": 703,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-final-judge-01/actual-six-owner.diff.txt",
+      "bytes": 13210,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-final-judge-01/authored-whitespace.stderr.txt",
+      "bytes": 703,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-final-judge-01/authored-whitespace.stdout.txt",
+      "bytes": 0,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-final-judge-01/collector-v1.py.txt",
+      "bytes": 10297,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-final-judge-01/viewed-pixels.json",
+      "bytes": 8409,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-final-judge-02/closing-guard.json",
+      "bytes": 104647,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    },
+    {
+      "origin": "E6m-betterpr-readability-final-judge-02/source633-readback.json",
+      "bytes": 145753,
+      "contentReadForThisInventory": false,
+      "reason": "Full/repeated custody or unselected reviewer artifact retained operator-local; original manifest is provenance, not a promise that every raw reference is portable."
+    }
+  ],
+  "wholeTreeCopies": "No node_modules, complete source/cache/profile/DB, tarball or duplicate whole historical packet.",
+  "privateOriginalCommand": "Never opened or copied. Its earlier privacy-safe summary remains in the unchanged historical packet.",
+  "rawLinkLimit": "Historical raw embedded paths can be operator-local. Authored current indexes alone promise physical portable links."
+}

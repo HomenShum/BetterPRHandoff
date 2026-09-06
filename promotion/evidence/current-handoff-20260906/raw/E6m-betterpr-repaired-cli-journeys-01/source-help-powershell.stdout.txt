@@ -1,0 +1,23 @@
+
+[1mBetterPRHandoff[0m — make every commit easier to read
+
+[1mSubcommands:[0m
+  [36minit[0m                          Scaffold CHANGELOG/ in the current repo
+  [36madd <category> <slug>[0m         Create a new lane file
+                                  (category: pages|components|server|db|integrations|scripts)
+  [36mqa-init[0m                       Scaffold qa.config.json (Phase 5 / QA packet)
+  [36mqa <feature-id>[0m               Scaffold QA_DOGFOOD/<feature-id>/ packet files
+  [36minstall [target][0m              Install the skill where your agent reads it
+                                  (target: user|project|cursor|cline|aider|generic|auto)
+  [36mhelp[0m                          This help
+
+[1mExamples:[0m
+  node "../../source checkout with spaces/bin/init.mjs" init
+  node "../../source checkout with spaces/bin/init.mjs" add components Button
+  node "../../source checkout with spaces/bin/init.mjs" add db users
+  node "../../source checkout with spaces/bin/init.mjs" qa-init
+  node "../../source checkout with spaces/bin/init.mjs" qa nodebench-chat-declutter-v1
+  node "../../source checkout with spaces/bin/init.mjs" install cursor
+
+[1mDocs:[0m  https://github.com/HomenShum/BetterPRHandoff
+

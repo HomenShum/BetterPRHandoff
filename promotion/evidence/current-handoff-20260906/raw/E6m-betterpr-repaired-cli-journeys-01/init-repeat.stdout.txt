@@ -1,0 +1,3 @@
+[33m! CHANGELOG/ already exists at D:\ProjectRecovery\betterprhandoff-repaired-first-use-20260906\cli journeys\developer-adopts-protocol\workspace\CHANGELOG[0m
+[2m  Skipping scaffold to avoid clobbering existing lanes.[0m
+[2m  Use `npx @homenshum/easier-to-read-submissions add <category> <slug>` to add new lane files.[0m

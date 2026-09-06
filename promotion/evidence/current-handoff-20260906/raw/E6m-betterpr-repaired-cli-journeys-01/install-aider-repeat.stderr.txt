@@ -1,0 +1,1 @@
+[31m✗ FATAL:[0m Install conflict at D:\ProjectRecovery\betterprhandoff-repaired-first-use-20260906\cli journeys\install-aider\workspace\AGENTS.md. Existing content preserved; manual merge required.

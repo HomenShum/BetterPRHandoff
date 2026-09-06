@@ -1,0 +1,146 @@
+{
+  "at": "2026-09-06T02:20:55.136561+00:00",
+  "status": "BASELINE_COMPLETED_WITH_OBSERVED_UI_FINDINGS",
+  "mode": "Builder",
+  "task": "BETTERPRHANDOFF-RENDERED-BASELINE-01",
+  "reviewer": "/root/nodemem_mobile_judge; nonauthor of product, author of external recorder and this evidence; reused reviewer context",
+  "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "tree": "122c105f044af5cb65a018195be353a93a71e69e",
+  "sourceGuard": "CLOSED",
+  "runtime": {
+    "at": "2026-09-06T02:16:04.221Z",
+    "pid": 16280,
+    "listen": {
+      "address": "127.0.0.1",
+      "family": "IPv4",
+      "port": 54370
+    },
+    "browserVersion": "149.0.7827.55",
+    "playwright": "1.61.1",
+    "executablePath": "C:\\Users\\hshum\\AppData\\Local\\ms-playwright\\chromium-1228\\chrome-win64\\chrome.exe",
+    "input": "Desktop mouse and native keyboard with viewport emulation; no Gmail client, physical device or native zoom.",
+    "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+    "tree": "122c105f044af5cb65a018195be353a93a71e69e"
+  },
+  "counts": {
+    "cells": 22,
+    "nativeKeyboardJourneys": 4,
+    "nativeTabEnterActions": 16,
+    "pngs": 76,
+    "viewedPngs": 12,
+    "rawChecks": 167,
+    "rawChecksPassed": 137,
+    "rawChecksFailed": 30,
+    "placeholderObservations": 22,
+    "layoutFailureChecks": 8,
+    "layoutAffectedCells": 4,
+    "allRawArtifactsVerified": 173,
+    "sourceBindings": 62,
+    "installedBindings": 19,
+    "generatedCompanions": 8,
+    "closingBindings": 99,
+    "observedOwnedProcesses": 9,
+    "remainingOwnedProcesses": 0,
+    "remainingOwnedListeners": 0
+  },
+  "findings": [
+    {
+      "id": "TABLE_REFLOW",
+      "status": "OBSERVED",
+      "severity": "P1 for phone report reading",
+      "humanImpact": "A reviewer reading proof and correction instructions must pan horizontally or read text beyond the card.",
+      "evidence": "Both 320px cases have document width341 (21px overflow); both 390px computed-2x cases width563 (173px overflow). At360px table right341.14 exceeds card right336 although viewport overflow is zero.",
+      "owner": "templates/gmail-magic-resend.html:47-64,89-104",
+      "causalInference": "Existing width:100% table uses automatic minimum-content sizing. Three padded columns and the unbroken surface.primary code token require more width than the 222px content area at320, or292px at390 with doubled font. No table fixed-layout or token-wrap rule is supplied. This is source-plus-geometry causal diagnosis, not a tested repair."
+    },
+    {
+      "id": "UNCONFIGURED_ACTIONS",
+      "status": "OBSERVED_SCAFFOLD_LIMIT",
+      "humanImpact": "A recipient sees prominent Approve or Magic resend actions but activation changes only the fragment; there is no completed decision or resend.",
+      "evidence": "All22 cells show the same four href=# anchors. All16 native Enter actions leave DOM unchanged and add no HTTP request. Existing copy says Fill links after capture, so the scaffold is not silently claimed to have implemented a backend.",
+      "owner": "templates/gmail-magic-resend.html:71-77"
+    },
+    {
+      "id": "LONG_TITLE_DENSITY",
+      "status": "OBSERVED_FOLLOWUP_ONLY",
+      "humanImpact": "A phone reviewer must scroll through a long machine-derived title before reaching end-user impact.",
+      "evidence": "Long320 heading occupies560px; action group begins below first800px viewport. Viewed long390 shows first end-user heading near bottom. No source change is proposed for title shortening without a product decision."
+    }
+  ],
+  "minimalProposal": {
+    "status": "PROPOSED_NOT_IMPLEMENTED_OR_PROVEN",
+    "owner": "templates/gmail-magic-resend.html only",
+    "sequence": [
+      "Root capture genuine labelled 3px table/action boundaries from exact saved inputs before editing, including scrolled320 and390 doubled table; retain protected header/body/labels.",
+      "At existing table/cell/code rules, constrain table layout and allow long tokens to wrap so all three columns and complete text fit without hidden overflow, clipped content or lowered fonts. Test actual result before choosing final CSS.",
+      "Represent unconfigured actions explicitly as unavailable in the scaffold, with adjacent setup instruction; avoid active-looking # controls. Preserve action labels and do not invent an email/approval service. Any configured-link API is a separate scope.",
+      "Regenerate through the same installed CLI after packaging the owning template, preserve all companion semantics and compare native/focus/2x/reduced observations against this baseline. Validate original tests and meaningful regression scenarios only."
+    ],
+    "protected": [
+      "Exact featureId/title values and full proof text",
+      "Palette/contrast and semantic heading/table labels",
+      "Existing capture/setup instructions and workflow lanes",
+      "No remote destination, provider, send or approval behavior added"
+    ]
+  },
+  "positiveObserved": [
+    "All22 HTTP HTML bodies match original installed-CLI buffers; generated feature/title/four labels present.",
+    "All16 native Tab steps reach expected link and focused rectangle fits viewport; two saved settled focus PNGs independently viewed.",
+    "Four computed-2x whole-element vectors pass; reduced-motion cells are static only.",
+    "Sampled action contrast5.027883:1, normal text16.947452:1 and code14.325673:1 measured from actual computed colors; no full accessibility certification."
+  ],
+  "limitations": [
+    "Local Chromium149.0.7827.55 with Playwright1.61.1, no Gmail-client rendering/delivery, physical device, native zoom, human/AT or performance certification.",
+    "Full-page PNGs are illustrative and may reflow scrollbar width; exact viewport PNG precedes each and DOM geometry was recorded at that requested viewport. Lower table pixel evidence here is full-page illustrative; root will capture exact scrolled viewport boundaries before repair.",
+    "Two focus PNGs were actually viewed; no same-frame inference about unviewed PNGs. 76 captured does not mean76 visually inspected.",
+    "This baseline uses actual normal/long installed-CLI scaffolds but still contains deliberate placeholders and pending evidence. No approved review/send workflow was completed.",
+    "Installed bin/init.mjs includes documented normal npm hashbang CRLF-to-LF transformation; this review binds actual installed bytes rather than claiming all source/installed raw bytes equal.",
+    "No product/input changes, dependency install, CLI generation, provider or external request by this observer. No deployed or whole-product readiness claim."
+  ],
+  "fullDimensions": null,
+  "overallScore": null,
+  "fullGrades": null,
+  "bindings": {
+    "inputReceipt": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_RENDERED_INPUTS.json",
+      "bytes": 5827,
+      "sha256": "60554f36d973ebc848437de780b4275d394b3ed58197c543cabef3572ab102cd"
+    },
+    "preflight": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\preflight.json",
+      "bytes": 1038,
+      "sha256": "564658b7588efff3b75bdc7a3a4b7fc036d320a4183bf87a5025444577479bce"
+    },
+    "rawManifest": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\artifact-manifest.json",
+      "bytes": 30903,
+      "sha256": "89599f23fc23e2a4de4feba3edb1571e8eeebd1d89ca4f147e96737247860632"
+    },
+    "browserReport": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\browser\\report.json",
+      "bytes": 122015,
+      "sha256": "9db667b611b97ca07a206884388281cf1b083eaff70bec5fe31e2ba53f9f63be"
+    },
+    "controllerReport": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-rendered-baseline-01\\controller-report.json",
+      "bytes": 1335,
+      "sha256": "2cfd85507813f767ec109f22eab9da5428b9d4da0065bbc33844274be1b5608b"
+    },
+    "recorder": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-observe-generated-pages.mjs",
+      "bytes": 15236,
+      "sha256": "ae0067edbf4ad4f406e663336aaa9d0e03bafdb4daf1821190ef7a6273e79498"
+    },
+    "controller": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-run-rendered-baseline.py",
+      "bytes": 10944,
+      "sha256": "14768965b851dcdc8fa0f6744d6cae49590d91e34335e4fbaac4e23ac44ec297"
+    },
+    "template": {
+      "path": "D:\\VSCode Projects\\cafecorner_nodebench\\nodebench_ai4\\.portfolio-worktrees\\betterprhandoff-current-consumer-20260905\\templates\\gmail-magic-resend.html",
+      "bytes": 3393,
+      "sha256": "50b30e029a39935aafe4cfa5459972f6ff72e794ff15dd4af9ae594a5f90d22f"
+    }
+  },
+  "requestTraceability": "Re your request to make each repo ready for usage and handoff, including visual UI, responsiveness and interactions: actual generated BetterPRHandoff HTML was rendered and its limits recorded; no whole-repo readiness was inferred."
+}

@@ -1,0 +1,218 @@
+{
+  "files": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-criterion-assessment-01\\assessment-checks.json",
+      "sha256": "6ae4e12fd54d8579208585eb4a6d6e0aa75a33747cc449f12cecd98f1fe67f15",
+      "bytes": 55266
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-criterion-assessment-01\\cli-raw-readback.json",
+      "sha256": "9d54f0d1559754bd9e14427d1c1a8c9ae99d6c0e29f35df31be02c62e2c5b103",
+      "bytes": 69368
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-criterion-assessment-01\\measured-visual-observations.json",
+      "sha256": "af0dd94c77ff61efa4a12b48d6f14930a9689234804b2358edd830f9a275056c",
+      "bytes": 7960
+    }
+  ],
+  "externalReports": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.json",
+      "sha256": "b82f3aa5cce17e5c2bc9a92dc73b698a44c47fecaa2fe22d1f13700d8aea4084",
+      "bytes": 57645
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.md",
+      "sha256": "f38123a744b198689c26de7e80b7099ea909d2e2070b31109b6d1ca42f80757d",
+      "bytes": 14767
+    }
+  ],
+  "evidenceReferences": {
+    "standard": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\REPO_READINESS_STANDARD.md",
+      "sha256": "8b5bb532bf0dfeed7cc4ecd2b425d708fc49048cc05ab4cbeb315fc3534aeff2",
+      "bytes": 18664
+    },
+    "schema_example": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6k_NODERL_CRITERION_ASSESSMENT.json",
+      "sha256": "15db1df16632691f292e892c896256f51ff6ba8238a1b1b4f55c2c33e570addc",
+      "bytes": 45970
+    },
+    "source_freeze": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\source-before.json",
+      "sha256": "bf54a97b1f6c31a1cdca0a5a2395aeff6faf7691b042a72d8e5df0fdd63c3f48",
+      "bytes": 12964
+    },
+    "source_equivalence": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-inputs-01\\source-package-input-equivalence.json",
+      "sha256": "6f6a89e87527ebcab4d3a99a723eb037fa14849ee464af3de99793f642fb520a",
+      "bytes": 1847
+    },
+    "html_judge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HTML_FINAL_JUDGE.json",
+      "sha256": "7ca049dae070bcba9c901c2fa1c8dcda4501a304ee316e0e952714596f77a8b2",
+      "bytes": 8093
+    },
+    "html_guard": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-judge-01\\closing-guard.json",
+      "sha256": "2aed32937643e2771741d80e7b018d608a9a785a9093404392d6e6f4cc4a7e93",
+      "bytes": 49469
+    },
+    "intermediate_judge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HTML_AFTER_INTERMEDIATE_JUDGE.json",
+      "sha256": "840da1239da9f67c406e09622280ffe24e48d289813c65c08bb6dd6e85e09935",
+      "bytes": 6043
+    },
+    "baseline_judge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_RENDERED_BASELINE_JUDGE.json",
+      "sha256": "09250d063cc5f872e582916503952a84ba9af7b6abc432d25376b75992e5d902",
+      "bytes": 9334
+    },
+    "heading_boundary": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_H1_BOUNDARY_ADDENDUM.json",
+      "sha256": "75590701e736ea07402ecb191effa50802fafa18742fccc585292d4cba2d23c9",
+      "bytes": 2122
+    },
+    "cli_judge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_FINAL_CLI_JUDGE.json",
+      "sha256": "9dc6a487a3de3d82723aeaed512a20ab984bf2a13e76135426c08c5759d35159",
+      "bytes": 7166
+    },
+    "cli_receipt": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_REPAIRED_CLI_FIRST_USE.json",
+      "sha256": "935dc76ca61f633e96b4898be3ffef22853e7a324094eb45f5b876ee222f7f62",
+      "bytes": 10259
+    },
+    "cli_native": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-final-cli-independent-03\\native-canary.json",
+      "sha256": "5f78fa1d0e9ea47f37522ef0c7c63bfd85b120cff0f0b780026f4965b1defb0f",
+      "bytes": 8936
+    },
+    "normal_test_log": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\normal-test.stdout",
+      "sha256": "7c8b994a85b2794c5ab377fc6bc07fc42614c5e41d181c66efc225ba54232416",
+      "bytes": 6478
+    },
+    "package_receipt": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HEADING_CONSUMER.json",
+      "sha256": "98caf91439605043e66edec9e44e7f8869f9738ed40a31593fa70394355f08e7",
+      "bytes": 5869
+    },
+    "rendered_inputs": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HEADING_RENDERED_INPUTS.json",
+      "sha256": "d58cdf8b26cde1c4c67d3e2c49e6ba9916b260971b7971f9f1958cae88394924",
+      "bytes": 6115
+    },
+    "intermediate_browser": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-01\\browser\\report.json",
+      "sha256": "e92273f67931aa9f765a07504ddf8c9147f9f601ca3c75d4ce895b2d76a0a3ed",
+      "bytes": 207557
+    },
+    "native_pixels": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-01\\browser\\normal-390-unavailable-native-pointer-3.png",
+      "sha256": "86e239432c1944dc6cb0c0577596693149c80244906eb4d067245605dca7693e",
+      "bytes": 48991
+    },
+    "browser": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\report.json",
+      "sha256": "865d27f6c78833d6e745a02711e4daf848fd5d3e8646ce0e4560184ee4946249",
+      "bytes": 35622
+    },
+    "runtime": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\runtime.json",
+      "sha256": "8e7c07e65720bb29af8e7dd6f4944360b6c79fea8462c3057688463dea1da1ae",
+      "bytes": 829
+    },
+    "entry_mobile": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-320x800-normal.png",
+      "sha256": "5670b1d4cd97ef8e6bcef696d44fac549e1a62fd4746fac2a33c477ca430588d",
+      "bytes": 42082
+    },
+    "desktop": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-1440x960-normal.png",
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "bytes": 67705
+    },
+    "long_text200": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200.png",
+      "sha256": "28c8c18e7fc93041ba6e6d2dc8c0f3ed229c2d2f94da10ff7b89f48203d3e792",
+      "bytes": 54045
+    },
+    "table_text200": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-table-scrolled.png",
+      "sha256": "8440ae6dbb21fd380a08899917dfee55716c78a494ad039d52f22891c2fe928e",
+      "bytes": 46436
+    },
+    "current_dom": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-1440x960-normal.json",
+      "sha256": "8ffac3a53b5bbb4991602023b51d02a8e7f586a7fad8d463b1b77f3596bbcab0",
+      "bytes": 37117
+    },
+    "long_dom": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200.json",
+      "sha256": "bb5f0560266d8e06c08374e30a6863588de33f1bb3741d742d02a0f7c9919a45",
+      "bytes": 57894
+    },
+    "table_dom": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-table-scrolled.json",
+      "sha256": "6339fc37121334b06b16be74f77551ea5cf7800acd2275b356e0ecf9d3fd3dcd",
+      "bytes": 50814
+    },
+    "installed_readme": {
+      "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\README.md",
+      "sha256": "2eeef2e3034d99da331e33f67cd4713ecd4b3cfd84f5864bd3f2d6e12b817d41",
+      "bytes": 15855
+    },
+    "installed_cli": {
+      "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "sha256": "891291fc2636497bf176a824f91975ceac0d00b811afa86c0964e7c8a0f7d7ff",
+      "bytes": 16362
+    },
+    "installed_template": {
+      "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+      "sha256": "f23bff53132de5579329fae9598046e42580a023e1fa8ebd1954328c65017f0e",
+      "bytes": 3541
+    },
+    "installed_package": {
+      "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\package.json",
+      "sha256": "989e0fa54f2ea2f780c2c4a4170135f5f9195c797ddcf8edc27a086bf864b26b",
+      "bytes": 1374
+    },
+    "cli_commands": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\commands.json",
+      "sha256": "b7d0b97990506e8c13a7b0a771e2cfa586f42bef5c5d5d0b345a9e3ace5da4b3",
+      "bytes": 55759
+    },
+    "cli_generated": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\generated-artifacts.json",
+      "sha256": "9e6ae24f6966300e1a3f5416c34bb4b08604ecb0bd8a38142c8d2cfe807c883f",
+      "bytes": 62939
+    },
+    "cli_help": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\noargs-help.stdout",
+      "sha256": "7148a7fd37682b0d9f68694be34d4cf9c9723b0318e116932eee533ef7ec1ebc",
+      "bytes": 1162
+    },
+    "cli_install_conflict": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\install-project-repeat.stderr",
+      "sha256": "84abc1eb7453c15504c6ce4de6ec8253c5fec85e365705ccd85b28753704bdf1",
+      "bytes": 246
+    },
+    "cli_duplicate": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\qa-repeat.stderr",
+      "sha256": "24c8b2f527916b8077dd01f10a8336392290e2c4cdc541a60d1344ac0e3edd3b",
+      "bytes": 174
+    },
+    "cli_readback": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-criterion-assessment-01\\cli-raw-readback.json",
+      "sha256": "9d54f0d1559754bd9e14427d1c1a8c9ae99d6c0e29f35df31be02c62e2c5b103",
+      "bytes": 69368
+    },
+    "visual_observations": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-criterion-assessment-01\\measured-visual-observations.json",
+      "sha256": "af0dd94c77ff61efa4a12b48d6f14930a9689234804b2358edd830f9a275056c",
+      "bytes": 7960
+    }
+  }
+}

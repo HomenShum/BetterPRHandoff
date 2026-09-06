@@ -1,0 +1,277 @@
+[
+  {
+    "id": "V1",
+    "before": {
+      "id": "V1",
+      "field": "visualScore",
+      "name": "typography",
+      "observedScore": 3,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "entry_mobile",
+        "table_text200"
+      ],
+      "deductionOrMissingEvidence": "The serif title and sans-serif body distinguish levels on desktop. At 390px doubled text, words split inside the three narrow columns and the enlarged title; scanning requires repeated effort despite complete content.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    "after": {
+      "id": "V1",
+      "field": "visualScore",
+      "name": "typography",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_long_phone_top",
+        "readability_normal_phone_fields",
+        "readability_desktop_normal",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "Body-sized title and16px labelled fields (32px doubled) read as complete words at320/390. H1 font family/size/color is deliberately unchanged, with compact text. Code remains13px/26px. Minor remaining friction: the complete long title still spans several phone lines.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    }
+  },
+  {
+    "id": "V4",
+    "before": {
+      "id": "V4",
+      "field": "visualScore",
+      "name": "hierarchy",
+      "observedScore": 3,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "long_text200",
+        "desktop",
+        "visual_observations"
+      ],
+      "deductionOrMissingEvidence": "A reviewer sees a duplicated machine identifier and large title before the instructions. With the long feature at 390px doubled text, the first screen is almost entirely identification, delaying the useful next step.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    "after": {
+      "id": "V4",
+      "field": "visualScore",
+      "name": "hierarchy",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_measured_comparison",
+        "readability_long_phone_top",
+        "readability_long_320_top",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "Compact heading, full title, first instruction and honest action notice precede detailed evidence and the exact ID. The long phone first instruction moves819→296px at320 and1887→767px at390 doubled. Minor remaining friction: placeholder instructions still compete with eventual project content; no real-user comprehension result.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    }
+  },
+  {
+    "id": "V5",
+    "before": {
+      "id": "V5",
+      "field": "visualScore",
+      "name": "rendered legibility/contrast",
+      "observedScore": 3,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "table_text200",
+        "visual_observations"
+      ],
+      "deductionOrMissingEvidence": "Actual text contrast is strong and no text is clipped. The doubled-text table still fractures words such as Correction and component-scoped across many short lines, causing repeated reading friction.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    "after": {
+      "id": "V5",
+      "field": "visualScore",
+      "name": "rendered legibility/contrast",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_normal_phone_fields",
+        "readability_long_phone_fields",
+        "readability_full_phone_identifier",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "Actual saved normal/enlarged phone pixels show legible full-width labels and prose without the old lexical fractures or horizontal clipping. Existing strong text/background contrast is preserved by exact computed-style comparisons. Minor remaining friction: the full machine ID requires intentional wrapping and code stays smaller than prose.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    }
+  },
+  {
+    "id": "D2",
+    "before": {
+      "id": "D2",
+      "field": "designScore",
+      "name": "navigation/information architecture",
+      "observedScore": 3,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "long_text200",
+        "visual_observations"
+      ],
+      "deductionOrMissingEvidence": "The sections follow a logical linear sequence. On a long phone packet there is no compact overview or section navigation; a reviewer must scroll past extensive identifier/title content to reach the evidence.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    "after": {
+      "id": "D2",
+      "field": "designScore",
+      "name": "navigation/information architecture",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_long_phone_top",
+        "readability_long_320_top",
+        "readability_after_report",
+        "readability_full_phone_identifier",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "The linear one-packet reading order exposes the first instruction on both long phone screens and places reference identity after proof. Native End reaches it without hidden controls. Minor remaining friction: this remains a long single document with ordinary scrolling; no section navigation or multi-packet navigation is claimed.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    }
+  },
+  {
+    "id": "D3",
+    "before": {
+      "id": "D3",
+      "field": "designScore",
+      "name": "progressive disclosure",
+      "observedScore": 3,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "long_text200",
+        "visual_observations"
+      ],
+      "deductionOrMissingEvidence": "All technical identifier and title text is expanded before review instructions and proof. The long 390px doubled-text input requires scrolling as a workaround; no progressive disclosure exists.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    "after": {
+      "id": "D3",
+      "field": "designScore",
+      "name": "progressive disclosure",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_long_phone_top",
+        "readability_desktop_long",
+        "readability_full_phone_identifier",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "For this single static packet, higher-priority instructions and proof appear before the unchanged detailed identifier. Full information stays visible and reachable; no new disclosure control is asserted. The previously obstructing expanded identity is resolved by order and type scale. Minor remaining friction: the full title is still expanded and long content requires ordinary scrolling.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    }
+  },
+  {
+    "id": "D4",
+    "before": {
+      "id": "D4",
+      "field": "designScore",
+      "name": "useful information density",
+      "observedScore": 3,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "entry_mobile",
+        "table_text200",
+        "long_text200"
+      ],
+      "deductionOrMissingEvidence": "The normal desktop packet is concise, but duplicated long identifiers and fixed three-column phone cells consume many lines for little additional information. This is the lowest actionable usability group after containment was fixed.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    "after": {
+      "id": "D4",
+      "field": "designScore",
+      "name": "useful information density",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_normal_phone_fields",
+        "readability_long_phone_fields",
+        "readability_desktop_long",
+        "readability_measured_comparison",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "One vertical label/value group replaces each narrow table column; identity no longer duplicates a large machine-ID block before the first instruction. The reviewed one-record example is readable at phone sizes. Minor tradeoff: desktop becomes taller and the exact long title/footer remain verbose; long1440 needs7px ordinary vertical scrolling.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    }
+  },
+  {
+    "id": "R3",
+    "before": {
+      "id": "R3",
+      "field": "responsiveScore",
+      "name": "modal/panel/table/canvas adaptation",
+      "observedScore": 3,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "table_text200",
+        "visual_observations",
+        "browser"
+      ],
+      "deductionOrMissingEvidence": "The table stays inside the card and preserves every token. At 390px doubled text its 292px three-column layout produces a 476px table with heavily fragmented words; users can read it with effort rather than convenient row scanning.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    "after": {
+      "id": "R3",
+      "field": "responsiveScore",
+      "name": "modal/panel/table/canvas adaptation",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_normal_phone_fields",
+        "readability_long_phone_fields",
+        "readability_after_report",
+        "readability_viewed_pixels",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "The actual generated one-record table is replaced by native full-width dl/dt/dd fields retaining all three associations and values. All18 current views have zero horizontal overflow/outlying text and no split lexical words; saved320/390/1440 pixels confirm usable adaptation. Minor friction: enlarged content occupies more vertical space. Broader multi-row/canvas/modal behavior is not certified.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    }
+  },
+  {
+    "id": "U4",
+    "before": {
+      "id": "U4",
+      "field": "usageScore",
+      "name": "usable export or consumer result",
+      "observedScore": 3,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "rendered_inputs",
+        "source_equivalence",
+        "table_text200",
+        "cli_readback"
+      ],
+      "deductionOrMissingEvidence": "The actual local tarball creates usable files and the HTML is reopened as exact bytes. A developer must replace placeholders and attach evidence; phone long-title/table reading remains cumbersome. This is a valid scaffold, not a finished review email.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    "after": {
+      "id": "U4",
+      "field": "usageScore",
+      "name": "usable export or consumer result",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_producer",
+        "readability_source_package_equivalence",
+        "readability_after_report",
+        "readability_native_phone_actions",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "The fresh19-file tar was normally installed; two actual generated HTML exports retain every original text leaf and six unchanged companion artifacts. They reopen as readable packet scaffolds, including exact full identifier and proof/correction text. Remaining limitation: consumers must replace pending proof and configure verified links; no completed email, approval or downstream app outcome is claimed.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    }
+  }
+]

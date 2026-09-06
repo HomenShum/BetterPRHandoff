@@ -4,21 +4,15 @@
 >
 > **Append rule**: New entries go at the TOP. Date format: `YYYY-MM-DD`. Use the entry template at the bottom of this file. Never delete old entries — they are the audit trail.
 
-## YYYY-MM-DD — Short imperative title (most recent)
-What changed and **why** (1-3 sentences, written for the next person who has to maintain this — not for you, the original author). Mention any user-visible effect.
-**Commit**: `abc1234`. **Author**: Name.
-**Touches**: `<other CHANGELOG files affected>`, or omit line if none.
-
-## YYYY-MM-DD — Older entry
-...
-
-## YYYY-MM-DD — Created — initial implementation
-First appearance in the repo. Brief description of what it did at birth.
-**Commit**: `abc1234`. **Author**: Name.
+## YYYY-MM-DD — Pending — describe this change
+This is an unfilled entry, not completed history. Replace it with what changed and **why** in 1-3 sentences for the next maintainer, including any user-visible effect.
+**Commit**: pending. **Author**: pending.
 
 ---
 
 ## Entry template
+
+Instructional example only; copy it above after recording a real change.
 
 ```md
 ## YYYY-MM-DD — Short imperative title

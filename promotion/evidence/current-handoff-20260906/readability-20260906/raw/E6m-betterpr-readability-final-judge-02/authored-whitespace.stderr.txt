@@ -1,0 +1,6 @@
+warning: in the working copy of 'CHANGELOG/components/qa-packet.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'HANDOFF.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/START_HERE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/codebase/CONCERNS.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/codebase/STRUCTURE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'templates/gmail-magic-resend.html', LF will be replaced by CRLF the next time Git touches it

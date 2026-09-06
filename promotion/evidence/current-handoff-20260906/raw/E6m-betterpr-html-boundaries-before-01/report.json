@@ -1,0 +1,185 @@
+{
+  "status": "CAPTURE_COMPLETE_BASELINE_DEFECTS_PRESERVED",
+  "cells": [
+    {
+      "id": "320x800-normal-table",
+      "target": "table",
+      "width": 320,
+      "height": 800,
+      "doubled": false,
+      "before": "320x800-normal-table-before.png",
+      "boundary": "320x800-normal-table-change-boundary.png",
+      "domRestoredExact": true,
+      "geometryRestoredExact": true
+    },
+    {
+      "id": "320x800-normal-actions",
+      "target": "actions",
+      "width": 320,
+      "height": 800,
+      "doubled": false,
+      "before": "320x800-normal-actions-before.png",
+      "boundary": "320x800-normal-actions-change-boundary.png",
+      "domRestoredExact": true,
+      "geometryRestoredExact": true
+    },
+    {
+      "id": "360x800-normal-table",
+      "target": "table",
+      "width": 360,
+      "height": 800,
+      "doubled": false,
+      "before": "360x800-normal-table-before.png",
+      "boundary": "360x800-normal-table-change-boundary.png",
+      "domRestoredExact": true,
+      "geometryRestoredExact": true
+    },
+    {
+      "id": "360x800-normal-actions",
+      "target": "actions",
+      "width": 360,
+      "height": 800,
+      "doubled": false,
+      "before": "360x800-normal-actions-before.png",
+      "boundary": "360x800-normal-actions-change-boundary.png",
+      "domRestoredExact": true,
+      "geometryRestoredExact": true
+    },
+    {
+      "id": "390x844-text200-table",
+      "target": "table",
+      "width": 390,
+      "height": 844,
+      "doubled": true,
+      "before": "390x844-text200-table-before.png",
+      "boundary": "390x844-text200-table-change-boundary.png",
+      "domRestoredExact": true,
+      "geometryRestoredExact": true
+    },
+    {
+      "id": "390x844-text200-actions",
+      "target": "actions",
+      "width": 390,
+      "height": 844,
+      "doubled": true,
+      "before": "390x844-text200-actions-before.png",
+      "boundary": "390x844-text200-actions-change-boundary.png",
+      "domRestoredExact": true,
+      "geometryRestoredExact": true
+    }
+  ],
+  "captures": [
+    {
+      "path": "320x800-normal-table-before.png",
+      "bytes": 37174,
+      "sha256": "ff191aa863c2e68e3e0b7b100c94ec59611967d29d913c3643d27d41cae29d35",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "320x800-normal-table-change-boundary.png",
+      "bytes": 38149,
+      "sha256": "050f6b5eebd1fcfe14d44c90c65c9e8dbf4d9951f704e2317382a1fb41523390",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "320x800-normal-actions-before.png",
+      "bytes": 39564,
+      "sha256": "444fe33669c663f5f5062aeeebfddc03e0c81d46fcb78f61f1e1586dca65fcaa",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "320x800-normal-actions-change-boundary.png",
+      "bytes": 40974,
+      "sha256": "5095021073433a20a5ad484216e7cf5942cd9bb83447b4535f13798c70b03ce7",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "360x800-normal-table-before.png",
+      "bytes": 36419,
+      "sha256": "9aac83be0847861f23ea3296dbc0384bc893aea19654ae3e3df3d4d470308bf3",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "path": "360x800-normal-table-change-boundary.png",
+      "bytes": 38075,
+      "sha256": "03ce7c93d986accc87d892f6552a5ddad85b7e4550c0171d58c48191015a1045",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "path": "360x800-normal-actions-before.png",
+      "bytes": 40761,
+      "sha256": "6fd03e28b52885a1bb45525e8466f117cf785dd7611acf322f0b74048340dcd8",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "path": "360x800-normal-actions-change-boundary.png",
+      "bytes": 41099,
+      "sha256": "4f14d0f3061a2428451ab5e7ba3bb9caad8cb1e96d49e874695f4221bfab49d3",
+      "width": 360,
+      "height": 800
+    },
+    {
+      "path": "390x844-text200-table-before.png",
+      "bytes": 45830,
+      "sha256": "0589ea87da92bfa3fddf6c8cb00c708c191c8f83a5c44b8dc555d5e84b680bd3",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "390x844-text200-table-change-boundary.png",
+      "bytes": 47484,
+      "sha256": "97af838abd46a259e7824ecbc98fe9cfbf7160ae2ab66dbd1c290e5f36a33a14",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "390x844-text200-actions-before.png",
+      "bytes": 52292,
+      "sha256": "53bed82e147d734c36af7d3a1897aeeec8b89ccc244cefe81e1e9936c57e9002",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "390x844-text200-actions-change-boundary.png",
+      "bytes": 54289,
+      "sha256": "6b34d0fd538f9bdd5edb9a5c16c7f98e650cdcf04d6712454979c6aa1d75d86f",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "method": "GET",
+      "url": "/normal"
+    }
+  ],
+  "closure": {
+    "context": true,
+    "browser": true,
+    "server": true
+  },
+  "source": "d30f1abc0ff0251000fedf1a3f25d0bad91bba6c",
+  "fullGrades": null,
+  "limitations": [
+    "Exact viewport screenshots only; no full-page capture.",
+    "Native DOM overlays only; no product/input mutation.",
+    "The unavailable action labels describe proposed repair boundary; the original page still contains active href=# anchors.",
+    "Source guard covers only unchanged template/installed/generated inputs while root owns concurrent CLI/test/docs repair."
+  ]
+}

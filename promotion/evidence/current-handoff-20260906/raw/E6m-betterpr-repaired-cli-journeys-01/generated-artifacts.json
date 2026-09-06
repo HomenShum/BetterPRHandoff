@@ -1,0 +1,1092 @@
+[
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\.easier-templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-aider\\workspace\\AGENTS.md",
+    "bytes": 13234,
+    "sha256": "00cf751446c9e890ea8055aa4aaec22f04c9e2c7d7c82aca26ed6e909893a560"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.cline-easier-templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cline\\workspace\\.clinerules",
+    "bytes": 13234,
+    "sha256": "00cf751446c9e890ea8055aa4aaec22f04c9e2c7d7c82aca26ed6e909893a560"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\easier-to-read-submissions.md",
+    "bytes": 13234,
+    "sha256": "00cf751446c9e890ea8055aa4aaec22f04c9e2c7d7c82aca26ed6e909893a560"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-cursor\\workspace\\.cursor\\rules\\templates-easier\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\AGENTS.md",
+    "bytes": 13234,
+    "sha256": "00cf751446c9e890ea8055aa4aaec22f04c9e2c7d7c82aca26ed6e909893a560"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\SKILL.md",
+    "bytes": 21397,
+    "sha256": "8b590f34aae46086569e634319e8b8ba8c61f9b78999060f9a646dd12aabe524"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\AGENTS.md",
+    "bytes": 13234,
+    "sha256": "00cf751446c9e890ea8055aa4aaec22f04c9e2c7d7c82aca26ed6e909893a560"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\SKILL.md",
+    "bytes": 21397,
+    "sha256": "8b590f34aae46086569e634319e8b8ba8c61f9b78999060f9a646dd12aabe524"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\AGENTS.md",
+    "bytes": 13234,
+    "sha256": "00cf751446c9e890ea8055aa4aaec22f04c9e2c7d7c82aca26ed6e909893a560"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\SKILL.md",
+    "bytes": 21397,
+    "sha256": "8b590f34aae46086569e634319e8b8ba8c61f9b78999060f9a646dd12aabe524"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\auto-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review0.md",
+    "bytes": 874,
+    "sha256": "908838f5aec0cd5dabfd7130e27d5fc11fd3dc58ba5bfb25c3d6ee3c0d4cc65e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review1.md",
+    "bytes": 874,
+    "sha256": "e8672e51afac07da639b7bdf07f7fd730d468a5a7b11506e883dbd0923f63425"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review2.md",
+    "bytes": 874,
+    "sha256": "82bedd4942bae8bf9ca79dfae15ad79e2bdccb74633d7163ddd8d2f41ef3cdcd"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review3.md",
+    "bytes": 874,
+    "sha256": "456ad7e1d2a3fc2b111f2e7ffdae17ba46643ccab046e68479fcccea3c89efa4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review4.md",
+    "bytes": 874,
+    "sha256": "3144f17b191b29309b8e3d17149f0aef88e564fd34bfd7ffa3606df5654ad358"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review5.md",
+    "bytes": 874,
+    "sha256": "38d697fa50314855c0aa9b362f97329352923b88dd5ab33a9d8f537fc3e05e89"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review6.md",
+    "bytes": 874,
+    "sha256": "04a6c85d7229e744733764d6f86323fa447d16a4dcf62fa7a6a1b41ccf763024"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\Review7.md",
+    "bytes": 874,
+    "sha256": "e6aaab49ad6d1a45a89b97549669d9a4600052be0b553a527ea5fedf4b978de2"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-and-sustained\\workspace\\CHANGELOG\\components\\SharedReview.md",
+    "bytes": 879,
+    "sha256": "a04f72f06c136b678dc234bc9440cb9568d1ffa03a9f0c4e24f005f21103e719"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet\\gmail-magic-resend.html",
+    "bytes": 3519,
+    "sha256": "9db36b9efc5c4dbf7f60aeb4e50ab70a69f9bfa8fde83b94e028fc794ebf7a69"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet\\manifest.json",
+    "bytes": 1648,
+    "sha256": "9b44ff9859c80241002ea39e0f67c2eb1007640654e51910ca5e15d749a945be"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet\\README.md",
+    "bytes": 2138,
+    "sha256": "02612904bf086be0bcc3638a95e4d3d87b3254398de08646878a0422afb4e3af"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\concurrent-qa\\workspace\\QA_DOGFOOD\\shared-packet\\remotion-storyboard.json",
+    "bytes": 1106,
+    "sha256": "d57dad2fa8c977962563c08f21db2811392ff0888d878f84a84e91eb9a7c3f84"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\components\\SourcingReview.md",
+    "bytes": 26,
+    "sha256": "37e2a97506ba357d27f6d0b66e5636d7602a4a4668c72fff9e97d270a8524a71"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\db\\SourcingReview.md",
+    "bytes": 873,
+    "sha256": "902335e674aa59ba30d246294f5b529b6fde7588a984b64ee8e4407d94aa8958"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\integrations\\SourcingReview.md",
+    "bytes": 883,
+    "sha256": "a44258101a69197846575bde94864962fd18e232e9574a07531de7b45cf0388d"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\pages\\SourcingReview.md",
+    "bytes": 876,
+    "sha256": "77fbea6b6ced389cf94c9123f2beb515838a39ca17ea9d1c6e42aedad4bebcfc"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\README.md",
+    "bytes": 27,
+    "sha256": "5cd378be5481ffc4151210b11ac8a37beeee2f5c3dbcd07a5f562b0b469eca39"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\scripts\\SourcingReview.md",
+    "bytes": 878,
+    "sha256": "3a98f4165f7b04047c7fe1186a8b038d2ea590133f022ad78d09323450a72605"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\server\\SourcingReview.md",
+    "bytes": 877,
+    "sha256": "1c22efe087ef92398c530f3ff453777a22faa3118f340f4a5d2884ef0f761c6d"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\CHANGELOG\\TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\qa.config.json",
+    "bytes": 23,
+    "sha256": "353227a3e7f395ec233b03d6d956b3636778d54c65686fa430b535d03956ce7b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\QA_DOGFOOD\\supplier-review\\gmail-magic-resend.html",
+    "bytes": 3525,
+    "sha256": "438b7c07a88138472259089a61b3180cae2cf4bf18a06eee83321df787cd37d8"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\QA_DOGFOOD\\supplier-review\\manifest.json",
+    "bytes": 1652,
+    "sha256": "38b52a5d7f34b283041d174a4353c77b82221351b6e446ffa1f60585648c22df"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\QA_DOGFOOD\\supplier-review\\README.md",
+    "bytes": 2144,
+    "sha256": "9918e7aaed9cf242f99a6d62b93baee3d74cffd4de3c5333343f4c65bc995ffc"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\developer-adopts-protocol\\workspace\\QA_DOGFOOD\\supplier-review\\remotion-storyboard.json",
+    "bytes": 1110,
+    "sha256": "875ba6cc2ba910f2a1a7c7d3727c7c55235cb0be7612c5699a9a9bebde88fd74"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\.easier-templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-aider\\workspace\\AGENTS.md",
+    "bytes": 29,
+    "sha256": "13d4a754d642dcbddee5eec6229eecc40357649e4b28d1739549cf589f750ef1"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.cline-easier-templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cline\\workspace\\.clinerules",
+    "bytes": 29,
+    "sha256": "13d4a754d642dcbddee5eec6229eecc40357649e4b28d1739549cf589f750ef1"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\easier-to-read-submissions.md",
+    "bytes": 29,
+    "sha256": "13d4a754d642dcbddee5eec6229eecc40357649e4b28d1739549cf589f750ef1"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-cursor\\workspace\\.cursor\\rules\\templates-easier\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\AGENTS.md",
+    "bytes": 29,
+    "sha256": "13d4a754d642dcbddee5eec6229eecc40357649e4b28d1739549cf589f750ef1"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\SKILL.md",
+    "bytes": 21397,
+    "sha256": "8b590f34aae46086569e634319e8b8ba8c61f9b78999060f9a646dd12aabe524"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-generic\\workspace\\agents\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\AGENTS.md",
+    "bytes": 29,
+    "sha256": "13d4a754d642dcbddee5eec6229eecc40357649e4b28d1739549cf589f750ef1"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\SKILL.md",
+    "bytes": 21397,
+    "sha256": "8b590f34aae46086569e634319e8b8ba8c61f9b78999060f9a646dd12aabe524"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-project\\workspace\\.claude\\skills\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\AGENTS.md",
+    "bytes": 29,
+    "sha256": "13d4a754d642dcbddee5eec6229eecc40357649e4b28d1739549cf589f750ef1"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\SKILL.md",
+    "bytes": 21397,
+    "sha256": "8b590f34aae46086569e634319e8b8ba8c61f9b78999060f9a646dd12aabe524"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\install-user\\profile\\.claude\\skills\\easier-to-read-submissions\\templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-command\\workspace\\CHANGELOG\\README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-command\\workspace\\CHANGELOG\\TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-powershell\\workspace\\CHANGELOG\\README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\printed-source-powershell\\workspace\\CHANGELOG\\TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\bin\\init.mjs",
+    "bytes": 16363,
+    "sha256": "5d2df08800725f72c5c6b7bbb6fe60f13b5a0a503fbb023fc61fd3607304930d"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\bootstrap-prompt.md",
+    "bytes": 4635,
+    "sha256": "b7dd8b61f9e5088aadc39169dcd8e884869c3a2e3957edc9391677d3e8f61276"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\CHANGELOG-README.md",
+    "bytes": 4329,
+    "sha256": "6e8337f809b225348db730df88ac99b0e2d457a9908d6619bcd3e7bb2a3c4d79"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\CHANGELOG-TEMPLATE.md",
+    "bytes": 2594,
+    "sha256": "b1d54d0ed4d38bf9328d89db3bdb165078b4e9b5fe0ac5909fddf87d0970dc09"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\gmail-magic-resend.html",
+    "bytes": 3512,
+    "sha256": "5eb4e06681b835f244b295abadfcc164fa4a51eb3c9260a36bf5e3598bbedf9e"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\lane.md",
+    "bytes": 879,
+    "sha256": "277e15de133d50e681fd727e0fc18a4e4b23329dd4f3f76fd47b600980bbc18b"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-dogfood-manifest.json",
+    "bytes": 1643,
+    "sha256": "a39b8ccc527604654a89f6ecfd2e157fe34680cd6201485994ceb278ff85b9a7"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-dogfood-packet.md",
+    "bytes": 2134,
+    "sha256": "21dfa70cae16789418ef25c71dc210795d78c5670b8abb2a5f1f6d88ee1df012"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-email.html.mustache",
+    "bytes": 9018,
+    "sha256": "5c31ad3cec47aa3f6d43e79a80fd7ebb3c978849fcaa5be181e02fac747e3df4"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-packet-schema.json",
+    "bytes": 8287,
+    "sha256": "e9e15d6b5e5bee6af676d272176addc82e20ec2af6cc66a9b489a9c4199d89ad"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-packet.md",
+    "bytes": 10717,
+    "sha256": "a88311b1ac13dc9b6ac16788ca26f98f5dae6480f628dd5f0970ab0f5fb3b541"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\qa-states.example.json",
+    "bytes": 6179,
+    "sha256": "f4f489b173f365460629d20dcca534e16778fe06e359a16e5dd90e9b6870946a"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\remotion-storyboard.json",
+    "bytes": 1103,
+    "sha256": "673f62f7c5aedcdeab991d72cdd712faea742a4ff2c5696bdc790b7729cf1f76"
+  },
+  {
+    "path": "D:\\ProjectRecovery\\betterprhandoff-repaired-first-use-20260906\\cli journeys\\source checkout with spaces\\templates\\runtime-diagram.md",
+    "bytes": 16053,
+    "sha256": "44a235c469e3ffd9946e574990a916c0985a82205febde77c682d52a80a13b22"
+  }
+]

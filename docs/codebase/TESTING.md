@@ -2,16 +2,28 @@
 
 ## Run them
 
+The current source registers 30 scenarios. That count is not a passing result;
+run the command and retain its actual exit status and summary.
+
 ```bash
-npm test          # node --test test/cli.test.mjs — 20 tests, ~4s
+npm test          # node --test test/cli.test.mjs
 ```
 
 No install step, no framework, no config file. `node:test` and
 `node:assert/strict` ship with Node.
 
+## Shared source checks
+
+[Source checks](../../.github/workflows/ci.yml) runs normal `npm install`,
+`npm test`, and `npm pack --json` on Node 22 with Windows and Ubuntu runners.
+The workflow is configured for main pushes and pull requests. Local results
+and configured jobs do not establish a shared passing run; retain the actual
+job logs and source or test-merge identity. Browser proof remains separate.
+
 ## What they are
 
-20 scenario tests in one file, `test/cli.test.mjs`. Each one is a person trying
+30 registered scenarios in one file, `test/cli.test.mjs`, including six cases
+registered by the installer-target loop. Each one is a person trying
 to finish a job, not a function with its inputs mocked.
 
 They run the **real CLI as a subprocess** in a **real throwaway directory**,
@@ -20,14 +32,20 @@ disk. Two helpers make that cheap:
 
 ```js
 function easier(cwd, ...args) {
-  const r = spawnSync(process.execPath, [CLI, ...args], { cwd, encoding: "utf8" });
+  const r = spawnSync(process.execPath, [CLI, ...args], {
+    cwd, encoding: "utf8", env: fixtureEnv(cwd), timeout: 10_000, maxBuffer: 1024 * 1024,
+  });
   const strip = (s) => (s || "").replace(/\x1b\[[0-9;]*m/g, "");
   return { code: r.status, out: strip(r.stdout) + strip(r.stderr) };
 }
 
 function sandbox(fn) {
   const dir = mkdtempSync(join(tmpdir(), "easier-test-"));
-  try { return fn(dir); } finally { rmSync(dir, { recursive: true, force: true }); }
+  try {
+    return fn(dir);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
 }
 ```
 
@@ -42,30 +60,27 @@ By journey, matching `promotion/PRODUCT_JOURNEYS.md`:
 
 | Group | Who | Tests |
 |---|---|---|
-| **J1** | a solo developer adopting the protocol in their own repo | 6 |
+| **J1** | a solo developer adopting the protocol in their own repo | 9 |
 | **J2** | a teammate who cloned the repo the first developer committed | 1 |
-| **J3** | someone installing the rules where their agent will read them | 3 |
+| **J3** | someone installing the rules where their agent will read them | 10 |
 | **J4** | someone preparing a reviewer hand-off packet | 4 |
 | front door | a stranger guessing at the command line | 2 |
 | upkeep | the walkthroughs still cite the right lines, and no document tells a reader to run `npx easier` | 3 |
 | D6 regression | the printed next-steps can be followed in the printed order | 1 |
 
-## The one test that pins wrong behaviour on purpose
+## Preserve a defect before changing its expectation
 
-This is the only sanctioned way to encode a known defect: name the defect id in
-a comment, say what correct would look like, and pin the observed value so a fix
-has to change it deliberately.
+The original D7 scenario accepted the template's apparent historical commits.
+The replacement checks an unfilled current entry, pending commit/author fields,
+and a fenced format example. Original failing observations remain historical
+evidence; a repaired expectation must explain why its contract changed.
 
-**D7** — a new lane keeps the template's two sample entries. Pinned at the
-observed count of three `## YYYY-MM-DD —` headings. The comment records the
-assertion that was written first (`!body.includes("YYYY-MM-DD —")`) and failed,
-which is how D7 was found.
-
-There were two. The **D1** block asserted exit **1** for `add` in a fresh clone
-and said in its own comment that a fix should flip it to 0. The fix landed, so
-the block now asserts exit **0** and a lane file on disk. The old expectation is
-written into the comment, which is the rule for any loosened assertion here: a
-changed test is guilty until its justification is legible without git.
+The D1 scenario still checks that a teammate can add a lane after Git omitted
+empty category directories. Preservation cases additionally cover all six rule
+destinations, repeated and concurrent installers, conflicting lane/QA writers,
+invalid and Unicode lane names, and finite accumulating writes. Exact generated
+bytes and process exit codes matter; a subprocess that prints success while
+replacing someone's edits must fail the scenario.
 
 ## The two guards over the walkthroughs
 
@@ -83,7 +98,7 @@ Both guards now demand an anchor and assert the cited line matches it:
   `pattern` field, and the cited line must match that regex. 26 steps checked.
 - Markdown docs outside `promotion/` — every ``path:line`` citation must be
   written ``path:line`` → ``the text on that line``, and the guard asserts the
-  line contains that text. 26 citations checked. `promotion/` is excluded on
+  line contains that text. 25 current citations checked across these documentation owners. `promotion/` is excluded on
   purpose: it is an append-only ledger, and its rows record what a line said on
   the day it was measured.
 
@@ -93,24 +108,26 @@ run this CLI.
 
 ## What is not covered
 
-- **`install user`** — writing into the real `~/.claude` from a test would
-  modify the machine running it. Only `project`, `auto` and the bad-target path
-  are exercised.
-- **`install cursor` / `cline` / `aider`** — the copy blocks are structurally
-  identical to `project`, which is covered. Worth adding if any of them ever
-  diverges.
+- **Actual host activation.** User, project, Cursor, Cline, Aider, and generic
+  file destinations can be tested in owned temporary profiles. Those checks do
+  not establish that an external agent loaded or followed the copied rules.
 - **The rendered HTML.** `templates/gmail-magic-resend.html` is asserted to
   exist and to have its placeholders substituted, but nothing here opens a
-  browser. That work lives in a separate committed producer,
-  `node promotion/evidence/audit.mjs`, which scaffolds the page with this CLI,
-  serves it, and drives Lighthouse, axe-core and Playwright over it. Its outputs
-  and the numbers that closed defect D2 are in `promotion/evidence/`. It is not
-  part of `npm test` because it downloads two audit toolchains and a browser;
-  a contributor changing that HTML should run it anyway.
-- **Concurrency, load, long-running state.** There is none: every verb is a
-  process that starts, writes files and exits.
-- **Node 18 and 20.** Everything here was measured on Node v22.22.2. See
-  STACK.md on `fs.cp`.
+  browser. The historical producer `promotion/evidence/audit.mjs` and its
+  recorded outputs document the earlier D2 audit. Preserve that historical
+  evidence; do not rerun the producer into its original output directory.
+  A contributor changing the HTML must generate fresh input with the current
+  CLI and retain browser proof in a new owned output directory, including
+  DOM state, rendered pixels, and native actions. This separate browser proof
+  is not part of `npm test`; no current producer is added by these instructions.
+- **Unbounded concurrency or service load.** The scenarios use four competing
+  creators/installers and eight later lane writes. They inspect
+  preservation after process restart; they do not certify arbitrary filesystem
+  races, symlinked directories, or a long-running service.
+- **Other runtime and shell combinations.** The retained local lane uses
+  Windows and Node v22.22.2. Direct argv and copy/pasting the printed command
+  are separate checks; a Windows result does not prove arbitrary POSIX shell
+  metacharacters. See STACK.md.
 
 ## Before this existed
 

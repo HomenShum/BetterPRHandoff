@@ -1,0 +1,1276 @@
+{
+  "schema": "repository-criterion-assessment/v1",
+  "at": "2026-09-06T04:47:19.911337+00:00",
+  "repo": "BetterPRHandoff",
+  "canonicalRepo": "https://github.com/HomenShum/BetterPRHandoff",
+  "commit": null,
+  "tree": null,
+  "baseCommit": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "baseTree": "2724c85cc595fbd05e50c16b5ba6caf9b2d5c394",
+  "workingSourceFreeze": {
+    "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\current-source69.json",
+    "bytes": 10041,
+    "sha256": "e6162218f2d2b2b41c11412b6f64b67278c76a7dc2478592041e689185b0d53c"
+  },
+  "profileRevision": "BETTERPR-READABILITY-02-AGENT-EVALUATED-ONLY",
+  "referenceRefs": [
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.json",
+      "bytes": 57645,
+      "sha256": "b82f3aa5cce17e5c2bc9a92dc73b698a44c47fecaa2fe22d1f13700d8aea4084"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_BEFORE_RECEIPT.json",
+      "bytes": 18656,
+      "sha256": "3393ba2c7b4ef72e45afe16a7c9426227aca82159a08d7942fe28d975812fe81"
+    },
+    {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_PLAN.json",
+      "bytes": 12135,
+      "sha256": "280cf82456efe500dd498600b0b2f972e45ad8c618b1464fa72c56e21a04b592"
+    }
+  ],
+  "testedAt": "2026-09-06T04:47:19.911337+00:00",
+  "reviewer": {
+    "role": "independent product nonauthor",
+    "contextReuse": true,
+    "authored": [
+      "external browser recorder/controller",
+      "this judgment",
+      "criterion assessment"
+    ],
+    "productOrRepoEdits": 0
+  },
+  "evaluationScope": "AGENT_EVALUATED_ONLY; eight changed criterion observations;36 unchanged historical rows are retained, not recertified",
+  "environment": {
+    "os": "Windows x64",
+    "browser": "Headless Chromium149.0.7827.55",
+    "playwrightVersion": "1.61.1",
+    "nodeCliVersion": "22.22.2",
+    "input": "Desktop keyboard/pointer, CSS viewport emulation",
+    "theme": "Actual single light static stylesheet; no alternate supported theme certified",
+    "mode": "Fresh normal19-member local package and two actual installed CLI outputs; later six-owner working template, no provider",
+    "finalTarballSha256": "19eab29d70bfe3859e55b625a778bf951dd8c77958646e27d7d0a15de8e4e9e1",
+    "installedTransform": "18 exact raw tar members; bin/init.mjs differs only first hashbang CRLF-to-LF",
+    "renderedTransport": "Exact actual CLI HTML bytes on owned loopback HTTP; not Gmail, production host or file://"
+  },
+  "coverage": {
+    "currentCells": 6,
+    "currentViews": 18,
+    "currentAssertions": 168,
+    "currentPngs": 24,
+    "directlyViewedUniqueRasterHashes": 13,
+    "exactDuplicatePngs": 11,
+    "currentNativeJourneys": 2,
+    "viewports": [
+      [
+        320,
+        800
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1440,
+        960
+      ]
+    ],
+    "text200": "All-body-descendant computed font doubling at390; not native zoom",
+    "normalTestsRecorded": 30,
+    "tarMembers": 19,
+    "sourceBindings": 69,
+    "configuredBindings": 132,
+    "currentAssessorBrowserRuns": 1,
+    "newCliRunsByAssessor": 0,
+    "humanParticipants": 0,
+    "unchangedHistoricalCoverage": {
+      "finalMatrixCells": 6,
+      "finalScrolledCells": 2,
+      "finalAssertions": 68,
+      "finalPngs": 14,
+      "finalViewedExactViewportPngs": 4,
+      "finalViewports": [
+        [
+          390,
+          844
+        ],
+        [
+          1440,
+          960
+        ],
+        [
+          320,
+          800
+        ]
+      ],
+      "finalText200": "All-body-descendant computed-font doubling in both 390px fixtures; not native zoom",
+      "intermediateViewports": [
+        [
+          320,
+          800
+        ],
+        [
+          360,
+          800
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          768,
+          1024
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1440,
+          960
+        ],
+        [
+          1920,
+          1080
+        ]
+      ],
+      "intermediateCells": 22,
+      "intermediateScrolledCells": 6,
+      "intermediatePngs": 70,
+      "intermediateNativeJourneys": 4,
+      "nativeInteractionBinding": "16 Tab/Enter steps,16 pointer activations,4 Space observations on unchanged action bytes; historical, not freshly rerun after H1",
+      "cliRecordedProcesses": 59,
+      "cliRecordedSemanticChecks": 53,
+      "otherJudgeNativeProcesses": 9,
+      "otherJudgeNativeChecks": 13,
+      "thisAssessorNewCliOrBrowserRuns": 0,
+      "thisAssessorCliFilesReopened": 218,
+      "normalTests": 30,
+      "sustained": "Eight accumulated later file writes and bounded competing creators; not long-running service/large-scale durability",
+      "humanParticipants": 0
+    }
+  },
+  "criterionRatings": [
+    {
+      "id": "V1",
+      "field": "visualScore",
+      "name": "typography",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_long_phone_top",
+        "readability_normal_phone_fields",
+        "readability_desktop_normal",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "Body-sized title and16px labelled fields (32px doubled) read as complete words at320/390. H1 font family/size/color is deliberately unchanged, with compact text. Code remains13px/26px. Minor remaining friction: the complete long title still spans several phone lines.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    },
+    {
+      "id": "V2",
+      "field": "visualScore",
+      "name": "spacing/grid",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "entry_mobile",
+        "visual_observations"
+      ],
+      "deductionOrMissingEvidence": "The card uses consistent 24px inset and aligned sections. On 320px the two nested insets leave 222px for content, creating minor spacing inefficiency and extra wrapping; no overlap remains.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "V3",
+      "field": "visualScore",
+      "name": "color/token discipline",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "current_dom",
+        "visual_observations"
+      ],
+      "deductionOrMissingEvidence": "Actual warm backgrounds, dark text and muted dividers are coherent in the single supported stylesheet. Visual grouping relies mainly on type and spacing; no alternate theme or wider token-system audit was exercised.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "V4",
+      "field": "visualScore",
+      "name": "hierarchy",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_measured_comparison",
+        "readability_long_phone_top",
+        "readability_long_320_top",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "Compact heading, full title, first instruction and honest action notice precede detailed evidence and the exact ID. The long phone first instruction moves819→296px at320 and1887→767px at390 doubled. Minor remaining friction: placeholder instructions still compete with eventual project content; no real-user comprehension result.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    },
+    {
+      "id": "V5",
+      "field": "visualScore",
+      "name": "rendered legibility/contrast",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_normal_phone_fields",
+        "readability_long_phone_fields",
+        "readability_full_phone_identifier",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "Actual saved normal/enlarged phone pixels show legible full-width labels and prose without the old lexical fractures or horizontal clipping. Existing strong text/background contrast is preserved by exact computed-style comparisons. Minor remaining friction: the full machine ID requires intentional wrapping and code stays smaller than prose.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    },
+    {
+      "id": "V6",
+      "field": "visualScore",
+      "name": "consistent elevation/icons",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "entry_mobile",
+        "current_dom"
+      ],
+      "deductionOrMissingEvidence": "The one card, small code chips and table separators use a consistent flat treatment. Their thin boundaries are subtle; no icon system, modal elevation or alternate surface is present in the observed packet.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "V7",
+      "field": "visualScore",
+      "name": "alignment",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "table_text200",
+        "browser"
+      ],
+      "deductionOrMissingEvidence": "Headings, instructions and the table align to the same card edge; all final table bounds are contained. Multiline cells remain top-aligned, with uneven word fragments making the narrow grid harder to scan.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "V8",
+      "field": "visualScore",
+      "name": "polish of empty/loading/error/populated states",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "browser",
+        "intermediate_browser"
+      ],
+      "deductionOrMissingEvidence": "Only the generated pending/unconfigured packet is rendered. Loading, active-operation error, completed approval and email success states do not exist in this scaffold and were not fabricated; full state-polish coverage is unassessed.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "V9",
+      "field": "visualScore",
+      "name": "purposeful motion and reduced-motion behavior",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "intermediate_browser",
+        "installed_template"
+      ],
+      "deductionOrMissingEvidence": "Static reduced-motion snapshots exist and this template has no animation. No temporal motion observation or broader motion/support contract was established, so no numeric motion certification is assigned.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "D1",
+      "field": "designScore",
+      "name": "Clarity of the main action",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "entry_mobile",
+        "cli_help"
+      ],
+      "deductionOrMissingEvidence": "The developer sees concrete CLI verbs and the recipient sees explicit instructions to configure verified links before sharing. That setup step is clear, but the paragraph still needs manual translation into edits rather than offering an executable preparation flow.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "D2",
+      "field": "designScore",
+      "name": "navigation/information architecture",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_long_phone_top",
+        "readability_long_320_top",
+        "readability_after_report",
+        "readability_full_phone_identifier",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "The linear one-packet reading order exposes the first instruction on both long phone screens and places reference identity after proof. Native End reaches it without hidden controls. Minor remaining friction: this remains a long single document with ordinary scrolling; no section navigation or multi-packet navigation is claimed.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    },
+    {
+      "id": "D3",
+      "field": "designScore",
+      "name": "progressive disclosure",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_long_phone_top",
+        "readability_desktop_long",
+        "readability_full_phone_identifier",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "For this single static packet, higher-priority instructions and proof appear before the unchanged detailed identifier. Full information stays visible and reachable; no new disclosure control is asserted. The previously obstructing expanded identity is resolved by order and type scale. Minor remaining friction: the full title is still expanded and long content requires ordinary scrolling.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    },
+    {
+      "id": "D4",
+      "field": "designScore",
+      "name": "useful information density",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_normal_phone_fields",
+        "readability_long_phone_fields",
+        "readability_desktop_long",
+        "readability_measured_comparison",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "One vertical label/value group replaces each narrow table column; identity no longer duplicates a large machine-ID block before the first instruction. The reviewed one-record example is readable at phone sizes. Minor tradeoff: desktop becomes taller and the exact long title/footer remain verbose; long1440 needs7px ordinary vertical scrolling.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    },
+    {
+      "id": "D5",
+      "field": "designScore",
+      "name": "consistency of component behavior and wording",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "native_pixels",
+        "intermediate_browser",
+        "cli_duplicate"
+      ],
+      "deductionOrMissingEvidence": "The four action names consistently say Not configured and behave as plain text; CLI conflicts consistently refuse. A few terms such as Magic resend still name future integrations, so readers depend on the explicit explanation to understand the boundary.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "R1",
+      "field": "responsiveScore",
+      "name": "Reflow/content preservation",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "browser",
+        "source_equivalence",
+        "table_text200"
+      ],
+      "deductionOrMissingEvidence": "All six final normal/long cases and two scrolled 390px doubled-text states preserve full text with zero horizontal overflow. Wrapping remains awkward in narrow columns; unrerun wider intermediate cells remain historical rather than blanket final certification.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "R2",
+      "field": "responsiveScore",
+      "name": "reachability of navigation and primary actions",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "browser",
+        "intermediate_browser"
+      ],
+      "deductionOrMissingEvidence": "The packet has no configured destination or primary interactive action. Its instructions are scroll-reachable, but a real mobile navigation/approval path cannot be graded from unavailable text. CLI operation is assessed separately.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "R3",
+      "field": "responsiveScore",
+      "name": "modal/panel/table/canvas adaptation",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_normal_phone_fields",
+        "readability_long_phone_fields",
+        "readability_after_report",
+        "readability_viewed_pixels",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "The actual generated one-record table is replaced by native full-width dl/dt/dd fields retaining all three associations and values. All18 current views have zero horizontal overflow/outlying text and no split lexical words; saved320/390/1440 pixels confirm usable adaptation. Minor friction: enlarged content occupies more vertical space. Broader multi-row/canvas/modal behavior is not certified.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    },
+    {
+      "id": "R4",
+      "field": "responsiveScore",
+      "name": "touch and on-screen-keyboard usability",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [],
+      "deductionOrMissingEvidence": "No physical touch device or operating-system keyboard was used. Desktop pointer/keyboard in CSS viewports is not on-device evidence.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "R5",
+      "field": "responsiveScore",
+      "name": "stability under zoom, long content and declared locales",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "long_text200",
+        "browser"
+      ],
+      "deductionOrMissingEvidence": "Long text and computed font doubling are observed, but native 200%/400% zoom, browser-specific reflow and declared locale coverage were not executed. Their missing evidence is not replaced by the zero-overflow result.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "I1",
+      "field": "interactionScore",
+      "name": "Working controls and keyboard paths",
+      "observedScore": 5,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "cli_help",
+        "cli_readback",
+        "cli_native",
+        "intermediate_browser"
+      ],
+      "deductionOrMissingEvidence": "Within the actual installed Windows CLI and intentionally inactive HTML group, exercised verbs work and native Tab/Enter skips the four plain-text slots; pointer activation creates no request, navigation or approval. No material defect survives in that bounded scope; actual configured links and agent-host operation remain untested.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "I2",
+      "field": "interactionScore",
+      "name": "immediate honest feedback and durable status",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "cli_readback",
+        "cli_install_conflict",
+        "desktop",
+        "cli_judge"
+      ],
+      "deductionOrMissingEvidence": "Invalid/conflicting CLI calls return nonzero with an explanatory destination and preserve existing data; packet proof is visibly pending. Partial installs can leave new files and some no-op exits do not validate completeness, so status requires the documented distinction.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "I3",
+      "field": "interactionScore",
+      "name": "validation/error/retry behavior",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "cli_readback",
+        "cli_native",
+        "cli_install_conflict"
+      ],
+      "deductionOrMissingEvidence": "Traversal and bad verbs fail; repeated edited-template retries continue to refuse without a false Installed message. Recovery is a documented manual merge rather than automatic repair, and broader filesystem fault/retry cases are not covered.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "I4",
+      "field": "interactionScore",
+      "name": "safe cancellation/undo and duplicate-action handling",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "cli_native",
+        "cli_readback",
+        "cli_judge"
+      ],
+      "deductionOrMissingEvidence": "Observed competing lane/packet creators produce one winner and one refusal, with old bytes preserved. Cancellation, rollback and crash-atomic partial installation are not supplied or proven; manual cleanup may be needed for newly created files.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "I5",
+      "field": "interactionScore",
+      "name": "state continuity through navigation, reload, conflicts and reopening",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "cli_readback",
+        "cli_native",
+        "source_equivalence"
+      ],
+      "deductionOrMissingEvidence": "Eight later CLI writes and repeated conflict/duplicate calls retain earlier files, and generated outputs reopen unchanged. This supports local filesystem continuity; it does not prove crash durability, browser editing/history or remote conflict resolution.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "A1",
+      "field": "accessibilityScore",
+      "name": "Semantic names/structure",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "current_dom",
+        "desktop",
+        "installed_template"
+      ],
+      "deductionOrMissingEvidence": "The packet has a main region, H1/H2 hierarchy, lists and native table header cells; unavailable text has no misleading interactive role. Table relationships were inspected structurally but not announced by a screen reader.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "A2",
+      "field": "accessibilityScore",
+      "name": "keyboard/focus order and modal focus return",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "intermediate_browser",
+        "native_pixels",
+        "source_equivalence"
+      ],
+      "deductionOrMissingEvidence": "Native keyboard trials on the unchanged unavailable group skip all four text slots without a focus trap; normal page scrolling remains. Configured focusable actions, modal return and assistive-technology paths are absent/unmeasured.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "A3",
+      "field": "accessibilityScore",
+      "name": "contrast/non-color cues",
+      "observedScore": 5,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "visual_observations",
+        "desktop",
+        "table_text200"
+      ],
+      "deductionOrMissingEvidence": "Saved actual foreground/background values give strong body/card and code-chip contrast, and Not configured / pending states are expressed in text rather than color alone. No material defect was observed for these rendered text/state cues; this is not a whole accessibility conformance claim.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "A4",
+      "field": "accessibilityScore",
+      "name": "text resize/reflow and target size",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "browser",
+        "table_text200"
+      ],
+      "deductionOrMissingEvidence": "Computed text doubling and 320px containment pass, with known readability friction. Native zoom and actual touch-target evaluation are missing; the current packet intentionally has no interactive targets to certify.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "A5",
+      "field": "accessibilityScore",
+      "name": "screen-reader announcements and reduced-motion alternatives. Manual checks accompany automated scans",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "current_dom",
+        "intermediate_browser"
+      ],
+      "deductionOrMissingEvidence": "No screen-reader session or announcement check was run. Static reduced-motion snapshots cannot establish screen-reader behavior or a temporal alternative.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "P1",
+      "field": "performanceScore",
+      "name": "Initial usable view",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "runtime"
+      ],
+      "deductionOrMissingEvidence": "No initial-usable-view performance budget, navigation timing series or field sample was frozen/measured. The 2.703s controller duration includes the whole collector and is not page readiness latency.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "P2",
+      "field": "performanceScore",
+      "name": "input/scroll responsiveness",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "intermediate_browser"
+      ],
+      "deductionOrMissingEvidence": "Observed scrolling and click/no-action behavior are functional evidence only; no input/scroll latency distribution or budget was measured.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "P3",
+      "field": "performanceScore",
+      "name": "layout stability",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "browser"
+      ],
+      "deductionOrMissingEvidence": "Settled geometry and unchanged card width are not CLS instrumentation or a layout-stability time series. No performance score is inferred from screenshots.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "P4",
+      "field": "performanceScore",
+      "name": "honest long-operation feedback",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "cli_commands"
+      ],
+      "deductionOrMissingEvidence": "Finite local CLI durations were recorded, but no long-operation or cancellation feedback budget/scenario was evaluated. There is no live approval/email job to score.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "P5",
+      "field": "performanceScore",
+      "name": "behavior with large data and constrained device/network conditions. Record workload and measured budgets separately from reviewer impressions",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "cli_readback"
+      ],
+      "deductionOrMissingEvidence": "A long title and eight accumulated files are small bounded fixtures. Large repositories, constrained CPU/memory/network and sustained-load budgets are unmeasured.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "U1",
+      "field": "usageScore",
+      "name": "First-time task comprehension",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "cli_help",
+        "desktop",
+        "installed_readme"
+      ],
+      "deductionOrMissingEvidence": "The agent could follow help and open the packet, but no intended first-time human participant was observed. Human comprehension remains NOT_RUN.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "U2",
+      "field": "usageScore",
+      "name": "successful core journey",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "cli_receipt",
+        "cli_native",
+        "html_judge"
+      ],
+      "deductionOrMissingEvidence": "The agent completed local scaffolding and reopening; no fresh human task-completion sample exists. The full usage criterion remains unresolved, with agent success recorded separately.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "U3",
+      "field": "usageScore",
+      "name": "bounded errors/help/rework",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "cli_readback",
+        "cli_native",
+        "cli_help"
+      ],
+      "deductionOrMissingEvidence": "Actual help exposes verbs and correct package invocation; conflicts explain manual merge and unsafe names reject before lane creation. Manual conflict resolution and partial-install cleanup still impose bounded but real rework.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "U4",
+      "field": "usageScore",
+      "name": "usable export or consumer result",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "readability_producer",
+        "readability_source_package_equivalence",
+        "readability_after_report",
+        "readability_native_phone_actions",
+        "readability_final_judge"
+      ],
+      "deductionOrMissingEvidence": "The fresh19-file tar was normally installed; two actual generated HTML exports retain every original text leaf and six unchanged companion artifacts. They reopen as readable packet scaffolds, including exact full identifier and proof/correction text. Remaining limitation: consumers must replace pending proof and configure verified links; no completed email, approval or downstream app outcome is claimed.",
+      "scope": "Current selected92db static packet; six exact normal/long layout states and two native journeys. Scoped agent observation only; all full grades remain null."
+    },
+    {
+      "id": "U5",
+      "field": "usageScore",
+      "name": "restart/reopen/handoff without hidden knowledge. Fresh-agent operability is separate from observed fresh-human usability",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "cli_readback",
+        "cli_help",
+        "installed_readme",
+        "cli_judge"
+      ],
+      "deductionOrMissingEvidence": "Fresh owned consumer paths, exact printed source commands through space-containing paths and offline installed invocation were exercised. Host activation, public-registry installation and other supported platforms remain separate, unobserved handoff requirements.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "L1",
+      "field": "alignmentScore",
+      "name": "Fit to intended user and job",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "installed_readme",
+        "cli_help"
+      ],
+      "deductionOrMissingEvidence": "The tool gives a developer clear places for per-surface change history and review evidence; recipients can distinguish pending work. Completing the intended review still requires their project-specific recorder and link integrations.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "L2",
+      "field": "alignmentScore",
+      "name": "coverage of advertised capabilities",
+      "observedScore": null,
+      "finalScore": null,
+      "status": "NOT_RUN",
+      "evidenceRefs": [
+        "installed_readme",
+        "cli_judge"
+      ],
+      "deductionOrMissingEvidence": "CLI scaffolding/install targets were exercised, but actual coding-host loading, recorder/video integrations, Gmail rendering/delivery and every advertised downstream workflow were not. No full advertised-capability score is assigned.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "L3",
+      "field": "alignmentScore",
+      "name": "truthful limits/status",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "desktop",
+        "cli_readback",
+        "installed_readme"
+      ],
+      "deductionOrMissingEvidence": "The packet explicitly denies approval/resend execution and marks evidence pending; CLI conflicts do not print success. Documentation also explains nonvalidating no-op exits and partial installs, which users must understand when interpreting success.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "L4",
+      "field": "alignmentScore",
+      "name": "permissions and review authority",
+      "observedScore": 4,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "cli_native",
+        "cli_readback",
+        "desktop"
+      ],
+      "deductionOrMissingEvidence": "Observed exclusive creation and conflict refusal preserve the maintainer’s existing instructions; the static packet cannot grant approval. This proves bounded local authority behavior, not arbitrary symlink containment, an approval service or cross-user permission enforcement.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    },
+    {
+      "id": "L5",
+      "field": "alignmentScore",
+      "name": "source/trace/artifact consistency",
+      "observedScore": 5,
+      "finalScore": null,
+      "status": "PARTIALLY_OBSERVED",
+      "evidenceRefs": [
+        "source_freeze",
+        "source_equivalence",
+        "html_guard",
+        "cli_readback",
+        "package_receipt"
+      ],
+      "deductionOrMissingEvidence": "Exact final source/package/installed/output hashes bind actual rendered content; the one npm hashbang transform, historical CLI HTML and final H1 delta are explicit. All 218 historical CLI artifacts were independently reopened unchanged. No material inconsistency remains in this local evidence chain; no registry/deployed identity is implied.",
+      "scope": "AGENT_EVALUATED_ONLY: final source-bound generated HTML and explicitly identified historical equivalent CLI behavior. Partial integer describes only the exercised sub-scope; required missing platform/state/human evidence keeps final criterion and dimension null."
+    }
+  ],
+  "visualScore": null,
+  "designScore": null,
+  "responsiveScore": null,
+  "interactionScore": null,
+  "accessibilityScore": null,
+  "performanceScore": null,
+  "usageScore": null,
+  "alignmentScore": null,
+  "barScores": null,
+  "overallScore": null,
+  "overallGrade": null,
+  "workingTarget": {
+    "dimensionMinimum": 4.5,
+    "everyApplicableCriterionMinimum": 4,
+    "allHardGatesPassing": true,
+    "changedByThisAssessment": false
+  },
+  "confidence": "High for bounded source/artifact/pixel claims; limited for broader real-user, platform, email and performance applicability.",
+  "developerHandoffStatus": "CURRENT_NORMAL_PACKAGE_AND_GENERATION_OBSERVED; PRIOR_CLI_BOUNDARY_PROOF_RETAINED; NEW_PUBLICATION_AND_SHARED_CI_SEPARATE",
+  "userExperienceStatus": "PARTIALLY_OBSERVED_READABILITY_REPAIR; EIGHT_SCOPED_CRITERIA_NOW4; FULL_USER_READINESS_UNRESOLVED",
+  "freshHumanUsabilityStatus": "NOT_RUN",
+  "sharedIntegrationStatus": "HISTORICAL42e57_WINDOWS_UBUNTU_PASS; CURRENT_SIX_OWNER_WORKING_SUCCESSOR_NOT_RUN",
+  "productionStatus": "NOT_RUN",
+  "hardGates": [
+    {
+      "gate": "Selected reading order and labelled fields plus unchanged inert controls",
+      "status": "PASS_SCOPED",
+      "evidenceRefs": [
+        "readability_final_judge"
+      ]
+    },
+    {
+      "gate": "Current source/package/output evidence identity",
+      "status": "PASS_SCOPED",
+      "evidenceRefs": [
+        "readability_source_package_equivalence",
+        "readability_closing_guard"
+      ]
+    },
+    {
+      "gate": "Historical local CLI conflict/duplicate/path boundary",
+      "status": "HISTORICAL_PASS_SCOPED; NO_CLI_OWNER_CHANGE",
+      "evidenceRefs": [
+        "cli_judge",
+        "cli_readback"
+      ]
+    },
+    {
+      "gate": "Eight selected prior3 criteria meet observed4 within repaired scope",
+      "status": "PASS_PARTIAL_OBSERVATION_ONLY",
+      "criterionIds": [
+        "V1",
+        "V4",
+        "V5",
+        "D2",
+        "D3",
+        "D4",
+        "R3",
+        "U4"
+      ]
+    },
+    {
+      "gate": "Full current criterion completeness and4.5 dimensions/human/device/performance/shared integration",
+      "status": "UNRESOLVED;15_NOT_RUN_AND36_HISTORICALLY_RETAINED_ROWS"
+    }
+  ],
+  "requiredFixes": [
+    {
+      "id": "BETTERPR-REMAINING-READINESS-EVIDENCE",
+      "status": "NOT_RUN_OR_SEPARATE_FOLLOWUP",
+      "finding": "The eight measured template reading defects are closed in this scope. Missing human/device/native zoom/performance/lifecycle and current shared integration evidence still prevents full readiness. Preserve each original NOT_RUN row rather than assign an assumed score.",
+      "nextSlice": "Complete only the separately approved publication/current shared-CI work next. Choose any further product validation from actual intended consumer use; do not infer an email or review backend requirement from this scaffold test."
+    }
+  ],
+  "limitations": [
+    "This approves the selected one-template readability repair and five truthful documentation successors, not whole-repository or email-client readiness.",
+    "Six exact normal/long states:320x800 normal,390x844 computed doubled fonts,1440x960 normal. No new seven-viewport matrix, native zoom, physical device, screen reader, human study, performance measurement or sustained service test.",
+    "The long title and exact identifier remain verbose by design. Reading order and full-width fields remove the observed repeated friction; they do not turn placeholder proof into completed evidence.",
+    "The desktop layout is taller. The long1440 document is967px high in a960px viewport, so seven pixels of ordinary vertical scrolling remain; no horizontal overflow or hidden content was observed.",
+    "All four review labels remain unconfigured text. No approval, email, provider, recording, video creation or actual Gmail rendering occurred.",
+    "Existing CLI53-check evidence and broader historical browser runs retain their own earlier input bindings. Fresh normal30 tests,19-member package and two installed generations are current; they do not rerun the full historical CLI boundary matrix.",
+    "Shared CI success applies to committed42e57 only; the six-owner working successor needs its own later immutable shared result. No deployment claim.",
+    "Root/worker may update handoff and publication metadata after this closed source guard. Such bytes require a separate publication review; they cannot be covered retrospectively by this receipt.",
+    "Other36 criterion rows are identical historical records with their original evidence references. They are not made current by inclusion in this successor. No dimension mean or overall score was calculated."
+  ],
+  "evidenceRefs": {
+    "standard": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\REPO_READINESS_STANDARD.md",
+      "sha256": "8b5bb532bf0dfeed7cc4ecd2b425d708fc49048cc05ab4cbeb315fc3534aeff2",
+      "bytes": 18664
+    },
+    "schema_example": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6k_NODERL_CRITERION_ASSESSMENT.json",
+      "sha256": "15db1df16632691f292e892c896256f51ff6ba8238a1b1b4f55c2c33e570addc",
+      "bytes": 45970
+    },
+    "source_freeze": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\source-before.json",
+      "sha256": "bf54a97b1f6c31a1cdca0a5a2395aeff6faf7691b042a72d8e5df0fdd63c3f48",
+      "bytes": 12964
+    },
+    "source_equivalence": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-inputs-01\\source-package-input-equivalence.json",
+      "sha256": "6f6a89e87527ebcab4d3a99a723eb037fa14849ee464af3de99793f642fb520a",
+      "bytes": 1847
+    },
+    "html_judge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HTML_FINAL_JUDGE.json",
+      "sha256": "7ca049dae070bcba9c901c2fa1c8dcda4501a304ee316e0e952714596f77a8b2",
+      "bytes": 8093
+    },
+    "html_guard": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-judge-01\\closing-guard.json",
+      "sha256": "2aed32937643e2771741d80e7b018d608a9a785a9093404392d6e6f4cc4a7e93",
+      "bytes": 49469
+    },
+    "intermediate_judge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HTML_AFTER_INTERMEDIATE_JUDGE.json",
+      "sha256": "840da1239da9f67c406e09622280ffe24e48d289813c65c08bb6dd6e85e09935",
+      "bytes": 6043
+    },
+    "baseline_judge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_RENDERED_BASELINE_JUDGE.json",
+      "sha256": "09250d063cc5f872e582916503952a84ba9af7b6abc432d25376b75992e5d902",
+      "bytes": 9334
+    },
+    "heading_boundary": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_H1_BOUNDARY_ADDENDUM.json",
+      "sha256": "75590701e736ea07402ecb191effa50802fafa18742fccc585292d4cba2d23c9",
+      "bytes": 2122
+    },
+    "cli_judge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_FINAL_CLI_JUDGE.json",
+      "sha256": "9dc6a487a3de3d82723aeaed512a20ab984bf2a13e76135426c08c5759d35159",
+      "bytes": 7166
+    },
+    "cli_receipt": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_REPAIRED_CLI_FIRST_USE.json",
+      "sha256": "935dc76ca61f633e96b4898be3ffef22853e7a324094eb45f5b876ee222f7f62",
+      "bytes": 10259
+    },
+    "cli_native": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-final-cli-independent-03\\native-canary.json",
+      "sha256": "5f78fa1d0e9ea47f37522ef0c7c63bfd85b120cff0f0b780026f4965b1defb0f",
+      "bytes": 8936
+    },
+    "normal_test_log": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-heading-consumer-01\\normal-test.stdout",
+      "sha256": "7c8b994a85b2794c5ab377fc6bc07fc42614c5e41d181c66efc225ba54232416",
+      "bytes": 6478
+    },
+    "package_receipt": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HEADING_CONSUMER.json",
+      "sha256": "98caf91439605043e66edec9e44e7f8869f9738ed40a31593fa70394355f08e7",
+      "bytes": 5869
+    },
+    "rendered_inputs": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_HEADING_RENDERED_INPUTS.json",
+      "sha256": "d58cdf8b26cde1c4c67d3e2c49e6ba9916b260971b7971f9f1958cae88394924",
+      "bytes": 6115
+    },
+    "intermediate_browser": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-01\\browser\\report.json",
+      "sha256": "e92273f67931aa9f765a07504ddf8c9147f9f601ca3c75d4ce895b2d76a0a3ed",
+      "bytes": 207557
+    },
+    "native_pixels": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-after-01\\browser\\normal-390-unavailable-native-pointer-3.png",
+      "sha256": "86e239432c1944dc6cb0c0577596693149c80244906eb4d067245605dca7693e",
+      "bytes": 48991
+    },
+    "browser": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\report.json",
+      "sha256": "865d27f6c78833d6e745a02711e4daf848fd5d3e8646ce0e4560184ee4946249",
+      "bytes": 35622
+    },
+    "runtime": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\runtime.json",
+      "sha256": "8e7c07e65720bb29af8e7dd6f4944360b6c79fea8462c3057688463dea1da1ae",
+      "bytes": 829
+    },
+    "entry_mobile": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-320x800-normal.png",
+      "sha256": "5670b1d4cd97ef8e6bcef696d44fac549e1a62fd4746fac2a33c477ca430588d",
+      "bytes": 42082
+    },
+    "desktop": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-1440x960-normal.png",
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "bytes": 67705
+    },
+    "long_text200": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200.png",
+      "sha256": "28c8c18e7fc93041ba6e6d2dc8c0f3ed229c2d2f94da10ff7b89f48203d3e792",
+      "bytes": 54045
+    },
+    "table_text200": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-table-scrolled.png",
+      "sha256": "8440ae6dbb21fd380a08899917dfee55716c78a494ad039d52f22891c2fe928e",
+      "bytes": 46436
+    },
+    "current_dom": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-1440x960-normal.json",
+      "sha256": "8ffac3a53b5bbb4991602023b51d02a8e7f586a7fad8d463b1b77f3596bbcab0",
+      "bytes": 37117
+    },
+    "long_dom": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\long-390x844-text200.json",
+      "sha256": "bb5f0560266d8e06c08374e30a6863588de33f1bb3741d742d02a0f7c9919a45",
+      "bytes": 57894
+    },
+    "table_dom": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-html-final-01\\browser\\normal-390x844-text200-table-scrolled.json",
+      "sha256": "6339fc37121334b06b16be74f77551ea5cf7800acd2275b356e0ecf9d3fd3dcd",
+      "bytes": 50814
+    },
+    "installed_readme": {
+      "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\README.md",
+      "sha256": "2eeef2e3034d99da331e33f67cd4713ecd4b3cfd84f5864bd3f2d6e12b817d41",
+      "bytes": 15855
+    },
+    "installed_cli": {
+      "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\bin\\init.mjs",
+      "sha256": "891291fc2636497bf176a824f91975ceac0d00b811afa86c0964e7c8a0f7d7ff",
+      "bytes": 16362
+    },
+    "installed_template": {
+      "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\templates\\gmail-magic-resend.html",
+      "sha256": "f23bff53132de5579329fae9598046e42580a023e1fa8ebd1954328c65017f0e",
+      "bytes": 3541
+    },
+    "installed_package": {
+      "path": "D:\\ProjectRecovery\\betterprhandoff-heading-first-use-20260906\\installed consumer\\node_modules\\@homenshum\\easier-to-read-submissions\\package.json",
+      "sha256": "989e0fa54f2ea2f780c2c4a4170135f5f9195c797ddcf8edc27a086bf864b26b",
+      "bytes": 1374
+    },
+    "cli_commands": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\commands.json",
+      "sha256": "b7d0b97990506e8c13a7b0a771e2cfa586f42bef5c5d5d0b345a9e3ace5da4b3",
+      "bytes": 55759
+    },
+    "cli_generated": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\generated-artifacts.json",
+      "sha256": "9e6ae24f6966300e1a3f5416c34bb4b08604ecb0bd8a38142c8d2cfe807c883f",
+      "bytes": 62939
+    },
+    "cli_help": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\noargs-help.stdout",
+      "sha256": "7148a7fd37682b0d9f68694be34d4cf9c9723b0318e116932eee533ef7ec1ebc",
+      "bytes": 1162
+    },
+    "cli_install_conflict": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\install-project-repeat.stderr",
+      "sha256": "84abc1eb7453c15504c6ce4de6ec8253c5fec85e365705ccd85b28753704bdf1",
+      "bytes": 246
+    },
+    "cli_duplicate": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-repaired-cli-journeys-01\\qa-repeat.stderr",
+      "sha256": "24c8b2f527916b8077dd01f10a8336392290e2c4cdc541a60d1344ac0e3edd3b",
+      "bytes": 174
+    },
+    "cli_readback": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-criterion-assessment-01\\cli-raw-readback.json",
+      "sha256": "9d54f0d1559754bd9e14427d1c1a8c9ae99d6c0e29f35df31be02c62e2c5b103",
+      "bytes": 69368
+    },
+    "visual_observations": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-criterion-assessment-01\\measured-visual-observations.json",
+      "sha256": "af0dd94c77ff61efa4a12b48d6f14930a9689234804b2358edd830f9a275056c",
+      "bytes": 7960
+    },
+    "readability_approved_plan": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_PLAN.json",
+      "bytes": 12135,
+      "sha256": "280cf82456efe500dd498600b0b2f972e45ad8c618b1464fa72c56e21a04b592"
+    },
+    "readability_approved_after_preflight": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_AFTER_PREFLIGHT.json",
+      "bytes": 1678,
+      "sha256": "cee0f47a699ee493a62e40a17c22a3cb6a7f89726956f466f2fb243779d7c2c0"
+    },
+    "readability_source_freeze": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\receipt.json",
+      "bytes": 2878,
+      "sha256": "e5092b0b5ad3d7f63f3002ca895c88ac80e94117635f0858be0e2c6910626ed4"
+    },
+    "readability_source69": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-docs-proposal-02\\current-source69.json",
+      "bytes": 10041,
+      "sha256": "e6162218f2d2b2b41c11412b6f64b67278c76a7dc2478592041e689185b0d53c"
+    },
+    "readability_producer": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_CONSUMER.json",
+      "bytes": 11265,
+      "sha256": "6b1dac9bcf8d02f47dee3bf406049cfc2a32bd8d98671b2e25de630ce4ac9ffe"
+    },
+    "readability_producer_source633": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\source-before.json",
+      "bytes": 147718,
+      "sha256": "61424aed2b21a70eda1d4d7fdc610bb64fb149ddf1a81d899c0865b0a965aa27"
+    },
+    "readability_producer_commands": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-consumer-01\\commands.json",
+      "bytes": 5580,
+      "sha256": "7544fe031a0fb6b1780a8f1f2e1ac08a7aa6b6d66374878834eed13990785ca3"
+    },
+    "readability_source_package_equivalence": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-inputs-01\\source-package-input-equivalence.json",
+      "bytes": 21381,
+      "sha256": "a1a702d30e8a31a8c3d0858a0c98a72182cdaf8a93fc9bf5ce525728060576f9"
+    },
+    "readability_before_receipt": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_BEFORE_RECEIPT.json",
+      "bytes": 18656,
+      "sha256": "3393ba2c7b4ef72e45afe16a7c9426227aca82159a08d7942fe28d975812fe81"
+    },
+    "readability_after_report": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\report.json",
+      "bytes": 357849,
+      "sha256": "bb74306e682002b1e5e96dbb6cc755ef1370ac790c29968202a884ef026ee084"
+    },
+    "readability_after_controller": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\controller-report.json",
+      "bytes": 1205,
+      "sha256": "e5178202b4635ba3506ab00cc675da87d43d1d9c27462985dfc54d2c97b236a6"
+    },
+    "readability_after_manifest": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\manifest.json",
+      "bytes": 31110,
+      "sha256": "44b4f94856f09d098fda3ebb5ca925522ed678695eef7c7791735ae3ff1677ac"
+    },
+    "readability_closing_guard": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\closing-guard.json",
+      "bytes": 104647,
+      "sha256": "97e48a4aff272aa4e57a1fbf7d8c9f93894eaf192a08ec007f0f3c9b9ebd2d2a"
+    },
+    "readability_measured_comparison": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\matched-measurements.json",
+      "bytes": 62657,
+      "sha256": "7e03fc71a3e2c8ede48bd7e153e25746484652a407ceb90522e1a835518580c6"
+    },
+    "readability_viewed_pixels": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\viewed-pixels.json",
+      "bytes": 8409,
+      "sha256": "04567616b206272e32fa99f4c619e03db65bee68c1fb5d066f3536ccbf4db443"
+    },
+    "readability_actual_diff": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\actual-six-owner.diff.txt",
+      "bytes": 13210,
+      "sha256": "1a0412a11dd4b742cf32202b2aed4eefd5e05ed1236412e7d107465a9c82dfff"
+    },
+    "readability_long_phone_top": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-top.png",
+      "bytes": 59578,
+      "sha256": "1ce1d090a15337acaafcca20beb186619bb040e1891f076f5abf764ca28ba958"
+    },
+    "readability_normal_phone_fields": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-390x844-text200-snippet.png",
+      "bytes": 51006,
+      "sha256": "1cc5171f7392b95fbfd58bca9704b9d7fc3407aeb62797e76d617618007b1982"
+    },
+    "readability_long_phone_fields": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-snippet.png",
+      "bytes": 55440,
+      "sha256": "e32a7d9edd6b838b8c28faeebfb84bcbc872d804882add6d4f2baa26c828a67f"
+    },
+    "readability_long_320_top": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-320x800-normal-top.png",
+      "bytes": 38137,
+      "sha256": "902b7f1a173461ea0b4068e2ec29f680ded19e8208b345044f9aad36920afc22"
+    },
+    "readability_desktop_long": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-1440x960-normal-top.png",
+      "bytes": 72695,
+      "sha256": "028d8fc4de17661889ae532fce0144d6ead9055367e1cc38271ae9450abcacf1"
+    },
+    "readability_desktop_normal": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\normal-1440x960-normal-top.png",
+      "bytes": 66639,
+      "sha256": "57065eca62bd8cfc9d7aeb2eba63f57c4b781a5f1ee3dd8bb553ecfb29a0ff05"
+    },
+    "readability_native_phone_actions": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\native-long-390x844-text200-last-action.png",
+      "bytes": 67526,
+      "sha256": "ef6b08b58cb9c064e38e08c337d2cd3118d68b09ffda0ad9a6b3a13f393b94e4"
+    },
+    "readability_full_phone_identifier": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-after-01\\browser\\long-390x844-text200-footer.png",
+      "bytes": 55573,
+      "sha256": "037b1f26423f0fefc84918719b89d487112d0d4016fadc719bbc7a95fcbd5a70"
+    },
+    "readability_old_assessment": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.json",
+      "bytes": 57645,
+      "sha256": "b82f3aa5cce17e5c2bc9a92dc73b698a44c47fecaa2fe22d1f13700d8aea4084"
+    },
+    "readability_historical_shared_ci": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_SHARED_JUDGE.json",
+      "bytes": 13182,
+      "sha256": "7bbeed9b86f8b1a59c19c6d0194be1439f290d82e1ba08f42beb80c5709d63d7"
+    },
+    "readability_final_judge": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_READABILITY_FINAL_JUDGE.json",
+      "bytes": 17406,
+      "sha256": "3187479ef81abeab9b97dc08c526c8dd77350c8a76d7c008f8b3e1ae7b0e0f26"
+    }
+  },
+  "assessmentRevisionScope": {
+    "status": "DISTINCT_FROZEN_EIGHT_CRITERION_SUCCESSOR",
+    "actualTemplateSha256": "92dbb0deb2b3f8055f6def51bf231fd9f082dffaeb558c2290ddc738701f13ba",
+    "sourceFiles": 69,
+    "baseCommit": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+    "oldAssessment": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m_BETTERPRHANDOFF_CRITERION_ASSESSMENT.json",
+      "bytes": 57645,
+      "sha256": "b82f3aa5cce17e5c2bc9a92dc73b698a44c47fecaa2fe22d1f13700d8aea4084"
+    },
+    "changedCriterionIds": [
+      "V1",
+      "V4",
+      "V5",
+      "D2",
+      "D3",
+      "D4",
+      "R3",
+      "U4"
+    ],
+    "unchangedHistoricalRows": 36,
+    "guardAlreadyClosed": {
+      "path": "C:\\Users\\hshum\\.codex\\worktrees\\5dba\\nodebench-ai\\docs\\plans\\portfolio-recovery-20260904\\E6m-betterpr-readability-final-judge-02\\closing-guard.json",
+      "bytes": 104647,
+      "sha256": "97e48a4aff272aa4e57a1fbf7d8c9f93894eaf192a08ec007f0f3c9b9ebd2d2a"
+    },
+    "concurrentWorkExcluded": "Any later handoff/publication/CI change is separate; this assessment uses frozen source and rendered proof only."
+  },
+  "resolvedHistoricalFixes": [
+    {
+      "id": "BETTERPR-LONG-PACKET-DENSITY",
+      "status": "RESOLVED_IN_SELECTED_READABILITY_SCOPE",
+      "criterionIds": [
+        "V4",
+        "D2",
+        "D3",
+        "D4"
+      ],
+      "evidenceRefs": [
+        "readability_final_judge"
+      ]
+    },
+    {
+      "id": "BETTERPR-NARROW-TABLE-READABILITY",
+      "status": "RESOLVED_IN_SELECTED_READABILITY_SCOPE",
+      "criterionIds": [
+        "V1",
+        "V5",
+        "R3",
+        "U4"
+      ],
+      "evidenceRefs": [
+        "readability_final_judge"
+      ]
+    }
+  ]
+}

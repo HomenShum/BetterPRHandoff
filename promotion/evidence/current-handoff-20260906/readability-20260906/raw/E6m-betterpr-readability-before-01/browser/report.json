@@ -1,0 +1,351 @@
+{
+  "status": "CAPTURE_COMPLETE_BASELINE_LIMITS_RETAINED",
+  "fatal": null,
+  "errors": [],
+  "events": [],
+  "requests": [
+    {
+      "cell": "normal-320x800-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-320x800-normal",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-390x844-text200",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-390x844-text200",
+      "method": "GET",
+      "url": "/long"
+    },
+    {
+      "cell": "normal-1440x960-normal",
+      "method": "GET",
+      "url": "/normal"
+    },
+    {
+      "cell": "long-1440x960-normal",
+      "method": "GET",
+      "url": "/long"
+    }
+  ],
+  "cells": [
+    {
+      "which": "normal",
+      "width": 320,
+      "height": 800,
+      "doubled": false,
+      "id": "normal-320x800-normal"
+    },
+    {
+      "which": "long",
+      "width": 320,
+      "height": 800,
+      "doubled": false,
+      "id": "long-320x800-normal"
+    },
+    {
+      "which": "normal",
+      "width": 390,
+      "height": 844,
+      "doubled": true,
+      "id": "normal-390x844-text200"
+    },
+    {
+      "which": "long",
+      "width": 390,
+      "height": 844,
+      "doubled": true,
+      "id": "long-390x844-text200"
+    },
+    {
+      "which": "normal",
+      "width": 1440,
+      "height": 960,
+      "doubled": false,
+      "id": "normal-1440x960-normal"
+    },
+    {
+      "which": "long",
+      "width": 1440,
+      "height": 960,
+      "doubled": false,
+      "id": "long-1440x960-normal"
+    }
+  ],
+  "views": [
+    {
+      "id": "normal-320x800-normal-top",
+      "target": "top",
+      "before": "normal-320x800-normal-top-before.png",
+      "boundary": "normal-320x800-normal-top-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "normal-320x800-normal-snippet",
+      "target": "snippet",
+      "before": "normal-320x800-normal-snippet-before.png",
+      "boundary": "normal-320x800-normal-snippet-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "long-320x800-normal-top",
+      "target": "top",
+      "before": "long-320x800-normal-top-before.png",
+      "boundary": "long-320x800-normal-top-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "long-320x800-normal-snippet",
+      "target": "snippet",
+      "before": "long-320x800-normal-snippet-before.png",
+      "boundary": "long-320x800-normal-snippet-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "normal-390x844-text200-top",
+      "target": "top",
+      "before": "normal-390x844-text200-top-before.png",
+      "boundary": "normal-390x844-text200-top-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "normal-390x844-text200-snippet",
+      "target": "snippet",
+      "before": "normal-390x844-text200-snippet-before.png",
+      "boundary": "normal-390x844-text200-snippet-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "long-390x844-text200-top",
+      "target": "top",
+      "before": "long-390x844-text200-top-before.png",
+      "boundary": "long-390x844-text200-top-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "long-390x844-text200-snippet",
+      "target": "snippet",
+      "before": "long-390x844-text200-snippet-before.png",
+      "boundary": "long-390x844-text200-snippet-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "normal-1440x960-normal-top",
+      "target": "top",
+      "before": "normal-1440x960-normal-top-before.png",
+      "boundary": "normal-1440x960-normal-top-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "normal-1440x960-normal-snippet",
+      "target": "snippet",
+      "before": "normal-1440x960-normal-snippet-before.png",
+      "boundary": "normal-1440x960-normal-snippet-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "long-1440x960-normal-top",
+      "target": "top",
+      "before": "long-1440x960-normal-top-before.png",
+      "boundary": "long-1440x960-normal-top-change-boundary.png",
+      "restored": true
+    },
+    {
+      "id": "long-1440x960-normal-snippet",
+      "target": "snippet",
+      "before": "long-1440x960-normal-snippet-before.png",
+      "boundary": "long-1440x960-normal-snippet-change-boundary.png",
+      "restored": true
+    }
+  ],
+  "captures": [
+    {
+      "path": "normal-320x800-normal-top-before.png",
+      "bytes": 42082,
+      "sha256": "5670b1d4cd97ef8e6bcef696d44fac549e1a62fd4746fac2a33c477ca430588d",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "normal-320x800-normal-top-change-boundary.png",
+      "bytes": 44333,
+      "sha256": "a579f30bd2e503c98831e85ae83373df826a315e29b3fb9bb08b27ec8c272253",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "normal-320x800-normal-snippet-before.png",
+      "bytes": 36797,
+      "sha256": "b4a621cd0e3543f0587306a07fd9b22a3121ad3e0de851771c53087f40a1cca1",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "normal-320x800-normal-snippet-change-boundary.png",
+      "bytes": 37608,
+      "sha256": "bee093f7c2dcce36580359a5172ef9d1e3d0aeb643ee6becd843f614cdc53b35",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "long-320x800-normal-top-before.png",
+      "bytes": 48243,
+      "sha256": "1b7bddb2918e5d81b2d2cb13f950d07e6244d1b2885d36907a8fcb2b7a5759e9",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "long-320x800-normal-top-change-boundary.png",
+      "bytes": 50234,
+      "sha256": "e9f786199cb5083bc970257d07badcda2606164d805824e045bd906132128f9f",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "long-320x800-normal-snippet-before.png",
+      "bytes": 36797,
+      "sha256": "b4a621cd0e3543f0587306a07fd9b22a3121ad3e0de851771c53087f40a1cca1",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "long-320x800-normal-snippet-change-boundary.png",
+      "bytes": 37608,
+      "sha256": "bee093f7c2dcce36580359a5172ef9d1e3d0aeb643ee6becd843f614cdc53b35",
+      "width": 320,
+      "height": 800
+    },
+    {
+      "path": "normal-390x844-text200-top-before.png",
+      "bytes": 53540,
+      "sha256": "31f3c2626cea22a17271ef3e6f0773d350af5e389e2988b2802d446a41e8fef1",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "normal-390x844-text200-top-change-boundary.png",
+      "bytes": 55723,
+      "sha256": "fd830f18a534ed7d7fec2d9b00f78e64c170c04185203228a180d02e8d35f728",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "normal-390x844-text200-snippet-before.png",
+      "bytes": 46436,
+      "sha256": "8440ae6dbb21fd380a08899917dfee55716c78a494ad039d52f22891c2fe928e",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "normal-390x844-text200-snippet-change-boundary.png",
+      "bytes": 47188,
+      "sha256": "5e9e5dbc9a47221ec432e14068eb2a5d623e55c82e95498ca0246c0c7adabf04",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "long-390x844-text200-top-before.png",
+      "bytes": 54045,
+      "sha256": "28c8c18e7fc93041ba6e6d2dc8c0f3ed229c2d2f94da10ff7b89f48203d3e792",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "long-390x844-text200-top-change-boundary.png",
+      "bytes": 55872,
+      "sha256": "557de803205810225230c0fdeb547d723524c1ae9590ccf1585fa52e00bbe7d8",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "long-390x844-text200-snippet-before.png",
+      "bytes": 46436,
+      "sha256": "8440ae6dbb21fd380a08899917dfee55716c78a494ad039d52f22891c2fe928e",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "long-390x844-text200-snippet-change-boundary.png",
+      "bytes": 47188,
+      "sha256": "5e9e5dbc9a47221ec432e14068eb2a5d623e55c82e95498ca0246c0c7adabf04",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "path": "normal-1440x960-normal-top-before.png",
+      "bytes": 67705,
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "path": "normal-1440x960-normal-top-change-boundary.png",
+      "bytes": 69972,
+      "sha256": "6b3655272cd19cb61a8b94dc691f8f9a8a372d6c208d3840a46c6b602dd2fd79",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "path": "normal-1440x960-normal-snippet-before.png",
+      "bytes": 67705,
+      "sha256": "f845c80f66e645a966cbac5c353dc1133b6d7240d3e6cb71eb138f6922ab92b2",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "path": "normal-1440x960-normal-snippet-change-boundary.png",
+      "bytes": 70303,
+      "sha256": "09e0cc01a7ca628164cf31666a706543a78e60f2905f752fc12aebb2767c8e1d",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "path": "long-1440x960-normal-top-before.png",
+      "bytes": 89865,
+      "sha256": "9ff5730c3126351026ac050d48e7c87e725bef7bd36acc08198391630f09a3fd",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "path": "long-1440x960-normal-top-change-boundary.png",
+      "bytes": 92441,
+      "sha256": "0a7e3c142f235dc8b1cd086c4b218d5ddb8f96a71f0a9c0015db481b94e84c37",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "path": "long-1440x960-normal-snippet-before.png",
+      "bytes": 89865,
+      "sha256": "9ff5730c3126351026ac050d48e7c87e725bef7bd36acc08198391630f09a3fd",
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "path": "long-1440x960-normal-snippet-change-boundary.png",
+      "bytes": 92471,
+      "sha256": "04e7900232b4fac5ced61b134b476c335b0118019c43bd2e9653afbcf6251cd5",
+      "width": 1440,
+      "height": 960
+    }
+  ],
+  "closure": {
+    "context": true,
+    "browser": true,
+    "server": true
+  },
+  "source": "42e57a96f9ae961f501729ec6ace5c3d8dbe3aee",
+  "tree": "2724c85cc595fbd05e50c16b5ba6caf9b2d5c394",
+  "fullGrades": null,
+  "limitations": [
+    "Before observation only; no proposed template is loaded.",
+    "No native interaction replay or after-readability acceptance.",
+    "No full-page image, real Gmail/device/native zoom/performance or provider claim."
+  ]
+}
