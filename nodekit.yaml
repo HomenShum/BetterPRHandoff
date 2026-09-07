@@ -1,0 +1,31 @@
+# This contract describes local file scaffolding; see HANDOFF.md for proof limits.
+schemaVersion: nodekit.repo/v1
+repository: HomenShum/BetterPRHandoff
+lifecycle: preview
+support: active
+role: handoff-protocol
+commandProfile: protocol
+canonicalFor:
+  - betterprhandoff.handoff
+# The CLI does not load NodePlatform contracts or emit a NodeKit receipt.
+consumes: []
+commands:
+  doctor: { script: test, mode: finite }
+  check: { script: test, mode: finite }
+  proof: { script: test, mode: finite }
+noKey:
+  status: certified
+  command: npm run test
+  externalAccountsRequired: 0
+  disclosure: >-
+    Finite CLI scenario tests cover local help and file scaffolding without
+    keys or external accounts. This does not certify browser recording,
+    email delivery, review approvals, provider calls or full product readiness.
+environment:
+  contractVersion: nodeplatform.env/v1
+  status: not-applicable
+proof:
+  command: npm run test
+  receiptSchema: null
+contractDeclarations: []
+architectureExceptions: []
