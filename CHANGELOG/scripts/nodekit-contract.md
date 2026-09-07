@@ -6,7 +6,7 @@
 
 ## 2026-09-07 — Describe the existing finite CLI contract
 Declare preview lifecycle, canonical handoff ownership and finite aliases for the existing `npm run test` script, with no runtime contract consumption or receipt producer. Scope no-key certification to local CLI scaffolding and use a null receipt schema so a QA skeleton cannot be mistaken for executed proof. Keep [the developer handoff](../../HANDOFF.md), historical source bindings and package contents unchanged; this metadata does not upgrade their visual or readiness claims.
-**Commit**: `pending`. **Author**: pending.
+**Commit**: `23c4e01`. **Author**: homen.
 **Touches**: none; only this contract lane.
 
 The contract is checkout metadata outside the existing npm package allowlist.
