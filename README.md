@@ -153,7 +153,7 @@ or evidence that this package runs a recorder.
 git clone https://github.com/HomenShum/BetterPRHandoff ~/.claude/skills/easier-to-read-submissions
 ```
 
-The skill auto-loads on next Claude Code session. Triggers on prompts like "commit", "push this", "open a PR", "I'm done", "wrap this up", "before we hand off."
+After installation, verify that your Claude Code setup discovers and loads the skill in a fresh session. Use it for prompts like "commit", "push this", "open a PR", "I'm done", "wrap this up", "before we hand off."
 
 ### As a project-shipped skill (whole team gets it)
 
@@ -161,7 +161,7 @@ The skill auto-loads on next Claude Code session. Triggers on prompts like "comm
 git clone https://github.com/HomenShum/BetterPRHandoff <your-repo>/.claude/skills/easier-to-read-submissions
 ```
 
-Commit `.claude/skills/easier-to-read-submissions/` to the repo. Anyone who clones the repo and opens it in Claude Code gets the skill automatically.
+Commit `.claude/skills/easier-to-read-submissions/` to the repo, then verify discovery and instruction loading in each team member's Claude Code setup.
 
 ### Manual fallback (no Claude Code)
 
