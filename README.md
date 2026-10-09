@@ -11,6 +11,8 @@
 <p align="center"><a href="docs/START_HERE.md">Code&nbsp;walkthrough</a> · <a href="HANDOFF.md">Handoff</a> · <a href="https://homenshum.github.io/">All&nbsp;projects</a></p>
 <!-- brand:end -->
 
+# BetterPRHandoff
+
 BetterPRHandoff is the public repo for the `@homenshum/easier-to-read-submissions`
 protocol and CLI. The npm package name stays stable for existing installs.
 
